@@ -14,7 +14,7 @@ tags:
 - forecasting
 - gams
 - nonparametric smoothing
-citationn: "<em>IEEE Transactions on Power Systems</em> <b>25</b>(2), 1142-1153"
+details: "<em>IEEE Transactions on Power Systems</em> <b>25</b>(2), 1142-1153"
 doi: 10.1109/TPWRS.2009.2036017
 ---
 
@@ -28,4 +28,3 @@ We describe a comprehensive forecasting solution in this paper. First, we use se
 The proposed methodology has been used to forecast the probability distribution of annual and weekly peak electricity demand for South Australia since 2007. We evaluate the performance of the methodology by comparing the forecast results with the actual demand of the summer 2007/08.
 
 **Keywords:** Long-term demand forecasting, density forecast, time series, simulation.
-

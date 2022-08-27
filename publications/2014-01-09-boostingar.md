@@ -8,7 +8,7 @@ tags:
 - boosting
 - forecasting
 - time series
-citationn: Proceedings of the International Conference on Machine Learning (ICML), Beijing, China
+details: Proceedings of the International Conference on Machine Learning (ICML), Beijing, China
 link: https://proceedings.mlr.press/v32/taieb14.html
 ---
 

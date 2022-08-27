@@ -12,7 +12,7 @@ tags:
 - optimization
 - time series
 link: https://www.monash.edu/business/ebs/research/publications/ebs/wp18-2019.pdf
-citationn: "<em>International J Forecasting</em>, <b>37</b>(1), 343-359"
+details: "<em>International J Forecasting</em>, <b>37</b>(1), 343-359"
 doi: 10.1016/j.ijforecast.2020.06.004
 ---
 

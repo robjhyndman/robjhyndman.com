@@ -12,7 +12,7 @@ tags:
 - atmospheric science
 - demography
 - epidemiology
-citationn: <em>Environmental Health</em> <b>15</b>:107
+details: <em>Environmental Health</em> <b>15</b>:107
 doi: 10.1186/s12940-016-0193-1
 ---
 
@@ -29,5 +29,3 @@ Our method presents a promising tool for improving understanding of complex temp
 
 **Keywords**
 Climate, Health, Heat events, Heat wave, Temperature-mortality, Weather
-
-

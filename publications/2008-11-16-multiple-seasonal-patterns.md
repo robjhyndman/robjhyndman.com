@@ -12,7 +12,7 @@ tags:
 - forecasting
 - state space models
 - time series
-citationn: "<em>European Journal of Operational Research</em> <b>191</b>(1), 207–220"
+details: "<em>European Journal of Operational Research</em> <b>191</b>(1), 207–220"
 doi: 10.1016/j.ejor.2007.08.024
 ---
 
@@ -35,4 +35,3 @@ For dated data, the day-of-week dummies can be generated via the "weekday()" and
 The smoothing parameter estimates should be estimated using Solver in Excel. Solver can often converge to a local maximum, so users should try a range of seed values to ensure a global maximum is found.
 
 **Ox Code:** Comments are included within the Ox file. Correct Ox packages must be installed (gnudraw).
-

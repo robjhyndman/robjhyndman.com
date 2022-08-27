@@ -9,7 +9,7 @@ wordpress_id: 508
 kind: article
 tags:
 - atmospheric science
-citationn: <em>Environmetrics</em> <b>19</b>(8), 818-835
+details: <em>Environmetrics</em> <b>19</b>(8), 818-835
 doi: 10.1002/env.905
 ---
 

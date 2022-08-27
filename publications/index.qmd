@@ -5,7 +5,7 @@ listing:
   sort: "date desc"
   categories: false
   sort-ui: [date, title]
-  filter-ui: [date, title, author, citationn]
+  filter-ui: [date, title, author, details]
   date-format: "YYYY"
   type: table
   page-size: 20
@@ -13,11 +13,11 @@ listing:
     - date
     - author
     - title
-    - citationn
+    - details
   field-display-names: 
       date: "Year"
       author: "Authors"
-      citationn: "Publication details"
+      details: "Publication details"
 
 sidebar: false
 page-layout: full

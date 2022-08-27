@@ -8,6 +8,5 @@ kind: editorial
 tags:
 - forecasting
 doi: 10.1016/j.ijforecast.2004.11.004
-citationn: <em>International Journal of Forecasting</em> <b>21</b>(1), 1
+details: <em>International Journal of Forecasting</em> <b>21</b>(1), 1
 ---
-

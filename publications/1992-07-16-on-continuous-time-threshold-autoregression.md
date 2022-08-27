@@ -7,7 +7,7 @@ slug: on-continuous-time-threshold-autoregression
 title: On continuous-time threshold autoregression
 status: Published
 kind: article
-citationn: <em>International Journal of Forecasting</em>, <b>18</b>(3), 439-454
+details: <em>International Journal of Forecasting</em>, <b>18</b>(3), 439-454
 doi: 10.1016/0169-2070%2892%2990116-Q
 mathjax: true
 ---

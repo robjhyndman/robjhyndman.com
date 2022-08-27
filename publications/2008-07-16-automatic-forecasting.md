@@ -14,7 +14,7 @@ tags:
 - R
 - software
 - time series
-citationn: <em>Journal of Statistical Software</em> <b>27</b>(3)
+details: <em>Journal of Statistical Software</em> <b>27</b>(3)
 link: http://www.jstatsoft.org/v27/i03
 ---
 
@@ -30,5 +30,3 @@ Automatic forecasts of large numbers of univariate time series are often needed 
 
 		
   * The four data sets in the paper are part of the [expsmooth package for R](http://pkg.robjhyndman.com/expsmooth)
-
-

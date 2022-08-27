@@ -9,7 +9,7 @@ kind: article
 tags:
 - exponential smoothing
 - forecasting
-citationn: <em>International Journal of Forecasting</em> <b>19</b>, 287-290
+details: <em>International Journal of Forecasting</em> <b>19</b>, 287-290
 doi: 10.1016/S0169-2070%2801%2900143-1
 ---
 
@@ -18,4 +18,3 @@ The "Theta method" of forecasting performed particularly well in the M3-competit
 **Keywords:** exponential smoothing, forecasting competitions, state space models.
 
 **[R code](http://pkg.robjhyndman.com/forecast)**
-

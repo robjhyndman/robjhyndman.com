@@ -9,6 +9,5 @@ kind: bookreview
 tags:
 - econometrics
 - nonparametric smoothing
-citationn: <em>The Economic Record</em> <b>76</b>, 309–311 
+details: <em>The Economic Record</em> <b>76</b>, 309–311 
 ---
-

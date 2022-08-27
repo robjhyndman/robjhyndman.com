@@ -9,12 +9,9 @@ kind: article
 tags:
 - seasonality
 - time series
-citationn: <em>International Journal of Forecasting</em> <b>20</b>(4), 561-563
+details: <em>International Journal of Forecasting</em> <b>20</b>(4), 561-563
 doi: 10.1016/j.ijforecast.2004.03.005
 ---
 
 
 A contribution to the discussion of Miller and Williams (2004).
-
-
-

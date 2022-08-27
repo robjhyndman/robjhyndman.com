@@ -9,7 +9,7 @@ tags:
 - time series
 - data visualization
 file: p157-Hirsch.pdf
-citationn: "In: <em>Proceedings of the 2nd International Conference on Software Engineering and Information Management</em>. Bali, Indonesia. 10-13 January 2019. pp. 157-165. ACM"
+details: "In: <em>Proceedings of the 2nd International Conference on Software Engineering and Information Management</em>. Bali, Indonesia. 10-13 January 2019. pp. 157-165. ACM"
 link: https://dl.acm.org/doi/abs/10.1145/3305160.3305214
 ---
 

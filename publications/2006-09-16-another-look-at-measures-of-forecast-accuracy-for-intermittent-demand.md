@@ -10,7 +10,7 @@ tags:
 - accuracy
 - forecasting
 - time series
-citationn: "<em>Foresight: the International Journal of Applied Forecasting</em> <b>4</b>, 43-46"
+details: "<em>Foresight: the International Journal of Applied Forecasting</em> <b>4</b>, 43-46"
 file: foresight.pdf
 
 ---
@@ -22,4 +22,3 @@ Some of the proposed measures of forecast accuracy for intermittent demand can g
 **Sample calculations:** [Excel spreadsheet showing MASE calculation for the example series.](https://robjhyndman.com/files/MASE.xls)
 
 **Data:** [Data used in examples.](https://robjhyndman.com/files/HKdata.xls)
-

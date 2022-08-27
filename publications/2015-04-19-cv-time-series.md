@@ -12,7 +12,7 @@ tags:
 - neural networks
 - time series
 file: cv-wp.pdf
-citationn: <em>Computational Statistics and Data Analysis</em>, <b>120</b>, 70-83
+details: <em>Computational Statistics and Data Analysis</em>, <b>120</b>, 70-83
 mathjax: true
 doi: 10.1016/j.csda.2017.11.003
 ---

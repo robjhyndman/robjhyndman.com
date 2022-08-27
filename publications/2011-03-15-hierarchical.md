@@ -11,7 +11,7 @@ aliases:
 tags:
 - forecasting
 - hierarchical time series
-citationn: <em>Computational Statistics and Data Analysis</em> <b>55</b>(9), 2579-2589
+details: <em>Computational Statistics and Data Analysis</em> <b>55</b>(9), 2579-2589
 file: Hierarchical6.pdf
 doi: 10.1016/j.csda.2011.03.006
 ---

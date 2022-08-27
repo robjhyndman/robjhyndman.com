@@ -12,8 +12,7 @@ tags:
 - forecasting
 - graphics
 - time series
-citationn: <em>Electronic J Statistics</em> <b>9</b>, 792-796
+details: <em>Electronic J Statistics</em> <b>9</b>, 792-796
 file: MPcomments.pdf
 doi: 10.1214/14-EJS953
 ---
-

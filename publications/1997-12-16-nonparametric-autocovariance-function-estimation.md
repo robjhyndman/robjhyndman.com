@@ -5,7 +5,7 @@ comments: false
 date: 1997-12-16 02:50:35+00:00
 slug: nonparametric-autocovariance-function-estimation
 title: Nonparametric autocovariance function estimation
-citationn: "<em>Australian Journal of Statistics</em> (1997), <b>39</b>, 313-325"
+details: "<em>Australian Journal of Statistics</em> (1997), <b>39</b>, 313-325"
 kind: article
 tags:
 - nonparametric smoothing

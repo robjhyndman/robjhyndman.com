@@ -11,7 +11,7 @@ tags:
 - demography
 - functional data
 - time series
-citationn: <em>Demographic Research</em> <b>15</b>(9), 289-310
+details: <em>Demographic Research</em> <b>15</b>(9), 289-310
 link: http://www.demographic-research.org/volumes/vol15/9/
 ---
 
@@ -20,4 +20,3 @@ We compare the short- to medium- term accuracy of five variants or extensions of
 **Keywords:** Functional data, Lee-Carter method, mortality forecasting, nonparametric smoothing, principal components, state space.
 
 **[R code](http://github.com/robjhyndman/demography)**
-

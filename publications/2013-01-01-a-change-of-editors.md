@@ -8,8 +8,5 @@ wordpress_id: 2187
 kind: editorial
 tags:
 - forecasting
-citationn: <em>International Journal of Forecasting</em> <b>29</b>(1), page A1
+details: <em>International Journal of Forecasting</em> <b>29</b>(1), page A1
 ---
-
-
-

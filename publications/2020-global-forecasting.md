@@ -4,7 +4,7 @@ author: Pablo Montero-Manso, Rob&nbsp;J&nbsp;Hyndman
 date: 2021-05-10
 slug: global-forecasting
 kind: article
-citationn: "<em>International J Forecasting</em>, <b>37</b>(4), 1632-1653"
+details: "<em>International J Forecasting</em>, <b>37</b>(4), 1632-1653"
 tags:
   - data science
   - time series

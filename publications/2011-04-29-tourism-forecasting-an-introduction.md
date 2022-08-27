@@ -9,10 +9,9 @@ kind: editorial
 tags:
 - forecasting
 - tourism
-citationn: <em>International Journal of Forecasting</em>, <b>27</b>(3), 817–821
+details: <em>International Journal of Forecasting</em>, <b>27</b>(3), 817–821
 doi: 10.1016/j.ijforecast.2011.03.001
 ---
 
 
 Introduction to the special issue on Tourism Forecasting.
-

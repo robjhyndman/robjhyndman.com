@@ -5,7 +5,7 @@ comments: false
 date: 1996-07-16 02:38:57+00:00
 slug: computing-and-graphing-highest-density-regions
 title: Computing and graphing highest density regions
-citationn: "<em>American Statistician</em>, <b>50</b>, 120-126"
+details: "<em>American Statistician</em>, <b>50</b>, 120-126"
 status: Published
 kind: article
 tag:
@@ -20,4 +20,3 @@ Many statistical methods involve summarizing a probability distribution by a reg
 **Keywords:** highest density regions, graphical summary, density estimation, boxplots.
 
 **[R code](http://pkg.robjhyndman.com/hdrcde)**
-

@@ -11,7 +11,5 @@ tags:
 - graphics
 - R
 - teaching
-citationn: <em>Journal of Population Research</em> <b>22</b>(2), 206–208
+details: <em>Journal of Population Research</em> <b>22</b>(2), 206–208
 ---
-
-

@@ -4,7 +4,7 @@ author: Xiaoqian Wang, Yanfei Kang, Rob&nbsp;J&nbsp;Hyndman, Feng Li
 date: 2022-05-03
 slug: darima
 kind: article
-citationn: <i>International J Forecasting</i>, to appear
+details: <i>International J Forecasting</i>, to appear
 tags:
   - data science
   - time series

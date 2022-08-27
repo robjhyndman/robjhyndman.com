@@ -4,7 +4,7 @@ date: 2022-06-30
 slug: lomef
 title: "LoMEF: A Framework to Produce Local Explanations for Global Model Time Series Forecasts"
 kind: article
-citationn: "<em>International J Forecasting</em>, to appear"
+details: "<em>International J Forecasting</em>, to appear"
 tags:
 - time series
 arxiv: 2111.07001

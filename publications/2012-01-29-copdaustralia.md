@@ -13,7 +13,7 @@ tags:
 - epidemiology
 - functional data
 - time series
-citationn: <em>BMC Medical Research Methodology</em> <b>12</b>:17
+details: <em>BMC Medical Research Methodology</em> <b>12</b>:17
 doi: 10.1186/1471-2288-12-17
 ---
 
@@ -26,5 +26,3 @@ doi: 10.1186/1471-2288-12-17
 **Conclusions:** By using a new method to predict age-specific trends in COPD mortality over time, this study provides important insights into at-risk age groups for men and women separately, which has implications for policy and program development.
 
 **Key words:** COPD mortality, functional data analysis, tobacco consumption, forecasting
-
-

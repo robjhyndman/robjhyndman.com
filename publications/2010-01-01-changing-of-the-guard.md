@@ -8,6 +8,6 @@ wordpress_id: 998
 kind: editorial
 tags:
 - forecasting
-citationn: "<em>International Journal of Forecasting</em> <b>26</b>(1), p1"
+details: "<em>International Journal of Forecasting</em> <b>26</b>(1), p1"
 doi: 10.1016/j.ijforecast.2009.12.002
 ---

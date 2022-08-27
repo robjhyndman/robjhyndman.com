@@ -8,7 +8,7 @@ title: Mixed model-based hazard estimation
 kind: article
 tags:
 - nonparametric smoothing
-citationn: <em>J Computational & Graphical Statistics</em> <b>11</b>(4), 784-798
+details: <em>J Computational & Graphical Statistics</em> <b>11</b>(4), 784-798
 doi: 10.1198/106186002862
 ---
 
@@ -16,4 +16,3 @@ We propose a new method for estimation of the hazard function from a set of cens
 
 
 **Keywords:** non-parametric regression; Restricted maximum likelihood; Variance component; Survival analysis.
-

@@ -11,7 +11,7 @@ kind:
  article
 tags:
 - epidemiology
-citationn: <em>European Respiratory Journal</em> <b>44</b>(Suppl 58)
+details: <em>European Respiratory Journal</em> <b>44</b>(Suppl 58)
 link: http://erj.ersjournals.com/content/44/Suppl_58/2919.short
 ---
 

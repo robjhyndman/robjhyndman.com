@@ -12,7 +12,7 @@ tags:
 - demography
 - functional data
 - time series
-citationn: <em>International Journal of Forecasting</em> <b>24</b>(3), 323-342
+details: <em>International Journal of Forecasting</em> <b>24</b>(3), 323-342
 doi: 10.1016/j.ijforecast.2008.02.009
 ---
 
@@ -22,4 +22,3 @@ Age-sex-specific population forecasts are derived through stochastic population 
 **Keywords:** Fertility forecasting, functional data, mortality forecasting, net migration, nonparametric smoothing, population forecasting, principal components, simulation.
 
 **[R code](http://github.com/robjhyndman/demography)**
-

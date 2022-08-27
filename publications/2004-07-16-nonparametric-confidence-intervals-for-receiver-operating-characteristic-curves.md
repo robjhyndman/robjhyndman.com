@@ -8,7 +8,7 @@ title: Nonparametric confidence intervals for receiver operating characteristic 
 kind: article
 tags:
 - nonparametric smoothing
-citationn: <em>Biometrika</em> <b>91</b>(3), 743-750
+details: <em>Biometrika</em> <b>91</b>(3), 743-750
 doi: 10.1093/biomet/91.3.743
 ---
 

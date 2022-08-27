@@ -4,7 +4,7 @@ author: Sayani Gupta, Rob&nbsp;J&nbsp;Hyndman, Dianne&nbsp;Cook and Antony&nbsp;
 date: 2022-03-01
 slug: gravitas
 kind: article
-citationn: <em>J Computational & Graphical Statistics</em>, <b>31</b>(1), 14-25
+details: <em>J Computational & Graphical Statistics</em>, <b>31</b>(1), 14-25
 tags:
   - data science
   - time series
@@ -19,4 +19,3 @@ Deconstructing a time index into time granularities can assist in exploration an
 The methods implemented in the open source R package [`gravitas`](https://sayani07.github.io/gravitas/) are consistent with a tidy workflow, with probability distributions examined using the range of graphics available in [`ggplot2`](https://ggplot2.tidyverse.org).
 
 [**R package: `gravitas`**](https://sayani07.github.io/gravitas/)
-

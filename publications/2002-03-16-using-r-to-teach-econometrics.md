@@ -11,7 +11,7 @@ tags:
 - R
 - software
 - teaching
-citationn: <em>Journal of Applied Econometrics</em> <b>17</b>(2), 149-174
+details: <em>Journal of Applied Econometrics</em> <b>17</b>(2), 149-174
 doi: 10.1002/jae.657
 ---
 
@@ -21,4 +21,3 @@ R, an open-source programming environment for data analysis and graphics, has in
 **Keywords:** exponential smoothing, forecasting competitions, state space models.
 
 **Examples:** All code and output files used in this review can be obtained from the [JAE Data Archive](http://qed.econ.queensu.ca/jae/2002-v17.2/racine-hyndman/).
-

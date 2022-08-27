@@ -4,7 +4,7 @@ Status: Published
 comments: false
 date: 2020-02-01
 slug: hospital-los
-citationn: "<em>Australian and New Zealand Journal of Public Health</em>, <b>44</b>(1), 73-82"
+details: "<em>Australian and New Zealand Journal of Public Health</em>, <b>44</b>(1), 73-82"
 title: Hospital characteristics, rather than surgical volume, predict length of stay following colorectal cancer surgery
 kind: article
 tags:
@@ -32,4 +32,3 @@ No evidence was found that higher annual surgery volume was associated with lowe
 ### Implications for Public Health
 
 Our model indicated improved efficiency would benefit the patient and medical system by lowering LOS and reducing expenditure by over $3 million per year.
-

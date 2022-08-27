@@ -8,7 +8,7 @@ title: Non-Gaussian conditional linear AR(1) models
 kind: article
 tags:
 - time series
-citationn: <em>Australian and New Zealand Journal of Statistics</em> <b>42</b>(4), 479-495
+details: <em>Australian and New Zealand Journal of Statistics</em> <b>42</b>(4), 479-495
 doi: 10.1111/1467-842X.00143
 ---
 
@@ -18,4 +18,3 @@ We give a general formulation of a non-Gaussian conditional linear AR(1) model s
 **Keywords:** autoregression, data analysis, non-Gaussian time series, Poisson time series, Gamma time series, Exponential time series.
 
 **Data:** [Japanese MCLS data](https://robjhyndman.com/tsdldata/data/mcls82.dat),[Gold particle data](https://robjhyndman.com/tsdldata/data/goldparticle.dat), [Hirnant rainfall data](https://robjhyndman.com/tsdldata/data/hirnant.dat)
-

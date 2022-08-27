@@ -4,7 +4,7 @@ date: 2022-07-24
 slug: coherentprob
 title: "Probabilistic forecast reconciliation: properties, evaluation and score optimisation"
 kind: article
-citationn: "<em>European J Operational Research</em>, to appear"
+details: "<em>European J Operational Research</em>, to appear"
 tags:
 - scoring rules
 - probabilistic forecasting

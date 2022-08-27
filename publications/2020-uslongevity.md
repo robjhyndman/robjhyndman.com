@@ -4,7 +4,7 @@ date: 2021-02-13
 slug: us-longevity
 title: "Assessing mortality inequality in the US: What can be said about the future?"
 kind: article
-citationn: <em>Insurance, Mathematics and Economics</em>, <b>99</b>, 152-162
+details: <em>Insurance, Mathematics and Economics</em>, <b>99</b>, 152-162
 tags:
 - hierarchical forecasting
 - forecasting

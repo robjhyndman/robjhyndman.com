@@ -6,7 +6,7 @@ date: 1995-07-16 02:12:27+00:00
 slug: highest-density-forecast-regions-for-non-linear-and-non-normal-time-series-models
 title: Highest density forecast regions for non-linear and non-normal time series models
 doi: 10.1002/for.3980140503
-citationn: <em>Journal of Forecasting</em> <b>14</b>, 431-441
+details: <em>Journal of Forecasting</em> <b>14</b>, 431-441
 status: Published
 kind: article
 tag:
@@ -19,7 +19,3 @@ Many modern time series methods, such as those involving non-linear models or no
 **Keywords:** non-linear time series, non-normal time series, highest density regions, forecast intervals, threshold models.
 
 **[R code](http://pkg.robjhyndman.com/hdrcde/)**
-
-
-
-

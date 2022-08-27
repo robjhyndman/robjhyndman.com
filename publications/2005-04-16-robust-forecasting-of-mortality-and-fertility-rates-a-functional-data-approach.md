@@ -11,7 +11,7 @@ tags:
 - forecasting
 - functional data
 - time series
-citationn: Invited paper, Demographic Forecasting session, 55th session of the International Statistical Institute, Sydney, Australia, April 2005
+details: Invited paper, Demographic Forecasting session, 55th session of the International Statistical Institute, Sydney, Australia, April 2005
 file: isi2005.pdf
 ---
 
@@ -21,4 +21,3 @@ We propose a new method for forecasting age-specific mortality and fertility rat
 **Keywords:** forecasting, mortality, fertility, functional data
 
 **[R code](http://github.com/robjhyndman/demography)**
-

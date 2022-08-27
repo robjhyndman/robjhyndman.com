@@ -9,6 +9,6 @@ kind: editorial
 tags:
 - forecasting
 - reproducibility
-citationn: "<em>International Journal of Forecasting</em> <b>26</b>(1), pp.2-3"
+details: "<em>International Journal of Forecasting</em> <b>26</b>(1), pp.2-3"
 doi: 10.1016/j.ijforecast.2009.12.003
 ---

@@ -7,6 +7,6 @@ slug: new-ijf-editors
 title: New IJF editors
 wordpress_id: 3443
 kind: editorial
-citationn: <em>International Journal of Forecasting</em> <b>31</b>(4), 1104
+details: <em>International Journal of Forecasting</em> <b>31</b>(4), 1104
 doi: 10.1016/j.ijforecast.2015.06.003
 ---

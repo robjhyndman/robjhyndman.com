@@ -8,7 +8,7 @@ title: Improved methods for bandwidth selection when estimating ROC curves
 kind: article
 tags:
 - nonparametric smoothing
-citationn: <em>Statistics and Probability Letters</em> <b>64</b> 181-189
+details: <em>Statistics and Probability Letters</em> <b>64</b> 181-189
 doi: 10.1016/S0169-2070%2801%2900143-1
 ---
 

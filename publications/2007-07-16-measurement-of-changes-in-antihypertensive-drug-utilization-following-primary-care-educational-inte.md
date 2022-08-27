@@ -10,7 +10,7 @@ wordpress_id: 472
 kind: article
 tags:
 - epidemiology
-citationn: <em>Pharmacoepidemiology & Drug Safety</em> <b>16</b>(3), 297-308
+details: <em>Pharmacoepidemiology & Drug Safety</em> <b>16</b>(3), 297-308
 doi: 10.1002/pds.1243
 ---
 

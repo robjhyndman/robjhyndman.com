@@ -7,9 +7,7 @@ slug: calculating-the-odds
 title: Calculating the odds
 status: Published
 kind: conference
-citationn: "In <em>Faces of gambling</em>, Proceedings of the second national conference of the National Association for Gambling Studies (1986). ed. Michael Walker. pp.139-152"
+details: "In <em>Faces of gambling</em>, Proceedings of the second national conference of the National Association for Gambling Studies (1986). ed. Michael Walker. pp.139-152"
 tag:
 - probability
 ---
-
-

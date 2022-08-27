@@ -4,7 +4,7 @@ date: 2019-09-17
 slug: oddwater
 title: "A feature-based procedure for detecting technical outliers in water-quality data from in situ sensors"
 kind: article
-citationn: <em>Water Resources Research</em>, <b>55</b>(11), 8547-8568
+details: <em>Water Resources Research</em>, <b>55</b>(11), 8547-8568
 tags:
 - data science
 - anomaly detection

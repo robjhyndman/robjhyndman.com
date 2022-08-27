@@ -9,7 +9,7 @@ kind: article
 tags:
 - graphics
 - time series
-citationn: <em>Australian and New Zealand Journal of Statistics</em> <b>42</b>(4), 463-477
+details: <em>Australian and New Zealand Journal of Statistics</em> <b>42</b>(4), 463-477
 doi: 10.1111/1467-842X.00142
 ---
 

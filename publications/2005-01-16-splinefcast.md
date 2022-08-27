@@ -11,7 +11,7 @@ tags:
 - forecasting
 - nonparametric smoothing
 - time series
-citationn: <em>Australian and New Zealand Journal of Statistics</em> <b>47</b>(1), 87-99
+details: <em>Australian and New Zealand Journal of Statistics</em> <b>47</b>(1), 87-99
 doi: 10.1111/j.1467-842X.2005.00374.x
 ---
 
@@ -20,4 +20,3 @@ We show how cubic smoothing splines fitted to univariate time series data can be
 **Keywords:** ARIMA models, exponential smoothing, Holt's local linear forecasts, maximum likelihood estimation, nonparametric regression, smoothing splines, state space model, stochastic trends.
 
 **[R code](http://pkg.robjhyndman.com/forecast/)**
-

@@ -4,7 +4,7 @@ date: 2019-08-23
 slug: water-quality
 title: Predicting sediment and nutrient concentrations from high-frequency water-quality data
 kind: article
-citationn: "<em>PLoS ONE</em>, <b>14</b>(8): e0215503"
+details: "<em>PLoS ONE</em>, <b>14</b>(8): e0215503"
 tags:
 - data science
 - time series

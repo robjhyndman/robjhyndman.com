@@ -4,7 +4,7 @@ author: George Athanasopoulos, Rob&nbsp;J&nbsp;Hyndman, Nikolaos&nbsp;Kourentzes
 date: 2022-02-01
 slug: covidtourism
 kind: article
-citationn: "<em>Journal of Travel Research</em>, to appear"
+details: "<em>Journal of Travel Research</em>, to appear"
 tags:
   - data science
   - time series

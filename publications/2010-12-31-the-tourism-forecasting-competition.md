@@ -11,7 +11,7 @@ kind:
 tags:
 - forecasting
 - tourism
-citationn: "<em>International Journal of Forecasting</em> <b>27</b>(3), 822-844"
+details: "<em>International Journal of Forecasting</em> <b>27</b>(3), 822-844"
 doi: 10.1016/j.ijforecast.2010.04.009
 file: forecompijf.pdf
 ---

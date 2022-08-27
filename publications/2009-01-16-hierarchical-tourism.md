@@ -11,7 +11,7 @@ tags:
 - forecasting
 - hierarchical time series
 - tourism
-citationn: <em>International Journal of Forecasting</em> <b>25</b>(1), 146-166
+details: <em>International Journal of Forecasting</em> <b>25</b>(1), 146-166
 doi: 10.1016/j.ijforecast.2008.07.004
 ---
 
@@ -20,4 +20,3 @@ In this paper we explore the hierarchical nature of tourism demand time series a
 **Keywords:** Australia, exponential smoothing, hierarchical forecasting, innovations state space models, optimal combination forecasts, top-down method, tourism demand.
 
 [**Tourism data**](/data/hier1_with_names.csv)
-

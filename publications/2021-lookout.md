@@ -4,7 +4,7 @@ date: 2022-05-01
 slug: lookout
 title: "Leave-one-out kernel density estimates for outlier detection"
 kind: article
-citationn: <em>J Computational & Graphical Statistics</em>, <b>31</b>(2), 586-599
+details: <em>J Computational & Graphical Statistics</em>, <b>31</b>(2), 586-599
 tags:
 - data science
 - anomaly detection

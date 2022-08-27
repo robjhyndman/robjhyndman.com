@@ -4,7 +4,7 @@ author: Stephanie&nbsp;Clark, Rob&nbsp;J&nbsp;Hyndman, Dan&nbsp;Pagendam, Louise
 date: 2020-11-02
 slug: moderntsreg
 kind: article
-citationn: <em>International Statistical Review</em>, <b>88</b>(S1), S179-S204
+details: <em>International Statistical Review</em>, <b>88</b>(S1), S179-S204
 doi: 10.1111/insr.12432
 arxiv: 2010.15997
 tags:

@@ -17,7 +17,7 @@ tags:
 - time series
 file: ComplexSeasonality.pdf
 doi: 10.1198/jasa.2011.tm09771
-citationn: "<em>Journal of the American Statistical Association</em> <b>106</b>(496), 1513-1527"
+details: "<em>Journal of the American Statistical Association</em> <b>106</b>(496), 1513-1527"
 mathjax: true
 ---
 
@@ -62,5 +62,3 @@ To read the data into R:
 
   * p.1516. In (4c), replace $s_{j,t-1}$ by $s_{j,t-1}^{(i)}$.
   * p.1517. $\boldsymbol{\theta}=(\theta_1,\theta_2,\dots,\theta_q)$.
-
-

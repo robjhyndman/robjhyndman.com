@@ -8,7 +8,7 @@ title: Measuring change in prescription drug utilization in Australia
 kind: article
 tags:
 - epidemiology
-citationn: <em>Pharmacoepidemiology & Drug Safety</em> <b>15</b>, 477-484
+details: <em>Pharmacoepidemiology & Drug Safety</em> <b>15</b>, 477-484
 doi: 10.1002/pds.1247
 ---
 
@@ -22,4 +22,3 @@ doi: 10.1002/pds.1247
 **Conclusions** The two analyses provide similar conclusions but raise questions about what is the best way to model drug utilization data, particularly regarding whether to include additional intervention terms when they are part of an extended roll-out of related interventions.
 
 **Keywords:** claims data; longitudinal study; antibiotics; time series; seasonality; regression methods; evaluation.
-

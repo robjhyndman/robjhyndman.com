@@ -12,7 +12,7 @@ tags:
 - forecasting
 - state space models
 - time series
-citationn: <em>Australian and New Zealand Journal of Statistics</em> <b>51</b>(4), 415-432
+details: <em>Australian and New Zealand Journal of Statistics</em> <b>51</b>(4), 415-432
 link: https://www2.gwu.edu/~forcpgm/2008-003.pdf
 doi: 10.1111/j.1467-842X.2009.00555.x
 ---
@@ -26,4 +26,3 @@ We then explore the implications of our results for inference, and compare the s
 The main findings of the research are that the Gaussian approximation is adequate for estimation and one-step-ahead forecasting. However, as the forecasting horizon increases, the approximate prediction intervals become increasingly problematic.  When the model is to be used for simulation purposes, a suitably specified scheme must be employed.
 
 **Keywords:** forecasting; time series; exponential smoothing; positive-valued processes; seasonality; state space models.
-

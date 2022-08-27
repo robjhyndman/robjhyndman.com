@@ -17,7 +17,7 @@ tags:
 - graphics
 - seasonality
 - time series
-citationn: <em>International Journal of Forecasting</em> <b>33</b>(2), 345-358
+details: <em>International Journal of Forecasting</em> <b>33</b>(2), 345-358
 doi: 10.1016/j.ijforecast.2016.09.004
 link: http://business.monash.edu/econometrics-and-business-statistics/research/publications/ebs/wp10-16.pdf
 ---

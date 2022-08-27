@@ -5,7 +5,7 @@ comments: false
 date: 1994-07-16 02:10:35+00:00
 slug: approximations-and-boundary-conditions-for-continuous-time-threshold-autoregressive-processes
 title: Approximations and boundary conditions for continuous time threshold autoregressive processes
-citationn: <em>Journal of Applied Probability</em>, <b>31</b>(4), 1103-1109
+details: <em>Journal of Applied Probability</em>, <b>31</b>(4), 1103-1109
 status: Published
 kind: article
 tags:

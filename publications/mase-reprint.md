@@ -10,7 +10,6 @@ kind: chapter
 tags:
 - accuracy
 - forecasting
-citationn: 'Chapter 3.4, pages 204-211, in "Business Forecasting: Practical Problems and Solutions", John Wiley & Sons'
+details: 'Chapter 3.4, pages 204-211, in "Business Forecasting: Practical Problems and Solutions", John Wiley & Sons'
 amazon: 111922456X 
 ---
-

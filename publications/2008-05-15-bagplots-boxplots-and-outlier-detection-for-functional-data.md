@@ -11,7 +11,7 @@ tags:
 - functional data
 - graphics
 - highest density regions
-citationn: "In Dabo-Niang, S., and Ferraty, F. (eds), <em>Functional and Operatorial Statistics</em>, chap 31, 201-207"
+details: "In Dabo-Niang, S., and Ferraty, F. (eds), <em>Functional and Operatorial Statistics</em>, chap 31, 201-207"
 doi: 10.1007/978-3-7908-2062-1_31
 ---
 

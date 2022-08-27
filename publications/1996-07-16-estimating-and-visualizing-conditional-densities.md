@@ -5,7 +5,7 @@ comments: false
 date: 1996-07-16 02:43:49+00:00
 slug: estimating-and-visualizing-conditional-densities
 title: Estimating and visualizing conditional densities
-citationn: "<em>J Computational & Graphical Statistics</em>, <b>5</b>, 315-336"
+details: "<em>J Computational & Graphical Statistics</em>, <b>5</b>, 315-336"
 status: Published
 kind: article
 tag:
@@ -21,5 +21,3 @@ We consider the kernel estimator of conditional density and derive its asymptoti
 **Keywords:** automatic forecasting, exponential smoothing, prediction intervals, state space models.
 
 **[R code and data](http://pkg.robjhyndman.com/hdrcde/)**
-
-

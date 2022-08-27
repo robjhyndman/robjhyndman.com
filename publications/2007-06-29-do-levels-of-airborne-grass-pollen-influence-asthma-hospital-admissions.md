@@ -9,7 +9,7 @@ kind: article
 tags:
 - atmospheric science
 - epidemiology
-citationn: <em>Clinical and Experimental Allergy</em> <b>37</b>(11), 1641-1647
+details: <em>Clinical and Experimental Allergy</em> <b>37</b>(11), 1641-1647
 doi: 10.1111/j.1365-2222.2007.02818.x
 ---
 
@@ -27,4 +27,3 @@ _Results:_ Grass pollen was a strong independent nonlinear predictor of asthma h
 _Conclusion/Clinical Relevance of the Results:_ Our findings suggest that grass pollen levels influence asthma hospital admissions. High grass pollen days, currently defined as more than 50 grains per m3, are days when most sensitive individuals will experience allergic symptoms. However, some asthmatic patients may be at a significant risk even when airborne grass pollen levels are below this level. Patients with pollen allergies and asthma would be advised to stay indoors or take additional preventive medication at lower ambient concentrations.
 
 **Keywords**: asthma, ambient pollen, air pollution, statistical models, nonlinearity.
-

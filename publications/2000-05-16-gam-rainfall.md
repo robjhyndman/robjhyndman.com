@@ -12,7 +12,7 @@ tags:
 - atmospheric science
 - gams
 - time series
-citationn: <em>Australian and New Zealand Journal of Statistics</em> <b>42</b>(2), 145-158
+details: <em>Australian and New Zealand Journal of Statistics</em> <b>42</b>(2), 145-158
 doi: 10.1111/1467-842X.00115
 ---
 
@@ -23,4 +23,3 @@ We consider modelling time series using a generalized additive model with first-
 **Keywords:** automatic forecasting, exponential smoothing, prediction intervals, state space models.
 
 **Data:** [Melbourne daily rainfall data](https://robjhyndman.com/tsdldata/data/rainfall.dat) (units of 0.1 mm)
-

@@ -4,7 +4,7 @@ date: 2021-01-01
 slug: swiss-exports
 title: "Forecasting Swiss Exports using Bayesian Forecast Reconciliation"
 kind: article
-citationn: <em>European Journal of Operational Research</em>, <b>291</b>(2), 693-710
+details: <em>European Journal of Operational Research</em>, <b>291</b>(2), 693-710
 tags:
 - hierarchical forecasting
 - forecasting

@@ -11,7 +11,7 @@ kind:
 tags:
 - econometrics
 - electricity
-citationn: <em>Energy policy</em> <b>39</b>(6), 3709-3719
+details: <em>Energy policy</em> <b>39</b>(6), 3709-3719
 doi: 10.1016/j.enpol.2011.03.080
 file: Elasticity2010.pdf
 ---
@@ -21,5 +21,3 @@ In this paper, the price elasticity of electricity demand, representing the sens
 This work attempts to determine whether there is any variation in price sensitivity with the time of day or quantile, and to estimate the form of any relationships that might exist in South Australia.
 
 **Keywords:** Electricity demand; Price elasticity.
-
-

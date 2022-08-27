@@ -11,7 +11,7 @@ tags:
 - demography
 - functional data
 - time series
-citationn: <em>Journal of the Korean Statistical Society</em> <b>38</b>(3), 199-221. (With discussion)
+details: <em>Journal of the Korean Statistical Society</em> <b>38</b>(3), 199-221. (With discussion)
 doi: 10.1016/j.jkss.2009.06.002
 ---
 
@@ -24,5 +24,3 @@ We propose forecasting functional time series using weighted functional principa
   * [Discussion by Chiou, Müller and Wang](http://dx.doi.org/10.1016/j.jkss.2009.05.005)
   * [Discussion by Lee](http://dx.doi.org/10.1016/j.jkss.2009.05.002)
   * [Rejoinder](http://dx.doi.org/10.1016/j.jkss.2009.06.003)
-
-

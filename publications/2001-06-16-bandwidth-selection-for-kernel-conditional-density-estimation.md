@@ -9,7 +9,7 @@ kind: article
 tags:
 - density estimation
 - nonparametric smoothing
-citationn: <em>Computational Statistics and Data Analysis</em> <b>36</b>(3), 279-298
+details: <em>Computational Statistics and Data Analysis</em> <b>36</b>(3), 279-298
 doi: 10.1016/S0167-9473%2800%2900046-3
 mathjax: true
 ---
@@ -27,5 +27,3 @@ We consider bandwidth selection for the kernel estimator of conditional density 
 **Errata**:
 	
   * $d$ should be $|d|$ in the normal reference rule formulae.
-
-

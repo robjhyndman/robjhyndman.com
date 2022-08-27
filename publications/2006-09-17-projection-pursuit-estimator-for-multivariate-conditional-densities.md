@@ -9,6 +9,5 @@ kind: article
 tags:
 - density estimation
 - nonparametric smoothing
-citationn: <em>J. Fuzhou Univ. Nat. Sci. Ed.</em> <b>34</b>(6), 794–797. (Chinese)
+details: <em>J. Fuzhou Univ. Nat. Sci. Ed.</em> <b>34</b>(6), 794–797. (Chinese)
 ---
-

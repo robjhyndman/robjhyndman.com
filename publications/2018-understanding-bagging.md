@@ -8,7 +8,7 @@ tags:
 - data science
 - time series
 - forecasting
-citationn: <em>European Journal of Operational Research</em>, <b>268</b>(2), 545-554
+details: <em>European Journal of Operational Research</em>, <b>268</b>(2), 545-554
 doi: 10.1016/j.ejor.2018.01.045
 file: exploring-sources-uncertainty.pdf
 ---

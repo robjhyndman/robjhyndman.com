@@ -7,10 +7,9 @@ slug: arima-processes
 title: ARIMA processes
 wordpress_id: 176
 kind: chapter
-citationn: 'In: <em>Informed Student Guide to Management Science</em>, ed., Hans Daellenbach and Robert Flood, Thomson: London'
+details: 'In: <em>Informed Student Guide to Management Science</em>, ed., Hans Daellenbach and Robert Flood, Thomson: London'
 amazon: "1861525427"
 file: ARIMA.pdf
 tags:
 - time series
 ---
-
