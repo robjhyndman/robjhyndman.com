@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="$lang$" xml:lang="$lang$"$if(dir)$ dir="$dir$"$endif$>
+
+<head>
+
+$metadata.html()$
+
+<style>
+$styles.html()$
+</style>
+
+<!-- htmldependencies:E3FAD763 -->
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+$if(math)$
+  $math$
+$endif$
+
+$for(css)$
+<link rel="stylesheet" href="$css$" />
+$endfor$
+</head>
+
+<body>
+
+$for(include-before)$
+$include-before$
+$endfor$
+
+$if(title)$
+$title-block.html()$
+$endif$
+
+$if(toc)$
+$toc.html()$
+$endif$
+
+$if(youtube)$
+<div class="embed video-player" style="padding-bottom: 4ex;">
+  <iframe class="youtube-player" type="text/html" src="https://www.youtube.com/embed/$youtube$" allowfullscreen frameborder="0">
+  </iframe>
+</div>
+$endif$
+
+$if(speakerdeck)$
+<div id='speakerdeck'>
+  <p><script async class="speakerdeck-embed" data-id="$speakerdeck$" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script><br>
+  </p>
+</div>
+$endif$
+$if(figshare)$
+<p><iframe src="https://widgets.figshare.com/articles/$figshare$/embed?show_title=0" width="600" height="470" frameborder="0"></iframe><br></p>
+$endif$
+$if(slideshare)$
+<div class="embed slideshare">
+  <iframe src="https://www.slideshare.net/slideshow/embed_code/key/$slideshare$" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe><br>
+</div>
+$endif$
+$if(files)$
+<a href="/talks/$files$" class="badge badge-small badge-red"><i class="fa fa-file-pdf-o"></i>&nbsp;Download pdf</a><br>
+<iframe src="https://docs.google.com/gview?url=https://robjhyndman.com/talks/$file$&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe>
+$endif$
+$if(link)$
+<a href="$link$" class="badge badge-small badge-red"><i class="fa fa-file-pdf-o"></i>&nbsp;Download pdf</a><br>
+<iframe src="https://docs.google.com/gview?url=$link$&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe><br>
+$endif$
+
+$body$
+
+$for(include-after)$
+$include-after$
+$endfor$
+
+
+</body>
+
+</html>

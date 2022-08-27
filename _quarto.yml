@@ -1,0 +1,46 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "*.md"
+    - "!unbelievable/*"
+
+
+website:
+  title: "Rob J Hyndman"
+  navbar:
+    background: "#536878"
+    left:
+      - href: hyndsight/index.qmd
+        text: Hyndsight blog
+      - href: publications/index.qmd
+        text: Publications
+      - href: software/index.qmd
+        text: Software
+      - href: seminars/index.qmd
+        text: Seminars
+      - href: teaching/index.qmd
+        text: Teaching
+      - href: research-team/index.qmd
+        text: Research Team
+      - href: about/index.qmd
+        text: About
+  page-footer: 
+    left: "Copyright 2022, Rob J Hyndman" 
+    right: 
+      - icon: github
+        href: https://github.com/robjhyndman
+      - icon: twitter 
+        href: https://twitter.com/robjhyndman
+    background: "#536878"
+      
+date-format: "D MMMM YYYY"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    html-math-method: katex
+    include-in-header:
+      file: header.html

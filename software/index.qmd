@@ -1,0 +1,21 @@
+# CRAN task views
+
+* [**Time Series**](https://cran.r-project.org/view=TimeSeries)
+* [**Anomaly Detection**](https://github.com/pridiltal/ctv-AnomalyDetection)
+
+# Selected R packages I've coauthored
+
+```{r functions, include=FALSE}
+library(tidyverse)
+source(here::here("software_functions.R"))
+packages <- rjh_packages()
+```
+
+```{r tables, echo=FALSE, results='asis'}
+sections <- unique(packages$section)
+for(i in seq_along(sections)) {
+  packages %>%
+    filter(section == sections[i]) %>%
+    package_table()
+}
+```

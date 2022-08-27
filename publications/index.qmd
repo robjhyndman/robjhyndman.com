@@ -1,0 +1,44 @@
+---
+title: "Publications"
+listing:
+  contents: .
+  sort: "date desc"
+  categories: false
+  sort-ui: [date, title]
+  filter-ui: [date, title, author, citationn]
+  date-format: "YYYY"
+  type: table
+  page-size: 20
+  fields: 
+    - date
+    - author
+    - title
+    - citationn
+  field-display-names: 
+      date: "Year"
+      author: "Authors"
+      citationn: "Publication details"
+
+sidebar: false
+page-layout: full
+title-block-banner: false
+---
+
+<a href="https://github.com/robjhyndman/CV/raw/master/RobHyndmanCV.pdf" class="badge badge-large">Curriculum Vitae&nbsp;&nbsp; <i class="fa fa-file-pdf-o"></i></a>
+
+<a href="https://scholar.google.com/citations?user=vamErfkAAAAJ" class="badge badge-large">Google Scholar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="ai ai-google-scholar"></i></a>
+
+## Books
+
+<table>
+  <tbody>
+    <tr>
+      <td style="background-color: #faf8f8; border-bottom: 0px; padding: 1em;"><a href="http://OTexts.org/fpp3/"><img src="/img/fpp3_cover.jpg" height=270></a></td>
+      <td style="background-color: #faf8f8; border-bottom: 0px; padding: 1em;"><a href="/expsmooth/"><img src="/expsmooth/expsmooth.jpg" height=270></a></td>
+      <td style="background-color: #faf8f8; border-bottom: 0px; padding: 1em;"><a href="/forecasting/"><img src="/forecasting/fma.jpg" height=270></a></td>
+      <td style="background-color: #faf8f8; border-bottom: 0px; padding: 1em;"><a href="/unbelievable/"><img src="/unbelievable/unbelievablecover-200x300.jpg" height=270></a></td>
+    </tr>
+  </tbody>
+</table>
+
+## Papers

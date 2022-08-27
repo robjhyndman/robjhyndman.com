@@ -1,0 +1,54 @@
+project:
+  type: book
+  output-dir: ../_site/unbelievable
+
+book:
+  title: "Unbelievable"
+  author: Rob J Hyndman
+  chapters:
+    - href: "index.qmd"
+      text: "Preface"
+    - part: "**Falsifiable Faith**"
+      chapters:
+        - "ch1.md"
+        - "ch2.md"
+        - "ch3.md"
+        - "ch4.md"
+    - part: "**Exploring the evidence**"
+      chapters:
+        - "ch5.md"
+        - "ch6.md"
+        - "ch7.md"
+        - "ch8.md"
+        - "ch9.md"
+        - "ch10.md"
+        - "ch11.md"
+        - "ch12.md"
+        - "ch13.md"
+        - "ch14.md"
+        - "ch15.md"
+    - part: "**Responses and reflections**"
+      chapters:
+        - "ch16.md"
+        - "ch17.md"
+        - "ch18.md"
+        - "ch19.md"
+        - "ch20.md"
+        - "ch21.md"
+        - "ch22.md"
+        - "ch23.md"
+    - bibliography.md
+    - buybook.md
+  cover-image: unbelievable.png
+
+
+number-depth: 1
+
+title-block-banner: false
+
+format:
+  html:
+    css: styles.css
+    toc: true
+    include-in-header:
+      file: header.html

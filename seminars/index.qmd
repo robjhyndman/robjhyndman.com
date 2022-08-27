@@ -1,0 +1,21 @@
+---
+title: "Seminars I've given"
+listing:
+  contents: .
+  sort: "date desc"
+  categories: false
+  sort-ui: true
+  filter-ui: false
+  date-format: "DD MMM YYYY"
+  type: table
+  fields: 
+    - date
+    - title
+sidebar: false
+page-layout: full
+title-block-banner: false
+---
+
+Some of these seminars were given more than once, but to avoid repetition, repeats are not always listed. 
+
+Talks on YouTube are available on [this playlist](https://www.youtube.com/playlist?list=PL12D676032C3A6B70).

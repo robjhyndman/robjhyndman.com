@@ -1,0 +1,17 @@
+---
+about:
+  template: trestles
+  image: img/rjh.png
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/robjhyndman
+    - icon: github
+      text: github
+      href: https://github.com/robjhyndman
+    - icon: envelope
+      text: mail
+      href: mailto:Rob.Hyndman@monash.edu
+---
+
+Rob&nbsp;J&nbsp;Hyndman <span style="font-size: 85%;">FAA FASSA</span> is Professor of Statistics at [Monash University](https://monash.edu), Australia.
