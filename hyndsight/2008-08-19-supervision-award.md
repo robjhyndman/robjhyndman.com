@@ -1,8 +1,5 @@
 ---
-
-
 date: 2008-08-19 09:51:00+00:00
-
 link: https://robjhyndman.com/hyndsight/supervision-award/
 slug: supervision-award
 title: Supervision award

@@ -1,6 +1,4 @@
 ---
-
-
 date: 2009-10-14 05:52:01+00:00
 slug: squeezing-space-with-latex
 title: Squeezing space with LaTeX

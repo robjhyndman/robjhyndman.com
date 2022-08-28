@@ -1,8 +1,5 @@
 ---
-
-
 date: 2009-07-13 22:55:56+00:00
-
 link: https://robjhyndman.com/hyndsight/searching-the-research-literature/
 slug: searching-the-research-literature
 title: Searching the research literature

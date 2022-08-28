@@ -1,6 +1,4 @@
 ---
-
-
 date: 2009-02-01 08:20:54+00:00
 slug: statistician-the-dream-job
 title: 'Statistician: the dream job'

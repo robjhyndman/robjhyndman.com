@@ -1,8 +1,5 @@
 ---
-
-
 date: 2009-05-28 08:25:58+00:00
-
 link: https://robjhyndman.com/hyndsight/akrams-story/
 slug: akrams-story
 title: Akram's story

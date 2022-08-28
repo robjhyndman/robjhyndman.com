@@ -1,8 +1,5 @@
 ---
-
-
 date: 2007-11-16 04:42:56+00:00
-
 link: https://robjhyndman.com/hyndsight/indexing-in-latex/
 slug: indexing-in-latex
 title: Indexing in LaTeX

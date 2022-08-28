@@ -1,8 +1,5 @@
 ---
-
-
 date: 2009-03-12 08:21:47+00:00
-
 link: https://robjhyndman.com/hyndsight/accessing-journal-articles-online/
 slug: accessing-journal-articles-online
 title: Accessing journal articles online

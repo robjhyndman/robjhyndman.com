@@ -1,8 +1,5 @@
 ---
-
-
 date: 2009-08-27 11:47:18+00:00
-
 link: https://robjhyndman.com/hyndsight/how-good-are-economic-forecasts/
 slug: how-good-are-economic-forecasts
 title: How good are economic forecasts?

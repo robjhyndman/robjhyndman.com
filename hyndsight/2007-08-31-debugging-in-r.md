@@ -1,8 +1,5 @@
 ---
-
-
 date: 2007-08-31 03:53:43+00:00
-
 link: https://robjhyndman.com/hyndsight/debugging-in-r/
 slug: debugging-in-r
 title: Debugging in R

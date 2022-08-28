@@ -1,8 +1,5 @@
 ---
-
-
 date: 2009-08-23 22:51:37+00:00
-
 link: https://robjhyndman.com/hyndsight/r-help-on-stackoverflow/
 slug: r-help-on-stackoverflow
 title: R help on StackOverflow

@@ -1,8 +1,5 @@
 ---
-
-
 date: 2009-08-02 05:50:11+00:00
-
 link: https://robjhyndman.com/hyndsight/managing-a-bibliographic-database/
 slug: managing-a-bibliographic-database
 title: Managing a bibliographic database

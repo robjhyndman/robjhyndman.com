@@ -1,8 +1,5 @@
 ---
-
-
 date: 2007-09-12 04:08:55+00:00
-
 link: https://robjhyndman.com/hyndsight/searching-the-statistical-literature/
 slug: searching-the-statistical-literature
 title: Searching the statistical literature

@@ -1,8 +1,5 @@
 ---
-
-
 date: 2009-09-13 13:06:47+00:00
-
 link: https://robjhyndman.com/hyndsight/take-a-break/
 slug: take-a-break
 title: Take a break

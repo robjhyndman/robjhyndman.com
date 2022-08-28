@@ -1,8 +1,5 @@
 ---
-
-
 date: 2009-07-27 05:18:20+00:00
-
 link: https://robjhyndman.com/hyndsight/finding-latex-symbols/
 slug: finding-latex-symbols
 title: Finding LaTeX symbols

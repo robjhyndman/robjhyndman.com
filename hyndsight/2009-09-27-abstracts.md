@@ -1,8 +1,5 @@
 ---
-
-
 date: 2009-09-27 10:19:43+00:00
-
 link: https://robjhyndman.com/hyndsight/abstracts/
 slug: abstracts
 title: Writing an abstract

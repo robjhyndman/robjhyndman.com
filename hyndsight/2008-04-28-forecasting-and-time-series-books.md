@@ -1,6 +1,4 @@
 ---
-
-
 date: 2008-04-28 07:56:46+00:00
 link: https://robjhyndman.com/hyndsight/forecasting-and-time-series-books/
 slug: forecasting-and-time-series-books

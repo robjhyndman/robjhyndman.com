@@ -1,8 +1,5 @@
 ---
-
-
 date: 2008-08-20 08:09:38+00:00
-
 link: https://robjhyndman.com/hyndsight/tracking-changes-in-text-files/
 slug: tracking-changes-in-text-files
 title: Tracking changes in text files

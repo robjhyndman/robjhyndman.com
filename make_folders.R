@@ -29,3 +29,29 @@ move_files <- function(folder, extension) {
 
 move_files("seminars","md")
 move_files("publications","md")
+move_files("hyndsight", "md")
+
+
+clean_yaml <- function(folder) {
+  files <- fs::dir_ls(folder)
+  for(i in seq_along(files)) {
+    contents <- read_lines(files[i])
+    # Find yaml
+    yaml <- which(str_detect(contents, "---"))
+    # Remove blank links from yaml
+    blank <- which(str_length(contents)==0L)
+    blank <- blank[blank < max(yaml)]
+    if(length(blank) > 0)
+      contents <- contents[-blank]
+    yaml <- which(str_detect(contents, "---"))
+    # Remove wordpress id
+    wp <- which(str_detect(contents, "wordpress"))
+    wp <- wp[wp <- max(yaml)]
+    if(length(wp) > 0)
+      contents <- contents[-wp]
+    # Write file
+    write_lines(contents, files[i])
+  }
+}
+
+clean_yaml("hyndsight")

@@ -1,8 +1,5 @@
 ---
-
-
 date: 2009-08-13 03:46:51+00:00
-
 link: https://robjhyndman.com/hyndsight/sight-what-you-cite/
 slug: sight-what-you-cite
 title: Sight what you cite

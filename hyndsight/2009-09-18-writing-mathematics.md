@@ -1,8 +1,5 @@
 ---
-
-
 date: 2009-09-18 02:48:39+00:00
-
 link: https://robjhyndman.com/hyndsight/writing-mathematics/
 slug: writing-mathematics
 title: Writing mathematics

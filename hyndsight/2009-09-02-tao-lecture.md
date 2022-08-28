@@ -1,8 +1,5 @@
 ---
-
-
 date: 2009-09-02 02:21:54+00:00
-
 link: https://robjhyndman.com/hyndsight/tao-lecture/
 slug: tao-lecture
 title: Mathematical research and the internet

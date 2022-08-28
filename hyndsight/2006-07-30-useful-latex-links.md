@@ -1,6 +1,4 @@
 ---
-
-
 date: 2006-07-30 10:07:53+00:00
 slug: useful-latex-links
 title: Useful LaTeX links
@@ -8,7 +6,7 @@ categories:
 - LaTeX
 ---
 
-### Learning LaTeX
+## Learning LaTeX
     
   * [Introduction to LaTeX](/hyndsight/latex-workshop/):  notes and other materials from a one-day workshop.
 
@@ -31,7 +29,7 @@ categories:
 
 
 
-### Getting help
+## Getting help
 
 
 
@@ -60,5 +58,3 @@ The first and best place to go is [TeX.StackExchange.com](http://tex.stackexchan
 
     
   * [CTAN](http://ctan.unsw.edu.au/): the Comprehensive TeX Archive Network where everything is stored.
-
-

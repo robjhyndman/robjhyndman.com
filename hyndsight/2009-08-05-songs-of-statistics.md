@@ -1,8 +1,5 @@
 ---
-
-
 date: 2009-08-05 02:57:40+00:00
-
 link: https://robjhyndman.com/hyndsight/songs-of-statistics/
 slug: songs-of-statistics
 title: Songs of Statistics

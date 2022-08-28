@@ -1,8 +1,5 @@
 ---
-
-
 date: 2008-07-25 08:04:55+00:00
-
 link: https://robjhyndman.com/hyndsight/time-management/
 slug: time-management
 title: Time management

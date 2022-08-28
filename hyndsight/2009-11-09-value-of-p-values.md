@@ -1,8 +1,5 @@
 ---
-
-
 date: 2009-11-09 23:43:42+00:00
-
 link: https://robjhyndman.com/hyndsight/value-of-p-values/
 slug: value-of-p-values
 title: More on the evils of statistical tests

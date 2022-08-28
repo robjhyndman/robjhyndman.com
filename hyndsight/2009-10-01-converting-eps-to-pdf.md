@@ -1,8 +1,5 @@
 ---
-
-
 date: 2009-10-01 11:45:42+00:00
-
 link: https://robjhyndman.com/hyndsight/converting-eps-to-pdf/
 slug: converting-eps-to-pdf
 title: Converting eps to pdf
