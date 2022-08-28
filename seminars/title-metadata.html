@@ -1,0 +1,27 @@
+<div class="quarto-title-meta">
+ 
+  $if(date)$
+  <div>
+    <div class="quarto-title-meta-heading">Date</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">$date$</p>
+    </div>
+  </div>
+  $endif$
+
+</div>
+
+
+$if(abstract)$
+<div>
+  <div class="abstract">
+    <div class="abstract-title">$labels.abstract$</div>
+    $abstract$
+  </div>
+</div>
+$endif$
+
+
+$if(github)$<a href="http://github.com/$github$" class="badge badge badge-green"><i class="fa fa-github"></i>&nbsp;code</a>
+$endif$
+<p>&nbsp;</p>

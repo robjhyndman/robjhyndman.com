@@ -1,5 +1,5 @@
 ---
-title: "Seminars I've given"
+title: "Seminars I've given (since 2006)"
 listing:
   contents: .
   sort: "date desc"
@@ -8,9 +8,11 @@ listing:
   filter-ui: false
   date-format: "DD MMM YYYY"
   type: table
+  page-size: 999
   fields: 
     - date
     - title
+
 sidebar: false
 page-layout: full
 title-block-banner: false

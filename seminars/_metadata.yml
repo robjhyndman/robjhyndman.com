@@ -3,5 +3,6 @@
 format:
   html:
     template: seminar.html
+    template-partials: title-metadata.html
 
 sidebar: false
