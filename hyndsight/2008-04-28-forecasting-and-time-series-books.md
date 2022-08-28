@@ -12,7 +12,9 @@ People often ask me for recommendations on forecasting books and time series boo
 
 (Updated 8 November 2017)
 
+```
 {{< amazon-forecasting >}}
+```
 
 Two are **my own books** of course (after all, I wrote them because I thought I had something to say). You can also get the first one online for free at [OTexts.org/fpp2](http://OTexts.org/fpp2).
 
@@ -27,4 +29,3 @@ The book by **Ord, Fildes and Kourentzes** is excellent, although ridiculously e
 **Armstrong**'s "Principles of Forecasting" is by a range of different authors and the chapters are of variable quality as a result, but it is an excellent resource, especially on the non-statistical areas of forecasting.
 
 Finally, **Shumway and Stoffer** is a good a book on time series using R. It is not great on forecasting, but quite good on other aspects of time series analysis.
-

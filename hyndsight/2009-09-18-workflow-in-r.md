@@ -1,12 +1,8 @@
 ---
-
-
 date: 2009-09-18 03:21:33+00:00
-
 link: https://robjhyndman.com/hyndsight/workflow-in-r/
 slug: workflow-in-r
 title: Workflow in R
-wordpress_id: 546
 categories:
 - productivity
 - R

@@ -5,7 +5,9 @@ title: Software for honours students
 
 I spoke to our new crop of honours students this morning. Here are my slides, example files and links.
 
+```
 {{< speakerdeck e34290742d644f9f85a354bdd9fd0335 >}}
+```
 
 <br>
 
