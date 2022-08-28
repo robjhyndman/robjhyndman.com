@@ -1,9 +1,6 @@
 ---
-
 date: 2003-07-15 01:44:47+00:00
-slug: statistical-jokes
 title: Statistical jokes
-mathjax: true
 tags:
 - jokes
 ---
@@ -128,14 +125,10 @@ $$
 
 Which, of course, translates to:
 
->Integral t-squared dt
-
->from 1 to the cube root of 3
-
->times the cosine
-
->of three pi over 9
-
+>Integral t-squared dt<br>
+>from 1 to the cube root of 3<br>
+>times the cosine<br>
+>of three pi over 9<br>
 >equals log of the cube root of 'e'.
 
 
@@ -145,131 +138,59 @@ And it's correct, too.
 
 The remaining limericks are taken from Mark Carter's page which has since disappeared.
 
->A mathematician confided
-
->That the Möbius band is one-sided
-
->And you'll get quite a laugh
-
->If you cut one in half
-
+>A mathematician confided<br>
+>That the Möbius band is one-sided<br>
+>And you'll get quite a laugh<br>
+>If you cut one in half<br>
 >'Cause it stays in one piece when divided.
 
-
-
-* * *
-
-
-
->A mathematician named Klein
-
->Thought the Möbius band was divine
-
->Said he: If you glue
-
->The edges of two
-
+>A mathematician named Klein<br>
+>Thought the Möbius band was divine<br>
+>Said he: If you glue<br>
+>The edges of two<br>
 >You'll get a weird bottles like mine.
 
-
-
-* * *
-
-
-
->There was a young fellow named Fisk,
-
->A swordsman, exceedingly brisk.
-
->So fast was his action,
-
->The Lorentz contraction
-
+>There was a young fellow named Fisk,<br>
+>A swordsman, exceedingly brisk.<br>
+>So fast was his action,<br>
+>The Lorentz contraction<br>
 >Reduced his rapier to a disk.
 
-
-
-* * *
-
-
-
->'Tis a favorite project of mine
-
->A new value of pi to assign.
-
->I would fix it at 3
-
->For it's simpler, you see,
-
+>'Tis a favorite project of mine<br>
+>A new value of pi to assign.<br>
+>I would fix it at 3<br>
+>For it's simpler, you see,<br>
 >Than 3 point 1 4 1 5 9
 
-
-
-* * *
-
-
-
->If inside a circle a line
-
->Hits the center and goes spine to spine
-
->And the line's length is "d"
-
->the circumference will be
-
+>If inside a circle a line<br>
+>Hits the center and goes spine to spine<br>
+>And the line's length is "d"<br>
+>the circumference will be<br>
 >d times 3.14159
 
-
-
-* * *
-
-
-
->A challenge for many long ages
-
->Had baffled the savants and sages.
-
->Yet at last came the light:
-
->Seems old Fermat was right--
-
+>A challenge for many long ages<br>
+>Had baffled the savants and sages.<br>
+>Yet at last came the light:<br>
+>Seems old Fermat was right--<br>
 >To the margin add 200 pages.
 
-
-
-* * *
-
-
-
->If (1+x) (real close to 1)
-
->Is raised to the power of 1
-
->Over x, you will find
-
->Here's the value defined:
-
+>If (1+x) (real close to 1)<br>
+>Is raised to the power of 1<br>
+>Over x, you will find<br>
+>Here's the value defined:<br>
 >2.718281...
 
-
-
 * * *
-
-
 
 This poem was written by John Saxon (an author of math textbooks).
 $$
 ((12 + 144 + 20 + (3 * \sqrt{4})) / 7) + (5 * 11) = 9^2 + 0
 $$
 
->A Dozen, a Gross and a Score,
-
->plus three times the square root of four,
-
->divided by seven,
-
->plus five times eleven,
-
+>A Dozen, a Gross and a Score,<br>
+>plus three times the square root of four,<br>
+>divided by seven,<br>
+>plus five times eleven,<br>
 >equals nine squared and not a bit more.
 
 
@@ -278,14 +199,10 @@ $$
 
 
 
->In arctic and tropical climes,
-
->the integers, addition, and times,
-
->taken (mod p) will yield
-
->a full finite field,
-
+>In arctic and tropical climes,<br>
+>the integers, addition, and times,<br>
+>taken (mod p) will yield<br>
+>a full finite field,<br>
 >as p ranges over the primes.
 
 
@@ -294,14 +211,10 @@ $$
 
 
 
->A graduate student from Trinity
-
->Computed the cube of infinity;
-
->But it gave him the fidgets
-
->To write down all those digits,
-
+>A graduate student from Trinity<br>
+>Computed the cube of infinity;<br>
+>But it gave him the fidgets<br>
+>To write down all those digits,<br>
 >So he dropped math and took up divinity.
 
 
@@ -310,16 +223,11 @@ $$
 
 
 
->A conjecture both deep and profound
-
->Is whether the circle is round;
-
->In a paper by Erdös,
-
->written in Kurdish,
-
->A counterexample is found.
-
+>A conjecture both deep and profound<br>
+>Is whether the circle is round;<br>
+>In a paper by Erdös,<br>
+>written in Kurdish,<br>
+>A counterexample is found.<br>
 (Note: Erdös is pronounced "Air-dish")
 
 
@@ -328,12 +236,9 @@ $$
 
 
 
->Three jolly sailors from Blaydon-on-Tyne,
-
->They went to sea in a bottle by Klein,
-
->Since the sea was inside the hull,
-
+>Three jolly sailors from Blaydon-on-Tyne,<br>
+>They went to sea in a bottle by Klein,<br>
+>Since the sea was inside the hull,<br>
 >The scenery seen was exceedingly dull.
 
 
@@ -348,14 +253,10 @@ $$
 4 + (6! - 0.5(12^2 + (403 + 1))) = 2(15^2)
 $$
 
->Four plus the difference between
-
->The factorial of six and the mean
-
->Of twelve squared and four
-
->Hundred three (plus one more)
-
+>Four plus the difference between<br>
+>The factorial of six and the mean<br>
+>Of twelve squared and four<br>
+>Hundred three (plus one more)<br>
 >Equals double the square of fifteen.
 
 
@@ -388,5 +289,3 @@ Assume the contrary. Then there is a lowest non-interesting positive integer. Bu
 
     
   * [Gary Ramseyer's extensive collection of statistics jokes](http://my.ilstu.edu/~gcramsey/Gallery.html)
-
-
