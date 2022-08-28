@@ -8,7 +8,7 @@ listing:
   filter-ui: [date, title, author, details]
   date-format: "YYYY"
   type: table
-  page-size: 20
+  page-size: 50
   fields: 
     - date
     - author
@@ -24,9 +24,7 @@ page-layout: full
 title-block-banner: false
 ---
 
-<a href="https://github.com/robjhyndman/CV/raw/master/RobHyndmanCV.pdf" class="badge badge-large">Curriculum Vitae&nbsp;&nbsp; <i class="fa fa-file-pdf-o"></i></a>
-
-<a href="https://scholar.google.com/citations?user=vamErfkAAAAJ" class="badge badge-large">Google Scholar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="ai ai-google-scholar"></i></a>
+<a href="https://github.com/robjhyndman/CV/raw/master/RobHyndmanCV.pdf" class="badge badge-large">Curriculum Vitae&nbsp;&nbsp; <i class="fa fa-file-pdf-o"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://scholar.google.com/citations?user=vamErfkAAAAJ" class="badge badge-large">Google Scholar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="ai ai-google-scholar"></i></a>
 
 ## Books
 
