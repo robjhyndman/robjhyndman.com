@@ -3,7 +3,6 @@ date: 2009-04-08 08:23:00+00:00
 link: https://robjhyndman.com/hyndsight/neil-postman-on-technological-change/
 slug: neil-postman-on-technological-change
 title: Neil Postman on technological change
-wordpress_id: 93
 categories:
 - technology
 ---

@@ -3,7 +3,6 @@ date: 2008-03-13 04:48:59+00:00
 link: https://robjhyndman.com/hyndsight/dodgy-forecasting/
 slug: dodgy-forecasting
 title: Dodgy forecasting
-wordpress_id: 46
 categories:
 - forecasting
 ---

@@ -3,7 +3,6 @@ date: 2009-08-14 03:46:30+00:00
 link: https://robjhyndman.com/hyndsight/localtexmf/
 slug: localtexmf
 title: Maintaining local LaTeX files
-wordpress_id: 397
 categories:
 - computing
 - LaTeX

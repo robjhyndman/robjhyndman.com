@@ -3,7 +3,6 @@ date: 2009-08-03 03:41:47+00:00
 link: https://robjhyndman.com/hyndsight/responses/
 slug: responses
 title: Writing responses to referee reports
-wordpress_id: 372
 categories:
 - journals
 - writing

@@ -3,7 +3,6 @@ date: 2007-09-06 04:04:54+00:00
 link: https://robjhyndman.com/hyndsight/organization-and-r/
 slug: organization-and-r
 title: Organization and R
-wordpress_id: 18
 categories:
 - R
 ---

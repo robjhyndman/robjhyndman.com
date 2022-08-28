@@ -2,7 +2,6 @@
 date: 2009-12-02 06:07:26+00:00
 slug: replications
 title: Replications and reproducible research
-wordpress_id: 666
 categories:
 - reproducible research
 ---

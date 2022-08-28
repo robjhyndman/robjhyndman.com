@@ -3,7 +3,6 @@ date: 2009-08-26 06:00:38+00:00
 link: https://robjhyndman.com/hyndsight/supervision-workshop/
 slug: supervision-workshop
 title: Research supervision workshop
-wordpress_id: 446
 categories:
 - research team
 - supervision

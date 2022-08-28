@@ -3,7 +3,6 @@ date: 2009-08-17 22:39:27+00:00
 link: https://robjhyndman.com/hyndsight/forecasting-the-recession/
 slug: forecasting-the-recession
 title: Forecasting the recession
-wordpress_id: 417
 categories:
 - forecasting
 ---

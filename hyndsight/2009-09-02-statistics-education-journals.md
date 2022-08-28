@@ -3,7 +3,6 @@ date: 2009-09-02 03:38:05+00:00
 link: https://robjhyndman.com/hyndsight/statistics-education-journals/
 slug: statistics-education-journals
 title: Statistics education journals
-wordpress_id: 472
 categories:
 - journals
 - teaching

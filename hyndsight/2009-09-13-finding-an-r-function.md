@@ -3,7 +3,6 @@ date: 2009-09-13 11:21:14+00:00
 link: https://robjhyndman.com/hyndsight/finding-an-r-function/
 slug: finding-an-r-function
 title: Finding an R function
-wordpress_id: 524
 categories:
 - R
 ---

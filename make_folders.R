@@ -39,16 +39,22 @@ clean_yaml <- function(folder) {
     # Find yaml
     yaml <- which(str_detect(contents, "---"))
     # Remove blank links from yaml
-    blank <- which(str_length(contents)==0L)
-    blank <- blank[blank < max(yaml)]
-    if(length(blank) > 0)
-      contents <- contents[-blank]
-    yaml <- which(str_detect(contents, "---"))
+    if(length(yaml) > 0) {
+      blank <- which(str_length(contents)==0L)
+      if(length(blank) > 0)
+        blank <- blank[blank < max(yaml)]
+      if(length(blank) > 0)
+        contents <- contents[-blank]
+      yaml <- which(str_detect(contents, "---"))
+    }
     # Remove wordpress id
-    wp <- which(str_detect(contents, "wordpress"))
-    wp <- wp[wp <- max(yaml)]
-    if(length(wp) > 0)
-      contents <- contents[-wp]
+    if(length(yaml) > 0) {
+      wp <- which(str_detect(contents, "wordpress"))
+      if(length(wp) > 0)
+        wp <- wp[wp < max(yaml)]
+      if(length(wp) > 0)
+        contents <- contents[-wp]
+    }
     # Write file
     write_lines(contents, files[i])
   }

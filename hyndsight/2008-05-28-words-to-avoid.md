@@ -3,7 +3,6 @@ date: 2008-05-28 08:03:45+00:00
 link: https://robjhyndman.com/hyndsight/words-to-avoid/
 slug: words-to-avoid
 title: Words to avoid
-wordpress_id: 69
 categories:
 - writing
 ---

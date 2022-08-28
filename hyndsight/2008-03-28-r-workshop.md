@@ -3,7 +3,6 @@ date: 2008-03-28 07:50:40+00:00
 link: https://robjhyndman.com/hyndsight/r-workshop/
 slug: r-workshop
 title: R workshop
-wordpress_id: 55
 categories:
 - R
 ---

@@ -3,7 +3,6 @@ date: 2008-03-26 04:50:01+00:00
 link: https://robjhyndman.com/hyndsight/the-mathsstats-crisis-in-australian-education/
 slug: the-mathsstats-crisis-in-australian-education
 title: The maths/stats crisis in Australian education
-wordpress_id: 48
 categories:
 - statistics
 ---
