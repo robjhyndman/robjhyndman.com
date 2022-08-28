@@ -28,3 +28,4 @@ move_files <- function(folder, extension) {
 }
 
 move_files("seminars","md")
+move_files("publications","md")
