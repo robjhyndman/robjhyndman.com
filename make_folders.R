@@ -39,6 +39,7 @@ clean_yaml <- function(folder) {
     fs::dir_ls(folder, glob="*.qmd")
   )
   for(i in seq_along(files)) {
+    modified <- FALSE
     contents <- read_lines(files[i])
     # Find yaml
     yaml <- which(str_detect(contents, "^---"))
@@ -47,8 +48,10 @@ clean_yaml <- function(folder) {
       blank <- which(str_length(contents)==0L)
       if(length(blank) > 0)
         blank <- blank[blank < max(yaml)]
-      if(length(blank) > 0)
+      if(length(blank) > 0) {
         contents <- contents[-blank]
+        modified <- TRUE
+      }
       yaml <- which(str_detect(contents, "^---"))
     }
     # Remove wordpress id
@@ -56,19 +59,24 @@ clean_yaml <- function(folder) {
       wp <- which(str_detect(contents, "^wordpress"))
       if(length(wp) > 0)
         wp <- wp[wp < max(yaml)]
-      if(length(wp) > 0)
+      if(length(wp) > 0) {
         contents <- contents[-wp]
+        modified <- TRUE
+      }
     }
     # Remove comments line
     if(length(yaml) > 0) {
       wp <- which(str_detect(contents, "^comments:"))
       if(length(wp) > 0)
         wp <- wp[wp < max(yaml)]
-      if(length(wp) > 0)
+      if(length(wp) > 0) {
         contents <- contents[-wp]
+        modified <- TRUE
+      }
     }
     # Write file
-    write_lines(contents, files[i])
+    if(modified)
+      write_lines(contents, files[i])
   }
 }
 
