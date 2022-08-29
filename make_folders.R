@@ -37,7 +37,7 @@ clean_yaml <- function(folder) {
   for(i in seq_along(files)) {
     contents <- read_lines(files[i])
     # Find yaml
-    yaml <- which(str_detect(contents, "---"))
+    yaml <- which(str_detect(contents, "^---"))
     # Remove blank links from yaml
     if(length(yaml) > 0) {
       blank <- which(str_length(contents)==0L)
@@ -45,7 +45,7 @@ clean_yaml <- function(folder) {
         blank <- blank[blank < max(yaml)]
       if(length(blank) > 0)
         contents <- contents[-blank]
-      yaml <- which(str_detect(contents, "---"))
+      yaml <- which(str_detect(contents, "^---"))
     }
     # Remove wordpress id
     if(length(yaml) > 0) {
