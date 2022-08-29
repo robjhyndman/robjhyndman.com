@@ -4,7 +4,6 @@ date: 2011-12-16 02:30:30+00:00
 link: https://robjhyndman.com/hyndsight/melburntalk/
 slug: melburntalk
 title: Forecasting time series using R
-wordpress_id: 1404
 categories:
 - forecasting
 - R

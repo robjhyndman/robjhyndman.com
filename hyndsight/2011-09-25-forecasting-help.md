@@ -4,7 +4,6 @@ date: 2011-09-25 13:19:27+00:00
 link: https://robjhyndman.com/hyndsight/forecasting-help/
 slug: forecasting-help
 title: Help for forecasting practitioners
-wordpress_id: 670
 categories:
 - forecasting
 ---

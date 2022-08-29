@@ -4,7 +4,6 @@ date: 2011-05-29 07:02:01+00:00
 link: https://robjhyndman.com/hyndsight/estimation2/
 slug: estimation2
 title: Comparing HoltWinters() and ets()
-wordpress_id: 1316
 categories:
 - computing
 - R

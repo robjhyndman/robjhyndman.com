@@ -4,7 +4,6 @@ date: 2011-03-29 11:20:13+00:00
 link: https://robjhyndman.com/hyndsight/texstudio/
 slug: texstudio
 title: I'm switching to TeXstudio
-wordpress_id: 1303
 categories:
 - computing
 - LaTeX

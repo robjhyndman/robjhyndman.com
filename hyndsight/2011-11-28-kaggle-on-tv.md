@@ -4,7 +4,6 @@ date: 2011-11-28 23:08:53+00:00
 link: https://robjhyndman.com/hyndsight/kaggle-on-tv/
 slug: kaggle-on-tv
 title: Kaggle on TV
-wordpress_id: 1454
 categories:
 - forecasting
 - kaggle

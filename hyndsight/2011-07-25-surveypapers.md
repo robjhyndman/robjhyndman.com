@@ -4,7 +4,6 @@ date: 2011-07-25 12:01:06+00:00
 link: https://robjhyndman.com/hyndsight/surveypapers/
 slug: surveypapers
 title: Recommended survey papers
-wordpress_id: 1335
 categories:
 - journals
 - references
