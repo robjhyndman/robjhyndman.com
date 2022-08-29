@@ -33,7 +33,11 @@ move_files("hyndsight", "md")
 
 
 clean_yaml <- function(folder) {
-  files <- fs::dir_ls(folder)
+  files <- c(
+    fs::dir_ls(folder, glob="*.md"),
+    fs::dir_ls(folder, glob="*.Rmd"),
+    fs::dir_ls(folder, glob="*.qmd")
+  )
   for(i in seq_along(files)) {
     contents <- read_lines(files[i])
     # Find yaml
@@ -49,7 +53,7 @@ clean_yaml <- function(folder) {
     }
     # Remove wordpress id
     if(length(yaml) > 0) {
-      wp <- which(str_detect(contents, "^wordpress:"))
+      wp <- which(str_detect(contents, "^wordpress"))
       if(length(wp) > 0)
         wp <- wp[wp < max(yaml)]
       if(length(wp) > 0)
