@@ -49,7 +49,15 @@ clean_yaml <- function(folder) {
     }
     # Remove wordpress id
     if(length(yaml) > 0) {
-      wp <- which(str_detect(contents, "wordpress"))
+      wp <- which(str_detect(contents, "^wordpress:"))
+      if(length(wp) > 0)
+        wp <- wp[wp < max(yaml)]
+      if(length(wp) > 0)
+        contents <- contents[-wp]
+    }
+    # Remove comments line
+    if(length(yaml) > 0) {
+      wp <- which(str_detect(contents, "^comments:"))
       if(length(wp) > 0)
         wp <- wp[wp < max(yaml)]
       if(length(wp) > 0)
