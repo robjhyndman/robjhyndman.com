@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-10-07 05:51:34+00:00
 link: https://robjhyndman.com/hyndsight/editorialboards/
 slug: editorialboards

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-07-26 03:14:48+00:00
 link: https://robjhyndman.com/hyndsight/iif-awards/
 slug: iif-awards

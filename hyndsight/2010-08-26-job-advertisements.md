@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2022-01-05
 slug: job-advertisements
 title: Job advertisements

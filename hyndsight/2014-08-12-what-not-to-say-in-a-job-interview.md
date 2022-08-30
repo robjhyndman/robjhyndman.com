@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-08-12 11:48:33+00:00
 link: https://robjhyndman.com/hyndsight/what-not-to-say-in-a-job-interview/
 slug: what-not-to-say-in-a-job-interview

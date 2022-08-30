@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-11-04 23:45:25+00:00
 link: https://robjhyndman.com/hyndsight/crossvalidated/
 slug: crossvalidated

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-02-21 10:36:14+00:00
 mathjax: true
 link: https://robjhyndman.com/hyndsight/forecasting-within-limits/

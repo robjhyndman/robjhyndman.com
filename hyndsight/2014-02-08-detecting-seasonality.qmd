@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-02-08 04:08:38+00:00
 mathjax: true
 link: https://robjhyndman.com/hyndsight/detecting-seasonality/

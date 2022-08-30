@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2013-10-14 04:07:55+00:00
 link: https://robjhyndman.com/hyndsight/probabilistic-energy-forecasting/
 slug: probabilistic-energy-forecasting

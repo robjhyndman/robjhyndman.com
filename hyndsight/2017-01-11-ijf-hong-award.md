@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2017-01-11 04:38:19+00:00
 link: https://robjhyndman.com/hyndsight/ijf-hong-award/
 slug: ijf-hong-award

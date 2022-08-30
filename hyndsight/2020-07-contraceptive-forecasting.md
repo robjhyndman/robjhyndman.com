@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2020-07-24
 title: "Contraceptive forecasting competition"
 slug: contraceptive-forecasting

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2017-02-15 10:06:20+00:00
 slug: isf-social
 title: 'Forecasters: bring your family to Cairns'

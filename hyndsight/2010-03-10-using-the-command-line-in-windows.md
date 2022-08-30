@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-03-10 02:13:59+00:00
 link: https://robjhyndman.com/hyndsight/using-the-command-line-in-windows/
 slug: using-the-command-line-in-windows

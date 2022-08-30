@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2016-08-31 02:07:07+00:00
 slug: isf2017-sponsorship
 title: Sponsorship for the Cairns forecasting conference

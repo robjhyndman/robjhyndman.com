@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-11-21 06:40:51+00:00
 slug: visualization-of-probabilistic-forecasts
 title: Visualization of probabilistic forecasts

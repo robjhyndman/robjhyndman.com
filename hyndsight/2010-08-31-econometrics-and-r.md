@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-08-31 01:41:19+00:00
 link: https://robjhyndman.com/hyndsight/econometrics-and-r/
 slug: econometrics-and-r

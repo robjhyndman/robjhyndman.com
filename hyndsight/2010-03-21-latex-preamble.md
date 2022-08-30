@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-03-21 09:44:12+00:00
 link: https://robjhyndman.com/hyndsight/latex-preamble/
 slug: latex-preamble

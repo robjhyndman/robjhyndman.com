@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-08-25 11:03:02+00:00
 slug: benchmarks
 title: Benchmarks for forecasting

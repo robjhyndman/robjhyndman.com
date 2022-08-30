@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-03-25 03:27:57+00:00
 link: https://robjhyndman.com/hyndsight/what-to-cite/
 slug: what-to-cite

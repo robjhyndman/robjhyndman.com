@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-10-22 09:23:52+00:00
 link: https://robjhyndman.com/hyndsight/how-to-avoid-annoying-a-referee/
 slug: how-to-avoid-annoying-a-referee

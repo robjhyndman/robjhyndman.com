@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2008-02-24 16:17:53+00:00
 slug: about
 title: About Hyndsight

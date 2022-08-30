@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-10-17 21:36:33+00:00
 link: https://robjhyndman.com/hyndsight/do-something-else/
 slug: do-something-else

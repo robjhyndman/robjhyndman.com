@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-08-22 03:37:16+00:00
 link: https://robjhyndman.com/hyndsight/biblatex-for-statisticians/
 slug: biblatex-for-statisticians

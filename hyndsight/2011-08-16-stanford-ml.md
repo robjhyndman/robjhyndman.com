@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2011-08-16 06:12:29+00:00
 link: https://robjhyndman.com/hyndsight/stanford-ml/
 slug: stanford-ml

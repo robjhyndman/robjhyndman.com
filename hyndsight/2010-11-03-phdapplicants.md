@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2019-01-25
 slug: phdapplicants
 title: Advice to PhD applicants

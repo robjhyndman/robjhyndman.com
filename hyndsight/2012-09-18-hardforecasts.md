@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2012-09-18 02:15:35+00:00
 link: https://robjhyndman.com/hyndsight/hardforecasts/
 slug: hardforecasts

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-12-09 00:06:52+00:00
 link: https://robjhyndman.com/hyndsight/am-i-a-data-scientist/
 slug: am-i-a-data-scientist

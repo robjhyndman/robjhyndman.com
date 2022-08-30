@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2017-03-30 21:53:14+00:00
 link: https://robjhyndman.com/hyndsight/monash-rmarkdown-templates-on-github/
 slug: monash-rmarkdown-templates-on-github

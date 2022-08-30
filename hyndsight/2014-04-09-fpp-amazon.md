@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-04-09 00:15:44+00:00
 link: https://robjhyndman.com/hyndsight/fpp-amazon/
 slug: fpp-amazon

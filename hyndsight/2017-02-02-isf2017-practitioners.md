@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2017-02-02 23:55:02+00:00
 slug: isf2017-practitioners
 title: Forecasting practitioner talks at ISF 2017

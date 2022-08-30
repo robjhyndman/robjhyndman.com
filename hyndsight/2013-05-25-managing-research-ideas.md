@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2013-05-25 13:14:16+00:00
 link: https://robjhyndman.com/hyndsight/managing-research-ideas/
 slug: managing-research-ideas

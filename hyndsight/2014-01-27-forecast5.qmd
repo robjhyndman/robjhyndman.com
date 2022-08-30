@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-01-27 02:26:52+00:00
 slug: forecast5
 title: New in forecast 5.0

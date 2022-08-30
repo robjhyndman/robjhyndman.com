@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-04-08 22:13:31+00:00
 link: https://robjhyndman.com/hyndsight/help/
 slug: help

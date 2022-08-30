@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-06-09 08:05:53+00:00
 link: https://robjhyndman.com/hyndsight/working-papers/
 slug: working-papers

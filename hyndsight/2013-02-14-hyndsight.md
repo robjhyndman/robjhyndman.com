@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2013-02-14 00:09:37+00:00
 link: https://robjhyndman.com/hyndsight/hyndsight/
 slug: hyndsight

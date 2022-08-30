@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-09-22 06:41:42+00:00
 link: https://robjhyndman.com/hyndsight/upcoming-talks-in-california/
 slug: upcoming-talks-in-california

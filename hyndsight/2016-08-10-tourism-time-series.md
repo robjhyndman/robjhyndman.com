@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2016-08-10 08:12:44+00:00
 link: https://robjhyndman.com/hyndsight/tourism-time-series/
 slug: tourism-time-series

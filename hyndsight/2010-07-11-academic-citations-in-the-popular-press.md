@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-07-11 19:31:18+00:00
 link: https://robjhyndman.com/hyndsight/academic-citations-in-the-popular-press/
 slug: academic-citations-in-the-popular-press

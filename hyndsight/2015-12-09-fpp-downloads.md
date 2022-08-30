@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-12-09 21:27:30+00:00
 link: https://robjhyndman.com/hyndsight/fpp-downloads/
 slug: fpp-downloads

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2016-02-24 22:55:11+00:00
 link: https://robjhyndman.com/hyndsight/omitting-outliers/
 slug: omitting-outliers

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-09-08 10:15:40+00:00
 link: https://robjhyndman.com/hyndsight/tim-harford-on-forecasting/
 slug: tim-harford-on-forecasting

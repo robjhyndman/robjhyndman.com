@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2017-03-18 02:25:27+00:00
 link: https://robjhyndman.com/hyndsight/academic-phishing/
 slug: academic-phishing

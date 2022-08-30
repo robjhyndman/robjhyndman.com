@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-11-13 00:26:03+00:00
 link: https://robjhyndman.com/hyndsight/odi-fellowships/
 slug: odi-fellowships

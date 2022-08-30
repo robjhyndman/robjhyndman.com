@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2012-03-04 22:37:45+00:00
 link: https://robjhyndman.com/hyndsight/data-visualization/
 slug: data-visualization

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-09-29 05:38:51+00:00
 mathjax: true
 link: https://robjhyndman.com/hyndsight/longseasonality/

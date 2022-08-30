@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2012-06-06 00:07:27+00:00
 mathjax: true
 link: https://robjhyndman.com/hyndsight/arimaconstants/

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2012-05-15 10:34:39+00:00
 link: https://robjhyndman.com/hyndsight/blog-aggregators/
 slug: blog-aggregators

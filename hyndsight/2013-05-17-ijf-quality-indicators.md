@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2013-05-17 00:35:16+00:00
 link: https://robjhyndman.com/hyndsight/ijf-quality-indicators/
 slug: ijf-quality-indicators

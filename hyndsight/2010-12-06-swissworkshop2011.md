@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-12-06 08:57:06+00:00
 link: https://robjhyndman.com/hyndsight/swissworkshop2011/
 slug: swissworkshop2011

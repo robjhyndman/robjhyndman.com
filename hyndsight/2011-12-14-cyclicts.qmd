@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2011-12-14 05:22:10+00:00
 mathjax: true
 slug: cyclicts

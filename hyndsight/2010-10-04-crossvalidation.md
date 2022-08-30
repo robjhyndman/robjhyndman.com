@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-10-04 10:21:11+00:00
 mathjax: true
 link: https://robjhyndman.com/hyndsight/crossvalidation/

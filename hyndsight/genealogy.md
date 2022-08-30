@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2009-07-15 00:42:07+00:00
 slug: mathematical-genealogy
 title: Mathematical genealogy
@@ -13,7 +12,6 @@ Having a PhD student is like having a child. I have had many such "children" gra
 Going in the other direction, here is my family tree (or one branch of it), compiled from the [Mathematical Genealogy Project](http://genealogy.math.ndsu.nodak.edu/). Each successive person is the doctoral student of the person before him. (No females here!)
 
 <table>
-<col width=20%><colwidth=80%>
 <tbody>
 <tr>
 <td><img align="top" src="/genealogy/weigel.jpg" width="200" /></td>

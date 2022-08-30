@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2012-08-02 04:13:20+00:00
 link: https://robjhyndman.com/hyndsight/preprints/
 slug: preprints

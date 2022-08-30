@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-09-08 05:36:56+00:00
 link: https://robjhyndman.com/hyndsight/quantile-forecasts-in-r/
 slug: quantile-forecasts-in-r

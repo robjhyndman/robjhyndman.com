@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2016-02-17 05:51:07+00:00
 link: https://robjhyndman.com/hyndsight/electricity-price-forecasting-competition/
 slug: electricity-price-forecasting-competition

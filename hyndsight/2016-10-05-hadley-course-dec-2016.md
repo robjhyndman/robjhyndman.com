@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2016-10-05 19:53:39+00:00
 link: https://robjhyndman.com/hyndsight/hadley-course-dec-2016/
 slug: hadley-course-dec-2016

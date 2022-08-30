@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-04-24 05:41:29+00:00
 link: https://robjhyndman.com/hyndsight/jss-rpackages/
 slug: jss-rpackages

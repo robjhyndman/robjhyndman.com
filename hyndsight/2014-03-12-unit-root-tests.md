@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-03-12 11:22:45+00:00
 link: https://robjhyndman.com/hyndsight/unit-root-tests/
 slug: unit-root-tests

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2012-08-19 23:58:23+00:00
 link: https://robjhyndman.com/hyndsight/flat-forecasts/
 slug: flat-forecasts

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-06-03 01:04:56+00:00
 link: https://robjhyndman.com/hyndsight/show-me-the-evidence/
 slug: show-me-the-evidence

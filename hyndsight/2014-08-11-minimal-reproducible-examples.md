@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-08-11 04:54:39+00:00
 link: https://robjhyndman.com/hyndsight/minimal-reproducible-examples/
 slug: minimal-reproducible-examples

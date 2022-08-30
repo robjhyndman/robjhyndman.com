@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2013-12-22 06:21:24+00:00
 link: https://robjhyndman.com/hyndsight/judgmental-forecasting-experiment/
 slug: judgmental-forecasting-experiment

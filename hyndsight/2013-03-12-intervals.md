@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2013-03-12 22:56:55+00:00
 mathjax: true
 link: https://robjhyndman.com/hyndsight/intervals/

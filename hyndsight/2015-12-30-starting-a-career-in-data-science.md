@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-12-30 04:29:45+00:00
 link: https://robjhyndman.com/hyndsight/starting-a-career-in-data-science/
 slug: starting-a-career-in-data-science

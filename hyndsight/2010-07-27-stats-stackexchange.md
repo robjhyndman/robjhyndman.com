@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-07-27 02:26:39+00:00
 link: https://robjhyndman.com/hyndsight/stats-stackexchange/
 slug: stats-stackexchange

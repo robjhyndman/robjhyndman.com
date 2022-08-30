@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2017-07-30
 slug: forecasting-workshop-perth
 title: Forecasting workshop in Perth

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2016-08-18 00:09:47+00:00
 link: https://robjhyndman.com/hyndsight/eindhoven-course/
 slug: eindhoven-course

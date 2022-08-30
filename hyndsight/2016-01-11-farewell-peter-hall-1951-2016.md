@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2016-01-11 05:12:37+00:00
 link: https://robjhyndman.com/hyndsight/farewell-peter-hall-1951-2016/
 slug: farewell-peter-hall-1951-2016

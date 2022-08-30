@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2016-09-28 15:25:44+00:00
 link: https://robjhyndman.com/hyndsight/cairns-workshops/
 slug: cairns-workshops

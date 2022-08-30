@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-07-17 05:21:41+00:00
 link: https://robjhyndman.com/hyndsight/more-stackexchange-sites/
 slug: more-stackexchange-sites

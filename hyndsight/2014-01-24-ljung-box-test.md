@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-01-24 03:54:34+00:00
 mathjax: true
 link: https://robjhyndman.com/hyndsight/ljung-box-test/

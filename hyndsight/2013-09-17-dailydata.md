@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2013-09-17 00:26:53+00:00
 mathjax: true
 link: https://robjhyndman.com/hyndsight/dailydata/

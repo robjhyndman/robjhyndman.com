@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-02-04 01:06:22+00:00
 link: https://robjhyndman.com/hyndsight/ijf-top-papers/
 slug: ijf-top-papers

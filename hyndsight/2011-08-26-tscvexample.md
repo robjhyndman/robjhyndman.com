@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2011-08-26 05:23:19+00:00
 link: https://robjhyndman.com/hyndsight/tscvexample/
 slug: tscvexample

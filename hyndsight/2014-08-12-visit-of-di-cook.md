@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-08-12 23:28:13+00:00
 link: https://robjhyndman.com/hyndsight/visit-of-di-cook/
 slug: visit-of-di-cook

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2013-05-06 03:34:34+00:00
 link: https://robjhyndman.com/hyndsight/establishing-priority/
 slug: establishing-priority

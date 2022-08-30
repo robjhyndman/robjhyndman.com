@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-03-18 04:55:11+00:00
 link: https://robjhyndman.com/hyndsight/dark-themes-for-writing/
 slug: dark-themes-for-writing

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-01-31 03:06:24+00:00
 link: https://robjhyndman.com/hyndsight/granada-workshop/
 slug: granada-workshop

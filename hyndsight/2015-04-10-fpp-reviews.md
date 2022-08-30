@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-04-10 04:43:14+00:00
 link: https://robjhyndman.com/hyndsight/fpp-reviews/
 slug: fpp-reviews

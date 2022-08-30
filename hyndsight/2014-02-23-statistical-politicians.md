@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-02-23 23:42:05+00:00
 link: https://robjhyndman.com/hyndsight/statistical-politicians/
 slug: statistical-politicians

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2013-01-07 05:13:18+00:00
 link: https://robjhyndman.com/hyndsight/batch-forecasting/
 slug: batch-forecasting

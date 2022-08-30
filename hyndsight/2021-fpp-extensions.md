@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2021-06-18
 title: "Useful extensions for online books"
 slug: fpp-extensions

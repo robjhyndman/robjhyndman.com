@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-05-09 13:10:27+00:00
 link: https://robjhyndman.com/hyndsight/scheduling-meetings/
 slug: scheduling-meetings

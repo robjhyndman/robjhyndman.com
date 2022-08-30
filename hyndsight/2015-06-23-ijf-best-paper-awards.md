@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-06-23 21:32:16+00:00
 link: https://robjhyndman.com/hyndsight/ijf-best-paper-awards/
 slug: ijf-best-paper-awards

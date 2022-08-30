@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-05-23 13:32:32+00:00
 link: https://robjhyndman.com/hyndsight/structural-breaks/
 slug: structural-breaks

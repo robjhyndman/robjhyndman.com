@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-05-08 03:43:23+00:00
 mathjax: true
 link: https://robjhyndman.com/hyndsight/arima-models-with-long-lags/

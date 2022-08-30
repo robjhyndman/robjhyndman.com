@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2017-02-27 22:29:29+00:00
 link: https://robjhyndman.com/hyndsight/invited-sessions-at-isf2017/
 slug: invited-sessions-at-isf2017

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2017-03-01 03:54:34+00:00
 link: https://robjhyndman.com/hyndsight/ijf-nominations1415/
 slug: ijf-nominations1415

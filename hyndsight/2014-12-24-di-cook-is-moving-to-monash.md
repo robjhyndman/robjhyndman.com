@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-12-24 05:29:42+00:00
 slug: di-cook-is-moving-to-monash
 title: Di Cook is moving to Monash

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2012-10-29 01:25:06+00:00
 link: https://robjhyndman.com/hyndsight/ysc2013-funding-support/
 slug: ysc2013-funding-support

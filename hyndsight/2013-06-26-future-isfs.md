@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2013-06-26 07:12:56+00:00
 link: https://robjhyndman.com/hyndsight/future-isfs/
 slug: future-isfs

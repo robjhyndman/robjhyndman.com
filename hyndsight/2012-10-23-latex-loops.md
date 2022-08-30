@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2012-10-23 01:48:47+00:00
 link: https://robjhyndman.com/hyndsight/latex-loops/
 slug: latex-loops

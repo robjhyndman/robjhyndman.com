@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-06-11 01:29:22+00:00
 link: https://robjhyndman.com/hyndsight/beamer-handout/
 slug: beamer-handout

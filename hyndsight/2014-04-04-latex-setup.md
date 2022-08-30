@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-04-04 02:00:38+00:00
 link: https://robjhyndman.com/hyndsight/latex-setup/
 slug: latex-setup

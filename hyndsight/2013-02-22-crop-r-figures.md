@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2013-02-22 00:22:46+00:00
 link: https://robjhyndman.com/hyndsight/crop-r-figures/
 slug: crop-r-figures

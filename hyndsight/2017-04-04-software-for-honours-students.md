@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2017-04-04 23:00:58+00:00
 link: https://robjhyndman.com/hyndsight/software-for-honours-students/
 slug: software-for-honours-students

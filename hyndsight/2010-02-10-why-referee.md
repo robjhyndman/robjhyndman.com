@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-02-10 04:25:16+00:00
 link: https://robjhyndman.com/hyndsight/why-referee/
 slug: why-referee

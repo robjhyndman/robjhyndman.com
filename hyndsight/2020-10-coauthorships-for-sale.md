@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2020-10-20
 title: "Co-authorships for sale"
 slug: coauthorships-for-sale

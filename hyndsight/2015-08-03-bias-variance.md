@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-08-03 07:59:04+00:00
 mathjax: true
 slug: bias-variance

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-08-24 22:53:49+00:00
 slug: forecasting-with-r-in-wa
 title: Forecasting with R in WA

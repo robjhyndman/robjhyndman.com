@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-09-13 10:50:16+00:00
 link: https://robjhyndman.com/hyndsight/finding-reviewers/
 slug: finding-reviewers

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2011-07-21 02:39:42+00:00
 link: https://robjhyndman.com/hyndsight/socialnetworks/
 slug: socialnetworks

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-10-26 08:37:31+00:00
 slug: estimation
 title: Different results from different software

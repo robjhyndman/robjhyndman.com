@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2016-05-12 02:04:00+00:00
 link: https://robjhyndman.com/hyndsight/ssa-jobs-board/
 slug: ssa-jobs-board

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-05-04 12:05:19+00:00
 link: https://robjhyndman.com/hyndsight/monash-business-analytics/
 slug: monash-business-analytics

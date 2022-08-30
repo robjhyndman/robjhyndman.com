@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2012-05-08 13:23:29+00:00
 link: https://robjhyndman.com/hyndsight/seeking-help/
 slug: seeking-help

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2012-01-20 02:50:56+00:00
 link: https://robjhyndman.com/hyndsight/refereeing2/
 slug: refereeing2

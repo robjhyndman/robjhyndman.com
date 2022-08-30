@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-03-01 06:08:49+00:00
 link: https://robjhyndman.com/hyndsight/long-time-series/
 slug: long-time-series

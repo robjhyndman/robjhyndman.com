@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2011-08-24 04:09:22+00:00
 link: https://robjhyndman.com/hyndsight/crowd-sourcing-forecasts/
 slug: crowd-sourcing-forecasts

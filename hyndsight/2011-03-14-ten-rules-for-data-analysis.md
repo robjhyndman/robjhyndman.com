@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2011-03-14 23:06:53+00:00
 link: https://robjhyndman.com/hyndsight/ten-rules-for-data-analysis/
 slug: ten-rules-for-data-analysis

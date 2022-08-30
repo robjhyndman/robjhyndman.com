@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2012-01-31 01:22:09+00:00
 link: https://robjhyndman.com/hyndsight/googlescholar2/
 slug: googlescholar2

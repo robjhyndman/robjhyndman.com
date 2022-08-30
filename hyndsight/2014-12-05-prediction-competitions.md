@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-12-05 12:05:33+00:00
 link: https://robjhyndman.com/hyndsight/prediction-competitions/
 slug: prediction-competitions

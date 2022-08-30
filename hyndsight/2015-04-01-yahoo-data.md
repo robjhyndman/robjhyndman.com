@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-04-01 02:33:44+00:00
 link: https://robjhyndman.com/hyndsight/yahoo-data/
 slug: yahoo-data

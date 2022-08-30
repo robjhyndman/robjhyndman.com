@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2012-02-16 00:25:25+00:00
 link: https://robjhyndman.com/hyndsight/mailing-lists/
 slug: mailing-lists

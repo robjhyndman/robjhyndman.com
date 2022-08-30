@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2011-12-23 04:39:02+00:00
 link: https://robjhyndman.com/hyndsight/bostonglobe/
 slug: bostonglobe

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2011-11-28 23:08:53+00:00
 link: https://robjhyndman.com/hyndsight/kaggle-on-tv/
 slug: kaggle-on-tv

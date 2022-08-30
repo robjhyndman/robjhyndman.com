@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-07-15 23:49:00+00:00
 link: https://robjhyndman.com/hyndsight/rolling-forecasts/
 slug: rolling-forecasts

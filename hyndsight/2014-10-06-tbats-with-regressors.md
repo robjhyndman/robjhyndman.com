@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-10-06 00:57:49+00:00
 link: https://robjhyndman.com/hyndsight/tbats-with-regressors/
 slug: tbats-with-regressors

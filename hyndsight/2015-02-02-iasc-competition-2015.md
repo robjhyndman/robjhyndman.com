@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-02-02 10:01:26+00:00
 link: https://robjhyndman.com/hyndsight/iasc-competition-2015/
 slug: iasc-competition-2015

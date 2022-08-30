@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-03-10 04:02:25+00:00
 link: https://robjhyndman.com/hyndsight/old-r-packages/
 slug: old-r-packages

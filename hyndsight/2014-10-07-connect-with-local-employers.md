@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-10-07 23:07:25+00:00
 link: https://robjhyndman.com/hyndsight/connect-with-local-employers/
 slug: connect-with-local-employers

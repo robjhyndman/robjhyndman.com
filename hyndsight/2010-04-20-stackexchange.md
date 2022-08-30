@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-04-20 08:37:43+00:00
 link: https://robjhyndman.com/hyndsight/stackexchange/
 slug: stackexchange

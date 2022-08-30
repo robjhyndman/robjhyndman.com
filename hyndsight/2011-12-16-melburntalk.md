@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2011-12-16 02:30:30+00:00
 link: https://robjhyndman.com/hyndsight/melburntalk/
 slug: melburntalk

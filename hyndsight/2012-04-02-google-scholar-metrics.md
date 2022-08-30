@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2012-04-02 02:45:30+00:00
 link: https://robjhyndman.com/hyndsight/google-scholar-metrics/
 slug: google-scholar-metrics

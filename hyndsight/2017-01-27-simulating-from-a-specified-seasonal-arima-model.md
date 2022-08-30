@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2017-01-27 05:13:22+00:00
 link: https://robjhyndman.com/hyndsight/simulating-from-a-specified-seasonal-arima-model/
 slug: simulating-from-a-specified-seasonal-arima-model

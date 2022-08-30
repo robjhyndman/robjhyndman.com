@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-09-24 06:42:36+00:00
 link: https://robjhyndman.com/hyndsight/chinese-r-conference/
 slug: chinese-r-conference

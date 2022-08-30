@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-12-11 05:36:02+00:00
 link: https://robjhyndman.com/hyndsight/rstudio-just-keeps-getting-better/
 slug: rstudio-just-keeps-getting-better

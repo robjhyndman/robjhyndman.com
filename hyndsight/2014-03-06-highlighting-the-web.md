@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-03-06 01:29:06+00:00
 link: https://robjhyndman.com/hyndsight/highlighting-the-web/
 slug: highlighting-the-web

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2016-09-27 08:34:26+00:00
 link: https://robjhyndman.com/hyndsight/eindhoven-seminar/
 slug: eindhoven-seminar

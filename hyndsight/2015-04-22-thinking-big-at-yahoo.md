@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-04-22 23:16:50+00:00
 link: https://robjhyndman.com/hyndsight/thinking-big-at-yahoo/
 slug: thinking-big-at-yahoo

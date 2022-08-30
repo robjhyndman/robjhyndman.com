@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-04-22 07:23:45+00:00
 link: https://robjhyndman.com/hyndsight/travelling-thilaksha/
 slug: travelling-thilaksha

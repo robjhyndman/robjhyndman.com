@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-11-27 02:33:46+00:00
 link: https://robjhyndman.com/hyndsight/hmd-australia/
 slug: hmd-australia

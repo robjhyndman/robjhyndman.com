@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2012-02-28 10:15:03+00:00
 link: https://robjhyndman.com/hyndsight/ets-regressors/
 slug: ets-regressors

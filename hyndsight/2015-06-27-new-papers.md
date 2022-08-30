@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-06-27 05:22:17+00:00
 link: https://robjhyndman.com/hyndsight/new-papers/
 slug: new-papers

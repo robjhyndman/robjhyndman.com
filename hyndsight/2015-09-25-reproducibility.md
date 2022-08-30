@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-09-25 07:31:05+00:00
 link: https://robjhyndman.com/hyndsight/reproducibility/
 slug: reproducibility

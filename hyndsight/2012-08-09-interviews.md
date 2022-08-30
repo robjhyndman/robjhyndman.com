@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2012-08-09 12:57:05+00:00
 link: https://robjhyndman.com/hyndsight/interviews/
 slug: interviews

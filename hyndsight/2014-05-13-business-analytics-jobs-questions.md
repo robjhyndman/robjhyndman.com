@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-05-13 02:27:33+00:00
 link: https://robjhyndman.com/hyndsight/business-analytics-jobs-questions/
 slug: business-analytics-jobs-questions

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2016-01-28 11:48:43+00:00
 link: https://robjhyndman.com/hyndsight/whats-your-hall-number/
 slug: whats-your-hall-number

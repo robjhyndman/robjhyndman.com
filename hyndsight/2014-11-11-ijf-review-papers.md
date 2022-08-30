@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-11-11 23:50:32+00:00
 link: https://robjhyndman.com/hyndsight/ijf-review-papers/
 slug: ijf-review-papers

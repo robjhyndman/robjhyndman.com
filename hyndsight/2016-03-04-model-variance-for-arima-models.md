@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2016-03-04 11:15:19+00:00
 link: https://robjhyndman.com/hyndsight/model-variance-for-arima-models/
 slug: model-variance-for-arima-models

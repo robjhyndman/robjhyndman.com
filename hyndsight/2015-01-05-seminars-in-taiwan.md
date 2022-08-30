@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-01-05 09:33:04+00:00
 link: https://robjhyndman.com/hyndsight/seminars-in-taiwan/
 slug: seminars-in-taiwan

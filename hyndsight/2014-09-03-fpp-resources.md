@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-09-03 01:59:28+00:00
 link: https://robjhyndman.com/hyndsight/fpp-resources/
 slug: fpp-resources

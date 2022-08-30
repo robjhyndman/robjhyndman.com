@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2013-07-10 21:58:55+00:00
 link: https://robjhyndman.com/hyndsight/questions/
 slug: questions

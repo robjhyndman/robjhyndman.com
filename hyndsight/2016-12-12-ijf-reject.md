@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2016-12-12 02:15:50+00:00
 link: https://robjhyndman.com/hyndsight/ijf-reject/
 slug: ijf-reject

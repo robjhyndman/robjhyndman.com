@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2017-02-15 00:40:19+00:00
 link: https://robjhyndman.com/hyndsight/ausmacrodata/
 slug: ausmacrodata

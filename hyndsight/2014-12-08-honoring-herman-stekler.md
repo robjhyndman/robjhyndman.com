@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-12-08 00:11:59+00:00
 link: https://robjhyndman.com/hyndsight/honoring-herman-stekler/
 slug: honoring-herman-stekler

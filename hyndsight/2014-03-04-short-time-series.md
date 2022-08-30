@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-03-04 02:20:22+00:00
 slug: short-time-series
 title: Fitting models to short time series

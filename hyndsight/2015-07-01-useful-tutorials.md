@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-07-01 03:28:18+00:00
 link: https://robjhyndman.com/hyndsight/useful-tutorials/
 slug: useful-tutorials

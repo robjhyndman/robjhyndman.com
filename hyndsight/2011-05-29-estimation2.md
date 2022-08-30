@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2011-05-29 07:02:01+00:00
 link: https://robjhyndman.com/hyndsight/estimation2/
 slug: estimation2

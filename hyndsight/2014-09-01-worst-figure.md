@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-09-01 05:03:22+00:00
 link: https://robjhyndman.com/hyndsight/worst-figure/
 slug: worst-figure

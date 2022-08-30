@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2016-10-12 08:00:47+00:00
 link: https://robjhyndman.com/hyndsight/unimelb-prof-datascience/
 slug: unimelb-prof-datascience

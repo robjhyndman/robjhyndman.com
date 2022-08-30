@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-05-26 06:14:39+00:00
 link: https://robjhyndman.com/hyndsight/google-scholar-alerts/
 slug: google-scholar-alerts

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-03-17 10:08:42+00:00
 mathjax: true
 slug: loocv-linear-models

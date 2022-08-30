@@ -264,3 +264,11 @@ a.badge.badge-green {
 .quarto-listing-category.category-cloud {
   font-family: 'Fira Sans', 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
+
+.figure-caption {
+  color: var(--darkgray);
+  background-color: var(--lightgray);
+  padding-left: 20px;
+  font-size: 12pt;
+  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

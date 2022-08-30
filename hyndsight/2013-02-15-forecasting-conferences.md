@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2013-02-15 01:17:41+00:00
 link: https://robjhyndman.com/hyndsight/forecasting-conferences/
 slug: forecasting-conferences

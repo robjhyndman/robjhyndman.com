@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2011-01-14 07:48:36+00:00
 link: https://robjhyndman.com/hyndsight/lewandowsky/
 slug: lewandowsky

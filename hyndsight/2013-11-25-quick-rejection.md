@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2013-11-25 01:20:04+00:00
 link: https://robjhyndman.com/hyndsight/quick-rejection/
 slug: quick-rejection

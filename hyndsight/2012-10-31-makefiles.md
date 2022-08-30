@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2012-10-31 02:49:48+00:00
 link: https://robjhyndman.com/hyndsight/makefiles/
 slug: makefiles

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-04-09 02:42:40+00:00
 link: https://robjhyndman.com/hyndsight/paperpile/
 slug: paperpile

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-10-31 02:13:54+00:00
 link: https://robjhyndman.com/hyndsight/jobs-at-amazon/
 slug: jobs-at-amazon

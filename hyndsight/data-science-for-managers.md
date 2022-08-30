@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2017-12-05
 slug: data-science-for-managers
 title: 'Data Science for Managers: May 2018'

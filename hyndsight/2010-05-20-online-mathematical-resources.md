@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-05-20 12:10:00+00:00
 link: https://robjhyndman.com/hyndsight/online-mathematical-resources/
 slug: online-mathematical-resources

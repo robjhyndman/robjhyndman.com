@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-02-09 22:45:34+00:00
 link: https://robjhyndman.com/hyndsight/ijf-change-of-editors/
 slug: ijf-change-of-editors

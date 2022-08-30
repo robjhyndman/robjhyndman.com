@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-02-05 00:00:22+00:00
 link: https://robjhyndman.com/hyndsight/cos-interview/
 slug: cos-interview

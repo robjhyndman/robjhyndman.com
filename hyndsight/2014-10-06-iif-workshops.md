@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-10-06 22:57:53+00:00
 link: https://robjhyndman.com/hyndsight/iif-workshops/
 slug: iif-workshops

@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2015-11-29 23:22:00+00:00
 slug: oss-benefits
 title: The hidden benefits of open-source software

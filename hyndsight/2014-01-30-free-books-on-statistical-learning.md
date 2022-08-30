@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-01-30 01:51:07+00:00
 link: https://robjhyndman.com/hyndsight/free-books-on-statistical-learning/
 slug: free-books-on-statistical-learning

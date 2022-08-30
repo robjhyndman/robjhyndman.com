@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2010-02-10 04:06:38+00:00
 link: https://robjhyndman.com/hyndsight/referee-reports/
 slug: referee-reports

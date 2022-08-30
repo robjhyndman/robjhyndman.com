@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2014-05-26 02:42:44+00:00
 link: https://robjhyndman.com/hyndsight/marketplaces/
 slug: marketplaces

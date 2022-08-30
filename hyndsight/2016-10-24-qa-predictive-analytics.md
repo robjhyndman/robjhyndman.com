@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2016-10-24 12:00:25+00:00
 link: https://robjhyndman.com/hyndsight/qa-predictive-analytics/
 slug: qa-predictive-analytics

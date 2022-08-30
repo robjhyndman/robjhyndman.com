@@ -1,5 +1,4 @@
 ---
-author: robjhyndman
 date: 2011-07-25 12:01:06+00:00
 link: https://robjhyndman.com/hyndsight/surveypapers/
 slug: surveypapers
