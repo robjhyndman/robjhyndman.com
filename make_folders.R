@@ -29,7 +29,7 @@ move_files <- function(folder, extension) {
 
 move_files("seminars","md")
 move_files("publications","md")
-move_files("hyndsight", "md")
+#move_files("hyndsight", "md")
 
 
 clean_yaml <- function(folder) {

@@ -5,7 +5,7 @@ listing:
   contents: .
   sort: "date desc"
   type: default
-  categories: true
+  categories: cloud
   sort-ui: true
   filter-ui: true
 page-layout: full
