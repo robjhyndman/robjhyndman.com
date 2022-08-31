@@ -2,7 +2,6 @@
 date: 2018-07-14
 slug: tslm-decomposition
 title: "Seasonal decomposition of short time series"
-mathjax: true
 categories:
   - seasonality
   - time series

@@ -79,6 +79,7 @@ clean_yaml <- function(folder) {
       contents <- remove_yaml_field(contents, "wordpress")
       contents <- remove_yaml_field(contents, "author")
       contents <- remove_yaml_field(contents, "comments")
+      contents <- remove_yaml_field(contents, "mathjax")
       # Write file
       if(!identical(contents, oldcontents)) {
         write_lines(contents, files[i])

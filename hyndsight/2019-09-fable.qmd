@@ -2,7 +2,6 @@
 date: 2019-09-29
 title: "Tidy forecasting in R"
 slug: fable
-mathjax: true
 categories:
 - time series
 - graphics

@@ -2,7 +2,6 @@
 date: 2018-08-06
 slug: natsciweek2018
 title: "National Science Week Melbourne Mathematics Activities"
-mathjax: true
 categories:
   - seminars
   - acems

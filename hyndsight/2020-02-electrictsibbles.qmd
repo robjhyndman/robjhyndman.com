@@ -2,7 +2,6 @@
 date: 2020-02-07
 title: "Electricity demand data in tsibble format"
 slug: electrictsibbles
-mathjax: true
 categories:
   - time series
   - statistics
@@ -98,7 +97,7 @@ This data set contains half-hourly data from all states from 1 January 2002 - 1 
 The [Global Energy Forecasting Competition in 2017](http://www.drhongtao.com/gefcom/2017) involved data on hourly zonal loads of ISO New England from March 2003 to April 2017. The data have already been packaged into tibble format by Cameron Roach in the [gefcom2017data Github repository](https://github.com/camroach87/gefcom2017data). So it is relatively easy to convert this to a tsibble.
 
 ```{r gefcom2017, message=FALSE, warning=FALSE}
-devtools::install_github("camroach87/gefcom2017data")
+#devtools::install_github("camroach87/gefcom2017data")
 library(gefcom2017data)
 gefcom2017 <- gefcom %>% 
   ungroup() %>%

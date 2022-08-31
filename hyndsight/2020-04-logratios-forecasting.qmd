@@ -2,7 +2,6 @@
 date: 2020-04-05
 title: "Why log ratios are useful for tracking COVID-19"
 slug: logratios-covid19
-mathjax: true
 categories:
   - time series
   - statistics
@@ -33,7 +32,7 @@ library(tidycovid19)
 #  filter(date <= as.Date("2020-04-05"))
 #updates$timestamp <- "2020-04-04 17:49:31 AEDT"
 #saveRDS(updates, file="static/data/tidycovid.rds")
-updates <- readRDS("../../static/data/tidycovid.rds")
+updates <- readRDS(here::here("data/tidycovid.rds"))
 ```
 
 ```{r ft, eval=FALSE}
@@ -124,4 +123,3 @@ I've added axes that are a little more interpretable than log-ratios. On the lef
 While the graph doesn't tell us anything about how the disaster is overwhelming the health systems of each country (the cumulative case graph at the top of this post is best for that), it does tell us how well each country is managing to slow the rate of infection and reduce the slope of those curves. It is also much easier to compare the slopes this way, because we just have to look to see which country is higher.
 
 In a country like Italy where the hospitals are already overwhelmed with cases, any continuing daily increase is much more serious than in Australia and New Zealand where the numbers of cases are still relatively low compared to much of Europe and the US. For Australia and New Zealand, if we can keep the daily increases where they currently are, we can help spread the load on the health system and save lives.
-

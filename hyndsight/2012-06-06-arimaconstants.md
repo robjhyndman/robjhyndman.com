@@ -1,6 +1,5 @@
 ---
 date: 2012-06-06 00:07:27+00:00
-mathjax: true
 link: https://robjhyndman.com/hyndsight/arimaconstants/
 slug: arimaconstants
 title: Constants and ARIMA models in R

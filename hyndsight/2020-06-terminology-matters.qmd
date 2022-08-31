@@ -2,7 +2,6 @@
 date: 2020-06-26
 title: "Terminology matters"
 slug: terminology-matters
-mathjax: true
 categories:
   - time series
   - statistics

@@ -2,7 +2,6 @@
 date: 2018-12-12
 slug: ftsviz
 title: "Using ggplot2 for functional time series"
-mathjax: true
 categories:
   - time series
   - R
@@ -55,10 +54,14 @@ frmort %>%
 
 Another plot that has proved popular is to animate this rainbow plot by mapping year to animation time. With the new [`gganimate`](https://github.com/thomasp85/gganimate) package, that is as easy as adding a few more lines to the end of the above code.
 
-```{r frenchanimation, message=FALSE, warning=FALSE, fig.width=7}
+```{r frenchanimation}
+#| eval: true
+#| message: false
+#| warning: false
+#| fig-width: 7
 # This requires the transformr package to be installed as well.
 library(gganimate)
-frmort %>%
+p <- frmort %>%
   filter(year > 1900) %>%
   ggplot(aes(x = age, y = mortrate, group = year, col = year)) +
     geom_line() +
@@ -70,6 +73,7 @@ frmort %>%
     ease_aes('linear') +
     shadow_mark(colour = "grey70") +
     labs(title = 'Year: {frame_time}')
+print(p)
 ```
 
 Another way of looking at the data is using an image map. Again, this is extremely easy using ggplot2.

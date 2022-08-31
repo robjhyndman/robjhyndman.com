@@ -1,6 +1,5 @@
 ---
 date: 2015-07-16 07:57:46+00:00
-mathjax: true
 slug: murphy-diagrams
 title: Murphy diagrams in R
 categories:

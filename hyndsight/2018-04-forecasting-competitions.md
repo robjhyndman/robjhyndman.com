@@ -2,7 +2,6 @@
 date: 2018-04-11
 slug: forecasting-competitions
 title: "A brief history of time series forecasting competitions"
-mathjax: true
 categories:
   - forecasting
   - reproducible research

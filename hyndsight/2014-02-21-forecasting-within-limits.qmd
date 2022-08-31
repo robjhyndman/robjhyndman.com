@@ -1,6 +1,5 @@
 ---
 date: 2014-02-21 10:36:14+00:00
-mathjax: true
 link: https://robjhyndman.com/hyndsight/forecasting-within-limits/
 slug: forecasting-within-limits
 title: Forecasting within limits

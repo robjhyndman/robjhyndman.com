@@ -2,7 +2,6 @@
 date: 2018-04-23
 slug: forecasting-nyc-2018
 title: "Forecasting in NYC: 25-27 June 2018"
-mathjax: true
 categories:
   - forecasting
   - time series

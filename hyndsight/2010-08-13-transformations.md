@@ -1,6 +1,5 @@
 ---
 date: 2010-08-13 04:22:21+00:00
-mathjax: true
 link: https://robjhyndman.com/hyndsight/transformations/
 slug: transformations
 title: Transforming data with zeros

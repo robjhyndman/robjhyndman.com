@@ -2,7 +2,6 @@
 date: 2018-08-03
 slug: ts2csv
 title: "Saving ts objects as csv files"
-mathjax: true
 categories:
   - time series
   - R

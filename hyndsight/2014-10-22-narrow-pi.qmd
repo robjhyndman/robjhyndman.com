@@ -1,6 +1,5 @@
 ---
 date: 2014-10-22 05:25:12+00:00
-mathjax: true
 link: https://robjhyndman.com/hyndsight/narrow-pi/
 slug: narrow-pi
 title: Prediction intervals too narrow

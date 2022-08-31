@@ -1,6 +1,5 @@
 ---
 date: 2014-03-12 22:24:29+00:00
-mathjax: true
 link: https://robjhyndman.com/hyndsight/arima-trends/
 slug: arima-trends
 title: Testing for trend in ARIMA models

@@ -1,6 +1,5 @@
 ---
 date: 2016-09-09 10:01:03+00:00
-mathjax: true
 link: https://robjhyndman.com/hyndsight/forecast-v7-2/
 slug: forecast-v7-2
 title: R package forecast v7.2 now on CRAN

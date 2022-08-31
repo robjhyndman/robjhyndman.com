@@ -2,7 +2,6 @@
 date: 2018-04-14
 slug: forecast83
 title: "forecast v8.3 now on CRAN"
-mathjax: true
 categories:
   - forecasting
   - time series

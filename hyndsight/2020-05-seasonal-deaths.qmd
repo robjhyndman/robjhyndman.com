@@ -1,12 +1,9 @@
 ---
-author: robjhyndman
-comments: true
 date: 2020-05-24
 title: "Seasonal mortality rates"
 slug: seasonal-mortality-rates
 aliases:
   - /hyndsight/2020-05-seasonal-deaths
-mathjax: true
 categories:
   - time series
   - statistics
@@ -38,7 +35,7 @@ We will first grab the latest data, using similar code to what I used in my rece
 
 ```{r hiddenfilter, include=FALSE, eval=TRUE}
 # Load data locally for reproducibility
-stmf <- readRDS("../../static/data/stmf.rds")
+stmf <- readRDS(here::here("data/stmf.rds"))
 ```
 
 ```{r download, eval=FALSE}

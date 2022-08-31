@@ -1,6 +1,5 @@
 ---
 date: 2014-11-05 04:56:58+00:00
-mathjax: true
 link: https://robjhyndman.com/hyndsight/abs-seasonal-adjustment-3/
 slug: abs-seasonal-adjustment-3
 title: ABS seasonal adjustment update

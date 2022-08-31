@@ -2,7 +2,6 @@
 date: 2017-12-22
 slug: m4competition
 title: "M4 Forecasting Competition update"
-mathjax: true
 categories:
   - forecasting
   - R

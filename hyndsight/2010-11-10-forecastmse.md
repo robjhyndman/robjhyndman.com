@@ -1,6 +1,5 @@
 ---
 date: 2010-11-10 00:22:50+00:00
-mathjax: true
 link: https://robjhyndman.com/hyndsight/forecastmse/
 slug: forecastmse
 title: Forecast estimation, evaluation and transformation

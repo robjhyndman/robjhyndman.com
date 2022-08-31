@@ -2,7 +2,6 @@
 date: 2018-04-23
 slug: upcoming-talks-2018
 title: "Upcoming talks: May-July 2018"
-mathjax: true
 categories:
   - forecasting
   - time series

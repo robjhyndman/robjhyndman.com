@@ -1,7 +1,6 @@
 ---
 date: 2019-09-16
 slug: fbtsa
-mathjax: true
 title: "Feature-based time series analysis"
 categories:
 - time series

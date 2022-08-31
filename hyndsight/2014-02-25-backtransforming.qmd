@@ -1,6 +1,5 @@
 ---
 date: 2014-02-25 03:45:52+00:00
-mathjax: true
 link: https://robjhyndman.com/hyndsight/backtransforming/
 slug: backtransforming
 title: The forecast mean after back-transformation

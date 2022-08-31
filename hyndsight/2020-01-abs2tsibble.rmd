@@ -1,10 +1,7 @@
 ---
-author: robjhyndman
-comments: true
 date: 2020-01-24
 title: "ABS time series as tsibbles"
 slug: abs2tsibble
-mathjax: true
 categories:
   - time series
   - statistics

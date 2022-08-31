@@ -1,6 +1,5 @@
 ---
 date: 2014-04-06 00:04:36+00:00
-mathjax: true
 link: https://robjhyndman.com/hyndsight/interpreting-noise/
 slug: interpreting-noise
 title: Interpreting noise

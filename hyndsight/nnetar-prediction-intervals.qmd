@@ -2,7 +2,6 @@
 date: 2017-05-25
 slug: nnetar-prediction-intervals
 title: Prediction intervals for NNETAR models
-mathjax: true
 categories:
 - forecasting
 - R

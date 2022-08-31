@@ -2,7 +2,6 @@
 date: 2020-10-26
 title: "Call for papers: Innovations in hierarchical forecasting"
 slug: ijf-hierarchical
-mathjax: false
 categories:
   - research
   - ijf

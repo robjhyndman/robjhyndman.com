@@ -1,6 +1,5 @@
 ---
 date: 2010-11-30 03:09:46+00:00
-mathjax: true
 link: https://robjhyndman.com/hyndsight/hw-initialization/
 slug: hw-initialization
 title: Initializing the Holt-Winters method

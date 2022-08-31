@@ -1,6 +1,5 @@
 ---
 date: 2014-03-04 23:57:02+00:00
-mathjax: true
 slug: forecasting-weekly-data
 title: Forecasting weekly data
 categories:

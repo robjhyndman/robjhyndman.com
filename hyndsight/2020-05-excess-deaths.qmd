@@ -1,10 +1,7 @@
 ---
-author: robjhyndman
-comments: true
 date: 2020-05-21
 title: "Excess deaths for 2020"
 slug: excess-deaths
-mathjax: true
 categories:
   - time series
   - statistics
@@ -37,7 +34,7 @@ library(ggplot2)
 # Load data locally for reproducibility
 #stmf <- readr::read_csv("https://www.mortality.org/Public/STMF/Outputs/stmf.csv", skip=1)
 #saveRDS(stmf, file="static/data/stmf.rds")
-stmf <- readRDS("../../static/data/stmf.rds")
+stmf <- readRDS(here::here("data/stmf.rds"))
 ```
 
 ```{r download, eval=FALSE}
