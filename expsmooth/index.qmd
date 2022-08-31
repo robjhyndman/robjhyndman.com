@@ -105,7 +105,7 @@ p76, line4-
 
 p85
 : For the ETS(M,A<sub>d</sub>,M) model, $\boldsymbol{w}_1 = [1 ~ \phi]^\prime$  and the matrix $\boldsymbol{G}_1 = \left[\begin{array}{ll}
-\alpha & \alpha\phi \\\\ \beta & \beta\phi\end{array}\right]$.
+\alpha & \alpha\phi \\ \beta & \beta\phi\end{array}\right]$.
 
 p90
 : last line: the last term should be just $\varepsilon_{n+j}$ not $\varepsilon q_{n+j}$
@@ -116,7 +116,7 @@ p92
 
 p102
 : For the ETS(M,A<sub>d</sub>,M) model, $\boldsymbol{w}_1 = [1 ~ \phi]^\prime$ and the matrix $\boldsymbol{G}_1 = \left[\begin{array}{ll}
-\alpha & \alpha\phi \\\\ \beta & \beta\phi\end{array}\right]$.
+\alpha & \alpha\phi \\ \beta & \beta\phi\end{array}\right]$.
 
 p108: heading 7.2.1
 : Change "Section" to "Selection".
@@ -129,7 +129,7 @@ p118: line 4
 
 p150
 : In the ETS(A,A<sub>d</sub>,N) model, $\boldsymbol{w} = [1 ~ \phi]^\prime$ and $\boldsymbol{F} = \left[\begin{array}{ll}
-1 & \phi \\\\
+1 & \phi \\
 0 & \phi
 \end{array}\right]$. Similarly, in the ETS(A,A<sub>d</sub>,A) model, the second element of $\boldsymbol{w}$ should be $\phi$ and the second element of the top row of $\boldsymbol{F}$ should be $\phi$.
 

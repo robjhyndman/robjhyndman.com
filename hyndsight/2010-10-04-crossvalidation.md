@@ -17,9 +17,9 @@ One way to measure the predictive ability of a model is to test it on a set of d
 
 However, there is often not enough data to allow some of it to be kept back for testing. A more sophisticated version of training/​test sets is **leave-one-out cross-​​validation** (LOOCV) in which the accuracy measures are obtained as follows. Suppose there are $n$ independent observations, $y_1,\dots,y_n$.
 
-  1. Let observation $i$ form the test set, and fit the model using the remaining data. Then compute the error $(e\_{i}^*=y\_{i}-\hat{y}\_{i})$ for the omitted observation. This is sometimes called a "predicted residual" to distinguish it from an ordinary residual.
+  1. Let observation $i$ form the test set, and fit the model using the remaining data. Then compute the error $(e_{i}^*=y_{i}-\hat{y}_{i})$ for the omitted observation. This is sometimes called a "predicted residual" to distinguish it from an ordinary residual.
   2. Repeat step 1 for $i=1,\dots,n$.
-  3. Compute the MSE from $e\_{1}^\*,\dots,e\_{n}^\*$. We shall call this the CV.
+  3. Compute the MSE from $e_{1}^\*,\dots,e_{n}^\*$. We shall call this the CV.
 
 This is a much more efficient use of the available data, as you only omit one observation at each step. However, it can be very time consuming to implement (except for linear models --- see below).
 
@@ -57,9 +57,9 @@ $$
 $$
 where $\mathbf{H} = \mathbf{X}(\mathbf{X}'\mathbf{X})^{-1}\mathbf{X}'$ is known as the "hat-matrix" because it is used to compute $\mathbf{\hat{Y}}$ ("Y-hat").
 
-If the diagonal values of $\mathbf{H}$ are denoted by $h\_{1},\dots,h\_{n}$, then the cross-validation statistic can be computed using
+If the diagonal values of $\mathbf{H}$ are denoted by $h_{1},\dots,h_{n}$, then the cross-validation statistic can be computed using
 $$
-\text{CV} = \frac{1}{n}\sum\_{i=1}^n [e\_{i}/(1-h\_{i})]^2,
+\text{CV} = \frac{1}{n}\sum_{i=1}^n [e_{i}/(1-h_{i})]^2,
 $$
 where $e_{i}$ is the residual obtained from fitting the model to all $n$ observations. See Christensen's book [Plane Answers to Complex Questions](http://www.amazon.com/gp/product/0387953612?ie=UTF8&tag=prorobjhyn-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0387953612) for a proof. Thus, it is not necessary to actually fit $n$ separate models when computing the CV statistic for linear models. This remarkable result allows cross-validation to be used while only fitting the model once to all available observations.
 
@@ -113,9 +113,9 @@ Many statisticians like to use BIC because it is consistent --- if there is a tr
 
 When the data are not independent cross-validation becomes more difficult as leaving out an observation does not remove all the associated information due to the correlations with other observations. For time series forecasting, a cross-validation statistic is obtained as follows
    
-  1. Fit the model to the data $y\_1,\dots,y\_t$ and let $\hat{y}\_{t+1}$ denote the forecast of the next observation. Then compute the error $(e\_{t+1}^*=y\_{t+1}-\hat{y}\_{t+1})$ for the forecast observation.
+  1. Fit the model to the data $y_1,\dots,y_t$ and let $\hat{y}_{t+1}$ denote the forecast of the next observation. Then compute the error $(e_{t+1}^*=y_{t+1}-\hat{y}_{t+1})$ for the forecast observation.
   2. Repeat step 1 for $t=m,\dots,n-1$ where $m$ is the minimum number of observations needed for fitting the model.
-  3. Compute the MSE from $e\_{m+1}^\*,\dots,e\_{n}^\*$.
+  3. Compute the MSE from $e_{m+1}^\*,\dots,e_{n}^\*$.
 
 
 

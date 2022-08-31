@@ -11,7 +11,7 @@ categories:
 
 The Holt-Winters method is a popular and effective approach to forecasting seasonal time series. But different implementations will give different forecasts, depending on how the method is initialized and how the smoothing parameters are selected. In this post I will discuss various initialization methods.
 
-Suppose the time series is denoted by $y\_1,\dots,y\_n$ and the seasonal period is $m$ (e.g., $m=12$ for monthly data). Let $\hat{y}\_{t+h|t}$ be the $h$-step forecast made using data to time $t$. Then the additive formulation of Holt-Winters' method is given by the following equations
+Suppose the time series is denoted by $y_1,\dots,y_n$ and the seasonal period is $m$ (e.g., $m=12$ for monthly data). Let $\hat{y}_{t+h|t}$ be the $h$-step forecast made using data to time $t$. Then the additive formulation of Holt-Winters' method is given by the following equations
 
 <div>
 \begin{align}
@@ -52,9 +52,9 @@ $$
 $$
 </div>
 
-Then, for additive seasonality set $s\_i=y\_i-\ell\_m$ and for multiplicative seasonality set $s\_i=y\_i/\ell\_m$, where $i=1,\dots,m$. This works pretty well, and is easy to implement, but for short and noisy series it can give occasional dodgy results. It also has the disadvantage of providing state estimates for period $m$, so that the first forecast is for period $m+1$ rather than period 1.
+Then, for additive seasonality set $s_i=y_i-\ell_m$ and for multiplicative seasonality set $s_i=y_i/\ell_m$, where $i=1,\dots,m$. This works pretty well, and is easy to implement, but for short and noisy series it can give occasional dodgy results. It also has the disadvantage of providing state estimates for period $m$, so that the first forecast is for period $m+1$ rather than period 1.
 
-In some books (e.g., [Bowerman, O'Connell and Koehler, 2005](http://www.amazon.com/gp/product/0534409776?ie=UTF8&tag=prorobjhyn-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0534409776)), a regression-based procedure is used instead. They suggest fitting a regression with linear trend to the first few years of data (usually 3 or 4 years are used). Then the initial level $\ell\_0$ is set to the intercept, and the initial slope $b\_0$ is set to the regression slope. The initial seasonal values $s\_{-m+1},\dots,s\_0$ are computed from the detrended data. This is a very poor method that should not be used as the trend will be biased by the seasonal pattern. Imagine a seasonal pattern, for example, where the last period of the year is always the largest value for the year. Then the trend will be biased upwards. Unfortunately, Bowerman, O'Connell and Koehler (2005) are not alone in recommending bad methods. I've seen similar, and worse, procedures recommended in other books.
+In some books (e.g., [Bowerman, O'Connell and Koehler, 2005](http://www.amazon.com/gp/product/0534409776?ie=UTF8&tag=prorobjhyn-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0534409776)), a regression-based procedure is used instead. They suggest fitting a regression with linear trend to the first few years of data (usually 3 or 4 years are used). Then the initial level $\ell_0$ is set to the intercept, and the initial slope $b_0$ is set to the regression slope. The initial seasonal values $s_{-m+1},\dots,s_0$ are computed from the detrended data. This is a very poor method that should not be used as the trend will be biased by the seasonal pattern. Imagine a seasonal pattern, for example, where the last period of the year is always the largest value for the year. Then the trend will be biased upwards. Unfortunately, Bowerman, O'Connell and Koehler (2005) are not alone in recommending bad methods. I've seen similar, and worse, procedures recommended in other books.
 
 While it would be possible to implement a reasonably good regression method, a much better procedure is based on a decomposition. This is what was recommended in my [2008 Springer book](http://www.exponentialsmoothing.net) and is implemented in the `HoltWinters` and `ets` functions in R.
 

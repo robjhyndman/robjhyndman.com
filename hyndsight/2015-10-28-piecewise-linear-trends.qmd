@@ -20,7 +20,7 @@ For example, if $f(t) = \beta_0+\beta_1 t$ is a linear function, then we can sim
 $$ y_t = \beta_0 + \beta_1x_{1,t} + n_t. $$
 In matrix form we can write
 $$ \boldsymbol{y} = \beta_0 + \boldsymbol{X}\boldsymbol{\beta} + \boldsymbol{n},$$
-where $\boldsymbol{y}=[y_1,\dots,y_T]'$, $\boldsymbol{n}=[n_1,\dots,n_T]'$, $\boldsymbol{\beta}=[\beta_1]$ and $\boldsymbol{X} = [x_{1,1},\dots,x_{1,T}]'$. Note that I have left the intercept $\beta\_0$ out of the vector $\boldsymbol{\beta}$ so that the $\boldsymbol{X}$ matrix matches the required `xreg` argument in `auto.arima`.
+where $\boldsymbol{y}=[y_1,\dots,y_T]'$, $\boldsymbol{n}=[n_1,\dots,n_T]'$, $\boldsymbol{\beta}=[\beta_1]$ and $\boldsymbol{X} = [x_{1,1},\dots,x_{1,T}]'$. Note that I have left the intercept $\beta_0$ out of the vector $\boldsymbol{\beta}$ so that the $\boldsymbol{X}$ matrix matches the required `xreg` argument in `auto.arima`.
 
 This model can be estimated by setting the `xreg` argument to be a matrix with one column:
 $$

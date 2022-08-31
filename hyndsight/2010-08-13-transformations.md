@@ -11,22 +11,19 @@ I'm currently working with a hydrologist and he raised a question that occurs qu
 
 I asked the question on [stats.stackexchange.com](http://stats.stackexchange.com/q/1444/159) and received some useful suggestions. What follows is a summary based on these answers, my own experience, plus a few papers I discovered that deal with the topic. In general, the most appropriate course of action depends on the model and the context. Zeros can arise for several different reasons each of which may have to be treated differently.
 
-
-
 ### Box-Cox (BC) transformations
-
-
 
 There is a two-parameter version of the Box-Cox transformation that allows a shift before transformation:
 $$
-g(y;\lambda\_{1}, \lambda\_{2}) =
+g(y;\lambda_{1}, \lambda_{2}) =
 \begin{cases}
-\frac {(y+\lambda\_{2})^{\lambda\_1} - 1} {\lambda\_{1}} & \mbox{when } \lambda\_{1} \neq 0 \\\\ \log (y + \lambda\_{2}) & \mbox{when } \lambda\_{1} = 0
+\frac {(y+\lambda_{2})^{\lambda_1} - 1} {\lambda_{1}} & \text{when } \lambda_{1} \neq 0 \\
+                               \log (y + \lambda_{2}) & \text{when } \lambda_{1} = 0
 \end{cases}.
 $$
-The usual Box-Cox transformation sets $\lambda\_2=0$. One common choice with the two-parameter version is $\lambda\_1=0$ and $\lambda\_2=1$ which has the neat property of mapping zero to zero. There is even an R function for this: `log1p()`.  More generally, both parameters can be estimated. In R, the `boxcox.fit()` function in package [`geoR`](http://cran.r-project.org/web/packages/geoR/) will fit the parameters.
+The usual Box-Cox transformation sets $\lambda_2=0$. One common choice with the two-parameter version is $\lambda_1=0$ and $\lambda_2=1$ which has the neat property of mapping zero to zero. There is even an R function for this: `log1p()`.  More generally, both parameters can be estimated. In R, the `boxcox.fit()` function in package [`geoR`](http://cran.r-project.org/web/packages/geoR/) will fit the parameters.
 
-Alternatively, when $\lambda\_1=0$, [it has been suggested](http://www.mail-archive.com/r-sig-ecology@r-project.org/msg00655.html) that $\lambda\_2$ should be approximately one half of the smallest, non-zero value. Another suggestion is that $\lambda\_2$ should be the square of the first quartile divided by the third quartile [(Stahel,  2002)](http://stat.ethz.ch/~stahel/stat-dat-ana/).
+Alternatively, when $\lambda_1=0$, [it has been suggested](http://www.mail-archive.com/r-sig-ecology@r-project.org/msg00655.html) that $\lambda_2$ should be approximately one half of the smallest, non-zero value. Another suggestion is that $\lambda_2$ should be the square of the first quartile divided by the third quartile [(Stahel,  2002)](http://stat.ethz.ch/~stahel/stat-dat-ana/).
 
 I've used functions like this several times including in [Hyndman & Grunwald (2000)](/publications/gam-rainfall/) where we used $\log(y+\lambda_2)$ applied to daily rainfall data.
 

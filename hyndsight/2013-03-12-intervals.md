@@ -20,14 +20,10 @@ I think the distinction between prediction and confidence intervals is worth pre
 $$
 y_i = \alpha + \beta x_i + e_i
 $$
-where $y_i$ is the change in GDP from quarter $i-1$ to quarter $i$, $x_i$ is the change in the unemployment rate from quarter $i-1$ to quarter $i$, and $e\_i\sim\text{N}(0,\sigma^2)$. (This regression model is known as [Okun's law](http://en.wikipedia.org/wiki/Okun's_law) in macroeconomics.) In this case, both confidence intervals and prediction intervals are interesting. You might be interested in the confidence interval associated with the mean value of $y$ when $x=0$; that is, the mean growth in GDP when the unemployment rate does not change. You might also be interested in the prediction interval for $y$ when $x=0$; that is, the likely range of future values of GDP growth when the unemployment rate does not change.
+where $y_i$ is the change in GDP from quarter $i-1$ to quarter $i$, $x_i$ is the change in the unemployment rate from quarter $i-1$ to quarter $i$, and $e_i\sim\text{N}(0,\sigma^2)$. (This regression model is known as [Okun's law](http://en.wikipedia.org/wiki/Okun's_law) in macroeconomics.) In this case, both confidence intervals and prediction intervals are interesting. You might be interested in the confidence interval associated with the mean value of $y$ when $x=0$; that is, the mean growth in GDP when the unemployment rate does not change. You might also be interested in the prediction interval for $y$ when $x=0$; that is, the likely range of future values of GDP growth when the unemployment rate does not change.
 
 The distinction is mostly retained in the statistics literature. However, in econometrics it is common to use "confidence intervals" for both types of interval (e.g., [Granger & Newbold, 1986](http://www.amazon.com/gp/product/0122951840/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0122951840&linkCode=as2&tag=prorobjhyn-20)). I once asked Clive Granger why he confused the two concepts, and he dismissed my objection as fussing about trivialities. I disagreed with him then, and I still do.
 
 I have seen someone compute a confidence interval for the mean, and use it as if it was a prediction interval for a future observation. The trouble is, confidence intervals for the mean are _much_ narrower than prediction intervals, and so this gave him an exaggerated and false sense of the accuracy of his forecasts. Instead of the interval containing 95% of the probability space for the future observation, it contained only about 20%.
 
 So I ask statisticians to please preserve this distinction. And I ask econometricians to stop being so sloppy about terminology. Unfortunately, I can't continue my debate with Clive Granger. I rather hoped he would come to accept my point of view.
-
-
-
-
