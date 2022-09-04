@@ -25,15 +25,15 @@ website:
         text: Research Team
       - href: about/index.qmd
         text: About
-  page-footer: 
-    left: "Copyright 2022, Rob J Hyndman" 
-    right: 
+  page-footer:
+    left: "Copyright 2022, Rob J Hyndman"
+    right:
       - icon: github
         href: https://github.com/robjhyndman
-      - icon: twitter 
+      - icon: twitter
         href: https://twitter.com/robjhyndman
     background: "#536878"
-      
+
 date-format: "D MMMM YYYY"
 
 format:
@@ -44,3 +44,5 @@ format:
     html-math-method: katex
     include-in-header:
       file: header.html
+    include-after-body:
+      file: disqus.html
