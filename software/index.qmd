@@ -7,7 +7,7 @@
 
 ```{r functions, include=FALSE}
 library(tidyverse)
-source(here::here("software_functions.R"))
+source("software_functions.R")
 packages <- rjh_packages()
 ```
 
