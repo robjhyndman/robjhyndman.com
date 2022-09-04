@@ -44,5 +44,3 @@ format:
     html-math-method: katex
     include-in-header:
       file: header.html
-    include-after-body:
-      file: disqus.html
