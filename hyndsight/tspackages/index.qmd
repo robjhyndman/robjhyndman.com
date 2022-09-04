@@ -4,8 +4,8 @@ slug: tspackages
 title: "Some new time series packages"
 categories:
 - R
-- reproducible-research
-- time-series
+- reproducible research
+- time series
 - data science
 - data
 - anomalies
