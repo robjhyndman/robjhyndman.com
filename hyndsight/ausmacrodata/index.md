@@ -10,9 +10,10 @@ categories:
 - time series
 ---
 
-[![](/files/Screenshot-from-2017-02-15-11-30-04.png)](http://ausmacrodata.org)
 
 [AusMacroData](http://ausmacrodata.org) is a new website that encourages and facilitates the use of quantitative, publicly available Australian macroeconomic data.  The Australian Macro Database hosted at [ausmacrodata.org](http://ausmacrodata.org/) provides a user-friendly front end for searching among over 40000 economic variables and is loosely based on similar international sites such as the Federal Reserve Economic Database (FRED). <!-- more -->
+
+[![](/files/Screenshot-from-2017-02-15-11-30-04.png)](http://ausmacrodata.org)
 
 In total, data on 40,304 variables are available for download from [AusMacroData](http://ausmacrodata.org).  The majority of variables are sourced from the Australian Bureau of Statistics (ABS) and include data on national accounts, balance of payments and trade, housing and finance, labour force consumer price indices. Additional data on banking, money, interest rates and business and consumer sentiment, sourced from the Reserve Bank of Australia (RBA) are also available for download.  The Australian Macro Database is updated data daily at 3am Australian Eastern Standard Time. and up to date information on ABS release schedules are also provided on the site. 
 

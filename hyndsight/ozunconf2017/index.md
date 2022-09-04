@@ -8,9 +8,8 @@ categories:
 - R
 - rOpenSci
 - reproducible research
+image: http://ozunconf17.ropensci.org/img/header.jpg
 ---
-
-![](http://ozunconf17.ropensci.org/img/header.jpg)
 
 For a second year running, there will be another **[rOpenSci OzUnconference](http://ozunconf17.ropensci.org/)** in Australia. This one will be held in Melbourne, on 26-27 October 2017.
 

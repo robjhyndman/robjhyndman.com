@@ -6,7 +6,8 @@ categories:
 - R
 - reproducible-research
 - time-series
-- data-science
+- data science
+- data
 - anomalies
 ---
 

@@ -8,6 +8,7 @@ categories:
   - time series
   - statistics
   - demography
+image: index_files/figure-html/england2-1.png
 ---
 
 ```{r setup, include=FALSE}

@@ -9,9 +9,11 @@ categories:
 - ISF2017
 ---
 
-[![hero-shot-turtle-high-res-300x201](/files/Hero-shot-Turtle-high-res-300x201.jpg)](/files/Hero-shot-Turtle-high-res-300x201.jpg)
 
 We are currently calling for invited session proposals for the [ISF](http://forecasters.org/isf) to be held in [Cairns, Australia](http://www.cairnstoday.com.au/), in June 2017.
+
+
+![](/files/Hero-shot-Turtle-high-res-300x201.jpg)
 
 An invited session consists of 3 or 4 talks around a specific forecasting theme. You are allowed to be one of the speakers in a session you organize (although it is not necessary). So if you know what you are planning to speak about, all you need to do is find 2 or 3 other speakers who will speak on something related, and invite them to join you. The length of all such invited talks will be about 20 minutes.
 

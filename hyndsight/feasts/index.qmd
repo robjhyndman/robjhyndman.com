@@ -8,6 +8,7 @@ categories:
 - statistics
 - R
 - tidyverts
+image: index_files/figure-html/autoplot-1.png
 ---
 
 ```{r setup, include=FALSE}
@@ -140,4 +141,3 @@ The remainder term captures the difference from what you would expect if the dem
 ## Features and statistics
 
 The `feasts` package does much more than graphics, but that can wait until a future post.
-

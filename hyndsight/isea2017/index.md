@@ -11,25 +11,27 @@ categories:
 - ISF2017
 ---
 
-### Predictive Energy Analytics in the Big Data World
+## Predictive Energy Analytics in the Big Data World
 
 
 
 
 
-#### Cairns, Australia, June 22-23, 2017
+### Cairns, Australia, June 22-23, 2017
 
 
 
 
 
-#### [ISEA2017](http://www.drhongtao.com/isea)
+### [ISEA2017](http://www.drhongtao.com/isea)
 
 
 
-[![snorkellers-on-great-barrier-reef](/files/snorkellers-on-great-barrier-reef.jpg)](/files/snorkellers-on-great-barrier-reef.jpg)
 
 This will be a great conference, and it is in a great location --- Cairns, Australia, right by the Great Barrier Reef. Even better, if you stay on you can attend the **International Symposium on Forecasting** which immediately follows the **International Symposium on Energy Analytics**.
+
+
+![](/files/snorkellers-on-great-barrier-reef.jpg)
 
 So block out 22-28 June 2017 on your calendars so you can enjoy a tropical paradise in one of the most beautiful parts of Australia, while attending two awesome conferences.
 
@@ -40,34 +42,34 @@ This symposium aims at bringing forecasting experts and practitioners together t
 
 
 
-    
+
   * Probabilistic energy forecasting
 
-    
+
   * Hierarchical energy forecasting
 
-    
+
   * High-dimensional energy forecasting
 
-    
+
   * High-frequency and high-resolution energy forecasting
 
-    
+
   * Equipment failure prediction
 
-    
+
   * Power systems fault prediction
 
-    
+
   * Automatic outlier detection
 
-    
+
   * Load profiling
 
-    
+
   * Customer segmentation
 
-    
+
   * Customer churn prediction
 
 
@@ -83,25 +85,25 @@ Selected papers will be published in a special section of the _International Jou
 
 
 
-    
+
   * Abstract submission - January 15, 2017
 
-    
+
   * Abstract acceptance - February 15, 2017
 
-    
+
   * Paper submission for consideration of journal publication - May 31, 2017
 
-    
+
   * ISEA2017 - June 22-23, 2017
 
-    
+
   * ISF2017 - June 25-28, 2017
 
-    
+
   * First round review completion - August 31, 2017
 
-    
+
   * IJF special section publication - 2018
 
 

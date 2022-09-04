@@ -6,6 +6,7 @@ categories:
   - time series
   - statistics
   - epidemiology
+image: index_files/figure-html/ft2-1.png
 ---
 
 ```{r setup, include=FALSE}

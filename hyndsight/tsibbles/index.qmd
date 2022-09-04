@@ -8,6 +8,7 @@ categories:
 - statistics
 - R
 - tidyverts
+image: index_files/figure-html/ggplot-1.png
 ---
 
 ```{r setup, include=FALSE}
@@ -85,4 +86,3 @@ The volume and pattern of pedestrian traffic at these four locations is clearly 
 In summary, I hope `tsibbles` will become the standard for handling temporal data in R (including multivariate time series, panel data, ets). I've been using them for about a year, and I'm still amazed at how much easier it is to do things than using other structures.
 
 We also have [a paper describing tsibbles and the package](https://robjhyndman.com/publications/tsibble/) for those who want more of the detailed thinking behind the design.
-

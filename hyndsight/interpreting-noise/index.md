@@ -7,9 +7,8 @@ categories:
 - fpp
 - statistics
 - teaching
+image: /files/04_03_2_prev-300x200.jpg
 ---
-
-![04_03_2_prev](/files/04_03_2_prev-300x200.jpg)
 
 When watching the TV news, or reading newspaper commentary, I am frequently amazed at the attempts people make to interpret random noise.
 
@@ -41,10 +40,10 @@ There are two simple solutions to this problem:
 
 
 
-	
+
   1. Report the trend figure instead. It is far less volatile and more likely to reflect what is really happening with unemployment.
 
-	
+
   2. Only report changes in seasonally adjusted data when they are significant. The ABS helpfully provides a 95% confidence interval for the change in $Y_t^*$, but that seems to be ignored.
 
 

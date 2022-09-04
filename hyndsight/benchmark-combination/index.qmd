@@ -8,7 +8,6 @@ categories:
   - R
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, cache=TRUE)
 options(digits=3)

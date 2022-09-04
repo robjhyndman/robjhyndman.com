@@ -2,6 +2,7 @@
 date: 2018-12-18
 title: Why doesn't auto.arima() return the model with the lowest AICc value?
 slug: badarima
+image: index_files/figure-html/plotroots-1.png
 ---
 
 This question seems to come up frequently on [crossvalidated.com](http://crossvalidated.com) or in my inbox.

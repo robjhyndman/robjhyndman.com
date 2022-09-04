@@ -5,6 +5,7 @@ slug: cricketdata
 categories:
   - R
   - data
+image: index_files/figure-html/woment20graph-1.png
 ---
 
 ```{r setup, include=FALSE}

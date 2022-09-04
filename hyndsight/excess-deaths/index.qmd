@@ -7,6 +7,7 @@ categories:
   - statistics
   - epidemiology
   - demography
+image: index_files/figure-html/weekly-1.png
 ---
 
 ```{r setup, include=FALSE}

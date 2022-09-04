@@ -10,6 +10,7 @@ categories:
 - tidyverts
 - anomalies
 - data science
+image: index_files/figure-html/features-plot-1.png
 ---
 
 ```{r setup, include=FALSE}
@@ -193,7 +194,7 @@ m3totsibble <- function(z) {
     period = z$period,
     description = z$description,
     sn = z$sn,
-  ) 
+  )
 }
 m3yearly <- Mcomp::M3 %>%
   subset("yearly") %>%

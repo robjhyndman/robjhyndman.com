@@ -6,14 +6,15 @@ categories:
   - R
   - forecasting
   - data science
+image: index_files/figure-html/unnamed-chunk-2-1.png
 ---
-  
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 options(digits = 3, width = 75)
 ```
 
-I've had several requests for an R function to simulate future values from a TBATS model. We will eventually include TBATS in the [`fable` package](https://fable.tidyverts.org), and the facilities will be added there. But in the meantime, if you are using the [`forecast` package](https://pkg.robjhyndman.com/forecast) and want to simulate from a fitted TBATS model, here is how do it. 
+I've had several requests for an R function to simulate future values from a TBATS model. We will eventually include TBATS in the [`fable` package](https://fable.tidyverts.org), and the facilities will be added there. But in the meantime, if you are using the [`forecast` package](https://pkg.robjhyndman.com/forecast) and want to simulate from a fitted TBATS model, here is how do it.
 
 ## Simulating via one-step forecasts
 
@@ -28,7 +29,7 @@ where $\varepsilon_{T+i}$ is randomly generated from the error distribution, or 
 
 ## Implementation
 
-Because `simulate()` is an S3 method in R, we have to make sure the corresponding `simulate.tbats()` function has all the necessary arguments to match other `simulate` functions. It's also good to make it as close as possible to other `simulate` functions in the `forecast` package, to make it easier for users when switching between them. The real work is done in the last few lines. 
+Because `simulate()` is an S3 method in R, we have to make sure the corresponding `simulate.tbats()` function has all the necessary arguments to match other `simulate` functions. It's also good to make it as close as possible to other `simulate` functions in the `forecast` package, to make it easier for users when switching between them. The real work is done in the last few lines.
 
 ```{r}
 simulate.tbats <- function(object, nsim=length(object$y),
@@ -93,7 +94,7 @@ library(forecast)
 library(ggplot2)
 
 fit <- tbats(USAccDeaths)
-p <- USAccDeaths %>% autoplot() + 
+p <- USAccDeaths %>% autoplot() +
   labs(x = "Year", y = "US Accidental Deaths",
        title = "TBATS simulations")
 for (i in seq(9)) {

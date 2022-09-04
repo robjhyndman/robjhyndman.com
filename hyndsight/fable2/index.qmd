@@ -9,6 +9,7 @@ categories:
   - R
   - tidyverts
   - forecasting
+image: index_files/figure-html/cafe-1.png
 ---
 
 ```{r setup, include=FALSE}

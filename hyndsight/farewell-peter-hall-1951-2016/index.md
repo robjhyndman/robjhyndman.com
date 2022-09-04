@@ -8,9 +8,10 @@ categories:
 - statistics
 ---
 
-![IMG_3865](/files/IMG_3865.jpg)
 
-Peter Hall passed away on Saturday after a long battle with illness over the last couple of years. No statistician will need reminding of Peter's extensive contributions to the field. He had over 500 published papers, and had won every major award available, many of them listed on his [Wikipedia page](https://en.wikipedia.org/wiki/Peter_Gavin_Hall).<!-- more -->
+Peter Hall passed away on Saturday after a long battle with illness over the last couple of years. No statistician will need reminding of Peter's extensive contributions to the field. He had over 500 published papers, and had won every major award available, many of them listed on his [Wikipedia page](https://en.wikipedia.org/wiki/Peter_Gavin_Hall).
+
+![IMG_3865](/files/IMG_3865.jpg)
 
 I spent a few months visiting Peter at ANU in 2002, and we wrote a couple of papers together ([here](/publications/improved-methods-for-bandwidth-selection-when-estimating-roc-curves/) and [here](/publications/nonparametric-confidence-intervals-for-receiver-operating-characteristic-curves/)). He was an extraordinary researcher, covering almost every conceivable area of mathematical statistics and probability. More than once I asked him a question about some problem I was grappling with, and he would reply "Oh, I've written a paper about that" and attach a copy.
 
@@ -21,9 +22,3 @@ I knew of only one passion he had outside of mathematics and statistics, and tha
 Above all, Peter was a kind, generous and supportive colleague. He nominated me for the [Moran medal](https://www.science.org.au/node/334#moran) from the Australian Academy of Science in 2007, and was always warmly encouraging. There are no rewards for making such nominations, but Peter cared deeply about the discipline and wanted to encourage and support its development.
 
 The profession has lost a giant whom we all respected and admired. It was a privilege to have known him.
-
-
-
-
-
-

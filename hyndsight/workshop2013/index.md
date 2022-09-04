@@ -20,16 +20,16 @@ We are planning a workshop on multivariate time series modelling and forecasting
 
 
 
-    
+
   * [Professor Helmut Lütkepohl](https://en.wikipedia.org/wiki/Helmut_L%C3%BCtkepohl) (DIW, Berlin)
 
-    
+
   * [Professor Massimiliano Marcellino](http://www.eui.eu/Personal/Marcellino/) (European University Institute, Florence)
 
-    
+
   * [Associate Professor Andrew Patton](http://public.econ.duke.edu/~ap172/) (Duke University, Durham NC)
 
-    
+
   * [Professor George Kapetanios](http://econ.qmul.ac.uk/staff/georgekapetanios.html) (Queen Mary, University of London)
 
 
@@ -49,5 +49,3 @@ All workshop presenters will be invited to submit their papers for a special iss
 **Venue:** Monash University’s Caulfield Campus, 900 Dandenong Road, Melbourne, Australia.
 
 **Enquiries:** Should be addressed to George Athanasopoulos ([george.athanasopoulos@monash.edu](mailto:lisa.cameron@monash.edu)) or Farshid Vahid ([farshid.vahid@monash.edu](mailto:gaurav.datt@monash.edu)).
-
-![](http://www.buseco.monash.edu.au/ebs/events/2012/iif.jpg)

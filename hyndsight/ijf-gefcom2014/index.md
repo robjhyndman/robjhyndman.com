@@ -11,9 +11,12 @@ categories:
 - reproducible research
 ---
 
-[![](https://origin-ars.els-cdn.com/content/image/1-s2.0-S0169207016X00027-cov150h.gif)](http://www.sciencedirect.com/science/journal/01692070/32/3)
 
 The [latest issue of the _IJF_](http://www.sciencedirect.com/science/journal/01692070/32/3) is a bumper issue with over 500 pages of forecasting insights.
+
+
+[![](https://origin-ars.els-cdn.com/content/image/1-s2.0-S0169207016X00027-cov150h.gif)](http://www.sciencedirect.com/science/journal/01692070/32/3)
+
 
 The [GEFCom2014](https://robjhyndman.com/hyndsight/gefcom-2014/) papers are included in a special section on probabilistic energy forecasting, guest edited by [Tao Hong](http://www.drhongtao.com/) and [Pierre Pinson](http://pierrepinson.com/). This is a major milestone in energy forecasting research with the focus on probabilistic forecasting and forecast evaluation done using a quantile scoring method. Only a few years ago I was having to explain to energy professionals why you couldn't use a MAPE to evaluate a percentile forecast. With this special section, we now have a [tutorial review on probabilistic electric load forecasting](http://dx.doi.org/10.1016/j.ijforecast.2015.11.011) by Tao Hong and Shu Fan, which should help everyone get up to speed with current forecasting approaches, evaluation methods and common misunderstandings. The section also contains a large number of very high quality articles showing how to do state-of-the-art density forecasting for electricity load, electricity price, solar and wind power. Moreover, we have some benchmarks on [publicly available data sets](https://www.dropbox.com/s/mqftg79cmx85ymb/mmc1.zip?dl=0) so future researchers can easily compare their methods against these published results.
 
