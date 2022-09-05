@@ -14,4 +14,9 @@ about:
       href: mailto:Rob.Hyndman@monash.edu
 ---
 
-Rob&nbsp;J&nbsp;Hyndman <span style="font-size: 85%;">FAA FASSA</span> is Professor of Statistics at [Monash University](https://monash.edu), Australia.
+<div class="about-link-text">
+**Rob&nbsp;J&nbsp;Hyndman** <span style="font-size: 85%;">FAA FASSA</span><br>
+Professor of Statistics<br>
+[Department of Econometrics & Business Statistics](http://business.monash.edu/econometrics-and-business-statistics)<br>
+[Monash University](https://monash.edu), Australia.
+</div>
