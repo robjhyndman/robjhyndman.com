@@ -5,5 +5,13 @@
 freeze: true
 
 comments:
-  utterances:
+  giscus:
     repo:  robjhyndman/hyndsight
+    repo-id: "R_kgDOH79Fnw"
+    category: "Announcements"
+    category-id: "DIC_kwDOH79Fn84CRPee"
+    mapping: "pathname"
+    reactions-enabled: true
+    loading: lazy
+    input-position: "bottom"
+    theme: "light"
