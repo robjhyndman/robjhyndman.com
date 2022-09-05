@@ -38,7 +38,7 @@ date-format: "D MMMM YYYY"
 
 format:
   html:
-    theme: cosmo
+    theme: tango
     css: styles.css
     toc: true
     html-math-method: katex
