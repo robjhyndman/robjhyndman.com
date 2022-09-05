@@ -277,3 +277,13 @@ div.quarto-about-trestles .about-entity .about-link:hover {
   background-color: #36454f;
   color: #ebebeb;
 }
+
+.quarto-category:hover, .listing-category:hover {
+  background-color: #36454f;
+  color: #ebebeb !important;
+  opacity: .6;
+}
+
+.quarto-category, .listing-category, .listing-actions-group, .about-link-text {
+  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
