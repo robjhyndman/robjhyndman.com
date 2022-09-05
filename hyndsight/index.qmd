@@ -4,6 +4,9 @@ description: Thoughts on research, forecasting, statistics, and other distractio
 listing:
   contents: .
   sort: "date desc"
+  feed:
+    title: "Hyndsight"
+    description: "Blog posts by Professor Rob J Hyndman"
   type: default
   categories: cloud
   sort-ui: true

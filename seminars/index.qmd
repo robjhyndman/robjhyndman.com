@@ -3,13 +3,16 @@ title: "Seminars I've given (since 2006)"
 listing:
   contents: .
   sort: "date desc"
+  feed:
+    title: "Seminars by Rob J Hyndman"
+    description: "Seminars and workshops by Professor Rob J Hyndman"
   categories: false
   sort-ui: true
   filter-ui: false
   date-format: "DD MMM YYYY"
   type: table
   page-size: 999
-  fields: 
+  fields:
     - date
     - title
 
@@ -18,6 +21,6 @@ page-layout: full
 title-block-banner: false
 ---
 
-Some of these seminars were given more than once, but to avoid repetition, repeats are not always listed. 
+Some of these seminars were given more than once, but to avoid repetition, repeats are not always listed.
 
 Talks on YouTube are available on [this playlist](https://www.youtube.com/playlist?list=PL12D676032C3A6B70).

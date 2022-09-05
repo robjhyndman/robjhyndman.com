@@ -8,6 +8,7 @@ project:
 
 website:
   title: "Rob J Hyndman"
+  site-url: "https://robjhyndman.com"
   navbar:
     background: "#536878"
     left:
