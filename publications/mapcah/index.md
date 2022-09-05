@@ -1,7 +1,6 @@
 ---
-author: Bircan Erbas, SC Dharmage, M O’Sullivan, Md Akram, Ed Newbigin, P Taylor, Don Vicendese, Rob&nbsp;J&nbsp;Hyndman, ML Tang, Michael J Abramson
+author: Bircan Erbas, SC Dharmage, M O’Sullivan, Md Akram, Ed Newbigin, P Taylor, Don Vicendese, Rob J Hyndman, ML Tang, Michael J Abramson
 Status: Published
-comments: false
 date: 2012-06-25 02:26:42+00:00
 slug: mapcah
 title: 'A case-crossover design to examine the role of aeroallergens and respiratory viruses on childhood asthma exacerbations requiring hospitalisation: The MAPCAH study'

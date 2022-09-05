@@ -1,7 +1,6 @@
 ---
-author: George Athanasopoulos, Roman A Ahmed, Rob&nbsp;J&nbsp;Hyndman
+author: George Athanasopoulos, Roman A Ahmed, Rob J Hyndman
 Status: Published
-comments: false
 date: 2009-01-16 23:08:36+00:00
 slug: hierarchical-tourism
 title: Hierarchical forecasts for Australian domestic tourism

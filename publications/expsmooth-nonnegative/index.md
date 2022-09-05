@@ -1,7 +1,6 @@
 ---
-author: Md Akram, Rob&nbsp;J&nbsp;Hyndman, J&nbsp;Keith&nbsp;Ord
+author: Md Akram, Rob J Hyndman, J Keith Ord
 Status: Published
-comments: false
 date: 2009-11-25 23:06:04+00:00
 slug: expsmooth-nonnegative
 title: Exponential smoothing and non-negative data

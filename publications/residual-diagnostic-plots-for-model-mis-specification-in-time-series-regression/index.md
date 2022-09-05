@@ -1,7 +1,6 @@
 ---
-author: Richard Fraccaro, Rob&nbsp;J&nbsp;Hyndman, Alan Veevers
+author: Richard Fraccaro, Rob J Hyndman, Alan Veevers
 Status: Published
-comments: false
 date: 2000-11-16 03:01:48+00:00
 slug: residual-diagnostic-plots-for-model-mis-specification-in-time-series-regression
 title: Residual diagnostic plots for model mis-specification in time series regression

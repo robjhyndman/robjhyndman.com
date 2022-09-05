@@ -1,7 +1,6 @@
 ---
-author: Luciana Magnano, John W Boland, Rob&nbsp;J&nbsp;Hyndman
+author: Luciana Magnano, John W Boland, Rob J Hyndman
 Status: Published
-comments: false
 date: 2008-01-25 06:37:01+00:00
 slug: generation-of-synthetic-sequences-of-half-hourly-temperatures
 title: Generation of synthetic sequences of half-hourly temperatures

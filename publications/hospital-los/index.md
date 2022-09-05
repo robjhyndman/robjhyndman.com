@@ -1,7 +1,6 @@
 ---
-author:  D&nbsp;Vicendese, L&nbsp;Te&nbsp;Marvelde, PD&nbsp;McNair, K&nbsp;Whitfield, DR&nbsp;English, S&nbsp;Ben&nbsp;Taieb, RJ&nbsp;Hyndman, R&nbsp;Thomas
+author:  D Vicendese, L Te Marvelde, PD McNair, K Whitfield, DR English, S Ben Taieb, RJ Hyndman, R Thomas
 Status: Published
-comments: false
 date: 2020-02-01
 slug: hospital-los
 details: "<em>Australian and New Zealand Journal of Public Health</em>, <b>44</b>(1), 73-82"

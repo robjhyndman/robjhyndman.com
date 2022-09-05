@@ -1,6 +1,5 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
-comments: false
+author: Rob J Hyndman
 date: 2005-07-16 00:42:29+00:00
 slug: maindonald-and-braun-data-analysis-and-graphics-using-r-an-example-based-approach
 title: 'Book Review of "Data Analysis and Graphics Using R:

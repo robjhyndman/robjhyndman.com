@@ -1,7 +1,6 @@
 ---
-author: Jae H Kim, Iain Fraser, Rob&nbsp;J&nbsp;Hyndman
+author: Jae H Kim, Iain Fraser, Rob J Hyndman
 Status: Published
-comments: false
 date: 2011-03-10 00:53:38+00:00
 slug: dlm-hdr
 title: 'Improved interval estimation of long run response from a dynamic linear model: a highest density region approach'

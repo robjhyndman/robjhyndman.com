@@ -1,7 +1,6 @@
 ---
-author: George Athanasopoulos, Rob&nbsp;J&nbsp;Hyndman, Haiyan Song, Doris Wu
+author: George Athanasopoulos, Rob J Hyndman, Haiyan Song, Doris Wu
 Status: Published
-comments: false
 date: 2011-01-01 22:00:04+00:00
 slug: the-tourism-forecasting-competition
 title: The tourism forecasting competition

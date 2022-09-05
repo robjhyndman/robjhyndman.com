@@ -1,7 +1,6 @@
 ---
-author: Christoph Bergmeir, Rob&nbsp;J&nbsp;Hyndman, José M Benítez
+author: Christoph Bergmeir, Rob J Hyndman, José M Benítez
 Status: Published
-comments: false
 date: 2016-04-28 23:30:12+00:00
 slug: bagging-ets
 title: Bagging exponential smoothing methods using STL decomposition and Box-Cox transformation

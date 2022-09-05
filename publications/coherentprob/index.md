@@ -1,5 +1,5 @@
 ---
-author: Anastasios&nbsp;Panagiotelis, Puwasala&nbsp;Gamakumara, George&nbsp;Athanasopoulos and&nbsp;Rob&nbsp;J&nbsp;Hyndman
+author: Anastasios Panagiotelis, Puwasala Gamakumara, George Athanasopoulos and Rob J Hyndman
 date: 2022-07-24
 slug: coherentprob
 title: "Probabilistic forecast reconciliation: properties, evaluation and score optimisation"

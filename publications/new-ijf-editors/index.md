@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
+author: Rob J Hyndman
 Status: Published
-comments: false
 date: 2015-08-24 22:53:09+00:00
 slug: new-ijf-editors
 title: New IJF editors

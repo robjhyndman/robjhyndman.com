@@ -1,7 +1,6 @@
 ---
-author: Paul Lajbcygier, Andrew Flitman, Anthony Swan, Rob&nbsp;J&nbsp;Hyndman
+author: Paul Lajbcygier, Andrew Flitman, Anthony Swan, Rob J Hyndman
 Status: Published
-comments: false
 date: 1997-01-16 02:56:45+00:00
 slug: the-pricing-and-trading-of-options-using-a-hybrid-neural-network-model-with-historical-volatility
 title: The pricing and trading of options using a hybrid neural network model with historical volatility

@@ -3,7 +3,6 @@ title: Trends in Indigenous mortality and life expectancy 2001-2015
 author: Tetteh Dugbaza, Fadwa Al-Yaman, Tracy Dixon, Richard Solon, Ching Choi, Rob Hyndman, Len Smith
 status: Published
 kind: report
-comments: false
 details: "Cat. no. IHW 174. Canberra: Australian Institute of Health and Welfare"
 date: 2017-12-05
 slug: aihw2017

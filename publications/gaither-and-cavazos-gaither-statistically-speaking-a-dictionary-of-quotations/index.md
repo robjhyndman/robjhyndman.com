@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
+author: Rob J Hyndman
 Status: Published
-comments: false
 date: 1999-07-16 00:35:15+00:00
 slug: gaither-and-cavazos-gaither-statistically-speaking-a-dictionary-of-quotations
 title: 'Book review of "Statistically speaking: a dictionary of quotations" (Gaither and Cavazos-Gaither, 1996)'

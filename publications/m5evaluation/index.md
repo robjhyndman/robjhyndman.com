@@ -1,5 +1,5 @@
 ---
-author: Hansika&nbsp;Hewamalage, Pablo&nbsp;Montero-Manso, Christoph&nbsp;Bergmeir, Rob&nbsp;J&nbsp;Hyndman
+author: Hansika Hewamalage, Pablo Montero-Manso, Christoph Bergmeir, Rob J Hyndman
 date: 2021-08-10
 slug: m5evaluation
 title: "A Look at the Evaluation Setup of the M5 Forecasting Competition"

@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman, David Bashtannyk, Gary&nbsp;K&nbsp;Grunwald
+author: Rob J Hyndman, David Bashtannyk, Gary K Grunwald
 Status: Published
-comments: false
 date: 1996-07-16 02:43:49+00:00
 slug: estimating-and-visualizing-conditional-densities
 title: Estimating and visualizing conditional densities

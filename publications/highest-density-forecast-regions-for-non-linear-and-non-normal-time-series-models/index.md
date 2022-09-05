@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
+author: Rob J Hyndman
 Status: Published
-comments: false
 date: 1995-07-16 02:12:27+00:00
 slug: highest-density-forecast-regions-for-non-linear-and-non-normal-time-series-models
 title: Highest density forecast regions for non-linear and non-normal time series models

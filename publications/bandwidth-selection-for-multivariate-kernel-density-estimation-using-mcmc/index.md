@@ -1,7 +1,6 @@
 ---
-author: Xibin Zhang, Maxwell L King, Rob&nbsp;J&nbsp;Hyndman
+author: Xibin Zhang, Maxwell L King, Rob J Hyndman
 Status: Published
-comments: false
 date: 2006-07-20 06:19:21+00:00
 slug: bandwidth-selection-for-multivariate-kernel-density-estimation-using-mcmc
 title: A Bayesian approach to bandwidth selection for multivariate kernel density estimation

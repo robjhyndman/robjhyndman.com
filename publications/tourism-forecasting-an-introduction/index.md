@@ -1,6 +1,5 @@
 ---
-author: Haiyan Song, Rob&nbsp;J&nbsp;Hyndman
-comments: false
+author: Haiyan Song, Rob J Hyndman
 date: 2011-04-29 09:35:26+00:00
 slug: tourism-forecasting-an-introduction
 title: 'Tourism forecasting: an introduction'

@@ -1,5 +1,5 @@
 ---
-author: Sevvandi&nbsp;Kandanaarachchi, Rob&nbsp;J&nbsp;Hyndman
+author: Sevvandi Kandanaarachchi, Rob J Hyndman
 date: 2022-05-01
 slug: lookout
 title: "Leave-one-out kernel density estimates for outlier detection"

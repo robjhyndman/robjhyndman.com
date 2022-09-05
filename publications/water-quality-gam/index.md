@@ -1,5 +1,5 @@
 ---
-author: Claire&nbsp;Kermorvant, Benoit&nbsp;Liquet, Guy&nbsp;Litt, Kerrie&nbsp;Mengersen, Erin&nbsp;E&nbsp;Peterson, Rob&nbsp;J&nbsp;Hyndman, Jeremy&nbsp;B&nbsp;Jones&nbsp;Jr, Catherine&nbsp;Leigh
+author: Claire Kermorvant, Benoit Liquet, Guy Litt, Kerrie Mengersen, Erin E Peterson, Rob J Hyndman, Jeremy B Jones Jr, Catherine Leigh
 date: 2021-06-04
 slug: water-quality-gam
 title: Understanding links between water-quality variables and nitrate concentration in freshwater streams using high-frequency sensor data

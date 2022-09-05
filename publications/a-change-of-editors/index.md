@@ -1,6 +1,5 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
-comments: false
+author: Rob J Hyndman
 date: 2013-01-01 02:04:46+00:00
 slug: a-change-of-editors
 title: A change of editors

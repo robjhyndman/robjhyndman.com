@@ -1,7 +1,6 @@
 ---
-author: Tianxi Cai, Rob&nbsp;J&nbsp;Hyndman, Matthew P Wand
+author: Tianxi Cai, Rob J Hyndman, Matthew P Wand
 Status: Published
-comments: false
 date: 2002-11-16 03:18:37+00:00
 slug: mixed-model-based-hazard-estimation
 title: Mixed model-based hazard estimation

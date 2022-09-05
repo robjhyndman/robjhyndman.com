@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman, Qiwei Yao
+author: Rob J Hyndman, Qiwei Yao
 Status: Published
-comments: false
 date: 2002-07-16 03:23:33+00:00
 slug: nonparametric-estimation-and-symmetry-tests-for-conditional-density-functions
 title: Nonparametric estimation and symmetry tests for conditional density functions

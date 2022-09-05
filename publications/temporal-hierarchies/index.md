@@ -1,5 +1,5 @@
 ---
-author: George Athanasopoulos, Rob&nbsp;J&nbsp;Hyndman, Nikolaos Kourentzes, Fotios Petropoulos
+author: George Athanasopoulos, Rob J Hyndman, Nikolaos Kourentzes, Fotios Petropoulos
 Status: Published
 date: 2017-05-13
 slug: temporal-hierarchies

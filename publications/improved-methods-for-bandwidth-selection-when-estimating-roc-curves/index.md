@@ -1,7 +1,6 @@
 ---
-author: Peter G Hall, Rob&nbsp;J&nbsp;Hyndman
+author: Peter G Hall, Rob J Hyndman
 Status: Published
-comments: false
 date: 2003-02-16 03:28:09+00:00
 slug: improved-methods-for-bandwidth-selection-when-estimating-roc-curves
 title: Improved methods for bandwidth selection when estimating ROC curves

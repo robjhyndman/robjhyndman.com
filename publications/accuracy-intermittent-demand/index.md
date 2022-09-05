@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
+author: Rob J Hyndman
 Status: Published
-comments: false
 date: 2015-12-31 00:37:54+00:00
 slug: accuracy-intermittent-demand
 title: Another look at forecast-accuracy metrics for intermittent demand

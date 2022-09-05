@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman, Anne B Koehler , Ralph D Snyder, Simone Grose
+author: Rob J Hyndman, Anne B Koehler , Ralph D Snyder, Simone Grose
 Status: Published
-comments: false
 date: 2002-07-16 03:21:03+00:00
 slug: hksg
 title: A state space framework for automatic forecasting using exponential smoothing

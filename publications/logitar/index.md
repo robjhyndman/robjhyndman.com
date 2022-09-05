@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
+author: Rob J Hyndman
 Status: Published
-comments: false
 date: 1999-07-07 00:49:30+00:00
 slug: logitar
 title: Nonparametric additive regression models for binary time series

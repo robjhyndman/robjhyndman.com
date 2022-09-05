@@ -1,5 +1,5 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman, Yijun Zeng, Han&nbsp;Lin&nbsp;Shang
+author: Rob J Hyndman, Yijun Zeng, Han Lin Shang
 date: 2021-03-26
 slug: pensionage
 title: "Forecasting the old-age dependency ratio to determine a sustainable pension age"

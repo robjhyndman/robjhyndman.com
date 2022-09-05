@@ -1,6 +1,6 @@
 ---
 title: "Modern strategies for time series regression"
-author: Stephanie&nbsp;Clark, Rob&nbsp;J&nbsp;Hyndman, Dan&nbsp;Pagendam, Louise&nbsp;M&nbsp;Ryan
+author: Stephanie Clark, Rob J Hyndman, Dan Pagendam, Louise M Ryan
 date: 2020-11-02
 slug: moderntsreg
 kind: article

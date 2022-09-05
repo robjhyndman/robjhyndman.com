@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman, Md. Akram, Blyth Archibald
+author: Rob J Hyndman, Md. Akram, Blyth Archibald
 Status: Published
-comments: false
 date: 2008-06-16 06:34:34+00:00
 slug: the-admissible-parameter-space-for-exponential-smoothing-models
 title: The admissible parameter space for exponential smoothing models

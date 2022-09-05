@@ -1,6 +1,5 @@
 ---
-author: Christoph Bergmeir, Rob&nbsp;J&nbsp;Hyndman, Bonsoo Koo
-comments: false
+author: Christoph Bergmeir, Rob J Hyndman, Bonsoo Koo
 date: 2018-01-01
 slug: cv-time-series
 title: A note on the validity of cross-validation for evaluating autoregressive time series prediction
@@ -13,7 +12,6 @@ tags:
 - time series
 file: cv-wp.pdf
 details: <em>Computational Statistics and Data Analysis</em>, <b>120</b>, 70-83
-mathjax: true
 doi: 10.1016/j.csda.2017.11.003
 ---
 

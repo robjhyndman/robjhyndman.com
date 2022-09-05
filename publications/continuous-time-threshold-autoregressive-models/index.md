@@ -1,7 +1,6 @@
 ---
-author: Peter J Brockwell, Rob&nbsp;J&nbsp;Hyndman, Gary K Grunwald
+author: Peter J Brockwell, Rob J Hyndman, Gary K Grunwald
 Status: Published
-comments: false
 date: 1991-02-16 01:01:58+00:00
 link: http://www3.stat.sinica.edu.tw/statistica/j1n2/j1n26/j1n26.htm
 slug: continuous-time-threshold-autoregressive-models

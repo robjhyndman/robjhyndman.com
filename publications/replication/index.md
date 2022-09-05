@@ -1,6 +1,5 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
-comments: false
+author: Rob J Hyndman
 date: 2010-01-01 03:53:50+00:00
 slug: replication
 title: Encouraging replication and reproducible research

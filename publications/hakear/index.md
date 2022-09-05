@@ -1,6 +1,6 @@
 ---
 title: "Detecting distributional differences between temporal granularities for exploratory time series analysis"
-author: Sayani Gupta, Rob&nbsp;J&nbsp;Hyndman, Dianne&nbsp;Cook
+author: Sayani Gupta, Rob J Hyndman, Dianne Cook
 date: 2021-11-17
 slug: hakear
 kind: unpublished

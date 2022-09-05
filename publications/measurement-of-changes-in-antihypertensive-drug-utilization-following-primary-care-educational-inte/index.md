@@ -1,7 +1,6 @@
 ---
-author: Fiona E Horn, John A Mandryk, Judith M Mackson, Sonia E Wutzke, Lynn M Weekes, Rob&nbsp;J&nbsp;Hyndman
+author: Fiona E Horn, John A Mandryk, Judith M Mackson, Sonia E Wutzke, Lynn M Weekes, Rob J Hyndman
 Status: Published
-comments: false
 date: 2007-07-16 05:20:33+00:00
 slug: measurement-of-changes-in-antihypertensive-drug-utilization-following-primary-care-educational-inte
 title: Measurement of changes in antihypertensive drug utilization following primary

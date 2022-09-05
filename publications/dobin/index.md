@@ -1,5 +1,5 @@
 ---
-author: Sevvandi Kandanaarachchi, Rob&nbsp;J&nbsp;Hyndman
+author: Sevvandi Kandanaarachchi, Rob J Hyndman
 date: 2021-03-26
 slug: dobin
 title: Dimension reduction for outlier detection using DOBIN

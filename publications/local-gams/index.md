@@ -1,7 +1,6 @@
 ---
-author: John L Pearce, Jason Beringer, Neville Nicholls, Rob&nbsp;J&nbsp;Hyndman, Nigel J Tapper
+author: John L Pearce, Jason Beringer, Neville Nicholls, Rob J Hyndman, Nigel J Tapper
 Status: Published
-comments: false
 date: 2011-01-01 05:46:30+00:00
 slug: local-gams
 title: Quantifying the influence of local meteorology on air quality using generalized additive modelling

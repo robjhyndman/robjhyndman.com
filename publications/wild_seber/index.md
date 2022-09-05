@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
+author: Rob J Hyndman
 Status: Published
-comments: false
 date: 1999-07-15 08:37:25+00:00
 slug: wild-c-j-and-seber-g-a-f-chance-encounters-a-first-course-in-data-analysis-and-inference
 title: 'Book review of "Chance encounters: a first course in data analysis and inference" (Wild & Seber, 2000)'

@@ -1,5 +1,5 @@
 ---
-author: Mahsa Ashouri, Rob&nbsp;J&nbsp;Hyndman, Galit&nbsp;Shmueli
+author: Mahsa Ashouri, Rob J Hyndman, Galit Shmueli
 date: 2022-03-01
 slug: lhf
 title: "Fast forecast reconciliation using linear models"

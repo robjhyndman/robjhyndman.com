@@ -1,5 +1,5 @@
 ---
-author: Kasun&nbsp;Bandara, Rob&nbsp;J&nbsp;Hyndman, Christoph&nbsp;Bergmeir
+author: Kasun Bandara, Rob J Hyndman, Christoph Bergmeir
 date: 2022-05-09
 slug: mstl
 title: "MSTL: A Seasonal-Trend Decomposition Algorithm for Time Series with Multiple Seasonal Patterns"

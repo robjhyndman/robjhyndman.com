@@ -1,7 +1,6 @@
 ---
-author: Heather Booth, Rob&nbsp;J&nbsp;Hyndman, Leonie Tickle
+author: Heather Booth, Rob J Hyndman, Leonie Tickle
 Status: Published
-comments: false
 date: 2014-01-01 01:00:04+00:00
 slug: prospective-life-tables
 title: Prospective life tables

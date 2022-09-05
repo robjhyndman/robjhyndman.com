@@ -1,6 +1,5 @@
 ---
-author: Ye Azhong, Rob&nbsp;J&nbsp;Hyndman, Zinai Li
-comments: false
+author: Ye Azhong, Rob J Hyndman, Zinai Li
 date: 2006-05-01 01:50:39+00:00
 slug: local-linear-multivariate-regression-with-variable-bandwidth-in-the-presence-of-heteroscedasticity
 title: Local linear multivariate regression with variable bandwidth in the presence

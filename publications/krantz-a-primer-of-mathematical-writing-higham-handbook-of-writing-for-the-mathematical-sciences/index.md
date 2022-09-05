@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
+author: Rob J Hyndman
 Status: Published
-comments: false
 date: 1999-07-16 00:36:22+00:00
 slug: krantz-a-primer-of-mathematical-writing-higham-handbook-of-writing-for-the-mathematical-sciences
 title: Book Review of "A primer of mathematical writing" (Krantz, 1997) and "Handbook of writing for the mathematical sciences" (Higham, 1998)

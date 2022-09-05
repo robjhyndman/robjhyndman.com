@@ -1,7 +1,6 @@
 ---
-author: Gary Grunwald, Rob&nbsp;J&nbsp;Hyndman, Leanna Tedesco, Richard L Tweedie
+author: Gary Grunwald, Rob J Hyndman, Leanna Tedesco, Richard L Tweedie
 Status: Published
-comments: false
 date: 2000-11-16 03:05:59+00:00
 slug: non-gaussian-conditional-linear-ar1-models
 title: Non-Gaussian conditional linear AR(1) models

@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
+author: Rob J Hyndman
 Status: Published
-comments: false
 date: 2021-05-11
 slug: quantile-ensembles
 title: Quantile forecasting with ensembles and combinations

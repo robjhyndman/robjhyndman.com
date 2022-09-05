@@ -1,7 +1,6 @@
 ---
-author: Ingrida Steponavičė, Rob&nbsp;J&nbsp;Hyndman, Kate&nbsp;Smith&#8209;Miles, Laura&nbsp;Villanova
+author: Ingrida Steponavičė, Rob J Hyndman, Kate Smith&#8209;Miles, Laura Villanova
 Status: Published
-comments: false
 date: 2014-08-01 06:24:41+00:00
 slug: epic
 title: Efficient identification of the Pareto optimal set

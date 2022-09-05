@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman, Heather Booth
+author: Rob J Hyndman, Heather Booth
 Status: Published
-comments: false
 date: 2008-07-16 05:33:02+00:00
 slug: stochastic-population-forecasts
 title: Stochastic population forecasts using functional data models for mortality,

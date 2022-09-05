@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman, Ralph D Snyder
+author: Rob J Hyndman, Ralph D Snyder
 Status: Published
-comments: false
 date: 2002-07-15 03:09:18+00:00
 slug: kalman-filter
 title: Kalman filter

@@ -1,7 +1,6 @@
 ---
-author: J&nbsp;Keith&nbsp;Ord, Anne B Koehler, Ralph D Snyder, Rob&nbsp;J&nbsp;Hyndman
+author: J Keith Ord, Anne B Koehler, Ralph D Snyder, Rob J Hyndman
 Status: Published
-comments: false
 date: 2009-07-05 23:14:33+00:00
 slug: monitoring-processes
 title: Monitoring processes with changing variances

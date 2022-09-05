@@ -1,6 +1,5 @@
 ---
-author: Andrey V Kostenko and Rob&nbsp;J&nbsp;Hyndman
-comments: false
+author: Andrey V Kostenko and Rob J Hyndman
 date: 2008-11-05 01:57:51+00:00
 slug: forecasting-without-significance-tests
 title: Forecasting without significance tests?

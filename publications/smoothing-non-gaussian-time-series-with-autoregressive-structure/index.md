@@ -1,7 +1,6 @@
 ---
-author: Gary Grunwald, Rob&nbsp;J&nbsp;Hyndman
+author: Gary Grunwald, Rob J Hyndman
 Status: Published
-comments: false
 date: 1998-07-16 03:00:13+00:00
 slug: smoothing-non-gaussian-time-series-with-autoregressive-structure
 title: Smoothing non-Gaussian time series with autoregressive structure

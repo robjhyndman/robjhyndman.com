@@ -1,6 +1,5 @@
 ---
-author: Alexander Dokumentov, Rob&nbsp;J&nbsp;Hyndman
-comments: false
+author: Alexander Dokumentov, Rob J Hyndman
 date: 2014-06-05 03:53:48+00:00
 slug: ropes
 title: Low-dimensional decomposition, smoothing and forecasting of sparse functional data

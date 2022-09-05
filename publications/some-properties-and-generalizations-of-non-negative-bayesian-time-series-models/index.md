@@ -1,7 +1,6 @@
 ---
-author: Gary K Grunwald, Kais Hamza, Rob&nbsp;J&nbsp;Hyndman
+author: Gary K Grunwald, Kais Hamza, Rob J Hyndman
 Status: Published
-comments: false
 date: 1997-07-16 02:48:32+00:00
 slug: some-properties-and-generalizations-of-non-negative-bayesian-time-series-models
 title: Some properties and generalizations of non-negative Bayesian time series models

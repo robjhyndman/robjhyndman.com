@@ -1,7 +1,6 @@
 ---
-author: Rita L Axford, Gary K Grunwald, Rob&nbsp;J&nbsp;Hyndman
+author: Rita L Axford, Gary K Grunwald, Rob J Hyndman
 Status: Published
-comments: false
 date: 1995-07-15 02:21:48+00:00
 link: http://www.achi.org.au/docs/HNI_Book/Chapter_29.pdf
 slug: the-use-of-information-technology-in-the-research-process

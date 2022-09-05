@@ -1,5 +1,5 @@
 ---
-author: John L Pearce, Jason Beringer, Neville Nicholls, Rob&nbsp;J&nbsp;Hyndman, Petteri Uotila, Nigel J Tapper
+author: John L Pearce, Jason Beringer, Neville Nicholls, Rob J Hyndman, Petteri Uotila, Nigel J Tapper
 Status: Published
 date: 2011-07-16 06:50:54+00:00
 slug: synoptic-gams

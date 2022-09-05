@@ -1,7 +1,6 @@
 ---
-author: Ralph D. Snyder, Anne B. Koehler, Rob&nbsp;J&nbsp;Hyndman, J. Keith Ord
+author: Ralph D. Snyder, Anne B. Koehler, Rob J Hyndman, J. Keith Ord
 Status: Published
-comments: false
 date: 2004-05-16 03:42:22+00:00
 slug: exponential-smoothing-models-means-and-variances-for-lead-time-demand
 title: 'Exponential smoothing models: Means and variances for lead-time demand'

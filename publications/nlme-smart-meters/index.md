@@ -1,6 +1,6 @@
 ---
 title: "Nonlinear mixed effects models for time series forecasting of smart meter demand"
-author: Cameron&nbsp;Roach, Rob&nbsp;J&nbsp;Hyndman, Souhaib&nbsp;Ben&nbsp;Taieb
+author: Cameron Roach, Rob J Hyndman, Souhaib Ben Taieb
 date: 2021-01-01
 slug: nlme-smart-meters
 kind: article

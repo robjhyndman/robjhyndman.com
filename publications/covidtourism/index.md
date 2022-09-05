@@ -1,6 +1,6 @@
 ---
 title: "Probabilistic forecasts using expert judgment: the road to recovery from COVID-19"
-author: George Athanasopoulos, Rob&nbsp;J&nbsp;Hyndman, Nikolaos&nbsp;Kourentzes, Mitchell&nbsp;O'Hara&#8209;Wild
+author: George Athanasopoulos, Rob J Hyndman, Nikolaos Kourentzes, Mitchell O'Hara&#8209;Wild
 date: 2022-02-01
 slug: covidtourism
 kind: article

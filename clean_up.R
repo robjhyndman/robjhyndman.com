@@ -27,10 +27,10 @@ move_files <- function(folder, extension) {
   }
 }
 
-move_files("seminars", "md")
-move_files("publications", "md")
-move_files("hyndsight", "md")
-move_files("hyndsight", "qmd")
+#move_files("seminars", "md")
+#move_files("publications", "md")
+#move_files("hyndsight", "md")
+#move_files("hyndsight", "qmd")
 
 remove_yaml_field <- function(file_contents, field) {
   # Find yaml
@@ -51,12 +51,31 @@ remove_yaml_field <- function(file_contents, field) {
   return(file_contents)
 }
 
+remove_yaml_nbsp <- function(file_contents, field) {
+  # Find yaml
+  yaml <- which(str_detect(file_contents, "^---"))[seq(2)]
+  if (length(yaml) == 0L) {
+    stop("No yaml found")
+  }
+  # Find relevant lines in yaml
+  lines <- which(str_detect(file_contents, paste0("^", field, ":")))
+  if (length(lines) > 0) {
+    lines <- lines[lines < max(yaml)]
+  }
+  # Remove nbsp
+  if (length(lines) > 0) {
+    file_contents[lines] <- str_replace_all(file_contents[lines], "&nbsp;", " ")
+  }
+  # Return result
+  return(file_contents)
+}
+
 
 clean_yaml <- function(folder) {
   # Find md and qmd files within folder
   files <- c(
-    fs::dir_ls(folder, glob = "*.md"),
-    fs::dir_ls(folder, glob = "*.qmd")
+    fs::dir_ls(folder, glob = "*.md", recurse=TRUE),
+    fs::dir_ls(folder, glob = "*.qmd", recurse=TRUE)
   )
   for (i in seq_along(files)) {
     oldcontents <- contents <- read_lines(files[i])
@@ -74,9 +93,14 @@ clean_yaml <- function(folder) {
     }
     # Remove wordpress id, author and comments
     contents <- remove_yaml_field(contents, "wordpress")
-    contents <- remove_yaml_field(contents, "author")
+    if(folder != "publications")
+      contents <- remove_yaml_field(contents, "author")
     contents <- remove_yaml_field(contents, "comments")
     contents <- remove_yaml_field(contents, "mathjax")
+    # Remove nbsp from author field
+    if(folder == "publications") {
+      contents <- remove_yaml_nbsp(contents, "author")
+    }
     # Write file
     if(!identical(contents, oldcontents)) {
       write_lines(contents, files[i])
@@ -85,3 +109,4 @@ clean_yaml <- function(folder) {
 }
 
 clean_yaml("hyndsight")
+clean_yaml("publications")

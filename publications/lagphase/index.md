@@ -1,7 +1,6 @@
 ---
 author: Rob J. Hyndman, Mohsen B Mesgaran, Roger D Cousens
 Status: Published
-comments: false
 date: 2015-08-07 04:00:48+00:00
 slug: lagphase
 title: Statistical issues with using herbarium data for the estimation of invasion lag-phases

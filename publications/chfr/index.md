@@ -1,5 +1,5 @@
 ---
-author: Mahdi&nbsp;Abolghasemi, Rob&nbsp;J&nbsp;Hyndman, Evangelos&nbsp;Spiliotis, Christoph&nbsp;Bergmeir
+author: Mahdi Abolghasemi, Rob J Hyndman, Evangelos Spiliotis, Christoph Bergmeir
 date: 2022-01-14
 slug: chfr
 title: "Model selection in reconciling hierarchical time series"

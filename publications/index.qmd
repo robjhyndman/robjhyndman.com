@@ -3,22 +3,24 @@ title: "Publications"
 listing:
   contents: .
   sort: "date desc"
+  feed:
+    title: "Publications by Rob J Hyndman"
+    description: "Working papers and published articles by Professor Rob J Hyndman"
   categories: false
   sort-ui: [date, title]
   filter-ui: [date, title, author, details]
   date-format: "YYYY"
   type: table
   page-size: 50
-  fields: 
+  fields:
     - date
     - author
     - title
     - details
-  field-display-names: 
+  field-display-names:
       date: "Year"
       author: "Authors"
       details: "Publication details"
-
 sidebar: false
 page-layout: full
 title-block-banner: false

@@ -1,5 +1,5 @@
 ---
-author: Priyanga Dilini Talagala, Rob&nbsp;J&nbsp;Hyndman, Kate&nbsp;Smith&#8209;Miles,
+author: Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith&#8209;Miles,
 date: 2021-01-01
 slug: stray
 title: "Anomaly detection in high-dimensional data"

@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
+author: Rob J Hyndman
 Status: Published
-comments: false
 date: 2004-10-16 03:36:14+00:00
 slug: the-interaction-between-trend-and-seasonality
 title: The interaction between trend and seasonality

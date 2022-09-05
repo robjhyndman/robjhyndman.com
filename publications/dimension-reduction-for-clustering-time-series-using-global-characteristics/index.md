@@ -1,7 +1,6 @@
 ---
-author: Xiaozhe Wang, Kate A Smith, Rob&nbsp;J&nbsp;Hyndman
+author: Xiaozhe Wang, Kate A Smith, Rob J Hyndman
 Status: Published
-comments: false
 date: 2005-05-22 01:31:17+00:00
 slug: dimension-reduction-for-clustering-time-series-using-global-characteristics
 title: Dimension reduction for clustering time series using global characteristics

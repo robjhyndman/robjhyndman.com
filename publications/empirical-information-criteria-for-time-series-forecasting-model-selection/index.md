@@ -1,7 +1,6 @@
 ---
-author: Baki Billah, Rob&nbsp;J&nbsp;Hyndman, Anne B Koehler
+author: Baki Billah, Rob J Hyndman, Anne B Koehler
 Status: Published
-comments: false
 date: 2005-10-16 03:44:19+00:00
 slug: empirical-information-criteria-for-time-series-forecasting-model-selection
 title: Empirical information criteria for time series forecasting model selection

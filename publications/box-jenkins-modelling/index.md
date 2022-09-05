@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
+author: Rob J Hyndman
 Status: Published
-comments: false
 date: 2002-07-15 03:02:38+00:00
 slug: box-jenkins-modelling
 title: Box-Jenkins modelling

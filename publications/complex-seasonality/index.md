@@ -1,7 +1,6 @@
 ---
-author: Alysha&nbsp;M&nbsp;De Livera, Rob&nbsp;J&nbsp;Hyndman, Ralph&nbsp;D&nbsp;Snyder
+author: Alysha M De Livera, Rob J Hyndman, Ralph D Snyder
 Status: Published
-comments: false
 date: 2011-12-31 02:38:49+00:00
 slug: complex-seasonality
 title: Forecasting time series with complex seasonal patterns using exponential smoothing
@@ -18,7 +17,6 @@ tags:
 file: ComplexSeasonality.pdf
 doi: 10.1198/jasa.2011.tm09771
 details: "<em>Journal of the American Statistical Association</em> <b>106</b>(496), 1513-1527"
-mathjax: true
 ---
 
 A new innovations state space modeling framework, incorporating Box-Cox transformations, Fourier series with time varying coefficients and ARMA error correction, is introduced for forecasting complex seasonal time series that cannot be handled using existing forecasting models. Such complex time series include time series with multiple seasonal periods, high frequency seasonality, non-integer seasonality and dual-calendar effects. Our new modelling framework provides an alternative to existing exponential smoothing models, and is shown to have many advantages. The methods for initialization and estimation, including likelihood evaluation, are presented, and analytical expressions for point forecasts and interval predictions under the assumption of Gaussian errors are derived, leading to a simple, comprehensible approach to forecasting complex seasonal time series. Our trigonometric formulation is also presented as a means of decomposing complex seasonal time series, which cannot be decomposed using any of the existing decomposition methods. The approach is useful in a broad range of applications, and we illustrate its versatility in three empirical studies where it demonstrates excellent forecasting performance over a range of prediction horizons. In addition, we show that our trigonometric decomposition leads to the identification and extraction of seasonal components, which are otherwise not apparent in the time series plot itself.

@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman, Baki Billah
+author: Rob J Hyndman, Baki Billah
 Status: Published
-comments: false
 date: 2003-04-16 03:29:35+00:00
 slug: unmasking-the-theta-method
 title: Unmasking the Theta method

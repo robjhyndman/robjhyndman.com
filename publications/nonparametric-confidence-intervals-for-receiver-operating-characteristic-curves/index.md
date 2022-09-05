@@ -1,7 +1,6 @@
 ---
-author: Peter G Hall, Rob&nbsp;J&nbsp;Hyndman, Yanan Fan
+author: Peter G Hall, Rob J Hyndman, Yanan Fan
 Status: Published
-comments: false
 date: 2004-07-16 03:34:10+00:00
 slug: nonparametric-confidence-intervals-for-receiver-operating-characteristic-curves
 title: Nonparametric confidence intervals for receiver operating characteristic curves

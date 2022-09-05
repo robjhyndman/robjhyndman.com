@@ -1,7 +1,6 @@
 ---
-author: Martin Predavec, Charles Kreb,  Kajell Danell, Rob&nbsp;J&nbsp;Hyndman
+author: Martin Predavec, Charles Kreb,  Kajell Danell, Rob J Hyndman
 Status: Published
-comments: false
 date: 2001-11-16 03:12:46+00:00
 details: <em>Oecologia</em> <b>126</b>, 216-224
 slug: cycles-and-synchrony-in-the-collared-lemming-dicrostonyx-groenlandicus-in-arctic-north-america

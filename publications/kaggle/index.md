@@ -1,7 +1,6 @@
 ---
-author: George Athanasopoulos, Rob&nbsp;J&nbsp;Hyndman
+author: George Athanasopoulos, Rob J Hyndman
 Status: Published
-comments: false
 date: 2011-02-09 05:00:32+00:00
 slug: kaggle
 title: The value of feedback in forecasting competitions

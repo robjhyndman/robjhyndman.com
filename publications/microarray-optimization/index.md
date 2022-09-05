@@ -1,7 +1,6 @@
 ---
-author: Laura&nbsp;Villanova, Paolo&nbsp;Falcaro, Davide&nbsp;Carta, Irene&nbsp;Poli, Rob&nbsp;J&nbsp;Hyndman, Kate&nbsp;Smith&#8209;Miles
+author: Laura Villanova, Paolo Falcaro, Davide Carta, Irene Poli, Rob J Hyndman, Kate Smith&#8209;Miles
 Status: Published
-comments: false
 date: 2010-02-07 23:12:26+00:00
 slug: microarray-optimization
 title: 'Functionalization of microarray devices: process optimization using a multiobjective PSO and multiresponse MARS modeling'

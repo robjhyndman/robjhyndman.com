@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
+author: Rob J Hyndman
 Status: Published
-comments: false
 date: 1996-07-16 02:38:57+00:00
 slug: computing-and-graphing-highest-density-regions
 title: Computing and graphing highest density regions

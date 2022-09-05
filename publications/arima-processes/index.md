@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
+author: Rob J Hyndman
 Status: Published
-comments: false
 date: 2002-07-15 02:25:09+00:00
 slug: arima-processes
 title: ARIMA processes

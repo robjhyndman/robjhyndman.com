@@ -1,7 +1,6 @@
 ---
-author: Jan Verbesselt, Rob&nbsp;J&nbsp;Hyndman, Glenn Newnham, Darius Culvenor
+author: Jan Verbesselt, Rob J Hyndman, Glenn Newnham, Darius Culvenor
 Status: Published
-comments: false
 date: 2010-01-14 23:21:12+00:00
 slug: bfast1
 title: Detecting trend and seasonal changes in satellite image time series

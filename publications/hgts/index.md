@@ -1,5 +1,5 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman, Alan Lee, Earo Wang
+author: Rob J Hyndman, Alan Lee, Earo Wang
 Status: Published
 date: 2016-01-31 22:49:10+00:00
 slug: hgts

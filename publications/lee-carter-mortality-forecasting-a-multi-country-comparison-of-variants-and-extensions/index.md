@@ -1,7 +1,6 @@
 ---
-author: Heather Booth, Rob&nbsp;J&nbsp;Hyndman, Leonie Tickle, Piet De Jong
+author: Heather Booth, Rob J Hyndman, Leonie Tickle, Piet De Jong
 Status: Published
-comments: false
 date: 2006-10-20 04:24:21+00:00
 slug: lee-carter-mortality-forecasting-a-multi-country-comparison-of-variants-and-extensions
 title: 'Lee-Carter mortality forecasting: a multi-country comparison of variants and

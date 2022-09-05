@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman, Matthew P Wand
+author: Rob J Hyndman, Matthew P Wand
 Status: Published
-comments: false
 date: 1997-12-16 02:50:35+00:00
 slug: nonparametric-autocovariance-function-estimation
 title: Nonparametric autocovariance function estimation

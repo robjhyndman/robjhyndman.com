@@ -1,5 +1,5 @@
 ---
-author: Priyanga&nbsp;Dilini&nbsp;Talagala, Rob&nbsp;J&nbsp;Hyndman, Kate&nbsp;Smith&#8209;Miles, Sevvandi&nbsp;Kandanaarachchi and Mario&nbsp;A&nbsp;Muñoz
+author: Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith&#8209;Miles, Sevvandi Kandanaarachchi and Mario A Muñoz
 date: 2020-04-19
 slug: oddstream
 title: "Anomaly detection in streaming nonstationary temporal data"

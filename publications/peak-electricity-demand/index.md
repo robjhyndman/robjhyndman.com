@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman, Shu Fan
+author: Rob J Hyndman, Shu Fan
 Status: Published
-comments: false
 date: 2010-01-02 23:10:12+00:00
 slug: peak-electricity-demand
 title: Density forecasting for long-term peak electricity demand

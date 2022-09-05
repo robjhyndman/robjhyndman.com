@@ -1,7 +1,6 @@
 ---
-author: John A Mandryk, Judith M Mackson, Fiona E Horn, Sonia E Wutzke, Caro-Anne Badcock, Rob&nbsp;J&nbsp;Hyndman, Lynn M Weekes
+author: John A Mandryk, Judith M Mackson, Fiona E Horn, Sonia E Wutzke, Caro-Anne Badcock, Rob J Hyndman, Lynn M Weekes
 Status: Published
-comments: false
 date: 2006-05-16 04:57:29+00:00
 slug: measuring-change-in-prescription-drug-utilization-in-australia
 title: Measuring change in prescription drug utilization in Australia

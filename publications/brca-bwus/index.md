@@ -1,7 +1,6 @@
 ---
-author: Farah Yasmeen, Rob&nbsp;J&nbsp;Hyndman, Bircan Erbas
+author: Farah Yasmeen, Rob J Hyndman, Bircan Erbas
 Status: Published
-comments: false
 date: 2010-05-06 01:14:25+00:00
 slug: brca-bwus
 title: Forecasting age-related changes in breast cancer mortality among white and

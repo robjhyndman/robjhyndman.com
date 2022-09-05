@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman, Han Lin Shang
+author: Rob J Hyndman, Han Lin Shang
 Status: Published
-comments: false
 date: 2010-02-28 23:17:40+00:00
 slug: rainbow-fda
 title: Rainbow plots, bagplots and boxplots for functional data

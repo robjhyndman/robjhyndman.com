@@ -1,5 +1,5 @@
 ---
-author: Insha Ullah, Kerrie&nbsp;Mengersen, Rob&nbsp;J&nbsp;Hyndman, James&nbsp;McGree
+author: Insha Ullah, Kerrie Mengersen, Rob J Hyndman, James McGree
 date: 2019-03-09
 slug: nids-anomalies
 title: Detection of cybersecurity attacks through analysis of web browsing activities using principal component analysis

@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman, Yeasmin Khandakar
+author: Rob J Hyndman, Yeasmin Khandakar
 Status: Published
-comments: false
 date: 2008-07-16 05:29:32+00:00
 slug: automatic-forecasting
 title: 'Automatic time series forecasting: the forecast package for R'

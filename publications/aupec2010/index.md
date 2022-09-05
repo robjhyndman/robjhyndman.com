@@ -1,7 +1,6 @@
 ---
-author: Shu Fan, Rob&nbsp;J&nbsp;Hyndman
+author: Shu Fan, Rob J Hyndman
 Status: Published
-comments: false
 date: 2010-07-21 09:15:13+00:00
 slug: aupec2010
 title: Short-term load forecasting based on a semi-parametric additive model

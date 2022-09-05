@@ -1,7 +1,6 @@
 ---
-author: George Athanasopoulos, Rob&nbsp;J&nbsp;Hyndman
+author: George Athanasopoulos, Rob J Hyndman
 Status: Published
-comments: false
 date: 2008-02-01 06:25:02+00:00
 slug: aus-domestic-tourism
 title: Modelling and forecasting Australian domestic tourism

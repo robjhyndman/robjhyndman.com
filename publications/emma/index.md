@@ -1,7 +1,6 @@
 ---
-author: Davide&nbsp;Carta, Laura&nbsp;Villanova, Stefano&nbsp;Costacurta, Alessandro&nbsp;Patelli, Irene&nbsp;Poli, Simone&nbsp;Vezzu, Paolo&nbsp;Scopece, Fabio&nbsp;Lisi, Kate&nbsp;Smith&#8209;Miles, Rob&nbsp;J&nbsp;Hyndman, Anita&nbsp;J&nbsp;Hill, Paolo&nbsp;Falcaro
+author: Davide Carta, Laura Villanova, Stefano Costacurta, Alessandro Patelli, Irene Poli, Simone Vezzu, Paolo Scopece, Fabio Lisi, Kate Smith&#8209;Miles, Rob J Hyndman, Anita J Hill, Paolo Falcaro
 Status: Published
-comments: false
 date: 2011-07-14 09:24:57+00:00
 slug: emma
 title: Method for optimizing coating properties based on an evolutionary algorithm approach

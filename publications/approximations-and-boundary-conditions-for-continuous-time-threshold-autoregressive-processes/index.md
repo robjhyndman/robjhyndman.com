@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
+author: Rob J Hyndman
 Status: Published
-comments: false
 date: 1994-07-16 02:10:35+00:00
 slug: approximations-and-boundary-conditions-for-continuous-time-threshold-autoregressive-processes
 title: Approximations and boundary conditions for continuous time threshold autoregressive processes

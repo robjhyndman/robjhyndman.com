@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman, Andrey V Kostenko
+author: Rob J Hyndman, Andrey V Kostenko
 Status: Published
-comments: false
 date: 2007-03-16 05:17:49+00:00
 slug: minimum-sample-size-requirements-for-seasonal-forecasting-models
 title: Minimum sample size requirements for seasonal forecasting models

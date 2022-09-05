@@ -1,6 +1,5 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman, Shu Fan
-comments: false
+author: Rob J Hyndman, Shu Fan
 date: 2014-05-22 01:46:18+00:00
 slug: mefm
 title: Monash Electricity Forecasting Model

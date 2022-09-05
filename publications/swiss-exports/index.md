@@ -1,5 +1,5 @@
 ---
-author: Florian Eckert, Rob&nbsp;J&nbsp;Hyndman, Anastasios Panagiotelis
+author: Florian Eckert, Rob J Hyndman, Anastasios Panagiotelis
 date: 2021-01-01
 slug: swiss-exports
 title: "Forecasting Swiss Exports using Bayesian Forecast Reconciliation"

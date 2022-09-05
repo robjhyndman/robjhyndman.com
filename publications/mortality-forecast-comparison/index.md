@@ -1,7 +1,6 @@
 ---
-author: Han Lin Shang, Heather Booth, Rob&nbsp;J&nbsp;Hyndman
+author: Han Lin Shang, Heather Booth, Rob J Hyndman
 Status: Published
-comments: false
 date: 2011-07-14 23:19:38+00:00
 slug: mortality-forecast-comparison
 title: 'Point and interval forecasts of mortality rates and life expectancy: a comparison of ten principal component methods'

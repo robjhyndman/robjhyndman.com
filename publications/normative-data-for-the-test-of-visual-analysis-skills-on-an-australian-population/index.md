@@ -1,7 +1,6 @@
 ---
-author: Francoise Rateau, Bastien Laumonier Rob&nbsp;J&nbsp;Hyndman
+author: Francoise Rateau, Bastien Laumonier Rob J Hyndman
 Status: Published
-comments: false
 date: 2003-07-16 03:31:47+00:00
 link: http://journals.lww.com/optvissci/Fulltext/2003/06000/Normative_Data_for_the_Rosner_Test_of_Visual.8.aspx
 slug: normative-data-for-the-test-of-visual-analysis-skills-on-an-australian-population

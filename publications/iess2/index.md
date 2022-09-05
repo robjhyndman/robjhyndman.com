@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
+author: Rob J Hyndman
 Status: Published
-comments: false
 date: 2010-01-01 04:30:50+00:00
 slug: iess2
 title: Business Forecasting Methods

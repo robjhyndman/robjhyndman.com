@@ -1,7 +1,6 @@
 ---
-author:  D&nbsp;Vicendese, L&nbsp;Te&nbsp;Marvelde, PD&nbsp;McNair, K&nbsp;Whitfield, DR&nbsp;English, S&nbsp;Ben&nbsp;Taieb, RJ&nbsp;Hyndman, R&nbsp;Thomas
+author:  D Vicendese, L Te Marvelde, PD McNair, K Whitfield, DR English, S Ben Taieb, RJ Hyndman, R Thomas
 Status: Published
-comments: false
 date: 2019-12-08
 slug: colorectal
 details: "<em>Statistics and Data Science</em>, RSSDS 2019 (ed. Nguyen H). Communications in Computer and Information Science <b>1150</b>, pp 162-182. Springer, Singapore"

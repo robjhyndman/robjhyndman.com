@@ -1,5 +1,5 @@
 ---
-author: Atefeh&nbsp;Zamani, Hossein&nbsp;Haghbin, Maryam&nbsp;Hashemi, Rob&nbsp;J&nbsp;Hyndman
+author: Atefeh Zamani, Hossein Haghbin, Maryam Hashemi, Rob J Hyndman
 date: 2022-03-01
 slug: sfar
 title: Seasonal functional autoregressive models

@@ -1,7 +1,6 @@
 ---
-author: Timur Behlul, Anastasios Panagiotelis, George Athanasopoulos, Rob&nbsp;J&nbsp;Hyndman, Farshid Vahid
+author: Timur Behlul, Anastasios Panagiotelis, George Athanasopoulos, Rob J Hyndman, Farshid Vahid
 Status: Published
-comments: false
 date: 2017-02-14 05:26:17+00:00
 slug: ausmacrodata
 title: 'The Australian Macro Database: An online resource for macroeconomic research in Australia'

@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
+author: Rob J Hyndman
 Status: Published
-comments: false
 date: 1993-07-16 02:06:56+00:00
 slug: yule-walker-estimates-for-continuous-time-autoregressive-models
 title: Yule-Walker estimates for continuous-time autoregressive models

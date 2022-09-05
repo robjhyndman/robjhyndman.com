@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman, Anne B Koehler, J&nbsp;Keith&nbsp;Ord, Ralph D Snyder
+author: Rob J Hyndman, Anne B Koehler, J Keith Ord, Ralph D Snyder
 Status: Published
-comments: false
 date: 2005-01-16 03:53:26+00:00
 slug: prediction-intervals-for-exponential-smoothing-using-two-new-classes-of-state-space-models
 title: Prediction intervals for exponential smoothing using two new classes of state space models
@@ -13,7 +12,6 @@ tags:
 - time series
 details: <em>Journal of Forecasting</em> <b>24</b>(1), 17-37
 doi: 10.1002/for.938
-mathjax: true
 ---
 
 

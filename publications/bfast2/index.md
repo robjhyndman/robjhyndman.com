@@ -1,7 +1,6 @@
 ---
-author: Jan Verbesselt, Rob&nbsp;J&nbsp;Hyndman, Achim Zeilis, Darius Culvenor
+author: Jan Verbesselt, Rob J Hyndman, Achim Zeilis, Darius Culvenor
 Status: Published
-comments: false
 date: 2010-08-17 08:05:10+00:00
 slug: bfast2
 title: Phenological change detection while accounting for abrupt and gradual trends in satellite image time series

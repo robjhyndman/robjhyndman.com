@@ -1,7 +1,6 @@
 ---
-author: Andrey V Kostenko, Rob&nbsp;J&nbsp;Hyndman
+author: Andrey V Kostenko, Rob J Hyndman
 Status: Published
-comments: false
 date: 2006-08-16 03:47:39+00:00
 slug: a-note-on-the-categorization-of-demand-patterns
 title: A note on the categorization of demand patterns

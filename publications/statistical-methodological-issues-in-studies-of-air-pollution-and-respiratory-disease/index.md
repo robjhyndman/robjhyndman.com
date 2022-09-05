@@ -1,7 +1,6 @@
 ---
-author: Bircan Erbas, Rob&nbsp;J&nbsp;Hyndman
+author: Bircan Erbas, Rob J Hyndman
 Status: Published
-comments: false
 date: 2001-07-02 00:56:54+00:00
 slug: statistical-methodological-issues-in-studies-of-air-pollution-and-respiratory-disease
 title: Statistical methodological issues in studies of air pollution and respiratory disease

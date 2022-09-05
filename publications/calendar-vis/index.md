@@ -1,5 +1,5 @@
 ---
-author: Earo Wang, Dianne Cook, Rob&nbsp;J&nbsp;Hyndman
+author: Earo Wang, Dianne Cook, Rob J Hyndman
 date: 2020-01-07
 slug: calendar-vis
 title: Calendar-based graphics for visualizing people's daily schedules

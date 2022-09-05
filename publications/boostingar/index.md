@@ -1,5 +1,5 @@
 ---
-author: Souhaib Ben Taieb, Rob&nbsp;J&nbsp;Hyndman
+author: Souhaib Ben Taieb, Rob J Hyndman
 date: 2014-01-09 23:00:22+00:00
 slug: boostingar
 title: Boosting multi-step autoregressive forecasts

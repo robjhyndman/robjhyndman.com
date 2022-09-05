@@ -1,6 +1,5 @@
 ---
-author: Alex&nbsp;Dokumentov and Rob&nbsp;J&nbsp;Hyndman
-comments: false
+author: Alex Dokumentov and Rob J Hyndman
 date: 2021-06-03
 slug: str
 title: 'STR: Seasonal-Trend decomposition using Regression'

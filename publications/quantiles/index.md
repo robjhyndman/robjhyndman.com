@@ -1,11 +1,10 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman and Yanan Fan
+author: Rob J Hyndman and Yanan Fan
 Status: Published
 date: 1996-11-16 02:45:26+00:00
 slug: quantiles
 title: Sample quantiles in statistical packages
 details: "<em>American Statistician</em> <b>50</b> 361-365"
-mathjax: true
 status: Published
 kind: article
 tag:

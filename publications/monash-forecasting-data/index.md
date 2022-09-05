@@ -1,5 +1,5 @@
 ---
-author: Rakshitha&nbsp;Godahewa, Christoph&nbsp;Bergmeir, Geoffrey&nbsp;I&nbsp;Webb, Rob&nbsp;J&nbsp;Hyndman, Pablo&nbsp;Montero-Manso
+author: Rakshitha Godahewa, Christoph Bergmeir, Geoffrey I Webb, Rob J Hyndman, Pablo Montero-Manso
 date: 2021-10-12
 slug: monash-forecasting-data
 title: "Monash Time Series Forecasting Archive"

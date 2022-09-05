@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman, Gary K Grunwald
+author: Rob J Hyndman, Gary K Grunwald
 Status: Published
-comments: false
 date: 2000-05-16 03:06:43+00:00
 slug: gam-rainfall
 title: Generalized additive modelling of mixed distribution Markov models with application

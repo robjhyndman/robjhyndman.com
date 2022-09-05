@@ -1,7 +1,6 @@
 ---
-author: Xiaozhe Wang, Kate A Smith, Rob&nbsp;J&nbsp;Hyndman
+author: Xiaozhe Wang, Kate A Smith, Rob J Hyndman
 Status: Published
-comments: false
 date: 2006-05-16 05:52:34+00:00
 slug: ts-clustering
 aliases:

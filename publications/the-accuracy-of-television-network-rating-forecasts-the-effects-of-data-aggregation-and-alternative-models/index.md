@@ -1,7 +1,6 @@
 ---
-author: Denny Meyer, Rob&nbsp;J&nbsp;Hyndman
+author: Denny Meyer, Rob J Hyndman
 Status: Published
-comments: false
 date: 2006-01-16 05:47:46+00:00
 slug: the-accuracy-of-television-network-rating-forecasts-the-effects-of-data-aggregation-and-alternative-models
 title: 'The accuracy of television network rating forecasts: the effects of data aggregation

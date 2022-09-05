@@ -1,7 +1,6 @@
 ---
-author: Souhaib Ben Taieb, Raphael Huser, Rob&nbsp;J&nbsp;Hyndman and Marc G Genton
+author: Souhaib Ben Taieb, Raphael Huser, Rob J Hyndman and Marc G Genton
 Status: Published
-comments: false
 date: 2015-06-04 11:27:01+00:00
 slug: kdd2015
 title: 'Probabilistic time series forecasting with boosted additive models: an application to smart meter data'

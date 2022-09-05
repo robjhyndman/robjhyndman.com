@@ -1,5 +1,5 @@
 ---
-author: Fotios Petropoulos, Rob&nbsp;J&nbsp;Hyndman, Christoph Bergmeir
+author: Fotios Petropoulos, Rob J Hyndman, Christoph Bergmeir
 date: 2018-02-04
 slug: bagging-uncertainty
 title: "Exploring the sources of uncertainty: why does bagging for time series forecasting work?"

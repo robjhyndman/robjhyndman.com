@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
+author: Rob J Hyndman
 Status: Published
-comments: false
 date: 1992-12-17 00:19:33+00:00
 slug: phd
 title: Continuous-time threshold autoregressive modelling

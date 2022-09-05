@@ -1,7 +1,6 @@
 ---
-author: Tao Hong, Pierre Pinson, Shu Fan, Hamidreza Zareipour, Alberto Troccoli, Rob&nbsp;J&nbsp;Hyndman
+author: Tao Hong, Pierre Pinson, Shu Fan, Hamidreza Zareipour, Alberto Troccoli, Rob J Hyndman
 Status: Published
-comments: false
 date: 2016-01-25 00:40:48+00:00
 slug: gefcom2014
 title: 'Probabilistic Energy Forecasting: Global Energy Forecasting Competition 2014 and Beyond'

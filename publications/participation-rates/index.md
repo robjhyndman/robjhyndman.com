@@ -1,7 +1,6 @@
 ---
-author: Thomas Url, Rob&nbsp;J&nbsp;Hyndman, Alexander Dokumentov
+author: Thomas Url, Rob J Hyndman, Alexander Dokumentov
 Status: Published
-comments: false
 date: 2016-01-24 06:33:23+00:00
 slug: participation-rates
 title: Long-term forecasts of age-specific participation rates with functional data

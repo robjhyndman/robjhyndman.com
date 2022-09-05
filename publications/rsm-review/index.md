@@ -1,6 +1,5 @@
 ---
-author: Laura Villanova, Rob&nbsp;J&nbsp;Hyndman, Kate&nbsp;Smith&#8209;Miles, Irene&nbsp;Poli
-comments: false
+author: Laura Villanova, Rob J Hyndman, Kate Smith&#8209;Miles, Irene Poli
 date: 2013-10-31 12:27:07+00:00
 slug: rsm-review
 title: 'Nonparametric and semiparametric response surface methodology: a review of designs, models and optimization techniques'

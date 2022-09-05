@@ -1,5 +1,5 @@
 ---
-author: Evangelos&nbsp;Spiliotis, Mahdi&nbsp;Abolghasemi, Rob&nbsp;J&nbsp;Hyndman, Fotios&nbsp;Petropoulos, Vassilios&nbsp;Assimakopoulos
+author: Evangelos Spiliotis, Mahdi Abolghasemi, Rob J Hyndman, Fotios Petropoulos, Vassilios Assimakopoulos
 date: 2021-07-25
 slug: hfrml
 title: "Hierarchical forecast reconciliation with machine learning"

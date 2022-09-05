@@ -1,7 +1,6 @@
 ---
-author: Jeff Racine, Rob&nbsp;J&nbsp;Hyndman
+author: Jeff Racine, Rob J Hyndman
 Status: Published
-comments: false
 date: 2002-03-16 03:25:42+00:00
 slug: using-r-to-teach-econometrics
 title: Using R to Teach Econometrics

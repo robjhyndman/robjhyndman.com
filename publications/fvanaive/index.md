@@ -1,9 +1,8 @@
 ---
 title: A note on upper bounds for forecast-value-added relative to naïve forecasts
-author: Paul Goodwin, Fotios Petropoulos, Rob&nbsp;J&nbsp;Hyndman
+author: Paul Goodwin, Fotios Petropoulos, Rob J Hyndman
 status: Published
 kind: article
-comments: false
 details: <em>Journal of the Operational Research Society</em>, <b>68</b>(9), 1082–1084
 date: 2017-03-28 08:10:47+00:00
 slug: fvanaive

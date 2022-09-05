@@ -1,7 +1,6 @@
 ---
-author: Han Lin Shang, Rob&nbsp;J&nbsp;Hyndman
+author: Han Lin Shang, Rob J Hyndman
 Status: Published
-comments: false
 date: 2010-08-03 08:33:10+00:00
 slug: interface2010
 title: Exploratory graphics for functional data

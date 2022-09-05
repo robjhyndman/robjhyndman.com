@@ -1,7 +1,6 @@
 ---
-author: Rachel Tham, Don Vicendese, Shyamali C Dharmage, Rob&nbsp;J&nbsp;Hyndman, Ed Newbigin, Emma Lewis, Molly O'Sullivan, Adrian J Lowe, Philip Taylor, Philip Bardin, Mimi L Tang, Michael J Abramson, Bircan Erbas.
+author: Rachel Tham, Don Vicendese, Shyamali C Dharmage, Rob J Hyndman, Ed Newbigin, Emma Lewis, Molly O'Sullivan, Adrian J Lowe, Philip Taylor, Philip Bardin, Mimi L Tang, Michael J Abramson, Bircan Erbas.
 Status: Published
-comments: false
 date: 2017-01-31 22:43:18+00:00
 slug: jaci2016
 title: Associations between outdoor fungal spores and childhood and adolescent asthma hospitalisations

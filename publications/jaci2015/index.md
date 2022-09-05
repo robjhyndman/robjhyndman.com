@@ -1,7 +1,6 @@
 ---
-author: Bircan Erbas, SC Dharmage, ML Tang, Md Akram, KJ Allen, Don Vicendese, JM Davies, Rob&nbsp;J&nbsp;Hyndman, Ed J Newbigin, PE Taylor, PG  Bardin, Michael J Abramson
+author: Bircan Erbas, SC Dharmage, ML Tang, Md Akram, KJ Allen, Don Vicendese, JM Davies, Rob J Hyndman, Ed J Newbigin, PE Taylor, PG  Bardin, Michael J Abramson
 Status: Published
-comments: false
 date: 2015-06-10 01:48:56+00:00
 slug: jaci2015
 title: Do human rhinovirus infections and food allergy modify grass pollen–induced asthma hospital admissions in children?

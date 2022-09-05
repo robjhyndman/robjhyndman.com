@@ -1,5 +1,5 @@
 ---
-author: Catherine&nbsp;Leigh, Omar&nbsp;Alsibai, Rob&nbsp;J&nbsp;Hyndman, Sevvandi&nbsp;Kandanaarachchi, Olivia&nbsp;C&nbsp;King, James&nbsp;M&nbsp;McGree, Catherine&nbsp;Neelamraju, Jennifer&nbsp;Strauss, Priyanga&nbsp;Dilini&nbsp;Talagala, Ryan&nbsp;S&nbsp;Turner, Kerrie&nbsp;Mengersen, Erin&nbsp;E&nbsp;Peterson
+author: Catherine Leigh, Omar Alsibai, Rob J Hyndman, Sevvandi Kandanaarachchi, Olivia C King, James M McGree, Catherine Neelamraju, Jennifer Strauss, Priyanga Dilini Talagala, Ryan S Turner, Kerrie Mengersen, Erin E Peterson
 date: 2019-02-06
 slug: water-quality-2
 title: A framework for automated anomaly detection in high frequency water-quality data from in situ sensors

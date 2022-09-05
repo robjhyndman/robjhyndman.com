@@ -1,7 +1,6 @@
 ---
-author: Xiaozhe&nbsp;Wang, Kate&nbsp;A&nbsp;Smith&#8209;Miles, Rob&nbsp;J&nbsp;Hyndman
+author: Xiaozhe Wang, Kate A Smith&#8209;Miles, Rob J Hyndman
 Status: Published
-comments: false
 date: 2009-01-16 23:15:43+00:00
 slug: forecast-rules
 title: 'Rule induction for forecasting method selection: meta-learning the characteristics of univariate time series'

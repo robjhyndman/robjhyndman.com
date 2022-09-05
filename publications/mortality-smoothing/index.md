@@ -1,9 +1,8 @@
 ---
-author: Alexander Dokumentov, Rob&nbsp;J&nbsp;Hyndman, Leonie Tickle
+author: Alexander Dokumentov, Rob J Hyndman, Leonie Tickle
 date: 2018-07-06
 slug: mortality-smoothing
 title: Bivariate smoothing of mortality surfaces with cohort and period ridges
-mathjax: true
 kind:
  article
 details: "<em>Stat</em>, <b>7</b>: e199"

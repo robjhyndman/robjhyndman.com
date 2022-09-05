@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
+author: Rob J Hyndman
 Status: Published
-comments: false
 date: 1995-07-05 01:39:20+00:00
 slug: sturges
 title: The problem with Sturges' rule for constructing histograms

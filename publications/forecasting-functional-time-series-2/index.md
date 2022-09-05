@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman, Han Lin Shang
+author: Rob J Hyndman, Han Lin Shang
 Status: Published
-comments: false
 date: 2009-07-23 23:12:47+00:00
 slug: forecasting-functional-time-series-2
 title: Forecasting functional time series

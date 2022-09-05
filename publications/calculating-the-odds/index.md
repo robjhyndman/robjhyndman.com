@@ -1,7 +1,6 @@
 ---
-author: Rob&nbsp;J&nbsp;Hyndman
+author: Rob J Hyndman
 Status: Published
-comments: false
 date: 1987-09-15 09:25:28+00:00
 slug: calculating-the-odds
 title: Calculating the odds

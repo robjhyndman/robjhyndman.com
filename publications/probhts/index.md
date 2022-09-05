@@ -1,5 +1,5 @@
 ---
-author: Souhaib Ben Taieb, James W Taylor, Rob&nbsp;J&nbsp;Hyndman
+author: Souhaib Ben Taieb, James W Taylor, Rob J Hyndman
 date: 2017-06-02
 slug: probhts
 title: Coherent Probabilistic Forecasts for Hierarchical Time Series
