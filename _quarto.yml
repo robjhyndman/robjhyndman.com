@@ -27,8 +27,10 @@ website:
       - href: about/index.qmd
         text: About
   page-footer:
-    left: "Copyright 2022, Rob J Hyndman"
+    left: "© 1993-2022, Rob J Hyndman"
     right:
+      - icon: rss
+        href: https://robjhyndman.com/index.xml
       - icon: github
         href: https://github.com/robjhyndman
       - icon: twitter
