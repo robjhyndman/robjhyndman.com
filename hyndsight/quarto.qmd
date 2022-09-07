@@ -1,0 +1,14 @@
+---
+date: "2022-09-07"
+title: "Migrating to quarto"
+categories:
+  - computing
+  - quarto
+image: /img/quarto_site.png
+---
+
+This website is now managed using [Quarto](https://quarto.org). It ran using blogdown for the last six years, and [various other platforms before that](/hyndsight/blogdown). But Quarto had a few advantages, and I wanted to learn how to do it, so here we are.
+
+Actually, setting up a website in Quarto is extremely easy when following [the online instructions](https://quarto.org/docs/websites/). The hard part for me was the migration. There are about 800 pages that make up this site, and about 4000 comments on my blog. I didn't want to break any existing links, so retaining the same structure was important.
+
+For the blogdown site, I had to hack my own hugo theme to make it look the way I wanted. This one is pretty much straight out of the quarto box other than some css styling, and some tweaking of quarto templates. In case anyone wants to create something a little similar for themselves, I've set up a [template version](https://github.com/robjhyndman/quarto_website_template) with just the bare minimum so you don't need to wade through all the folders that I've retained to ensure existing links still work.
