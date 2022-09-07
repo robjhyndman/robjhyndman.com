@@ -134,6 +134,14 @@ nav,
   font-size: 100%;
 }
 
+a.nav-link,a.navbar-brand {
+  border-bottom: 0;
+}
+
+a.nav-link:hover,a.navbar-brand:hover {
+  color: #efce14;
+}
+
 /* Badges */
 
 a.badge.badge-red {
