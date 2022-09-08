@@ -123,6 +123,17 @@ new_discussion_query <- 'mutation {
   }
 }'
 
+# Template for new comment
+new_comment_query <- 'mutation {
+  addDiscussionComment(input: {discussionId: "{{discussion_id}}", body: "{{comment_body}}"{{#reply_id}} , replyToId: "{{reply_id}}"{{/reply_id}} }) {
+
+    # response type: CreateDiscussionPayload
+    comment {
+      id
+    }
+  }
+}'
+
 # Resolve root comment
 resolve_root_comment <- function(comment_id, parent_id) {
   resolved <- is.na(parent_id)
