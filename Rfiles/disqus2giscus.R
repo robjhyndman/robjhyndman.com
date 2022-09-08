@@ -215,7 +215,7 @@ for(i in 1:length(thread_ids)) {
     )
   )
   while (!is.null((new_discussion <- gh::gh_gql(post))$errors)) {
-    if(out$errors[[1]]$message == "was submitted too quickly") {
+    if(new_discussion$errors[[1]]$message == "was submitted too quickly") {
       cli::cli_alert_danger("Hit rate limit, waiting 1 minute...")
       Sys.sleep(60)
     } else {
