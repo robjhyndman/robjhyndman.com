@@ -6,10 +6,10 @@ freeze: true
 
 comments:
   giscus:
-    repo:  robjhyndman/hyndsight
-    repo-id: "R_kgDOH79Fnw"
+    repo:  robjhyndman/robjhyndman.com
+    repo-id: "R_kgDOH5G3Uw"
     category: "Announcements"
-    category-id: "DIC_kwDOH79Fn84CRPee"
+    category-id: "DIC_kwDOH5G3U84CRUp9"
     mapping: "pathname"
     reactions-enabled: true
     loading: lazy

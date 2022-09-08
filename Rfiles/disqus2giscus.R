@@ -9,7 +9,7 @@
 disqus_file <- "hyndsight.xml"
 website <- "https://robjhyndman.com"
 github_name <- "robjhyndman"
-github_repo <- "hyndsight"
+github_repo <- "robjhyndman.com"
 my_disqus_name <- "Rob J Hyndman"
 ####################################################
 
