@@ -1,0 +1,30 @@
+---
+title: "Migrating from Disqus to giscus"
+categories:
+  - computing
+image: /img/giscus.png
+---
+
+I've long wanted to ditch Disqus as the commenting system on this blog, as it is bloated, adds a lot of extra and unnecessary links, and generally looks noisy. I've been using Disqus for more than 13 years, largely because it was the only available solution at the time I added comments. To make Disqus interface a little cleaner, I disabled all the advertising and as much of the other noise as possible, but it still looked like something from mySpace (for those of you who remember the 20th century).
+
+But now there are several alternatives, and I've opted for [giscus](https://giscus.app) which is very lightweight, is built on Github Discussions, and is open source with no tracking or advertising. The other system I considered was [utterances](https://github.com/utterance/utterances) which is also hosted on Github, but uses issues rather than discussions. Consequently, comments on utterances can't be threaded (with replies to previous comments). Also, giscus appears to have a much more active development team behind it.
+
+The first step was to set up giscus on my blog. With quarto, this simply requires adding a few lines to the [`_metadata.yml`](_metadata.yml) file in the relevant folder. Here is what it looks like for me:
+
+```
+comments:
+  giscus:
+    repo:  robjhyndman/hyndsight
+    repo-id: "R_kgDOH79Fnw"
+    category: "Announcements"
+    category-id: "DIC_kwDOH79Fn84CRPee"
+    mapping: "pathname"
+    reactions-enabled: true
+    loading: lazy
+    input-position: "bottom"
+    theme: "light"
+```
+
+Then I needed to set up giscus on the Github repo that hosts the comments ([`robjhyndman/hyndsight`](https://github.com/robjhyndman/hyndsight)). The [instructions on the giscus website](https://giscus.app) make it very simple.
+
+The last step was the hardest -- how to migrate 4000 comments from Disqus to giscus. Here I followed the nice [blog post of Maëlle Salmon](https://masalmon.eu/2019/10/02/disqus/) to download the Disqus comments as an xml file, and wrangle them into a tibble. Then I needed to use the GraphQL API for Github Discussions to generate all the comments on the Github repo. Fortunately, Mitch O'Hara-Wild came to my rescue (as usual), and helped with some of this code. The [resulting code is here](/Rfiles/disqus2giscus.R) if anyone wants to try to do the same. You will need to change some specific details in lines 9-13. Everything else should work as it is.
