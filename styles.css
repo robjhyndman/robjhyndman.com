@@ -92,17 +92,17 @@ blockquote:before {
   vertical-align: -0.4em;
 }
 
-th {
-  background-color: #bbbbbb;
+.table {
+  --bs-table-bg: @faf8f8 !important;
 }
 
-td {
-  background-color: #eeeeee;
+td, th {
+  background-color: #faf8f8 !important;
 }
 
 table th,
 table td {
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 0px !important;
   padding: 0.2em .2em;
 }
 
