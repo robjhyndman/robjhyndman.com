@@ -295,3 +295,7 @@ div.quarto-about-trestles .about-entity .about-link:hover {
 .quarto-category, .listing-category, .listing-actions-group, .about-link-text {
   font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+#mlb2-4240669.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody, #mlb2-4240669.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
+  padding: 0px !important;
+}

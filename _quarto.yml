@@ -29,6 +29,8 @@ website:
   page-footer:
     left: "© 1993-2022, Rob J Hyndman"
     right:
+      - text: Subscribe
+        href: /subscribe.html
       - icon: rss
         href: https://robjhyndman.com/index.xml
       - icon: github
