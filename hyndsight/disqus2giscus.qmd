@@ -1,5 +1,6 @@
 ---
 title: "Migrating from Disqus to giscus"
+date: "2022-09-09"
 categories:
   - computing
 image: /img/giscus.png
