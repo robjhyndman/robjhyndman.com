@@ -1,8 +1,8 @@
 ---
 date: 2021-11-17
-title: "Feasts & fables: modern tools for time series analysis"
+title: "Feasts and fables: modern tools for time series analysis"
 slug: cornish2021
-aliases: 
+aliases:
   - "/cornish2021"
   - "/whyR2021"
 link: https://github.com/robjhyndman/tidyverts2021/raw/main/cornish2021.pdf
