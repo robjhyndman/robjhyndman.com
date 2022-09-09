@@ -1,0 +1,16 @@
+---
+title: "Time series and forecasting workshop: 9-10 November 2022"
+date: "2022-09-09"
+categories:
+  - forecasting
+  - R
+image: /img/forecasting_workshop.jpeg
+---
+
+In most recent years, I've run a 2-3 day workshop, held in various locations around the world. The one this year will be in Canberra on 9-10 November, and will be taught jointly with [Associate Professor Bahman Rostami-Taber](https://www.bahmanrt.com). [Details are here](https://statsoc.org.au/event-4945700).
+
+On day 1, we will look at the `tsibble` data structure for flexibly managing collections of related time series. We will look at how to do data wrangling, data visualizations and exploratory data analysis. We will explore feature-based methods to analyse time series data in high dimensions. A similar feature-based approach can be used to identify anomalous time series within a collection of time series, or to cluster or classify time series. Primary packages for day 1 will be `tsibble`, `lubridate` and `feasts` (along with the tidyverse of course).
+
+Day 2 will be about forecasting. We will look at some classical time series models and how they are automated in the `fable` package. We will look at creating ensemble forecasts and hybrid forecasts, as well as some new forecasting methods that have performed well in large-scale forecasting competitions. Finally, we will look at forecast reconciliation, allowing millions of time series to be forecast in a relatively short time while accounting for constraints on how the series are related.
+
+Places are limited, so [sign up early](https://statsoc.org.au/event-4945700) if you're interested.
