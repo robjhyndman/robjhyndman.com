@@ -12,4 +12,5 @@ listing:
   sort-ui: true
   filter-ui: true
 page-layout: full
+comments: false
 ---
