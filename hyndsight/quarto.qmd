@@ -13,6 +13,6 @@ For the blogdown site, I had to (painfully) hack my own hugo theme to make it lo
 
 Actually, setting up a website in Quarto is extremely easy when following [the online instructions](https://quarto.org/docs/websites/). The hard part for me was the migration. There are about 800 pages that make up this site, and about 4000 comments on my blog. I didn't want to break any existing links, so retaining the same structure was important.
 
-I also decided to convert the commenting system from Disqus to giscus, which is built on Github Discussions. I'll describe that conversion in a [separate post](giscus.qmd) in case anyone else wants to do something similar.
+I also decided to convert the commenting system from Disqus to giscus, which is built on Github Discussions. I'll describe that conversion in a [separate post](disqus2giscus.qmd) in case anyone else wants to do something similar.
 
 There are almost certainly things that are still broken, so please let me know in the comments below if you find anything that doesn't work as it should.
