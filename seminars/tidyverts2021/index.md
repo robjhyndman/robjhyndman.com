@@ -1,6 +1,6 @@
 ---
 date: 2021-09-28
-title: "Feasts & fables: Time series analysis using R"
+title: "Feasts and fables: Time series analysis using R"
 slug: tidyverts2021
 aliases: ["/frb2021"]
 link: https://github.com/robjhyndman/tidyverts2021/raw/main/frb2021.pdf
