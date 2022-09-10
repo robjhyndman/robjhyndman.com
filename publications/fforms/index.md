@@ -16,6 +16,7 @@ tags:
 - algorithm selection
 link: https://www.monash.edu/business/econometrics-and-business-statistics/research/publications/ebs/wp06-2018.pdf
 ---
+
 A crucial task in time series forecasting is the identification of the most suitable forecasting
 method. We present a general framework for forecast-model selection using meta-learning. A
 random forest is used to identify the best forecasting method using only time series features.
@@ -24,6 +25,6 @@ shown to yield accurate forecasts comparable to several benchmarks and other com
 used automated approaches of time series forecasting. A key advantage of our proposed
 framework is that the time-consuming process of building a classifier is handled in advance
 of the forecasting task at hand.
----
+
 
 Associated R package: **[seer](https://github.com/thiyangt/seer)**

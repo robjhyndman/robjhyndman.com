@@ -1,0 +1,15 @@
+```{=html}
+<style>
+  li {
+    margin: 10px 0;
+  }
+</style>
+<ul class="list">
+<% for (const item of items) { %>
+  <li <%= metadataAttrs(item) %>>
+    <a href="<%- item.path %>" class="listing-author"><%= item.author %> (<span class="listing-date"><%= item.date %></span>) <span class="listing-title"><%= item.title %></span>. <span class="listing-details"><%= item.details %></span>.</a>
+  </li>
+<% } %>
+</ul>
+</span>
+```
