@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = FALSE)
 options(digits = 3, width = 75)
 ```
 
-There have been some great data visualizations produced of COVID-19 case and deaths data, the best known of which is the graph from [John Burn-Murdoch](https://twitter.com/jburnmurdoch) in the [*Financial Times*](https://www.ft.com/coronavirus-latest). To my knowledge, it was [first used by Matt Cowgill](https://blog.grattan.edu.au/2020/03/australian-governments-can-choose-to-slow-the-spread-of-coronavirus-but-they-must-act-immediately/) from the Grattan Institute, and has been widely copied. This is a great visualization and has helped introduce log-scale graphics to a wide audience.
+There have been some great data visualizations produced of COVID-19 case and deaths data, the best known of which is the graph from [John Burn-Murdoch](https://twitter.com/jburnmurdoch) in the [*Financial Times*](https://www.ft.com/coronavirus-latest). To my knowledge, it was [first used by Matt Cowgill](https://grattan.edu.au/news/australian-governments-can-choose-to-slow-the-spread-of-coronavirus-but-they-must-act-immediately/) from the Grattan Institute, and has been widely copied. This is a great visualization and has helped introduce log-scale graphics to a wide audience.
 
 ## Reproducing the *Financial Times* cumulative confirmed cases graph
 

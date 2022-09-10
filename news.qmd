@@ -53,7 +53,7 @@ slug: "in-the-news"
   * [Nothing is as easy as it seems](http://www.scientificcomputing.com/article/2010/08/nothing-easy-it-seems): *Scientific Computing*, 3 August 2010.
   * [Rob Hyndman receives an HP Innovation Research Award](https://web.archive.org/web/20120710042405/http://news-events.buseco.monash.edu.au/2010/07/rob-hyndman-receives-an-hp-innovation-research-award/): *Monash Business and Economics Faculty News*, 12 July 2010.
   * [Wheels inaccurate](http://web.archive.org/web/20100915023256/http://www.countrynews.com.au:80/story.asp?TakeNo=201005312508795): *Country News*, 31 May 2010.
-  * [Ranking Economic Forecasts](http://blogs.reuters.com/macroscope/2009/08/27/ranking-economic-forecasts/): *Reuters*, 27 August 2009.
+  * [Ranking Economic Forecasts](https://web.archive.org/web/20090831200809/http://blogs.reuters.com/macroscope/2009/08/27/ranking-economic-forecasts/): *Reuters*, 27 August 2009.
   * [Statistics experts label ISP filtering trials unscientific](http://www.arnnet.com.au/article/312845/statistics_experts_label_isp_filtering_trials_unscientific/): 29 July 2009.
   * Winning the 2008 vice-chancellor's postgraduate supervision award:
      - [Faculty news](https://web.archive.org/web/20110415161102/http://www.buseco.monash.edu.au/news/buseco-bulletin08/august/stories/moranmedal.html)
