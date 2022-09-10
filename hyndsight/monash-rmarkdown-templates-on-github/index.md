@@ -5,23 +5,19 @@ slug: monash-rmarkdown-templates-on-github
 title: Monash Rmarkdown templates on github
 categories:
 - beamer
-- LaTeX
 - Monash University
 - reproducible research
 - research team
 ---
 
-Rmarkdown templates for staff and students in my department are now available on github.
+Rmarkdown templates for staff and students in my department are now available via the [numbats package on github](https://github.com/numbats/monash).
+This provides templates for
 
-For a PhD thesis, fork the repository [MonashThesis](https://github.com/robjhyndman/MonashThesis).
-
-For an Honours thesis, fork the repository [MonashHonoursThesis](https://github.com/robjhyndman/MonashHonoursThesis).
-
-For beamer slides with a Monash Business School theme, use the [`binb` package](https://github.com/eddelbuettel/binb).
-
-For other templates, install the R package [MonashEBSTemplates R package](https://github.com/robjhyndman/MonashEBSTemplates). This provides templates for
-
+   - PhD thesis
+   - Honours thesis
    - working papers
    - exams
    - letters
    - reports
+
+For beamer slides with a Monash Business School theme, use the [`binb` package](https://github.com/eddelbuettel/binb).

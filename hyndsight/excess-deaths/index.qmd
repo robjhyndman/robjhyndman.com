@@ -101,7 +101,7 @@ deaths %>%
     ggtitle("Weekly deaths")
 ```
 
-Clearly there are a few problems with the last week of available data from Finland, Norway and the United States. These are due to incomplete counts as noted in the [meta data provided by HMD](https://www.mortality.org/Public/STMF_DOC/STMFmetadata.pdf), and the same problem may affect other countries too. As more data are made available, earlier weeks may also be updated.
+Clearly there are a few problems with the last week of available data from Finland, Norway and the United States. These are due to incomplete counts as noted in the [meta data provided by HMD](https://www.mortality.org/File/GetDocument/Public/STMF_DOC/STMFmetadata.pdf), and the same problem may affect other countries too. As more data are made available, earlier weeks may also be updated.
 
 Note that there is a lag before the data are made available. We can see how far each country is behind by comparing the last week of available data with the current week number.
 

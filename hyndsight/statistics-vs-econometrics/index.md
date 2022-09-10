@@ -57,7 +57,7 @@ I’ve stayed in a (mostly) econometrics department for so long because it is a 
 
 I would encourage econometricians to read outside the econometrics literature so they are aware of what is going on in the broader statistical community. These days, most research econometricians do pay some attention to [_JASA_](http://www.tandfonline.com/toc/uasa20/current) and [_JRSSB_](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1467-9868), so the gap between the research communities is shrinking. However, I would suggest that econometricians add [_Statistical Science_](https://imstat.org/journals-and-publications/statistical-science/) and [_JCGS_](http://www.tandfonline.com/toc/ucgs20/current) to their reading list, to get a wider perspective.
 
-I would encourage statisticians to keep abreast of methodological developments in econometrics. A good place to start is [Hayashi's graduate textbook _Econometrics_](http://amzn.com/0691010188/?tag=otexts-20) which we use at Monash for our PhD students.
+I would encourage statisticians to keep abreast of methodological developments in econometrics. A good place to start is [Hayashi's graduate textbook _Econometrics_](http://amzn.com/dp/0691010188/?tag=otexts-20) which we use at Monash for our PhD students.
 
 
 

@@ -22,7 +22,7 @@ The data are continually being revised and updated. Today the Australian data ha
   1. All death counts since 1964 are now included by year of occurrence, up to 2011. We have 2012 data but do not publish them because they are likely a 5% undercount due to lagged registration.
 
 
-  2. Death count inputs for 1921 to 1963 are now in single ages. Previously they were in 5-year age groups. Rather than having an open age group of 85+ in this period counts usually go up to the maximum observed (stated) age. This change (i) introduces minor heaping in early years and (ii) implies different apparent old-age mortality than before, since previously anything above 85 was modeled according to the [Methods Protocol](http://www.mortality.org/Public/Docs/MethodsProtocol.pdf).
+  2. Death count inputs for 1921 to 1963 are now in single ages. Previously they were in 5-year age groups. Rather than having an open age group of 85+ in this period counts usually go up to the maximum observed (stated) age. This change (i) introduces minor heaping in early years and (ii) implies different apparent old-age mortality than before, since previously anything above 85 was modeled according to the [Methods Protocol](https://www.mortality.org/File/GetDocument/Public/Docs/MethodsProtocolV6.pdf).
 
 
   3. Population denominators have been swapped out for years 1992 to the present, owing to new ABS methodology and intercensal estimates for the recent period.
