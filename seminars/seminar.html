@@ -37,6 +37,8 @@ $if(toc)$
 $toc.html()$
 $endif$
 
+$body$
+
 $if(youtube)$
 <div class="embed video-player" style="padding-bottom: 4ex;">
   <iframe class="youtube-player" type="text/html" src="https://www.youtube.com/embed/$youtube$" allowfullscreen frameborder="0">
@@ -60,14 +62,13 @@ $if(slideshare)$
 $endif$
 $if(files)$
 <a href="/talks/$files$" class="badge badge-small badge-red"><i class="fa fa-file-pdf-o"></i>&nbsp;Download pdf</a><br>
-<iframe src="https://docs.google.com/gview?url=https://robjhyndman.com/talks/$file$&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe>
+<iframe src="https://docs.google.com/gview?url=https://robjhyndman.com/talks/$file$&embedded=true" width="100%" height=465></iframe>
 $endif$
 $if(link)$
 <a href="$link$" class="badge badge-small badge-red"><i class="fa fa-file-pdf-o"></i>&nbsp;Download pdf</a><br>
-<iframe src="https://docs.google.com/gview?url=$link$&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe><br>
+<iframe src="https://docs.google.com/gview?url=$link$&embedded=true"  width="100%" height=465></iframe><br>
 $endif$
 
-$body$
 
 $for(include-after)$
 $include-after$
