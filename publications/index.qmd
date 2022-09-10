@@ -11,17 +11,7 @@ listing:
   sort-ui: [date, title, author]
   filter-ui: [date, title, author, details]
   date-format: "YYYY"
-  type: table
   page-size: 50
-  fields:
-    - date
-    - author
-    - title
-    - details
-  field-display-names:
-      date: "Year"
-      author: "Authors"
-      details: "Publication details"
 sidebar: false
 page-layout: full
 title-block-banner: false
