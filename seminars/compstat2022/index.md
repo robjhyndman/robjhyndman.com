@@ -4,7 +4,7 @@ title: Decomposing time series with complex seasonality
 slug: compstat2022
 ---
 
-## [COMPSTAT 2022](https://compstat2022.org), Bologna, Italy, 23-26 August 2022.
+## [COMPSTAT 2022](http://www.compstat2022.org), Bologna, Italy, 23-26 August 2022.
 
 Time series data often contain a rich complexity of seasonal patterns. Time series that are observed at a sub-daily level can exhibit multiple seasonal patterns corresponding to different granularities such as hour-of-the-day, day-of-the-week or month-of-the-year. They can be nested (e.g., hour-of-the-day within day-of-the-week) and non-nested (e.g., day-of-the-year in both the Gregorian and Hijri calendars). We will discuss two new time series decomposition tools for handling seasonalities in time series data: MSTL and STR. These allow for multiple seasonal and cyclic components, covariates, seasonal patterns that may have non-integer periods, and seasonality with complex topology. They can be used for time series with any regular time index including hourly, daily, weekly, monthly or quarterly data, but tackle many more decomposition problems than other methods allow.
 

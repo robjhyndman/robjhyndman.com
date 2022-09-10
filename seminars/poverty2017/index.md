@@ -8,9 +8,11 @@ Talk to Year 11 students as part of the Monash Scholars Knowledge Summit on "End
 
 ## Introductory remarks
 
-```
-{{< speakerdeck 76196e31c719406ea211a89be8d92ef7 >}}
-```
+<div id='speakerdeck'>
+  <p><script async class="speakerdeck-embed" data-id="76196e31c719406ea211a89be8d92ef7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script><br>
+  </p>
+</div>
+
 
 &nbsp;
 

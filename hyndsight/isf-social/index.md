@@ -8,7 +8,6 @@ categories:
 - ISF2017
 ---
 
-{{< figure src="/files/Tourism-Tropical-North-Queensland-Yt4F3cBPA775Dwi.resized.jpg" title="Courtesy of Tourism Tropical North Queensland" >}}
 
 We know Australia is a long way to come for many forecasters, so we are making it easy for you to bring your families along to the [International Symposium on Forecasting](http://forecasters.org/isf) and have a vacation at the same time.
 
@@ -28,8 +27,8 @@ During the [International Symposium on Forecasting](http://forecasters.org/isf),
 
 We also strongly encourage you to stay in Australia for at least another week to look around. June/July is winter in Australia, so the weather in Cairns and region will be beautiful, sunny and not too hot. Average temperatures range from 18-26°C (64-79°F) and there is low rainfall. Cairns is in northern Queensland, and is the centre for tourism to the Great Barrier Reef, and the amazing Daintree Rainforest. There are also lots of great [organized tours in the region](http://www.cairnsconferences.com.au/events/isf2017/).
 
-{{< figure src="/files/Tourism-Tropical-North-Queensland-ly1DyMiIE64K8hr.resized.jpg" title="Courtesy of Tourism Tropical North Queensland" >}}
+![](/files/Tourism-Tropical-North-Queensland-Yt4F3cBPA775Dwi.resized.jpg)
+
+![](/files/Tourism-Tropical-North-Queensland-ly1DyMiIE64K8hr.resized.jpg)
 
 If you have time to travel further afield, I recommend Uluru and Central Australia. It is magnificent and fascinating, and you'll never see a night sky like it anywhere else. Sydney is, of course, also a great place to visit. But I suggest you go no further south than Sydney in July, as it can be cold and wet in the south of the country.
-
-

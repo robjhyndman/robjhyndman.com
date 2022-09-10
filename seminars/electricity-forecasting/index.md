@@ -43,5 +43,3 @@ We evaluate the performance of the model by comparing the forecast distributions
   * [Hyndman, R.J. and Fan, S. (2010) ``Density forecasting for long-term peak electricity demand'', _IEEE Transactions on Power Systems_, **25**(2), 1142-1153.](/publications/peak-electricity-demand/)
 
   * [Fan, S. and Hyndman, R.J. (2012) ``Short-term load forecasting based on a semi-parametric additive model''. _IEEE Transactions on Power Systems_, **27**(1), 134-141.](/publications/stlf/)
-
-

@@ -22,10 +22,10 @@ library(tsibble)
 library(readabs)
 ```
 
-Australian data analysts will know how frustrating it is to work with time series data from the Australian Bureau of Statistics. They are stored as multiple ugly Excel files (each containing multiple sheets) with inconsistent formatting, embedded comments, meta data stored along with the actual data, dates stored in a painful Excel format, and so on. 
+Australian data analysts will know how frustrating it is to work with time series data from the Australian Bureau of Statistics. They are stored as multiple ugly Excel files (each containing multiple sheets) with inconsistent formatting, embedded comments, meta data stored along with the actual data, dates stored in a painful Excel format, and so on.
 
-Fortunately there is an R package available to make this a little easier. 
-The [`readabs`](https://cran.r-project.org/package=readabs) package is maintained by [Matt Cowgill](https://grattan.edu.au/people/bio/matt-cowgill/) from the Grattan Institute --- which means it has probably had a very thorough workout!
+Fortunately there is an R package available to make this a little easier.
+The [`readabs`](https://cran.r-project.org/package=readabs) package is maintained by [Matt Cowgill](https://twitter.com/mattcowgill) from the Grattan Institute --- which means it has probably had a very thorough workout!
 
 To illustrate it, I will recreate the `tsibbledata::aus_retail` data, containing monthly Australian retail trade turnover for different combinations of industry and state. Here is the data as provided in the `tsibbledata package`.
 
@@ -38,7 +38,7 @@ start <- tsibbledata::aus_retail %>% pull(Month) %>% min()
 end <- tsibbledata::aus_retail %>% pull(Month) %>% max()
 ```
 
-There are `r length(unique(tsibbledata::aus_retail[["Series ID"]]))` combinations of State and Industry (each corresponding to a `Series ID`). 
+There are `r length(unique(tsibbledata::aus_retail[["Series ID"]]))` combinations of State and Industry (each corresponding to a `Series ID`).
 
 The main function is `read_abs()` which will download the data, read it into R, and tidy it. While it will do this for all spreadsheets in a given catalogue number, I would not recommend that. Choose the spreadsheet you want. In this case, it is [Cat 8501.0](https://www.abs.gov.au/ausstats/abs@.nsf/mf/8501.0), Table 11.
 
@@ -61,7 +61,7 @@ The `series` column contains information about the state and industry, so we wil
 
 ```{r}
 retail1 <- retail1 %>%
-  separate(series, c("Category", "State", "Industry"), 
+  separate(series, c("Category", "State", "Industry"),
            sep = ";", extra = "drop") %>%
   mutate(
     State = trimws(State),
@@ -83,7 +83,6 @@ retail1 <- retail1 %>%
 retail1
 ```
 
-The additional rows here compared to `tsibbledata::aus_retail` are because the data now extend to November 2019. 
+The additional rows here compared to `tsibbledata::aus_retail` are because the data now extend to November 2019.
 
 There's a [helpful vignette](https://cran.r-project.org/web/packages/readabs/vignettes/readabs_vignette.html) demonstrating other facilities and features of the `readabs` package.
-

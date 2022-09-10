@@ -26,11 +26,4 @@ In this talk, I will discuss the conditions we need for predictability, how to m
 I will draw on my experiences in forecasting Australia's health budget for the next few years, in developing forecasting models for peak electricity demand in 20 years time, and in identifying unpredictable activity on Yahoo's mail servers.
 
 
-
-
-
-
-
-```
-{{< iframe src="https://www.yahoo.com/news/video/big-thinker-rob-hyndman-210000569.html?format=embed" >}}
-```
+**Video**: [https://www.yahoo.com/news/video/big-thinker-rob-hyndman-210000569.html](https://www.yahoo.com/news/video/big-thinker-rob-hyndman-210000569.html)

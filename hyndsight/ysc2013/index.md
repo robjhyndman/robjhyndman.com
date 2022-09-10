@@ -22,5 +22,6 @@ I will describe some of my adventures, and explain how to bluff your way through
 
 Along the way we will learn about the skills that statisticians need to survive in the wild.
 
-{{< slideshare 4bvYeLTF8jOALI >}}
-
+<div class="embed slideshare">
+  <iframe src="https://www.slideshare.net/slideshow/embed_code/key/4bvYeLTF8jOALI" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe><br>
+</div>

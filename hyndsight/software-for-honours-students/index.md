@@ -12,7 +12,11 @@ categories:
 
 I spoke to our new crop of honours students this morning. Here are my slides, example files and links.
 
-{{< speakerdeck e34290742d644f9f85a354bdd9fd0335 >}}
+<div id='speakerdeck'>
+  <p><script async class="speakerdeck-embed" data-id="e34290742d644f9f85a354bdd9fd0335" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script><br>
+  </p>
+</div>
+
 
 <br>
 
@@ -23,7 +27,7 @@ I spoke to our new crop of honours students this morning. Here are my slides, ex
   * [Paperpile](https://paperpile.com/)
 
 ## Data analysis and computation
-    
+
   * [Download R](http://www.r-project.org)
   * [Download Rstudio](https://www.rstudio.com/products/rstudio/)
   * [Online R tutorial](https://www.datacamp.com/courses/free-introduction-to-r)
@@ -35,7 +39,7 @@ I spoke to our new crop of honours students this morning. Here are my slides, ex
 ## Writing your thesis
 
 ### LaTeX
-    
+
   * Windows: [Download MikTeX](http://miktex.org/download)
   * Mac OSX: [Download MacTeX](https://tug.org/mactex/)
   * Linux: Check your usual software source for TeXLive; otherwise install [TeX Live](http://www.tug.org/texlive) directly.

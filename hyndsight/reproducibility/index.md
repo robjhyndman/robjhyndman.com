@@ -27,10 +27,9 @@ Jane's slides and handout are below. <!-- more -->
 
 Slides:
 
-{{< figshare 1555600 >}}
+<p><iframe src="https://widgets.figshare.com/articles/1555600/embed?show_title=0" width="600" height="470" frameborder="0"></iframe><br></p>
 
 
 Handout:
 
-{{< figshare 1555588 >}}
-
+<p><iframe src="https://widgets.figshare.com/articles/1555588/embed?show_title=0" width="600" height="470" frameborder="0"></iframe><br></p>

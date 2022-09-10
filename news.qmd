@@ -28,7 +28,7 @@ slug: "in-the-news"
   * [Revolutionizing water quality monitoring for our rivers and reef](https://www.sciencedaily.com/releases/2019/09/190903091446.htm), *Science News*, 3 September 2019.
   * [Revolutionizing water quality monitoring for our rivers and reef](https://www.eurekalert.org/pub_releases/2019-09/quot-rwq090219.php), *EurekAlert!*, 3 September 2019.
   * [Labor’s climate policy is second-rate – because the government’s policy is fifth-rate](https://thenewdaily.com.au/money/finance-news/2019/05/06/labor-climate-policy-costings/), *The New Daily*, 6 May 2019.
-  * [Announcing the winners of the Facebook Statistics for Improving Insights and Decisions research awards](https://research.fb.com/announcing-the-winners-of-the-statistics-for-improving-insights-and-decisions-research-awards/), *Facebook Research*, 25 January 2019.
+  * [Announcing the winners of the Facebook Statistics for Improving Insights and Decisions research awards](https://research.facebook.com/blog/2019/1/announcing-the-winners-of-the-statistics-for-improving-insights-and-decisions-research-awards/), *Facebook Research*, 25 January 2019.
   * [Forecasting: putting the smart into smart meters](https://www2.monash.edu/impact/articles/econometrics/forecasting-putting-the-smart-into-smart-meters/), *Monash Impact*, 24 October 2018.
   * [QUT works with ABS to boost use of big data](https://www.qut.edu.au/news?news-id=133908), *QUT News*, 3 August 2018.
   * [Future predictions: revolutionising the accuracy of business forecasting](https://www2.monash.edu/impact/articles/econometrics/future-predictions-revolutionising-the-accuracy-of-business-forecasting/), *Monash Impact*, 11 April 2018.
@@ -45,7 +45,7 @@ slug: "in-the-news"
   * [Interview](https://blog.earo.me/2014/01/26/interview-with-rob/) for the Chinese website [Capital of Statistics](http://cos.name/2014/02/cos-interview-rob-j-hyndman/). 26 January 2014.
   * [IEEE Power & Energy Society Announces the Eight Winning Teams for the Global Energy Forecasting Competition 2012](http://www.ieee-pes.org/ieee-pes-announces-the-eight-winning-teams-for-gefcom2012). Also [here](https://web.archive.org/web/20140714161927/http://finance.yahoo.com/news/ieee-power-energy-society-announces-120700338.html). 8 October 2013.
   * [Interview on  DecisionStats](http://www.decisionstats.com/interview-rob-j-hyndman-forecasting-expert-rstats/), 9 August 2012.
-  * [Interview on Data Mining Research](http://www.dataminingblog.com/data-mining-interview-rob-hyndman/), 21 October 2011. Republished in [*Amstat News*](http://magazine.amstat.org/blog/2011/12/01/qasitedec11/), 1 December 2011.
+  * [Interview on Data Mining Research](https://web.archive.org/web/20120517193003/http://www.dataminingblog.com/data-mining-interview-rob-hyndman/), 21 October 2011. Republished in [*Amstat News*](http://magazine.amstat.org/blog/2011/12/01/qasitedec11/), 1 December 2011.
   * [Made to measure but can we trust TV ratings?](http://www.smh.com.au/entertainment/tv-and-radio/made-to-measure-but-can-we-trust-tv-ratings-20110422-1dr9m.html): *Sydney Morning Herald*, 23 April 2011.
   * [May the best analyst win](http://www.sciencemag.org/content/331/6018/698.full): *Science*, 11 February 2011: **331** (6018), 698-699.
   * [VCE hub a home for the weird and wonderful](http://www.theage.com.au/national/education/vce-hub-a-home-for-the-weird-and-wonderful-20100910-154t6.html): *The Age*, 13 September 2010.
