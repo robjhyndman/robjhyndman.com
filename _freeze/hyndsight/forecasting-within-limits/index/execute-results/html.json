@@ -1,0 +1,14 @@
+{
+  "hash": "2b84a92d08a131164459b847f13d5f94",
+  "result": {
+    "markdown": "---\ndate: 2014-02-21 10:36:14+00:00\nlink: https://robjhyndman.com/hyndsight/forecasting-within-limits/\nslug: forecasting-within-limits\ntitle: Forecasting within limits\ncategories:\n- forecasting\n- R\n- statistics\n---\n\n\nIt is common to want forecasts to be positive, or to require them to be within some specified range $[a,b]$. Both of these situations are relatively easy to handle using transformations.<!-- more -->\n\n\n\n### Positive forecasts\n\n\n\nTo impose a positivity constraint, simply work on the log scale. With the forecast package in R, this can be handled by specifying the Box-Cox parameter $\\lambda=0$. For example, consider the real price of a dozen eggs (1900-1993; in cents):\n\n\n::: {.cell hash='index_cache/html/unnamed-chunk-1_38ea8b14f54320950d25c58b9c82abb8'}\n\n```{.r .cell-code}\n    library(fpp)\n    fit <- ets(eggs, lambda=0)\n    plot(forecast(fit, h=50))\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n\n### Forecasts constrained to an interval\n\n\n\nTo see how to handle data constrained to an interval, imagine that the egg prices were constrained to lie within $a=50$ and $b=400$. Then we can transform the data using a scaled logit transform which maps $(a,b)$ to the whole real line:\n$$\ny = \\log\\left(\\frac{x-a}{b-x}\\right)\n$$\nwhere $x$ is on the original scale and $y$ is the transformed data.\n\n\n\n::: {.cell hash='index_cache/html/unnamed-chunk-2_74f3784ae4f17e56472dfc8c9d14dc85'}\n\n```{.r .cell-code}\n    # Bounds\n    a <- 50\n    b <- 400\n    # Transform data\n    y <- log((eggs-a)/(b-eggs))\n    fit <- ets(y)\n    fc <- forecast(fit, h=50)\n    # Back-transform forecasts\n    fc$mean <- (b-a)*exp(fc$mean)/(1+exp(fc$mean)) + a\n    fc$lower <- (b-a)*exp(fc$lower)/(1+exp(fc$lower)) + a\n    fc$upper <- (b-a)*exp(fc$upper)/(1+exp(fc$upper)) + a\n    fc$x <- eggs\n    # Plot result on original scale\n    plot(fc)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\n\nThe prediction intervals from these transformations have the same coverage probability as on the transformed scale, because quantiles are preserved under monotonically increasing transformations.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

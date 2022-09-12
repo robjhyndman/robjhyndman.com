@@ -40,6 +40,7 @@ website:
     background: "#536878"
 
 date-format: "D MMMM YYYY"
+freeze: true
 
 format:
   html:

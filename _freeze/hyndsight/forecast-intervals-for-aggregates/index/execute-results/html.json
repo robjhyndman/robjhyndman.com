@@ -1,0 +1,14 @@
+{
+  "hash": "118625a6b6919deec7da47b117bf913e",
+  "result": {
+    "markdown": "---\ndate: 2016-09-14 14:44:50+00:00\nslug: forecast-intervals-for-aggregates\ntitle: Forecast intervals for aggregates\ncategories:\n- forecasting\n- R\n- time series\n---\n\n\nA common problem is to forecast the aggregate of several time periods of data, using a model fitted to the disaggregated data. For example, you may have monthly data but wish to forecast the total for the next year. Or you may have weekly data, and want to forecast the total for the next four weeks.\n\nIf the point forecasts are means, then adding them up will give a good estimate of the total. But prediction intervals are more tricky due to the correlations between forecast errors.\n\n<!-- more -->\n\nI’ve previously posted [a trick using seasonal ARIMA models](https://robjhyndman.com/hyndsight/forecasting-annual-totals/) to do this. There is also Section 6.6 in my [2008 Springer book](http://www.exponentialsmoothing.net), deriving the analytical results for some ETS models.\n\nBut a more general solution, if you only need empirical results, is to use simulations.\n\nHere is an example using ETS models applied to Australian monthly gas production data.\n\n\n::: {.cell hash='index_cache/html/unnamed-chunk-1_8fd6efc99749f2b0829c66e42e3d447c'}\n\n```{.r .cell-code}\nlibrary(forecast)\nlibrary(ggplot2)\n\nfit <- ets(gas)\n# Forecast two years ahead\nfc <- forecast(fit, h=24)\nplot(fc)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\nSuppose we wish to forecast the aggregate gas demand in the next six months.\n\n\n::: {.cell hash='index_cache/html/sim1_82b6c86072f8188fba99ab4c50662a93'}\n\n```{.r .cell-code}\nset.seed(2015)\nnsim <- 10000\nh <- 6\nsim <- numeric(nsim)\nfor(i in seq_len(nsim))\n  sim[i] <- sum(simulate(fit, future=TRUE, nsim=h))\nmeanagg <- mean(sim)\n```\n:::\n\n\nThe mean of the simulations is very close to the sum of the individual forecasts:\n\n\n::: {.cell hash='index_cache/html/sim2_817d070abd4a25c2bca54b6b27cc680b'}\n\n```{.r .cell-code}\nsum(fc$mean[1:6])\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 276190.6\n```\n:::\n:::\n\n\nPrediction intervals are now easy to obtain:\n\n\n::: {.cell hash='index_cache/html/sim3_f0fde39c8e53034f2a6d9495501467de'}\n\n```{.r .cell-code}\n#80% interval:\nquantile(sim, prob=c(0.1, 0.9))\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n     10%      90% \n254134.8 298883.8 \n```\n:::\n\n```{.r .cell-code}\n#95% interval:\nquantile(sim, prob=c(0.025, 0.975))\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n    2.5%    97.5% \n242581.5 311647.2 \n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
