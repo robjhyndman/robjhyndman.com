@@ -8,13 +8,16 @@ listing:
     description: "Seminars and workshops by Professor Rob J Hyndman"
   categories: false
   sort-ui: true
-  filter-ui: [date, title]
+  filter-ui: [date, title, venue]
   date-format: "DD MMM YYYY"
   type: table
   page-size: 999
   fields:
     - date
     - title
+    - venue
+  field-display-names:
+      venue: Venue
 
 page-layout: full
 title-block-banner: false

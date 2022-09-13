@@ -1,6 +1,7 @@
 ---
 date: 2018-06-21
 title: Feature-based time series analysis
+venue: New York R Meetup, USA
 slug: nyc-fbtsa
 link: https://github.com/robjhyndman/fbtsa/raw/master/fbtsa.pdf
 ---

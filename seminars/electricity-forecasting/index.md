@@ -1,5 +1,6 @@
 ---
 author: Rob&nbsp;J&nbsp;Hyndman
+venue: EDF, Paris, France
 comments: false
 date: 2011-10-03 03:11:47+00:00
 slug: electricity-forecasting

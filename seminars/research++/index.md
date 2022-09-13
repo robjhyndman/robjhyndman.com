@@ -1,6 +1,7 @@
 ---
 date: 2018-03-23
 title: "Research++: what you should know about being a researcher but probably don't"
+venue: Monash
 ---
 
 Presentation for my research group about aspects of being a researcher.

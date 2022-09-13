@@ -1,5 +1,6 @@
 ---
 date: 2022-07-10
+venue: Oxford, UK
 title: Creating social good for forecasters
 slug: f4sg2022
 youtube: l93_viS9ebw

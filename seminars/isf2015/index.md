@@ -1,6 +1,7 @@
 ---
 author: Rob&nbsp;J&nbsp;Hyndman
 comments: false
+venue: ISF 2015, Riverside, USA
 date: 2015-06-22 23:00:41+00:00
 slug: isf2015
 title: 'MEFM: An R package for long-term probabilistic forecasting of electricity

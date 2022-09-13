@@ -1,6 +1,7 @@
 ---
 title: "High-dimensional time series analysis"
 slug: isi2019workshop
+venue: Kuala Lumpur, Malaysia
 aliases:
   - /isi2019workshop/
   - /hdtsa/

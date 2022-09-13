@@ -1,6 +1,7 @@
 ---
 date: 2022-03-22
 title: "Developing good research habits"
+venue: Monash
 link: https://github.com/robjhyndman/ResearchHabits/raw/master/ResearchHabits.pdf
 slug: research_habits
 ---

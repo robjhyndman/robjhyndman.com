@@ -1,6 +1,7 @@
 ---
 author: Rob&nbsp;J&nbsp;Hyndman
 comments: false
+venue: University of Melbourne
 date: 2013-02-06 21:30:32+00:00
 slug: man-vs-wild-data
 title: Man vs wild data
@@ -18,4 +19,3 @@ For 25 years I have been an intrepid statistical consultant, tackling the wild f
 I will describe some of my adventures, and explain how to bluff your way through ignorance, work with completely inadequate tools, and deal with smelly clients. I will tell you the story of the client who wouldn't give me the data, the client who wouldn't tell me the problem, and the client who wanted all meetings held at random locations for security reasons.
 
 Along the way we will learn about the skills that statisticians need to survive in the wild.
-

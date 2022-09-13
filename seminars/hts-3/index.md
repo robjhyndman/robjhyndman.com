@@ -1,6 +1,7 @@
 ---
 author: Rob&nbsp;J&nbsp;Hyndman
 comments: false
+venue: University of Sydney
 date: 2013-10-10 05:40:35+00:00
 slug: hts-3
 title: Forecasting hierarchical time series
@@ -12,7 +13,3 @@ tags:
 ---
 
 Talk given at University of Sydney today.
-
-
-
-

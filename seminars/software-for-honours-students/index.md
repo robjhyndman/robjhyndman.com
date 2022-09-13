@@ -1,6 +1,7 @@
 ---
 date: 2017-04-04
 title: Software for honours students
+venue: Monash
 ---
 
 I spoke to our new crop of honours students this morning. Here are my slides, example files and links.

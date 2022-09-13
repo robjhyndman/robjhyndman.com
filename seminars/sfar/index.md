@@ -1,6 +1,7 @@
 ---
 date: 2018-12-09
 title: Seasonal functional autoregressive models
+venue: University of Melbourne
 slug: sfar
 link: https://github.com/robjhyndman/sfar-talk-2018/raw/master/SFAR.pdf
 ---

@@ -1,6 +1,7 @@
 ---
 date: 2022-09-23
-title: "Visualization of complex&nbsp;seasonal&nbsp;patterns in&nbsp;time&nbsp;series"
+title: "Visualization of complex seasonal patterns in time series"
+venue: University of Padua, Italy
 ---
 
 ### [University of Padova 800th anniversary conference](https://800years.stat.unipd.it/), 21-23 September 2023.

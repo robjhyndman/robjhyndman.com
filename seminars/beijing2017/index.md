@@ -1,5 +1,6 @@
 ---
 title: "2017 Beijing Workshop on Forecasting"
+venue: Central University of Finance and Economics, Beijing, China
 slug: beijing2017
 aliases:
   - /beijing2017/

@@ -1,6 +1,7 @@
 ---
 date: 2017-03-21
 title: Probabilistic energy forecasting for smart grids and buildings
+venue: University of Melbourne
 speakerdeck: ea459bdb74964eaf977e7685c89bbb1d
 ---
 

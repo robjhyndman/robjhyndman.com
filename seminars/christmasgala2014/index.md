@@ -1,5 +1,6 @@
 ---
 author: Rob&nbsp;J&nbsp;Hyndman
+venue: Statistical Society of Australia, Melbourne
 comments: false
 date: 2014-12-08
 slug: christmasgala2014

@@ -2,6 +2,7 @@
 author: Rob&nbsp;J&nbsp;Hyndman
 comments: false
 date: 2015-06-18 23:00:41+00:00
+venue: Southern California Edison, USA
 slug: sce2015
 title: Probabilistic forecasting of peak electricity demand
 wordpress_id: 3184
@@ -30,8 +31,3 @@ I will describe some Australian experiences in addressing these problems via the
 I will briefly demonstrate an open-source R package to implement the model. The package allows for ensemble forecasting of demand based on simulations of future sample paths of temperatures and other predictor variables.
 
 Finally, I will discuss some recent developments in evaluating peak demand forecasts, and some research competitions that have generated some innovative new methods to tackle energy forecasting problems.
-
-
-
-
-

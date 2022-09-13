@@ -1,5 +1,6 @@
 ---
 author: robjhyndman
+venue: ISF 2008, Nice, France
 comments: false
 date: 2008-06-15 07:51:36+00:00
 slug: exponential-smoothing-and-non-negative-data
@@ -20,13 +21,10 @@ tags:
 We discuss three problems with exponential smoothing state space models for non-negative data:
 
   1. The forecasts and prediction intervals can be negative
-  2. The forecast distributions can have infinite variance	
+  2. The forecast distributions can have infinite variance
   3. The processes can converge to zero almost surely.
 
 
 We propose a new model with similar properties to exponential smoothing, but which does not have these problems, and we develop some distributional properties for our new model.
 
   * [Paper on which the talk is based.](/publications/expsmooth-nonnegative/)
-
-	
-

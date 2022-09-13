@@ -5,7 +5,7 @@ date: 2015-06-26 23:00:04+00:00
 slug: yahoo2015
 title: 'Exploring the boundaries of predictability: what can we forecast, and when
   should we give up?'
-wordpress_id: 3195
+venue: Yahoo Campus, Sunnyvale, California
 slideshare: kwYZMnav4qyD5D
 ---
 

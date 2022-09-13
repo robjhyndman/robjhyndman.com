@@ -1,6 +1,7 @@
 ---
 date: 2019-09-27
 title: Feature-based time series analysis
+venue: University of NSW
 slug: unsw-fbtsa
 link: https://github.com/robjhyndman/fbtsa/raw/master/fbtsa_unsw.pdf
 ---

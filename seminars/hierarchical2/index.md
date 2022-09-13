@@ -1,6 +1,7 @@
 ---
 author: robjhyndman
 comments: false
+venue: ISF 2006, Santander, Spain
 date: 2006-06-20 07:08:14+00:00
 slug: hierarchical2
 title: Optimal combination forecasts for hierarchical time series
@@ -13,4 +14,3 @@ tags:
 International Symposium on Forecasting, Santander, Spain
 
 Speakers: Rob&nbsp;J&nbsp;Hyndman and Roman A. Ahmed
-

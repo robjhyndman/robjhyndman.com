@@ -1,5 +1,6 @@
 ---
 author: Rob&nbsp;J&nbsp;Hyndman
+venue: COMPSTAT 2012, Cyprus
 comments: false
 date: 2012-06-19 08:58:22+00:00
 slug: automaticforecasting

@@ -1,5 +1,6 @@
 ---
 date: 2022-02-02
+venue: Statistical Society of Canada
 title: Feature-based time series analysis
 slug: fbtsa-ssc
 link: https://github.com/robjhyndman/fbtsa/raw/master/fbtsa_ssc.pdf

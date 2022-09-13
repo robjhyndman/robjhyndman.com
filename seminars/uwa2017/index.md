@@ -1,6 +1,7 @@
 ---
 title: "Forecasting: principles and practice (UWA)"
 slug: uwa2017
+venue: University of Western Australia
 aliases:
   - /uwa2017/
 author: "Rob J Hyndman"
@@ -502,4 +503,3 @@ Here are the Rmd and html files I created during the workshop
  * Day 1 [[Rmd](/uwa2017/Day1.Rmd)] [[html](/uwa2017/Day1.html)]
  * Day 2 [[Rmd](/uwa2017/Day2.Rmd)] [[html](/uwa2017/Day2.html)]
  * Day 3 [[Rmd](/uwa2017/Day3.Rmd)] [[html](/uwa2017/Day3.html)]
-

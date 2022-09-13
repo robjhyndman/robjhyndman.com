@@ -3,6 +3,7 @@ date: 2018-10-16
 title: "Writing for Researchers"
 slug: writing
 youtube: wkvJcwCg27k
+venue: ACEMS
 ---
 
 **ACEMS Mentoring Seminar**

@@ -1,5 +1,6 @@
 ---
 author: Rob&nbsp;J&nbsp;Hyndman
+venue: Macquarie University, Sydney
 comments: false
 date: 2013-10-11 05:12:00+00:00
 slug: coherent
@@ -12,4 +13,3 @@ tags:
 ---
 
 A talk given today at Macquarie University, Sydney.
-

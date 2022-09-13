@@ -1,6 +1,7 @@
 ---
 date: 2020-08-14
 title: Ensemble forecasts using fable
+venue: New York R conference, USA
 slug: nyrc2020
 aliases:
   - /nyrc2020/

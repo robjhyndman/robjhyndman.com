@@ -1,5 +1,6 @@
 ---
 date: 2021-06-29
+venue: ISF 2021
 title: Probabilistic ensemble forecasting of Australian COVID-19 cases
 slug: covid-forecasting
 aliases:

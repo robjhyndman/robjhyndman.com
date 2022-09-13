@@ -4,6 +4,7 @@ comments: false
 date: 2014-06-24 02:33:11+00:00
 slug: fts-berlin
 title: Functional time series with applications in demography
+venue: Humboldt University, Berlin, Germany
 wordpress_id: 2480
 
 tags:
@@ -24,7 +25,7 @@ This is a [short course given at Humboldt University, Berlin](http://irtg1792.
 Functional time series are curves that are observed sequentially in time, one curve being observed in each time period. In demography, examples include curves formed by annual death rates as a function of age, or annual fertility rates as a function of age. In finance, functional time series can occur in the form of bond yield curves, for example, with each curve being the yield of a bond as a function of the maturity of a bond.
 
 I will discuss methods for describing, modelling and forecasting such functional time series data. Challenges include:
-	
+
   * developing useful graphical tools (I will illustrate a functional version of the boxplot);
   * dealing with outliers (e.g., death rates have outliers in years of wars or epidemics);
   * cohort effects (how can we identify and allow for these in the forecasts);

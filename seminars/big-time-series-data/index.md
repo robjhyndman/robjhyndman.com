@@ -1,5 +1,6 @@
 ---
 author: Rob&nbsp;J&nbsp;Hyndman
+venue: QUT, Brisbane
 comments: false
 date: 2015-02-23 01:11:17+00:00
 excerpt: Talk given at the ACEMS Big data workshop, QUT.
@@ -17,11 +18,3 @@ tags:
 ---
 
 Talk given at the ACEMS Big data workshop, QUT.
-
-
-
-
-
-
-
-

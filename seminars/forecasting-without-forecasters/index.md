@@ -4,6 +4,7 @@ comments: false
 date: 2013-06-24 14:15:57+00:00
 slug: forecasting-without-forecasters
 title: Forecasting without forecasters
+venue: ISF 2013, Seoul, South Korea
 wordpress_id: 2283
 slideshare: s4VJ3RwKTp4pPI
 tags:

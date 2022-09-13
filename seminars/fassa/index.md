@@ -1,5 +1,6 @@
 ---
 date: 2020-11-25
+venue: Academy of the Social Sciences in Australia
 title: ASSA New Fellows Presentations
 slug: fassa
 youtube: "NuvRVdHUCe4?t=2561"

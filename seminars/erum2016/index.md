@@ -1,5 +1,6 @@
 ---
 author: Rob&nbsp;J&nbsp;Hyndman
+venue: eRum2016, Poznań, Poland
 comments: false
 date: 2016-10-13 12:04:18+00:00
 slug: erum2016

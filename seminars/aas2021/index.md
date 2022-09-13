@@ -1,6 +1,7 @@
 ---
 date: 2021-11-03
 title: "Uncertain futures: AAS2021"
+venue: Australian Academy of Science
 slug: aas2021
 aliases:
   - "/aas2021"
@@ -9,4 +10,3 @@ youtube: HNJYRf0mvxg
 ---
 
 ### New Fellow presentation, Australian Academy of Science 2021
-

@@ -1,5 +1,6 @@
 ---
 author: robjhyndman
+venue: ASC 2008, Melbourne
 comments: false
 date: 2008-06-19 03:56:04+00:00
 slug: fboxplot-talk
@@ -23,8 +24,6 @@ tags:
 
 
 
-	
-	
+
+
   * [**Paper**](/papers/iwfos08.pdf)
-
-

@@ -1,5 +1,6 @@
 ---
 title: "ACEMS Forecasting Workshop"
+venue: University of Melbourne
 slug: acemsforecasting2018
 aliases:
   - /acemsforecasting2018/
@@ -149,4 +150,3 @@ Participants will be assumed to be familiar with basic statistical tools such as
 * [First Port of Call](https://fpc.forecasters.org/)
 * [Questions on R](https://stackoverflow.com/questions/tagged/forecasting)
 * [Questions on statistics](https://stats.stackexchange.com/questions/tagged/forecasting)
-

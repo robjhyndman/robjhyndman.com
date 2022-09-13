@@ -1,6 +1,7 @@
 ---
 date: 2017-07-14
 title: Using data to tackle poverty
+venue: Monash
 ---
 
 Talk to Year 11 students as part of the Monash Scholars Knowledge Summit on "Ending Global Poverty".

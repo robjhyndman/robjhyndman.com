@@ -1,6 +1,7 @@
 ---
 date: 2019-10-29
 title: "The journal game"
+venue: Monash
 link: "https://github.com/robjhyndman/Researchplus/raw/master/JournalGame.pdf"
 ---
 

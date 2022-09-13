@@ -1,6 +1,7 @@
 ---
 date: 2021-05-06
 slug: lokadtv
+venue: Online
 title: "Forecasting elements that stand the test of time"
 categories:
 - forecasting

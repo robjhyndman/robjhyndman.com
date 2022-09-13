@@ -1,6 +1,7 @@
 ---
 author: Rob&nbsp;J&nbsp;Hyndman
 comments: false
+venue: University of NSW
 date: 2017-08-25
 slug: unsw2017
 title: Optimal forecast reconcilation

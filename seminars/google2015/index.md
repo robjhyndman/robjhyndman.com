@@ -1,5 +1,6 @@
 ---
 author: Rob&nbsp;J&nbsp;Hyndman
+venue: Google, Mountain View, California, USA
 comments: false
 date: 2015-06-24 23:00:20+00:00
 slug: google2015
@@ -20,7 +21,3 @@ Many applications require a large number of time series to be forecast completel
 In addition to providing automatic forecasts when required, these algorithms also provide high quality benchmarks that can be used when developing more specific and specialized forecasting models.
 
 I will describe some algorithms for automatically forecasting univariate time series that have been developed over the last 20 years. The role of forecasting competitions in comparing the forecast accuracy of these algorithms will also be discussed.
-
-
-
-

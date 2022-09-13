@@ -1,5 +1,6 @@
 ---
 author: robjhyndman
+venue: ISF 2009, Hong Kong
 comments: false
 date: 2009-06-23 03:44:24+00:00
 slug: extreme-forecasting
@@ -25,4 +26,3 @@ The Australian government subsidizes some pharmaceutical products, and requires 
 My third example involves forecasting the maximum electricity demand in any half hour period up to ten years in advance using only ten years of historical data. This seemingly impossible task was resolved so successfully, that the methods developed are now used as the basis of official forecasts for three states of Australia.
 
 These three diverse examples will be used to draw some general conclusions about model complexity, structural change and forecast uncertainty.
-

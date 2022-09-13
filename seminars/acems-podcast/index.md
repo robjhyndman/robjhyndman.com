@@ -1,5 +1,6 @@
 ---
 date: 2020-05-27
+venue: Online
 slug: acems-podcast
 title: "Forecasting the Future & the Future of Forecasting"
 categories:

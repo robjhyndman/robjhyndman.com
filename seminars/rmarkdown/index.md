@@ -1,6 +1,7 @@
 ---
 date: 2020-01-30
 title: How Rmarkdown changed my life
+venue: San Francisco, USA
 slug: rmarkdown
 aliases:
   - /rmd2020/

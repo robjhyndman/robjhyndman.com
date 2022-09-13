@@ -1,5 +1,6 @@
 ---
 title: "Forecasting Using R (Eindhoven)"
+venue: Eindoven, Netherlands
 slug: eindhoven
 aliases:
   - /eindhoven/

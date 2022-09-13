@@ -1,6 +1,7 @@
 ---
 author: robjhyndman
 comments: false
+venue: University of Melbourne
 date: 2007-02-22 08:14:01+00:00
 slug: 'stochastic-population'
 title: 'Stochastic population forecasts using functional data models'

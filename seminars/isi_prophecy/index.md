@@ -2,6 +2,7 @@
 date: 2019-08-21
 title: "Forecasting is not prophecy: dealing with high-dimensional probabilistic forecasts in practice"
 slug: isi_prophecy
+venue: ISI-WSC 2019, Kuala Lumpur, Malaysia
 link: https://github.com/robjhyndman/ISI_talk_2019/raw/master/ISI_Hyndman_2019.pdf
 ---
 

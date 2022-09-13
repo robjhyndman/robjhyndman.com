@@ -1,6 +1,7 @@
 ---
 date: 2019-06-19
 title: Advancing forecasting research and practice
+venue: ISF 2019, Thessaloniki, Greece
 slug: isf-panel-2019
 link: https://github.com/robjhyndman/ISF_Panel_2019/raw/master/Hyndman_ISF_2019_Panel.pdf
 ---

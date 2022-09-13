@@ -1,6 +1,7 @@
 ---
 date: 2021-08-17
 title: "Uncertain futures: what can we forecast and when should we give up?"
+venue: ACEMS
 slug: uncertain_futures
 aliases:
   - "/uncertain_futures"

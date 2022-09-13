@@ -1,6 +1,7 @@
 ---
 date: 2021-09-16
 title: The geometry of forecast reconciliation
+venue: Macquarie University, Sydney
 slug: geometry-reconciliation
 link: https://github.com/robjhyndman/geometry_reconciliation/raw/master/CUHK.pdf
 ---

@@ -1,6 +1,7 @@
 ---
 author: robjhyndman
 comments: false
+venue: Monash
 date: 2007-10-25 08:02:20+00:00
 slug: graduation-address
 title: Graduation address
@@ -62,5 +63,3 @@ Once again, I congratulate you and I wish you well for the future, whatever shap
 **Citations**
 
   * [Optimum performance technologies blog](http://optimumperformancetechnologies.blogspot.com/2009/02/todays-vip-very-important-pose.html)
-
-

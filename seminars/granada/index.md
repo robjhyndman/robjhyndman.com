@@ -2,6 +2,7 @@
 author: Rob&nbsp;J&nbsp;Hyndman
 comments: false
 date: 2014-02-13 01:56:37+00:00
+venue: Granada, Spain
 slug: granada
 title: Automatic time series forecasting
 wordpress_id: 2392
@@ -45,5 +46,3 @@ Those attending are asked to do some pre-reading. Here are the papers I've reque
 
 
   4. [Hyndman and Khandakar (JSS 2008)](http://www.jstatsoft.org/v27/i03/paper) describes two extremely widely used automatic forecasting algorithms. These have been improved in the last five years, but the basic algorithms are most clearly described there.
-
-

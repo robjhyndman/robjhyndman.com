@@ -2,6 +2,7 @@
 author: Rob&nbsp;J&nbsp;Hyndman
 date: 2015-01-12 15:33:19+00:00
 title: Visualizing and forecasting big time series data
+venue: Academia Sinica, Taiwan
 slideshare: JEWivreQ2tNSqD
 tags:
 - forecasting

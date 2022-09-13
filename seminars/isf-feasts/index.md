@@ -1,6 +1,7 @@
 ---
 date: 2019-06-19
 title: A feast of time series tools
+venue: ISF 2019, Thessaloniki, Greece
 slug: isf-feasts
 link: https://github.com/robjhyndman/feasts-talk/raw/master/feasts.pdf
 youtube: Ykiuj16P450
@@ -13,5 +14,3 @@ Modern time series are often high-dimensional and observed at high frequency, bu
 The [feasts](http://feasts.tidyverts.org) package provides **F**eature **E**xtraction **A**nd **S**tatistics for **T**ime **S**eries, and includes tools for exploratory data analysis, data visualization, and data summary. For example, it includes autocorrelation plots, seasonality plots, time series decomposition, tests for units roots and autocorrelations, etc.
 
 I will demonstrate the design and use of the [feasts](http://feasts.tidyverts.org) package using a variety of real data, highlighting its power for handling large collections of related time series in an efficient and user-friendly manner.
-
-

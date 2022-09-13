@@ -1,6 +1,7 @@
 ---
 author: robjhyndman
 comments: false
+venue: ISF 2007, New York, USA
 date: 2007-06-25 08:06:19+00:00
 slug: forecasting-medium-and-long-term-peak-electricity-demand
 title: Forecasting medium- and long-term peak electricity demand
@@ -10,7 +11,7 @@ tags:
 - forecasting
 ---
 
-  
+
 + Where: International Symposium on Forecasting, New York
 
 **Abstract:**
@@ -21,4 +22,3 @@ Electricity demand at a given time is subject to a range of influences, includin
 In order to forecast electricity demand using the model, we need to forecast all explanatory variables including temperature. To simulate future temperatures at half-hourly intervals, and thereby obtain the forecast distribution of temperature, a seasonal bootstrap method has been developed.
 
 The method is demonstrated using half-hourly South Australian demand data from 1997-2006 with forecasts obtained for 2007-2016.
-

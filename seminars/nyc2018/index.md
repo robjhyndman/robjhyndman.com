@@ -1,6 +1,7 @@
 ---
 title: "Forecasting: principles and practice (NYC)"
 slug: nyc2018
+venue: New York, USA
 aliases:
   - /nyc2018/
 author: "Rob J Hyndman"
@@ -217,7 +218,7 @@ Download the following Rmarkdown file for recording your lab session exercises: 
    ```r
    bicoal, chicken, dole, usdeaths, bricksq, lynx, ibmclose
    ```
-  
+
   Use the help files to find out what the series are.
 
   Can you spot any seasonality, cyclicity and trend? What do you learn about the series?
@@ -443,8 +444,8 @@ For this exercise, we will continue to use your retail data and use time series 
      * Plot the errors. Do they look uncorrelated and homoscedastic?
      * If the first few values have high variance, repeat the RMSE calculation after omitting them.
 
-  3. In practice, we will not know the best model on the whole data set  until we observe all the data. So a more realistic analysis would be to allow `auto.arima()` to select a different model each time through the loop. 
-   
+  3. In practice, we will not know the best model on the whole data set  until we observe all the data. So a more realistic analysis would be to allow `auto.arima()` to select a different model each time through the loop.
+
      * Calculate the RMSE values using this approach. (Warning: it will take a while as there are a lot of models to fit.)
      * How do the RMSE values compare? Does the re-selection of a model at each step make much difference?
 

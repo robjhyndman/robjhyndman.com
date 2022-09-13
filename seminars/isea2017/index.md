@@ -2,6 +2,7 @@
 author: Rob&nbsp;J&nbsp;Hyndman
 date: 2017-06-22
 slug: isea2017
+venue: ISEA 2017, Cairns, Australia
 title: 'Probabilistic outlier detection and visualization of smart metre data'
 tags:
 - electricity demand
@@ -20,4 +21,3 @@ We introduce some new tools for exploring large collections of smart metre data 
 We are particularly interested in clustering households into groups with similar probability demand distributions, and in identifying households with unusual demand distributions. It is also of interest to estimate a typical household distribution.
 
 Our approach involves computing the pairwise Jensen-Shannon distances between household probability distributions. Then we show that a kernel density estimate can be constructed on the distribution of distances, allowing us to cluster similar households, and find unusual households.
-

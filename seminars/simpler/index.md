@@ -1,6 +1,7 @@
 ---
 author: Rob&nbsp;J&nbsp;Hyndman
 comments: false
+venue: Melbourne R Users Group
 date: 2012-11-20 07:00:03+00:00
 slug: simpler
 title: 'SimpleR: tips, tricks and tools'

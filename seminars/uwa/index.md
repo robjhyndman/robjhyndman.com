@@ -2,6 +2,7 @@
 author: Rob&nbsp;J&nbsp;Hyndman
 comments: false
 date: 2014-09-23 03:03:08+00:00
+venue: University of Western Australia
 excerpt: Workshop held at UWA on 23-25 September 2014.
 aliases:
   - /uwa/
@@ -56,4 +57,3 @@ Hyndman and Athanasopoulos (2014)
   12. Advanced methods [[Slides](/uwafiles/12-Advanced.pdf), [R code](/uwafiles/Class12.R), [Lab solutions](/uwafiles/exercises12.R)]
 
 ### [Course Notes](/uwafiles/fpp-notes.pdf)
-

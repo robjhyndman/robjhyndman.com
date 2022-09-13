@@ -1,6 +1,7 @@
 ---
 author: robjhyndman
 comments: false
+venue: Monash
 date: 2008-07-18 03:54:51+00:00
 slug: forecasting-and-the-importance-of-being-uncertain
 title: Forecasting and the importance of being uncertain
@@ -10,4 +11,3 @@ tags:
 ---
 
 #### Indian Institute of Management Calcutta. Melbourne, 18 July 2008.
-

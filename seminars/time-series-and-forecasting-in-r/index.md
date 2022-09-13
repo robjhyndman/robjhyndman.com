@@ -1,6 +1,7 @@
 ---
 author: robjhyndman
 comments: false
+venue: R workshop, Melbourne
 date: 2008-06-29 04:00:04+00:00
 slug: time-series-and-forecasting-in-r
 title: Time series and forecasting in R
@@ -20,5 +21,3 @@ There was an R workshop on 28-29 June, just before the Australian Statistical Co
 
   * [handout](/research/Rtimeseries_handout.pdf)
   * [slides](/research/Rtimeseries.pdf)
-
-

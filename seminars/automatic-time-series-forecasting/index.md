@@ -1,5 +1,6 @@
 ---
 author: Rob&nbsp;J&nbsp;Hyndman
+venue: UseR! 2006, Vienna, Austria
 comments: false
 date: 2006-06-26 08:10:11+00:00
 slug: automatic-time-series-forecasting
@@ -11,4 +12,3 @@ tags:
 ---
 
 UseR! conference, Vienna, Austria
-

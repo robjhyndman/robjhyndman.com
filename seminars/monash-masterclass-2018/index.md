@@ -1,6 +1,7 @@
 ---
 date: 2018-09-18
 title: "Forecasting the future of the power industry: What can you learn from smart meter data?"
+venue: Monash
 slug: monash-masterclass-2018
 link: https://robjhyndman.com/talks/SmartMetres2018.pdf
 ---
@@ -24,4 +25,3 @@ Monash Law Chambers<br>
 Melbourne<br>
 
 [**Register at Eventbrite**](https://www.eventbrite.com.au/e/monash-masterclass-forecasting-the-future-of-the-power-industrywhat-can-you-learn-from-smart-meter-registration-46394364794)
-

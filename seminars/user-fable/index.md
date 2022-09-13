@@ -1,6 +1,7 @@
 ---
 date: 2018-07-13
 title: Tidy forecasting in R
+venue: useR 2018, Brisbane, Australia
 slug: user-fable
 link: https://github.com/robjhyndman/fable-talk-2018/raw/master/fable_useR2018.pdf
 youtube: MemnYSGeJ34

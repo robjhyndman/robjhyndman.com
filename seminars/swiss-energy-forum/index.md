@@ -1,6 +1,7 @@
 ---
 author: Rob&nbsp;J&nbsp;Hyndman
 comments: false
+venue: Valais, Switzerland
 date: 2014-06-17 06:36:25+00:00
 slug: swiss-energy-forum
 title: Challenges in forecasting peak electricity demand

@@ -1,6 +1,7 @@
 ---
 author: Rob&nbsp;J&nbsp;Hyndman
 date: 2017-12-13
+venue: Auckland, New Zealand
 slug: nzsa2017
 mathjax: true
 title: 'Probabilistic outlier detection and visualization of smart metre data'

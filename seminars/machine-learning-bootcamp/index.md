@@ -1,6 +1,7 @@
 ---
 author: Rob&nbsp;J&nbsp;Hyndman
 comments: false
+venue: Monash
 date: 2015-08-17 02:22:05+00:00
 slug: machine-learning-bootcamp
 title: Machine learning bootcamp

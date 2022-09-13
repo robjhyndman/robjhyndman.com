@@ -1,6 +1,7 @@
 ---
 date: 2018-12-11
 title: Data visualization for functional time series
+venue: Creswick, Australia
 slug: ftsviz
 link: https://github.com/robjhyndman/ftsviz/raw/master/ftsvis.pdf
 ---
@@ -11,4 +12,3 @@ Any good data analysis begins with a careful graphical exploration of the observ
 
 1. Using ggplot2 for functional time series. [**R code**](https://robjhyndman.com/hyndsight/ftsviz/)
 2. Time-indexed probability distributions (slides below)
-

@@ -1,5 +1,6 @@
 ---
 date: 2018-04-09
+venue: ABS, Canberra
 title: High dimensional time series analysis
 slug: abs-hdts
 link: https://github.com/robjhyndman/highdimts/raw/master/ABS-HighDimTimeSeries.pdf
@@ -28,6 +29,3 @@ I will provide an overview of some of my recent research on methods to deal with
 **4. Forecasting temporal hierarchies**
 
   Forecasts can also be temporally aggregated; for example, we might want daily forecasts, weekly forecasts, monthly forecasts and annual forecasts. These should also be coherent. I will show how the optimal reconciliation method can be adapted to obtain temporal aggregation forecasts.
-
-
-

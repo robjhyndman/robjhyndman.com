@@ -1,6 +1,7 @@
 ---
 date: 2017-10-12
 title: Analysing sub-daily time series data
+venue: Melbourne R Users Group
 mathjax: false
 ---
 
@@ -27,4 +28,3 @@ Talk given by me, [Earo Wang](http://earo.me) and [Mitchell O'Hara-Wild](https:/
 [![](/img/fasstersticker.resized.png)](https://github.com/mitchelloharawild/fasster)
 [![](/img/forecaststicker.resized.png)](http://pkg.robjhyndman.com/forecast)
 [![](/img/htssticker.resized.png)](http://pkg.earo.me/hts)
-

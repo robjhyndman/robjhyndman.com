@@ -1,5 +1,6 @@
 ---
 date: 2022-08-23
+venue: COMPSTAT 2022, Bologna, Italy
 title: Decomposing time series with complex seasonality
 slug: compstat2022
 ---

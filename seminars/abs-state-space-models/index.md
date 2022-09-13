@@ -1,5 +1,6 @@
 ---
 author: Rob&nbsp;J&nbsp;Hyndman
+venue: ABS, Canberra
 comments: false
 date: 2014-05-30 01:21:32+00:00
 excerpt: A one-day workshop for the Australian Bureau of Statistics

@@ -1,6 +1,7 @@
 ---
 date: 2020-10-27
 title: Ten years of forecast reconciliation
+venue: ISF 2020
 slug: "reconciliation_review_talk"
 aliases: ["/isf2020/"]
 youtube: 5jB09R-sKOc

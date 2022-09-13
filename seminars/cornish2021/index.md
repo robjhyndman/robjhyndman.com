@@ -1,5 +1,6 @@
 ---
 date: 2021-11-17
+venue: Cornish Lecture, Adelaide
 title: "Feasts and fables: modern tools for time series analysis"
 slug: cornish2021
 aliases:

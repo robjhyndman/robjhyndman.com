@@ -1,6 +1,7 @@
 ---
 author: Rob&nbsp;J&nbsp;Hyndman
 comments: false
+venue: ISF 2010, San Diego, USA
 date: 2010-06-09 04:20:20+00:00
 slug: isf2010
 title: Coherent functional forecasts of mortality rates and life expectancy
