@@ -204,7 +204,7 @@ a.badge.badge-green {
 .badge-blue,
 .badge-red,
 .badge-green {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .label-black,
@@ -248,6 +248,17 @@ a.badge.badge-green {
 
 .quarto-title-meta {
   font-family: 'Fira Sans', 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #ddd;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.quarto-title-meta-heading {
+  margin: 1ex 1ex 0 1ex !important;
+}
+.quarto-title-meta-contents {
+  margin: 0ex 1ex 1ex 1ex !important;
 }
 
 
