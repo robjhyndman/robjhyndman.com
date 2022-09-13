@@ -1,5 +1,5 @@
 ---
-title: "Seminars I've given (since 2006)"
+title: ""
 listing:
   contents: .
   sort: "date desc"
@@ -8,7 +8,7 @@ listing:
     description: "Seminars and workshops by Professor Rob J Hyndman"
   categories: false
   sort-ui: true
-  filter-ui: false
+  filter-ui: [date, title]
   date-format: "DD MMM YYYY"
   type: table
   page-size: 999
@@ -16,10 +16,11 @@ listing:
     - date
     - title
 
-sidebar: false
 page-layout: full
 title-block-banner: false
 ---
+
+# Seminars I've given (since 2006)
 
 Some of these seminars were given more than once, but to avoid repetition, repeats are not always listed.
 
