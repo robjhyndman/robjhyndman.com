@@ -25,8 +25,4 @@ Time series data often contains a rich complexity of seasonal patterns. Time ser
 
 ### R packages
 
-<a href="https://cran.r-project.org/package=gravitas"><img src="https://github.com/Sayani07/gravitas/raw/master/man/figures/logo.png" width=80></a>
-<a href="https://github.com/Sayani07/hakear"><img src = "/software/stickers/hakear.png" width=80></a>
-<a href="https://pkg.robjhyndman.com/forecast"><img src = "https://pkg.robjhyndman.com/forecast/reference/figures/logo.png" width=80></a>
-<a href="https://feasts.tidyverts.org"><img src = "http://feasts.tidyverts.org/reference/figures/logo.png" width=80></a>
-<a href="https://cran.r-project.org/package=stR"><img src = "https://robjhyndman.com/software/stickers/stR.png" width=80></a>
+<a href="https://cran.r-project.org/package=gravitas"><img src="https://github.com/Sayani07/gravitas/raw/master/man/figures/logo.png" width=80></a><a href="https://github.com/Sayani07/hakear"><img src = "/software/stickers/hakear.png" width=80></a><a href="https://pkg.robjhyndman.com/forecast"><img src = "https://pkg.robjhyndman.com/forecast/reference/figures/logo.png" width=80></a><a href="https://feasts.tidyverts.org"><img src = "http://feasts.tidyverts.org/reference/figures/logo.png" width=80></a><a href="https://cran.r-project.org/package=stR"><img src = "https://robjhyndman.com/software/stickers/stR.png" width=80></a>
