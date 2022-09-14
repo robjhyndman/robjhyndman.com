@@ -6,3 +6,5 @@ _site/*
 .Rproj.user
 
 /unbelievable/.quarto/
+
+/_*.local

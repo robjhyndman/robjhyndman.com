@@ -1,5 +1,4 @@
 ---
-title: ""
 listing:
   contents: .
   sort: "date desc"
@@ -18,9 +17,6 @@ listing:
     - venue
   field-display-names:
       venue: Venue
-
-page-layout: full
-title-block-banner: false
 ---
 
 # Seminars I've given (since 2006)
