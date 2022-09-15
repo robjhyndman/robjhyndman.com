@@ -10,7 +10,7 @@ listing:
   filter-ui: [date, title, venue]
   date-format: "DD MMM YYYY"
   type: table
-  page-size: 999
+  page-size: 25
   fields:
     - date
     - title
