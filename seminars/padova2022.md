@@ -8,13 +8,13 @@ venue: University of Padua, Italy
 
 Time series data often contains a rich complexity of seasonal patterns. Time series that are observed at a sub-daily level can exhibit multiple seasonal patterns corresponding to different granularities. Seasonal granularities can be circular such as hour-of-the-day, day-of-the-week or month-of-the-year; or quasi-circular such as day-of-the-month. They can be nested (e.g., hour-of-the-day within day-of-the-week) and non-nested (e.g., day-of-the-year in both the Gregorian and Hijri calendars). They can also follow irregular topologies induced by public holidays and other aperiodic events. Available tools to visualize, model and forecast these seasonal patterns are currently very limited. I will discuss two new time series decomposition tools for handling seasonal data: MSTL and STR. These allow for multiple seasonal and cyclic components, covariates, seasonal patterns that may have non-integer periods, and seasonality with complex topology. They can be used for time series with any regular time index including hourly, daily, weekly, monthly or quarterly data, but tackle many more decomposition problems than other methods allow. I will also demonstrate some new tools to assist in visualizing seasonal patterns in time series, emphasising changes in the conditional distribution with respect to different time granularities. The granularities form categorical variables (ordered or unordered) which induce groupings of the observations. The resulting graphics are then displays of conditional distributions compared across combinations of these categorical variables. These are implemented in the gravitas package for R.
 
-### [Slides](https://pkg.robjhyndman.com/complex_seasonality_talk/padova2022.html) <a href="https://github.com/robjhyndman/complex_seasonality_talk"><i class="fa fa-github"></i></a>
-
+### Slides
 
 <iframe src="https://pkg.robjhyndman.com/complex_seasonality_talk/padova2022.html" width="100%" height=350>
 </iframe>
 
-<br>
+[Download](https://github.com/robjhyndman/complex_seasonality_talk/raw/main/padova2022.html){.badge .badge-red}
+[{{< fa brands github >}} Code](https://github.com/robjhyndman/complex_seasonality_talk/){.badge .badge-green}
 
 ### Associated papers
 
