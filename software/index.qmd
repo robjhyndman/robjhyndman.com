@@ -1,3 +1,7 @@
+---
+pagetitle: "Rob J Hyndman - Software"
+---
+
 # CRAN task views
 
 * [**Time Series**](https://cran.r-project.org/view=TimeSeries)

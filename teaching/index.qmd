@@ -1,3 +1,7 @@
+---
+pagetitle: "Rob J Hyndman - Teaching"
+---
+
 # ETC3550: Applied Forecasting for Business and Economics
 
 Reliable forecasts of business and economic variables must often be obtained against a backdrop of structural change in markets and the economy. This unit introduces methods suitable for forecasting in these circumstances including the decomposition of time series, exponential smoothing methods, ARIMA modelling, and regression with auto-correlated disturbances. Students can expect to enhance their computer skills with exercises using R.

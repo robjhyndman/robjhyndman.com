@@ -1,4 +1,5 @@
 ---
+pagetitle: "Rob J Hyndman - Publications"
 listing:
   contents: .
   template: pubs.ejs
