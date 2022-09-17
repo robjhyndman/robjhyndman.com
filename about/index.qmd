@@ -6,13 +6,38 @@ The following bio and [**this photo**](../img/RJH_Monash_headshot.jpg) may be us
 
 >**Rob J Hyndman** <span style="font-size: 10pt;">FAA FASSA</span> is Professor of Statistics in the [Department of Econometrics and Business Statistics](http://business.monash.edu/econometrics-and-business-statistics) at [Monash University](https://www.monash.edu). From 2005 to 2018 he was Editor-in-Chief of the *[International Journal of Forecasting](http://ijf.forecasters.org/)* and a Director of the [International Institute of Forecasters](http://forecasters.org/). Rob is the author of over 200 research papers and 5 books in statistical science. He is an elected Fellow of both the [Australian Academy of Science](https://www.science.org.au/profile/rob-hyndman) and the [Academy of Social Sciences in Australia](https://socialsciences.org.au/academy-fellow/?sId=0032v00003JxrvjAAB). In 2007, he received the [Moran medal](https://www.science.org.au/past-winners/2007-awardees#moran) from the Australian Academy of Science for his contributions to statistical research, especially in the area of statistical forecasting. In 2021, he received the [Pitman medal](https://www.statsoc.org.au/Pitman-Medal-Recipients) from the Statistical Society of Australia. For over 30 years, Rob has maintained an active consulting practice, assisting hundreds of companies and organizations around the world. He has won awards for his research, teaching, consulting and graduate supervision.
 
+:::: {.columns}
+
+::: {.column width="30%"}
+
 <ul class="fa-ul">
   <li><a href="https://github.com/robjhyndman/CV/raw/master/RobHyndmanCV.pdf"><i class="fa-li fa-regular fa-file-pdf"></i>Curriculum Vitae</a></li>
   <li><a href="https://scholar.google.co.uk/citations?user=vamErfkAAAAJ"><i class="fa-li ai ai-google-scholar" style="padding-top:4px;"></i>Google Scholar</a></li>
-  <li><a href="http://en.wikipedia.org/wiki/Rob_J._Hyndman"><i class="fa-li fa-brands fa-wikipedia-w"></i>Wikipedia page</a></li>
-  <li><a href="http://ideas.repec.org/e/phy3.html"><i class="fa-li fa-regular fa-lightbulb"></i>RePEc page</a></li>
-  <li><a href="https://github.com/robjhyndman"><i class="fa-li fa-brands fa-github"></i>robjhyndman on GitHub</a></li>
+  <li><a href="https://orcid.org/0000-0002-2140-5352"><i class="fa-li ai ai-orcid" style="padding-top:4px;"></i>ORCID</a></li>
 </ul>
+
+:::
+
+::: {.column width="30%"}
+
+<ul class="fa-ul">
+  <li><a href="https://www.scopus.com/authid/detail.uri?authorId=7006914313"><i class="fa-li ai ai-scopus" style="padding-top:4px;"></i>Scopus</a></li>
+    <li><a href=https://arxiv.org/a/hyndman_r_1.html><i class="fa-li ai ai-arxiv" style="padding-top:4px;"></i>arXiv</a></li>
+<li><a href="http://ideas.repec.org/e/phy3.html"><i class="fa-li fa-regular fa-lightbulb"></i>RePEc</a></li>
+</ul>
+
+:::
+
+::: {.column width="30%"}
+<ul class="fa-ul">
+  <li><a href="https://github.com/robjhyndman"><i class="fa-li fa-brands fa-github"></i>GitHub</a></li>
+  <li><a href="https://twitter.com/robjhyndman"><i class="fa-li fa-brands fa-twitter"></i>Twitter</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/Rob_J._Hyndman"><i class="fa-li fa-brands fa-wikipedia-w"></i>Wikipedia</a></li>
+</ul>
+
+:::
+
+::::
 
 ## Address
 
