@@ -12,7 +12,7 @@ The following bio and [**this photo**](../img/RJH_Monash_headshot.jpg) may be us
 
 <ul class="fa-ul">
   <li><a href="https://github.com/robjhyndman/CV/raw/master/RobHyndmanCV.pdf"><i class="fa-li fa-regular fa-file-pdf"></i>Curriculum Vitae</a></li>
-  <li><a href="https://scholar.google.co.uk/citations?user=vamErfkAAAAJ"><i class="fa-li ai ai-google-scholar" style="padding-top:4px;"></i>Google Scholar</a></li>
+  <li><a href="https://scholar.google.com/citations?user=vamErfkAAAAJ"><i class="fa-li ai ai-google-scholar" style="padding-top:4px;"></i>Google Scholar</a></li>
   <li><a href="https://orcid.org/0000-0002-2140-5352"><i class="fa-li ai ai-orcid" style="padding-top:4px;"></i>ORCID</a></li>
 </ul>
 
