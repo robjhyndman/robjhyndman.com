@@ -11,13 +11,13 @@ sidebar: false
 
 Social good is created whenever we make new forecasting methods and resources freely available and usable. That could take the form of open source software and data, open access papers and textbooks, reproducible source files, and so on. I will discuss progress in this area over the last 25 years, and reflect on my own experiences in publishing forecasting papers, books and software. I will discuss the benefits in working openly and publicly from an academic, commercial, and social good perspective.
 
-
-
-## [Slides](https://robjhyndman.com/talks/fsg2022.html) <a href="https://github.com/robjhyndman/fsg_talk"><i class="fa fa-github"></i></a>
-
+## Slides
 
 <iframe src="https://robjhyndman.com/talks/fsg2022.html" width="100%" height=350>
 </iframe>
+
+[Open](https://robjhyndman.com/talks/fsg2022.html){.badge .badge-red}
+[{{< fa brands github >}} Code](https://github.com/robjhyndman/fsg_talk){.badge .badge-green}
 
 <br>
 

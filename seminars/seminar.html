@@ -61,14 +61,13 @@ $if(slideshare)$
 </div>
 $endif$
 $if(file)$
-<a href="/talks/$file$" class="badge badge-small badge-red"><i class="fa fa-file-pdf-o"></i>&nbsp;Download pdf</a><br>
 <iframe src="https://docs.google.com/gview?url=https://robjhyndman.com/talks/$file$&embedded=true" width="100%" height=465></iframe>
+<a href="/talks/$file$" class="badge badge-small badge-red"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i>&nbsp;Download pdf</a>
 $endif$
 $if(link)$
-<a href="$link$" class="badge badge-small badge-red"><i class="fa fa-file-pdf-o"></i>&nbsp;Download pdf</a><br>
-<iframe src="https://docs.google.com/gview?url=$link$&embedded=true"  width="100%" height=465></iframe><br>
+<iframe src="https://docs.google.com/gview?url=$link$&embedded=true"  width="100%" height=465></iframe>
+<a href="$link$" class="badge badge-small badge-red"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i>&nbsp;Download pdf</a>
 $endif$
-
 
 $for(include-after)$
 $include-after$

@@ -18,7 +18,9 @@ title-block-banner: false
 
 # Publications
 
-<a href="https://github.com/robjhyndman/CV/raw/master/RobHyndmanCV.pdf" class="badge badge-large">Curriculum Vitae&nbsp;&nbsp; <i class="fa fa-file-pdf-o"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://scholar.google.com/citations?user=vamErfkAAAAJ" class="badge badge-large">Google Scholar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="ai ai-google-scholar"></i></a>
+[Curriculum Vitae &nbsp; {{< fa regular file-pdf >}}](https://github.com/robjhyndman/CV/raw/master/RobHyndmanCV.pdf){.badge .badge-large}
+&nbsp;&nbsp;&nbsp;&nbsp;
+[Google Scholar &nbsp; {{< ai google-scholar >}}](https://scholar.google.com/citations?user=vamErfkAAAAJ){.badge .badge-large}
 
 ## Books
 
