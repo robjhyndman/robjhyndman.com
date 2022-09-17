@@ -6,13 +6,13 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.robjhyndman\.com$ [NC]
 RewriteRule ^(.*)$ https://robjhyndman.com/$1 [R=301,L]
 
-RewriteCond %{REQUEST_URI} index\.html$
+RewriteCond %{REQUEST_URI} index\.html$ [OR]
 RewriteRule ^index\.html$ / [R=301,L,NC]
 RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L,NC]
 
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^arxiv https://arxiv.org/a/hyndman_r_1.html [R=301,L,NC]
+RewriteCond %{SERVER_PORT} 80 [OR]
 RewriteRule ^github https://github.com/robjhyndman [R=301,L,NC]
+RewriteRule ^arxiv https://arxiv.org/a/hyndman_r_1.html [R=301,L,NC]
 RewriteRule ^orcid https://orcid.org/0000-0002-2140-5352 [R=301,L,NC]
 RewriteRule ^papers/(.*(?<!pdf)$) https://robjhyndman.com/publications/$1 [R=301,L,NC]
 RewriteRule ^publons https://publons.com/researcher/484722/rob-hyndman/ [R=301,L,NC]
