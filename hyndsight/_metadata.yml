@@ -4,6 +4,13 @@
 # (see https://quarto.org/docs/projects/code-execution.html#freeze)
 freeze: true
 
+format:
+  html:
+    template: hyndsight.html
+    template-partials:
+      - title-metadata.html
+      - title-block.html
+
 comments:
   giscus:
     repo:  robjhyndman/robjhyndman.com

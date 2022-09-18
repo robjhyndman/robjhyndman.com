@@ -1,0 +1,24 @@
+<div class="quarto-title-meta">
+
+  $if(date)$
+  <div>
+    <div class="quarto-title-meta-heading">Date</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">$date$</p>
+    </div>
+  </div>
+  $endif$
+  $if(categories)$
+  $if(quarto-template-params.title-block-categories)$
+  <div>
+    <div class="quarto-title-meta-heading">Topics</div>
+    <div class="quarto-title-meta-contents">
+      $for(categories)$
+        <div class="badge badge-small badge-grey quarto-category">$categories$</div>
+      $endfor$
+    </div>
+  </div>
+  $endif$
+  $endif$
+
+</div>

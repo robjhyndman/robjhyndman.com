@@ -7,7 +7,7 @@ body {
   background-color: #faf8f8;
 }
 
-pre>code {
+pre > code {
   font-family: 'Hack', 'Source Code Pro', 'Courier New', 'Courier', monospace;
 }
 
@@ -93,10 +93,11 @@ blockquote:before {
 }
 
 .table {
-  --bs-table-bg: @faf8f8 !important;
+  --bs-table-bg: @faf8f8  !important;
 }
 
-td, th {
+td,
+th {
   background-color: #faf8f8 !important;
 }
 
@@ -134,11 +135,13 @@ nav,
   font-size: 100%;
 }
 
-a.nav-link,a.navbar-brand {
+a.nav-link,
+a.navbar-brand {
   border-bottom: 0;
 }
 
-a.nav-link:hover,a.navbar-brand:hover {
+a.nav-link:hover,
+a.navbar-brand:hover {
   color: #efce14;
 }
 
@@ -237,12 +240,17 @@ a.badge.badge-green {
   background: #ffffff;
 }
 
+.label-grey,
+.badge-grey {
+  background: #cccccc;
+}
+
 .image-left {
   float: left;
   margin: 0 1em 1em 0;
 }
 
-.fa-ul>li {
+.fa-ul > li {
   margin: 0.5em;
 }
 
@@ -257,8 +265,10 @@ a.badge.badge-green {
 .quarto-title-meta-heading {
   margin: 1ex 1ex 0 1ex !important;
 }
+
 .quarto-title-meta-contents {
   margin: 0ex 1ex 1ex 1ex !important;
+  text-decoration: none !important;
 }
 
 
@@ -266,7 +276,8 @@ a.badge.badge-green {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
@@ -297,16 +308,42 @@ div.quarto-about-trestles .about-entity .about-link:hover {
   color: #ebebeb;
 }
 
-.quarto-category:hover, .listing-category:hover {
+.quarto-category:hover,
+.listing-category:hover {
   background-color: #36454f;
   color: #ebebeb !important;
   opacity: .6;
 }
 
-.quarto-category, .listing-category, .listing-actions-group, .about-link-text {
+.quarto-category:hover,
+.listing-category:hover a {
+  color: #ebebeb !important;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title-meta-contents .quarto-category a:hover {
+  color: #ebebeb !important;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title-meta-contents .quarto-category a {
+  text-decoration: none;
+}
+
+.quarto-category,
+.listing-category,
+.listing-actions-group,
+.about-link-text {
   font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#mlb2-4240669.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody, #mlb2-4240669.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
+.quarto-title,
+.quarto-categories,
+.quarto-category,
+.listing-category {
+  padding: 0 0.2em 0 0.2em !important;
+  line-height: 1.8em !important;
+}
+
+#mlb2-4240669.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody,
+#mlb2-4240669.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
   padding: 0px !important;
 }
