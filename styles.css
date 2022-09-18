@@ -169,7 +169,6 @@ a.badge.badge-green {
 
 .badge {
   font-family: 'Fira Sans', 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-decoration: none !important;
 }
 
 .label,
@@ -269,7 +268,6 @@ a.badge.badge-green {
 
 .quarto-title-meta-contents {
   margin: 0ex 1ex 1ex 1ex !important;
-  text-decoration: none !important;
 }
 
 
@@ -314,16 +312,14 @@ div.quarto-about-trestles .about-entity .about-link:hover {
   background-color: #36454f;
   color: #ebebeb !important;
   opacity: .6;
-  text-decoration: none !important;
 }
 
 .badge-grey:hover a {
   color: #ebebeb !important;
-  text-decoration: none !important;
 }
 
-#title-block-header.quarto-title-block.default .quarto-title-meta-contents .quarto-category a {
-  text-decoration: none !important;
+.badge-grey a {
+  border-bottom: 0 !important;
 }
 
 .quarto-category,
@@ -331,7 +327,6 @@ div.quarto-about-trestles .about-entity .about-link:hover {
 .listing-actions-group,
 .about-link-text {
   font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-decoration: none !important;
 }
 
 .quarto-title,
@@ -340,7 +335,6 @@ div.quarto-about-trestles .about-entity .about-link:hover {
 .listing-category {
   padding: 0 0.2em 0 0.2em !important;
   line-height: 1.8em !important;
-  text-decoration: none !important;
 }
 
 #mlb2-4240669.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody,
