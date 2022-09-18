@@ -12,7 +12,7 @@ For many years I used [RWinEdt](http://cran.r-project.org/web/packages/RWinEdt/)
 
 Then yesterday, out of the blue, [RStudio](http://rstudio.org) was announced and it looks fantastic!  A screenshot is given below.
 
-[![](http://www.rstudio.com/wp-content/uploads/2014/04/rstudio-windows.png)](http://www.rstudio.com/wp-content/uploads/2014/04/rstudio-windows.png)
+![](/img/rstudio-windows.png)
 
 The window contains a smart editor with code completion and tabbing, console, workspace with viewable objects, plotting panel with history, etc. And it runs on all major platforms (or over the web if you have a linux server handy).
 
