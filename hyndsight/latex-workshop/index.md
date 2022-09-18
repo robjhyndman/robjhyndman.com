@@ -21,4 +21,4 @@ For those not able to attend, you might be interested in the following materials
   * [Recommended LaTeX books](/hyndsight/latex-books/)
   * [Recommended online tutorials](http://www.tug.org/tutorials/tugindia/)
 
-You might also like to check out my pages on [using  LaTeX](/categories/latex/).
+You might also like to check out my pages on [using  LaTeX](/hyndsight/#category=LaTeX).

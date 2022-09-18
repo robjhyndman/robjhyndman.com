@@ -131,7 +131,6 @@ Which, of course, translates to:
 >of three pi over 9<br>
 >equals log of the cube root of 'e'.
 
-
 And it's correct, too.
 
 * * *
@@ -193,11 +192,7 @@ $$
 >plus five times eleven,<br>
 >equals nine squared and not a bit more.
 
-
-
 * * *
-
-
 
 >In arctic and tropical climes,<br>
 >the integers, addition, and times,<br>
@@ -205,11 +200,7 @@ $$
 >a full finite field,<br>
 >as p ranges over the primes.
 
-
-
 * * *
-
-
 
 >A graduate student from Trinity<br>
 >Computed the cube of infinity;<br>
@@ -217,11 +208,7 @@ $$
 >To write down all those digits,<br>
 >So he dropped math and took up divinity.
 
-
-
 * * *
-
-
 
 >A conjecture both deep and profound<br>
 >Is whether the circle is round;<br>
@@ -230,22 +217,14 @@ $$
 >A counterexample is found.<br>
 (Note: Erdös is pronounced "Air-dish")
 
-
-
 * * *
-
-
 
 >Three jolly sailors from Blaydon-on-Tyne,<br>
 >They went to sea in a bottle by Klein,<br>
 >Since the sea was inside the hull,<br>
 >The scenery seen was exceedingly dull.
 
-
-
 * * *
-
-
 
 By Chris Boyd (see comments below).
 
@@ -259,11 +238,7 @@ $$
 >Hundred three (plus one more)<br>
 >Equals double the square of fifteen.
 
-
-
 * * *
-
-
 
 Interesting Theorem:
 All positive integers are interesting.
@@ -271,21 +246,10 @@ All positive integers are interesting.
 Proof:
 Assume the contrary. Then there is a lowest non-interesting positive integer. But, hey, that's pretty interesting! A contradiction.
 
-
-
 * * *
-
-
-
-
 
 ## Links
 
-    
   * [Opundo](http://www.opundo.com/mathematica.htm) - Rick Sutcliffe's site on limericks. mathematics, science, theology, and much more.
-
-    
   * [Math jokes](http://www.math.utah.edu/%7Echerk/mathjokes.html).
-
-    
-  * [Gary Ramseyer's extensive collection of statistics jokes](http://my.ilstu.edu/~gcramsey/Gallery.html)
+  * [Gary Ramseyer's extensive collection of statistics jokes](https://web.archive.org/web/20140111064735/http://my.ilstu.edu/~gcramsey/Gallery.html)
