@@ -169,6 +169,7 @@ a.badge.badge-green {
 
 .badge {
   font-family: 'Fira Sans', 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-decoration: none !important;
 }
 
 .label,
@@ -308,24 +309,21 @@ div.quarto-about-trestles .about-entity .about-link:hover {
   color: #ebebeb;
 }
 
-.quarto-category:hover,
+.badge-grey:hover, .quarto-category:hover,
 .listing-category:hover {
   background-color: #36454f;
   color: #ebebeb !important;
   opacity: .6;
+  text-decoration: none !important;
 }
 
-.quarto-category:hover,
-.listing-category:hover a {
+.badge-grey:hover a {
   color: #ebebeb !important;
-}
-
-#title-block-header.quarto-title-block.default .quarto-title-meta-contents .quarto-category a:hover {
-  color: #ebebeb !important;
+  text-decoration: none !important;
 }
 
 #title-block-header.quarto-title-block.default .quarto-title-meta-contents .quarto-category a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .quarto-category,
@@ -333,6 +331,7 @@ div.quarto-about-trestles .about-entity .about-link:hover {
 .listing-actions-group,
 .about-link-text {
   font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none !important;
 }
 
 .quarto-title,
@@ -341,6 +340,7 @@ div.quarto-about-trestles .about-entity .about-link:hover {
 .listing-category {
   padding: 0 0.2em 0 0.2em !important;
   line-height: 1.8em !important;
+  text-decoration: none !important;
 }
 
 #mlb2-4240669.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody,
