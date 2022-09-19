@@ -1,5 +1,5 @@
 ---
-author: John L. Pearce, Madison Hyer, Rob J. Hyndman, Margaret Loughnan, Martine Dennekamp, Neville Nicholls
+author: John L Pearce, Madison Hyer, Rob J Hyndman, Margaret Loughnan, Martine Dennekamp, Neville Nicholls
 Status: Published
 date: 2016-12-07 00:54:33+00:00
 slug: temperature-mortality
