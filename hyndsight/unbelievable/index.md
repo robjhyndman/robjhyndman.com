@@ -18,7 +18,7 @@ This is a very different book from my usual areas of forecasting and statistics.
 <td style="background-color: #faf8f8;  border-bottom: 0;">
 Until a few years ago, I was regularly speaking at church conferences internationally, and my books are still used in Bible classes and Sunday Schools around the world. I even helped establish an innovative new church, which became a model for similar churches in other countries. Eventually I came to the view that I was mistaken, and that there was little or no evidence that the Bible was inspired or that God exists. In this book, I reflect on how I was fooled, and why I changed my mind.
 
-The whole book is freely [available online](/unbelievable/preface/). But if you prefer a print or offline version, you can buy a copy via one of the links below.
+The whole book is freely [available online](/unbelievable/). But if you prefer a print or offline version, you can buy a copy via one of the links below.
 
 **[Buy a print copy via Amazon](http://amzn.com/dp/1517363195/?tag=otexts-20)**
 
