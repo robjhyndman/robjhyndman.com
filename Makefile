@@ -7,6 +7,7 @@ serve:
 
 build:
 	quarto render
+	quarto render unbelievable
 
 deploy:
 	Rscript make_xml.R
