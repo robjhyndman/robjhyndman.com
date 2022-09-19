@@ -1,6 +1,8 @@
 Options +FollowSymLinks +Indexes
 DirectoryIndex index.html
 
+ErrorDocument 404 /404.html
+
 RewriteEngine On
 
 RewriteCond %{HTTP_HOST} ^www\.robjhyndman\.com$ [NC]
