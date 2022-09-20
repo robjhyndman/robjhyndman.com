@@ -82,7 +82,6 @@ T & T-\tau
 \end{array}\right]
 $$
 
-
 ```r
 fit <- auto.arima(y, xreg=cbind(x1, pmax(0,x1-tau))
 ```

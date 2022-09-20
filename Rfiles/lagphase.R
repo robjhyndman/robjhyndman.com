@@ -14,7 +14,7 @@ lagphase <- function(data, knots=NULL, order=1, gam=FALSE,zeros=TRUE)
     data$frequency[data$frequency==0] <- NA
   else
     data$frequency[data$specimens==0] <- NA
-  
+
   # Fit gam
   if(gam)
   {
@@ -23,7 +23,7 @@ lagphase <- function(data, knots=NULL, order=1, gam=FALSE,zeros=TRUE)
     gamfit$name <- paste(data$island,"island:",data$species)
     return(gamfit)
   }
-  
+
   # Otherwise fit a glm
   # Check if knots==0 meaning no knots to be included
   if(!is.null(knots))
@@ -41,14 +41,14 @@ lagphase <- function(data, knots=NULL, order=1, gam=FALSE,zeros=TRUE)
           fit$name <- deparse(substitute(data))
         fit$data <- data
         fit$lengthlag <- NA
-        fit$lagphase <- FALSE        
+        fit$lagphase <- FALSE
         class(fit) <- c("lagphase","glm","lm")
         return(fit)
       }
     }
   }
-  
-  # Otherwise proceed 
+
+  # Otherwise proceed
   # Choose order if not provided
   if(is.null(order))
   {
@@ -59,7 +59,7 @@ lagphase <- function(data, knots=NULL, order=1, gam=FALSE,zeros=TRUE)
     bestfit <- fit1
     if(AICc(fit3) < AICc(bestfit))
       bestfit <- fit3
-    return(bestfit)    
+    return(bestfit)
   }
   # Otherwise proceed with specified order
   if(!is.null(knots))
@@ -67,19 +67,19 @@ lagphase <- function(data, knots=NULL, order=1, gam=FALSE,zeros=TRUE)
     return(lagphase.knots(knots, data, order))
   }
   # Otherwise order specified but knots unspecified
-  
+
   # Choose some initial knots
   knots <- quantile(data$year,prob=c(0.2,0.4,0.6,0.8))
   names(knots) <- NULL
-  
+
   # Fit best 4, 3, 2, 1 and 0 knot models
   fit4 <- optim(knots, tryknots, data=data, order=order)
   fit3 <- optim(knots[2:4], tryknots, data=data, order=order)
   fit2 <- optim(knots[c(2,4)], tryknots, data=data, order=order)
-  fit1 <- optim(knots[2], tryknots, data=data, order=order, method="Brent", 
+  fit1 <- optim(knots[2], tryknots, data=data, order=order, method="Brent",
                 lower=min(data$year), upper=max(data$year))
   suppressWarnings(fit0 <- glm(frequency ~ 1, offset=log(specimens), family=poisson, data=data, na.action=na.omit))
-  
+
   # Find best of these models:
   bestfit <- fit4
   if(fit3$value < bestfit$value)
@@ -100,7 +100,7 @@ lagphase <- function(data, knots=NULL, order=1, gam=FALSE,zeros=TRUE)
   }
   else  # Refit best model
     bestfit <- lagphase.knots(bestfit$par, data=data, order=order)
-  
+
   if(is.null(bestfit$knots))
   {
     bestfit$lagphase <- FALSE
@@ -108,7 +108,6 @@ lagphase <- function(data, knots=NULL, order=1, gam=FALSE,zeros=TRUE)
   }
   return(bestfit)
 }
-
 
 # Fit model with lag phase followed by growth
 # where knots and order are specified
@@ -127,9 +126,9 @@ lagphase.knots <- function(knots, data, order)
   if(!is.null(data$island))
     fit$name <- paste(data$island,"island:",data$species)
   else
-    fit$name <- deparse(substitute(data))    
+    fit$name <- deparse(substitute(data))
   fit$data <- data
-  
+
   # Check if there is a lag phase and record it
   fit$lengthlag <- NA
   if(length(fit$knots) > 0)
@@ -138,7 +137,7 @@ lagphase.knots <- function(knots, data, order)
       fit$lengthlag <- fit$knots[1] - data$year[1]
   }
   fit$lagphase <- !is.na(fit$lengthlag)
-  
+
   class(fit) <- c("lagphase","glm","lm")
   return(fit)
 }
@@ -173,10 +172,10 @@ AICc <- function(object)
   k <- length(object$coefficients)
   n <- object$df.residual+k
   aicc <- aic + 2*k*(k+1)/(n-k-1)
-  return(aicc)  
+  return(aicc)
 }
-  
-# Produces plot of the fitted spline function after adjusting for 
+
+# Produces plot of the fitted spline function after adjusting for
 # number of specimens
 
 plot.lagphase <- function(fit,ylim=NULL,xlab="Year", ylab="Adjusted frequency", main=fit$name,...)
@@ -199,8 +198,7 @@ plot.lagphase <- function(fit,ylim=NULL,xlab="Year", ylab="Adjusted frequency", 
   rug(fit$year[fit$data$frequency > 0])
 }
 
-
-freqplot <- function(fit1, fit2=NULL, fit3=NULL, fit4=NULL, 
+freqplot <- function(fit1, fit2=NULL, fit3=NULL, fit4=NULL,
                     xlab="Year", ylab="Frequency", main=fit1$name, cols=2:5, ...)
 {
   if(is.element("data",names(fit1)))
@@ -210,8 +208,8 @@ freqplot <- function(fit1, fit2=NULL, fit3=NULL, fit4=NULL,
     data <- fit1
     fit1 <- NULL
   }
-  
-  plot(frequency ~ year, data=data, xlab=xlab, ylab=ylab, main=main, 
+
+  plot(frequency ~ year, data=data, xlab=xlab, ylab=ylab, main=main,
        ylim=range(0,data$frequency,na.rm=TRUE),...)
   j <- (data$specimens > 0)
   if(!is.null(fit1))
@@ -254,14 +252,14 @@ print.lagphase <- function(x,...)
               " (",round(x$lengthlag)," years)\n",sep=""))
   }
   else
-  {  
+  {
     cat("No lag phase identified\n")
   }
   if(length(x$coef) > 1)
   {
     cat("  Knots:",x$knots,"\n")
   }
-  stats:::print.lm(x,...) 
+  stats:::print.lm(x,...)
 }
 
 # Extract frequency data for given island and species from data
@@ -291,4 +289,3 @@ get.species <- function(x, y, island, species, zeros=TRUE)
   out$island <- island
   return(out)
 }
-

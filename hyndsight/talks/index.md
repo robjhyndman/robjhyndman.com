@@ -13,6 +13,4 @@ He recommends the following two books by Joey Asher.
 
 
 
-
 See also my article on ["Giving an academic talk"](/publications/usertalk/).
-

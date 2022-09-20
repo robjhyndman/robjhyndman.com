@@ -18,10 +18,8 @@ We consider bandwidth selection for the kernel estimator of conditional density 
 
 **[R code](http://pkg.robjhyndman.com/hdrcde/)**
 
-
 * * *
 
-
 **Errata**:
-	
+
   * $d$ should be $|d|$ in the normal reference rule formulae.

@@ -23,38 +23,35 @@ A new innovations state space modeling framework, incorporating Box-Cox transfor
 
 **Keywords:** exponential smoothing, Fourier series, prediction intervals, seasonality, state space models, time series decomposition.
 
-
 #### Data
 
   * [Call center data](/data/callcenter.txt)
   * [Gasoline data](/data/gasoline.csv)
   * [Turkish electricity data](/data/turkey_elec.csv)
 
-
 To read the data into R:
-    
-```r    
+
+```r
     library(forecast)
-    
+
     # (a) U.S. finished motor gasoline products supplied
     # (thousands of barrels per day),
     # weekly data from February 1991 to July 2005.
     gas <- read.csv("https://robjhyndman.com/data/gasoline.csv")[,1]
     gas <- ts(gas, start=1991+31/365.25, frequency = 365.25/7)
-    
+
     # (b) Number of calls handled on weekdays between 7:00 am and 9:05 pm
     # Five-minute call volume from March 3, 2003, to May 23, 2003
     # in a large North American commercial bank.
     calls <- unlist(read.csv("https://robjhyndman.com/data/callcenter.txt",
                       header=TRUE,sep="\t")[,-1])
     calls <- msts(calls, start=1, seasonal.periods = c(169, 169*5))
-    
+
     # (c) Turkish electricity demand data.
     # Daily data from 1 January 2000 to 31 December 2008.
     telec <- read.csv("https://robjhyndman.com/data/turkey_elec.csv")
     telec <- msts(telec, start=2000, seasonal.periods = c(7,354.37,365.25))
 ```
-
 
 #### Errata
 

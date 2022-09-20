@@ -12,7 +12,6 @@ head(sa)
 tail(sa)
 dim(sa)
 
-
 plot(ts(sa[,"temp1"], start=c(2000,7*48), freq=seasondays*48),
      xlab="Year",ylab="degrees C")
 plot(ts(sa[,"temp2"], start=c(2000,7*48), freq=seasondays*48),

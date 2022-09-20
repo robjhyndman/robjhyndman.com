@@ -15,9 +15,7 @@ It can be freely downloaded from [the COPSS website](http://nisla05.niss.org/cop
 The book consists of 52 chapters spanning 622 pages. The full table of contents below shows its scope and the list of authors (a veritable who's who in statistics).<!-- more -->
 
 
-
 * * *
-
 
 
 **The History of COPSS**

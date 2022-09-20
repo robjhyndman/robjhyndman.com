@@ -21,7 +21,6 @@ This is a [short course given at Humboldt University, Berlin](http://irtg1792.
 24 June 2014, 09:30 - 12:30 and 14:00 - 17:00
 25 June 2014, 09:30 - 11:30
 
-
 Functional time series are curves that are observed sequentially in time, one curve being observed in each time period. In demography, examples include curves formed by annual death rates as a function of age, or annual fertility rates as a function of age. In finance, functional time series can occur in the form of bond yield curves, for example, with each curve being the yield of a bond as a function of the maturity of a bond.
 
 I will discuss methods for describing, modelling and forecasting such functional time series data. Challenges include:
@@ -33,7 +32,6 @@ I will discuss methods for describing, modelling and forecasting such functional
   * deriving prediction intervals for forecasts;
   * how to combine mortality and fertility forecasts to obtain forecasts of the total population;
   * how to use these ideas to simulate the age-structure of future populations and use the results to analyse proposed government policies.
-
 
 **Lectures:**
 

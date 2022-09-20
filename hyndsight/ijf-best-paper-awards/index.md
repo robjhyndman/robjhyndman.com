@@ -35,9 +35,7 @@ This year, we have made two awards. The best paper award goes to Francis Diebold
 >This is a methodological paper developing ways to estimate spillovers from one market to others. Diebold and Yilmaz use a generalized vector autoregressive framework in which forecast error variance decompositions are invariant to the variable ordering. Even though they used the method to look at volatility spillovers internationally in the time domain, the procedure is usable more generally including with cross-sectional data having spatial interconnections. This is an important contribution with significant repercussions across financial markets.
 
 
-
 An ``outstanding paper award'' goes to Véronique Genre, Geoff Kenny, Aidan Meyler and Allan Timmermann for their [2013 paper on combining expert forecasts](http://dx.doi.org/10.1016/j.ijforecast.2012.06.004). The following citation explains why the paper was nominated.
-
 
 >This is a topic that has been of fundamental interest to forecasters in all fields: can one beat the simple average when combining forecasts. The authors do an excellent job exploring that issue in a data set that had not previously been fully exploited.
 

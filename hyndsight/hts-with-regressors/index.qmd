@@ -21,13 +21,10 @@ fc <- forecast(y, fmethod="arima", xreg="x", newxreg="f")
 ```
 
 
-
 That will fit a regression with ARIMA errors to each of the original series (at all levels of aggregation), produce forecasts from each model, and then reconcile the forecasts so they satisfy the aggregation constraints.
 
 
-
 ### Infant deaths
-
 
 
 I will illustrate using infant death numbers for Australia. These are disaggregated by state and sex as shown below.
@@ -48,7 +45,6 @@ lines(ts(fitted(fit),start=1933),col='red')
 ```
 
 To apply this model to all series, and allow for ARMA errors, we can use the following code.
-
 
 ```{r, echo=TRUE, cache=TRUE}
     y = window(infantgts, start=1944)

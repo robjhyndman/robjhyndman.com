@@ -27,8 +27,7 @@ $$
 where $e_t$ is a Gaussian white noise series with variance $\sigma^2$. The following function will generate some random data from this model.<!-- more -->
 
 
-    
-    
+
     simnlts <- function(n, alpha, beta, r, sigma, gamma, burnin=100)
     {
       # Generate noise
@@ -48,7 +47,6 @@ where $e_t$ is a Gaussian white noise series with variance $\sigma^2$. The follo
       # Return result
       return(y)
     }
-    
 
 
 
@@ -57,8 +55,7 @@ The "burn-in" parameter allows the first value of the series to be a random draw
 We will estimate the model by minimizing the sum of squared errors across both regimes. Other approaches that take account of the different variances in the two regimes may be better, but it is useful to keep it simple, at least initially. The following function uses a non-linear optimizer to estimate $\alpha$, $\beta$ and $r$. To ensure good starting values, we begin the optimization with $\alpha=\beta=0$ and set the initial value of $r$ to be the mean of the observed data.
 
 
-    
-    
+
     fitnlts <- function(x)
     {
       ss <- function(par,x)
@@ -82,13 +79,10 @@ We will estimate the model by minimizing the sum of squared errors across both r
       else
         return(c(alpha=fit$par[1],beta=fit$par[2],r=fit$par[3]))
     }
-    
 
 
 
 There are a few things to notice here.
-
-
 
 
 
@@ -104,15 +98,12 @@ There are a few things to notice here.
 
   * This particular model can be more efficiently estimated by exploiting the conditional linearity. For example, we could loop over a grid of $r$ values (e.g., at the mid-points between consecutive ordered observations) and use linear regression for the other parameters. But the above approach is more general and can be adapted to other nonlinear time series models.
 
-
 The functions can be used as follows (with some example parameters):
 
 
-    
-    
+
     y <- simnlts(100, 0.5, -1.8, -1, 1, 2)
     fitnlts(y)
-    
 
 
 

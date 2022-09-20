@@ -5,7 +5,6 @@ project:
     - "*.md"
     - "!/unbelievable/"
 
-
 website:
   title: "Rob J Hyndman"
   site-url: "https://robjhyndman.com"

@@ -16,11 +16,9 @@ The [official guidelines](https://www.m4.unic.ac.cy/wp-content/uploads/2018/03/M
  $$\frac{1}{h}\sum_{t=1}^{h} \left[ (U_t-L_t) +  \frac{2}{\alpha}(L_t-Y_t)1(Y_t < L_t) +  \frac{2}{\alpha}(Y_t-U_t)1(Y_t > U_t) \right] $$
 where $Y_t$ is the observation at time $t$. The competition will use 95% prediction intervals, so $\alpha=0.05$. This both penalizes for wide intervals (since $U_t-L_t$ will be large), and penalizes for non-coverage with observations well outside the interval being penalized more heavily. So it deals with sharpness and calibration. See [Gneiting & Raftery (2007)](https://www.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf) for further details.
 
-
 2. There is now a strong emphasis on reproducibility with benchmark R code [posted on Github](https://github.com/M4Competition/M4-methods/blob/master/Benchmarks%20and%20Evaluation.R) and most competitors will be required to post their code on Github also.
 
 3. There will be weekly, daily and hourly series included, so there will almost certainly be some series with multiple seasonality.
-
 
 I am grateful to Spyros Makridakis for taking account of [my concerns](/hyndsight/m4comp/). I think the M4 competition is much improved as a result, and I am excited to see the submissions and results.
 

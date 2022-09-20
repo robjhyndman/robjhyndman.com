@@ -11,10 +11,9 @@ categories:
 
 **Today's email question:**
 
+>I work within a government budget office and sometimes have to forecast fairly simple time series several quarters into the future. Auto.arima() works great and I often get something along the lines of: ARIMA(0,0,1)(1,1,0)[12] with drift as the lowest AICc.
 
->I work within a government budget office and sometimes have to forecast fairly simple time series several quarters into the future. Auto.arima() works great and I often get something along the lines of: ARIMA(0,0,1)(1,1,0)[12] with drift as the lowest AICc. 
-
->However, my boss (who does not use R) takes issue with low-order AR and MA because "you're essentially using forecasted data to make your forecast." His models include AR(10) MA(12)s etc. rather frequently. I argue that's overfitting. I don't see a great deal of discussion in textbooks about this, and I've never seen such higher-order models in a textbook setting. But are they fairly common in practice? What concerns could I raise with him about higher-order models? Any advice you could give would be appreciated. 
+>However, my boss (who does not use R) takes issue with low-order AR and MA because "you're essentially using forecasted data to make your forecast." His models include AR(10) MA(12)s etc. rather frequently. I argue that's overfitting. I don't see a great deal of discussion in textbooks about this, and I've never seen such higher-order models in a textbook setting. But are they fairly common in practice? What concerns could I raise with him about higher-order models? Any advice you could give would be appreciated.
 
 <!-- more -->
 

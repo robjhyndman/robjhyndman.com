@@ -13,5 +13,3 @@ It is good to see forecasting algorithms getting some mainstream exposure on [AB
 
 **Update:**
 See also this great talk by Jeremy Howard, a data scientist from Melbourne and now part of Kaggle.
-
-

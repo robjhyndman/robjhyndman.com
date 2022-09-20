@@ -19,7 +19,6 @@ For illustration purposes, I'm using the male and female monthly deaths from lun
 
 For all base plot() methods, there is now an autoplot() method with the same functionality.
 
-
 ```{r, message=FALSE, cache=TRUE}
 library(forecast)
 library(ggplot2)
@@ -33,7 +32,6 @@ autoplot(mdeaths)
 fc <- forecast(fdeaths)
 autoplot(fc)
 ```
-
 
 ```{r, message=FALSE, cache=TRUE}
 # autoplot of an stl object
@@ -75,7 +73,6 @@ For plotting functions that do not use an S3 plot() method, there is now a ggplo
 ```
 
 There is also a new `geom_forecast()` function which uses `forecast.ts()` to obtain forecasts of the time series passed to `autoplot()`.
-
 
 ```{r, message=FALSE, cache=TRUE}
     autoplot(mdeaths) + geom_forecast(h=36)

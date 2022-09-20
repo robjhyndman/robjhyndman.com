@@ -15,9 +15,3 @@ His thesis was on "Machine learning strategies for multi-step-ahead time series 
 Some of the papers to come out of Souhaib's thesis are already available on his [Google scholar page](http://scholar.google.com.au/citations?user=AYgO4oQAAAAJ&hl=en).
 
 Well done Souhaib, and best wishes for the future.
-
-
-
-
-
-

@@ -7,7 +7,6 @@ categories:
 - journals
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, cache=FALSE, message=FALSE, warning=FALSE)
 library(forecast)
@@ -34,7 +33,6 @@ if2 <- ijf[1,4]
 if5 <- ijf[1,6]
 ```
 
-
 ```{r}
 ## Update from Journal Citations Reports
 citing <- read.csv(here::here("data/JournalCitingTab.csv"), header=TRUE, stringsAsFactors=FALSE, skip=1)[,-c(1,14)]
@@ -45,7 +43,6 @@ totalcites <- citing[1,2]
 articles <- sum(ijf[2:3,"Citable items"])
 cites <- round(if2 * articles)
 ```
-
 
 Once every year, the [journal citation reports](http://clarivate.com/?product=journal-citation-reports) are released including journal impact factors. This year, the *International Journal of Forecasting* 2-year impact factor has increased to **`r if2`** which is the highest it has been in the journal's history, and puts the journal higher than such notable titles as *Journal of the American Statistical Association* and just below *Management Science*.
 

@@ -13,7 +13,6 @@ Some further translations are on the [WSJ page](http://blogs.wsj.com/chinajourna
 
 I especially like this section from "Love the Homeland, Love Statistics":
 
-
 >Because of statistics<br>
 I can solve the deepest mysteries<br>
 Because of statistics<br>
@@ -23,6 +22,5 @@ I can rearrange the stars in the skies above<br>
 Because of statistics<br>
 My life is different, more meaningful<br>
 I love my life, my statistics
-
 
 Ah. We're an emotional lot really.

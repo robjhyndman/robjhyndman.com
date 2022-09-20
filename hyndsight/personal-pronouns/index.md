@@ -15,11 +15,9 @@ Sometimes the passive voice is awkward. For example
 
 >In studying ARIMA models, the effect of the estimation method on forecast accuracy was explored.
 
-
 This is easier to express using "I":
 
 >In studying ARIMA models, I explored the effect of the estimation method on forecast accuracy.
-
 
 In my [exponential smoothing monograph](http://www.exponentialsmoothing.net), one of the coauthors preferred to write everything in the passive voice, which led to some rather awkward phrasing. (I edited all chapters to consistently use "we" before it went to print.)
 
@@ -29,9 +27,7 @@ A related issue for research students writing a thesis is whether to use "I" or 
 
 One area where "we" is useful is in referring to the reader and author together. For example,
 
-
 >In the following theorem, we see that ...
-
 
 This is particularly common in mathematics.
 
@@ -40,4 +36,3 @@ In summary:
   * Write in the most natural way. It is ok if that means using "I".
   * Use "we" if you mean "the reader and I", or if you are writing a coauthored paper.
   * Don't use "we" if you only mean yourself.
-

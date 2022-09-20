@@ -12,7 +12,6 @@ categories:
 **An expanded version of this post is available in my article on [“Giving an academic talk”](/publications/usertalk/).**
 
 
-
 With conference season almost upon us, it is timely to discuss what makes a good conference presentation. Here is a suggested structure.
 
   1. A motivating example demonstrating the problem you are trying to solve.
@@ -23,7 +22,7 @@ With conference season almost upon us, it is timely to discuss what makes a good
 That won't necessarily work for every talk, but it is a good place to start. In particular, beginning with a motivating example is **much** better than setting up the problem algebraically.
 
 #### Further suggestions:
-    
+
   * Use Rmarkdown with this [template](https://github.com/robjhyndman/monashebstemplates).
   * Use a maximum of 20 slides for a 20 minute conference presentation.
   * Assume the audience knows about what you did at the start of your research in this area. That is, probably not much. You can assume standard material taught to undergraduates (regression, ARIMA models, etc.), but don't assume they already know what you have spent long hours learning on your own.
@@ -39,4 +38,3 @@ That won't necessarily work for every talk, but it is a good place to start. In 
   * Go through all your slides again just to make sure you can't see anything that could be improved.
   * Read Jonathan Shewchuk's advice on [giving an academic talk](http://www.cs.berkeley.edu/~jrs/speaking.html).
   * Practise. Out loud. Standing up. Using a data projector.
-

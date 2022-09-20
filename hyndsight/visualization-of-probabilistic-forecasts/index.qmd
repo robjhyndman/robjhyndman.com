@@ -33,7 +33,6 @@ plot(forecast(fit,fan=TRUE),include=120)
 
 Personally, I don't like these at all as they lose any specific probabilistic interpretability. What does the darker shaded region actually refer to? At least in the previous version, it is clear that the dark region contains 50% of the probability.
 
-
 For multi-modal distributions I like to use highest density regions. Here is an example applied to Nicholson's blowfly data using a threshold model:
 
 [![Screenshot from 2014-11-21 15:42:37](/files/Screenshot-from-2014-11-21-154237.png)](/files/Screenshot-from-2014-11-21-154237.png)
@@ -74,7 +73,6 @@ forecasthdr <- function(object, h = ifelse(object$m > 1, 2 * object$m, 10),
   hd <- hd[,,nz]
   dimnames(hd)[[1]] <- 1:h
   dimnames(hd)[[2]] <- level
-
 
   # Produce plot if required
   if(plot)

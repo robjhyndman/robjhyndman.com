@@ -15,20 +15,18 @@ In any case, if we are going to have a WSD, let's use it to do something useful.
 
 
 
-	
   * Learn [R](http://www.r-project.org). The time has come when it is not really possible to be a well-informed applied statistician if you are not a regular R user.
 
-	
+
   * Get involved on [Stats.StackExchange.com](http://stats.stackexchange.com). It's only 3 months old, but we already have over 1600 users and it has quickly become the best place to ask and answer questions about statistics, data mining, data visualization and everything else to do with analysing data.
 
-	
+
   * If you're in London, head to the [RSS getstats launch](http://www.getstats.org.uk/), held appropriately at 20:10 on 20.10.2010.
 
-	
+
   * Learn some new statistical techniques. If you have never used the bootstrap, EM algorithm, mixed models or the Kalman filter, now is a great day to start.
 
-	
-  * Stop using hypothesis tests and p-values! Instead, use confidence intervals and the AIC.
 
+  * Stop using hypothesis tests and p-values! Instead, use confidence intervals and the AIC.
 
 Feel free to add your own ideas in the comments ... unless you're too busy celebrating this auspicious occasion.

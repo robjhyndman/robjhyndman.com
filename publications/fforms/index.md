@@ -26,5 +26,4 @@ used automated approaches of time series forecasting. A key advantage of our pro
 framework is that the time-consuming process of building a classifier is handled in advance
 of the forecasting task at hand.
 
-
 Associated R package: **[seer](https://github.com/thiyangt/seer)**

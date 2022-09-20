@@ -15,15 +15,14 @@
 	Purpose: Run the multiple seasonality model over hourly data. Estimates of smoothing parameters
 	alpha, beta (only when slope is present) and mGamma.
 
-	Seeds are estimated using the method applied in the paper (Hyndman). 
+	Seeds are estimated using the method applied in the paper (Hyndman).
 
 	Note: The form of the input data Excel spreadsheet is important. 1st column are data to be filtered and the
 	2nd through to the 8th column contain day-of-week dummies. These dummies can also be written into the code
 	using day-of-week functions for flexibility in handling new sets of data.
-	
+
 
 */
-
 
 // Global declarations
 decl vY, mX, mX_seed, vYpred, mX2;
@@ -43,7 +42,7 @@ CSM(vP,const adFunc, avScore, ahess)
 {
 	decl seeds, index, i, j, t, mXSeed, mXTemp, vYTemp;
 
-	
+
 
 	index=0;	 	// Used to set parameter vector with correct number of elements. Depends on restrictions
 					// on (assumptions about) mGamma.
@@ -55,7 +54,7 @@ CSM(vP,const adFunc, avScore, ahess)
 	alpha = vP[index++];
 	beta = 0;
 
-	
+
 	if(iAssumption==0)
 	{
 		for(i=0;i<m2;++i)
@@ -64,7 +63,7 @@ CSM(vP,const adFunc, avScore, ahess)
 			{
 				mGamma[i][j] = ((vP[index]));
 				index = index+1;
-				
+
 			}
 		}
 	}
@@ -82,7 +81,7 @@ CSM(vP,const adFunc, avScore, ahess)
 	{
 		mGamma = unit(m2,m2)*(vP[index]);
 	}
-		
+
 	vLevel=zeros(iN+m1,1);
 	vSlope=zeros(iN+m1,1);
 	vEhat=zeros(iN+m1,1);
@@ -97,10 +96,10 @@ CSM(vP,const adFunc, avScore, ahess)
 	vYSeed = vY[0:slength-1];
 	mXTemp= mX[slength:][:];				// Define data for parameter estimation
 	vYTemp=vY[slength:];
-	
+
 	mSeedest = Set_Seed(vYSeed, mXSeed);
 	iN=rows(vYTemp);
-	
+
 	vLevel[0:m1-1]=mSeedest[0];
 	vSlope[m1-1]=0;
 	index=1;
@@ -115,7 +114,7 @@ CSM(vP,const adFunc, avScore, ahess)
 
 //******************** Filtering **********************
 // This is the main filtering loop.
-	
+
 	for(t=m1;t<iN+m1;++t)
 	{
 		vYpred[t]= vLevel[t-1]+vSlope[t-1]+mXTemp[t-m1][:]*vSeasonal[t-m1][:]';	   //*
@@ -162,24 +161,22 @@ Set_Seed(vYSeed, mXSeed)
 	{
 		vLev[i]=meanc(vYSeed[i:i+1*168]);					// Level term taken as a rolling 168 hour average. Will not necessarily be a week, depending
 	}														// on missing data.
-	
+
 
 	vYSeas = vYSeed[168:168+rows(vLev)-1]-vLev;
 
-
 	mXSeed2 = mXSeed[168:168+rows(vLev)-1][:];
-														   
+
 	ols2c(vYSeas, mXSeed2, &mA);						   // Update seed estimates using the new rolling level.
 	vF=meanr(meanc(mA));								   // Average of vA should be zero, so remove vF from mA.
 	mS=mA-vF*ones(rows(mA),1);
 	mD=vYSeed[168:168+rows(vLev)-1]-mXSeed2*mS;
-	
+
 	mSeedest[0]=meanc(mD);
 	mSeedest[1:]=mS;
 
-
 	return mSeedest;
-	
+
 }
 
 Pred_Interval(iRep, iPeriods)
@@ -204,12 +201,12 @@ Pred_Interval(iRep, iPeriods)
 
 	vE_s = (dLogLik)^(0.5)*rann(rows(vYSim),iRep);
 
-	
+
 	for(i=0;i<iRep;++i)
-	{	
-		
+	{
+
 		for(t=iN;t<iN+iPeriods;++t)
-		{		
+		{
 
 			//print("\nrows(vLevel_s): ", rows(vLevel_s));
 			vLevel_s[t]=vLevel_s[t-1]+vSlope_s[t-1]+alpha*vE_s[t][i];
@@ -221,7 +218,7 @@ Pred_Interval(iRep, iPeriods)
 
 	vYVar=vYVar|quantiler(vYSim[iN:][:]-meanr(vYSim[iN:][:]),<0.975, 0.025>);
 	return vYVar;
-		
+
 
 }
 
@@ -238,10 +235,10 @@ main()
 		decl sfilein, sfileout;
 		decl i;
 		decl AIC, SBC, ir, a, b, c, tempy;
-		
-		
+
+
 		// ***************************** Load mData and define cycle length, sample length etc... **********************************
-		
+
 		sname="traffic";						// Choose the file name for input XL files
 		sname2="MS";
 		sfilein="../data/"~sname~".xls"; 		// Contains path to find files
@@ -256,25 +253,25 @@ main()
 												// of sample have been removed for seed estimation.
 
 		dbase = new Database();
-		dbase.Load(sfilein);			
+		dbase.Load(sfilein);
 		mData = dbase->GetAll();
-		mData = mData[:][:];					// Data needs to start at first hour of day for seed initialization to work.  												
+		mData = mData[:][:];					// Data needs to start at first hour of day for seed initialization to work.
 		delete dbase;
 
 		mX0=mData[:][1:7];
-		
+
         mX0_seed=mX0[:slength-1][:];		  	// mX0 for seed estimation sample
-		
+
 		vY=mData[0:samp-1][yindex];
 
 		vYTotal=mData[:][yindex];
-		
+
 		iAssumption = 1; //Assumptions on structure of mGamma: 0 = none; 1 = diag/off-diag; 2 = single value; 3 = single value diag only.
 		iN=rows(vY);
-		
+
         m2=7;								// Number of different day types.
         mDayType2=unit(7); 				// Matrix used to compress 7 day types into m2 day types. In this case there is no compression.
-		
+
 /*
 		****** Sample code for assuming 5 "types" of day *****
 
@@ -296,7 +293,7 @@ main()
 
 */
 		mX = mX0*mDayType2;
-		
+
 //      ********************************** Estimation *************************************
 //		Set number of parameters required to fill mGamma based on which iAssumption is used.
 
@@ -315,13 +312,13 @@ main()
 		if(iAssumption==3)	// Single diagonal value and no off-diagonals.
 		{
 			nP = 2;
-		}		
-			
+		}
+
 		init_vP =0.5*ones(nP,1);	 	// Starting values for parameters. Try different starting values to ensure
 										// model does not converge to a local maximum.
-       
+
 	    print("\nParameter starting values: ", tanh(init_vP).*tanh(init_vP));
-    
+
 		MaxControl(100,10);		   //nuvYSeaser of iterations
 		MaxControlEps(1e-6, 1e-6);
 		//ir = MaxSimplex(CSM, &init_vP, &dLogLik, 0);  // Use simplex to start search (not used here).
@@ -331,9 +328,9 @@ main()
 
 		dLogLik=-dLogLik;
 		AIC = iN*log(dLogLik)+2*nP;						// Calculate AIC
-		SBC = iN*log(dLogLik)+log(iN)*nP;				// Calculate SBC		 
+		SBC = iN*log(dLogLik)+log(iN)*nP;				// Calculate SBC
 		mPred = Pred_Interval(1000,168);				// Calculate prediction intervals (based on 1000 reps going ahead 168 hours from last observation).
-		
+
 		print("\n************Output*****************");
 		print("\n", sname2);
 		print("\nNo. parameters: ", nP);
@@ -342,16 +339,14 @@ main()
 		print("\nmGamma: ", mGamma);
 		print("\nLevel Seed: ", vLevel[0]);
 
-
 		// *** Graphical output of actual and predicted, vSeasonal terms, vLevel term and acf of errors. ***
 		DrawTMatrix(0, vY[slength:][:]', {"Actual"}, 2000,1,1);
 		DrawTMatrix(0, vYpred[m1:][:]', {"Predicted"}, 2000,1,1,2,3);
 		DrawTMatrix(1, vSeasonal[0:23][:]', {"vSeasonals"}, 2000,1,1);
-		DrawTMatrix(2, vY[slength:][:]'|vLevel[m1:]', {"Actual","vLevel"}, 2000,1,1);		
+		DrawTMatrix(2, vY[slength:][:]'|vLevel[m1:]', {"Actual","vLevel"}, 2000,1,1);
 		DrawAcf(3, (vEhat'), "Error ACF", 168, 1, 1);
 		SaveDrawWindow(sfileout);
         ShowDrawWindow();
 		CloseDrawWindow();
-		
+
 }
-		

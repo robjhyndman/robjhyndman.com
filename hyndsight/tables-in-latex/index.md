@@ -36,5 +36,3 @@ Here are some pointers to tools and packages that I have found useful.
   * The [longtables package](http://www.ctan.org/pkg/longtable) for tables that are too big for a single page.
 
   * [Typesetting tables with LaTeX](https://www.tug.org/TUGboat/Articles/tb28-3/tb90hoeppner.pdf): a nice (and short) article covering the basics as well as the above four packages.
-
-

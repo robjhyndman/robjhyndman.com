@@ -8,7 +8,6 @@ categories:
 - ISF2017
 ---
 
-
 We know Australia is a long way to come for many forecasters, so we are making it easy for you to bring your families along to the [International Symposium on Forecasting](http://forecasters.org/isf) and have a vacation at the same time.
 
 During the [International Symposium on Forecasting](http://forecasters.org/isf), there will be a social program organized for family and friends.<!-- more -->

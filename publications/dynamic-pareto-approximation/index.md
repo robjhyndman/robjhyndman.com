@@ -14,5 +14,4 @@ doi: 10.1007/s10898-016-0420-x
 file: dynamic-algorithm-selection.pdf
 ---
 
-
 This paper presents a meta-algorithm for approximating the Pareto optimal set of costly black-box multiobjective optimization problems given a limited number of objective function evaluations. The key idea is to switch among different algorithms during the optimization search based on the predicted performance of each algorithm at the time. Algorithm performance is modeled using a machine learning technique based on the available information. The predicted best algorithm is then selected to run for a limited number of evaluations. The proposed approach is tested on several benchmark problems and the results are compared against those obtained using any one of the candidate algorithms alone.

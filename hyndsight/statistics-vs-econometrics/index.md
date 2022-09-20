@@ -14,9 +14,7 @@ I am a statistician, but I have worked in a department of predominantly economet
 Last week at my research group meeting, I spoke about some of the differences I have noticed. Coincidentally, Andrew Gelman [blogged about the same issue](http://andrewgelman.com/2014/07/18/differences-econometrics-statistics-varying-treatment-effects-utilities-economists-seem-like-models-fixed-stone-statisticians-tend-comfortable-w/) a day later.<!-- more -->
 
 
-
 ### Theory-driven or data-driven
-
 
 
 Econometrics is often “theory driven” while statistics tends to be “data driven”. I discovered this in the interview for my current job when someone criticized my research for being “data driven” and asked me to respond. I was confused because I thought statistical research _should_ be driven by data analytic issues, not by some pre-conceived theory, but that was not the perspective of the people interviewing me. (Fortunately, I was hired anyway.) Typically, econometricians test theory using data, but often do little if any exploratory data analysis. On the other hand, I tend to build models after looking at data sets. I think this distinction also extends to many other areas where statistics is applied.
@@ -26,9 +24,7 @@ As a result of this distinction, econometricians do a lot of hypothesis testing 
 Probably because of the emphasis that econometricians place on their theoretical models, they tend to fall in love with them and even seem to believe they are true. This is evident by the phrase “data generating process” (or its acronym DGP) that econometricians commonly use to describe a statistical model. I never think of my models as data generating processes. The data come from some real world, complicated, messy, nonlinear, nonstationary, nonGaussian process. At best, my model is a crude approximation. I often cite Box’s maxim that “All models are wrong, but some are useful”, and while my colleagues would agree in principle, they still behave as if their models are the true data generating processes.
 
 
-
 ### Expertise and ignorance
-
 
 
 When I first joined an econometrics department, I was struck by how much everyone knew about time series and regression, and how little they knew about a lot of other topics. There are vast areas of statistics that econometricians typically know little about including survey sampling, discriminant analysis, clustering, and the design of experiments. My training was much broader but in some ways shallower. There were standard undergraduate topics in econometrics that I knew nothing about — cointegration, endogeneity, ARCH/GARCH models, seemingly unrelated regression, the generalized methods of moments, and so on.
@@ -38,9 +34,7 @@ Because of the nature of economic data, econometricians have developed some spec
 For some reason, econometricians have never really taken on the benefits of the generalized linear modelling framework. So you are more likely to see an econometrician use a probit model than a logistic regression, for example. Probit models tended to go out of fashion in statistics after the GLM revolution prompted by [Nelder and Wedderburn (1972)](http://dx.doi.org/10.2307%2F2344614).
 
 
-
 ### Confusing terminology
-
 
 
 The two communities have developed their own sets of terminology that can be confusing. Sometimes they have different terms for the same concept; for example, “longitudinal data” in statistics is “panel data” in econometrics; “survival analysis” in statistics is “duration modelling” in microeconometrics.
@@ -48,9 +42,7 @@ The two communities have developed their own sets of terminology that can be con
 In other areas, they use the same term for different concepts. For example, a “robust” estimator in statistics is one that is insensitive to outliers, whereas a “robust” estimator in econometrics is insensitive to heteroskedasticity and autocorrelation. A “fixed effect” in statistics is a non-random regression term, while a “fixed effect” in econometrics means that the coefficients in a regression model are time-invariant. This obviously has the potential for great confusion, which is evident in the Wikipedia articles on [fixed effects](http://en.wikipedia.org/wiki/Fixed_effects) and [robust regression](http://en.wikipedia.org/wiki/Robust_regression).
 
 
-
 ### Avoid silos
-
 
 
 I’ve stayed in a (mostly) econometrics department for so long because it is a great place to work, full of very nice people, and is much better funded than most statistics departments. I’ve also learned a lot, and I think the department has benefited from having a broader statistical influence than if they had only employed econometricians.
@@ -60,9 +52,7 @@ I would encourage econometricians to read outside the econometrics literature so
 I would encourage statisticians to keep abreast of methodological developments in econometrics. A good place to start is [Hayashi's graduate textbook _Econometrics_](http://amzn.com/dp/0691010188/?tag=otexts-20) which we use at Monash for our PhD students.
 
 
-
 ### The gap is closing
-
 
 
 One thing I have noticed in the last seventeen years is that the two communities are not so far apart as they once were. Nonparametric methods were once hardly mentioned in econometrics (too “data-driven”), and now the main econometrics journals are full of nonparametric asymptotics. There are special issues of statistical journals dedicated to econometrics (e.g., CSDA has regular special issues dedicated to computational econometrics).
@@ -70,9 +60,7 @@ One thing I have noticed in the last seventeen years is that the two communities
 Just as US television has made the Australian culture rather less distinctive than it once was, statistical ideas are infiltrating econometrics, and vice-versa. But until I hear a research seminar on Visualization of Macroeconomic Data, I don't think I will ever feel entirely at home.
 
 
-
 * * *
-
 
 
 Some of these thoughts were prompted by [this discussion on crossvalidated.com](http://stats.stackexchange.com/q/27662/159).

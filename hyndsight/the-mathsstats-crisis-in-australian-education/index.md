@@ -11,5 +11,4 @@ There is a [great article](http://www.theaustralian.com.au/higher-education/opin
 
 The most interesting comment is the last paragraph:
 
-
 >For a nation in the grip of a serious skills shortage in mathematics and statistics, another review is not needed. Action is needed. It should be possible to drive university behaviour in the national interest by foreshadowing that the Government's proposed compacts will include a requirement that mathematics and statistics curriculums be offered in science and technology, education, business and economics courses across the country, taught by professionals in mathematics and statistics.

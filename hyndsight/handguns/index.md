@@ -7,7 +7,6 @@ categories:
 - statistics
 ---
 
-
 My new paper [(Studdert et al, 2017)](https://robjhyndman.com/publications/handguns/) on "Handgun acquisitions in California after two mass shootings" has been attracting some press.  Here are some of the news items I've found:<!--more-->
 
   * [CBC](http://www.cbc.ca/news/world/gun-control-us-nra-trump-1.4095837)
@@ -27,4 +26,3 @@ My new paper [(Studdert et al, 2017)](https://robjhyndman.com/publications/handg
   * [Stanford Medicine](http://med.stanford.edu/news/all-news/2017/05/california-handgun-sales-spiked-after-two-mass-shootings.html)
   * [Stanford Scope](http://scopeblog.stanford.edu/2017/05/01/research-shows-that-handgun-sales-spiked-in-california-after-two-mass-shootings/)
   * [USNews](http://health.usnews.com/health-care/articles/2017-05-01/california-handgun-sales-spiked-after-2-mass-shootings)
-

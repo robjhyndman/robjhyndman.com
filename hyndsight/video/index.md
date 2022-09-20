@@ -12,7 +12,6 @@ There are some nice online videos available on various aspects of statistics and
 
 A search on YouTube will lead to a few fairly basic videos.
 
-
  * [Statistics playlists](http://www.youtube.com/results?search_type=search_playlists&search_query=statistics)
  * [Mathematics playlists](http://www.youtube.com/results?search_type=search_playlists&search_query=mathematics)
 
@@ -22,7 +21,7 @@ Something similar is offered at [iTunesU](http://deimos3.apple.com/indigo/main/m
 
 But the best stuff is on [Academic Earth](http://academicearth.org). For example,
 
-	
+
   * [Linear Algebra](http://academicearth.org/courses/linear-algebra)
   * [Machine learning](http://academicearth.org/courses/machine-learning)
   * [Statistical estimation](http://academicearth.org/lectures/statistical-estimation)

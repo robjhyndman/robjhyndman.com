@@ -30,7 +30,6 @@ Workshop to be held on 23-25 September 2014.
 
 **Requirements:** a laptop with R installed, along with the [fpp package](http://cran.rstudio.com/package=fpp) and its dependencies. We will also use the [hts](http://cran.rstudio.com/package=hts) and [vars](http://cran.rstudio.com/package=vars) package on the third day.
 
-
 ### Textbook
 
 [![](/img/fppcover.jpg)
@@ -39,9 +38,7 @@ Hyndman and Athanasopoulos (2014)
 
 [_Forecasting: principles and practice_, OTexts: Melbourne, Australia](http://otexts.com/fpp).
 
-
 ### Program
-
 
   1. Introduction to forecasting [[Slides](/uwafiles/1-Intro.pdf), [R code](/uwafiles/Class1.R), [Lab solutions](/uwafiles/exercises1.R)]
   2. Forecasting tools [[Slides](/uwafiles/2-Toolbox.pdf), [R code](/uwafiles/Class2.R), [Lab solutions](/uwafiles/exercises2.R)]

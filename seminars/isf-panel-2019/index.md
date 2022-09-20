@@ -18,7 +18,6 @@ link: https://github.com/robjhyndman/ISF_Panel_2019/raw/master/Hyndman_ISF_2019_
  * Esther Ruiz. Catedrático de Universidad, Universidad Carlos III de Madrid
  * Rob Hyndman.  Professor of Statistics, Monash University
 
-
 ### Brief:
 
 The Institute and the two journals dedicated to forecasting (*International Journal of Forecasting*, *Journal of Forecasting*) were set up starting in 1981 to act as a central focus for research into all the wide variety of methods and forecasting practice. The proposed audience for the journals aimed to include practitioners, users and researchers in the social, behavioural, management and engineering sciences. The underlying philosophy was to be truly Interdisciplinary and to bridge the gap between theory and practice. Areas identified as important included:

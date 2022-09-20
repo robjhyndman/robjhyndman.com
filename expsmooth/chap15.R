@@ -139,7 +139,6 @@ simulate.mnn = function(n,alpha,ilev,error,param,case=NA)
 }
 
 
-
 ## AMN
 set.seed(8)
 alpha = 0.1
@@ -158,12 +157,10 @@ for(i in 1:100)
         l[i+1] <- 3e-4
 }
 
-
 par(mfrow=c(3,1))
 plot(ts(c(NA,y),s=0),xlim=c(0,9.6),ylim=c(-500,500),ylab="y")
 plot(ts(l[1:11],s=0),xlim=c(0,9.6),ylim=c(-1,1),ylab="ell");abline(0,0,lty=3)
 plot(ts(b,s=0),ylab="b",xlim=c(0,9.6))
-
 
 
 # MNN Model, whose sample paths converge to zero with normal and non-normal errors
@@ -175,7 +172,6 @@ par(mfrow=c(3,1))
 set.seed(4);y <- simulate.ets(mod, 2000, initstate=10, bootstrap=FALSE); plot(y,)
 y <- simulate.ets(mod, 2000, initstate=10, bootstrap=FALSE); plot(y)
 y <- simulate.ets(mod, 2000, initstate=10, bootstrap=FALSE); plot(y)
-
 
 # LOG NORMAL
 set.seed(100)
@@ -191,7 +187,6 @@ y4 <- simulate.mnn(n,alpha,1,"lognormal",c(-cc*1.5,w),case)$y
 y5 <- simulate.mnn(n,alpha,1,"lognormal",c(-2*cc,w),case)$y
 y6 <- simulate.mnn(n,alpha,1,"lognormal",c(-3*w/5,w),case)$y
 
-
 par(mfrow=c(3,2))
 plot(y1,ylab="(a)",xlab="t")
 plot(y2,ylab="(b)",xlab="t")
@@ -200,11 +195,9 @@ plot(y4,ylab="(d)",xlab="t")
 plot(y5,ylab="(e)",xlab="t")
 plot(y6,ylab="(f)",xlab="t")
 
-
 #Freight
 
 plot(ts(c(M3$N0193$x,M3$N0193$xx),s=1947),xlab="Year",ylab="New freight cars")
-
 
 ## JEWELRY DATA
 yy=jewelry
@@ -245,7 +238,6 @@ for(j in 1:NS)
     mape3[j]=ss3$mape
 }
 
-
 ## Plotting MASE
 
 ul=max(mase1,mase2,mase3)
@@ -259,7 +251,6 @@ abline(h=mean(mase2),lty=2)
 abline(h=mean(mase3),lty=3)
 legend("topleft",legend=c("Model 1","Model 2","Model 3"),lty=1:3,pch=1:3,merge=FALSE)
 
-
 par(mfrow=c(3,1),mar=c(4,4,2,1))
 x1=y1=seq(ll-0.1,ul+.1,0.01)
 plot(mase1,mase3,xlim=c(ll,ul),ylim=c(ll,ul),xlab="MASE of model 1",ylab="MASE of model 3",main="")
@@ -271,4 +262,3 @@ lines(x1,y1,col="gray")
 plot(mase2,mase3,xlim=c(ll,ul),ylim=c(ll,ul),xlab="MASE of model 2",ylab="MASE of model 3",main="")
 lines(x1,y1,col="gray")
 #text(3,3,"MASE 2 = MASE 3")
-

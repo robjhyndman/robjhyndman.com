@@ -80,18 +80,15 @@
 
 \bibliography{rjhpubs,Rpackages}
 
-
 \title{Probabilistic Hierarchical Forecasting}
 \author{Rob J Hyndman}
 \date{}
-
 
 \begin{document}
 
 \begin{frame}
 \titlepage
 \end{frame}
-
 
 
 
@@ -147,7 +144,6 @@
 \end{alertblock}
 \end{frame}
 
-
 \begin{frame}{Monthly series}\vspace*{-0.5cm}
 
 \only<1>{
@@ -187,7 +183,6 @@
  };
 \end{tikzpicture}
 \end{center}}
-
 
 \only<2->{\begin{center}
 %\begin{minipage}{9.6cm}
@@ -236,14 +231,12 @@
 \end{center}}
 
 
-
 \biz
 \item $k=2,4,12$ nodes
 \item $k=3,6,12$ nodes
 \item Why not $k=2,3,4,6,12$ nodes?
 \eiz
 \end{frame}
-
 
 \begin{frame}{Monthly data}
 \fontsize{15}{15}\sf
@@ -301,7 +294,6 @@
     \vspace*{10cm}
 \end{frame}
 
-
 \begin{frame}{In general}\vspace{-.3cm}
 
 For a time series  $y_1,\dots,y_T$, observed at frequency $m$, we generate aggregate series
@@ -333,7 +325,6 @@ y_j^{\left[k\right]} = \sum^{jk}_{t=1+(j-1)k}{y_t},\qquad \text{for $j = 1,\dots
 % \item Independent of data and model.
 % \item Allows forecasts where no errors available.
 % \end{itemize}}
-
 
 % \begin{block}<1->{Quarterly example}\vspace*{-0.57cm}
 % \begin{align*}
@@ -394,7 +385,6 @@ y_j^{\left[k\right]} = \sum^{jk}_{t=1+(j-1)k}{y_t},\qquad \text{for $j = 1,\dots
 \end{frame}
 
 
-
 \begin{frame}{thief package for R}
 
 \placefig{.4}{1.2}{width=3cm}{thiefsticker}
@@ -412,7 +402,6 @@ y_j^{\left[k\right]} = \sum^{jk}_{t=1+(j-1)k}{y_t},\qquad \text{for $j = 1,\dots
   \texttt{thief(y)}
 \end{alertblock}
 \end{frame}
-
 
 \section{Probabilistic Hierarchical Forecasting}
 
@@ -434,7 +423,6 @@ Any density $p(\bm{y}_{t+h})$ is coherent if $p(\bm{y}_{t+h})=0$ for all $\bm{y}
 \end{itemize}
 
 \end{frame}
-
 
 \section{Probabilistic Gaussian Hierarchical Forecasting}
 
@@ -511,7 +499,6 @@ step ahead base forecasts generated.
 \item Process replicated 1000 times from same DGP.
 \end{itemize}
 
-
 \only<2>{\begin{block}{}\centering
 \begin{tabular}{lccc}
                        & \multicolumn{3}{c}{\bf Average Energy Score} \\
@@ -545,7 +532,6 @@ MinT(Shrink) vs MinT(Sample) &              & MinT(Shrink)\\
 
 \section{Probabilistic Nonparametric Hierarchical Forecasting}
 
-
 \begin{frame}{Coherent nonparametric forecasts}
 \begin{enumerate}
   \item Fit univariate models at each node using data up to time $T$.
@@ -557,7 +543,6 @@ MinT(Shrink) vs MinT(Sample) &              & MinT(Shrink)\\
 \end{enumerate}
 \end{frame}
 
-
 \begin{frame}{Monte-Carlo simulation}
 \fontsize{12}{14}\sf
 \begin{itemize}
@@ -566,7 +551,6 @@ MinT(Shrink) vs MinT(Sample) &              & MinT(Shrink)\\
 step ahead base forecasts generated.
 \item 5000 1-step future paths constructed for 500 replications from same DGP.
 \end{itemize}
-
 
 \only<2>{\begin{block}{}\centering
 \begin{tabular}{lccc}
@@ -607,7 +591,7 @@ For any continuous distribution $\bm{F}$ with marginals $F_1,\dots,F_d$, there e
 \centerline{$\bm{F}(x_1,\dots,x_d) = \bm{C}(F_1(x_1),\dots,F_d(x_d))$}
 \end{block}
 \begin{block}{Empirical copula}
-If $x_k^i\sim F_i$ and $\bm{u}_k=(u_k^1,\dots,u_k^d)\sim \bm{C}$, then 
+If $x_k^i\sim F_i$ and $\bm{u}_k=(u_k^1,\dots,u_k^d)\sim \bm{C}$, then
 \centerline{$\hat{F}_i(x) = \frac{1}{K} \sum_{k=1}^K \mathds{1}\{x_k^i\le x\}$}
 and empirical copula is
 \centerline{$\bm{C}(\bm{u}) = \frac1K \sum_{k=1}^K \mathds{1}\left\{
@@ -650,7 +634,7 @@ $\hat{\bm{F}}(x_1,\dots,x_d) = \hat{\bm{C}}(\hat{F}_1(x_1),dots,\hat{F}_d(x_d))$
 \begin{itemize}
   \item 1578 households from Great Britain.
   \item Half-hourly data from 20 April 2009 -- 31 July 2010.
-  \item Training data: to 30 April 2010. 
+  \item Training data: to 30 April 2010.
   \item Forecasting 48 periods ahead (one day).
   \item Geographical hierarchy with five levels.
 \end{itemize}
@@ -671,7 +655,6 @@ $\hat{\bm{F}}(x_1,\dots,x_d) = \hat{\bm{C}}(\hat{F}_1(x_1),dots,\hat{F}_d(x_d))$
 \end{textblock}
 \end{frame}
 
-
 \begin{frame}{Application: Smart Meter Data}
 \fullwidth{demand-bylevel}
 \end{frame}
@@ -686,7 +669,6 @@ One week of demand at different levels of aggregation.
 \end{frame}
 
 
-
 \begin{frame}{Application: Smart Meter Data}
 
 \begin{itemize}
@@ -696,7 +678,6 @@ One week of demand at different levels of aggregation.
   \item Decay and bandwidth chosen to minimize CRPS
 \end{itemize}
 \end{frame}
-
 
 \begin{frame}{Application: Smart Meter Data}
 \centerline{\includegraphics[width=12cm]{PLOT_forecasts_example}}
@@ -718,7 +699,6 @@ One week of demand at different levels of aggregation.
 
 \end{frame}
 
-
 \begin{frame}{References}\fontsize{10}{10}\sf\vspace*{-0.2cm}
 
 \begin{itemize}\itemsep=0.1cm
@@ -738,9 +718,7 @@ One week of demand at different levels of aggregation.
 
 \end{itemize}
 
-
 \end{frame}
-
 
 
 % \begin{frame}{R packages}

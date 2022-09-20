@@ -12,7 +12,6 @@ categories:
 
 I sent this rejection letter this morning about a paper submitted to the International Journal of Forecasting.
 
-
 >Dear XXXXX.
 
 >I am writing to you regarding manuscript ????? entitled "xxxxxxxxxxxx" which you submitted to the _International Journal of Forecasting_.
@@ -25,6 +24,5 @@ I sent this rejection letter this morning about a paper submitted to the Interna
 
 >Rob Hyndman
 >(Editor-in-Chief, _International Journal of Forecasting_)
-
 
 I have written on [this issue before](https://robjhyndman.com/hyndsight/always-listen-to-reviewers/). The peer-review system requires people to donate considerable amounts of time to writing reviews. In general, they do a great job and provide helpful comments. So it really annoys me when authors treat the system as a game with the aim to get a paper accepted with minimal work, and with no interest in learning from feedback.

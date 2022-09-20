@@ -11,9 +11,7 @@ categories:
 
 I received an email today with the following comment:
 
-
 >I’m using ARIMA with Intervention detection and was planning to use your package to identify my initial ARIMA model for later iteration, however I found that sometimes the auto.arima function returns a model where AR/MA coefficients are not significant. So my question is: Is there a way to filter the search for ARIMA models that only have significant coefficients. I can remove the non-significant coefficients but I think it would be better to search for those models that only have significant coefficients.
-
 
 Statistical significance is not usually a good basis for determining whether a variable should be included in a model, despite the fact that many people who should know better use them for exactly this purpose.  Even some textbooks discuss variable selection using statistical tests, thus perpetuating bad statistical practice.
 

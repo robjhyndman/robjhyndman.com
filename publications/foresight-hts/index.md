@@ -14,7 +14,6 @@ details: <em>Foresight</em> (Fall, 2014). pp.42-48
 file: Foresight-hts-final.pdf
 ---
 
-
 This is an introduction to our approach to forecast reconciliation without using any matrices. The original research is available here:
 
   * [Hyndman, Ahmed, Athanasopoulos and Shang (CSDA, 2011)](/publications/hierarchical/)

@@ -32,7 +32,6 @@ where $e_t$ is a white noise process. In this case, it is easy to compute the un
 
 This model can be fitted using either the `Arima` function or the `rwf` function from the forecast package for R. If the `Arima` function is used, the uncertainty in $c$ is ignored, but if the `rwf` function is used, the uncertainty in $c$ is included in the prediction intervals. The difference can be seen in the following simulated example.
 
-
 ```{r, message=FALSE, cache=TRUE}
 library(forecast)
 

@@ -48,8 +48,8 @@ a {
 a:hover {text-decoration:underline;}
 
 hr {
-  border-top: 1px solid #b3cde0; 
-  margin-top:5ex; 
+  border-top: 1px solid #b3cde0;
+  margin-top:5ex;
   margin-bottom: 5ex;
   max-width: 100%;
 }
@@ -223,7 +223,6 @@ a.badge.badge-green { color: #fff;}
 .badge-white {
   background: #ffffff;
 }
-
 
 .image-left {
   float: left;

@@ -21,9 +21,7 @@ slideshare: 4L6qtbv0iUmwXE
 
 ### **International Symposium on Forecasting**
 
-
 Riverside, California
-
 
 
 
@@ -32,9 +30,6 @@ I will describe and demonstrate a new open-source R package that implements the 
 The package allows for ensemble forecasting of demand based on simulations of future sample paths of temperatures and other predictor variables. It requires the following data as inputs: half-hourly/hourly electricity demands; half-hourly/hourly temperatures at one or two locations; seasonal (e.g., quarterly) demographic and economic data; and public holiday data.
 
 Peak electricity demand forecasting is important in medium and long-term planning of electricity supply. Extreme demand often leads to supply failure with consequential business and social disruption. Forecasting extreme demand events is therefore an important problem in energy management, and this package provides a useful tool for energy companies and regulators in future planning.
-
-
-
 
 
 

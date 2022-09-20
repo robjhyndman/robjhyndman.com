@@ -11,39 +11,35 @@ categories:
 
 
 
-	
   1. Use common sense (and economic theory)
 
-	
+
   2. Avoid Type III errors (providing the right answer to the wrong question)
 
-	
+
   3. Know the context
 
-	
+
   4. Inspect the data
 
-	
+
   5. KISS (Keep It Sensibly Simple)
 
-	
+
   6. Make sure your results make sense
 
-	
+
   7. Understand the costs and benefits of data mining
 
-	
+
   8. Be prepared to compromise
 
-	
+
   9. Do not confuse statistical significance with meaningful magnitude
 
-	
-  10. Always report a sensitivity analysis
 
+  10. Always report a sensitivity analysis
 
 Although these were framed in the context of applied econometrics, they apply to any data analysis (except substitute "economic theory" for the relevant field in the first rule).
 
 The rest of [his advice](/files/Lecture21DoingAppliedEconometrics.pdf) is also well-worth reading.
-
-

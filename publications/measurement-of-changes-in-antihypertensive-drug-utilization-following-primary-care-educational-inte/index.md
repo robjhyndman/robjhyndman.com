@@ -14,7 +14,6 @@ doi: 10.1002/pds.1243
 ---
 
 
-
 **Abstract:**
 **Purpose** To measure changes in drug utilization following a national general practice education program aimed at improving prescribing for hypertension.
 
@@ -25,5 +24,3 @@ doi: 10.1002/pds.1243
 **Conclusions** A national education program aimed at GPs was successful in improving prescribing for hypertension. Lessons learned will be applied in evaluation of future NPS programs and are also applicable to analysis of other interventions aimed at influencing prescribing behaviour.
 
 **Keywords:** antihypertensives; primary care; educational interventions; time series analysis; decay; regression methods.
-
- 

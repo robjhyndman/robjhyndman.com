@@ -6,12 +6,9 @@ title: Legend of the empty tomb
 
 The resurrection of Jesus is often cited as evidence of the Bible’s inspiration, or at least of God’s existence. There is an obvious problem here — all we know about the resurrection of Jesus comes from the Bible, so it cannot be used as evidence in support of itself. But leaving that difficulty aside, let’s review what the Bible actually says about it.
 
-
 ## Harmonizing the accounts
 
-
 The resurrection accounts are notoriously difficult to harmonize. One correspondent sent the following questions to me:
-
 
 >  *Did one, two or three women come to the tomb? Was it “while it was still dark” or “just after sunrise”? Did they come to “look at the tomb” or “to anoint the body with spices”? Did they see one angel, two angels, a man dressed in white, or Jesus himself? Was it a quiet angel sitting or a loud flying angel booming like thunder and lightning? Who saw the resurrected Jesus first: Peter or Mary Magdalene? What did they do as they left the tomb — did they say “nothing to anyone” or did they run “to tell his disciples”? Was the stone rolled away in the presence of the women or before they arrived? Was Jesus on his way to Galilee by the time the women arrived, or was he in Jerusalem on the first Easter Sunday? Luke says that the disciples “stayed continually in the temple” because Jesus told them to wait in Jerusalem until they had been “clothed with power from on high” but John has the disciples returning to their fishing trade in Galilee. John’s order of appearances doesn’t square up with Paul’s. Does Jesus’ ascension take place in Bethany on the same day of his resurrection as in Luke? Or does it take place on the Mount of Olives forty days after his resurrection as in Acts?*
 
@@ -21,9 +18,7 @@ However, parallel narratives do not work like that. Instead, we would expect to 
 
 The only way four writers of the same events could come up with four such disparate accounts as the gospels is by careful collusion as to who would leave what parts out in order to create the great harmonization puzzle for future generations. Even allowing for different norms regarding historical narratives, it beggars belief that these four gospels are both accurate and reporting the same events. It is far more likely that they represent different oral traditions, or possibly the four writers added different imaginary elements to give the stories more detail and color.
 
-
 ## A growing legend
-
 
 The gospels were not written immediately after the events they claim to record. Instead they appeared between 30 and 80 years later, and were probably partly based on verbal accounts that had been recounted for a few decades.
 
@@ -97,9 +92,7 @@ Further support for this perspective can be found by looking at how the stories 
 
 It is also interesting to realise that there were resurrection accounts of other people, mentioned for example by Pliny the Elder. So the idea was circulating at the time, and appears to have been seized on by the early Christians to bolster their claims.
 
-
 ## A circular argument
-
 
 All of the arguments supporting the historicity of the resurrection assume that the gospel records are largely correct. They assume that there was a large stone rolled in front of the tomb, that a guard of soldiers was placed there, that the body went missing, that the apostles changed within weeks from being scared and in hiding to fearlessly proclaiming their belief in a risen Jesus, that there really were 500 eyewitnesses, and so on.
 
@@ -107,9 +100,7 @@ The arguments in support of the resurrection assume that these aspects of the de
 
 But why should we believe that _any_ details are correct without corroborating evidence? Especially since the gospel records contradict each other, and were written decades after the events supposedly described.
 
-
 ## Confirmation bias
-
 
 Looking back, I wonder why I held on to this argument for so long. Like many believers, I suffered from confirmation bias. I wanted to believe, and I seized on anything that looked like evidence to support my belief. Once I was finally able to assess the evidence without trying to make it fit my beliefs, I realised how weak the case for the resurrection really is.
 
@@ -118,7 +109,6 @@ It is amazing what people will believe if they want to. I have corresponded with
 Even more people believe that the Quran was miraculously revealed to the illiterate Muhammad while he sat in a cave in Arabia in the 7th century. Islamic apologists attempt to marshall “evidence” in support of their beliefs, as do Mormon apologists and evangelical Christian apologists. The beliefs come first, and then evidence to support the beliefs is sought. It gives an illusion of rational argument and scholarship, but it only convinces those who want to believe.
 
 The resurrection accounts are often approached in the same way. But the biblical records are contradictory, and evidence outside the Bible is non-existent. Without the resurrection of Jesus, Christianity loses all power — he is not coming back, there is no kingdom of God, and there is no mediator between us and God.
-
 
 [^1]: J. Wenham (2005). _Easter enigma: Are the resurrection accounts in conflict?_ Eugene, OR, USA: Wipf & Stock Pub.
 

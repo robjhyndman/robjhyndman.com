@@ -9,7 +9,6 @@ details: <em>Journal of Allergy and Clinical Immunology</em>, <b>139</b>(4), 114
 doi: 10.1016/j.jaci.2016.06.046
 ---
 
-
 **Background:** Childhood asthma is a significant public health problem and severe exacerbation can result in diminished quality of life and hospitalisation.
 
 **Objective:** To examine the contribution of outdoor fungi to childhood and adolescent asthma hospitalisations

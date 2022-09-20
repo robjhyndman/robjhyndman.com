@@ -30,9 +30,7 @@ I've used functions like this several times including in [Hyndman & Grunwald (20
 One simple special case is the square root where $\lambda_2=0$ and $\lambda_1=0.5$. This works fine with zeros (although not with negative values). However, often the square root is not a strong enough transformation to deal with the high levels of skewness seen in real data.
 
 
-
 ### Inverse hyperbolic sine (IHS) transformation
-
 
 
 An alternative transformation family was proposed by <a href="http://biomet.oxfordjournals.org/cgi/reprint/36/1-2/149">Johnson (1949)</a> and is defined by
@@ -42,9 +40,7 @@ where $\theta > 0$. For any value of $\theta$, zero maps to zero. There is also 
 The IHS transformation works with data defined on the whole real line including negative values and zeros. For large values of $y$ it behaves like a log transformation, regardless of the value of $\theta$ (except 0). As $\theta\rightarrow0$, $f(y,\theta)\rightarrow y$.
 
 
-
 ### Mixture models
-
 
 
 For continuous data, there can be a discrete spike at zero which can be associated with the sensitivity of the measurements. For example in wind energy, wind below 2m/s is often recorded as zero and the distribution of wind energy produced is continuous with a spike at zero.

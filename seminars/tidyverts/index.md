@@ -7,5 +7,4 @@ link: https://github.com/robjhyndman/tidyverts-talk/raw/master/tidyverts.pdf
 ---
 
 
-
 **[tidyverts R packages](https://tidyverts.org)**

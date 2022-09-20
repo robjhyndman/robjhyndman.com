@@ -25,17 +25,13 @@ This makes me suspicious. The papers were _very_ similar. Did a reviewer read t
 
 
 
-	
   1. Write to the journal pointing out that your paper was written four months before the other one, was publicly accessible, and wasn't even cited.
 
-	
+
   2. Write to the other author pointing out that he has ignored your earlier work, and request that he cite it and include a paragraph explaining how his approach is different.
 
-	
+
   3. If you get asked to review his paper, you can be more insistent that he acknowledge priority.
 
-	
+
   4. If his paper gets published somewhere without acknowledgement of your work, you could write a letter to the editor pointing out the omission.
-
-
-

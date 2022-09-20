@@ -33,7 +33,6 @@ In my research group meeting today, we discussed our (limited) experiences in co
 
   * Competitions are great for advancing knowledge of what works, but they do not lead to data scientists being well paid as many people compete but few are rewarded.
 
-
   * The IJF likes to publish papers from winners of prediction competitions because of the extensive empirical evaluation provided by the competition. However, a condition of publication is that the code and methods are fully revealed, and winners are not always happy to comply.
 
   * The IJF will only publish competition results if they present new information about prediction methods, or tackle new prediction problems, or measure predictive accuracy in new ways. Just running another competition like the previous ones is not enough. It still has to involve genuine research results.
@@ -43,4 +42,3 @@ In my research group meeting today, we discussed our (limited) experiences in co
   * A nice side effect of some competitions is that they create a benchmark data set with well tested benchmark methods. This has worked well for the M3 data, for example, and new time series forecasting algorithms can be easily tested against these published results. However, over-study of a single benchmark data set means that methods are probably over-fitting to the published test data. Therefore, a wider range of benchmarks is desirable.
 
   * Prediction competitions are a fun way to hone your skills in forecasting and prediction, and every student in this field is encouraged to compete in a few competitions. I can guarantee you will learn a great deal about the challenges of predicting real data --- something you don't always learn in classes or via textbooks.
-

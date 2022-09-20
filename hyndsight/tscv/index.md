@@ -13,9 +13,7 @@ categories:
 I've added a couple of new functions to the [forecast package for R](https://github.com/robjhyndman/forecast) which implement two types of cross-validation for time series.<!-- more -->
 
 
-
 ### K-fold cross-validation for autoregression
-
 
 
 The first is regular k-fold cross-validation for autoregressive models. Although cross-validation is sometimes not valid for time series models, it does work for autoregressions, which includes many machine learning approaches to time series. The theoretical background is provided in [Bergmeir, Hyndman and Koo (2015)](/publications/cv-time-series). So cross-validation can be applied to any model where the predictors are lagged values of the response variable.
@@ -23,18 +21,15 @@ The first is regular k-fold cross-validation for autoregressive models. Although
 This is implemented for NNAR models (neural network autoregressions) in R as follows:
 
 
-    
-    
+
     modelcv <- CVar(lynx, k=5, lambda=0.15)
     print(modelcv)
-    
 
 
 
 The output is a summary of the accuracy across folds:
 
 
-    
     5-fold cross-validation
                       Mean          SD
     ME        -32.88142801  98.0725227
@@ -44,16 +39,13 @@ The output is a summary of the accuracy across folds:
     MAPE       53.99760978  12.7264054
     ACF1        0.04842174   0.1480883
     Theil's U   0.82984737   0.1487229
-    
 
 
 
 The `CVar` function is rather limited at this stage, and will only handle cross-validation for models computed using `nnetar`. If there is enough interest, I might add more functionality at a later stage.
 
 
-
 ### Time series cross-validation
-
 
 
 In this procedure, there is a series of test sets, each consisting of a single observation. The corresponding training set consists only of observations that occurred _prior_ to the observation that forms the test set. Thus, no future observations can be used in constructing the forecast. The following diagram illustrates the series of training and test sets, where the blue observations form the training sets, and the red observations form the test sets.
@@ -69,15 +61,13 @@ With time series forecasting, one-step forecasts may not be as relevant as multi
 Time series cross validation is implemented with the `tsCV` function. In the following example, we compare the residual RMSE with the RMSE obtained via time series cross-validation.
 
 
-    
-    
+
     library(fpp)
     e <- tsCV(dj, rwf, drift=TRUE, h=1)
     sqrt(mean(e^2, na.rm=TRUE))
     ## [1] 22.68249
     sqrt(mean(residuals(rwf(dj, drift=TRUE))^2, na.rm=TRUE))
     ## [1] 22.49681
-    
 
 
 

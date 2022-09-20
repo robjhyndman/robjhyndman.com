@@ -23,7 +23,6 @@ The only reasonable approach is to first check that there are enough observation
 
 What tends to happen with short series is that the AIC suggests very simple models because anything with more than one or two parameters will produce poor forecasts due to the estimation error.  I applied the `auto.arima()` function from the **forecast** package in R to all the series from the M-competition with fewer than 20 observations. There were a total of 144 series, of which 32 had models with zero parameters (random walks), 95 had models with one parameter, 15 had models with two parameters and 2 series had models with three parameters. For what it's worth, here is the code.
 
-
 ```
 library(Mcomp)
 
@@ -40,5 +39,3 @@ table(nparam)
 ```
 
 Seasonal models bring their own difficulties because the seasonality usually takes up $m-1$ degrees of freedom where $m$ is the seasonal period (e.g., $m=12$ for monthly data). [Fourier terms](/hyndsight/longseasonality/) are one way to reduce the problem --- useful whenever the ratio of $m$ to sample size is large. Further comments on seasonality and sample size are in my short _Foresight_ paper with Andrey Kostenko: ["Minimum sample size requirements for seasonal forecasting models"](/papers/shortseasonal.pdf), although I wrote that for a statistically unsophisticated audience, so there is no mention of the LASSO or AIC as possible solutions.
-
-

@@ -19,19 +19,13 @@ Though June sounds far away, planning for the conference is well underway! If yo
 
 
 
-
-
   * Title of workshop
-
 
   * Duration – 1/2 or full day
 
-
   * A brief synopsis (about 1/2 page).
 
-
   * Any additional details pertaining to your workshop, which will assist us in the review process.
-
 
 
 Proposals should be sent by email to [pamstroud@forecasters.org](mailto:pamstroud@forecasters.org).

@@ -220,7 +220,6 @@ For the Australian tourism data (from `tourism`):
 
 ### Lab Session 18
 
-
 Repeat the daily electricity example, but instead of using a quadratic function of temperature, use a piecewise linear function with the "knot" around 20 degrees Celsius (use predictors `Temperature` & `Temp2`). How can you optimize the choice of knot?
 
 The data can be created as follows.

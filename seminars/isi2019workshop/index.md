@@ -60,7 +60,6 @@ install.packages("fable", repos = "https://tidyverts.org")
  * Find what combination of `Region` and `Purpose` had the maximum number of overnight trips on average.
  * Create a new tsibble which combines the Purposes and Regions, and just has total trips by State.
 
-
 ### Lab Session 2
 
 - Create time plots of the following time series: `Beer` from `aus_production`, `Lynx` from `pelt`, `Close` from `gafa_stock`
@@ -95,12 +94,10 @@ What happens as you change `season(window = ???)` and `trend(window = ???)`?
  * Use ``GGally::ggpairs()`` to look at the relationships between the STL-based features. You might wish to change `seasonal_peak_year` and `seasonal_trough_year` to factors.
  * Which is the peak quarter for holidays in each state?
 
-
 ### Lab Session 6
 
 * Use a feature-based approach to look for outlying series in `PBS`.
 * What is unusual about these series?
-
 
 ### Lab Session 7
 

@@ -17,7 +17,6 @@ details: "<em>IEEE Transactions on Power Systems</em> <b>25</b>(2), 1142-1153"
 doi: 10.1109/TPWRS.2009.2036017
 ---
 
-
 **Abstract:** Long-term electricity demand forecasting plays an important role in planning for future generation facilities and transmission augmentation. In a long term context, planners must adopt a probabilistic view of potential peak demand levels, therefore density forecasts (providing estimates of the full probability distributions of the possible future values of the demand) are more helpful than point forecasts, and are necessary for utilities to evaluate and hedge the financial risk accrued by demand variability and forecasting uncertainty. This paper proposes a new methodology to forecast the density of long-term peak electricity demand.
 
 Peak electricity demand in a given season is subject to a range of uncertainties, including underlying population growth, changing technology, economic conditions, prevailing weather conditions (and the timing of those conditions), as well as the general randomness inherent in individual usage. It is also subject to some known calendar effects due to the time of day, day of week, time of year, and public holidays.

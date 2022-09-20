@@ -5,7 +5,6 @@ title: 'Forecasting: methods and applications'
 
 <img src='fma.jpg' width=40%>
 
-
 This book was published in 1998, and for nearly 20 years I maintained an associated website at this address.
 
 The data sets from the book can be found in the [**fma** package for R](http://pkg.robjhyndman.com/fma/).

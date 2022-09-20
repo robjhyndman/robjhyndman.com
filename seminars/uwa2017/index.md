@@ -12,9 +12,7 @@ date: 2017-09-26
 **Date**: 26-28 September 2017<br>
 **Location**: [The University Club](http://www.uwa.edu.au/contact/map?id=2161), University of Western Australia
 
-
 This page is for people enrolled in my UWA 3-day workshop.
-
 
 ## Prerequisites
 
@@ -127,7 +125,6 @@ Participants will be assumed to be familiar with basic statistical tools such as
   <td><a href="/uwa2017/2-5-SeasonalARIMA.pdf" target="_new">Slides</a></td>
 </tr>
 </table>
-
 
 ### Thursday 28 September
 

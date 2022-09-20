@@ -16,7 +16,6 @@ doi: 10.1080/09603120500289192
 ---
 
 
-
 **Abstract:**
 **Study objective:** The objective of this study is to demonstrate the methodological shortcomings of currently available analytical methods for single-city time series data, one of the most commonly used ecological study designs in air pollution and respiratory disease research.
 

@@ -18,19 +18,15 @@ Essential criteria:
 
 
 
-    
   * degree in statistics, economics, or a related field
 
-    
+
   * postgraduate degree qualification
 
-    
-  * ability to commit to a two-year assignment
 
+  * ability to commit to a two-year assignment
 
 
 Application is via the [online application form](https://jobs.odi.org.uk/VacancyInformation.aspx?VId=24469).
 
 Read some [first-hand experiences of current and former Fellows.](http://www.odi.org/fellowship-scheme/experiences)
-
-

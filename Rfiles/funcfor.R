@@ -39,7 +39,6 @@ lines(frmort.fcast,series="lower",years=years,transform=FALSE,lty=1:2,col=1,max.
 legend(0,0.43,legend=paste(years),lty=1:2,cex=0.7)
 rm(years)
 
-
 ##############################
 #### AUSTRALIAN FERTILITY ####
 ##############################

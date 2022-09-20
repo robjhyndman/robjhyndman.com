@@ -9,7 +9,6 @@ categories:
 - writing
 ---
 
-
 This poem was written by [David Goddard](https://research.monash.edu/en/persons/david-goddard) from the Monash University Department of Epidemiology and Preventive Medicine. It is reproduced here with his permission. The poem won the inaugural Monash University [poetry competition](https://www.monash.edu/news/show/teaching-and-learning-is-viewed-through-a-creative-lens) and [will soon be published](https://www.monash.edu/news/show/monash-poem-accepted-in-international-anthology) in an anthology of contemporary poetry.
 
 ![](/files/davidgoodard.jpg)
@@ -18,10 +17,7 @@ For those who like this sort of thing (as I do), there is a nice collection of [
 
 
 
-
-
 ### Standard error
-
 
 
 David Gordon Goddard

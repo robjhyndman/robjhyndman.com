@@ -16,16 +16,10 @@ In mathematics, people calculate [Erdős numbers](https://en.wikipedia.org/wiki/
 
 
 
-    
   * via Peter Brockwell / Kai-Lai Chung / Paul Erdös
 
-    
+
   * via J. Keith Ord / Peter C Fishburn / Paul Erdös
 
 
-
 It seems appropriate that we should compute Hall numbers in statistics. Mine is 1, as I was lucky enough to have coauthored [two papers with Peter Hall](https://robjhyndman.com/?s=peter+hall). You can [compute your own Hall number here](http://www.ams.org/mathscinet/collaborationDistance.html?group_source=190188). Just put your own surname in the second author field.
-
-
-
-

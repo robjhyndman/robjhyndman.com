@@ -11,20 +11,18 @@ Suppose you want a function to fit a neural network. What's the best way to find
 
 First, use `help.search("neural")` or the shorthand `??neural`. This will search the help files of installed packages for the word "neural". Actually, fuzzy matching is used so it returns pages that have words similar to "neural" such as "natural". For a stricter search, use `help.search("neural",agrep=FALSE)`. The following results were returned for me (using the stricter search).
 
-    
+
     nnet::nnetHess             Evaluates Hessian for a Neural Network
     nnet::nnet                 Fit Neural Networks
     nnet::predict.nnet         Predict New Examples by a Trained Neural Net
     tseries::terasvirta.test   Teraesvirta Neural Network Test for Nonlinearity
     tseries::white.test        White Neural Network Test for Nonlinearity
 
-
 If you want to look through packages that you have not necessarily installed, you could try using the `findFn` function in the [`sos`](http://cran.r-project.org/web/packages/sos) package. This function searches the help pages of packages covered by the RSiteSearch archives (which includes all packages on CRAN). For example
 
-    
+
     require("sos")
     findFn("neural")
-
 
 returns 206 matches (on 13 September 2009) from over 60 packages. These are ordered based on a relevance score, so the top few packages on the list are probably the most useful. (There's a good discussion of `findFn` [here](http://cran.r-project.org/web/packages/sos/vignettes/sos.pdf).)
 

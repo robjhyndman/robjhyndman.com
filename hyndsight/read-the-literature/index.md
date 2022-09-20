@@ -14,5 +14,3 @@ I've just finished another reviewer report for a journal, and yet again I've had
 The paper I reviewed today did not cite a single reference from either of the two most active research groups in the area in the last ten years. Any search on the topic would have turned up about a dozen papers from these two groups alone.
 
 I don't mind if papers miss a reference or two, especially if they have been published in an obscure outlet. But I will recommend a straight reject if a paper hasn't cited any of the most important papers from the last five years. Part of a researcher's task is to engage with what has already been done, and show how any new ideas differ from or extend on previous work.
-
-

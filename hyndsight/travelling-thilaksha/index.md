@@ -10,7 +10,6 @@ categories:
 - research team
 ---
 
-
 One of my PhD students, Thilaksha Tharanganie, has been very successful in getting travel funding to attend conferences. She was the subject of a write-up in today's [Monash News](https://www.monash.edu/news/articles/phd-student-scoops-international-travel-awards
 ).
 

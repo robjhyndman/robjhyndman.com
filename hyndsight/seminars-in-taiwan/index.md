@@ -17,9 +17,7 @@ categories:
 I'm currently visiting Taiwan and I'm giving two seminars while I'm here --- one at the National Tsing Hua University in Hsinchu, and the other at Academia Sinica in Taipei. Details are below for those who might be nearby.<!-- more -->
 
 
-
 ## Automatic Time Series Forecasting
-
 
 
 College of Technology Management, [Institute of Service Science](http://www.iss.nthu.edu.tw/),
@@ -31,10 +29,7 @@ I will describe some algorithms for automatically forecasting univariate time se
 
 
 
-
-
 ## Visualizing and Forecasting Hierarchical and Grouped Time Series
-
 
 
 [Institute of Statistical Science, Academia Sinica](http://www.stat.sinica.edu.tw/statnewsite/seminar/show/1986/)
@@ -49,5 +44,3 @@ The first problem with handling such large numbers of time series is how to prod
 The second problem is that the disaggregated forecasts need to add up to the forecasts of the aggregated data. This is known as reconciliation. I will show that the optimal reconciliation method involves fitting an ill-conditioned linear regression model where the design matrix has one column for each of the series at the most disaggregated level. For problems involving huge numbers of series, the model is impossible to estimate using standard regression algorithms. I will also discuss some fast algorithms for implementing this model that make it practicable for implementing in business contexts.
 
 [[Download poster](http://www.stat.sinica.edu.tw/statnewsite/seminar/download/1986/)]
-
-

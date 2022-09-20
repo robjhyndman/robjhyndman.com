@@ -15,9 +15,7 @@ Here he is on YouTube with a longer comment:
   </iframe><br>
 </div>
 
-
 **Statistics - Dream Job of the next decade**
-
 
 
 From a keynote presentation to the 2008 Almaden Institute -  "Innovating with Information".

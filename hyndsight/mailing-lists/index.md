@@ -13,10 +13,7 @@ For those in Australia and New Zealand, there are two local lists that every sta
 
 
 
-	
   * Australia and New Zealand statistics: [ANZstat](http://www.maths.uq.edu.au/research/research_centres/anzstat/).
 
-	
+
   * Australia and New Zealand econometrics: [ANZecmet](http://groups.google.com/group/anzecmet/about)
-
-

@@ -39,7 +39,6 @@ $$
 $$
 In this way, we can iteratively simulate a future sample path. By repeatedly simulating sample paths, we build up knowledge of the distribution for all future values based on the fitted neural network. Here is a simulation of 9 possible future sample paths for the lynx data. Each sample path covers the next 20 years after the observed data.
 
-
 ```{r, message=FALSE}
 sim <- ts(matrix(0, nrow=20, ncol=9), start=end(lynx)[1]+1)
 for(i in seq(9))
@@ -57,4 +56,3 @@ autoplot(fcast)
 ```
 
 Because it is a little slow, `PI=FALSE` is the default, so prediction intervals are not computed unless requested. The `npaths` argument in `forecast.nnetar` controls how many simulations are done (default 1000). By default, the errors are drawn from a normal distribution. The `bootstrap` argument allows the errors to be "bootstrapped" (i.e., randomly drawn from the historical errors).
-

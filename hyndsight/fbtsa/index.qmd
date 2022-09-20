@@ -45,7 +45,6 @@ tourism %>% features(Trips, list(coef_hurst, feat_spectral))
 
 There are also functions which produce collections of features based on tags. For example, `feature_set(tags="acf")` will produce 7 features based on various autocorrelation coefficients, while `feature_set(tags="stl")` produces 7 features based on an STL decomposition of a time series, including the strength of seasonality mentioned above.
 
-
 ```{r features}
 tourism %>% features(Trips, feature_set(tags="stl"))
 ```
@@ -170,7 +169,6 @@ hwl_pca %>%
 ```
 
 A useful plot for identifying the outlying observations is an HDR scatterplot which highlights regions of high density, and identifies outliers as those observations in low density regions. The red dots are the 1% highest density observations, the orange dots are in the 50% region, the yellow dots are in the 99% regions, while those shown in black are the 1% most "unusual" observations (having the lowest bivariate density on this plot.) The five most outlying points are highlighted by their row numbers.
-
 
 ```{r hdrplot, dependson='yahoo_features'}
 hdrcde::hdrscatterplot(hwl_pca$.fittedPC1, hwl_pca$.fittedPC2, noutliers=5)

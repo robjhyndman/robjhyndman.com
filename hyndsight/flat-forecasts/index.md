@@ -15,15 +15,11 @@ A point forecast is (usually) the mean of the distribution of a future observati
 
 
 
-
   * A random walk model will return a flat forecast function (equal to the last observed value of the series).
-
 
   * An ETS(A,N,N) model will return a flat forecast function.
 
-
   * An iid model will return a flat forecast function (equal to the mean of the observed data).
-
 
 This is not a bug. It is telling you something about the time series -- namely that there is no trend, no seasonality, and insufficient temporal dynamics to allow the future observations to have different conditional means.
 

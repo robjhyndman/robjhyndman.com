@@ -17,20 +17,17 @@ The [same question was asked on crossvalidated.com](http://stats.stackexchange.c
 
 Yes, the "frequency" is the number of observations per "cycle" (normally a year, but sometimes a week, a day or an hour). This is the opposite of the definition of frequency in physics, or in Fourier analysis, where "period" is the length of the cycle, and "frequency" is the inverse of period. When using the `ts()` function in R, the following choices should be used.
 
-
 ```{r freqtable, echo=FALSE, cache=TRUE}
 tab <- data.frame(Data=c("Annual","Quarterly","Monthly","Weekly"),
   Frequency=c(1,4,12,52))
 knitr::kable(tab, booktabs=TRUE)
 ```
 
-
 Actually, there are not 52 weeks in a year, but 365.25/7 = `r format(365.25/7,digits=4)` on average, allowing for a leap year every fourth year. But most functions which use `ts` objects require integer frequency.
 
 If the frequency of observations is greater than once per week, then there is usually more than one way of handling the frequency. For example, data with daily observations might have a weekly seasonality (frequency=7) or an annual seasonality (frequency=365.25). Similarly, data that are observed every minute might have an hourly seasonality (frequency=60), a daily seasonality (frequency=24x60=1440), a weekly seasonality (frequency=24x60x7=10080) and an annual seasonality (frequency=24x60x365.25=525960). If you want to use a `ts` object, then you need to decide which of these is the most important.
 
 An alternative is to use a `msts` object (defined in the `forecast` package) which handles multiple seasonality time series. Then you can specify all the frequencies that might be relevant. It is also flexible enough to handle non-integer frequencies.
-
 
 ```{r freqtable2, echo=FALSE, cache=TRUE}
 require(htmlTable, quietly=TRUE)
@@ -54,18 +51,14 @@ You won't necessarily want to include all of these frequencies --- just the ones
 For example, the `taylor` data set from the `forecast` package contains half-hourly electricity demand data from England and Wales over about 3 months in 2000. It was defined as
 
 
-
     taylor <- msts(x, seasonal.periods=c(48,336)
-
 
 
 One convenient model for multiple seasonal time series is a TBATS model:
 
 
-
     taylor.fit <- tbats(taylor)
     plot(forecast(taylor.fit))
-
 
 
 (Warning: this takes a few minutes.)

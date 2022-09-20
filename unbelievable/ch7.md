@@ -12,12 +12,9 @@ After a long and uneventful journey, people often thank God for protecting them 
 
 The practice of thanking God for safety and protection, for food and drink, for health and well-being, or for any other “blessings”, might appear to be a commendable habit, but it is actually deeply troubling because of what it implies.
 
-
 ## No broken bones?
 
-
 In the Psalms, King David often encouraged an attitude of thankfulness in deliverance:
-
 
 <blockquote>3 Magnify the  with me!<br>
 Let’s praise his name together!<br>
@@ -26,9 +23,7 @@ he delivered me from all my fears.<br>
 
 (Psalm 34:3–4)</blockquote>
 
-
 He also encouraged us to believe in a protective God:
-
 
 <blockquote>17 The godly cry out and the  hears;<br>
 he saves them from all their troubles.<br>
@@ -41,30 +36,23 @@ not one of them is broken.<br>
 
 (Psalm 34:17–20)</blockquote>
 
-
 The problem is, that simply is not true. God does not save godly people from every danger, and plenty of godly people have broken bones. The Psalm was written by David after he had managed to escape from trouble when in King Abimelech’s household[^1] He was delighted to escape, attributed his deliverance to God, and wrote the psalm in response. It seems he also assumed that such deliverance was available to other people too.
 
 But in other Psalms he is not so optimistic. For example, he says
-
 
 <blockquote>“Those who anticipate my defeat attack me all day long. Indeed, many are fighting against me” (Psalm 56:2);<br>
 “My God, my God, why have you abandoned me?” (Psalm 22:1); and<br>
 “The roof of my mouth is as dry as a piece of pottery; my tongue sticks to my gums. You set me in the dust of death.” (Psalm 22:15).</blockquote>
 
-
 It might seem harmless enough to thank God for deliverance from trouble, but it carries some serious implications about the God who is believed to be in control. You see, when we thank God for protecting us from harm, we are also saying that he has not protected some other people. That somehow we are special and favoured, and that others are not. More than that, we are saying that God mysteriously (randomly?) selects some to survive, and some to suffer or die. A miraculously intervening God is also an unjust capricious God, sparing some and saving others, apparently on a whim.
 
-
 ## Reconciling the injustice
-
 
 To try to reconcile the apparent injustice, a natural reaction is to assume that those killed or suffering are greater sinners than those who survive. This is the punishment perspective and it is implied in the Psalm quoted above. It is also what Job’s friends argued, and it was widely believed in first century Israel. But the book of Job clearly says that the perspective of punishment is wrong, and Jesus also rejects it (Luke 13:1–5). Tragedy does not strike the worst sinners more often — it affects us all equally.
 
 Another attempt to resolve the issue is simply to say that God knows best. He has the bigger picture in mind, he can see into the future, and when things appear mysterious to us, we are simply incapable of understanding the mind and perspective of God. But that is not really an answer at all; it simply avoids the problem by saying it is too hard.
 
-
 ## Cruel randomness
-
 
 Besides, if God really was selecting people to protect on the basis of some bigger picture, then you would not expect the number of people who are killed in various ways to be subject to the rules of probability. However, I can predict with remarkable accuracy the road toll each year, the number of people who will be struck by lightning, the number of people who will be killed by shark attacks, and so on. Each of these causes of death has a certain rate of occurrence that is quite predictable.
 
@@ -74,14 +62,11 @@ Car accidents, diseases, and industrial accidents all follow the same probabilit
 
 If we accept that the world is random, and that bad things happen to everyone by chance, where does that leave God? Either he does not exist, or he has no power, or he does not care. Whichever of those answers you prefer, God does not deserve our thanks.
 
-
 ## Live and learn
-
 
 When we survive tragedy, it is good to be thankful, not because we have been miraculously protected but because we can learn from the experience, however unpleasant that might be.
 
 This perspective also makes a difference when our friends are suffering. If we take the punishment perspective, we end up being as comforting as Job’s friends were. If we take the “God-knows-best” perspective, we end up looking to explain the events, which is usually unhelpful, especially while pain is raw. But if we take the perspective of “stuff happens randomly”, all we can do is hug and hold, and that is almost always the best response.
-
 
 
 

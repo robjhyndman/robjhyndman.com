@@ -70,7 +70,6 @@ remove_yaml_nbsp <- function(file_contents, field) {
   return(file_contents)
 }
 
-
 clean_yaml <- function(folder) {
   # Find md and qmd files within folder
   files <- c(

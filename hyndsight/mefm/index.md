@@ -17,5 +17,3 @@ The model was first described in  [Hyndman and Fan (2010)](/publications/peak-
 The package is being released under a [GPL licence](https://www.gnu.org/copyleft/gpl.html), so anyone can use it. All we ask is that our work is properly cited.
 
 Naturally, we are not able to provide free technical support, although we welcome [bug reports](https://github.com/robjhyndman/MEFM-package/issues). We are available to undertake [paid consulting work](http://www.buseco.monash.edu.au/ebs/consulting/) in electricity forecasting.
-
-

@@ -19,9 +19,7 @@ tags:
 
 ### **Southern California Edison**
 
-
 Rosemead, California
-
 
 
 Electricity demand forecasting plays an important role in short-term load allocation and long-term planning for future generation facilities and transmission augmentation. It is a challenging problem because of the different uncertainties including underlying population growth, changing technology, economic conditions, prevailing weather conditions (and the timing of those conditions), as well as the general randomness inherent in individual usage. It is also subject to some known calendar effects due to the time of day, day of week, time of year, and public holidays. But the most challenging part is that we often want to forecast the peak demand rather than the average demand. Consequently, it is necessary to adopt a probabilistic view of potential peak demand levels in order to evaluate and hedge the financial risk accrued by demand variability and forecasting uncertainty.

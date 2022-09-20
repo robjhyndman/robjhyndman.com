@@ -15,9 +15,8 @@ I'm currently looking for a new research assistant to help (primarily) with some
 
 > * Based in Melbourne. I'd rather not communicate remotely.
 * Able to work at least 20 hours per week. Some of that can be from home if necessary, but you do need to be at Monash University (Clayton campus) at least some of the time.
-* Good R programming skills. 
+* Good R programming skills.
 * Understanding of basic linear algebra (at least generalized inverses and PCA) and statistical modelling (at least linear models and simulation). Some knowledge of time series forecasting would also be handy.
-
 
 Starting time could be immediate, or any time in the next few months.
 
@@ -29,5 +28,4 @@ I will probably also have a 2--3 year post-doc position available, starting in e
   2. evidence of your R skills;
   3. evidence of your mathematical/statistical background.
 
-I'll take expressions of interest up to 17 September. 
-
+I'll take expressions of interest up to 17 September.

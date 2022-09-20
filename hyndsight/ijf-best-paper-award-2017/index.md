@@ -15,7 +15,6 @@ We make an award every two years to the best paper(s) published in the journal. 
 
 This year, because we had introduced a [new award for energy forecasting](/hyndsight/iif-hong-award-2016/), we decided to make the winner of that award ineligible for this one. Both awards carry the same prize money and plaque.
 
-
 For 2014--2015, 14 papers nominated of which five were short-listed for the award. The five short-listed papers were:
 
  * [Graefe, A., Armstrong, J. S., Jones, R. J., & Cuzán, A. G. (2014). Combining forecasts: An application to elections. 30(1), 43--54.](http://doi.org/10.1016/j.ijforecast.2013.02.005)

@@ -17,17 +17,14 @@ But I'm now a chief investigator of an NHMRC grant and I have to meet with other
 
 
 
-	
   1. The person organizing the meeting selects some potential times and dates on [Doodle](http://www.doodle.com), and then sends an email to all participants with a link to a page where they can register their availability.
 
-	
+
   2. Each person who receives the email clicks on the link and adds their availability to each of the possible times/dates.
 
-	
-  3. The meeting organizer can then see a simple table showing when the best time for the meeting is.
 
+  3. The meeting organizer can then see a simple table showing when the best time for the meeting is.
 
 This simple procedure saves a lot of emails and phone calls trying to sort out the best time.
 
 I've since discovered some other web-services that are similar. The best of these seems to be [ScheduleOnce](http://www.scheduleonce.com/#oid=1010_3) -- I'll be using it from now on. Of course, I'd still rather not go to any meetings, but if it is really necessary, using [ScheduleOnce](http://www.scheduleonce.com/#oid=1010_3) saves some time in scheduling when the meeting should be held.
-

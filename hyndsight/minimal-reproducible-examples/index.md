@@ -11,26 +11,22 @@ categories:
 I occasionally get emails from people thinking they have found a bug in one of my R packages, and I usually have to reply asking them to provide a minimal reproducible example (MRE). This post is to provide instructions on how to create a MRE.<!-- more -->
 
 
-
 ### Bug reports on github, not email
-
 
 
 First, if you think there is a bug, please don't send me emails. Instead, use the bug-reporting facility on github. All eight of my R packages that are on CRAN have pre-release versions [on github](https://github.com/robjhyndman?tab=repositories). If you think there is a bug, just add an "issue" to the github repository and it will get looked at provided it is reproducible.
 
 
-
 ### Creating an MRE
-
 
 
 An MRE is intended to reproduce an error using the smallest amount of code. It saves package developers time in wading through messy code that is not relevant to the apparent bug.
 
 It should consist of a single R script file that can be run without error. The file should contain the following three sections:
-    
+
 <ol>
 <li> <b>Packages to be loaded</b>.
-    
+
 <li><b>The shortest amount of code that reproduces the problem</b>.
 <p>Please get rid of anything that is unnecessary.
 <p>Try to use one of the built-in datasets if possible.
@@ -41,7 +37,6 @@ It should consist of a single R script file that can be run without error. The f
 <li> <b>The output of <code>sessionInfo()</code> as a comment</b>.
 <p>Then I can immediately see what versions of packages you are using, and your R environment.</li>
 </ol>
-
 
 To check that your code is reproducible, try running it in a fresh R session.
 

@@ -14,7 +14,6 @@ categories:
 I received this email from one of my undergraduate students:
 
 
-
 >I'm writing to you asking for advice on how to start a career in Data Science. Other professions seem a bit more straight forward, in that accountants for example simply look for Internships and ways into companies from there. From my understanding, the nature of careers in data science seem to be on a project-to-project basis. I'm not sure how to get my foot stuck in the door.
 
 >I am expecting to finish degree by Semester 1 2016. In my job searching so far, I have only encountered positions which require 3+ years of previous data analysis experience and have not seen any "entry-level" data analysis positions or graduate data positions. What is the nature of entry level recruitment in this industry?
@@ -24,11 +23,9 @@ I received this email from one of my undergraduate students:
 >Regards,
 >Aran
 
-
 <!-- more -->
 
 Here is my reply.
-
 
 
 >Hi Aran. The best thing to do is go to the data science meetups and talk to people in the industry. (See this [blog post](https://robjhyndman.com/hyndsight/connect-with-local-employers/).) The Melbourne data science meetup group has about 3000 members and they run a [job board](http://www.meetup.com/Data-Science-Melbourne/messages/boards/forum/20509896).
@@ -42,7 +39,6 @@ Here is my reply.
 >Another thing that will help is having completed (or at least started) the [Coursera data science specialization](https://www.coursera.org/specializations/jhu-data-science). That will fill in some gaps in your training, especially on the computing side. (For people with computer science backgrounds, it will help fill in the statistical modelling gaps.)
 
 >Good luck!
-
 
 
 

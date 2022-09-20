@@ -18,17 +18,10 @@ In the last couple of months we have also read the following papers:
 
 
 
-
-
   * [Timmermann (2008) Elusive return predictability](http://dx.doi.org/10.1016/j.ijforecast.2007.07.008)
-
 
   * [Diebold (2013) Comparing predictive accuracy, twenty years later: A personal perspective on the use and abuse of Diebold-Mariano tests](http://www.ssc.upenn.edu/~fdiebold/papers/paper113/Diebold_DM%20Test.pdf)
 
-
   * [Gneiting and Katsfuss (2014) Probabilistic forecasting](http://dx.doi.org/10.1146/annurev-statistics-062713-085831)
 
-
   * [Makridakis and Hibon (1978) Accuracy of forecasting: an empirical investigation](http://www.jstor.org/stable/2345077)
-
-

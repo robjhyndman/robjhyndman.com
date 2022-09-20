@@ -16,10 +16,8 @@ Hadley, of course, is the developer of the wonderful [tidyverse](https://github
 
 From the course blurb:
 
-
 >This class will be a good fit for you if you have some experience programming in R already. You should have written a number of functions, and be comfortable with R’s basic data structures (vectors, matrices, arrays, lists, and data frames). You will find the course particularly useful if you’re an experienced R user looking to take the next step, or if you’re moving to R from other programming languages and you want to quickly get up to speed with R’s unique features.
 
 >On the first day, you’ll get a solid grounding in R programming techniques. We’ll start by reinforcing the foundations of your R knowledge, and then go on to cover the three main paradigms of R programming: functional programming, object oriented programming and metaprogramming. On the second day, you’ll learn how to make R packages, the key to well-documented, well-tested and easily-distributed R code. With the right tools, making a package is easy. In fact, it’s so easy that it will become your default way of organizing code.
-
 
 **[Book here](https://www.eventbrite.com/e/master-r-developer-workshop-melbourne-tickets-22546200292)**

@@ -12,7 +12,6 @@ categories:
 The editorial board of the _International Journal of Forecasting_ is going through a renewal process with several changes to the team of editors and the team of associate editors in the last few weeks.<!-- more -->
 
 
-
 ### New Editors
 
 <img src="/files/elliott.jpg" width=200>
@@ -23,7 +22,6 @@ In light of the increasing number of submissions we are handling, we have decide
 
 <img src="/files/MikeMcCracken.jpg" width=300>
 
-
 **[Michael McCracken](http://research.stlouisfed.org/econ/mccracken/)** is Assistant Vice-President of the Federal Reserve Bank of St Louis, USA. He is well-known for his research on forecast evaluation, macroeconomic forecasting and real-time data. His 2001 _Journal of Econometrics_ paper with Todd Clark on “Tests of equal forecast accuracy and encompassing for nested models” has received more than 700 citations.
 
 <img src="/files/georgek.jpg" width=200>
@@ -33,9 +31,7 @@ In light of the increasing number of submissions we are handling, we have decide
 With these appointments, the team of editors now consists of Dick van Dijk, George Kapetanios, Mike McCracken, Dilek Önkal, Esther Ruiz, and me.
 
 
-
 ### New Associate Editors
-
 
 
 In addition to these changes, we have also made some changes to the associate editor panel. Obviously we have recently lost two associate editors in Michael McCracken and Dilek Önkal who have both become editors. In addition, two more associate editors have retired.
@@ -53,5 +49,3 @@ We have appointed three new associate editors in the last few weeks: Tommaso Pro
 **[Sébastien Laurent](http://www.slaurent.net/)** is Professor of Econometrics at the Aix-Marseille University, France. His areas of expertise include GARCH models, realized volatility, jumps, correlations, and Value at Risk forecasting.
 
 It’s a pleasure to welcome them to the IJF editorial board.
-
-

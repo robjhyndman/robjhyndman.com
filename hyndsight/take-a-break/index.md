@@ -18,9 +18,7 @@ Most research tends to involve all three (and other) modes of working. There are
 
 Recently, there has been some interesting research on the value of taking a break. In a recent article on "Cognitive Benefits of Nature Interaction" in _Psychological Science_, it is reported
 
-
 >Nature, which is filled with intriguing stimuli, modestly grabs attention in a bottom-up fashion, allowing top-down directed attention abilities a chance to replenish.
-
 
 (Thanks to [Andy Hunt](http://blog.toolshed.com/2009/09/restoring-cognitive-function-cheap-and-easy.html) for the pointer.)
 In other words, spending some time in a natural environment (in a park, on the beach, climbing mountains, etc.) will help our cognitive processing abilities. The periods of concentrated effort will be more effective if you also include periods of time enjoying the natural environment.

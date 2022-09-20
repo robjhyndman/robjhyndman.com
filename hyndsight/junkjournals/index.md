@@ -9,7 +9,6 @@ categories:
 
 Today I received the following email:
 
-
 >Dear Professor,
 >
 > 1. Antarctica Journal of Mathematics
@@ -23,7 +22,6 @@ Today I received the following email:
 > Further we request you to withdraw your paper from other journals keeping in view of high page charges.
 >
 You can submit your research papers to our online journals. We also consider paper from Statistics and Computer Science.
-
 
 I wonder how many mathematicians actually live in Antarctica for them to warrant their own journal!<!-- more -->
 

@@ -19,15 +19,13 @@ The software enables me to:
 
 
 
-	
   * See all deletions, additions & changes highlighted.
 
-	
+
   * Choose to over-ride any changes that are not wanted.
 
-	
-  * Edit either file onscreen and refresh the highlighted differences.
 
+  * Edit either file onscreen and refresh the highlighted differences.
 
 I frequently use this software for R files and other text file. I sometimes use it for LaTeX files, but here there is often a problem with changes causing subsequent lines to re-wrap, thus producing apparent changes that have no effect on the final result.
 

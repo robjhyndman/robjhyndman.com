@@ -11,15 +11,12 @@ categories:
 It seems that most journals no longer do any serious copy-editing, and the standard of English is falling. Today I was reading an article from the _[European Journal of Operational Research](http://www.journals.elsevier.com/european-journal-of-operational-research/)_, which is supposedly a good OR journal (current impact factor over 2). Take this for an example from the first page of [this paper](http://dx.doi.org/10.1016/j.ejor.2010.03.026):
 
 
-
 >If the learned patterns are unstable, the learning tools would produce inconsistent concepts. To overcome this difficult situation, we employed artificial neural networks (ANNs, NNs) for helping the learning task. NNs have attracted a lot of attention form academic researchers and industrial practitioners because of the powerful flexible nonlinear modeling capability ([Balestrassi et al., 2009], [Bellini and Figa-Talamanca, 2005] and [Qi and Zhang, 2001]). It is the main reason for their popularity that the data driven tools have less restriction when applying. Learning tools with the stable training base usually have reliable performances.
-
 
 
 The paper continues in this vein for ten pages, culminating in an equally remarkable conclusion:
 
 >With the sample size growing, the shadow set contains a large number of functional, virtual data, instead of whole real data. It would possess less population representation then. Before establishing the theoretical basis, we used the trial-and-error way for the expedient explanation and concluded that the virtual data size should be 10 at most in this case.
-
 
 How did that get past the associate editor, editor, copy-editor and typesetter? Did everyone really think it was ok, or did the paper get published without any of them actually reading it properly? It sounds like something out of an automatic translation program such as [Google translate](http://translate.google.com/), although I suspect that Google translate may do rather better.
 

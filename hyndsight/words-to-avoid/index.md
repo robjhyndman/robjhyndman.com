@@ -11,33 +11,31 @@ According to [Andrew Gelman](http://www.stat.columbia.edu/~cook/movabletype/arch
 
 
 
-	
   * Note that
 
-	
+
   * Interestingly
 
-	
+
   * Obviously
 
-	
+
   * It is clear that
 
-	
+
   * It is interesting to note that
 
-	
+
   * very
 
-	
+
   * quite
 
-	
+
   * of course
 
-	
-  * Notice that
 
+  * Notice that
 
 I agree with him that all of these are overused, but that doesn't mean they should be banned.  The words "very" and "quite" are useful for conveying the strength of a statement. Similarly, "of course" and "it is clear that" are occasionally useful, although they are frequently used to cover holes in an argument or even to bolster a weak argument.
 

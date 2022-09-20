@@ -14,7 +14,6 @@ tags:
 
 #### Keynote address, International Symposium on Forecasting, June 2009.
 
-
 **Abstract**
 
 Extremely bad data, extremely poor methods and extremely difficult problems will be used as the basis of some extremely useful lessons. I will describe three cases from my consulting experience and draw some general lessons that are widely applicable.

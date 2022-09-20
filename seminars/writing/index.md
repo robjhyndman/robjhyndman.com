@@ -10,7 +10,6 @@ venue: ACEMS
 
 Researchers need to write a lot: theses, papers, reviewer reports, responses to reviewer reports, grant applications, industry reports, media releases, blog posts, and more. We will look at some of the tools available to help researchers with these writing tasks, and how to structure different types of writing depending on the audience and purpose.
 
-
 ## Slides
 
 <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://github.com/robjhyndman/Writing-seminar/raw/master/Writing.pdf" style="width:901px; height:565px;">

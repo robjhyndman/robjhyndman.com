@@ -38,9 +38,7 @@ Another problem is that a small change in the data can cause a large change in t
 In a famous paper, [Shao (1993)](http://www.jstor.org/stable/2290328) showed that leave-one-out cross validation does not lead to a consistent estimate of the model. That is, if there is a true model, then LOOCV will not always find it, even with very large sample sizes. In contrast, certain kinds of leave-k-out cross-validation, where k increases with n, will be consistent. Frankly, I don't consider this is a very important result as there is never a true model. In reality, every model is wrong, so consistency is not really an interesting property.
 
 
-
 ### Cross-validation for linear models
-
 
 
 While cross-validation can be computationally expensive in general, it is very easy and fast to compute LOOCV for linear models. A linear model can be written as
@@ -64,25 +62,19 @@ $$
 where $e_{i}$ is the residual obtained from fitting the model to all $n$ observations. See Christensen's book [Plane Answers to Complex Questions](http://www.amazon.com/gp/product/0387953612?ie=UTF8&tag=prorobjhyn-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0387953612) for a proof. Thus, it is not necessary to actually fit $n$ separate models when computing the CV statistic for linear models. This remarkable result allows cross-validation to be used while only fitting the model once to all available observations.
 
 
-
 ### Relationships with other quantities
-
 
 
 Cross-validation statistics and related quantities are widely used in statistics, although it has not always been clear that these are all connected with cross-validation.
 
 
-
 #### Jackknife
-
 
 
 A jackknife estimator is obtained by recomputing an estimate leaving out one observation at a time from the estimation sample. The $n$ estimates allow the bias and variance of the statistic to be calculated.
 
 
-
 #### Akaike's Information Criterion
-
 
 
 Akaike's Information Criterion is defined as
@@ -92,9 +84,7 @@ $$
 where ${\cal L}$ is the maximized likelihood using all available data for estimation and $p$ is the number of free parameters in the model. Asymptotically, minimizing the AIC is equivalent to minimizing the CV value. This is true for any model [(Stone 1977)](http://www.jstor.org/stable/2984877), not just linear models. It is this property that makes the AIC so useful in model selection when the purpose is prediction.
 
 
-
 #### Schwarz Bayesian Information Criterion
-
 
 
 A related measure is Schwarz's Bayesian Information Criterion:
@@ -106,23 +96,18 @@ where $n$ is the number of observations used for estimation. Because of the heav
 Many statisticians like to use BIC because it is consistent --- if there is a true underlying model, then with enough data the BIC will select that model. However, in reality there is rarely if ever a true underlying model, and even if there was a true underlying model, selecting that model will not necessarily give the best forecasts (because the parameter estimates may not be accurate).
 
 
-
 ### Cross-validation for time series
 
 
-
 When the data are not independent cross-validation becomes more difficult as leaving out an observation does not remove all the associated information due to the correlations with other observations. For time series forecasting, a cross-validation statistic is obtained as follows
-   
+
   1. Fit the model to the data $y_1,\dots,y_t$ and let $\hat{y}_{t+1}$ denote the forecast of the next observation. Then compute the error $(e_{t+1}^*=y_{t+1}-\hat{y}_{t+1})$ for the forecast observation.
   2. Repeat step 1 for $t=m,\dots,n-1$ where $m$ is the minimum number of observations needed for fitting the model.
   3. Compute the MSE from $e_{m+1}^\*,\dots,e_{n}^\*$.
 
 
 
-
-
 ### References
-
 
 
 An excellent and comprehensive recent survey of cross-validation results is [Arlot and Celisse (2010)](http://dx.doi.org/10.1214/09-SS054)

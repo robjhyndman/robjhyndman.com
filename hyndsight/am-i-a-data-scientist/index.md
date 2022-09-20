@@ -15,8 +15,6 @@ This is (roughly) what I said.<!-- more -->
 
 
 
-
-
 Statisticians seem to go through regular periods of existential crisis as they worry about other groups of people who do data analysis. A common theme is: all these other people (usually computer scientists) are doing our job! Don't they know that statisticians are the best people to do data analysis? How dare they take over our discipline!
 
 I take a completely different view. I think our discipline is in the best position it has ever been in. The demand for data analysis skills is greater than ever. Our graduates are highly sought after, and well paid. Being a statistician has even been [described as a sexy profession](https://www.youtube.com/watch?v=tm3lZJdEvCc) (which presumably is a good thing to be!).
@@ -36,7 +34,6 @@ If you're analyzing data, you're doing statistics. You can call it data science 
 There’s so much that goes on with data that is about computing, not statistics. I do think it would be fair to consider statistics as a subset of data science ...
 
 >Statistics is important—don’t get me wrong—statistics helps us correct biases ... estimate causal effects ... regularize so that we’re not overwhelmed by noise ... fit models ... visualize data ... I love statistics! But it’s not the most important part of data science, or even close.
-
 
 
 How can two professors of statistics have such different views on their discipline? The same perspectives can be seen in the following two diagrams (both reproduced with permission).

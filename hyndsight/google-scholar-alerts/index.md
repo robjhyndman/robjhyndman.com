@@ -15,9 +15,7 @@ A couple of weeks ago, Google scholar added a facility to provide email alerts o
 
 Note the envelope at the top marked New! Click it to get the following screen.
 
-
 [![](/files/scholar_expsmooth2.gif)](/files/scholar_expsmooth2.gif)
-
 
 Those results show some of the flaws in Google Scholar -- the dates are not always correct (the first paper listed above appeared in 2004) and there are unresolved duplicates.
 

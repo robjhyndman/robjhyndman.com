@@ -17,48 +17,46 @@ This update is mostly bug fixes and additional error traps. The full ChangeLog i
 
 
 
-    
   * Many unit tests added using `testthat`.
 
-    
+
   * Fixed bug in `ets()` when very short seasonal series were passed in a data frame.
 
-    
+
   * Fixed bug in `nnetar()` where the initial predictor vector was reversed.
 
-    
+
   * Corrected model name returned in `nnetar()`.
 
-    
+
   * Fixed bug in `accuracy()` when non-integer seasonality used.
 
-    
+
   * Made `auto.arima()` robust to non-integer seasonality.
 
-    
+
   * Fixed bug in `auto.arima()` where `allowmean` was ignored when `stepwise=FALSE`.
 
-    
+
   * Improved robustness of `forecast.ets()` for explosive models with multiplicative trends.
 
-    
+
   * Exogenous variables now passed to VAR forecasts
 
-    
+
   * Increased maximum `nmse` in `ets()` to 30.
 
-    
+
   * Made `tsoutliers()` more robust to weak seasonality
 
-    
+
   * Changed `tsoutliers()` to use `supsmu` on non-seasonal and seasonally adjusted data.
 
-    
+
   * Fixed bug in `tbats()` when seasonal period 1 is a small multiple of seasonal period 2.
 
-    
-  * Other bug fixes
 
+  * Other bug fixes
 
 
 Thanks to [David Shaub](https://github.com/dashaub) for contributing most of the unit tests.

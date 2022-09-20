@@ -13,12 +13,10 @@ When searching for research articles online, I often find that the article is un
 
 
 
-	
   1. Within Google scholar, go to "Scholar preferences" and under library links search for "Monash". Tick the entry "Monash University - Check for full text". Then save your preferences (button at bottom of page). Next time you do a Google scholar search, a link labelled "Check for full text" will appear beside each entry. Click it and you will be able to easily go straight to the article after entering your Monash username and password.
 
-	
+
   2. Drag the following bookmark to your bookmarks toolbar: [Monash ezproxy](javascript:void(location.href=%22http://ezproxy.lib.monash.edu.au/login?url=%22+location.href)).
 Then whenever you are on a journal's website and want to download an article, click the bookmark and it will ask for your Monash username and password.
-
 
 Of course, this only works for Monash students and staff. But other readers should be able to adapt the above procedures for other universities.

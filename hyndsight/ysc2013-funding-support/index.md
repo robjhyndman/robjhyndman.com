@@ -16,13 +16,10 @@ Applications should be sent to the Secretary, Sandy Clarke: [sjclarke@unimelb.ed
 
 
 
-	
   * a brief CV;
 
-	
+
   * a conference abstract;
 
-	
+
   * a short justification (about 150 words) for receiving support, including what (if any) other financial support the applicant will be receiving.
-
-

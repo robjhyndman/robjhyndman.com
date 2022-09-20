@@ -12,18 +12,16 @@ The next few locations for the [International Symposium on Forecasting](http://w
 
 
 
-	
   * 2014: Rotterdam, The Netherlands
 
-	
+
   * 2015: Riverside, California, USA
 
-	
+
   * 2016: Santander, Spain
 
-	
-  * 2017: Cairns, Australia
 
+  * 2017: Cairns, Australia
 
 The ISF is easily the best forecasting conference, and is held every year in different locations. The 2013 conference finished today in Seoul, South Korea.
 

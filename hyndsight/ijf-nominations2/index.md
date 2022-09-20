@@ -51,12 +51,7 @@ The following papers have been nominated for the best paper published in the _In
   10. [Ng, J., C.S. Forbes, G.M. Martin and B.P.M. McCabe (2013). Non-parametric estimation of forecast distributions in non-Gaussian, non-linear state space models, IJF, 29, 411-430.](http://dx.doi.org/10.1016/j.ijforecast.2012.10.005)
 
     >This paper deals with an important problem from the point of view of empirical forecasting which is measuring the uncertainty of forecasts. Second, the problem considered is interesting from the methodological point of view. Third, the procedure proposed can be implemented in practice as it is not extremely complicated. Therefore, the balance between methodology and empirical interest is appropriate.
-  
+
   11. **[Soyer, E., & Hogarth, R. M. (2012). The illusion of predictability: How regression statistics mislead experts. IJF, 28(3), 695–711.](http://dx.doi.org/10.1016/j.ijforecast.2012.02.002)**
 
     >This paper shows how regression analysis is misunderstood and misused by leading scholars when they do regression analyses. The paper has attracted much attention. It adds to the research showing that leading scholars made serious errors in papers that they publish in leading economics journals, and this problem has gotten worse over time. The implication is that if even the best and the brightest get it wrong, how can we expect others to get it right? There are more effective ways to analyze data and Soyer and Hogarth suggest one approach.
-
-
-
-
-

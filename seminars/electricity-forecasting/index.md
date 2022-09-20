@@ -16,7 +16,6 @@ tags:
 
 Talk given at
 
-
   * University of Melbourne, 11 October 2011.
   * University of Adelaide, 16 March 2012
   * Monash University, 16 May 2012
@@ -24,9 +23,7 @@ Talk given at
   * EDF, Paris. 4 September 2012
   * University of New South Wales, 1 November 2012
 
-
 ## Abstract:
-
 
 Electricity demand forecasting plays an important role in short-term load allocation and long-term planning for future generation facilities and transmission augmentation. Planners must adopt a probabilistic view of potential peak demand levels, therefore density forecasts (providing estimates of the full probability distributions of the possible future values of the demand) are more helpful than point forecasts, and are necessary for utilities to evaluate and hedge the financial risk accrued by demand variability and forecasting uncertainty.
 
@@ -37,7 +34,6 @@ I will describe a comprehensive forecasting solution designed to take all the av
 The model is being used by the state energy market operators and some electricity supply companies to forecast the probability distribution of electricity demand in various regions of Australia. It also underpinned the Victorian Vision 2030 energy strategy.
 
 We evaluate the performance of the model by comparing the forecast distributions with the actual demand in some previous years. An important aspect of these evaluations is to find a way to measure the accuracy of density forecasts and extreme quantile forecasts.
-
 
 ## Key papers
 

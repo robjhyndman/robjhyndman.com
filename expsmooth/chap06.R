@@ -14,7 +14,6 @@ text(1,600,"Historical data",adj=0)
 text(7,600,"Simulated future sample paths",adj=0)
 lines(c(10.75,10.75),pi,lwd=3,col=1)
 
-
 plot(density(z[16,],bw="SJ"),main="Quarterly sales distribution: 16 steps ahead",xlab="Sales (thousands of francs)")
 lines(pi,c(0,0),lwd=3,col=1)
 text(mean(pi),0.0002,"90% Prediction Interval")

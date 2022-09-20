@@ -6,7 +6,6 @@ title: No reason to believe
 
 Two years after I started my blog, I bumped into an old friend at church one Sunday. I hadn’t seen her for a couple of years and I asked after her family. She told me that Josh, her oldest son, had left the Christadelphian community and that he no longer believed in God. I decided to write to him to ask what had happened. After some correspondence, Josh read my blog, and responded with the following email (slightly edited):
 
-
 >_You have meditated on “the problem of evil/suffering”, and conclude that good and evil must happen fairly randomly. (Consistent with God’s non-existence.)<br>
 >You have meditated on the authorship of Matthew and seen that it’s clearly at least “fictionalized”, if not totally a literary creation; and also, that Jesus said possibly nothing at all about a ‘church.’ (Consistent with human vs divine ‘inspiration’)<br>
 >You have pondered Inspiration, and are aware that most of the books show signs of ongoing editing and much human vs divine content. (ditto)<br>
@@ -24,9 +23,7 @@ Two years after I started my blog, I bumped into an old friend at church one Sun
 >Again, not looking for a debate, though happy to discuss as much or little as you’d like. If you can just toss me some links or bullet points I will happily digest.<br>
 >Also, feel ENTIRELY free to do no such thing. I am just curious, and always trying to undermine my own confirmation bias._
 
-
 ## PREACH
-
 
 I sat down to write to Josh, and I went to my stock list of “reasons to believe”:
 
@@ -37,18 +34,15 @@ I sat down to write to Josh, and I went to my stock list of “reasons to believ
   * Consistency (of the biblical record)
   * Health Laws
 
-
 These formed the basis of the chapter “Reasons to believe” in _The Way of Life_ and were also part of the many courses I ran, with names such as “Bible Discovery Course”, “Learn to Read the Bible Effectively” and “Getting to Know the Bible Better”. They were the reasons I fell back on when the doubts crowded in (as they often did), and they were the reasons I gave others as evidence for why they should also believe. They are easy to remember as the first letters spell the word PREACH.
 
 Over time, each of those “reasons” had become less and less helpful as I had come to realise that they were not the strong evidence I once thought they provided. By the time I wrote to Josh, I had already given up on using the Environment, Archaeology, Consistency and Health Laws as reasons to believe. There were simply too many holes, contradictions and logical flaws to use them as evidence. At this stage I was still holding on to the first two reasons, Prophecy and Resurrection, but even there I was having doubts. I tried to construct an email using these reasons, but I kept deleting what I had written knowing that I was writing to convince myself rather than Josh.
-
 
 ## A reluctant unbeliever
 
 The more I wrote, the more I deleted, trying to find words that seemed assured and logical, but failing. All the words I came up with seemed so inadequate. Why _did_ I still believe in the Bible? Did I have any good reasons left? The more I thought about it, the more my faith dissipated.
 
 Here are a few paragraphs from what I finally managed to write to him.
-
 
 >_I think we’ve wandered down many of the same thought roads, although we have ended up at different places (for now). Perhaps it would help if I explain something about my journey over the last couple of years._
 
@@ -64,14 +58,11 @@ Here are a few paragraphs from what I finally managed to write to him.
 
 >_So where am I now? Mostly confused. I’ve thrown out a lot of theological and cultural baggage and I’m looking at what’s left and wondering if it can be put together in any kind of coherent manner that still involves God and the Bible. I really don’t know the answer to that._
 
-
 Having sent the email, I kept going over and over in my mind whether I had any good reasons to believe. I lay awake at night wondering about it, praying about it. I read over what I had previously written on reasons to believe. I read what other people had written on it and the reasons they gave to believe. Nothing was convincing. The gaping holes appeared larger than they ever had before.
 
 Within a week, I realised with a shock that I no longer had a reason to believe. I was a very reluctant unbeliever.
 
-
 ## What now?
-
 
 My first response was to cancel all speaking and other responsibilities at my own ecclesia[^1], to give me time to think. Did I really want to give up on religion altogether, something I had been involved with for my whole life? Perhaps this was just a phase that would pass. Maybe I should just take a back seat for a while and see what happened.
 

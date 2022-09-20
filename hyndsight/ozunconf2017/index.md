@@ -17,7 +17,6 @@ Unlike regular conferences, there are no talks and there is no pre-determined ag
 
 I've been to two of these events in the past, and they are a load of fun and productivity. At the first one, I helped produce the [eechidna package](/hyndsight/eechidna). Then, earlier this year, I worked on the [ozdata package](https://au-burgr.github.io/ozdata/) which provides an interface to [data.gov.au](https://data.gov.au) and the [Australian Macro Database](/hyndsight/ausmacrodata)
 
-
 ## Nominations open
 
 We are currently looking for nominations of people wishing to attend. Please [nominate yourself](http://ozunconf17.ropensci.org/apply) if this sounds interesting to you. You don't have to be a top R developer to participate. We are keeping some places available for less experienced R users who want to get involved with the [Open Science](https://ropensci.org/) movement.

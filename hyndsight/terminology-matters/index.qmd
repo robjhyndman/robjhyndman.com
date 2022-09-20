@@ -58,7 +58,6 @@ Clashing terminology arises whenever researchers don't read outside their own di
  * A "robust" estimator in econometrics is one that is insensitive to heteroskedasticity and autocorrelation. In statistics, a "robust" estimator is insensitive to outliers.
  * A "fixed effect" in statistics is a non-random regression term, while a "fixed effect" in econometrics means that the coefficients in a model are time-invariant.
 
-
 I'm sure readers can provide some additional examples.
 
 &nbsp;

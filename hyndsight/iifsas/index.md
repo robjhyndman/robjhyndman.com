@@ -12,5 +12,3 @@ The International Institute of Forecasters and SAS have an [annual research gran
 A list of [previous projects that have received funding](http://forecasters.org/activities/funding-awards/grants-and-research-awards/) is provided to give some idea of the type of research they like to support.
 
 For some reason that I do not understand, they link to Scott Armstrong's list of ["research needs"](http://forecasters.org/pdfs/PrimaryResearch.pdf) from more than ten years ago although the supported projects do not seem to have much to do with Scott's ideas of what is important. Frankly, I don't think telling people what research areas are important is very helpful. The best research comes about when people are curious and passionate, and take a surprisingly different perspective from those who have gone before.
-
-

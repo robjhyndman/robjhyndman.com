@@ -11,7 +11,6 @@ tags:
 doi: 10.1111/1753-6405.12932
 ---
 
-
 ### Objective
 
 Length of hospital stay (LOS) is considered a vital component for successful colorectal surgery treatment. Evidence of an association between hospital surgery volume and LOS has been mixed. Data modelling techniques may adversely impact conclusions to the extent of reversing them. This study applied techniques to overcome possible drawbacks.

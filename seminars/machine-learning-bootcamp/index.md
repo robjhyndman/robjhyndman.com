@@ -17,5 +17,4 @@ file: MLBootcamp2015.pdf
 
 A talk on time series forecasting for the Monash University Machine Learning Bootcamp.
 
-
 [Demo R code](/Rfiles/demo.R)

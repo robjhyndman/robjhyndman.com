@@ -15,15 +15,11 @@ Clearly, some things are easier to forecast than others. The time of the sunrise
 
 
 
-
   1. how well we understand the factors that contribute to it;
-
 
   2. how much data are available;
 
-
   3. whether the forecasts can affect the thing we are trying to forecast.
-
 
 For example, forecasts of electricity demand can be highly accurate because all three conditions are usually satisfied. We have a good idea on the contributing factors:  electricity demand is largely driven by temperatures, with smaller effects for calendar variation such as holidays, and economic conditions. Provided there is a sufficient history of data on electricity demand and weather conditions, and we have the skills to develop a good model linking electricity demand and the key driver variables, the forecasts can be remarkably accurate.
 
@@ -35,10 +31,7 @@ Many people wrongly assume that forecasts are not possible in a changing environ
 
 
 
-
-
 * * *
-
 
 
 This is an edited version of Section 1­/1 from my new book [_Forecasting: principles and practice_.](http://otexts.org/fpp/1/1/)

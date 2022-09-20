@@ -47,14 +47,11 @@ Suppose there are two states with four and five counties respectively, and two i
 ```
 
 
-
 So that we have a reproducible example, I will create `y` randomly:
 
-
-```r 
+```r
 y <- ts(matrix(rnorm(900),ncol=45,nrow=20))
 ```
-
 
 Then we can construct labels for the columns of this matrix as follows:
 
@@ -66,7 +63,6 @@ blnames <- paste(c(rep("A",20),rep("B",25)), # State
                  sep="")
     colnames(y) <- blnames
 ```
-
 
 
 For example, the first series in the matrix has name `"A1Xa"` meaning state A, county 1, industry X, sub-industry a.
@@ -84,7 +80,6 @@ A slightly more complicated but analogous example (with labels taking more than 
 It is possible to specify the grouping structure without using column labels. Then you have to specify the groups matrix which defines what aggregations are of interest. In the example above, the groups matrix is given by
 
 
-    
 ```r
 gps <- rbind(
       c(rep(1,20),rep(2,25)), # State
@@ -97,16 +92,13 @@ gps <- rbind(
     )
 ```
 
-
 The order of the rows does not matter. Each row is specifying an aggregation of the bottom level series which is of interest.
 
 Then
 
-
-```r 
+```r
 gy <- gts(y, groups=gps)
 ```
-
 
 
 The advantage of using the `characters` argument is that the cross-products are handled for you. Also, if your data already comes with helpful column names that can be interpreted as specifying levels of one or more hierarchies, then there is really nothing to do but figure out what the `characters` argument should be.
@@ -114,11 +106,9 @@ The advantage of using the `characters` argument is that the cross-products are 
 Once the `gts` object has been created using the `gts()` function, you can proceed to forecast. For exmaple
 
 
-    
-```r 
+```r
 fc <- forecast(gy)
 ```
-
 
 
 will generate forecasts for all the bottom level series, and all the aggregate series specified in the call to `gts()`. Then it will reconcile the forecasts until they add up for all the specified aggregations, and finally it returns only the reconciled bottom level series. The reconciled aggregated series can easily be constructed from these when they are required.

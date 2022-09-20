@@ -53,7 +53,6 @@ checkresiduals(f1)
 
 # Lab Session 5
 
-
 ```{r}
 fit <- stl(bricksq, s.window=11)
 autoplot(fit)
@@ -98,4 +97,3 @@ f2 <- hw(x1)
 accuracy(f1,x2)
 accuracy(f2,x2)
 ```
-

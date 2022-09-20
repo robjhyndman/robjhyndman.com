@@ -176,9 +176,7 @@ We will now fit an ARIMA model for your retail data.
 
   3. Experiment with different Box-Cox transformations to see their effect on the chosen model and forecasts.
 
-
 <a name="Lab7"></a>
-
 
 ### Lab Session 7
 
@@ -191,7 +189,6 @@ For your retail time series:
   3. Repeat with forecasts obtained using `snaive` (there's no need for a transformation).
 
   4. Which approach gives the best forecasts?
-
 
 <a name="Lab8"></a>
 

@@ -8,7 +8,6 @@ categories:
   - R
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, cache=TRUE)
 ```
@@ -56,9 +55,6 @@ data.frame(h = 1:10, MSE = mse) %>%
 
 `tsCV()` now also has a `window` argument so the training data can be kept at a constant size.
 
-
 ## `auto.arima()` changes
 
 One aspect of the automatic ARIMA algorithm that I've never been happy with is how it selects the number of seasonal differences. Originally, we used the Canova-Hansen seasonal unit root test, then in v3.0 we switched to using the OCSB test. But neither was particularly satisfactory, partly because neither was designed for this use case. So in v8.3 we have changed again and now use a measure of seasonal strength to determine if a seasonal difference is required or not. The measure is described [here](https://otexts.org/fpp2/seasonal-strength.html). A series with seasonal strength greater than 0.64 is differenced once, otherwise no seasonal differencing is used. We chose the threshold value of 0.64 as that led to the best forecast accuracy on the M3 competition data.
-
-

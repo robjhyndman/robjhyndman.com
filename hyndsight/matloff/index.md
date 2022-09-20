@@ -18,7 +18,6 @@ This is a gem of a book. It will become the book I give PhD students when they a
 
 [![](/img/matloff.jpg)](http://www.amazon.com/gp/product/1593273843/ref=as_li_ss_tl?ie=UTF8&tag=prorobjhyn-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=1593273843)
 
-
 So instead of a review, here is the table of contents to give the flavour of what it covers:
 
 <table border="2" >

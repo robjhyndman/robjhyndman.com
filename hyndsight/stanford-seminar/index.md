@@ -16,7 +16,6 @@ I gave a seminar at Stanford today. Slides are below. It was definitely the most
 I'll be giving essentially the same talk at [UC Davis on Thursday](http://www.stat.ucdavis.edu/seminars/library/2015-16/fall15/100815-hyndman.html).<!-- more -->
 
 
-
 [![20151006_131759](/files/20151006_131759-1024x818.jpg)](/files/20151006_131759.jpg)
 
 [![20151006_132640](/files/20151006_132640-1024x768.jpg)](/files/20151006_132640.jpg)

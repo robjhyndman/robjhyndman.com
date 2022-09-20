@@ -8,17 +8,13 @@ There is an old joke about a psychiatrist working with a patient who was convinc
 
 Once someone’s mind is made up, all the evidence is interpreted in the light of the existing belief. Once we interpret everything we see within the constraints of what we already believe, there is no way of falsifying those beliefs. This is an extreme case of confirmation bias.
 
-
 ## Confirmation bias
-
 
 Confirmation bias occurs when we interpret the available evidence in the light of what we already believe. Our interpretations are biased in order to confirm and support our beliefs.
 
 It is a well-studied psychological phenomenon in which people tend to look for evidence that is consistent with their current understanding, rather than assess evidence in a balanced and fair manner. We tend to give greater weight to information supporting our existing beliefs, and we tend to either ignore or dismiss information that is inconsistent with our existing beliefs. We see what we are looking for, we persist with discredited beliefs, and we are very reluctant to overturn any conclusions we have drawn, no matter how flimsy the evidence supporting them.[^1][^2] The more attached we are to those beliefs, the harder it is to assess them objectively. There is a “tight-fisted fear” about letting go of treasured beliefs which we have to consciously overcome if we are to really consider the evidence.
 
-
 ## The last Japanese soldier
-
 
 During World War II, Hiroo Onoda was a lieutenant in the Japanese army. In 1944, he was sent to the island of Lubang off the coast of the Philippines in order to hamper enemy attacks on the island. Under no circumstances was he to surrender or take his own life. Unfortunately, nobody told him when the war ended.
 
@@ -36,9 +32,7 @@ Eventually, his former commanding officer was located, working as a bookseller i
 
 He discovered a very different world from the one he believed existed.
 
-
 ## Beliefs must be falsifiable
-
 
 I can relate to Onoda. For 30 years I believed that the Bible was inspired by God, that God heard my prayers, that Jesus was going to return to the earth, that dead people would be raised to life at his return, that Jesus would set up his kingdom with the capital in Jerusalem, and so on. I interpreted all the evidence within the context of what I already believed.
 
@@ -52,9 +46,7 @@ If a theory or belief cannot be falsified, there is no point in even examining t
 
 Some believers take pride in the fact that their faith cannot be shaken. When asked “What would convince you that your belief was mistaken?” they reply: “Nothing. That’s what it means to have faith.” There is no virtue in such dogmatic delusions. They might as well have steadfast faith in the tooth fairy.
 
-
 ## Extraordinary claims require extraordinary evidence[^4]
-
 
 Of course, confirmation bias works in the other direction as well: unbelievers are more likely to dismiss evidence that supports a religious belief, and they tend to look for evidence against belief.
 

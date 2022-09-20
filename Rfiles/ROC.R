@@ -78,7 +78,6 @@ ROC.est <- function(x,y,hx,hy,conf=95,intervals=TRUE,...)
         return(list(x=p,y=Rhat,hx=hx,hy=hy))
 }
 
-
 ###############################################
 ### Utility functions for kernel estimation ###
 ###############################################
@@ -142,7 +141,6 @@ reduce <- function (x = stop("Argument is missing"), y = stop("Argument is missi
     Y <- Y[tmp]
     return(list(x=X,y=Y))
 }
-
 
 #################################
 ### BANDWIDTH SELECTION       ###
@@ -212,7 +210,6 @@ hx.norm <- function(mx,sx,my,sy,n)
     return((c3/n)^(1/3))
 }
 
-
 ## LLOYD PLUG-IN RULE FOR kernel estimate of CDF
 
 h.lloyd <- function(x)
@@ -279,7 +276,6 @@ denest <- function(x,deriv=0,h,xgrid,ngrid=200,lo,hi)
     return(list(x=xgrid,y=apply(Kmat,1,sum)/(n*h^(deriv+1))))
 }
 
-
 ## Utility functions for computing numerical derivatives
 # Assume x is sorted in ascending order
 
@@ -337,7 +333,7 @@ plugin <- function(x,y)
     cfg <- calc.cfg(bandsx$H,bandsx$H1,bandsx$H2,x,y,diag=1)
     cgf <- calc.cfg(bandsy$H,bandsy$H1,bandsy$H2,y,x,diag=1)
     m <- length(x)
-    n <- length(y)    
+    n <- length(y)
     h1 <- cfg/(m^(1/3))
     h2 <- cgf/(n^(1/3))
     return(list(hx=h1,hy=h2))
@@ -349,7 +345,6 @@ calc.cfg <- function(H,H1,H2,x,y,diag=1)
     cfg <- (0.5641896 *  tmp$int3 / abs(tmp$int2))^(1/3)
     return(cfg)
 }
-
 
 
 # Compute estimates for Delta function
@@ -427,7 +422,6 @@ intf3 <- function(x,mx,sx,my,sy)
     return((N$f*N$g)^2)
 }
 
-
 ## g^2.f'.f'''
 intf5 <- function(x,mx,sx,my,sy)
 {
@@ -457,7 +451,6 @@ intf10 <- function(x,mx,sx,my,sy)
 }
 
 ## COMPUTE TRUE ROC FUNCTIONS
-
 
 # Assuming normal densities
 ROC.norm <- function(mx,sx,my,sy,nx=200)

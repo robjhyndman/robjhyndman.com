@@ -22,5 +22,4 @@ Here is the blurb from the [release notes](https://web.archive.org/web/201303051
 
 ![ETS Smoothing](http://www.eviews.com/EViews8/images/ets.png)
 
-
 Until now, ETS models have only been available in R (the `ets` function in the [forecast](http://github.com/robjhyndman/forecast/) package). I believe SAS has also been working on including them, but nothing has appeared yet.

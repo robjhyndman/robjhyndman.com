@@ -12,7 +12,6 @@ tags:
 - time series
 ---
 
-
 + **When:** 12.00noon, Thu 22nd February 2007
 + **Where:** Room 213, Richard Berry Building, The University of Melbourne
 + **When:** 2.30pm, Fri 1 June 2007

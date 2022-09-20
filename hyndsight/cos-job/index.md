@@ -12,7 +12,6 @@ categories:
 
 This looks like an interesting job.
 
-
 >Dear Dr. Hyndman,
 
 >I write from the Center for Open Science, a non-profit organization based in Charlottesville, Virginia in the United States, which is dedicated to improving the alignment between scientific values and scientific practices. We are dedicated to open source and open science.
@@ -27,7 +26,6 @@ This looks like an interesting job.
 
 >[http://centerforopenscience.org/jobs/#stats](http://centerforopenscience.org/jobs/#stats)
 
->The position is full-time and located at our office in beautiful Charlottesville, VA. 
+>The position is full-time and located at our office in beautiful Charlottesville, VA.
 
 >Thanks in advance for your time and help.
-

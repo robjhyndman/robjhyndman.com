@@ -15,7 +15,6 @@ for(i in 1:30)
 plot(ts(y[1:30]),type="o",ylab="y",xlab="Time period")
 lines(ts(l[2:31]),lwd=2)
 
-
 # FIGURE 3.3
 
 sigma <- 5
@@ -79,4 +78,3 @@ plot(ts(y2),xlab="Time period",ylab="y")
 text(20,max(y2)-8,expression(paste(alpha == 0.5," and ",beta==0.1)))
 plot(ts(y3),xlab="Time period",ylab="y")
 text(20,max(y3)-35,expression(paste(alpha == 1.2," and ",beta==1.0)))
-

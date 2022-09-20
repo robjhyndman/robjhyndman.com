@@ -4,7 +4,6 @@ library(tsibbledata)
 library(feasts)
 library(fable)
 
-
 # Lab Session 1
 
 mytourism <- readxl::read_excel("~/Downloads/tourism.xlsx") %>%
@@ -26,7 +25,6 @@ newtourism <- mytourism %>%
   summarise(Trips = sum(Trips)) %>%
   ungroup()
 
-
 # Lab Session 2
 
 aus_production %>% autoplot(Beer)
@@ -37,7 +35,6 @@ gafa_stock %>%
   autoplot(Close) +
   xlab("Day") + ylab("Closing price")
 
-
 # Lab Session 3
 
 snowy <- tourism %>%
@@ -46,7 +43,6 @@ snowy <- tourism %>%
 snowy %>% autoplot(Trips)
 snowy %>% gg_season(Trips)
 snowy %>% gg_subseries(Trips)
-
 
 # Lab Session 4
 
@@ -58,7 +54,6 @@ holidays <- tourism %>%
 holidays %>%
   STL(Trips ~ season(window = 13) + trend(window = 21)) %>%
   autoplot()
-
 
 # Lab Session 5
 
@@ -78,7 +73,6 @@ tourism %>%
   summarise(Trips = sum(Trips)) %>%
   features(Trips, feat_stl) %>%
   select(State, seasonal_peak_year)
-
 
 # Lab Session 6
 
@@ -106,7 +100,6 @@ outliers %>%
   facet_grid(vars(Concession, Type, ATC1, ATC2)) +
   ggtitle("Outlying time series in PC space")
 
-
 # Lab Session 7
 
 aus_production %>% autoplot(Gas)
@@ -117,7 +110,6 @@ report(fit)
 fit %>%
   forecast(h = "3 years") %>%
   autoplot(aus_production)
-
 
 # Lab Session 8
 
@@ -135,7 +127,6 @@ fit %>%
   forecast(h = "10 years") %>%
   autoplot(usgdp)
 
-
 # Lab Session 9
 
 fit <- tourism %>%
@@ -149,7 +140,6 @@ fc %>%
 fc %>%
   filter(Region == "Melbourne") %>%
   autoplot(tourism)
-
 
 # Lab Session 10
 

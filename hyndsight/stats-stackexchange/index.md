@@ -12,9 +12,7 @@ categories:
 
 The Q&A site for statistical analysis, data mining, data visualization, and everything else to do with data analysis has finally been launched. Please head over to
 
-
 # [ stats.StackExchange.com](http://stats.stackexchange.com)
-
 
 and start asking and answering questions.
 

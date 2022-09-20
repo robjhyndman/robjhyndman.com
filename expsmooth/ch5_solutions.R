@@ -26,35 +26,33 @@ S <- function(x) {
 optim(c(0.5,l0),S)
 
 # $par
-# 1.000    1570.596 
+# 1.000    1570.596
 
 ets(usgdp,"ANN")
 
 # Smoothing parameters:
-#   alpha = 0.9999 
+#   alpha = 0.9999
 # Initial states:
-#   l = 1570.5974 
-
+#   l = 1570.5974
 
 # Exercise 5.2
 
 ets(log(usgdp), model="AAN", damped=FALSE, lower=c(0,0,0,0.8),beta=0)
 
-# ETS(A,A,N) 
-# 
+# ETS(A,A,N)
+#
 # Smoothing parameters:
-#   alpha = 0.9999 
-#   beta  = 0 
-# 
+#   alpha = 0.9999
+#   beta  = 0
+#
 # Initial states:
-#   l = 7.3523 
-#   b = 0.0083 
-# 
+#   l = 7.3523
+#   b = 0.0083
+#
 # sigma:  0.0098
-# 
-# AIC      AICc       BIC 
-# -888.2461 -888.1431 -877.8419 
-
+#
+# AIC      AICc       BIC
+# -888.2461 -888.1431 -877.8419
 
 # Exercise 5.3
 
@@ -80,9 +78,9 @@ S <- function(x) {
 optim(c(0.5,l0,1),S)
 
 # $par
-# (Intercept)              
-# 0.9999999 1572.7853342    1.0084419 
-# 
+# (Intercept)
+# 0.9999999 1572.7853342    1.0084419
+#
 # $value
 # [1] 13.02352
 
@@ -93,4 +91,3 @@ fit1 <- ets(usgdp, model="MMN", damped=FALSE, lower=c(0,0,0,0.8),beta=0)
 fit2 <- ets(usgdp, model="AAN", damped=FALSE, lower=c(0,0,0,0.8),beta=0,lambda=0)
 plot(forecast(fit1,h=50))
 lines(forecast(fit2,h=50)$mean,col="red")
-

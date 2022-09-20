@@ -14,7 +14,6 @@ details: "<em>Interface 2010: Computing Science and Statistics</em>, Seattle, Wa
 file: Interface2010v2.pdf
 ---
 
-
 We survey some graphical tools for visualizing large sets of functional data represented by smooth curves. These graphical tools include the phase-plane plot, singular value decomposition plot, rainbow plot, functional variants of the bagplot and the highest density region boxplot. The latter two techniques utilize the first two robust principal component scores, Tukey's halfspace location depth and highest density regions.
 
 The computer code and datasets are collected in the [rainbow package for R](https://CRAN.R-project.org/package=rainbow), which is available at the Comprehensive R Archive Network (CRAN).

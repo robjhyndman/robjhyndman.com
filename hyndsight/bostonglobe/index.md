@@ -15,7 +15,6 @@ Here are the questions from the journalist.
 
 >And: there's a way in which all scientific inquiry is about prediction. We develop models in order to explain outcomes; once we've established those models, we can theoretically use them to predict. And yet, forecasting future events seems like a distinct undertaking. Is it? If so, what is the distinction?
 
-
 And this is my reply.
 
 Prediction is largely about distinguishing genuine information from randomness. Nothing interesting is ever perfectly predictable because there is always an element of randomness associated with it. Sometimes the randomness is large, and then the event is hard to predict. At other times, the randomness is relatively small and then the event is easy to predict. For example, tides even a year ahead are relatively easy to predict because the pattern is strong and the uncertainty is small. But migration numbers next year are hard to predict because there are not strong and consistent historical patterns and there is a lot of uncertainty due to changing social environments, changing government policy, changing financial and political contexts, and so on.

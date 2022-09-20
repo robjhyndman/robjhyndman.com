@@ -10,11 +10,9 @@ categories:
 image: /img/Ralph.jpg
 ---
 
-
 At the *International Symposium on Forecasting* last week, my friend and colleague [Ralph Snyder](https://scholar.google.com/citations?user=Kc3oiaMAAAAJ&hl=en) was made a Fellow of the International Institute of Forecasters.
 
 <img src="/img/Ralph.jpg" width=200>
-
 
 In most years, one or two IIF Fellows are elected, so it is a rare honour. Previous fellows have included the late Robert G Brown, Clive Granger and Arnold Zellner, and the very-much-alive Scott Armstrong, Frank Diebold, Robert Engle, Robert Fildes, David Hendry and Spyros Makridakis.
 

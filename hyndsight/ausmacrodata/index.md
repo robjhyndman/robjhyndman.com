@@ -10,7 +10,6 @@ categories:
 - time series
 ---
 
-
 [AusMacroData](http://ausmacrodata.org) is a new website that encourages and facilitates the use of quantitative, publicly available Australian macroeconomic data.  The Australian Macro Database hosted at [ausmacrodata.org](http://ausmacrodata.org/) provides a user-friendly front end for searching among over 40000 economic variables and is loosely based on similar international sites such as the Federal Reserve Economic Database (FRED). <!-- more -->
 
 [![](/files/Screenshot-from-2017-02-15-11-30-04.png)](http://ausmacrodata.org)

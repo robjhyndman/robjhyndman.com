@@ -1,7 +1,6 @@
 library(expsmooth)
 library(fma)
 
-
 par(mfrow=c(2,2))
 par(mar=c(3.3,3.6,2.6,1.1))
 plot(bonds,xlab="Year",ylab="Percentage per annum",main="(a) US 10-year bonds yield")

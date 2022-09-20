@@ -27,13 +27,8 @@ It is hard to see how individual societies and authors can change the system to 
 
 
 
-
   1. We need university administrators to concentrate on _what_ people write rather than _where_ it appears (yes, they actually need to read some papers). It is crazy that a great paper that gets published in a low-ranking journal is ignored, while an ordinary paper that gets passed the reviewers and appears in a top journal leads to promotion. The papers that appear in top journals are not all good, and the papers that appear in lower-ranked journals are not all bad. There is no substitute for reading the papers and judging the quality of an academic directly on their research, not indirectly based on where it is published. If universities want to cut their library bills they need to stop pressuring staff to only publish in the top-ranked journals and let them get on with writing good papers regardless of where they appear.
-
 
   2. Academic societies need to wean themselves off the publishers' purse. One way would be to make publication in a society journal more expensive (in statistics it is usually free) and get the employers of researchers (e.g., universities) to pay the costs. After all, they should be saving a lot of money in library fees and this way it is given directly to people who will spend it for the benefit of researchers. There would need to be some discounting system established to provide for researchers in developing countries.
 
-
   3. The major funding agencies (who are not wedded to the existing system) need to take a stand for the benefit of everyone (except the existing publishers). We need the [National Science Foundation](http://www.nsf.gov), the [National Institutes of Health](http://www.nih.gov/), the [UK Research Councils](http://www.rcuk.ac.uk), the [Australian Research Council](http://www.arc.gov.au), the [National Health and Medical Research Centre](http://www.nhmrc.gov.au), and similar funding agencies in other countries to insist that government-funded research be made publicly available online and without cost. That will short-circuit the existing system and help weaken the publisher-stranglehold on academic journals. Research that is publicly funded would then also be publicly available. This is argued persuasively by [Danny Kingsley](http://theconversation.edu.au/how-one-small-fix-could-open-access-to-research-2637) and [George Monbiot](http://www.monbiot.com/2011/08/29/the-lairds-of-learning/).
-
-

@@ -11,9 +11,7 @@ categories:
 
 Everyone who has written a paper with another author will know it can be tricky making sure you don't end up with two versions that need to be merged. The good news is that the days of sending updated drafts by email backwards and forwards is finally over (having lasted all of 25 years -- I can barely imagine writing papers before email).<!-- more -->
 
-
 ### LaTeX solutions
-
 
 There has been a lot of activity in the development of online LaTeX tools over the last few years.
 
@@ -31,20 +29,16 @@ An alternative is **[ShareLaTeX](http://www.sharelatex.com)** which has very sim
 
 In both cases, the color choices are set by choosing a theme. I prefer to type on a dark background.
 
-
 ### Non-LaTeX solutions
-
 
 Occasionally I have to write a paper using MS-Word or something similar. I lose even more hair each time it happens, and I spend my time failing to convince my coauthors to at least use an online collaborative editor instead of circulating drafts by email. There are a few solutions available:
 
 
 
-	
   * [**Google Docs**](http://docs.google.com). This is my favourite non-LaTeX solution, partly because it integrates seamlessly with other Google products and also because it works amazingly well for real-time joint editing. It is easy to save the document as a pdf or in MS-Word format when it is finished, although conversion to MS-Word format is not perfect.
 
-	
-  * [**SkyDrive**](http://skydrive.live.com) is Microsoft's response to the move to online editing. Apparently it works well, although I've never tried it. Saving in docx format should work better than in Google Docs. Real-time editing only became available in November 2013, so it probably still has some glitches.
 
+  * [**SkyDrive**](http://skydrive.live.com) is Microsoft's response to the move to online editing. Apparently it works well, although I've never tried it. Saving in docx format should work better than in Google Docs. Real-time editing only became available in November 2013, so it probably still has some glitches.
 
 
 
@@ -52,10 +46,7 @@ Before anyone comments about using a version control system such as svn or git, 
 
 
 
-
 * * *
 
 
-
 Note: this is an update of a post from four years ago. The online offerings have changed enough that I thought it needed revising.
-

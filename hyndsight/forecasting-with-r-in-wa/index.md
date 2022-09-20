@@ -26,7 +26,6 @@ Day 2
 Day 3
 :    Time series cross-validation, dynamic regression, hierarchical forecasting, nonlinear models.
 
-
 The course will involve a mixture of lectures and practical sessions using R. Each participant must bring their own laptop with R installed, along with the [fpp package](http://cran.r-project.org/package=fpp) and its dependencies.
 
 For costs and enrolment details, go to

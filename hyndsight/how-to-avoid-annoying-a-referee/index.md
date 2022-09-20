@@ -28,14 +28,12 @@ It's not a good idea to annoy the referees of your paper. They make recommendati
   * When responding to referee reports, make sure you answer everything asked of you. (See my earlier post "[Always listen to reviewers](https://robjhyndman.com/hyndsight/always-listen-to-reviewers/)")
   * If you've revised the paper based on referees' comments, then thank them in the acknowledgements section.
 
-
 For some applied papers, there are specific statistical issues that need attention:
 
   * Give effect sizes with confidence intervals, not just p-values.
   * Don't describe data using the mean and standard deviation without indicating whether the data were more-or-less symmetric and unimodal.
   * Don't split continuous data into groups.
   * Make sure your data satisfy the assumptions of the statistical methods used.
-
 
 More tongue-in-cheek advice is provided by [Stratton and Neil (2005), "How to ensure your paper is rejected by the statistical reviewer". Diabetic Medicine, 22(4), 371-373.](http://dx.doi.org/10.1111/j.1464-5491.2004.01443.x)
 

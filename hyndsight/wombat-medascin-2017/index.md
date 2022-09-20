@@ -16,7 +16,6 @@ There will be four days of tutorials (Monday 29 May to Thursday 1 June), and the
 
 Full details can be found on the web site.
 
-
   * Friday only: $330 (student $70, academic $200)
 
   * Thursday reception and Friday: $400

@@ -6,7 +6,6 @@ venue: Monash
 
 Talk to Year 11 students as part of the Monash Scholars Knowledge Summit on "Ending Global Poverty".
 
-
 ## Introductory remarks
 
 <div id='speakerdeck'>
@@ -14,11 +13,9 @@ Talk to Year 11 students as part of the Monash Scholars Knowledge Summit on "End
   </p>
 </div>
 
-
 &nbsp;
 
 &nbsp;
-
 
 ## Hans Rosling: New insights on poverty
 

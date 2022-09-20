@@ -11,19 +11,16 @@ categories:
 
 
 
-	
   1. That we always pay a price for technology; the greater the technology, the greater the price.
 
-	
+
   2. That there are always winners and losers, and that the winners always try to persuade the losers that they are really winners.
 
-	
+
   3. That there is embedded in every great technology an epistemological, political or social prejudice. Sometimes that bias is greatly to our advantage. Sometimes it is not.
 
-	
+
   4. That technological change is not additive; it is ecological, which means, it changes everything and is, therefore, too important to be left entirely in the hands of Bill Gates.
 
-	
+
   5. That technology tends to become mythic; that is, perceived as part of the natural order of things, and therefore tends to control more of our lives than is good for us.
-
-

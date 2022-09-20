@@ -11,7 +11,6 @@ categories:
 [Forecasting Ace](http://www.forecastingace.com/) is looking for participants to develop improved methods for predicting future events and outcomes. Their goal is to develop methods for aggregating many individual judgments in a manner that yields more accurate predictions than any one person or small group alone could provide. Potential applications of the system include forecasting economic conditions, political changes, technological development and medical breakthroughs.
 <!-- more -->
 
-
 They are currently seeking to recruit individuals who have interest (and/or expertise) in any of a wide range of current affairs, including but not limited to politics, economics, technology, military affairs, social trends, and science and technology. The overall time commitment is 10-15 minutes initially, but then no more than a few minutes at any one time, spread out over months or, if you are willing, even a few years. You can withdraw from participation at any time.
 
 The study asks you to provide your judgments on a variety of subjects. You can respond to those you are interested in and ignore the others. New topics will appear regularly and you will be able to revise your judgments with new information until the event in question is resolved.

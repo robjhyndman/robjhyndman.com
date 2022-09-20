@@ -19,10 +19,8 @@ There is also a [directory of statistical consultants](https://www.statsoc.org.a
 
 Recently I met [Eve Slavich](http://www.bees.unsw.edu.au/staff/eve-slavich)  (at YSC2013). She is a young statistician who is part of a group who have recently set up a new statistical consulting business. I asked her to send me some information about the group, and this is what she said:
 
-
 >Our company is called [Cingulate Consulting](http://www.cingulate.net/index.php?page=home), and we are a group of young people mostly engaged in academic and/or entrepreneurial pursuits, in diverse areas across the quantitative sciences. We have gained good experience in commercial data analysis over the last couple of years, primarily in the retail and finance sectors. Cingulate have made a range of advanced models for clients in the retail and finance industries.
 >
 >We're keen to establish ourselves as a statistical and modelling consultancy in Sydney and have capacity for more clients, so if you need to grow your network of people, consider us available! We are very enthusiastic and keen to take on any type of project --- our skills are quite broad and not limited to retail and finance.
-
 
 So that's another possibility, especially if you are in the Sydney area.

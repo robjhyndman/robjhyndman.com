@@ -14,7 +14,6 @@ I've created a [LaTeX style for a CV](/research/cv.sty) to make it easy to produ
 The preamble of your CV should look something like this:
 
 
-
     \documentclass[a4paper,11pt]{article}
     \usepackage{cv}
     \name{Rob J Hyndman}
@@ -33,19 +32,13 @@ The preamble of your CV should look something like this:
 
 
 
-
-
   * Include your name in the `\name` command.
-
 
   * The `\info` command contains information to go in the header box on the first page. This is structured as for a tabular environment. You can include any information you like in the `\info` command including additional rows. Some people include their date of birth, citizenship, family details, etc.
 
-
   * All your publications should be in a bib file (mine is called `rjhpubs.bib`) loaded with the `\bibliography` command.
 
-
   * The final three lines allocate items from the bib file to categories. These will appear in separate sections in the CV. My real CV has several more lines like these so that all my publications are added to categories. Each of the codes is the key for a bib item.
-
 
   * The style file has the following pre-defined categories:
 <table >
@@ -134,15 +127,11 @@ The preamble of your CV should look something like this:
 </table>
 It is easy to add your own categories and titles if these are not suitable. For example, if you want to include posters in your CV, put the following in the preamble:
 
-
     \makebibcategory{posters}{Conference posters}
 
 
 
-
-
   * After the preamble, my CV looks like this:
-
 
     \begin{document}
     \maketitle
@@ -154,15 +143,11 @@ It is easy to add your own categories and titles if these are not suitable. For 
     2000 & A.Stat. & Statistical Society of Australia.
     \end{tabular}
 
-
 The `\maketitle` puts in the header box. After that it is a normal LaTeX document with `\section` commands for each section.
-
 
   * It is common to have sections listing qualifications, employment history, awards, research grants, teaching experience and publications. The order of these varies depending on what you want to emphasise. Have a look at several CVs to see what other people do. Here are some examples from some well-known statisticians: [Andrew Gelman](http://www.stat.columbia.edu/~gelman/vitae.pdf), [Rob Tibshirani](http://www-stat.stanford.edu/~tibs/cv.pdf), [Matt Wand](http://matt-wand.utsacademics.info/webmiscl/WandCV.pdf).
 
-
   * To add my publications, I have the following lines:
-
 
     \begin{publications}
     \printbib{books}
@@ -174,23 +159,17 @@ The `\maketitle` puts in the header box. After that it is a normal LaTeX documen
     \printbib{editorials}
     \end{publications}
 
-
 Each `\printbib` command will add a section with all the publications in that category, listed in chronological order and sorted by name within each year.
-
 
   * The total number of publications listed inside the `publications` environment is calculated and the page numbers for the publications sections are stored. So I have the following line in the Research section of my CV:
 
-
     I have authored \ref{sumpapers} papers, chapters or books on statistical topics. A list of these appears on pages \pageref{papersstart}--\pageref{papersend}.
 
-
 You can have additional `\printbib` commands outside the publications environment, but the associated bib items will not be counted in the `sumpapers` value.
-
 
 
 Here is [my CV](https://github.com/robjhyndman/CV/raw/master/RobHyndmanCV.pdf) using this style file (although I use different fonts from those loaded in the style file).
 
 [Download the style file](/research/cv.sty) and use it yourself. Feel free to modify it as you want.
-
 
 **Update: 3 May 2017**: I've put my [CV on github](https://github.com/robjhyndman/CV), so you can fork and edit it as required.

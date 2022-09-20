@@ -11,7 +11,6 @@ I spoke to our new crop of honours students this morning. Here are my slides, ex
   </p>
 </div>
 
-
 <br>
 
 ## Managing References
@@ -28,7 +27,6 @@ I spoke to our new crop of honours students this morning. Here are my slides, ex
   * [R packages for time series](https://cran.r-project.org/web/views/TimeSeries.html)
   * [R packages for econometrics](https://cran.r-project.org/web/views/Econometrics.html)
   * [R packages for finance](https://cran.r-project.org/web/views/Finance.html)
-
 
 ## Writing your thesis
 

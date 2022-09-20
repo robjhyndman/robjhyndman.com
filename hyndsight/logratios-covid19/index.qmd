@@ -96,7 +96,6 @@ updates %>%
 
 There are some obvious reporting issues (e.g., Spain had no new cases on 12 March, but roughly twice as many cases as we might expect on the 13 March), but the smooth (loess) curve corrects for these discrepancies. We can plot the smoothed log ratios to see how each country is tracking in terms of the slope of the curve.
 
-
 ```{r logratios_overlaid, message=FALSE,fig.width=10, fig.height=6, out.width="100%"}
 updates %>%
   mutate(

@@ -19,5 +19,3 @@ Entries close 16th November, and winners will be notified by mid-December.
 Details available at: ysc2013.com/program/competitions/
 
 I'm a speaker at the conference, so hopefully I will get to see some of the great entries!
-
-

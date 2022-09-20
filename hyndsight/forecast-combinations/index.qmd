@@ -7,7 +7,6 @@ categories:
 - R
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, cache=TRUE)
 options(digits=4)
@@ -52,7 +51,6 @@ head(weights)
 tail(weights)
 ```
 
-
 It begins with weighting each forecast method equally, quickly drops the ARIMA method, and then switches to STL alone. But by the end of the test set, it is giving weight `r tail(weights,1)[1]` to ETS, `r tail(weights,1)[2]` to ARIMA and `r tail(weights,1)[3]` to STL. Here are the resulting forecasts:
 
 ```{r opera3, message=FALSE, cache=TRUE, warning=FALSE}
@@ -63,9 +61,7 @@ autoplot(df) +
   xlab("Year") + ylab(expression("Atmospheric concentration of CO"[2]))
 ```
 
-
 ## forecastHybrid
-
 
 
 The `forecastHybrid` package from David Shaub and Peter Ellis fits multiple models from the `forecast` package and then combines them using either equal weights, or weights based on in-sample errors. By default, the models combined are from the `auto.arima`, `ets`, `nnetar`, `stlm` and `tbats` functions. David Shaub provides a [helpful vignette](https://cran.r-project.org/web/packages/forecastHybrid/vignettes/forecastHybrid.html) explaining how to use the package.
@@ -81,7 +77,6 @@ fc2 <- forecast(fit2, h=h)
 autoplot(fc1) + ggtitle("Hybrid 1") + xlab("Year") +
  ylab(expression("Atmospheric concentration of CO"[2]))
 ```
-
 
 
 Those prediction intervals look dodgy because they are way too conservative. The package is taking the widest possible intervals that includes all the intervals produced by the individual models. So you only need one bad model, and the prediction intervals are screwed. To compute prediction intervals with the required coverage, it would be necessary to estimate the covariances between the different forecast errors, and then find the resulting variance expression for the linear combination of methods.

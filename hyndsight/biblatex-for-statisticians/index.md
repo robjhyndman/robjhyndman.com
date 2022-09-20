@@ -14,13 +14,12 @@ I am now using [biblatex](http://www.ctan.org/pkg/biblatex) for all my bibliogra
 Here is my default setting which should be suitable for almost all statistics and econometrics journals.
 
 
-    
-    
+
     % Load the package
     \usepackage{url}
     \usepackage[style=authoryear, bibencoding=utf8, minnames=1, maxnames=3,
-    maxbibnames=99, natbib=true, dashed=false, terseinits=true, 
-    firstinits=true, uniquename=false, uniquelist=true, labeldate=true, 
+    maxbibnames=99, natbib=true, dashed=false, terseinits=true,
+    firstinits=true, uniquename=false, uniquelist=true, labeldate=true,
     doi=false, isbn=false, natbib=true, backend=biber]{biblatex}
     % Change the default formatting to be more "statistical"
     \DeclareFieldFormat{url}{\url{#1}}
@@ -47,17 +46,14 @@ Here is my default setting which should be suitable for almost all statistics an
     % Get rid of months in citations
     \AtEveryBibitem{\clearfield{month}}
     \AtEveryCitekey{\clearfield{month}}
-    
 
 
 
 If you already use natbib, then all you have to do is replace
 
 
-    
-    
+
     \usepackage{natbib}
-    
 
 
 

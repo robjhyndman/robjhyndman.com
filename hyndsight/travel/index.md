@@ -20,5 +20,3 @@ All the services include some social networking abilities for sharing your trips
 There are free and pro versions in each case, but I haven't found the need to pay for a pro version yet. People who travel a lot more than me would probably find some of the pro features useful, especially if you are in the US.
 
 There's a [review of TripIt, TripCase and WorldMate in the WSJ](http://online.wsj.com/article/SB10001424052748704691304575254401593900796.html), but it is more than 18 months old so the features have probably changed since it was written.
-
-

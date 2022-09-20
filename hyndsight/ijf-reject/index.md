@@ -11,7 +11,6 @@ categories:
 I seem to be getting an increasing number of submissions where the author has clearly not bothered to actually check that the paper was submitted correctly. Here is a rejection letter I wrote today.
 
 
-
 >Dear xxxxx
 
 >I am writing concerning manuscript #INTFOR_16xxxxx entitled "xxxxxxxxxxxxxxxx" which you submitted to the International Journal of Forecasting.

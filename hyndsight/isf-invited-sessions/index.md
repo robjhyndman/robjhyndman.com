@@ -9,9 +9,7 @@ categories:
 - ISF2017
 ---
 
-
 We are currently calling for invited session proposals for the [ISF](http://forecasters.org/isf) to be held in [Cairns, Australia](http://www.cairnstoday.com.au/), in June 2017.
-
 
 ![](/files/Hero-shot-Turtle-high-res-300x201.jpg)
 

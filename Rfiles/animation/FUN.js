@@ -31,7 +31,7 @@ function showFrame(obj, num) {
 // show more controls
 function btnMore(obj) {
 	var showMorePar=getElem("morePar"+obj).style.display;
-	if(showMorePar=="") 
+	if(showMorePar=="")
 	{
 		getElem("morePar"+obj).style.display="block" ;
 		getElem("btnMore"+obj).value="  ><  ";
@@ -43,7 +43,7 @@ function btnMore(obj) {
 			getElem("morePar"+obj).style.display = "block";
 			getElem("btnMore"+obj).value="  ><  ";
 		}
-		else 
+		else
 		{
 			getElem("morePar"+obj).style.display = "none";
 			getElem("btnMore"+obj).value="  <>  ";
@@ -64,13 +64,12 @@ function txtFrame(num, obj) {
 	}
 }
 
-
 function displayImage(obj) {
 	var txtInterval = getElem("txtInterval"+obj);
 	eval("var tm"+obj+" = Math.round(Number(txtInterval.value)*1000)");
 	eval("var tm=tm"+obj);
 	eval("nmax=nmax"+obj);
-	eval("n=n"+obj);	
+	eval("n=n"+obj);
 	if (n > nmax) {
 		if (getElem("checkLoop"+obj).checked) {
 			n = 1;
@@ -78,14 +77,14 @@ function displayImage(obj) {
 			displayImage(obj);
 		}
 		else {
-			pauseAni(obj);	
+			pauseAni(obj);
 		}
 	}
 	else {
 		for(i = 1; i <= nmax; i++){
 			getElem("divPreload" +obj+ i).style.display = "none";
 		}
-	
+
 		getElem("divPreload" +obj+ n).style.display = "block";
 		getElem("txtFrame"+obj).value = n ;
 		eval("t"+obj+" = setTimeout(\"displayImage(\\\"\"+obj+\"\\\")\", tm)");
@@ -102,7 +101,7 @@ function playAni(obj) {
 	getElem("btnNext"+obj).disabled = true;
 	getElem("btnFirst"+obj).disabled = true;
 	getElem("btnLast"+obj).disabled = true;
-	displayImage(obj);	
+	displayImage(obj);
 }
 
 function pauseAni(obj) {
@@ -118,7 +117,7 @@ function pauseAni(obj) {
 	eval("n"+obj+"--");
 	eval("if (n"+obj+"<=0) n"+obj+"=1");
 }
-	
+
 function fastAni(obj,step) {
 	var txtInterval = getElem("txtInterval"+obj);
 	txtInterval.value-=step*getElem("txtStep"+obj).value;

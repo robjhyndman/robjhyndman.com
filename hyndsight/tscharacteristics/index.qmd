@@ -279,7 +279,6 @@ The function is far from perfect, and it is not hard to find examples where it f
 
 In our papers, we took the measures obtained using R, and produced self-organizing maps using [Viscovery](http://www.viscovery.net/somine/). There is now a [som package](http://cran.r-project.org/web/packages/som/) in R for that, so it might be possible to integrate that step into R as well. The dendogram was generated in matlab, although that could now also be done in R using the [ggdendro package](http://cran.r-project.org/web/packages/ggdendro/) for example.
 
-
 * * *
 
 **[Download the code in a single file.](/Rfiles/measures2.R)**

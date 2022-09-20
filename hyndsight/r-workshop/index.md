@@ -18,5 +18,3 @@ There was an R workshop on 28-29 June, just before the _Australian Statistical C
 
   * [handout](http://www.robjhyndman.com/research/Rpackages_notes.pdf)
   * [slides](http://www.robjhyndman.com/research/Rpackages.pdf)
-
-

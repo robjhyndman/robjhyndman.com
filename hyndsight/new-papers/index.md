@@ -16,15 +16,13 @@ The solution is simple. Take your pick from the following options. Each is autom
 
 
 
-    
   1. [Subscribe to the rss feed](http://feeds.feedburner.com/ProfessorRobJHyndman) on my website using [feedly](http://feedly.com) or some other rss reader.
 
-    
+
   2. [Subscribe to new papers via email](https://feedburner.google.com/fb/a/mailverify?uri=ProfessorRobJHyndman) from feedburner.
 
-    
-  3. Go to my [Google scholar page](https://scholar.google.com/citations?user=vamErfkAAAAJ&hl=en) and click "Follow" at the top of the page.
 
+  3. Go to my [Google scholar page](https://scholar.google.com/citations?user=vamErfkAAAAJ&hl=en) and click "Follow" at the top of the page.
 
 
 The latter method will work for anyone with a Google scholar page. The Google scholar option only includes research papers. The first two methods also include any new seminars I give or new software packages I write.

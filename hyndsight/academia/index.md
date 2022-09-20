@@ -13,19 +13,15 @@ The draft FAQ says it will cover:
 
 
 
-	
   * Life as a graduate student, postdoctoral researcher, university professor
 
-	
+
   * Transitioning from undergraduate to graduate researcher
 
-	
+
   * Inner workings of research departments
 
-	
+
   * Requirements and expectations of academicians
 
-
 Judging from the first 89 questions, this is going to be extremely helpful, especially for PhD students.
-
-

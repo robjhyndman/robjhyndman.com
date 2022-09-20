@@ -7,7 +7,6 @@ categories:
 - religion
 ---
 
-
 This is a very different book from my usual areas of forecasting and statistics. It is a personal memoir describing my journey of deconversion from Christianity.
 
 <table style="border: 0;">

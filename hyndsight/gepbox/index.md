@@ -24,11 +24,9 @@ There is an interesting [interview with George Box](/files/Boxinterview.pdf), c
 
 
 
-	
   * [Bradley Jones](http://blogs.sas.com/content/jmp/2013/03/29/george-box-a-remembrance/)
 
-	
-  * [John Hunter](http://management.curiouscatblog.net/2013/03/28/george-box/)
 
+  * [John Hunter](http://management.curiouscatblog.net/2013/03/28/george-box/)
 
 Box's extraordinary legacy continues through his [many published papers and books](http://scholar.google.com/scholar?q=author%3A%22gep+box%22), and through his students and their intellectual descendants, some of whom are [listed on the mathematical genealogy](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=42226).

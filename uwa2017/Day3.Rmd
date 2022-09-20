@@ -3,7 +3,7 @@ title: "Lab sessions: Day 3"
 author: "Rob J Hyndman"
 date: "28 September 2017"
 output: html_document
-editor_options: 
+editor_options:
   chunk_output_type: console
 ---
 
@@ -79,7 +79,7 @@ fit6$aicc
 
 ```{r}
 checkresiduals(fit6)
-fc <- forecast(fit6, 
+fc <- forecast(fit6,
       xreg=fourier(mytimeseries, 6,36))
 autoplot(fc)
 ```
@@ -144,9 +144,7 @@ forecast_bu <- forecast(data, h=10, method="bu")
 sqrt(sum(accuracy(forecast_bu, test)["RMSE",]^2))
 ```
 
-
 # Lab Session 16
-
 
 ```{r}
 library(thief)
@@ -187,7 +185,6 @@ fit <- nnetar(mytimeseries)
 checkresiduals(fit)
 forecast(fit, h=36, PI=TRUE) %>% autoplot
 ```
-
 
 # Lab Session 19
 
@@ -233,4 +230,3 @@ c(
 ```
 
 ETS does the best on this example. TBATS and NNETAR are not even competitive.
-

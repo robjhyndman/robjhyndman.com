@@ -23,13 +23,10 @@ where $y_t$ denotes an observation and $\hat{y}_t$ denotes its forecast, and the
 
 
 
-
 Thus, the MAPE puts a heavier penalty on negative errors (when $y_t < {\hat{y}_t}$) than on positive errors. This is what is stated in [my textbook](http://www.otexts.org/fpp/2/5). Unfortunately, Anne Koehler and I got it the wrong way around in [our 2006 paper on measures of forecast accuracy](/publications/another-look-at-measures-of-forecast-accuracy/), where we said the heavier penalty was on positive errors. We were probably thinking that a forecast that is too large is a positive error. However, forecast errors are defined as $y_t - \hat{y}_{t}$, so positive errors arise only when the forecast is too small.
 
 
 
-
-  
 
 
 To avoid the asymmetry of the MAPE, [Armstrong (1985, p.348)](http://www.forecastingprinciples.com/files/LRF-Ch13b.pdf) proposed the "adjusted MAPE", which he defined as
@@ -67,9 +64,7 @@ If all data and forecasts are non-negative, then the same values are obtained fr
 Personally, I would much prefer that either the original MAPE be used (when it makes sense), or the [mean absolute scaled error (MASE)](http://en.wikipedia.org/wiki/Mean_absolute_scaled_error) be used instead. There seems little point using the sMAPE except that it makes it easy to compare the performance of a new forecasting algorithm against the published M3 results. But even there, it is not necessary, as the forecasts submitted to the M3 competition are all available in the [Mcomp package for R](http://cran.r-project.org/web/packages/Mcomp/), so a comparison can easily be made using whatever measure you prefer.
 
 
-
 * * *
-
 
 
 Thanks to Andrey Kostenko for alerting me to the different definitions of sMAPE in the literature.

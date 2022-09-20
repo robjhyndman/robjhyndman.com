@@ -14,7 +14,6 @@ y <- ts(y,s=1)
 
 plot(y)
 
-
 ## SIMULATE FROM CROSTON'S METHOD
 
 lambda = 5
@@ -26,7 +25,6 @@ for(i in 1:1000)
     lambda <- (1-alpha)*lambda + alpha*y[i]
 }
 plot(ts(y))
-
 
 lambda = 50
 alpha = 0.2

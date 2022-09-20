@@ -22,5 +22,4 @@ By-products of our graphical displays are outlier detection methods for function
 
 **Keywords:** Highest density regions, Robust principal component analysis, Kernel density estimation, Outlier detection, Tukey's halfspace depth.
 
-
 **[R package](https://CRAN.R-project.org/package=rainbow)**

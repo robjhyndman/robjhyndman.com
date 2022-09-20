@@ -11,7 +11,6 @@ categories:
 image: /img/m4.png
 ---
 
-
 Following the highly successful [M4 Forecasting Competition](https://www.mcompetitions.unic.ac.cy/), there will be a conference held on 10-11 December at Tribeca Rooftop, New York, to discuss the results.
 
 The conference will elaborate on the findings of the M4 Competition, with prominent speakers from leading business firms (Amazon, Uber, Google, Microsoft, SAS, and ProLogistica) and top universities. Nassim Nicholas Taleb will deliver a keynote address about uncertainty in forecasting and elaborate on his claims that "tail risks are much worse now than in 2007" while Spyros Makridakis will discuss how organizations can benefit by improving the accuracy of their

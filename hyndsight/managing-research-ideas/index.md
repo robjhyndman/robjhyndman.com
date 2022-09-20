@@ -12,15 +12,12 @@ categories:
 
 I received this email today:
 
-
 > Dear Professor Hyndman,
 I was wondering if you could maybe give me some advice on how to organize your research process. I am able to search the literature on a certain topic and identify where there is a question to work with. My main difficult is to organize my paper annotations in order to help me to guide my research process, i.e, how to manage the information gathered in those papers to compose and structure a document which can represent the research developed so far.
 I have been looking at different tools such scrivener, Qiqqa, papers2, etc but I am not sure if one of these tools would be the right way to go. To be honest I am not even sure a tool would do what I am looking for, not just organize references and annotate pdfs but to get more control of my research process.
 I appreciate if I could get your thoughts on this subject.
 
-
 Here is my reply:
-
 
 > That's an interesting question, and probably the answer depends on personality and style of working. I can tell you what I do, but I wouldn't like to suggest that everyone should work like me.
 
@@ -31,6 +28,5 @@ Here is my reply:
 >At some point during this process, I start collecting papers that might be relevant. All my papers are kept in [Mendeley](http://www.mendeley.com), but I don't really use annotations. For a particular project, I create a group in Mendeley and start adding papers that I think I will need to cite.
 
 >Much later, when I've written up the main ideas, I go back to the group of research papers and think about how they fit in with my own work. Then I write a literature review which places my work in context. But it is important, I think, to understand that the literature review tends to be written after the main research ideas have been written up. I don't find it helpful to read lots of papers before developing some research ideas. Of course, because I have read a lot of papers for other purposes, I have absorbed a lot of ideas sub-consciously, so my research is not as independent as this seems. But when I'm doing it, I am almost never thinking of someone else's work.
-
 
 I wonder if any readers have alternative approaches that they would like to share?

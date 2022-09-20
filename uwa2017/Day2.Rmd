@@ -3,7 +3,7 @@ title: "Lab sessions: Day 2"
 author: "Rob J Hyndman"
 date: "27 September 2017"
 output: html_document
-editor_options: 
+editor_options:
   chunk_output_type: console
 ---
 
@@ -119,7 +119,7 @@ visitors %>% BoxCox(lambda=lambda) %>% diff(lag=12) %>% diff %>% autoplot
 ```
 
 ```{r}
-mytimeseries %>% 
+mytimeseries %>%
   BoxCox(lambda=0.12) %>%
   diff(lag=12) %>%
   diff(lag=1) %>%
@@ -139,7 +139,6 @@ wmurders %>% ets(lambda=0, model="AAN") %>% forecast %>% autoplot
 ```
 
 # Lab Session 12
-
 
 ```{r}
 lambda <- BoxCox.lambda(mytimeseries)

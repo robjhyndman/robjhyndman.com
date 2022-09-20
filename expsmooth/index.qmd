@@ -78,7 +78,6 @@ You can also download [individual csv files for each data set](expsmooth_data.zi
  * [Review by Lars-Erik Oller and Par Stockhammar, *International Journal of Forecasting*, 26(1), 204-205](https://doi.org/10.1016/j.ijforecast.2009.09.005)
  * [Amazon customer reviews](http://www.amazon.com/Forecasting-Exponential-Smoothing-Approach-Statistics/product-reviews/3540719164?tag=otexts-20)
 
-
 ## Errata
 
 This is the list of all errors that we know about. If you think you've spotted a new one, please [let us know](mailto:Rob.Hyndman@monash.edu?Subject=Errata)!
@@ -110,7 +109,6 @@ p85
 p90
 : last line: the last term should be just $\varepsilon_{n+j}$ not $\varepsilon q_{n+j}$
 
-
 p92
 : the sum on the first line should be multiplied by $\sigma^2$.
 
@@ -132,7 +130,6 @@ p150
 1 & \phi \\
 0 & \phi
 \end{array}\right]$. Similarly, in the ETS(A,A<sub>d</sub>,A) model, the second element of $\boldsymbol{w}$ should be $\phi$ and the second element of the top row of $\boldsymbol{F}$ should be $\phi$.
-
 
 p154
 : In the ETS(A,A<sub>d</sub>,N) model, the second column of $\boldsymbol{D}$ should contain $\phi(1-\alpha)$ and $\phi(1-\beta)$. Similarly, in the ETS(A,A<sub>d</sub>,A) model, the first two elements of the second column of $\boldsymbol{D}$ should be $\phi(1-\alpha)$ and $\phi(1-\beta)$.

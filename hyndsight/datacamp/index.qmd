@@ -10,14 +10,11 @@ categories:
 
 For the past few months I've been working on a new DataCamp course teaching [**Forecasting using R**](https://www.datacamp.com/courses/forecasting-using-r). I'm delighted that it is now available for anyone to do.<!-- more -->
 
-
 [![](/img/Datacamp.png)](https://www.datacamp.com/courses/forecasting-using-r)
-
 
 ## Course blurb
 
 Forecasting involves making predictions about the future. It is required in many situations such as deciding whether to build another power generation plant in the next ten years requires forecasts of future demand; scheduling staff in a call center next week requires forecasts of call volumes; stocking an inventory requires forecasts of stock requirements. Forecasts can be required several years in advance (for the case of capital investments), or only a few minutes beforehand (for telecommunication routing). Whatever the circumstances or time horizons involved, forecasting is an important aid to effective and efficient planning. This course provides an introduction to time series forecasting using R.
-
 
 ## Learning objectives
 
@@ -42,7 +39,4 @@ Chapter 4: Forecasting with ARIMA Models
 Chapter 5: Advanced Methods
 : The time series models in the previous chapters work well for many time series, but they are often not good for weekly or hourly data, and they do not allow for the inclusion of other information such as the effects of holidays, competitor activity, changes in the law, etc. In this chapter, you will look at some methods that handle more complicated seasonality, and you consider how to extend ARIMA models in order to allow other information to be included.
 
-
 ## [Check it out!](https://www.datacamp.com/courses/forecasting-using-r)
-
-

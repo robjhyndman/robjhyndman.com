@@ -39,7 +39,6 @@ tribble(
   knitr::kable()
 ```
 
-
 The big difference is that tsibbles can contain multiple time series, while `ts` objects can only contain one (possibly multivariate) time series. Note also that the `feasts` functions will only do one thing --- either compute some statistics or produce a plot --- unlike the `ggAcf()` function which does both.
 
 We will illustrate the above functions use the Australian quarterly holiday data by State, created in the last post.

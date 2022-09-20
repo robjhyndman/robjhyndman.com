@@ -12,14 +12,12 @@ In many research universities, there can be a tension that arises when great tea
 
 
 
-	
   * [Journal of Statistics Education](http://www.amstat.org/PUBLICATIONS/JSE/)
 
-	
+
   * [Statistics Education Research Journal](http://www.stat.auckland.ac.nz/serj/)
 
-	
-  * [Technology Innovations in Statistics Education](http://repositories.cdlib.org/uclastat/cts/tise/)
 
+  * [Technology Innovations in Statistics Education](http://repositories.cdlib.org/uclastat/cts/tise/)
 
 In addition, there is the less research-oriented (but certainly not less useful)  [Teaching Statistics](http://www.rsscse.org.uk/ts/).

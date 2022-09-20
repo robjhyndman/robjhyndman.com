@@ -18,11 +18,9 @@ Instead, I produced a cut-down version of my beamer slides, leaving out some of 
 The beamer manual suggests using the handout option with the pgfpages package, like this:
 
 
-    
     \documentclass[handout]{beamer}
     \usepackage{pgfpages}
     \pgfpagesuselayout{4 on 1}[a4paper,border shrink=5mm]
-    
 
 
 
@@ -31,9 +29,7 @@ Unfortunately that won't work for me because I also use the `textpos` package to
 Instead, the following works. First, add the handout option:
 
 
-    
     \documentclass[14pt,handout]{beamer}
-    
 
 
 
@@ -44,11 +40,9 @@ Then I wrap some of the slides in `\mode<beamer>{` ... `}`. These won't appear i
 When the file is compiled, each slide should now be printable. But I want several slides on each page. So I then use the **[`pdfnup`](http://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/firth/software/pdfjam/)** command (sorry Windows users, you need a real computer to do this):
 
 
-    
-    
-    pdfnup --a4paper --keepinfo --nup 1x3 --frame true 
+
+    pdfnup --a4paper --keepinfo --nup 1x3 --frame true
       --scale 0.92 --no-landscape --outfile handout.pdf slides.pdf
-    
 
 
 

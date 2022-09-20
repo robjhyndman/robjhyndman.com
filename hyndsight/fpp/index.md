@@ -24,20 +24,16 @@ The book is different from other forecasting textbooks in several ways.
 
 
 
-	
   * It is free and online, making it accessible to a wide audience.
 
-	
+
   * It is based around the [forecast package for R](http://github.com/robjhyndman/forecast/).
 
-	
+
   * It is continuously updated. You don't have to wait until the next edition for errors to be removed or new methods to be discussed. We will update the book frequently.
 
-	
+
   * There are dozens of real data examples taken from our own consulting practice. We have worked with hundreds of businesses and organizations helping them with forecasting issues, and this experience has contributed directly to many of the examples given here, as well as guiding our general philosophy of forecasting.
 
-	
+
   * We emphasise graphical methods more than most forecasters. We use graphs to explore the data, analyse the validity of the models fitted and present the forecasting results.
-
-
-

@@ -8,7 +8,6 @@ categories:
 - statistics
 ---
 
-
 Peter Hall passed away on Saturday after a long battle with illness over the last couple of years. No statistician will need reminding of Peter's extensive contributions to the field. He had over 500 published papers, and had won every major award available, many of them listed on his [Wikipedia page](https://en.wikipedia.org/wiki/Peter_Gavin_Hall).
 
 ![IMG_3865](/files/IMG_3865.jpg)

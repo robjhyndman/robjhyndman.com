@@ -16,5 +16,3 @@ The University of Melbourne is [advertising for a "Professor in Statistics (Data
 Actually, the Uni of Melbourne currently has two professorships on offer -- the other being the [Peter Hall Chair in Mathematical Statistics](http://jobs.unimelb.edu.au/caw/en/job/888076/peter-hall-chair-in-mathematical-statistics). (Not sure that anyone would actually feel qualified to have a job with that title!)
 
 So any professors of statistics out there looking for a new challenge, please consider coming to Melbourne. We'll even invite you to visit us from time to time at Monash.
-
-

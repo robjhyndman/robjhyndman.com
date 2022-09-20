@@ -14,7 +14,6 @@ details: Invited paper, Demographic Forecasting session, 55th session of the Int
 file: isi2005.pdf
 ---
 
-
 We propose a new method for forecasting age-specific mortality and fertility rates observed over time. We combine ideas from functional data analysis, nonparametric smoothing and robust statistics to form a methodology that is widely applicable to any functional time series data, and age-specific mortality and fertility in particular. Our approach provides a modelling framework that is easily adapted to allow for constraints and other information. The model used can be considered a generalization of the Lee-Carter model commonly used in mortality and fertility forecasting. The methodology is applied to Australian fertility data.
 
 **Keywords:** forecasting, mortality, fertility, functional data

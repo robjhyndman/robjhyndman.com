@@ -12,7 +12,6 @@ categories:
 
 When modelling data with ARIMA models, it is sometimes useful to plot the inverse characteristic roots. The following functions will compute and plot the inverse roots for any fitted ARIMA model (including seasonal models).<!-- more -->
 
-
 ```{r, cache=TRUE}
 # Compute AR roots
 arroots <- function(object)

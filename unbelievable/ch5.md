@@ -6,9 +6,7 @@ title: Talking to myself
 
 I tried hard to have an active and regular prayer time every morning for many, many years. I would rise early and spend time jotting some thoughts in my prayer journal. Then I would offer a prayer based on what I had written. For a few months in 2002, when we lived in Canberra, I would walk to the top of a nearby mountain each morning, and surrounded by grazing kangaroos I would say my prayers as the sun rose over Black Mountain. It was a beautiful, refreshing and meditative way to start each day. But most mornings, there was no conveniently located mountain nearby, and I would pray in the quiet privacy of my study before the rest of the household was awake.
 
-
 ## Adoration, Confession, Thanks, Supplication
-
 
 I used the ACTS structure that I had read about in _Too busy not to pray_ by Bill Hybels[^1]. I still have dozens of my prayer journals full of my prayer notes.
 
@@ -20,17 +18,13 @@ T for thanks came next. That was easy. There were always things I felt thankful 
 
 Finally I came to S for Supplication or requests. That was the easiest of all. I could quickly come up with a shopping list of things I would like God to do. Because that seemed wrong, I would restrict my requests to four or five things that seemed most important. I often asked for help in upcoming talks I was giving at Bible schools and Bible study weekends. I would also asked for God’s blessing on people being baptised, or people who I knew were struggling with life in some way. Our personal finances were also a frequent subject, especially in the early stages of my career when I was on relatively low wages and supporting my wife and four hungry children.
 
-
 ## A personal relationship with God
-
 
 One thing I prayed about on many occasions was to develop a closer personal relationship with God. It seemed to me that having a personal relationship with God was important. The faithful people in the Bible all had conversations with God, sometimes audibly and sometimes through prayers or prophets. Think about Abraham, Jacob, Moses, David, Hezekiah, Daniel, Jeremiah, Jesus and Paul, just to mention a few. God was involved in their lives, guiding them, communicating with them, supporting them through good times and bad. I wanted to be faithful and righteous, and so I thought it was important that God and I should be friends in some way. Besides, the religious books I read and the talks I listened to often emphasised the importance of “having a personal relationship” with God, although exactly what that meant or how to go about it was never discussed.
 
 However, it was clear to me that an important part of the relationship must be prayer. After all, if you were going to have a relationship with someone, you had to talk to them. That was what drove me to have a prayer time every morning, and it is why I repeatedly asked God to help me develop a closer relationship with him.
 
-
 ## My imaginary friend
-
 
 But if you are going to have a relationship with someone, they also have to communicate back. Apparently God wasn’t interested in doing that, or perhaps I was never able to hear him. Looking back, I now realise that this was one of the first things that made me think that the religion was bunkum, although it took me many years to admit that. I was devout and faithful, yet God never talked to me. What kind of relationship is that? If my wife never talked to me for years, and her side of the relationship was a bundle of old letters she wrote before we met, I wouldn’t have stuck with her either. Relationship needs interaction and communication, or it is a delusion.
 
@@ -42,9 +36,7 @@ We normally doubt the sanity of anyone claiming they have a personal relationshi
 
 I so much wanted to have a relationship with God that I continued praying for years, and consequently I _felt_ like I had a relationship with God. After all, I talked to him every day about everything that mattered to me. And when things turned out well, I could thank him for answering my prayers. If my requests were not granted, I took comfort that God knows best and he was taking care of my long-term well-being.
 
-
 ## A reflective practice is still useful
-
 
 Now I think that I was simply talking to myself. That does not mean that praying is not useful. I still think that times of quiet reflection, meditation and thankfulness are worthwhile.
 
@@ -55,7 +47,6 @@ When I was being thankful for what I thought God had provided, I was consciously
 When I was making requests of God, I was making plans for the future. I was considering upcoming events and activities, I was considering how to deal with issues that were likely to arise, and I was wondering about my friends and their struggles. If this leads to better future planning, and greater awareness of the needs of others, then it is a worthwhile activity, regardless of whether any supernatural power is actually listening.
 
 In other contexts this is called “reflection” or “meditation”, and it is practised in many religions and philosophies, whether or not they involve a God. Periods of self-reflection and meditation, and taking time to appreciate what you have, leads to greater peace and happiness. All those years of praying were probably useful after all, even if I was just talking to myself.
-
 
 
 [^1]: B. Hybels (1998). _Too busy not to pray: Slowing down to be with God_. Downers Grove, IL, USA: InterVarsity Press.

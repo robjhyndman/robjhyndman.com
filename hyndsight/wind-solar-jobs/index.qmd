@@ -29,6 +29,3 @@ The opportunities are as follows:
 - Background in time series forecasting desirable
 
 Please contact [Christoph Bergmeir](mailto:Christoph.Bergmeir@monash.edu) if you are interested.
-
-
-

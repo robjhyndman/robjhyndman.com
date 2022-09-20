@@ -15,9 +15,7 @@ It is easy enough to derive the mean forecast using a Taylor series expansion. S
 $$f(\mu) + \frac{1}{2}\sigma^2f''(\mu).$$<!-- more -->
 
 
-
 ### Box-Cox transformations
-
 
 
 For a Box-Cox transformation,
@@ -59,13 +57,10 @@ lines(fc$mean,col='red')
 ```
 
 
-
 The blue line shows the forecast medians while the red line shows the forecast means.
 
 
-
 ### Scaled logistic transformation
-
 
 
 In my [previous post on transformations](https://robjhyndman.com/hyndsight/forecasting-within-limits/), I described the scaled logit transformation for bounding a forecast between specified limits $a$ and $b$. In this case,
@@ -82,7 +77,6 @@ $$
 $$
 
 In R, this can be calculated as follows.
-
 
 ```{r, cache=TRUE}
 # Bounds

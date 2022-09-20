@@ -18,9 +18,7 @@ JSS prefers to publish papers about packages where the package is on [CRAN](http
 We prefer substantial packages rather than very specific but small packages. That is, a package that solves a very specific problem is less likely to be published than a package that provides a general toolkit for a discipline area, or one that implements a number of useful approaches to a problem. Think about making your package as ambitious as you can in scope and functionality. Here is an excerpt from a rejection letter I wrote:
 
 
-
 >This paper/package does what it claims quite well, but it could do so much more. It lacks ambition. As it stands, the package re-implements a popular algorithm in R. To be publishable in JSS, I would want to see it aim higher and provide more general facilities for xxxx...
-
 
 Descriptions of smaller and more focused packages may still be acceptable as papers in the "Code Snippets" section of the journal. But in that case, the paper should be suitably shorter.
 
@@ -36,35 +34,22 @@ Here are a few further comments taken directly from reports I have written on JS
 
 
 
-
-
   * The examples use the object name "`data`", which clashes with the `data()` function. Please avoid object names that already exist as functions.
-
 
   * The examples in the man files and in the paper would be easier to read if you put space around the assignment `<-`
 
-
   * Many symbols are not in math mode when not part of an equation. Please be consistent in putting mathematical symbols in math mode.
-
 
   * Much better error reporting is needed. It should return something interpretable whenever the user specifies inappropriate arguments.
 
-
   * Please consider using S3 methods and classes to allow much simpler printing and plotting.
-
 
   * The help page is unnecessarily cluttered. There seems no good reason to put all functions on the one page.
 
-
   * Given that plotting is one of the main features of this package, the available plotting facilities are very primitive. For example, it is not possible to change fonts, labels, line types, titles, or anything else. At least add an "`...`" argument so that plotting parameters can be used, and make sure that the plotting parameters passed in this way do not cause clashes.
-
 
   * You specify default values for most arguments, but then re-specify them in your examples. It would be simpler to leave out the arguments in the examples if you want to use the default values. Otherwise, why have defaults at all?
 
-
   * Use `FALSE` and `TRUE` not `F` and `T` in examples.
 
-
   * The code for xxxx would be simpler if you used `match.arg()` to do argument matching.
-
-

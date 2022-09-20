@@ -12,9 +12,7 @@ tags:
 - volatility
 ---
 
-
 (Later known as _Journal of Computational Intelligence in Finance_)
-
 
 
 The residuals between conventional option pricing models and market prices have persistent patterns or biases. The "hybrid" method models the residuals using an artificial neural network. The pricing accuracy of the hybrid method is demonstrated on real data using the Australian All Ordinaries Share Price Index options on futures and is compared with all major competing conventional models. The hybrid method is found to be both statistically and economically superior to the conventional models alone.

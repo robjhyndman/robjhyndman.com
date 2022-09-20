@@ -16,9 +16,7 @@ For example, the latest tiny fluctuation in the share price of a major company i
 
 What is going on here is that the commentators are assuming we live in a noise-free world. They imagine that everything is explicable, you just have to find the explanation. However, the world is noisy -- real data are subject to random fluctuations, and are often also measured inaccurately. So to interpret every little fluctuation is silly and misleading.<!-- more -->
 
-
 ### The finance news
-
 
 Every night on the nightly TV news bulletins, a supposed expert will go through the changes in share prices, stock prices indexes, currency rates, and economic indicators, from the past 24 hours. Have these guys never heard of the [efficient market hypothesis](http://en.wikipedia.org/wiki/Efficient-market_hypothesis)? The daily fluctuations in these time series are guaranteed to be close to white noise. So unless the change is much larger than normal, it is not worth reporting. (Or if it must be reported, than it should not be interpreted.)
 
@@ -26,9 +24,7 @@ A good rule-of-thumb would be that the change should not be interpreted unless i
 
 Sadly, that's unlikely to happen. Investors don't like to think that their fortune is largely governed by randomness. I suspect that they get comfort in hearing bogus explanations of random fluctuations, because then they feel better about what is happening to their money. It also gives an illusion of potential control --- if only I had known x, I could have made a different decision and made more money. People seem to like to think that the world is more controllable and less random than it really is.
 
-
 ### Seasonally adjusted data
-
 
 Seasonal adjustment of data usually assumes the following model
 $$ Y_t = T_t \times S_t \times E_t,$$
@@ -40,15 +36,11 @@ There are two simple solutions to this problem:
 
 
 
-
   1. Report the trend figure instead. It is far less volatile and more likely to reflect what is really happening with unemployment.
-
 
   2. Only report changes in seasonally adjusted data when they are significant. The ABS helpfully provides a 95% confidence interval for the change in $Y_t^*$, but that seems to be ignored.
 
-
 However, that would mean that media outlets would have to be responsible, and not fill nightly news bulletins with meaningless interpretations of random fluctuations. It would also mean that politicians would have to be responsible, and not over-hype tiny increases or tiny decreases in the seasonally adjusted data. Unfortunately, that's unlikely to happen any time soon.
-
 
 
 (Photo credit: [FreeFoto](http://www.freefoto.com/preview/04-03-2/Stock-Market-Prices), reproduced under [CC licence](http://creativecommons.org/licenses/by-nc-nd/3.0/).)

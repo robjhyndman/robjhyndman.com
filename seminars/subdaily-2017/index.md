@@ -5,7 +5,6 @@ venue: Melbourne R Users Group
 mathjax: false
 ---
 
-
 Talk given by me, [Earo Wang](http://earo.me) and [Mitchell O'Hara-Wild](https://www.mitchelloharawild.com/) at the Melbourne Users of R Network meeting.
 
 ## Slides

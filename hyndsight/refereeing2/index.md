@@ -12,14 +12,12 @@ categories:
 
 
 
-	
   1. [Refereeing a journal article part 1: reading](http://patthomson.wordpress.com/2012/01/07/refereeing-a-journal-article-part-1-reading/)
 
-	
+
   2. [Refereeing a journal article part 2: making a recommendation](http://patthomson.wordpress.com/2012/01/13/refereeing-a-journal-article-part-2-making-a-recommendation/)
 
-	
-  3. [Refereeing a journal article part 3: writing the feedback](http://patthomson.wordpress.com/2012/01/19/refereeing-a-journal-article-part-3-writing-the-feedback/)
 
+  3. [Refereeing a journal article part 3: writing the feedback](http://patthomson.wordpress.com/2012/01/19/refereeing-a-journal-article-part-3-writing-the-feedback/)
 
 If every reviewer followed her advice, my life as an editor would be much easier, and the quality of research would be improved.

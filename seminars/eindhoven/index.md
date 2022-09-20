@@ -10,7 +10,6 @@ date: 2016-10-19
 draft: no
 ---
 
-
 **Date**: 19-21 October 2016<br>
 **Location**: Eurandom, Metaforum Building MF11-12, Department of Mathematics and Computer Science, TU Eindhoven, the Netherlands
 
@@ -127,7 +126,6 @@ Participants will be assumed to be familiar with basic statistical tools such as
   <td><a href="/eindhoven/2-5-SeasonalARIMA.pdf" target="_new">Slides</a></td>
 </tr>
 </table>
-
 
 ### Friday 21 October
 
