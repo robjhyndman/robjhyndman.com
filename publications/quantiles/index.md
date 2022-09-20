@@ -16,7 +16,7 @@ There are a large number of different definitions used for sample quantiles in s
 
 **Keywords:** sample quantiles, percentiles, quartiles, statistical computer packages.
 
-**R code:** The [quantile()](https://www.rdocumentation.org/packages/stats/topics/quantile) function in R from version 2.0.0 onwards implements all the methods in this paper.
+**R code:** The [quantile()](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/quantile.html) function in R from version 2.0.0 onwards implements all the methods in this paper.
 
 **Errata:**
 
