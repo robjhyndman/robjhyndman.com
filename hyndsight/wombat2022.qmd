@@ -1,0 +1,39 @@
+---
+title: "Wombat 2022"
+date: 2022-09-20
+categories:
+- conferences
+- data science
+- Monash University
+- R
+- statistics
+img: /img/amanda_cox.jpg
+fig-align: right
+---
+
+WOMBAT is back! The WOMBAT conferences are "Workshops Organized by the Monash Business Analytics Team". The first one was held in 2016, and later editions took place in 2017 and 2019. The [2022 version](https://www.monash.edu/business/events/wombat-2022-communicating-with-data) will take place on 6-7 December.
+
+The focus this year is on communicating with data. As with all WOMBAT events, the purpose is to bring together analysts from academia, industry and government to learn and discuss new open source tools for business analytics and data science.
+
+## 6 December
+
+The first day will be virtual with 8 tutorials to choose from. I will be giving one on ["Exploratory time series analysis using R"](https://numbats.github.io/WOMBAT2022/tutorial/rob.html). Each tutorial has limited places, so register early!
+
+## 7 December
+
+![](/img/amanda_cox.jpg){style="float: right;width: 50%; padding-left: 10px;"}
+The second day will be in-person workshop, limited 60 people. The keynote speaker is [Amanda Cox](http://amandacox.github.io/), Head of special data projects, USAFacts. She is well-known for the sixteen years she spent at *The New York Times* producing some amazing data visualizations. She will speak on "Charts and Words: Being more influential with your data graphics".
+
+Other invited speakers will talk about data communication in environment, health and sport.
+
+The workshop on December 7 will be held at the [Royal South Yarra Lawn Tennis Club](https://www.rsyltc.org.au/), located near the Yarra River, at [310 Williams Rd N, Toorak](https://goo.gl/maps/E6F9fL5E6SHorn818).
+
+## Registration
+
+The **6 Dec online tutorials** are each limited to 20 participants. [**Register for tutorials only here**](https://www.trybooking.com/CCNOH). Registering for the 7 Dec workshop provides a 30% discount on tutorial registration. Your discount code will be sent in the confirmation email after you have first registered for 7 Dec.
+
+The **7 Dec in-person event** is limited to 60 attendees. [**Register here**](https://www.trybooking.com/CCEGM). Registration includes lunch, morning and afternoon tea.
+
+## More details
+
+For more details, see [the event website](https://www.monash.edu/business/events/wombat-2022-communicating-with-data).
