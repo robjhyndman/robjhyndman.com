@@ -8,7 +8,7 @@ listing:
     title: "Publications by Rob J Hyndman"
     description: "Working papers and published articles by Professor Rob J Hyndman"
   categories: false
-  sort-ui: [date, title, author]
+  sort-ui: false
   filter-ui: [date, title, author, details]
   date-format: "YYYY"
   page-size: 999
