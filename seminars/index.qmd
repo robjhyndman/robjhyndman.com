@@ -9,7 +9,7 @@ listing:
   categories: false
   sort-ui: true
   filter-ui: [date, title, venue]
-  date-format: "DD MMM YYYY"
+  date-format: "DD MMM YYYY"
   type: table
   page-size: 999
   fields:
