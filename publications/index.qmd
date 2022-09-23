@@ -11,7 +11,7 @@ listing:
   sort-ui: [date, title, author]
   filter-ui: [date, title, author, details]
   date-format: "YYYY"
-  page-size: 50
+  page-size: 999
 sidebar: false
 page-layout: full
 title-block-banner: false

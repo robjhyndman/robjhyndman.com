@@ -4,7 +4,7 @@
     margin: 10px 0;
   }
 </style>
-<ul class="list">
+<ol class="list" reversed>
 <% for (const item of items) { %>
   <li <%= metadataAttrs(item) %>>
     <a href="<%- item.path %>" class="listing-author"><%= item.author %> (<span class="listing-date"><%= item.date %></span>) <span class="listing-title"><%= item.title %></span>.
@@ -13,6 +13,6 @@
         <% } %></a>
   </li>
 <% } %>
-</ul>
+</ol>
 </span>
 ```
