@@ -3,16 +3,19 @@
   li {
     margin: 10px 0;
   }
+
 </style>
 <ol class="list" reversed>
-<% for (const item of items) { %>
-  <li <%= metadataAttrs(item) %>>
-    <a href="<%- item.path %>" class="listing-author"><%= item.author %> (<%= item.date %>) <%= item.title %>.
-      <% if (item.details) { %>
-        <%= item.details %>.
-        <% } %></a>
-  </li>
-<% } %>
+  <% for (const item of items) { %>
+    <li <%=metadataAttrs(item) %>>
+      <a href="<%- item.path %>">
+        <%= item.author %> (<%= item.date %>) <%= item.title %>.
+          <% if (item.details) { %>
+            <%= item.details %>.
+          <% } %>
+      </a>
+    </li>
+  <% } %>
 </ol>
 </span>
 ```
