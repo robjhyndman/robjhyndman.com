@@ -357,7 +357,3 @@ div.quarto-post .listing-categories:hover .listing-category:hover {
 #mlb2-4240669.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
   padding: 0px !important;
 }
-
-.listing-date, .listing-title, .listing-venue .table>:not(caption)>*>* {
-  padding: 0.1rem 0.5rem !important;
- }

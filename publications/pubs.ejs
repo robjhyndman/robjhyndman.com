@@ -9,10 +9,12 @@
   <% for (const item of items) { %>
     <li <%=metadataAttrs(item) %>>
       <a href="<%- item.path %>">
-        <%= item.author %> (<%= item.date %>) <%= item.title %>.
-          <% if (item.details) { %>
-            <%= item.details %>.
-          <% } %>
+        <span class="listing-author"><%= item.author %></span>
+        (<span class="listing-date"><%= item.date %></span>)
+        <span class="listing-title"><%= item.title %></span>.
+        <% if (item.details) { %>
+          <span class="listing-details"><%= item.details %></span>.
+        <% } %>
       </a>
     </li>
   <% } %>
