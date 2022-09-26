@@ -1,6 +1,6 @@
 ---
 author: Rob J Hyndman, Dianne Cook
-date: 2020-05-17
+date: 2019-05-17
 slug: voting
 title: "You are what you vote: the social and demographic factors that influence your vote"
 kind: article
