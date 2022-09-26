@@ -11,15 +11,11 @@ categories:
 The next few locations for the [International Symposium on Forecasting](http://www.forecasters.org/isf) [have been announced](http://forecasters.org/conferences/international-symposium-on-forecasting/):
 
 
-
   * 2014: Rotterdam, The Netherlands
-
 
   * 2015: Riverside, California, USA
 
-
   * 2016: Santander, Spain
-
 
   * 2017: Cairns, Australia
 

@@ -14,9 +14,7 @@ Many functions in the forecast package for R will allow a Box-Cox transformation
 It is easy enough to derive the mean forecast using a Taylor series expansion. Suppose $f(x)$ represents the back-transformation function, $\mu$ is the mean on the transformed scale and $\sigma^2$ is the variance on the transformed scale. Then using the first three terms of a Taylor expansion around $\mu$, the mean on the original scale is given by
 $$f(\mu) + \frac{1}{2}\sigma^2f''(\mu).$$<!-- more -->
 
-
 ### Box-Cox transformations
-
 
 For a Box-Cox transformation,
 $$f(x) = \begin{cases}
@@ -56,12 +54,9 @@ fc$mean <- fc$mean * (1 + 0.5*fvar*(1-fit$lambda)/(fc$mean)^(2*fit$lambda))
 lines(fc$mean,col='red')
 ```
 
-
 The blue line shows the forecast medians while the red line shows the forecast means.
 
-
 ### Scaled logistic transformation
-
 
 In my [previous post on transformations](https://robjhyndman.com/hyndsight/forecasting-within-limits/), I described the scaled logit transformation for bounding a forecast between specified limits $a$ and $b$. In this case,
 $$f^{-1}(x) = \log\left(\frac{x-a}{b-x}\right)$$

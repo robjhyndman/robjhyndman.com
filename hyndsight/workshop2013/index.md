@@ -11,10 +11,7 @@ We are planning a workshop on multivariate time series modelling and forecasting
 
 **Call for papers**: all submissions should be sent in pdf format to [george.athanasopoulos@monash.edu ](mailto:george.athanasopoulos@monash.edu)by **20 November 2012**.
 
-
 ### Keynote speakers
-
-
 
 
 
@@ -27,9 +24,7 @@ We are planning a workshop on multivariate time series modelling and forecasting
   * [Professor George Kapetanios](http://econ.qmul.ac.uk/staff/georgekapetanios.html) (Queen Mary, University of London)
 
 
-
 ### Special Issue
-
 
 All workshop presenters will be invited to submit their papers for a special issue of the _[International Journal of Forecasting](http://ijf.forecasters.org/) _on multivariate time series modelling. A broader call for papers for this special issue will be announced later on this year.
 

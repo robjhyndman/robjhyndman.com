@@ -36,18 +36,15 @@ cran_top_downloads(when='last-month')
    10   ggplot2 192072 2015-11-09 2015-12-08
 ```
 
-
 OK, that is very weird. Four of those packages are mine (forecast, fpp, expsmooth, and fma), and zoo, Rcpp, lmtest and tseries are all dependencies of forecast. Further, expsmooth, fma and forecast are all dependencies of fpp. So it looks like a lot of people were installing fpp plus all its dependencies.
 
 If we check the daily downloads for 2015, we get the following plot.
-
 
 
     library(ggplot2)
     data <- cran_downloads(packages=c("forecast","fpp"), from="2015-01-01")
     qplot(date, count, data=data, geom="line", colour=package,
       ylab="Downloads", main="Package downloads in past year")
-
 
 
 [![Rplot](/files/fppdownloads.png)](/files/fppdownloads.png)

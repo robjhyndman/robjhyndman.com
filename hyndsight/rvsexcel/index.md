@@ -11,7 +11,6 @@ categories:
 This was the topic of a recent conversation on the [Australian and New Zealand R mailing list](https://list.science.auckland.ac.nz/sympa/info/stat-rdownunder). Here is an edited list of some of the comments made.
 
 
-
   * R is free.
 
   * R is well-documented.
@@ -43,7 +42,6 @@ This was the topic of a recent conversation on the [Australian and New Zealand R
   * The statistical package available in Excel is very limited in capability and should only be used by experienced applied statisticians who can work out when its output should be ignored.
 
   * While R takes a while to learn, it provides a broad range of possible analyses and does not constrain users to a very limited set of methods (as is the case for Excel).
-
 
 Further comments on this theme are available at the following sites:
 

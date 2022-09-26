@@ -13,7 +13,6 @@ details: <em>Pharmacoepidemiology & Drug Safety</em> <b>16</b>(3), 297-308
 doi: 10.1002/pds.1243
 ---
 
-
 **Abstract:**
 **Purpose** To measure changes in drug utilization following a national general practice education program aimed at improving prescribing for hypertension.
 

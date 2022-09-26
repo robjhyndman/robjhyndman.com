@@ -16,15 +16,11 @@ A very useful way of keeping up with blogs in a particular area is to subscribe 
 There are now several blog aggregators available that might be of interest to readers here. And this blog is now syndicated on several other sites including those listed below.<!-- more -->
 
 
-
   * **[R-bloggers](http://www.r-bloggers.com/)**: for all R-related blogs. The posts tagged R from this blog are syndicated there along with about 300 other R blogs.
-
 
   * **[Statsblogs](http://www.statsblogs.com/)** for statistical blogs. This is a very new aggregator, but is growing fast. There is naturally some overlap with R-bloggers. All posts from this blog are syndicated there.
 
-
   * **[TeX community](http://www.texample.net/community/)** for TeX related blogs. The posts tagged LaTeX from this blog are syndicated there along with about 40 other TeX blogs.
-
 
   * **[Mathblogging.org](http://www.mathblogging.org/)** aggregates a number of mathematics blogs. All posts from this blog are syndicated there.
 
@@ -33,9 +29,7 @@ In addition, for those interested in economics, **[EconAcademics.org](http://eco
 I have also set up two aggregations for new research papers:
 
 
-
   * **[StatisticsPapers](http://feeds.feedburner.com/StatisticsPapers)** includes all papers appearing in over 60 of the major statistics journals as well as the [statistics section of arXiv](http://arxiv.org/archive/stat).
-
 
   * **[Forecasting papers](http://feeds.feedburner.com/Forecasting)** includes all new papers on forecasting that have appeared on [RePEc](http://econpapers.repec.org/) or in either the [_International Journal of Forecasting_](http://ijf.forecasters.org/) or the [_Journal of Forecasting_](http://www3.interscience.wiley.com/journal/2966/home). The papers from RePEc constitute the weekly [NEP-FOR report](http://ideas.repec.org/n/nep-for/).
 

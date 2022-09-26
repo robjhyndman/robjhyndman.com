@@ -12,12 +12,9 @@ categories:
 As an editor, I like to see referee reports comprising three sections:
 
 
-
   1. A general summary of the paper and the contribution it makes. You need to highlight here what is new and interesting about the paper, as well as give a summary in a few sentences.
 
-
   2. The major problems that need addressing.  This is probably the most important section of your report where you explain the main problems. The editor will read this very carefully when deciding whether to accept, reject or invite a revision, so you need to make sure that any problems are clearly explained here. If you think the paper should be rejected, then you have to make a good case in this second section. On the other hand, if you think it is a great paper that deserves publication, please explain what is so good about it.
-
 
   3. Minor things such as typos or points of clarification. These are often less important issues, but need correcting before publication.
 

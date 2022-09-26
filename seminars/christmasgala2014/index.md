@@ -34,7 +34,6 @@ There’s so much that goes on with data that is about computing, not statistics
 
 >Statistics is important—don’t get me wrong—statistics helps us correct biases ... estimate causal effects ... regularize so that we’re not overwhelmed by noise ... fit models ... visualize data ... I love statistics! But it’s not the most important part of data science, or even close.
 
-
 How can two professors of statistics have such different views on their discipline? The same perspectives can be seen in the following two diagrams (both reproduced with permission).
 
 [![Data_Science_VD](/files/Data_Science_VD.png)](/files/Data_Science_VD.png)

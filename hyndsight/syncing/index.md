@@ -10,7 +10,6 @@ categories:
 
 Like many people, I use more than one computer and I like to have all my files, bookmarks and other settings synchronized across my computers. Fortunately, that is getting easier as more tools are made available for keeping computers synchronized. So I thought it might be timely to review how to keep computers "synced".
 
-
 **Files:**
 :    By far the best service is [**Dropbox**](http://dropbox.com). All files within the "My Dropbox" directory are backed up online and synchronized with any other computer associated with your account. It is free if you use less than 2Gb of storage, and $99 per year for up to 50Gb of storage. It is amazingly fast and just works in the background without you having to do anything. I have used two other competitor services that had received quite good reviews online ([Syncplicity](http://www.syncplicity.com) and [SugarSync](http://www.sugarsync.com)) but both were MUCH slower than Dropbox and did not always update my files properly. Dropbox works on Windows, Mac and Linux. You can also share some files/directories with other users. Apart from syncing, you also have a full online backup if anything goes wrong with your computers. Finally, you can access your files from other computers (or on your phone) by logging in to the dropbox website. (There is a nice iPhone app which makes it easy to access your files while travelling.)
 

@@ -14,7 +14,6 @@ About once a week someone will tell me there is a bug in my [forecast package](h
 A point forecast is (usually) the mean of the distribution of a future observation in the time series, conditional on the past observations of the time series. It is possible, even likely in some circumstances, that the future observations will have the same mean and then the forecast function is flat.
 
 
-
   * A random walk model will return a flat forecast function (equal to the last observed value of the series).
 
   * An ETS(A,N,N) model will return a flat forecast function.

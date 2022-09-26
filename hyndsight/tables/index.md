@@ -14,20 +14,14 @@ Lately the topic seems to have been getting some much-needed attention and the f
 
 
 
-
   * [Some notes on making effective tables](http://stats.blogoverflow.com/2012/02/some-notes-on-making-effective-tables/) (Wheeler 2012)
-
 
   * [Why tables are really much better than graphs](http://www.tandfonline.com/doi/abs/10.1198/jcgs.2011.09166) (Gelman 2011) -- a satirical article in JCGS, pointing out some of the characteristics of _bad_ tables.
 
-
 These two older books are also extremely useful references on good table design.
-
 
   * [Show Me the Numbers: Designing Tables and Graphs to Enlighten](http://www.amazon.com/gp/product/0970601999/ref=as_li_ss_tl?ie=UTF8&tag=prorobjhyn-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0970601999)![](http://www.assoc-amazon.com/e/ir?t=prorobjhyn-20&l=as2&o=1&a=0970601999) (Few 2004)
 
-
   * [The Chicago Guide to Writing about Numbers](http://www.amazon.com/gp/product/0226526313/ref=as_li_ss_tl?ie=UTF8&tag=prorobjhyn-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0226526313) (Miller 2004)
-
 
 Finally, tables can often be replaced with graphics to better effect, a point argued by [Gelman, Pasarica and Dodhia (2002)](http://www.stat.columbia.edu/~gelman/research/published/dodhia.pdf) -- this one is not satirical!

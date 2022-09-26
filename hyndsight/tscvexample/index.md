@@ -14,7 +14,6 @@ I was recently asked how to implement [time series cross-validation](https://rob
 Here is some example code applying time series CV and comparing 1-step, 2-step, ..., 12-step forecasts using the Mean Absolute Error (MAE). Here I compare (1) a linear model containing trend and seasonal dummies applied to the log data; (2) an ARIMA model applied to the log data; and (3) an ETS model applied to the original data. The code is slow because I am estimating an ARIMA and ETS model for each iteration. (I'm also estimating a linear model, but that doesn't take long.)
 
 
-
     library(fpp) # To load the data set a10
     plot(a10, ylab="$ million", xlab="Year", main="Antidiabetic drug sales")
     plot(log(a10), ylab="", xlab="Year", main="Log Antidiabetic drug sales")
@@ -47,22 +46,18 @@ Here is some example code applying time series CV and comparing 1-step, 2-step, 
     legend("topleft",legend=c("LM","ARIMA","ETS"),col=2:4,lty=1)
 
 
-
 This yields the following figure.
 ![](/files/mae1.png)
 
 A useful variation on this procedure is to keep the training window of fixed length. In that case, replace the first line in the for loop with
 
 
-
     xshort <- window(a10, start=st+(i-k+1)/12, end=st+i/12)
-
 
 
 Then the training set always consists of k observations.
 
 Another variation is to compute one-step forecasts in the test set. Then the body of the for loop should be replaced with the following.
-
 
 
       xshort <- window(a10, end=st + i/12)
@@ -82,11 +77,9 @@ Another variation is to compute one-step forecasts in the test set. Then the bod
       mae3[i,1:length(xnext)] <- abs(fcast3-xnext)
 
 
-
 Here the models are fitted to the training set (`xshort`), and then applied to the longer data set (`xlong`) without re-estimating the parameters. So the fitted values from the latter are one-step forecasts on the whole data set. Therefore, the last part of the fitted values vector are one-step forecasts on the test set.
 
 Yet another variation which is useful for large data sets is to use a form of k-fold cross-validation where the training sets increment by several values at a time. For example, instead of incrementing by one observation in each iteration, we could shift the training set forward by 12 observations.
-
 
 
     k <- 60 # minimum data length for fitting a model
@@ -115,9 +108,7 @@ Yet another variation which is useful for large data sets is to use a form of k-
     legend("topleft",legend=c("LM","ARIMA","ETS"),col=2:4,lty=1)
 
 
-
 However, because this is based on fewer estimation steps, the results are much more volatile. It may be best to average over the forecast horizon as well:
-
 
 
     > mean(mae1)
@@ -126,7 +117,6 @@ However, because this is based on fewer estimation steps, the results are much m
     [1] 0.7118831
     > mean(mae3)
     [1] 0.792813
-
 
 
 The above code assumes you are using v3.02 or later of the [forecast package](http://github.com/robjhyndman/forecast/).

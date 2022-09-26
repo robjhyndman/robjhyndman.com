@@ -34,7 +34,6 @@ Here is a very simple example:
 Note the following features:
 
 
-
   * The `fontspec` package is almost always necessary with XeLaTeX and contains commands to load the required fonts.
 
   * You usually need the command `\defaultfontfeatures{Ligatures=TeX}`. This is so the new fonts behave in the way we've come to expect with LaTeX, such as allowing an em-dash to be written as `---`.

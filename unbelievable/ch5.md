@@ -48,7 +48,6 @@ When I was making requests of God, I was making plans for the future. I was cons
 
 In other contexts this is called “reflection” or “meditation”, and it is practised in many religions and philosophies, whether or not they involve a God. Periods of self-reflection and meditation, and taking time to appreciate what you have, leads to greater peace and happiness. All those years of praying were probably useful after all, even if I was just talking to myself.
 
-
 [^1]: B. Hybels (1998). _Too busy not to pray: Slowing down to be with God_. Downers Grove, IL, USA: InterVarsity Press.
 
 [^2]: R. A. Emmons and M. E. McCullough (2003). Counting blessings versus burdens: an experimental investigation of gratitude and subjective well-being in daily life. _Journal of Personality and Social Psychology_ **84**(2), 377–389.

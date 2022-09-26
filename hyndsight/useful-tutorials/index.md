@@ -15,20 +15,14 @@ There are some tools that I use regularly, and I would like my research student
 
 
 
-
   * [ggplot tutorial](http://www.cookbook-r.com/Graphs/) from Winston Chang
-
 
   * [Writing an R package](http://kbroman.org/pkg_primer/) from Karl Broman
 
-
   * [Rmarkdown](http://rmarkdown.rstudio.com/) from RStudio
-
 
   * [Shiny](http://shiny.rstudio.com/tutorial/) from RStudio
 
-
   * [git/github guide](http://kbroman.org/github_tutorial/) from Karl Broman
-
 
   * [minimal make tutorial](http://kbroman.org/minimal_make/) from Karl Broman

@@ -20,12 +20,9 @@ A few years ago I produced ["Twenty rules for good graphics"](https://robjhyndma
 
 
 
-
   * Represent time changes using lines.
 
-
   * Never use fill patterns such as cross-hatching.
-
 
 (My original rule #20 said Avoid pie charts.)
 

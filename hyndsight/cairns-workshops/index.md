@@ -18,7 +18,6 @@ We are currently calling for workshop proposals. Proposals can be for a half-day
 Though June sounds far away, planning for the conference is well underway! If you are interested in proposing a workshop, please provide the following information by 3 November 2017:
 
 
-
   * Title of workshop
 
   * Duration – 1/2 or full day
@@ -26,7 +25,6 @@ Though June sounds far away, planning for the conference is well underway! If yo
   * A brief synopsis (about 1/2 page).
 
   * Any additional details pertaining to your workshop, which will assist us in the review process.
-
 
 Proposals should be sent by email to [pamstroud@forecasters.org](mailto:pamstroud@forecasters.org).
 

@@ -11,7 +11,6 @@ categories:
 
 I gave this talk on **_[Forecasting time series using R](http://www.meetup.com/MelbURN-Melbourne-Users-of-R-Network/events/30544191/)_** for the [Melbourne Users of R Network (MelbURN)](http://www.meetup.com/MelbURN-Melbourne-Users-of-R-Network/) on Thursday 27 October 2011.
 
-
 **[Slides](https://robjhyndman.com/talks/MelbourneRUG.pdf)**
 **[Examples](https://robjhyndman.com/talks/MelbourneRUGexamples.R)**
 

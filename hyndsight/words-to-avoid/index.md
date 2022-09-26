@@ -10,30 +10,21 @@ categories:
 According to [Andrew Gelman](http://www.stat.columbia.edu/~cook/movabletype/archives/2008/05/avoid_always_or.html), we should avoid these words in research writing:
 
 
-
   * Note that
-
 
   * Interestingly
 
-
   * Obviously
-
 
   * It is clear that
 
-
   * It is interesting to note that
-
 
   * very
 
-
   * quite
 
-
   * of course
-
 
   * Notice that
 

@@ -20,15 +20,11 @@ I often receive email asking about IJF quality indicators. Here is one I receive
 And here is part of my reply:
 
 
-
   * The IJF is ranked A in Australia (we have four levels -- A*, A, B and C).†
-
 
   * The IJF 2011 2-year impact factor is 1.485. In 2010 it was 1.863. The five year impact factor is 2.450. Compare this to the _Journal of Business and Economic Statistics_ which has a 2-year impact factor of 1.693, or _Computational Statistics & Data Analysis_ with 1.089.
 
-
   * We are ranked 40 out of 305 economics journals based on our 2-year impact factor.
-
 
   * We receive about 400 submissions annually, and publish about 70 per year. But that includes invited papers. Of the contributed papers, we reject about 85-90%.
 

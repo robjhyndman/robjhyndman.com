@@ -14,7 +14,6 @@ One of the things I repeatedly include in referee reports, and in my responses t
 The following "rules" are in no particular order.
 
 
-
   1. Use vector graphics such as eps or pdf. These scale properly and do not look fuzzy when enlarged. Do not use jpeg, bmp or png files as these will look fuzzy when enlarged, or if saved at very high resolutions will be enormous files. Jpegs in particular are designed for photographs not statistical graphics.
 
   2. Use readable fonts. For graphics I prefer sans-serif fonts such as Helvetica or Arial. Make sure the font size is readable after the figure is scaled to whatever size it will be printed.
@@ -57,10 +56,8 @@ The following "rules" are in no particular order.
 
 The classic books on graphics are:
 
-
   * [Tufte's "The Visual Display of Quantitative Information" (2nd ed, 2001).](http://amzn.com/dp/0961392142/?tag=otexts-20)
 
   * [Cleveland's "The Elements of Graphing Data" (2nd ed, 1994).](http://amzn.com/dp/0963488414/?tag=otexts-20)
-
 
 These are both highly recommended.

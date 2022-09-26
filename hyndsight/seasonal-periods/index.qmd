@@ -50,16 +50,12 @@ You won't necessarily want to include all of these frequencies --- just the ones
 
 For example, the `taylor` data set from the `forecast` package contains half-hourly electricity demand data from England and Wales over about 3 months in 2000. It was defined as
 
-
     taylor <- msts(x, seasonal.periods=c(48,336)
-
 
 One convenient model for multiple seasonal time series is a TBATS model:
 
-
     taylor.fit <- tbats(taylor)
     plot(forecast(taylor.fit))
-
 
 (Warning: this takes a few minutes.)
 

@@ -14,9 +14,7 @@ categories:
 
 I'm currently attending the [one day workshop on this topic](https://web.archive.org/web/20170305013150/http://acems.org.au/statistical-modelling-and-analysis-of-big-data-workshop-2015//) at QUT in Brisbane. This morning I spoke on "Visualizing and forecasting big time series data". My [slides are here](/seminars/big-time-series-data/).
 
-
 ### OVERVIEW
-
 
 Big data is now endemic in business, industry, government, environmental management, medical science, social research and so on. One of the commensurate challenges is how to effectively model and analyse these data.
 

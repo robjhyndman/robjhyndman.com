@@ -22,10 +22,7 @@ where $y_t$ denotes an observation and $\hat{y}_t$ denotes its forecast, and the
 [Armstrong (1985, p.348)](http://www.forecastingprinciples.com/files/LRF-Ch13b.pdf) was the first (to my knowledge) to point out the asymmetry of the MAPE saying that "it has a bias favoring estimates that are below the actual values".<!-- more --> A few years later, [Armstrong and Collopy (1992)](http://dx.doi.org/10.1016/0169-2070%2892%2990008-W) argued that the MAPE "puts a heavier penalty on forecasts that exceed the actual than those that are less than the actual". [Makridakis (1993)](http://dx.doi.org/10.1016/0169-2070%2893%2990079-3) took up the argument saying that "equal errors above the actual value result in a greater APE than those below the actual value". He provided an example where $y_t=150$ and $\hat{y}_t=100$, so that the relative error is 50/150=0.33, in contrast to the situation where $y_t=100$ and $\hat{y}_t=150$, when the relative error would be 50/100=0.50.
 
 
-
 Thus, the MAPE puts a heavier penalty on negative errors (when $y_t < {\hat{y}_t}$) than on positive errors. This is what is stated in [my textbook](http://www.otexts.org/fpp/2/5). Unfortunately, Anne Koehler and I got it the wrong way around in [our 2006 paper on measures of forecast accuracy](/publications/another-look-at-measures-of-forecast-accuracy/), where we said the heavier penalty was on positive errors. We were probably thinking that a forecast that is too large is a positive error. However, forecast errors are defined as $y_t - \hat{y}_{t}$, so positive errors arise only when the forecast is too small.
-
-
 
 
 
@@ -63,8 +60,6 @@ If all data and forecasts are non-negative, then the same values are obtained fr
 
 Personally, I would much prefer that either the original MAPE be used (when it makes sense), or the [mean absolute scaled error (MASE)](http://en.wikipedia.org/wiki/Mean_absolute_scaled_error) be used instead. There seems little point using the sMAPE except that it makes it easy to compare the performance of a new forecasting algorithm against the published M3 results. But even there, it is not necessary, as the forecasts submitted to the M3 competition are all available in the [Mcomp package for R](http://cran.r-project.org/web/packages/Mcomp/), so a comparison can easily be made using whatever measure you prefer.
 
-
 * * *
-
 
 Thanks to Andrey Kostenko for alerting me to the different definitions of sMAPE in the literature.

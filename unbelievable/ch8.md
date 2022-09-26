@@ -68,7 +68,6 @@ A further problem is that the supposed “major empires” do not include the mo
 But probably the most devastating problem concerns the date of Daniel. There is good evidence that Daniel was written during the time of Antiochus Epiphanes in the 2nd century BC, and not by some captive in Babylon in the 6th century BC. For example:
 
 
-
   1. Daniel is not part of the group of prophets in the Hebrew Bible; it is found in the section known as “Writings” instead. This suggests that it appeared after the canon for the prophetic books had closed (usually considered to be around 200 BC).
 
   2. The apocryphal book known as the _Wisdom of Sirach_ dates from about 180 BC, and does not quote Daniel, although it does quote almost every other book of the Old Testament. On the other hand, copies of Daniel have been found at Qumran, and it is cited by later second century BC documents such as the Sibylline Oracles[^4]. Again, this suggests a second century date for Daniel.
@@ -215,7 +214,6 @@ There are many other “prophecies” that are frequently cited as evidence for 
 In every case, the alleged prophecies fail to provide evidence for the Bible’s inspiration.
 
 People have told me that I should have faith that the prophecies will be fulfilled or have been fulfilled. But it is not possible to have it both ways — either they are evidence, or I need faith. Something cannot function as evidence for the faith needed to believe it.
-
 
 [^1]: See J. Pakkala (2009). The date of the oldest edition of Deuteronomy. _Zeitschrift für die Alttestamentliche Wissenschaft_ **121**(3), 388–401.
 

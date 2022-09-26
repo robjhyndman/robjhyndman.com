@@ -19,7 +19,6 @@ tags:
 Talk given to a joint meeting of the [Statistical Society of Australia (Victorian branch)](http://www.meetup.com/Statistical-Society-of-Australia-Victorian-Branch/events/221315445/) and the [Melbourne Data Science Meetup Group](http://www.meetup.com/Data-Science-Melbourne/events/220621482/).<!-- more -->
 
 
-
 It is becoming increasingly common for organizations to collect very large amounts of data over time. Data visualization is essential for exploring and understanding structures and patterns, and to identify unusual observations. However, the sheer quantity of data available challenges current time series visualisation methods.
 
 For example, Yahoo has banks of mail servers that are monitored over time. Many measurements on server performance are collected every hour for each of thousands of servers. We wish to identify servers that are behaving unusually.

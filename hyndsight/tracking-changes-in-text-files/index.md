@@ -18,12 +18,9 @@ The bar on the left shows the parts of the file that have been changed. White ba
 The software enables me to:
 
 
-
   * See all deletions, additions & changes highlighted.
 
-
   * Choose to over-ride any changes that are not wanted.
-
 
   * Edit either file onscreen and refresh the highlighted differences.
 

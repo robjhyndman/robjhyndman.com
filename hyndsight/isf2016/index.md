@@ -13,9 +13,7 @@ Santander, Spain – Palace of La Magdalena
 
 The **International Symposium on Forecasting** (ISF) is the premier forecasting conference, attracting the world's leading forecasting researchers, practitioners, and students. Through a combination of keynote speaker presentations, academic sessions, workshops, and social programs, the ISF provides many excellent opportunities for networking, learning, and fun.
 
-
 ### Speakers:
-
 
 **Greg Allenby**, The Ohio State University, USA
 **Todd Clark**, Federal Reserve Bank of Cleveland, USA
@@ -25,9 +23,7 @@ The **International Symposium on Forecasting** (ISF) is the premier forecasting 
 **Henrik Madsen**, Technical University of Denmark
 **Adrian Raftery**, University of Washington, USA
 
-
 ### Important Dates
-
 
 Invited Session Proposals: January 31 2016
 Abstract Submissions: March 16 2016

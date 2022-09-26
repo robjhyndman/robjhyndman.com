@@ -23,7 +23,6 @@ Unlike most of my talks, this is not intended to be primarily about my own resea
 Those attending are asked to do some pre-reading. Here are the papers I've requested to be read beforehand:
 
 
-
   1. [Makridakis & Hibon, (JRSSA 1979)](http://www.jstor.org/stable/2345077) was the first serious attempt at a large empirical evaluation of forecast methods.  It was followed by discussion which is documented in the paper. The discussion is heated and entertaining, and important in understanding the different perspectives on this topic at the time.
 
   2. [Makridakis & Hibon (IJF, 2000)](http://www.forecastingprinciples.com/paperpdf/Makridakia-The%20M3%20Competition.pdf) can be considered a successor to the 1979 paper and describes the largest published forecasting competition to date. While the algorithms used are not discussed in any detail, the resulting comparisons are provided.
@@ -43,7 +42,6 @@ In addition to providing automatic forecasts when required, these algorithms als
 I will describe some algorithms for automatically forecasting univariate time series that have been developed over the last 20 years. The role of forecasting competitions in comparing the forecast accuracy of these algorithms will also be discussed.
 
 Finally, I will describe methods for evaluating forecasting algorithms which use the available data as efficiently as possible.
-
 
 ### Slides
 

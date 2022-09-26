@@ -14,7 +14,6 @@ I am now using [biblatex](http://www.ctan.org/pkg/biblatex) for all my bibliogra
 Here is my default setting which should be suitable for almost all statistics and econometrics journals.
 
 
-
     % Load the package
     \usepackage{url}
     \usepackage[style=authoryear, bibencoding=utf8, minnames=1, maxnames=3,
@@ -48,13 +47,10 @@ Here is my default setting which should be suitable for almost all statistics an
     \AtEveryCitekey{\clearfield{month}}
 
 
-
 If you already use natbib, then all you have to do is replace
 
 
-
     \usepackage{natbib}
-
 
 
 with the above code in your preamble, remove any `\bibliographystyle` commands, move `\bibliography{bibfile}` to the preamble, and add `\printbibliography` where you want the bibliography to appear. All the `\citet` and `\citep` commands should still work without modification.

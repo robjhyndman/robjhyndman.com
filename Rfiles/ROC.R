@@ -346,7 +346,6 @@ calc.cfg <- function(H,H1,H2,x,y,diag=1)
     return(cfg)
 }
 
-
 # Compute estimates for Delta function
 crossval.int <- function(H,H1,H2,x,y,diag=1)
 {

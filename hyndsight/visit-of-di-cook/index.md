@@ -19,9 +19,7 @@ Next week, [Professor Di Cook](http://dicook.org) from Iowa State University is
 
 For those wanting to hear her speak, read on.<!-- more -->
 
-
 ### Research seminar
-
 
 She will be giving a seminar at 2pm on Monday 18 August at the Monash Clayton campus (Rm E457, Menzies Building 11).
 
@@ -32,9 +30,7 @@ She will be giving a seminar at 2pm on Monday 18 August at the Monash Clayton 
 In this talk, we will explain how graphical methods were used to study the tech boom and bust of the late 1990s, food quality control, atmospheric CO2 levels and temperature changes, stimulus fund spending, university ranking, PISA education data, labor market wages, stock market trends, and soybean breeding for agribusiness. (Ok, only a selection of these will be used.) We will explain how interactive statistical graphics systems are constructed that enable data exploration, how this differs from computer graphics, and how incorporating inferential techniques enables us to determine if what we see is real. We will also describe new developments that allow (almost) everyone to become developers. Good data visualisation equips statisticians to balance skepticism with discovery, and helps business analysts swim with their data.
 
 
-
 ### Meetup talk on data visualization
-
 
 On Thursday evening, Di will speak at ["Visualize That"](http://www.meetup.com/Data-Science-Melbourne/events/191366522/), an event organized by the Melbourne Data Science Meetup group (beginning at 6pm).
 
@@ -48,12 +44,9 @@ Nadal's post-interview language, to the contrary, indicates that he thinks Nick 
 
 > "He has things, positive things, to be a good player. But everything is a little bit easier when you are arriving."[ http://dailym.ai/1jlEfrc](http://dailym.ai/1jlEfrc)
 
-
 We can take a look at Nick's stats in comparison to the other players in the tournament, and to the best players, by scraping data from the Wimbledon web site, using the R package XML, and making plots using the R package ggplot2. The statistics available include aces, double faults, % first serves in, % first and second serves won, fastest serve speed, average first and second serve speed, net points won, break points won, receiving points won, winners and unforced errors, for each match.
 
 
-
 ### Research group meeting
-
 
 Finally, my research group will have a private meeting with Di on data visualization issues. As preparation for our discussions, the group have been asked to watch the following Google Tech Talk by [Hadley Wickham](http://had.co.nz/) on interactive graphics. Hadley is very well-known in the R world as the author of ggplot2, plyr, and a huge range of other extremely useful packages; he was previously a PhD student of Di Cook.

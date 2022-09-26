@@ -13,7 +13,6 @@ A major news outlet interviewed me on predictive analytics. Here were my respons
 
 >Data mining is not just for tech companies, in fact it can be especially useful for industries which are not typically thought of to be 'innovative' such as agriculture. What are some of the main industries that you think benefit from predictive analysis?
 
-
 Any industry that collects data can use data mining and statistical modelling.
 
 Agriculture is becoming a heavy user of data science methods, with data being collected on every aspect of crop or livestock health and development. This data is then used to optimize crop rotation, or breeding programs.
@@ -24,16 +23,13 @@ Many companies are collecting data, but not using it effectively. I've worked wi
 
 >What can predictive analytics tell us that we would be surprised by?
 
-
 I am frequently surprised when I am on Amazon how good it is at predicting what books I might be interested in. These suggestions are from a "recommendation algorithm" that is based on what books I have bought, or browsed, in the past. I do buy a lot of books, so I've provided plenty of data for Amazon to predict my interests. Netflix uses a similar algorithm, although it is not so good in my case because I haven't watched enough movies and TV for it to learn what I like.
 
 In Pennsylvania, [statistical models are being used to predict if someone convicted of a crime is likely to re-offend](https://www.themarshallproject.org/2015/08/04/the-new-science-of-sentencing). This information is being used to determine the length of sentences in some cases. So the time in prison is based not just on what crime the person has committed, but also on what crimes they are predicted to commit in the future.
 
 A related project is to predict at the time someone is born, how likely it is that they will commit a crime before they turn 18, based on the history of the child's parents, their socio-economic status, where they live, and so on. The big question, of course, is how will those predictions be used?
 
-
 >Are there limits to how much data we can mine and what it can tell us?
-
 
 The data sets that are being mined are getting larger every year. Google handles data sets involving every search query from every user in the world for many years. The data set is so large that it has to be distributed across thousands of separate computers just to store it. Once a data set is too large for an individual computer to handle, we need to use a different set of tools for data analysis. There has been a lot of work in recent years on making analysis on distributed data sets easier. It is hard to see that there would be a limit to the amount of data that could be stored.
 

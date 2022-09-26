@@ -27,18 +27,13 @@ The URL [crossvalidated.com](http://crossvalidated.com) will work, but re-direct
 The site is intended for use by statisticians, data miners, and anyone else doing data analysis. It covers questions about
 
 
-
   * statistical analysis
-
 
   * data mining and machine learning
 
-
   * data visualization
 
-
   * probability theory
-
 
   * statistical and data-driven computing (e.g., questions about R, SAS, SPSS, Stata and Minitab)
 

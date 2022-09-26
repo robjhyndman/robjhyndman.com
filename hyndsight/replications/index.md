@@ -8,7 +8,6 @@ categories:
 
 ### Reproducible research
 
-
 One of the best ways to get started with research in a new area is to try to replicate some existing research. In doing so, you will usually gain a much better understanding of the topic, and you will often discover some problems with the research, or develop ideas that will lead to a new research paper.
 
 Unfortunately, a lot of papers are not reproducible because the data are not made available, or the description of the methods are not detailed enough. The good news is that there is a growing move amongst funding agencies and journals to make more research reproducible.  Peng, Dominici and Zeger (2006) and Koenker and Zeileis (2009) provide helpful discussions of new tools (especially Sweave) for making research easier to reproduce.
@@ -27,18 +26,13 @@ provision of code as well as data is encouraged, but not required.
 >Six months ago, the _International Journal of Forecasting_ website ([ijf.forecasters.org](http://ijf.forecasters.org)) was redesigned to allow supplements and comments on each published paper. Supplementary information about a paper can be provided by authors and is freely available online. This can include data, computer code, large tables, extra ﬁgures, extended footnotes, extra relevant material, etc. Authors are required to provide whatever material is needed allow their results to be replicated without excessive difﬁculty.
 
 
-
 ### Replication articles
-
 
 It has become standard in most sciences for results to be replicated before being widely accepted. Remember cold fusion? Research findings that cannot be independently verified under the same or very similar conditions are little more than published opinions. In fact, the painstaking step-by-step duplication of published research is often the only way to properly assess the work done by others (Laine et al, 2007). While replicating research is accepted practice in medicine, chemistry, physics, and many other areas of science, it has not been part of the research culture in statistics, econometrics and other fields associated with forecasting.
 
 The _International Journal of Forecasting_ is trying to change this culture, and is willing to publish replication articles, especially if they provide new insights into published results. For example, we published Gardner & Diaz-Saiz (2008) which attempted to replicate Fildes et al (1998) and provided some useful new insight into the original results. In the next issue of the journal, there will also be an invited paper by Heiner Evanschitzky and Scott Armstrong on replications in forecasting research.  I hope everyone working in forecasting, statistics, econometrics and related fields will soon come to see replication studies as an important part of the research process.
 
-
 ### References
-
-
 
 
 
@@ -57,10 +51,7 @@ The _International Journal of Forecasting_ is trying to change this culture, and
   7. [Peng, R. D., Dominici, F., & Zeger, S. L. (2006). Reproducible epidemiologic research. _American Journal of Epidemiology_, **163** (9), 783–789.](http://dx.doi.org/10.1093/aje/kwj093)
 
 
-
 ### Some useful websites
-
-
 
 
 

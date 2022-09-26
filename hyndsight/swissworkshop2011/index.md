@@ -29,7 +29,6 @@ Workshop participants will be assumed to be familiar with basic statistical tool
 
 The workshop is being organized by the Swiss Statistical Society. The [workshop brochure](/files/Forecasting-Hyndman-June-2011.pdf) provides additional information about costs and registration.
 
-
 ### Continue the fun in Prague
 
 The forecasting workshop finishes on Wednesday 22 June, and I will then be flying to Prague for the 31st [International Symposium on Forecasting](http://www.forecasters.org/isf/), beginning on Sunday 26 June. The ISF is the leading international forecasting conference and is always well-worth attending for anyone involved with forecasting research. I hope some of the workshop participants will also join me in Prague for the ongoing forecasting fun and festivities!

@@ -21,5 +21,4 @@ I asked my research group recently what they wished they had learned before they
 
   * **More nonparametric smoothing and Bayesian statistics** (as distinct from classical statistics). I think this is a legacy of undergraduate curricula not keeping up with statistical development. However, there will always be some areas of statistics that you have not covered but find you need. When you do statistical research you should expect to have to master some areas on you own, either because it was not covered in your formal training, or because the topic didn't exist when you did your formal coursework. The trick is to find a good textbook and give yourself the time to read it carefully.
 
-
 I'm interested if any readers have additions for this list.

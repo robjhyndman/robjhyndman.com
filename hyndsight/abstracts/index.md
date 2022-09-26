@@ -12,18 +12,13 @@ The abstract is probably the most important part of a paper. Many readers will n
 A good abstract will contain the following elements.
 
 
-
   1. What did you do?
-
 
   2. Why did you do it? What question were you trying to answer?
 
-
   3. How did you do it? State your methods.
 
-
   4. What did you learn? State your major results.
-
 
   5. Why does it matter? Point out at least one significant implication.
 
@@ -31,18 +26,13 @@ An abstract should stand on its own, and not refer to any other part of the pape
 
 Other things to keep in mind:
 
-
   * As a summary of work done, it is always written in the past tense.
-
 
   * Be explicit, precise and concise.
 
-
   * Stick to a single paragraph.
 
-
   * Restrict background information to a sentence or two at most.
-
 
   * Make sure that your abstract is consistent with what you reported in the paper. (This is particular important when a paper has been revised and results may have changed.)
 

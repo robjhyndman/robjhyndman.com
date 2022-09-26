@@ -5,7 +5,6 @@ image: treeandsky.resized.jpg
 # Bibliography {-}
 
 
-
 Angelakis, A. N. and S. V. Spyridakis (1996). ‘The status of water resources in Minoan times: A preliminary study’. In: _Diachronic Climatic Impacts on Water Resources: with emphasis on the Mediterranean region_. Edited by A. N. Angelakis and A. S. Issar. Volume 36. NATO ASI Series. Berlin: Springer, pp.161–191.
 
 Archer, G. L. (1982). _Encyclopedia of Bible difficulties_. Grand Rapids, MI, USA: Zondervan.
@@ -97,11 +96,9 @@ Van Seters, J. (2001). ‘The geography of the Exodus’. In: _The Land that I W
 Wenham, J. (2005). _Easter enigma: Are the resurrection accounts in conflict?_ Eugene, OR, USA: Wipf & Stock Pub.
 
 
-
 ## Suggested reading
 
 **The following books are those that I found useful in my exploration of a worldview without God.**
-
 
 [Bartholomew, D. J. (2008). _God, chance and purpose: Can God have it both ways?_ Cambridge, England: Cambridge University Press.](http://amzn.com/dp/B000SMACX0/?tag=otexts-20)
 

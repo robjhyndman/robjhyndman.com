@@ -34,19 +34,14 @@ In both cases, the color choices are set by choosing a theme. I prefer to type o
 Occasionally I have to write a paper using MS-Word or something similar. I lose even more hair each time it happens, and I spend my time failing to convince my coauthors to at least use an online collaborative editor instead of circulating drafts by email. There are a few solutions available:
 
 
-
   * [**Google Docs**](http://docs.google.com). This is my favourite non-LaTeX solution, partly because it integrates seamlessly with other Google products and also because it works amazingly well for real-time joint editing. It is easy to save the document as a pdf or in MS-Word format when it is finished, although conversion to MS-Word format is not perfect.
 
-
   * [**SkyDrive**](http://skydrive.live.com) is Microsoft's response to the move to online editing. Apparently it works well, although I've never tried it. Saving in docx format should work better than in Google Docs. Real-time editing only became available in November 2013, so it probably still has some glitches.
-
 
 
 Before anyone comments about using a version control system such as svn or git, in this post I'm discussing solutions for coauthors that want something easy using software they don't have to install. I also use git and github with some of my coauthors, but I'll leave that to another post.
 
 
-
 * * *
-
 
 Note: this is an update of a post from four years ago. The online offerings have changed enough that I thought it needed revising.

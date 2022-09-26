@@ -23,8 +23,6 @@ We evaluate the performance of various methods for forecasting tourism demand. T
 
 [Peter Ellis blog post about the data](http://ellisp.github.io/blog/2016/10/19/Tcomp)
 
-
 * * *
-
 
 [See my blog for the competition based on this paper.](/hyndsight/tourism-forecasting-competition/)

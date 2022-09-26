@@ -11,7 +11,6 @@ categories:
 
 The editorial board of the _International Journal of Forecasting_ is going through a renewal process with several changes to the team of editors and the team of associate editors in the last few weeks.<!-- more -->
 
-
 ### New Editors
 
 <img src="/files/elliott.jpg" width=200>
@@ -30,9 +29,7 @@ In light of the increasing number of submissions we are handling, we have decide
 
 With these appointments, the team of editors now consists of Dick van Dijk, George Kapetanios, Mike McCracken, Dilek Önkal, Esther Ruiz, and me.
 
-
 ### New Associate Editors
-
 
 In addition to these changes, we have also made some changes to the associate editor panel. Obviously we have recently lost two associate editors in Michael McCracken and Dilek Önkal who have both become editors. In addition, two more associate editors have retired.
 

@@ -16,15 +16,11 @@ Jeremy describes his approach to seasonal time series in a [blog post on Kaggle.
 A few lessons that come out of this:
 
 
-
   * For data from a single industry, using a global trend (i.e., estimated across all series) can be useful.
-
 
   * Combining forecasts is a good idea. (This lesson seems to be re-learned in every forecasting competition!)
 
-
   * The MASE can be very sensitive to a few series, and to optimize MASE it is worth concentrating on these. (This is actually not a good message for forecasting overall, as we want good forecasts for all series. Maybe we need to find a metric with similar properties to MASE but with a less skewed distribution.)
-
 
   * Outlier removal before forecasting can be effective. (This is an interesting result as outlier removal algorithms used in the M3 competition did not help forecast accuracy.)
 

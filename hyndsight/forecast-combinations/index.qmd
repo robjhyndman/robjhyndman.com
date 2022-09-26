@@ -63,7 +63,6 @@ autoplot(df) +
 
 ## forecastHybrid
 
-
 The `forecastHybrid` package from David Shaub and Peter Ellis fits multiple models from the `forecast` package and then combines them using either equal weights, or weights based on in-sample errors. By default, the models combined are from the `auto.arima`, `ets`, `nnetar`, `stlm` and `tbats` functions. David Shaub provides a [helpful vignette](https://cran.r-project.org/web/packages/forecastHybrid/vignettes/forecastHybrid.html) explaining how to use the package.
 
 Here is an example using the same `co2` data.
@@ -77,7 +76,6 @@ fc2 <- forecast(fit2, h=h)
 autoplot(fc1) + ggtitle("Hybrid 1") + xlab("Year") +
  ylab(expression("Atmospheric concentration of CO"[2]))
 ```
-
 
 Those prediction intervals look dodgy because they are way too conservative. The package is taking the widest possible intervals that includes all the intervals produced by the individual models. So you only need one bad model, and the prediction intervals are screwed. To compute prediction intervals with the required coverage, it would be necessary to estimate the covariances between the different forecast errors, and then find the resulting variance expression for the linear combination of methods.
 

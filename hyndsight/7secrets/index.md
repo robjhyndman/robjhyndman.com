@@ -14,7 +14,6 @@ categories:
 It seems everyone has [7 secrets to success](http://www.google.com/search?q=seven+secrets+of+highly), and now someone has hopped on the 7-secrets bandwagon with something for PhD students. Thinkwell is an Australian company offering a seminar and associated work book on ["The 7 secrets of highly successful PhD students"](http://www.ithinkwell.com.au/bookshop/the-seven-secrets). I bought the book out of curiosity, but "book" is a gross exaggeration -- only eleven pages of fairly simplistic advice. I hope the seminar has more substance. For what it's worth, here are the so-called seven secrets.
 
 
-
   1. Care and maintenance of your supervisor.
 
   2. Write and show as you go.

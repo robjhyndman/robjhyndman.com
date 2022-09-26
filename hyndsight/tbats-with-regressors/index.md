@@ -16,13 +16,11 @@ When I want to include covariates in a time series model, I tend to use `auto.ar
 For example, if `holiday` contains some dummy variables associated with public holidays and `holidayf` contains the corresponding variables for the first 100 forecast periods, then the following code can be used:
 
 
-
     y <- msts(x, seasonal.periods=c(7,365.25))
     z <- fourier(y, K=c(2,5))
     zf <- fourierf(y, K=c(2,5), h=100)
     fit <- auto.arima(y, xreg=cbind(z,holiday), seasonal=FALSE)
     fc <- forecast(fit, xreg=cbind(zf,holidayf), h=100)
-
 
 
 The main disadvantage of the ARIMA approach is that the seasonality is forced to be periodic, whereas a TBATS model allows for dynamic seasonality.

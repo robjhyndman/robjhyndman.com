@@ -138,7 +138,6 @@ simulate.mnn = function(n,alpha,ilev,error,param,case=NA)
     return(list(y=y,eps=eps,l=l))
 }
 
-
 ## AMN
 set.seed(8)
 alpha = 0.1
@@ -161,7 +160,6 @@ par(mfrow=c(3,1))
 plot(ts(c(NA,y),s=0),xlim=c(0,9.6),ylim=c(-500,500),ylab="y")
 plot(ts(l[1:11],s=0),xlim=c(0,9.6),ylim=c(-1,1),ylab="ell");abline(0,0,lty=3)
 plot(ts(b,s=0),ylab="b",xlim=c(0,9.6))
-
 
 # MNN Model, whose sample paths converge to zero with normal and non-normal errors
 

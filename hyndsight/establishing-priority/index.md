@@ -24,14 +24,10 @@ However, occasionally, even then someone else might beat you to print. A colleag
 This makes me suspicious. The papers were _very_ similar. Did a reviewer read the paper, and decide to do something similar himself, with an extension? It would be almost impossible to prove if that was the case, without knowing who the reviewers were. But here is what I advised him to do.
 
 
-
   1. Write to the journal pointing out that your paper was written four months before the other one, was publicly accessible, and wasn't even cited.
-
 
   2. Write to the other author pointing out that he has ignored your earlier work, and request that he cite it and include a paragraph explaining how his approach is different.
 
-
   3. If you get asked to review his paper, you can be more insistent that he acknowledge priority.
-
 
   4. If his paper gets published somewhere without acknowledgement of your work, you could write a letter to the editor pointing out the omission.

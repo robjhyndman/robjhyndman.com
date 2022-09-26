@@ -35,12 +35,10 @@ When the ABS releases an important time series, they will normally report both t
 There are two simple solutions to this problem:
 
 
-
   1. Report the trend figure instead. It is far less volatile and more likely to reflect what is really happening with unemployment.
 
   2. Only report changes in seasonally adjusted data when they are significant. The ABS helpfully provides a 95% confidence interval for the change in $Y_t^*$, but that seems to be ignored.
 
 However, that would mean that media outlets would have to be responsible, and not fill nightly news bulletins with meaningless interpretations of random fluctuations. It would also mean that politicians would have to be responsible, and not over-hype tiny increases or tiny decreases in the seasonally adjusted data. Unfortunately, that's unlikely to happen any time soon.
-
 
 (Photo credit: [FreeFoto](http://www.freefoto.com/preview/04-03-2/Stock-Market-Prices), reproduced under [CC licence](http://creativecommons.org/licenses/by-nc-nd/3.0/).)

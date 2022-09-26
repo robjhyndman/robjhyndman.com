@@ -17,9 +17,7 @@ y_t = \phi_1 y_{t-1} + \cdots + \phi_p y_{t-p} - \theta_1 z_{t-1} - \dots - \the
 $$
 where $z_t$ is a white noise process (i.e., zero mean and iid).
 
-
 ## ARMAX models
-
 
 An ARMAX model simply adds in the covariate on the right hand side:
 $$
@@ -35,9 +33,7 @@ y_t = \frac{\beta}{\phi(B)}x_t + \frac{\theta(B)}{\phi(B)}z_t,
 $$
 where $\phi(B)=1-\phi_1B -\cdots - \phi_pB^p$ and $\theta(B)=1-\theta_1B-\cdots-\theta_qB^q$. Notice how the AR coefficients get mixed up with both the covariates and the error term.
 
-
 ## Regression with ARMA errors
-
 
 For this reason, I prefer to use regression models with ARMA errors, defined as follows.
 \begin{align}
@@ -51,9 +47,7 @@ $$
 y_t = \beta x_t + \frac{\theta(B)}{\phi(B)}z_t.
 $$
 
-
 ## Transfer function models
-
 
 Both of these models can be considered as special cases of transfer function models, popularized by Box and Jenkins:
 $$
@@ -65,15 +59,11 @@ Sometimes these are called "dynamic regression models", although different books
 
 The method for selecting the orders of a transfer function model that is described in Box and Jenkins is cumbersome and difficult, but continues to be described in textbooks. A much better procedure is given in [Pankratz (1991)](http://www.amazon.com/gp/product/0471615285?ie=UTF8&tag=prorobjhyn-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0471615285), and repeated in my [1998 forecasting textbook](https://robjhyndman.com/forecasting/).
 
-
 ## Non-stationary data
-
 
 For ARIMA errors, we simply replace $\phi(B)$ with $\nabla^d\phi(B)$ where $\nabla=(1-B)$ denotes the differencing operator. Notice that this is equivalent to differencing both $y_t$ and $x_t$ before fitting the model with ARMA errors. In fact, it is necessary to difference all variables first as estimation of a model with non-stationary errors is not consistent and can lead to "spurious regression".
 
-
 ## R functions
-
 
 The `arima()` function in R (and `Arima()` and `auto.arima()` from the [forecast package](http://github.com/robjhyndman/forecast/)) fits a regression with ARIMA errors. Note that R reverses the signs of the moving average coefficients compared to the standard parameterization given above.
 

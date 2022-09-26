@@ -13,7 +13,6 @@ doi: 10.1111/j.1365-2222.2007.02818.x
 ---
 
 
-
 _Background:_ The effects of environmental factors and ambient concentrations of grass pollen on allergic asthma are yet to be established.
 
 _Objective:_ We sought to estimate the independent effects of grass pollen concentrations in the air over Melbourne on asthma hospital admissions, for the 1992-1993 pollen season.

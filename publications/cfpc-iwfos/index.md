@@ -14,7 +14,6 @@ details: "<em>Contributions in infinite-dimensional statistics and related topic
 online: https://books.google.com.au/books?hl=en&lr=&id=ssycAwAAQBAJ&oi=fnd&pg=PA161&dq=Common+functional+principal+component+models+for+mortality+forecasting&ots=-A9VtfkUct&sig=ClzDtZMdzQ6xC8IxyCjrYYZJMtQ&redir_esc=y#v=onepage&q=Common%20functional%20principal%20component%20models%20for%20mortality%20forecasting&f=false
 ---
 
-
  We explore models for forecasting groups of functional time series data that exploit common features in the data. Our models involve fitting common (or partially common) functional principal component models and forecasting the coefficients using univariate time series methods. We illustrate our approach by forecasting age-specific mortality rates for males and females in Australia.
 
 **[Slides for talk](https://robjhyndman.com/talks/IWFOS-Hyndman.pdf)**

@@ -10,7 +10,6 @@ categories:
 
 This came up recently on [StackOverflow](http://stackoverflow.com/questions/1429907/workflow-for-statistical-analysis-and-report-writing). One of the answers was particularly helpful and I thought it might be worth mentioning here. The idea presented there is  to break the code into four files, all stored in your project directory. These four files are to be processed in the following order.
 
-
 **load.R**
 :     This file includes all code associated with loading the data. Usually, it will be a short file reading in data from files.
 
@@ -29,7 +28,6 @@ There are many advantages to this set up. First, you don't have to reload the da
 Often there will be bits and pieces of code that you write, but don't end up using, yet don't want to delete. These should either be commented out or saved in files with other names. All analysis from reading data to producing the final results should be reproducible by simply `source()`ing these four files in order with no further user intervention.
 
 I've tried this process on a few projects and found it rather too restrictive. In particular, my `do.R` file often becomes large and unwieldy. Instead, I am now using the following process.
-
 
 **main.R**
 :    This file simply contains a list of source statements to run each of the other R files in order.

@@ -16,51 +16,35 @@ I tried [TeXnicCenter](http://www.texniccenter.org/) for a while, the most popul
 So I've been looking around for another LaTeX editor, and after trying a handful of alternatives, discovered **[TeXstudio](http://texstudio.sourceforge.net/)** (previously called TexMakerX) which seems very clean and simple, but does everything I need. The following features are great:
 
 
-
   * Colour syntax coding;
-
 
   * Integrated pdf viewer with syncing in both directions;
 
-
   * Tree view of document structure automatically created and highlighting my position in the document;
-
 
   * Auto-completion of standard commands;
 
-
   * Auto-fill of \ref commands;
-
 
   * Automatic detection of master document;
 
-
   * Automatically works with MikTeX with no configuration required;
-
 
   * Code folding;
 
-
   * Error list with automatic linking to the relevant line of the document;
-
 
   * Regex search and replace facility;
 
-
   * One click build process for LaTeX documents;
-
 
   * Built-in spelling checker;
 
-
   * Built-in thesaurus;
-
 
   * Text analysis including word counts;
 
-
   * It works on Windows, Unix/Linux, BSD and Mac OS X;
-
 
   * Freeware.
 

@@ -18,7 +18,6 @@ To use it, you need both MikTeX and Perl installed on your computer. I'll assume
 
 The simplest way to proceed once Perl is installed, is to use the following command (from a DOS prompt)
 
-
     latexdiff-so file1.tex file2.tex > diff.tex
 
 If you are using MikTeX, then the `latexdiff-so` command should work from any DOS prompt. Then just process the file `diff.tex` as you normally do (probably in WinEdt).

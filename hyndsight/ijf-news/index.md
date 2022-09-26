@@ -11,9 +11,7 @@ categories:
 
 This is a short piece I wrote for the next issue of the [_Oracle_ newsletter](http://forecasters.org/publications/oracle/) produced by the International Institute of Forecasters.<!-- more -->
 
-
 * * *
-
 
 
 ### Special section topics

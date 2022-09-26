@@ -14,7 +14,6 @@ Forecasters are often met with skepticism. Almost every time I tell someone that
 Clearly, some things are easier to forecast than others. The time of the sunrise tomorrow morning can be forecast very precisely. On the other hand, tomorrow's lotto numbers cannot be forecast with any accuracy. The predictability of an event or a quantity depends on several factors including:
 
 
-
   1. how well we understand the factors that contribute to it;
 
   2. how much data are available;
@@ -30,8 +29,6 @@ Often in forecasting, a key step is knowing when something can be forecast accur
 Many people wrongly assume that forecasts are not possible in a changing environment. Every environment is changing, and a good forecasting model captures the way things are changing. Forecasts rarely assume that the environment is unchanging. What is normally assumed is that _the way the environment is changing_ will continue into the future. That is, that a highly volatile environment will continue to be highly volatile; a business with fluctuating sales will continue to have fluctuating sales; and an economy that has gone through booms and busts will continue to go through booms and busts. A forecasting model is intended to capture the way things move, not just where things are. As Abraham Lincoln said "If we could first know where we are and whither we are tending, we could better judge what to do and how to do it".
 
 
-
 * * *
-
 
 This is an edited version of Section 1­/1 from my new book [_Forecasting: principles and practice_.](http://otexts.org/fpp/1/1/)

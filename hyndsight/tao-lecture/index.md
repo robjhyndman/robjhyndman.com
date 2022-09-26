@@ -13,7 +13,6 @@ On Monday night I attended a lecture by [Terry Tao](http://www.math.ucla.edu/~ta
 It was an interesting talk, with excellent slides, marred only by the poor sound system and his bad habit of mumbling. I keep a pretty close eye on internet developments that affect research in my field, so there wasn't a lot new for me, but the following observations may be of interest.
 
 
-
   * Mathematical blogs are providing a means for recording the informal chats that are an invaluable part of research but were never previously written down. These are the sorts of things that happen at conferences, in tearooms and hallways, or over dinner. The advent of informal blogs allows these chats to be online, with interaction via commenting, and fully searchable.
 
   * There is a list of mathematical blogs on the [Academic Blog Portal](http://academicblogs.org/index.php?title=Mathematics/Statistics#Statistics_.28math.ST.29) although the statistics list is incomplete -- it omits Chris Lloyd's excellent [Fishing in the Bay](http://blogs.mbs.edu/fishing-in-the-bay/) blog.
@@ -29,7 +28,6 @@ It was an interesting talk, with excellent slides, marred only by the poor sound
   * Single authored papers are becoming less common due to increased internet interaction and the rise of more cross-disciplinary research.
 
   * Open online collaborative research is an emerging possibility. The first (mathematics) experiment in this direction has been [Polymath](http://polymathprojects.org/) which has been a huge success so far. The [first problem](http://michaelnielsen.org/polymath1/index.php?title=Polymath1) was solved (although the results are not yet written up). Presumably this could work for statistics too, although the number of potential participants is much smaller.
-
 
 Terry concluded by saying
 

@@ -16,12 +16,9 @@ But I'm now a chief investigator of an NHMRC grant and I have to meet with other
 [Doodle](http://www.doodle.com) is a cloud-based way to schedule a meeting (or any event). Here is how it works.
 
 
-
   1. The person organizing the meeting selects some potential times and dates on [Doodle](http://www.doodle.com), and then sends an email to all participants with a link to a page where they can register their availability.
 
-
   2. Each person who receives the email clicks on the link and adds their availability to each of the possible times/dates.
-
 
   3. The meeting organizer can then see a simple table showing when the best time for the meeting is.
 

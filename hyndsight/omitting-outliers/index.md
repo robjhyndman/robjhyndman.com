@@ -10,9 +10,7 @@ categories:
 
 Someone sent me this email today:
 
-
 >One of my colleagues said that you once said/wrote that you had encountered very few real outliers in your work, and that normally the "outlier-looking" data points were proper data points that should not have been treated as outliers. Have you discussed this in writing? If so, I would love to read it.
-
 
 I don't think I've ever said or written anything quite like that, and I see lots of outliers in real data. But I have counselled against omitting apparent outliers.
 

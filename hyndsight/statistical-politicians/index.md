@@ -15,7 +15,6 @@ It made me wonder how many other politicians have PhDs (or equivalent) in statis
 I could not locate any other statistical politicians, but a quick web search surfaced the following mathematicians:
 
 
-
   * [Alexander Lubotzky](http://en.wikipedia.org/wiki/Alexander_Lubotzky), PhD in mathematics, Bar-Ilan University. Member of the Israeli Knesset, 1996-1999.
 
   * [Ahmed Chalabi](http://en.wikipedia.org/wiki/Ahmed_Chalabi), PhD in mathematics from the University of Chicago. Deputy Prime Minister of Iraq, 2005-2006.

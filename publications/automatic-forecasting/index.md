@@ -22,8 +22,6 @@ Automatic forecasts of large numbers of univariate time series are often needed 
 **Keywords:** ARIMA models, automatic forecasting, exponential smoothing, prediction intervals, state space models, time series, R.
 
 
-
   * Download the [forecast package for R](http://pkg.robjhyndman.com/forecast)
-
 
   * The four data sets in the paper are part of the [expsmooth package for R](http://pkg.robjhyndman.com/expsmooth)

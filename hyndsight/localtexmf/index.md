@@ -16,7 +16,6 @@ My own local directory is called C:\localtexmf. A few versions ago, that is the 
 
 ![](/files/localtexmf.gif)
 
-
 `C:\localtexmf\bibtex` contains `.bib` and `.bst` files.
 
 `C:\localtexmf\tex\latex\` contains  `.sty` and `.cls` files.
@@ -24,7 +23,6 @@ My own local directory is called C:\localtexmf. A few versions ago, that is the 
 You will also need to register your local latex tree. Just go to MiKTeX settings and click on the Roots tab. Then enter the new directory as follows:
 
 ![](/files/localtexmf2.gif)
-
 
 To add your local tree to the list, click Add, browse to C:\localtexmf (or whatever name you've chosen) and click OK.
 

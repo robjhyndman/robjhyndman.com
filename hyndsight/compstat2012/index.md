@@ -21,9 +21,7 @@ Actually, Stephen said something like "economists (or was it econometricians?) h
 After giving an interesting survey of the [robustbase](http://cran.r-project.org/web/packages/robustbase/) and [rrcov](http://cran.r-project.org/web/packages/rrcov/) packages for R, Matías spent the last ten minutes of his talk presenting the case for reproducible research and arguing for making R code public as much as possible.  The benefits of making our code public are obvious:
 
 
-
   * The research can be reproduced and checked by others. This is simply good science.
-
 
   * Your work will be cited more frequently. Other researchers are much less likely to refer to your work if they have to implement your methods themselves. But if you make it easy, then people will use your methods and consequently cite your papers.
 

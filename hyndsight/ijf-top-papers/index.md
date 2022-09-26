@@ -13,18 +13,13 @@ categories:
 Every year or so, Elsevier asks me to nominate five _International Journal of Forecasting_ papers from the last two years to highlight in their marketing materials as "[Editor's Choice](http://www.journals.elsevier.com/international-journal-of-forecasting/editors-choice/)". I try to select papers across a broad range of subjects, and I take into account citations and downloads as well as my own impression of the paper. That tends to bias my selection a little towards older papers as they have had more time to accumulate citations. Here are the papers I chose this morning (in the order they appeared):
 
 
-
   1. [Diebold and Yilmaz (2012) Better to give than to receive: Predictive directional measurement of volatility spillovers. _IJF_ 28(1), 57-66.](http://dx.doi.org/10.1016/j.ijforecast.2011.02.006)
-
 
   2. [Loterman, Brown, Martens, Mues, and Baesens (2012) Benchmarking regression algorithms for loss given default modeling. _IJF_ 28(1), 161-170.](http://dx.doi.org/10.1016/j.ijforecast.2011.01.006)
 
-
   3. [Soyer and Hogarth (2012) The illusion of predictability: How regression statistics mislead experts. _IJF_ 28(3), 695-711.](http://dx.doi.org/10.1016/j.ijforecast.2012.02.002)
 
-
   4. [Friedman (2012) Fast sparse regression and classification. _IJF_ 28(3), 722–738.](http://dx.doi.org/10.1016/j.ijforecast.2012.05.001)
-
 
   5. [Davydenko and Fildes (2013) Measuring forecasting accuracy: The case of judgmental adjustments to SKU-level demand forecasts. _IJF_ 29(3), 510-522.](http://dx.doi.org/10.1016/j.ijforecast.2012.09.002)
 

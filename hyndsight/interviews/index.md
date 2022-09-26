@@ -12,9 +12,7 @@ categories:
 I've been interviewed twice in the last year:
 
 
-
   * For [DecisionStats](http://www.decisionstats.com/interview-rob-j-hyndman-forecasting-expert-rstats/), 9 August 2012.
-
 
   * For [Data Mining Research](http://www.dataminingblog.com/data-mining-interview-rob-hyndman/), 21 October 2011. Republished in [_Amstat News_](http://magazine.amstat.org/blog/2011/12/01/qasitedec11/), 1 December 2011.
 

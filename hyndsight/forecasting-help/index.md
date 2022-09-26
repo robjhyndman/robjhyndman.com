@@ -19,7 +19,6 @@ Also, get on the [IIF email list](http://visitor.r20.constantcontact.com/manage/
 
 Read the best books. I usually recommend that practitioners get hold of the following two books.
 
-
 These books won first and second prizes, respectively, for the best forecasting books to be written during the first 25 years of the IIF. (Yes, I did co-author the second one so my recommendation is biased.)
 
 Finally, make sure you are using some decent software. The majority of questions I'm asked are easily solved by just getting hold of some good forecasting software. The best stand-alone forecasting package I know of is [ForecastPro](http://www.forecastpro.com).  If you must use Excel (ugh), at least get a decent forecasting add-in such as [PeerForecaster](http://peerforecaster.com/). But best of all, learn [R](http://www.r-project.org) and use the [forecast package](http://github.com/robjhyndman/forecast).

@@ -69,7 +69,6 @@ When we survive tragedy, it is good to be thankful, not because we have been mir
 This perspective also makes a difference when our friends are suffering. If we take the punishment perspective, we end up being as comforting as Job’s friends were. If we take the “God-knows-best” perspective, we end up looking to explain the events, which is usually unhelpful, especially while pain is raw. But if we take the perspective of “stuff happens randomly”, all we can do is hug and hold, and that is almost always the best response.
 
 
-
 [^1]: According to the title of Psalm 34. For background, see 1 Samuel 21:10–15 where Abimelech is called Achish.
 
 [^2]: D. Lord, S. P. Washington and J. N. Ivan (2005). Poisson, Poisson-gamma and zero-inflated regression models of motor vehicle crashes: balancing statistical fit and theory. _Accident Analysis & Prevention_ **37**(1), 35–46.

@@ -13,7 +13,6 @@ I've created a [LaTeX style for a CV](/research/cv.sty) to make it easy to produ
 
 The preamble of your CV should look something like this:
 
-
     \documentclass[a4paper,11pt]{article}
     \usepackage{cv}
     \name{Rob J Hyndman}
@@ -27,8 +26,6 @@ The preamble of your CV should look something like this:
     \addtocategory{books}{MWH3,ITSM91,ITSM94,expsmooth08}
     \addtocategory{papers}{BHG91,BH92,YW93,Hyndman94,HDRF95}
     \addtocategory{papers}{HDR96,HBG96,HF96,GHH97,HW97,LFSH97,GH98}
-
-
 
 
 
@@ -130,7 +127,6 @@ It is easy to add your own categories and titles if these are not suitable. For 
     \makebibcategory{posters}{Conference posters}
 
 
-
   * After the preamble, my CV looks like this:
 
     \begin{document}
@@ -166,7 +162,6 @@ Each `\printbib` command will add a section with all the publications in that ca
     I have authored \ref{sumpapers} papers, chapters or books on statistical topics. A list of these appears on pages \pageref{papersstart}--\pageref{papersend}.
 
 You can have additional `\printbib` commands outside the publications environment, but the associated bib items will not be counted in the `sumpapers` value.
-
 
 Here is [my CV](https://github.com/robjhyndman/CV/raw/master/RobHyndmanCV.pdf) using this style file (although I use different fonts from those loaded in the style file).
 

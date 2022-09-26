@@ -19,34 +19,25 @@ The thing is, most researchers are feedback-thirsty. They are also heavily inves
 
   1. <em>Although it looks like a class, it is not.</em> It might be that in your own work you struggle with similar choices: which information criterion to use, which number of lags, which bandwidth, and so forth. This is not a good forum for these sort of questions as it is too you-specific, too basic and is very boring for everyone else.
 
-
   2. _Prioritize._ We've all heard questions that start with “I have two questions and two short comments..”. Do not fool yourself to think you can “squeeze” it in. What is more likely to happen is that you will speak fast and be unclear, and the presenter will ask you to repeat what exactly it is that you ask. Moreover, perhaps your “two short comments” do not require a reply as far as you are concerned, but the presenter will (naturally) respond to those as well, consuming more valuable minutes. So, prioritize and pick one out of your “two questions and two short comments”.
-
 
   3. _It’s OK to disagree, but do it silently._ Perhaps the reply you got was not what you expected; there is no need to explain why the presenter is wrong and why your proposal is better. The need to defend your argument is solely your own, so skip variants of the form: “I still think my suggestion is better since...”. These kind of last words do not really serve anyone and can result in a dead-end back and forth between asker and presenter.
 
-
   4. _You are experienced, we understand._ Spare us the introduction: “A few years back I was working for company X, and there we had a similar situation to what you are describing, blah blah... but that’s a different story. So I guess my question is..”. Suffice yourself with the core version of the question and lose the wrapping.
-
 
 
 ### Good practice: be helpful
 
 
 
-
   1. _Methods._ Don’t ask about spectral analysis if you don’t know much about it, but it is good to ask if you are experienced with it and are familiar with specific implementation issues that you wonder about.
 
-
   2. _Intuition._ It is good to ask a question about presented results that you might expect to be reversed or that are not in-line with theory for example.
-
 
 Both of the above are also useful for the presenter as it helps her figure out which direction the questions come from, so that she can better clarify it in the actual text.
 
 
-
   3. _Make reasonable suggestions._ If the authors chose to use a factor model, don’t suggest a Bayesian VAR instead. The authors made their modeling choices and will not change them because you think another option is better. However, you can make a difference with a suggestion that does not require many hours of work. For example, if the study compares a few forecasting methods, you can suggest examining the performance of a simple average of those methods; or if someone uses LASSO, you can suggest Adaptive LASSO. Your goal here is to plant the idea and convince the presenter that it is doable and likely to improve the paper.
-
 
   4. _References are always nice._ People frequently approach someone who asked something during the session and request the reference cited. Literature is hard to completely cover.
 

@@ -18,7 +18,6 @@ We propose forecasting functional time series using weighted functional principa
 
 **Keywords** Demographic forecasting; Functional data; Functional partial least squares; Functional principal components; Functional time series.
 
-
   * [Discussion by Chiou, Müller and Wang](http://dx.doi.org/10.1016/j.jkss.2009.05.005)
   * [Discussion by Lee](http://dx.doi.org/10.1016/j.jkss.2009.05.002)
   * [Rejoinder](http://dx.doi.org/10.1016/j.jkss.2009.06.003)

@@ -13,7 +13,6 @@ categories:
 
 From today's email:
 
-
 >I have just finished reading a copy of ['Forecasting:Principles and Practice'](http://www.otexts.org/fpp) and I have found the book really interesting. I have particularly enjoyed the case studies and focus on practical applications.
 >
 >After finishing the book I have joined a forecasting competition to put what I've learnt to the test. I do have a couple of queries about the forecasting outputs required. The output required is a quantile forecast, is this the same as prediction intervals? Is there any R function to produce quantiles from 0 to 99?
@@ -21,7 +20,6 @@ From today's email:
 >If you were able to point me in the right direction regarding the above it would be greatly appreciated.
 >
 >Many Thanks,
-
 
 <!-- more -->
 

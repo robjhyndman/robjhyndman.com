@@ -11,7 +11,6 @@ It can be frustrating trying to get your figures and tables to appear where you 
 
 Use the placement options: h, t, b and p. For example
 
-
     \begin{figure}[htb]
 
 causes LaTeX to try to fit the float "here", or at the "top" of the current page (or the next page), or at the "bottom" of the current page (or the next page). If "p" is specified, it will allow the float to take a whole page to itself. You can't specify only "h" as that is too restrictive, and LaTeX will automatically change it to "ht". The default setting is "tbp".
@@ -121,11 +120,9 @@ One of the reasons that the floats won't go where you want them is that there ar
 </tbody></table>
 These can all be changed individually. But it is often easier to add ! before the placement options, thus forcing LaTeX to ignore most of these contraints. For example, I often use
 
-
     \begin{figure}[!htb]
 
 If you want to change the defaults, the following values give reasonable results:
-
 
     \setcounter{topnumber}{2}
     \setcounter{bottomnumber}{2}
@@ -137,13 +134,11 @@ If you want to change the defaults, the following values give reasonable results
 
 The `\clearpage` command starts a new page and inserts all floats that have not yet appeared before continuing. This can leave a bad page break, so a useful alternative is to use the `afterpage` package, and then insert
 
-
     \afterpage{\clearpage}
 
 which will put all the floats at the end of the current page.
 
 A very useful package is `placeins`. This provides the command `\FloatBarrier` which causes all unprocessed floats to be processed at that point, but does not start a new page unless it is necessary. To keep floats in the sections in which they were included, use
-
 
     \usepackage[section]{placeins}
 

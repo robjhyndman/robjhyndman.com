@@ -16,9 +16,7 @@ This poem was written by [David Goddard](https://research.monash.edu/en/persons/
 For those who like this sort of thing (as I do), there is a nice collection of [statistical poetry here](http://www.talkstats.com/showthread.php/23441-Statistics-Poetry).
 
 
-
 ### Standard error
-
 
 David Gordon Goddard
 

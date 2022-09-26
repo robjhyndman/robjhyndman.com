@@ -11,7 +11,6 @@ categories:
 
 **An expanded version of this post is available in my article on [“Giving an academic talk”](/publications/usertalk/).**
 
-
 With conference season almost upon us, it is timely to discuss what makes a good conference presentation. Here is a suggested structure.
 
   1. A motivating example demonstrating the problem you are trying to solve.

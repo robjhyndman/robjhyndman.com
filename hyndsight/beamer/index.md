@@ -19,8 +19,6 @@ This template also includes two example slides showing some of the most common t
 
 
 
-
-
     \documentclass[14pt,xcolor=dvipsnames]{beamer}
 
     % Specify theme
@@ -38,7 +36,6 @@ This template also includes two example slides showing some of the most common t
     % Title and author information
     \title{Title goes here}
     \author{Name goes here}
-
 
     \begin{document}
 
@@ -86,7 +83,6 @@ This template also includes two example slides showing some of the most common t
     \end{frame}
 
     \end{document}
-
 
 
 

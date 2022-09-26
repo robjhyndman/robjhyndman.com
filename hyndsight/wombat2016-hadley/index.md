@@ -11,7 +11,6 @@ categories:
 - statistics
 ---
 
-
 [Slides for Hadley's talk](http://wombat2016.org/slides/hadley.pdf)
 
 The slides for all the other talks from the workshop are also now online at [wombat2016.org](http://wombat2016.org)

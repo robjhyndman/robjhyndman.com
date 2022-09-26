@@ -12,5 +12,4 @@ There is a nice post on Matt Might's blog entitled ["10 tips on how to give an a
 He recommends the following two books by Joey Asher.
 
 
-
 See also my article on ["Giving an academic talk"](/publications/usertalk/).

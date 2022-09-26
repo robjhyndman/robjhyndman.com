@@ -28,11 +28,9 @@ The beauty of a `Makefile` is that it will only process the files that have been
 
 It is easy to tell if the latex document needs compiling --- `make` simply has to check that the pdf version of the document is older than the tex version of the document. Here is a simple `Makefile` that will just handle a LaTeX document.
 
-
     TEXFILE= paper
     $(TEXFILE).pdf: $(TEXFILE).tex
     	latexmk -pdf -quiet $(TEXFILE)
-
 
 The first line specifies the name of my file, in this case `paper.tex`. The second line specifies that the pdf file must be created from the tex file, and the last line explains how to do that.  MikTeX users might prefer `pdftexify` instead of `latexmk`.
 
@@ -40,22 +38,18 @@ To use the above `Makefile`, copy the code into a plain text file called `Makefi
 
 Of course, you wouldn't normally bother with a `Makefile` if that is all it did. But throw in a whole lot of R files, and it becomes very worthwhile.
 
-
 ### A Makefile for R and LaTeX
 
 We need a way to allow `make` to be able to tell if an R file has been run. If the R files are run using
 
 
-
     R CMD BATCH file.R
-
 
 then the output is saved as `file.Rout`. Then `make` only has to check if `file.Rout` is older than `file.R`.
 
 I also like to strip out all the white space from the pdf figures created in R before I put them in a LaTeX document. There is a nice command `pdfcrop` which does that. (You should already have it on a Mac or Linux, and also on Windows provided you are using MikTeX.) So I also want my `Makefile` to crop all images if they have not already been done. Once an image is cropped, an empty file of the form `file.pdfcrop` is created to indicate that `file.pdf` has already been cropped.
 
 OK, now we are ready for my marvellous [`Makefile`](https://robjhyndman.com/data/Makefile).
-
 
     # Usually, only these lines need changing
     TEXFILE= paper
@@ -105,7 +99,6 @@ OK, now we are ready for my marvellous [`Makefile`](https://robjhyndman.com/data
 
     .PHONY: all clean
 
-
 [Download the file here.](https://robjhyndman.com/data/Makefile) For most projects I copy this file into the main directory of my project, then all I have to do is modify the first few lines. `RDIR` specifies where the R files are kept and `FIGDIR` specifies where the figures are kept. Normally I keep these together, but sometimes they might be in separate directories.
 
 Now `make` will do everything necessary --- run the R files, crop the pdf graphics, and process the latex document. But it won't do any steps that don't need doing.
@@ -120,10 +113,8 @@ Notice that my R files all depend on `functions.R`. This is a file that contains
 
 For many projects, some R files will depend on some others having already run. For example, `read.R` may read in the data and reformat it for analysis, while `plot.R` might produce some graphs assuming that `read.R` has already run. To ensure `make` knows about this dependency, we need to add a line
 
-
     $(RDIR)/plot.Rout: $(RDIR)/plot.R $(RDIR)/functions.R $(RDIR)/read.R
     	R CMD BATCH $<
-
 
 This should be inserted where I have the comment `# May need to add something here if some R files depend on others.`
 

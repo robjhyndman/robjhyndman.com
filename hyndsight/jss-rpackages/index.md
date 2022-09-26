@@ -17,7 +17,6 @@ JSS prefers to publish papers about packages where the package is on [CRAN](http
 
 We prefer substantial packages rather than very specific but small packages. That is, a package that solves a very specific problem is less likely to be published than a package that provides a general toolkit for a discipline area, or one that implements a number of useful approaches to a problem. Think about making your package as ambitious as you can in scope and functionality. Here is an excerpt from a rejection letter I wrote:
 
-
 >This paper/package does what it claims quite well, but it could do so much more. It lacks ambition. As it stands, the package re-implements a popular algorithm in R. To be publishable in JSS, I would want to see it aim higher and provide more general facilities for xxxx...
 
 Descriptions of smaller and more focused packages may still be acceptable as papers in the "Code Snippets" section of the journal. But in that case, the paper should be suitably shorter.
@@ -31,7 +30,6 @@ Make sure the package is actively maintained and developed. I've seen papers des
 Make sure the output in the paper exactly matches the results obtained from the version of the package provided, and state in the introduction which version of the package was used for this paper.
 
 Here are a few further comments taken directly from reports I have written on JSS papers.
-
 
 
   * The examples use the object name "`data`", which clashes with the `data()` function. Please avoid object names that already exist as functions.

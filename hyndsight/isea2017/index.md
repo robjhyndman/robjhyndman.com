@@ -14,13 +14,10 @@ categories:
 ## Predictive Energy Analytics in the Big Data World
 
 
-
 ### Cairns, Australia, June 22-23, 2017
 
 
-
 ### [ISEA2017](http://www.drhongtao.com/isea)
-
 
 
 This will be a great conference, and it is in a great location --- Cairns, Australia, right by the Great Barrier Reef. Even better, if you stay on you can attend the **International Symposium on Forecasting** which immediately follows the **International Symposium on Energy Analytics**.
@@ -32,7 +29,6 @@ So block out 22-28 June 2017 on your calendars so you can enjoy a tropical parad
 <!-- more -->
 
 This symposium aims at bringing forecasting experts and practitioners together to share experiences and best practices on a wide range of important business problems in the energy industry. Here the energy industry broadly covers utilities, oil, gas and mining industries. The subjects to be forecasted range from supply, demand and price, to asset/system condition and customer count. The topics of interest include but are not limited to:
-
 
 
   * Probabilistic energy forecasting
@@ -55,13 +51,9 @@ This symposium aims at bringing forecasting experts and practitioners together t
 
   * Customer churn prediction
 
-
 Selected papers will be published in a special section of the _International Journal of Forecasting_. If you are interested in contributing a presentation to this symposium, please submit a one-page extended abstract to both guest editors via email with the subject line “ISEA2017 Abstract Submission”. Authors of selected abstracts will be invited to submit full papers to the _IJF_.
 
-
 ### Important dates
-
-
 
 
 
@@ -80,9 +72,7 @@ Selected papers will be published in a special section of the _International Jou
   * IJF special section publication - 2018
 
 
-
 ### Guest Editors:
-
 
 Tao Hong, University of North Carolina at Charlotte, USA ([hong@uncc.edu](mailto:hong@uncc.edu?Subject=ISEA2017 Abstract Submission))
 Pierre Pinson, Technical University of Denmark, Denmark ([ppin@elektro.dtu.dk](mailto:ppin@elektro.dtu.dk?Subject=ISEA 2017 Abstract Submission))

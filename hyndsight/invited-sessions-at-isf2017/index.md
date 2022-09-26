@@ -21,12 +21,9 @@ Send your proposals to [Pam Stroud](mailto:pamstroud@forecasters.org?subject=ISF
 
 
 
-
   * Session theme
 
-
   * Speaker names, affiliations, and title for their talk
-
 
 For more information on ISF 2017 visit our website, [forecasters.org/isf/](http://forecasters.org/isf/). If you have any doubts, just check out these photographs of Cairns and local area (courtesy of [Tourism Tropical North Queensland](http://ttnq.org.au))!
 

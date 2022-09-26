@@ -465,7 +465,7 @@ accuracy.gts(forecast, test)
 
 2. Repeat the training/test set analysis using "bottom-up" forecasts (set `method="bu"` in the `forecast` function).
 
-3. Does the ``optimal'' reconciliation method work best here?
+3. Does the "optimal" reconciliation method work best here?
 
 ### Lab Session 16
 

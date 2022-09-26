@@ -11,12 +11,9 @@ categories:
 [I've written briefly on this before](https://robjhyndman.com/hyndsight/referee-reports/). For an excellent and more detailed discussion of what is involved, there is a series of excellent posts on [Pat Thomson's blog](http://patthomson.wordpress.com/):
 
 
-
   1. [Refereeing a journal article part 1: reading](http://patthomson.wordpress.com/2012/01/07/refereeing-a-journal-article-part-1-reading/)
 
-
   2. [Refereeing a journal article part 2: making a recommendation](http://patthomson.wordpress.com/2012/01/13/refereeing-a-journal-article-part-2-making-a-recommendation/)
-
 
   3. [Refereeing a journal article part 3: writing the feedback](http://patthomson.wordpress.com/2012/01/19/refereeing-a-journal-article-part-3-writing-the-feedback/)
 

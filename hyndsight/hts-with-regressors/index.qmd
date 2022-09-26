@@ -20,12 +20,9 @@ Suppose `x` is a matrix of historical regressors (with each column containing on
 fc <- forecast(y, fmethod="arima", xreg="x", newxreg="f")
 ```
 
-
 That will fit a regression with ARIMA errors to each of the original series (at all levels of aggregation), produce forecasts from each model, and then reconcile the forecasts so they satisfy the aggregation constraints.
 
-
 ### Infant deaths
-
 
 I will illustrate using infant death numbers for Australia. These are disaggregated by state and sex as shown below.
 

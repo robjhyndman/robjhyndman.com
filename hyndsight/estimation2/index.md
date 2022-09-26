@@ -18,12 +18,9 @@ This is a common question, so I thought the answer might be of sufficient intere
 There are several issues involved.
 
 
-
   1. `HoltWinters()` and `ets()` are optimizing different criterion. `HoltWinters()` is using heuristic values for the initial states and then estimating the smoothing parameters by optimizing the MSE. `ets()` is estimating both the initial states and smoothing parameters by optimizing the likelihood function (which is only equivalent to optimizing the MSE for the linear additive models).
 
-
   2. The two functions use different optimization routines and different starting values. That wouldn't matter if the surfaces being optimized were smooth, but they are not. Because the MSE and likelihood surfaces are both fairly bumpy, it is easy to find a local optimum. The only way to avoid this problem is to use a much slower computational method such as PSO.
-
 
   3. `ets()` searches over a restricted parameter space to ensure the resulting model is forecastable. `HoltWinters()` ignores this issue (it was written before the problem was even discovered). See [this paper](http://dx.doi.org/10.1007/s10463-006-0109-x) for details (equivalently chapter 10 of my [exponential smoothing book](http://www.exponentialsmoothing.net)).
 

@@ -12,7 +12,6 @@ Almost all papers these days have a DOI and it is worth knowing how to use them.
 
 At the top or bottom of the first page of a paper, you will see something like this:
 
-
     doi:10.1016/j.csda.2006.07.028
 
 This is a unique and permanent identifier for the paper known as a "Digital Object Identifier". The part before the forward slash (10.1016 in the example above) identifies the naming authority (in this case Elsevier) and the part after the forward slash (j.csda.2006.07.028) identifies the particular paper. In this case, the paper identifier shows it is in the journal _Computational Statistics and Data Analysis_ and that it first appeared online in 2006. However, there is no systematic pattern to these identifiers, and other journals use other ways of generating identifiers.

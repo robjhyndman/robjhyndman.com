@@ -13,7 +13,6 @@ tags:
 
 Talk presented at the conference "New Trends on Intelligent Systems and Soft Computing 2014", University of Granada, Spain. 13-14 February 2014.<!-- more -->
 
-
 ### Abstract
 
 Many applications require a large number of time series to be forecast completely automatically. For example, manufacturing companies often require weekly forecasts of demand for thousands of products at dozens of locations in order to plan distribution and maintain suitable inventory stocks. In these circumstances, it is not feasible for time series models to be developed for each series by an experienced analyst. Instead, an automatic forecasting algorithm is required.
@@ -24,11 +23,9 @@ I will describe some algorithms for automatically forecasting univariate time se
 
 Finally, I will describe methods for evaluating forecasting algorithms which use the available data as efficiently as possible.
 
-
 ### Pre-reading
 
 Those attending are asked to do some pre-reading. Here are the papers I've requested to be read beforehand:
-
 
 
   1. [Makridakis & Hibon, (JRSSA 1979)](http://www.jstor.org/stable/2345077) was the first serious attempt at a large empirical evaluation of forecast methods.  It was followed by discussion which is documented in the paper. The discussion is heated and entertaining, and important in understanding the different perspectives on this topic at the time.

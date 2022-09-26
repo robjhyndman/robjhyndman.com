@@ -18,21 +18,15 @@ I use an incredibly useful free online tool to manage my "to do" list called  "[
 In addition to the to-do list, here are some additional ideas that I find helpful.
 
 
-
   * Work in an uncluttered, tidy environment. I find I work better if the environment is neater. I'm sure  this says something about my personality!
-
 
   * Have a structured day with time for breaks, meals, exercise, etc. Working for long hours without a break  tends to lead to less being achieved, not more.
 
-
   * Exercise. If I don't get enough exercise, I find I work slower.
-
 
   * Get enough sleep. If I'm tired, I work slower. Staying up late to finish something is a sign that you are  not planning properly.
 
-
   * Don't waste time. For example, I almost never watch television (the only real exception is that I  sometimes watch cricket during summer).
-
 
   * Set realistic deadlines. I'm not very good at this -- I tend to imagine I can get things done more  quickly than I really can.
 

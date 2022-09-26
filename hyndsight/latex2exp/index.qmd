@@ -30,7 +30,6 @@ text(1, 0, TeX("m_{x,t} = a_x + k_tb_x + e_{x,t}"))
 plot(fit$kt, ylab=TeX("k_t"), xlab="Year: t")
 ```
 
-
 There are several more examples in the [package documentation](https://github.com/stefano-meschiari/latex2exp).
 
 The results are still a little ugly, but that is because of the limitations of base graphics in R. To get something more LaTeX-like, the [**tikzDevice**](https://cran.rstudio.com/web/packages/tikzDevice/index.html) package can be used as follows.

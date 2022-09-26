@@ -21,5 +21,4 @@ tags:
 **Abstract:** We propose some new tools for visualizing functional data and for  identifying functional outliers. The proposed tools make use of  robust principal component analysis, data depth and highest density  regions. We compare the proposed outlier detection methods with the  existing “functional depth” method, and show that our methods have  better performance on identifying outliers in French male  age-specific mortality data.
 
 
-
   * [**Paper**](/papers/iwfos08.pdf)

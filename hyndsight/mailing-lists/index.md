@@ -12,8 +12,6 @@ Staying in touch with other researchers is important. You need to know about up-
 For those in Australia and New Zealand, there are two local lists that every statistician and econometrician should be on:
 
 
-
   * Australia and New Zealand statistics: [ANZstat](http://www.maths.uq.edu.au/research/research_centres/anzstat/).
-
 
   * Australia and New Zealand econometrics: [ANZecmet](http://groups.google.com/group/anzecmet/about)

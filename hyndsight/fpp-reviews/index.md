@@ -20,7 +20,6 @@ My favourite Amazon review is [this one](http://www.amazon.com/review/R2VCA02N0C
 
 >This book is ideal for self-study because the associated website has the answers to the exercises.
 
-
 Isn't he nice? Yes, George is a great guy!
 
 However, the review is not entirely accurate. The website does not contain answers to the exercises. We do have solutions that we can give to instructors using the book, but at this stage they are not available more widely.
@@ -28,7 +27,6 @@ However, the review is not entirely accurate. The website does not contain answe
 The only bad review (3 stars) was this one:
 
 >Online version much better than printed version.
-
 
 Seriously? The only difference between the online and print versions is that a small number of typos have been corrected in the online version.
 

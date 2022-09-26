@@ -21,7 +21,6 @@
 	2nd through to the 8th column contain day-of-week dummies. These dummies can also be written into the code
 	using day-of-week functions for flexibility in handling new sets of data.
 
-
 */
 
 // Global declarations
@@ -43,7 +42,6 @@ CSM(vP,const adFunc, avScore, ahess)
 	decl seeds, index, i, j, t, mXSeed, mXTemp, vYTemp;
 
 
-
 	index=0;	 	// Used to set parameter vector with correct number of elements. Depends on restrictions
 					// on (assumptions about) mGamma.
 
@@ -53,7 +51,6 @@ CSM(vP,const adFunc, avScore, ahess)
 	vP = tanh(vP).*tanh(vP);
 	alpha = vP[index++];
 	beta = 0;
-
 
 	if(iAssumption==0)
 	{
@@ -162,7 +159,6 @@ Set_Seed(vYSeed, mXSeed)
 		vLev[i]=meanc(vYSeed[i:i+1*168]);					// Level term taken as a rolling 168 hour average. Will not necessarily be a week, depending
 	}														// on missing data.
 
-
 	vYSeas = vYSeed[168:168+rows(vLev)-1]-vLev;
 
 	mXSeed2 = mXSeed[168:168+rows(vLev)-1][:];
@@ -201,7 +197,6 @@ Pred_Interval(iRep, iPeriods)
 
 	vE_s = (dLogLik)^(0.5)*rann(rows(vYSim),iRep);
 
-
 	for(i=0;i<iRep;++i)
 	{
 
@@ -219,7 +214,6 @@ Pred_Interval(iRep, iPeriods)
 	vYVar=vYVar|quantiler(vYSim[iN:][:]-meanr(vYSim[iN:][:]),<0.975, 0.025>);
 	return vYVar;
 
-
 }
 
 main()
@@ -235,7 +229,6 @@ main()
 		decl sfilein, sfileout;
 		decl i;
 		decl AIC, SBC, ir, a, b, c, tempy;
-
 
 		// ***************************** Load mData and define cycle length, sample length etc... **********************************
 

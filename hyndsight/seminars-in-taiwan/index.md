@@ -16,9 +16,7 @@ categories:
 
 I'm currently visiting Taiwan and I'm giving two seminars while I'm here --- one at the National Tsing Hua University in Hsinchu, and the other at Academia Sinica in Taipei. Details are below for those who might be nearby.<!-- more -->
 
-
 ## Automatic Time Series Forecasting
-
 
 College of Technology Management, [Institute of Service Science](http://www.iss.nthu.edu.tw/),
 National Tsing Hua University, Hsinchu
@@ -28,9 +26,7 @@ Many applications require a large number of time series to be forecast completel
 I will describe some algorithms for automatically forecasting univariate time series that have been developed over the last 20 years. The role of forecasting competitions in comparing the forecast accuracy of these algorithms will also be discussed.
 
 
-
 ## Visualizing and Forecasting Hierarchical and Grouped Time Series
-
 
 [Institute of Statistical Science, Academia Sinica](http://www.stat.sinica.edu.tw/statnewsite/seminar/show/1986/)
 時　間 2015/01/12 11:00 星期一

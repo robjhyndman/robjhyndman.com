@@ -21,7 +21,6 @@ Something similar is offered at [iTunesU](http://deimos3.apple.com/indigo/main/m
 
 But the best stuff is on [Academic Earth](http://academicearth.org). For example,
 
-
   * [Linear Algebra](http://academicearth.org/courses/linear-algebra)
   * [Machine learning](http://academicearth.org/courses/machine-learning)
   * [Statistical estimation](http://academicearth.org/lectures/statistical-estimation)

@@ -10,9 +10,7 @@ categories:
 
 It seems that most journals no longer do any serious copy-editing, and the standard of English is falling. Today I was reading an article from the _[European Journal of Operational Research](http://www.journals.elsevier.com/european-journal-of-operational-research/)_, which is supposedly a good OR journal (current impact factor over 2). Take this for an example from the first page of [this paper](http://dx.doi.org/10.1016/j.ejor.2010.03.026):
 
-
 >If the learned patterns are unstable, the learning tools would produce inconsistent concepts. To overcome this difficult situation, we employed artificial neural networks (ANNs, NNs) for helping the learning task. NNs have attracted a lot of attention form academic researchers and industrial practitioners because of the powerful flexible nonlinear modeling capability ([Balestrassi et al., 2009], [Bellini and Figa-Talamanca, 2005] and [Qi and Zhang, 2001]). It is the main reason for their popularity that the data driven tools have less restriction when applying. Learning tools with the stable training base usually have reliable performances.
-
 
 The paper continues in this vein for ten pages, culminating in an equally remarkable conclusion:
 

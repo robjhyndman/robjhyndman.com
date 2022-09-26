@@ -15,11 +15,8 @@ If you think you can't afford it, there is good news! The local SSA Branch is o
 Applications should be sent to the Secretary, Sandy Clarke: [sjclarke@unimelb.edu.au](mailto:sjclarke@unimelb.edu.au) by 25th November. These should include
 
 
-
   * a brief CV;
 
-
   * a conference abstract;
-
 
   * a short justification (about 150 words) for receiving support, including what (if any) other financial support the applicant will be receiving.

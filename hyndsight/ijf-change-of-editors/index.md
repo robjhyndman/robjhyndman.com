@@ -19,7 +19,6 @@ Today, there is a change in editors at the _International Journal of Forecasting
 
 **Dilek Önkal** has been an associate editor of the IJF since 2002, covering many topics including judgmental forecasting, psychological aspects of forecasting, organizational aspects of forecasting, forecasting support systems, and supply chains. She is a Professor in the Faculty of Business Administration at Bilkent University in Turkey, and until a few months ago was Dean of the faculty. I'm delighted that she has agreed to take on greater responsibility on the editorial board, and welcome her to the team of IJF editors.
 
-
 There are five IJF editors:
 
   1. [Rob Hyndman](https://robjhyndman.com) (Editor-in-Chief)

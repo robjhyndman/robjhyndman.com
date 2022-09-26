@@ -19,7 +19,6 @@ The basic idea is to measure a range of features of the time series (such as str
 We use two methods to identify outliers.
 
 
-
   1. A bivariate kernel density estimate of the first two PC scores is computed, and the points are ordered based on the value of the density at each observation. This gives us a ranking of most outlying (least density) to least outlying (highest density).
 
   2. A series of $\alpha$-convex hulls are computed on the first two PC scores with decreasing $\alpha$, and points are classified as outliers when they become singletons separated from the main hull. This gives us an alternative ranking with the most outlying having separated at the highest value of $\alpha$, and the remaining outliers with decreasing values of $\alpha$.

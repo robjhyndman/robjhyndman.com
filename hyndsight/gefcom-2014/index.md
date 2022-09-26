@@ -23,23 +23,16 @@ Highlights of GEFCom2014:
 
 
 
-
   * An upgraded edition from [GEFCom2012](http://www.drhongtao.com/gefcom/2012)
-
 
   * Four tracks: electric load, electricity price, wind power and solar power forecasting.
 
-
   * Probabilistic forecasting: contestants are required to submit 99 quantiles for each step throughout the forecast horizon.
-
 
   * Rolling forecasting: incremental data sets are being released on weekly basis to forecast the next period of interest.
 
-
   * Prizes for winning teams and institutions: up to 3 teams from each track will be recognized as the winning team; top institutions with multiple well-performing teams will be recognized as the winning institutions.
 
-
   * Global participation: 200+ people from 40+ countries have already signed up the GEFCom2014 interest list.
-
 
 Tao Hong (the main organizer) has a[ few tips on his blog](http://blog.drhongtao.com/2014/08/gefcom2014-is-on-8-tips-before-you-join.html) that you should read before starting.

@@ -35,7 +35,6 @@ We invite you to submit an abstract and present you research at the stream on Fo
 Topics for accepted special sessions at the EURO 2013 forecasting stream include:
 
 
-
   * Health Forecasting (Spyros Makridakis)
 
   * Telecommunication forecasting (Mohsen Hamoudia)

@@ -23,9 +23,7 @@ Box was son-in-law to RA Fisher -- he married Joan Fisher, the second of RA Fish
 There is an interesting [interview with George Box](/files/Boxinterview.pdf), conducted by Daniel Peña, that was published in the _International Journal of Forecasting_ in 2001. I have attached it [here](/files/Boxinterview.pdf) for those who do not have access to IJF papers. In addition, several people have written reminiscences of Box in the last few days. Here are two that I enjoyed:
 
 
-
   * [Bradley Jones](http://blogs.sas.com/content/jmp/2013/03/29/george-box-a-remembrance/)
-
 
   * [John Hunter](http://management.curiouscatblog.net/2013/03/28/george-box/)
 
