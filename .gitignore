@@ -8,3 +8,5 @@ _site/*
 /unbelievable/.quarto/
 
 /_*.local
+
+/.luarc.json
