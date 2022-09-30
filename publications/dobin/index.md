@@ -14,6 +14,8 @@ tags:
 github: sevvandi/Outlier-Basis
 ---
 
-This paper introduces DOBIN, a new approach to select a set of basis vectors tailored for outlier detection. DOBIN has a solid mathematical foundation and can be used as a dimension reduction tool for outlier detection tasks. We demonstrate the effectiveness of DOBIN on an extensive data repository, by comparing the performance of outlier detection methods using DOBIN and other bases. We further illustrate the utility of DOBIN as an outlier visualization tool. The R package [dobin](https://github.com/sevvandi/dobin) implements this basis construction.
+This paper introduces DOBIN, a new approach to select a set of basis vectors tailored for outlier detection. DOBIN has a solid mathematical foundation and can be used as a dimension reduction tool for outlier detection tasks. We demonstrate the effectiveness of DOBIN on an extensive data repository, by comparing the performance of outlier detection methods using DOBIN and other bases. We further illustrate the utility of DOBIN as an outlier visualization tool.
 
-[Source files](https://github.com/sevvandi/Outlier-Basis)
+[R implementation](https://sevvandi.github.io/dobin/)
+
+[Python implementation](https://github.com/sktime/sktime/blob/main/sktime/transformations/series/dobin.py)
