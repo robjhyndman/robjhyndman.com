@@ -5,7 +5,6 @@ comments: false
 date: 2015-06-29 23:01:12+00:00
 slug: banff2015
 title: Exploring the feature space of large collections of time series
-wordpress_id: 3206
 slideshare: l6DoBXdZig8ZoM
 ---
 
@@ -21,6 +20,8 @@ Alternatively, we may have thousands of time series we wish to forecast, and we 
 
 I will demonstrate a functional data approach to this problem using a vector of features on each time series, measuring characteristics of the series. For example, the features may include lag correlation, strength of seasonality, spectral entropy, etc. Then we use a principal component decomposition on the features, and plot the first few principal components. This enables us to explore a lower dimensional space and discover interesting structure and unusual observations.
 
+### Video
 
+<iframe src="http://www.birs.ca/events/2015/5-day-workshops/15w5096/videos/embed/201506301041-Hyndman.mp4" width="832"  height="480" frameborder="0"  scrolling="auto" itemprop="video" /></iframe>
 
-**[Video](http://www.birs.ca/events/2015/5-day-workshops/15w5096/videos/watch/201506301041-Hyndman.html)**
+### Slides
