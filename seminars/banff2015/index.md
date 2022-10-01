@@ -22,6 +22,6 @@ I will demonstrate a functional data approach to this problem using a vector of 
 
 ### Video
 
-<iframe src="http://www.birs.ca/events/2015/5-day-workshops/15w5096/videos/embed/201506301041-Hyndman.mp4" width="832"  height="480" frameborder="0"  scrolling="auto" itemprop="video" /></iframe>
+<iframe src="https://www.birs.ca/events/2015/5-day-workshops/15w5096/videos/embed/201506301041-Hyndman.mp4" width="832"  height="480" frameborder="0"  scrolling="auto" itemprop="video" /></iframe>
 
 ### Slides
