@@ -10,7 +10,7 @@ categories:
 image: /img/m4.png
 ---
 
-The [official guidelines](https://www.m4.unic.ac.cy/wp-content/uploads/2018/03/M4-Competitors-Guide.pdf) for the M4 competition have now been published, and there have been several developments since my last post on this.
+The [official guidelines](http://www.unic.ac.cy/test/wp-content/uploads/sites/2/2018/09/M4-Competitors-Guide.pdf) for the M4 competition have now been published, and there have been several developments since my last post on this.
 
 1. There is now a prize for prediction interval accuracy using a scaled version of the Mean Interval Score. If the $100(1-\alpha)$% prediction interval for time $t$ is given by $[L_{t},U_{t}]$, for $t=1,\dots,h$, then the MIS is defined as
  $$\frac{1}{h}\sum_{t=1}^{h} \left[ (U_t-L_t) +  \frac{2}{\alpha}(L_t-Y_t)1(Y_t < L_t) +  \frac{2}{\alpha}(Y_t-U_t)1(Y_t > U_t) \right] $$

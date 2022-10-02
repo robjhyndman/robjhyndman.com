@@ -53,7 +53,7 @@ I've been interviewed for several podcasts over the last year or so. It's always
 <tr>
 <td style="text-align:left">9 October 2019</td>
 <td style="text-align:left"><strong>Thought Capital</strong></td>
-<td style="text-align:left"><a href="https://www2.monash.edu/impact/podcasts/thought-capital/forecasts-are-always-wrong-but-we-need-them-anyway/">Forecasts are always wrong (but we need them anyway)</a></td>
+<td style="text-align:left"><a href="https://impact.monash.edu/podcasts/forecasts-are-always-wrong-but-we-need-them-anyway/">Forecasts are always wrong (but we need them anyway)</a></td>
 </tr>
 </tbody>
 </table>
