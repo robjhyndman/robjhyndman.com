@@ -16,6 +16,33 @@
           <span class="listing-details"><%= item.details %></span>.
         <% } %>
       </a>
+      <% if (item.doi) { %>
+      <a href="https://doi.org/<%= item.doi %>" class="badge badge-small badge-blue">DOI</a>
+      <% } %>
+      <% if (item.amazon) { %>
+      <a href="http://buy.geni.us/Proxy.ashx?TSID=140570&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F<%= item.amazon %>"
+        class="badge badge-small badge-blue">Amazon</a>
+      <% } %>
+      <% if (item.jstor) { %>
+      <a href="http://jstor.org/stable/<%= item.jstor %>" class="badge badge-small badge-blue">JSTOR</a>
+      <% } %>
+      <% if (item.arxiv) { %>
+      <a href="https://arxiv.org/abs/<%= item.arxiv %>" class="badge badge-small badge-red">arXiv</a>
+      <% } %>
+      <% if (item.link) { %>
+      <a href=<%= item.link %> class="badge badge-small badge-red">pdf</a>
+      <% } %>
+      <% if (item.online) { %>
+      <a href=<%= item.online %> class="badge badge-small badge-blue">Online</a>
+      <% } %>
+      <% if (item.figshare) { %> <a href="https://bridges.monash.edu/ndownloader/files/<%= item.figshare %>" class="badge badge-small badge-red">pdf</a>
+      <% } %>
+      <% if (item.file) { %><a href="https://robjhyndman.com/papers/<%= item.file %>" class="badge badge-small badge-red">pdf</a>
+      <% } %>
+      <% if (item.github) { %><a href="http://github.com/<%= item.github %>" class="badge badge-small badge-green">code</a>
+      <% } %>
+      <% if (item.bitbucket) { %><a href="http://bitbucket.org/<%= item.bitbucket %>" class="badge badge-small badge-green">code</a>
+      <% } %>
     </li>
   <% } %>
 </ol>

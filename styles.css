@@ -196,6 +196,11 @@ a.badge.badge-green {
 .badge-small {
   font-size: 11.25px;
   padding: 5px 5px 3px 5px;
+  opacity: .75;
+}
+
+.badge-small:hover {
+  opacity: 1;
 }
 
 .label-black,
