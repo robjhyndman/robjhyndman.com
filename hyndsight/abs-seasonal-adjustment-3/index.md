@@ -19,16 +19,10 @@ The unemployment rate is derived from the monthly Labour Force Survey. As with a
 
 There are several potential non-sampling effects that could affect the results including (but not limited to):
 
-
-
   * the dates on which the survey is conducted within each month (especially in December and January);
-
   * the asking of supplementary survey questions for some respondents;
-
   * the introduction or modification of supplementary surveys;
-
   * the revision of the wording of some questions;
-
   * the number of questions that are asked.
 
 The seasonal adjustment problems observed in published ABS Labour Force statistics over the last few months are a result of not adequately taking account of the non-sampling errors in the LFS, especially the effect of changes in supplementary surveys.
@@ -40,24 +34,20 @@ Of particular interest were changes that occurred in February and August 2014 as
 The seasonal adjustment method used by the ABS is based on RegARIMA models with X-12-ARIMA (Findley et al., 1998).
 
 Let $y_1,\dots,y_T$ be a monthly series of employment data (e.g., the total number of females aged 15-19 who are employed full time). This is first modelled using a RegARIMA model given by
-\begin{equation}\label{eq:regarima}
+$$
 \log(y_t) = \boldsymbol{X}_t\boldsymbol{\beta} + z_t
-\end{equation}
+$$
 where $\boldsymbol{\beta}$ is a vector of coefficients, $\boldsymbol{X}_t$ is a matrix of regressors and $z_t$ is a seasonal ARIMA process. In general, the regressors may include trading day and holiday or calendar effects, additive outliers, level shifts, and so on.
 
 Once the coefficients $\boldsymbol{\beta}$ have been estimated, an adjusted series is computed:
-\begin{equation}\label{eq:adjust}
+$$
 y_t^* = y_t \exp(-\boldsymbol{X}_t\hat{\boldsymbol{\beta}}).
-\end{equation}
+$$
 
 The underlying seasonal adjustment model is given by $y_t^* = f_t s_t e_t$, where
 
-
-
   * $f_t$ represents a smooth trend that changes slowly over time. It includes movements and cycles that last longer than one year.
-
   * $s_t$ represents the seasonal indexes that are centred around 1 and describe any regular seasonal patterns in the data. They are assumed to be relatively stable, so that the values do not change much (in size or sign) from year to year.
-
   * $e_t$ denotes the irregular component which contains anything not included in the trend and seasonal components. This can include outliers and noise, and is inherently unpredictable.
 
 The three components are calculated using the X-12-ARIMA procedure (Findley et al., 1998). The seasonally adjusted data is then given by $y_t^a = y_t^* / s_t$.

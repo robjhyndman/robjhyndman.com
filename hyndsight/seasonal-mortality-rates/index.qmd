@@ -152,12 +152,3 @@ stl_season %>%
 The Icelandic rates show less seasonality than other countries, but contain a dip in weeks 25--35 (mid-June to end of August). The Iceland mortality pattern is possibly due to the weather, with a very short summer and cold conditions for the rest of the year.
 
 The Portuguese mortality rates are much higher in winter than other countries, and much lower in summer. This is strange as it has very similar weather to Spain, but very different mortality rates. Some [twitter discussion](https://twitter.com/Thoughtfulnz/status/1264426705046786050) suggested some of the increase in January could be delayed reporting, as few deaths are reported in the last week of the year. [Healy (2003)](http://dx.doi.org/10.1136/jech.57.10.784) suggested it was due to poor insulation in Portuguese houses, along with relatively high income poverty and inequality and relatively low public health expenditure compared to other European countries. However, it is not clear that this is still true 17 years after he wrote that article.
-
-<details><summary>Reproducibility details</summary>
-
-```{r}
-options(width = 100)
-sessioninfo::session_info()
-```
-
-</details>

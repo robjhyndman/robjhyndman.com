@@ -9,8 +9,8 @@ listing:
     description: "Blog posts by Professor Rob J Hyndman"
   type: default
   categories: cloud
-  sort-ui: true
-  filter-ui: true
+  sort-ui: [date,title]
+  filter-ui: [date,title,categories]
 page-layout: full
 comments: false
 ---
