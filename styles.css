@@ -191,15 +191,15 @@ a.badge.badge-green {
 
 .badge {
   border-radius: 15px;
+  opacity: .75;
 }
 
 .badge-small {
   font-size: 11.25px;
   padding: 5px 5px 3px 5px;
-  opacity: .75;
 }
 
-.badge-small:hover {
+.badge:hover {
   opacity: 1;
 }
 
