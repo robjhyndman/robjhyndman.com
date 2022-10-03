@@ -54,16 +54,18 @@ $endif$
   </div>
   $endif$
 
-  $if(details)$
   <div>
     <div class="quarto-title-meta-heading">Publication details</div>
     <div class="quarto-title-meta-contents">
       <p class="date">
+        $if(details)$
         $details$
+        $else$
+        Working paper
+        $endif$
       </p>
     </div>
   </div>
-  $endif$
 
   <div>
     <div class="quarto-title-meta-heading">Links</div>
