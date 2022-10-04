@@ -17,6 +17,6 @@ about:
 <div class="about-link-text">
 **Rob&nbsp;J&nbsp;Hyndman**<br>
 Professor of Statistics<br>
-[Department of Econometrics & Business Statistics](http://business.monash.edu/econometrics-and-business-statistics)<br>
+[Department of Econometrics & Business Statistics](https://www.monash.edu/business/ebs)<br>
 [Monash University](https://monash.edu), Australia.
 </div>
