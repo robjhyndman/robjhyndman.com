@@ -13,4 +13,6 @@ listing:
   filter-ui: [date,title,categories]
 page-layout: full
 comments: false
+language:
+  listing-page-field-categories: "Topics"
 ---

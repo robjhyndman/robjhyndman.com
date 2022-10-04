@@ -15,6 +15,8 @@ listing:
 sidebar: false
 page-layout: full
 title-block-banner: false
+language:
+  listing-page-field-categories: "Type"
 ---
 
 # Publications
