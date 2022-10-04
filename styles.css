@@ -51,13 +51,8 @@ h6 {
 }
 
 a {
-  color: #36454f;
+  color: #487191;
   text-decoration: none;
-  border-bottom: dotted 1px #A1A3A1;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 hr {
@@ -132,11 +127,6 @@ nav,
 .footer {
   font-family: 'Fira Sans', 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 100%;
-}
-
-a.nav-link,
-a.navbar-brand {
-  border-bottom: 0;
 }
 
 a.nav-link:hover,
@@ -331,6 +321,12 @@ div.quarto-about-trestles .about-entity .about-link:hover {
 
 #quarto-margin-sidebar .category-default {
   font-size: 10pt;
+}
+#quarto-margin-sidebar .category:hover {
+  color: #0d6efd;
+}
+.sidebar nav[role=doc-toc]>ul a:hover {
+  color: #0d6efd;
 }
 
 .quarto-categories,
