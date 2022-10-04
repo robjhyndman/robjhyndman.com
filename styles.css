@@ -1,5 +1,8 @@
 /* =Typography
 -----------------------------------------------------------------------------*/
+:root {
+  --bs-font-sans-serif: 'Fira Sans', 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 body {
   font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, Serif;
   font-size: 0.85em;
