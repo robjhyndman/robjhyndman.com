@@ -4,7 +4,7 @@ Status: Published
 date: 2001-08-16 03:09:46+00:00
 slug: data-visualization-for-time-series-in-environmental-epidemiology
 title: Data visualization for time series in environmental epidemiology
-kind: article
+categories: Articles
 tags:
 - atmospheric science
 - epidemiology

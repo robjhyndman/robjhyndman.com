@@ -4,7 +4,7 @@ Status: Published
 date: 2005-01-16 03:53:26+00:00
 slug: prediction-intervals-for-exponential-smoothing-using-two-new-classes-of-state-space-models
 title: Prediction intervals for exponential smoothing using two new classes of state space models
-kind:  article
+categories: Articles
 tags:
 - exponential smoothing
 - forecasting

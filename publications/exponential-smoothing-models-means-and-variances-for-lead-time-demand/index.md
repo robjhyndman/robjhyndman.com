@@ -4,7 +4,7 @@ Status: Published
 date: 2004-05-16 03:42:22+00:00
 slug: exponential-smoothing-models-means-and-variances-for-lead-time-demand
 title: 'Exponential smoothing models: Means and variances for lead-time demand'
-kind: article
+categories: Articles
 tags:
 - exponential smoothing
 - forecasting

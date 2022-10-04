@@ -5,7 +5,7 @@ date: 1996-06-16 01:44:26+00:00
 slug: a-unified-view-of-linear-ar1-models
 title: A unified view of linear AR(1) models
 file: ar1.pdf
-kind: unpublished
+categories: Working papers
 tag:
 - time series
 ---

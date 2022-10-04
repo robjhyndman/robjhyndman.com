@@ -3,7 +3,7 @@ author: Claire Kermorvant, Benoit Liquet, Guy Litt, Kerrie Mengersen, Erin E Pet
 date: 2021-06-04
 slug: water-quality-gam
 title: Understanding links between water-quality variables and nitrate concentration in freshwater streams using high-frequency sensor data
-kind: unpublished
+categories: Working papers
 tags:
 - data science
 - time series

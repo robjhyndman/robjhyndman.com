@@ -3,7 +3,7 @@ title: "Principles and Algorithms for Forecasting Groups of Time Series: Localit
 author: Pablo Montero-Manso, Rob J Hyndman
 date: 2021-05-10
 slug: global-forecasting
-kind: article
+categories: Articles
 details: "<em>International J Forecasting</em>, <b>37</b>(4), 1632-1653"
 tags:
   - data science

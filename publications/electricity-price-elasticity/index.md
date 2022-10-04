@@ -5,8 +5,7 @@ date: 2011-03-31 00:56:31+00:00
 slug: electricity-price-elasticity
 title: The price elasticity of electricity demand in South Australia
 wordpress_id: 1350
-kind:
- article
+categories: Articles
 tags:
 - econometrics
 - electricity

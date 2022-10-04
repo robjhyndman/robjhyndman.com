@@ -5,8 +5,7 @@ date: 2008-06-16 06:34:34+00:00
 slug: the-admissible-parameter-space-for-exponential-smoothing-models
 title: The admissible parameter space for exponential smoothing models
 wordpress_id: 505
-kind:
- article
+categories: Articles
 tags:
 - exponential smoothing
 - forecasting

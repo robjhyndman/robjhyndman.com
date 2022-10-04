@@ -4,8 +4,7 @@ Status: Published
 date: 2010-11-20 12:15:30+00:00
 slug: r-foresight
 title: Free open-source forecasting using R
-kind:
- article
+categories: Articles
 tags:
 - forecasting
 - R

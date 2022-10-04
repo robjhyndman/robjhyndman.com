@@ -4,7 +4,7 @@ Status: Published
 date: 2021-05-11
 slug: quantile-ensembles
 title: Quantile forecasting with ensembles and combinations
-kind: chapter
+categories: Book chapters
 amazon: 1119782473
 tags:
 - quantiles

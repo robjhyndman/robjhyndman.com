@@ -4,8 +4,7 @@ date: 2014-06-05 03:53:48+00:00
 slug: ropes
 title: Low-dimensional decomposition, smoothing and forecasting of sparse functional data
 wordpress_id: 2471
-kind:
- unpublished
+categories: Working papers
 tags:
 - demography
 - forecasting

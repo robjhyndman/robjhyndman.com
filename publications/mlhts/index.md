@@ -3,7 +3,7 @@ author:  Mahdi Abolghasemi, Rob J Hyndman, Garth Tarr, Christoph Bergmeir
 date: 2019-12-08
 slug: mlhts
 title: Machine learning applications in time series hierarchical forecasting
-kind: unpublished
+categories: Working papers
 arxiv: "1912.00370"
 tags:
 - applied statistics

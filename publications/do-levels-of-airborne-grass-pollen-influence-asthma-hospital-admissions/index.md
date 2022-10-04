@@ -4,7 +4,7 @@ Status: Published
 date: 2007-06-29 05:27:19+00:00
 slug: do-levels-of-airborne-grass-pollen-influence-asthma-hospital-admissions
 title: Do levels of airborne grass pollen influence asthma hospital admissions?
-kind: article
+categories: Articles
 tags:
 - atmospheric science
 - epidemiology

@@ -5,8 +5,7 @@ date: 2011-01-01 22:00:04+00:00
 slug: the-tourism-forecasting-competition
 title: The tourism forecasting competition
 wordpress_id: 105
-kind:
- article
+categories: Articles
 tags:
 - forecasting
 - tourism

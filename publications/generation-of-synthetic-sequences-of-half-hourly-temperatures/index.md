@@ -5,7 +5,7 @@ date: 2008-01-25 06:37:01+00:00
 slug: generation-of-synthetic-sequences-of-half-hourly-temperatures
 title: Generation of synthetic sequences of half-hourly temperatures
 wordpress_id: 508
-kind: article
+categories: Articles
 tags:
 - atmospheric science
 details: <em>Environmetrics</em> <b>19</b>(8), 818-835

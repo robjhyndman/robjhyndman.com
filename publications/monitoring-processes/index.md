@@ -4,8 +4,7 @@ Status: Published
 date: 2009-07-05 23:14:33+00:00
 slug: monitoring-processes
 title: Monitoring processes with changing variances
-kind:
- article
+categories: Articles
 tags:
 - exponential smoothing
 - time series

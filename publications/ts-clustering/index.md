@@ -6,7 +6,7 @@ slug: ts-clustering
 aliases:
   - /publications/characteristic-based-clustering-for-time-series-data
 title: Characteristic-based clustering for time series data
-kind: article
+categories: Articles
 tags:
 - neural networks
 - time series

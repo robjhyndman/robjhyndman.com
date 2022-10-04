@@ -3,7 +3,7 @@ author: Anastasios Panagiotelis, Puwasala Gamakumara, George Athanasopoulos and 
 date: 2022-07-24
 slug: coherentprob
 title: "Probabilistic forecast reconciliation: properties, evaluation and score optimisation"
-kind: article
+categories: Articles
 details: "<em>European J Operational Research</em>, to appear"
 tags:
 - scoring rules

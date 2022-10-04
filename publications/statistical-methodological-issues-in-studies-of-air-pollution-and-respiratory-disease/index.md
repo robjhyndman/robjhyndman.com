@@ -5,7 +5,7 @@ date: 2001-07-02 00:56:54+00:00
 slug: statistical-methodological-issues-in-studies-of-air-pollution-and-respiratory-disease
 title: Statistical methodological issues in studies of air pollution and respiratory disease
 wordpress_id: 300
-kind: conference
+categories: Conference proceedings
 tags:
 - atmospheric science
 - epidemiology

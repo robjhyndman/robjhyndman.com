@@ -3,8 +3,7 @@ author: Christoph Bergmeir, Rob J Hyndman, Bonsoo Koo
 date: 2018-01-01
 slug: cv-time-series
 title: A note on the validity of cross-validation for evaluating autoregressive time series prediction
-kind:
- article
+categories: Articles
 tags:
 - accuracy
 - forecasting

@@ -3,7 +3,7 @@ author: Yanfei Kang, Rob J Hyndman, Feng Li
 slug: gratis
 alias: publications/tsgeneration
 title: "GRATIS: GeneRAting TIme Series with diverse and controllable characteristics"
-kind: article
+categories: Articles
 details: <em>Statistical Analysis and Data Mining</em>, <b>13</b>(4), 354-376
 date: 2020-04-30
 tags:

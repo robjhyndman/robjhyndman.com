@@ -4,7 +4,7 @@ Status: Published
 date: 2005-10-16 03:44:19+00:00
 slug: empirical-information-criteria-for-time-series-forecasting-model-selection
 title: Empirical information criteria for time series forecasting model selection
-\kind: article
+\categories: Articles
 tags:
 - forecasting
 - time series

@@ -5,8 +5,7 @@ date: 2016-04-28 23:30:12+00:00
 slug: bagging-ets
 title: Bagging exponential smoothing methods using STL decomposition and Box-Cox transformation
 wordpress_id: 2399
-kind:
- article
+categories: Articles
 tags:
 - exponential smoothing
 - forecasting

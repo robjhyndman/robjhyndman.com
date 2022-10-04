@@ -4,7 +4,7 @@ Status: Published
 date: 2004-07-16 03:34:10+00:00
 slug: nonparametric-confidence-intervals-for-receiver-operating-characteristic-curves
 title: Nonparametric confidence intervals for receiver operating characteristic curves
-kind: article
+categories: Articles
 tags:
 - nonparametric smoothing
 details: <em>Biometrika</em> <b>91</b>(3), 743-750

@@ -4,7 +4,7 @@ Status: Published
 date: 2020-01-06
 slug: hierarchical-forecasting
 title: Hierarchical forecasting
-kind: chapter
+categories: Book chapters
 amazon: 303031149X
 details: <em>Macroeconomic forecasting in the era of big data</em>, ed. P. Fuleky, Springer, Chapter 21, pp.689-719
 tags:

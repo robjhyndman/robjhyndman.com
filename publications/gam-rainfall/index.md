@@ -6,7 +6,7 @@ slug: gam-rainfall
 title: Generalized additive modelling of mixed distribution Markov models with application
   to Melbourne's rainfall
 wordpress_id: 380
-kind: article
+categories: Articles
 tags:
 - atmospheric science
 - gams

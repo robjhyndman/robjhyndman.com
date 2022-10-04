@@ -3,7 +3,7 @@ title: "Nonlinear mixed effects models for time series forecasting of smart mete
 author: Cameron Roach, Rob J Hyndman, Souhaib Ben Taieb
 date: 2021-01-01
 slug: nlme-smart-meters
-kind: article
+categories: Articles
 details: <em>Journal of Forecasting</em>, <b>40</b>(6), 1118-1130
 tags:
   - data science

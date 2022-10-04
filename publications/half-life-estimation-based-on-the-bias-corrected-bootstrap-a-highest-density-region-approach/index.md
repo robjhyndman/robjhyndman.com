@@ -5,7 +5,7 @@ date: 2007-04-01 06:23:20+00:00
 slug: half-life-estimation-based-on-the-bias-corrected-bootstrap-a-highest-density-region-approach
 title: 'Half-life estimation based on the bias-corrected bootstrap: a highest density
   region approach'
-kind: article
+categories: Articles
 tags:
 - highest density regions
 details: "<em>Computational Statistics and Data Analysis</em> <b>51</b>(7), 3418-3432"

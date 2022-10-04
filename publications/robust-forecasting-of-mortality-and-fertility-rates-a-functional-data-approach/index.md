@@ -4,7 +4,7 @@ Status: Published
 date: 2005-04-16 01:35:20+00:00
 slug: robust-forecasting-of-mortality-and-fertility-rates-a-functional-data-approach
 title: 'Robust forecasting of mortality and fertility rates: a functional data approach'
-kind: conference
+categories: Conference proceedings
 tags:
 - demography
 - forecasting

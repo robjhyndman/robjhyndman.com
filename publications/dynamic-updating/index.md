@@ -5,8 +5,7 @@ date: 2011-02-17 01:12:08+00:00
 slug: dynamic-updating
 title: Nonparametric time series forecasting with dynamic updating
 wordpress_id: 921
-kind:
- article
+categories: Articles
 tags:
 - forecasting
 - functional data

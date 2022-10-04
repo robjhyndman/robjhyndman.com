@@ -5,8 +5,7 @@ date: 2011-01-01 05:46:30+00:00
 slug: local-gams
 title: Quantifying the influence of local meteorology on air quality using generalized additive modelling
 wordpress_id: 1284
-kind:
- article
+categories: Articles
 tags:
 - atmospheric science
 - gams

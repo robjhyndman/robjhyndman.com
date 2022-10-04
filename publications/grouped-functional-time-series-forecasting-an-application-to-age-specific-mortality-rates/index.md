@@ -3,7 +3,7 @@ author: Han Lin Shang, Rob J Hyndman
 date: 2017-04-25
 slug: grouped-functional-time-series-forecasting-an-application-to-age-specific-mortality-rates
 title: 'Grouped functional time series forecasting: an application to age-specific mortality rates'
-kind: article
+categories: Articles
 tags:
 - demography
 - forecasting

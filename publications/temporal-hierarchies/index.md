@@ -4,8 +4,7 @@ Status: Published
 date: 2017-05-13
 slug: temporal-hierarchies
 title: Forecasting with temporal hierarchies
-kind:
- article
+categories: Articles
 tags:
 - forecasting
 - hierarchical time series

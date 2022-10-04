@@ -3,7 +3,7 @@ author: Mahsa Ashouri, Rob J Hyndman, Galit Shmueli
 date: 2022-03-01
 slug: lhf
 title: "Fast forecast reconciliation using linear models"
-kind: article
+categories: Articles
 details: <em>J Computational & Graphical Statistics</em>, <b>31</b>(1), 263-282
 tags:
 - hierarchical forecasting

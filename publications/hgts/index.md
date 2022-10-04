@@ -7,8 +7,7 @@ aliases:
   - /papers/hgts/
   - /working-papers/hgts/
 title: Fast computation of reconciled forecasts for hierarchical and grouped time series
-kind:
- article
+categories: Articles
 tags:
 - forecasting
 - hierarchical time series

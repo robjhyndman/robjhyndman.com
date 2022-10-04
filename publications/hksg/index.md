@@ -5,7 +5,7 @@ date: 2002-07-16 03:21:03+00:00
 slug: hksg
 title: A state space framework for automatic forecasting using exponential smoothing
   methods
-kind: article
+categories: Articles
 tags:
 - exponential smoothing
 - forecasting

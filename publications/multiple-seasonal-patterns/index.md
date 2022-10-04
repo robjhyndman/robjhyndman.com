@@ -5,7 +5,7 @@ date: 2008-11-16 05:26:38+00:00
 slug: multiple-seasonal-patterns
 title: Forecasting time series with multiple seasonal patterns
 wordpress_id: 497
-kind: article
+categories: Articles
 tags:
 - exponential smoothing
 - forecasting

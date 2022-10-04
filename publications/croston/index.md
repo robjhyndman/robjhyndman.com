@@ -4,7 +4,7 @@ Status: Published
 date: 2005-07-16 04:22:44+00:00
 slug: croston
 title: Stochastic models underlying Croston's method for intermittent demand forecasting
-kind: article
+categories: Articles
 tags:
 - forecasting
 - time series

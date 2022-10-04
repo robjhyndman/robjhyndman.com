@@ -5,8 +5,7 @@ date: 2014-10-20 22:00:53+00:00
 slug: foresight-hts
 title: Optimally reconciling forecasts in a hierarchy
 wordpress_id: 2441
-kind:
- article
+categories: Articles
 tags:
 - forecasting
 - hierarchical time series

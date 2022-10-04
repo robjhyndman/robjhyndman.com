@@ -4,8 +4,7 @@ Status: Published
 date: 2012-06-25 02:26:42+00:00
 slug: mapcah
 title: 'A case-crossover design to examine the role of aeroallergens and respiratory viruses on childhood asthma exacerbations requiring hospitalisation: The MAPCAH study'
-kind:
- article
+categories: Articles
 tags:
 - atmospheric science
 - epidemiology

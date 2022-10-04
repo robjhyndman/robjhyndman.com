@@ -5,8 +5,7 @@ date: 2010-01-02 23:10:12+00:00
 slug: peak-electricity-demand
 title: Density forecasting for long-term peak electricity demand
 wordpress_id: 334
-kind:
- article
+categories: Articles
 tags:
 - density estimation
 - electricity

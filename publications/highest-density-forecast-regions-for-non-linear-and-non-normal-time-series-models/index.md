@@ -7,7 +7,7 @@ title: Highest density forecast regions for non-linear and non-normal time serie
 doi: 10.1002/for.3980140503
 details: <em>Journal of Forecasting</em> <b>14</b>, 431-441
 status: Published
-kind: article
+categories: Articles
 tag:
 - density estimation
 - highest density regions

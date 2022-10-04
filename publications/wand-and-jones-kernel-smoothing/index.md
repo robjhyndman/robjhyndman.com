@@ -6,7 +6,7 @@ slug: wand-and-jones-kernel-smoothing
 title: Book review of "Kernel smoothing" (Wand and Jones, 1995)
 details: <em>Journal of Applied Statistics</em> <b>23</b>, 677–678
 status: Published
-kind: bookreview
+categories: Book reviews
 tag:
 - density estimation
 - nonparametric smoothing

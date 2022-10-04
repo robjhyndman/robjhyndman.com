@@ -5,7 +5,7 @@ date: 2007-07-16 05:16:06+00:00
 slug: funcfor
 title: 'Robust forecasting of mortality and fertility rates: a functional data approach'
 wordpress_id: 467
-kind:  article
+categories: Articles
 tags:
 - demography
 - forecasting

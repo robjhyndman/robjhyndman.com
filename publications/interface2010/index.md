@@ -5,7 +5,7 @@ date: 2010-08-03 08:33:10+00:00
 slug: interface2010
 title: Exploratory graphics for functional data
 wordpress_id: 1336
-kind: conference
+categories: Conference proceedings
 tags:
 - functional data
 - graphics

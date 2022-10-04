@@ -5,8 +5,7 @@ date: 2012-01-29 23:16:19+00:00
 slug: copdaustralia
 title: 'Forecasts of COPD mortality in Australia: 2006-2025'
 wordpress_id: 1916
-kind:
- article
+categories: Articles
 tags:
 - demography
 - epidemiology

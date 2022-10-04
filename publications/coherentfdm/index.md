@@ -4,7 +4,7 @@ Status: Published
 date: 2013-02-01 07:31:52+00:00
 slug: coherentfdm
 title: 'Coherent mortality forecasting: the product-ratio method with functional time series models'
-kind: article
+categories: Articles
 tags:
 - demography
 - functional data

@@ -4,8 +4,7 @@ date: 2013-10-31 12:27:07+00:00
 slug: rsm-review
 title: 'Nonparametric and semiparametric response surface methodology: a review of designs, models and optimization techniques'
 wordpress_id: 2352
-kind:
- unpublished
+categories: Working papers
 tags:
 - experimental design
 - nonparametric smoothing

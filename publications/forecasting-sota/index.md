@@ -3,7 +3,7 @@ author: Spyros Makridakis, Rob J Hyndman, Fotios Petropoulos
 date: 2020-01-02
 slug: forecasting-sota
 title: "Forecasting in social settings: the state of the art"
-kind: article
+categories: Articles
 tags:
 - forecasting
 - review

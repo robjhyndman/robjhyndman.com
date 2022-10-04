@@ -5,7 +5,7 @@ slug: maindonald-and-braun-data-analysis-and-graphics-using-r-an-example-based-a
 title: 'Book Review of "Data Analysis and Graphics Using R:
   An Example-based Approach" (Maindonald and Braun, 2003)'
 wordpress_id: 289
-kind: bookreview
+categories: Book reviews
 tags:
 - graphics
 - R

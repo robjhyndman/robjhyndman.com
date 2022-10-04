@@ -4,8 +4,7 @@ Status: Published
 date: 2009-01-16 23:15:43+00:00
 slug: forecast-rules
 title: 'Rule induction for forecasting method selection: meta-learning the characteristics of univariate time series'
-kind:
- article
+categories: Articles
 tags:
 - forecasting
 - time series

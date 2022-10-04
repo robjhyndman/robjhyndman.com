@@ -4,8 +4,7 @@ date: 2017-06-02
 slug: probhts
 title: Coherent Probabilistic Forecasts for Hierarchical Time Series
 details: Proceedings of the 34th International Conference on Machine Learning, PMLR 70:3348-3357
-kind:
- conference
+categories: Conference proceedings
 tags:
 - data science
 - density estimation

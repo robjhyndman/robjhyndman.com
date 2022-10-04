@@ -3,7 +3,7 @@ author: Bahman Rostami-Tabar, Mohammad M Ali, Tao Hong, Rob J Hyndman, Michael D
 date: 2022-07-01
 slug: fsg
 title: "Forecasting for Social Good"
-kind: article
+categories: Articles
 details: "<i>International Journal of Forecasting</i>, <b>38</b>(3), 1245-1257"
 doi: 10.1016/j.ijforecast.2021.02.010
 tags:

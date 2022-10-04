@@ -4,7 +4,7 @@ Status: Published
 date: 2005-01-16 03:52:09+00:00
 slug: splinefcast
 title: Local linear forecasts using cubic smoothing splines
-kind: article
+categories: Articles
 tags:
 - exponential smoothing
 - forecasting

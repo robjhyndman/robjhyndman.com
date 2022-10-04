@@ -3,7 +3,7 @@ author: Sevvandi Kandanaarachchi, Mario A Muñoz, Rob J Hyndman and Kate Smith&#
 date: 2020-02-27
 slug: normalization-outliers
 title: "On normalization and algorithm selection for unsupervised outlier detection"
-kind: article
+categories: Articles
 details: "<em>Data Mining and Knowledge Discovery</em>, <b>34</b>, 309-354"
 tags:
 - data science

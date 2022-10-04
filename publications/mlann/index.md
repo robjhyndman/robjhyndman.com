@@ -3,7 +3,7 @@ author: Fan Cheng, Rob J Hyndman, Anastasios Panagiotelis
 date: 2021-02-15
 slug: mlann
 title: "Computationally Efficient Learning of Statistical Manifolds"
-kind: unpublished
+categories: Working papers
 tags:
 - data science
 - anomaly detection

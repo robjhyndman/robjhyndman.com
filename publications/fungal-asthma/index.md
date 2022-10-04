@@ -6,8 +6,7 @@ slug: fungal-asthma
 title: Outdoor fungal spores are associated with child asthma hospitalisations - a
   case-crossover study
 wordpress_id: 2873
-kind:
- article
+categories: Articles
 tags:
 - epidemiology
 details: <em>European Respiratory Journal</em> <b>44</b>(Suppl 58)

@@ -3,8 +3,7 @@ author: Alex Dokumentov and Rob J Hyndman
 date: 2022-04-03
 slug: str
 title: 'STR: Seasonal-Trend decomposition using Regression'
-kind:
- article
+categories: Articles
 details: <em>INFORMS Journal on Data Science</em>, <b>1</b>(1), 50-62
 tags:
 - electricity

@@ -5,7 +5,7 @@ slug: local-linear-multivariate-regression-with-variable-bandwidth-in-the-presen
 title: Local linear multivariate regression with variable bandwidth in the presence
   of heteroscedasticity
 wordpress_id: 325
-kind: unpublished
+categories: Working papers
 tags:
 - nonparametric smoothing
 file: hetero.pdf

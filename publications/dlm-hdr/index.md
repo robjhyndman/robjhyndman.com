@@ -4,8 +4,7 @@ Status: Published
 date: 2011-03-10 00:53:38+00:00
 slug: dlm-hdr
 title: 'Improved interval estimation of long run response from a dynamic linear model: a highest density region approach'
-kind:
- article
+categories: Articles
 tags:
 - density estimation
 - highest density regions

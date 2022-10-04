@@ -7,7 +7,7 @@ slug: the-use-of-information-technology-in-the-research-process
 title: "The use of information technology in the research process"
 details: "Invited chapter in <em>Health informatics: an overview</em>, (ed. Hovenga, Kidd, Cesnik)"
 status: Published
-kind: chapter
+categories: Book chapters
 tag:
 - software
 ---

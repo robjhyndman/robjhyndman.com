@@ -5,7 +5,7 @@ date: 2010-01-01 04:30:50+00:00
 slug: iess2
 title: Business Forecasting Methods
 wordpress_id: 936
-kind: chapter
+categories: Book chapters
 tags:
 - forecasting
 - time series

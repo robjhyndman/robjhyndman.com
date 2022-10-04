@@ -4,7 +4,7 @@ Status: Published
 date: 2006-07-20 06:19:21+00:00
 slug: bandwidth-selection-for-multivariate-kernel-density-estimation-using-mcmc
 title: A Bayesian approach to bandwidth selection for multivariate kernel density estimation
-kind: article
+categories: Articles
 tags:
 - density estimation
 - nonparametric smoothing

@@ -4,8 +4,7 @@ Status: Published
 date: 2009-01-16 23:08:36+00:00
 slug: hierarchical-tourism
 title: Hierarchical forecasts for Australian domestic tourism
-kind:
- article
+categories: Articles
 tags:
 - forecasting
 - hierarchical time series

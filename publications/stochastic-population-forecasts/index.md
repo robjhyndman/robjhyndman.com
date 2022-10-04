@@ -6,7 +6,7 @@ slug: stochastic-population-forecasts
 title: Stochastic population forecasts using functional data models for mortality,
   fertility and migration
 wordpress_id: 503
-kind: article
+categories: Articles
 tags:
 - demography
 - functional data

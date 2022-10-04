@@ -5,7 +5,7 @@ date: 2006-10-20 04:24:21+00:00
 slug: lee-carter-mortality-forecasting-a-multi-country-comparison-of-variants-and-extensions
 title: 'Lee-Carter mortality forecasting: a multi-country comparison of variants and
   extensions'
-kind: article
+categories: Articles
 tags:
 - demography
 - functional data

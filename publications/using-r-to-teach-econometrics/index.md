@@ -4,7 +4,7 @@ Status: Published
 date: 2002-03-16 03:25:42+00:00
 slug: using-r-to-teach-econometrics
 title: Using R to Teach Econometrics
-kind: article
+categories: Articles
 tags:
 - econometrics
 - R

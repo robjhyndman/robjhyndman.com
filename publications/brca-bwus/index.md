@@ -6,8 +6,7 @@ slug: brca-bwus
 title: Forecasting age-related changes in breast cancer mortality among white and
   black US women
 wordpress_id: 1110
-kind:
- article
+categories: Articles
 tags:
 - demography
 - epidemiology

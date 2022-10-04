@@ -5,7 +5,7 @@ date: 1991-02-16 01:01:58+00:00
 link: http://www3.stat.sinica.edu.tw/statistica/j1n2/j1n26/j1n26.htm
 slug: continuous-time-threshold-autoregressive-models
 title: Continuous time threshold autoregressive models
-kind: article
+categories: Articles
 details: "<em>Statistica Sinica</em> <b>1</b>, 401-410"
 tag:
 - time series

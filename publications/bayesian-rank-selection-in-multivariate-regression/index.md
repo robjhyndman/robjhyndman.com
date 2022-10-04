@@ -4,8 +4,7 @@ Status: Published
 date: 2016-01-30 00:58:44+00:00
 slug: bayesian-rank-selection-in-multivariate-regression
 title: Bayesian rank selection in multivariate regression
-kind:
- unpublished
+categories: Working papers
 tags:
 - arima models
 - econometrics

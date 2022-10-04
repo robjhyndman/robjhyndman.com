@@ -3,7 +3,7 @@ author: Rob J Hyndman
 date: 2020-01-01
 slug: forecasting-competitions
 title: A brief history of forecasting competitions
-kind: article
+categories: Articles
 tags:
 - time series
 - forecasting

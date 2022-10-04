@@ -3,7 +3,7 @@ author: Rob J Hyndman, Xueqin Lin, Pierre Pinson
 date: 2018-02-01
 slug: visualizing-big-energy-data
 title: Visualizing big energy data
-kind: article
+categories: Articles
 tags:
 - data science
 - time series

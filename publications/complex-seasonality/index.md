@@ -6,8 +6,7 @@ slug: complex-seasonality
 title: Forecasting time series with complex seasonal patterns using exponential smoothing
 aliases:
   - /papers/complex-seasonality/
-kind:
- article
+categories: Articles
 tags:
 - exponential smoothing
 - forecasting

@@ -5,7 +5,7 @@ date: 1992-07-16 02:04:56+00:00
 slug: on-continuous-time-threshold-autoregression
 title: On continuous-time threshold autoregression
 status: Published
-kind: article
+categories: Articles
 details: <em>International Journal of Forecasting</em>, <b>18</b>(3), 439-454
 doi: 10.1016/0169-2070%2892%2990116-Q
 ---

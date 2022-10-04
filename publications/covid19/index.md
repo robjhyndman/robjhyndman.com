@@ -3,10 +3,9 @@ author: Nick Golding, Freya M Shearer, Robert Moss, Peter Dawson, Dennis Liu, Jo
 date: 2020-07-17
 slug: covid19
 title: "Estimating temporal variation in transmission of SARS-CoV-2 and physical distancing behaviour in Australia"
-kind: unpublished
+categories: Miscellaneous
 tags:
 - epidemiology
 - forecasting
 link: https://www.doherty.edu.au/uploads/content_doc/Technical_report_4_update_29July2020.pdf
 ---
-

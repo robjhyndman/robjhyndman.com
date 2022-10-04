@@ -6,7 +6,7 @@ slug: quantiles
 title: Sample quantiles in statistical packages
 details: "<em>American Statistician</em> <b>50</b> 361-365"
 status: Published
-kind: article
+categories: Articles
 tag:
 - software
 jstor: 2684934

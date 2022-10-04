@@ -5,7 +5,7 @@ date: 1992-12-17 00:19:33+00:00
 slug: phd
 title: Continuous-time threshold autoregressive modelling
 status: Published
-kind: phd
+categories: PhD thesis
 file: PhDThesis.pdf
 details: "PhD thesis, The University of Melbourne"
 tag:

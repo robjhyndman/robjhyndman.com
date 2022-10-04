@@ -3,7 +3,7 @@ title: "Forecast combinations: an over 50-year review"
 author: Xiaoqian Wang, Rob J Hyndman, Feng Li, Yanfei Kang
 date: 2022-05-09
 slug: combinations
-kind: unpublished
+categories: Working papers
 tags:
   - data science
   - time series

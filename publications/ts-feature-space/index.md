@@ -5,8 +5,7 @@ date: 2017-01-12 21:16:41+00:00
 slug: ts-feature-space
 title: Visualising forecasting algorithm performance using time series instance spaces
 wordpress_id: 3596
-kind:
- article
+categories: Articles
 tags:
 - accuracy
 - arima models

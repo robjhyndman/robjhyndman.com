@@ -4,7 +4,7 @@ Status: Published
 date: 1998-07-16 03:00:13+00:00
 slug: smoothing-non-gaussian-time-series-with-autoregressive-structure
 title: Smoothing non-Gaussian time series with autoregressive structure
-kind: article
+categories: Articles
 details: "<em>Computational Statistics and Data Analysis</em>, <b>28</b>, 171-191"
 tags:
 - forecasting

@@ -3,7 +3,7 @@ author: Kasun Bandara, Rob J Hyndman, Christoph Bergmeir
 date: 2022-05-09
 slug: mstl
 title: "MSTL: A Seasonal-Trend Decomposition Algorithm for Time Series with Multiple Seasonal Patterns"
-kind: article
+categories: Articles
 details: <i>International J Operational Research</i>, to appear
 tags:
 - time series

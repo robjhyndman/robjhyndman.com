@@ -4,7 +4,7 @@ date: 2007-05-29 01:54:59+00:00
 slug: a-state-space-model-for-exponential-smoothing-with-group-seasonality
 title: A state space model for exponential smoothing with group seasonality
 wordpress_id: 332
-kind: unpublished
+categories: Working papers
 tags:
 - exponential smoothing
 - forecasting

@@ -5,7 +5,7 @@ date: 2006-08-16 03:47:39+00:00
 slug: a-note-on-the-categorization-of-demand-patterns
 title: A note on the categorization of demand patterns
 wordpress_id: 431
-kind: article
+categories: Articles
 tags:
 - time series
 details: <em>Journal of the Operational Research Society</em> <b>57</b>, 1256-1257

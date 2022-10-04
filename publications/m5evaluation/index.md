@@ -3,7 +3,7 @@ author: Hansika Hewamalage, Pablo Montero-Manso, Christoph Bergmeir, Rob J Hyndm
 date: 2021-08-10
 slug: m5evaluation
 title: "A Look at the Evaluation Setup of the M5 Forecasting Competition"
-kind: unpublished
+categories: Working papers
 tags:
 - data science
 - forecasting

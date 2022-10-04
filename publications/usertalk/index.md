@@ -4,7 +4,7 @@ date: 2011-06-22 03:41:53+00:00
 slug: usertalk
 title: Giving a useR! talk
 wordpress_id: 1712
-kind: editorial
+categories: Articles
 tags:
 - R
 link: "http://journal.r-project.org/archive/2011-1/RJournal_2011-1_Hyndman.pdf"

@@ -5,7 +5,7 @@ date: 2010-02-07 23:12:26+00:00
 slug: microarray-optimization
 title: 'Functionalization of microarray devices: process optimization using a multiobjective PSO and multiresponse MARS modeling'
 wordpress_id: 1057
-kind: conference
+categories: Conference proceedings
 tags:
 - chemistry
 - experimental design

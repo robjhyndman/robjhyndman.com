@@ -6,7 +6,7 @@ slug: sensitivity-of-the-estimated-air-pollution-respiratory-admissions-relation
 title: Sensitivity of the estimated air pollution-respiratory admissions relationship
   to statistical model
 wordpress_id: 433
-kind: article
+categories: Articles
 tags:
 - atmospheric science
 - epidemiology

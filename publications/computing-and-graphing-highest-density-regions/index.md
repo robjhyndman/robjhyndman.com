@@ -6,7 +6,7 @@ slug: computing-and-graphing-highest-density-regions
 title: Computing and graphing highest density regions
 details: "<em>American Statistician</em>, <b>50</b>, 120-126"
 status: Published
-kind: article
+categories: Articles
 tag:
 - density estimation
 - graphics

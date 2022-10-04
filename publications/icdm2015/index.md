@@ -4,7 +4,7 @@ Status: Published
 date: 2015-06-01 02:08:36+00:00
 slug: icdm2015
 title: Large-scale unusual time series detection
-kind: conference
+categories: Conference proceedings
 tags:
 - highest density regions
 - R

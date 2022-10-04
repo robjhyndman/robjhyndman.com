@@ -4,8 +4,7 @@ Status: Published
 date: 2009-11-25 23:06:04+00:00
 slug: expsmooth-nonnegative
 title: Exponential smoothing and non-negative data
-kind:
- article
+categories: Articles
 tags:
 - exponential smoothing
 - forecasting

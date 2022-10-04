@@ -4,7 +4,7 @@ Status: Published
 date: 1997-07-16 02:48:32+00:00
 slug: some-properties-and-generalizations-of-non-negative-bayesian-time-series-models
 title: Some properties and generalizations of non-negative Bayesian time series models
-kind: article
+categories: Articles
 tags:
 - forecasting
 - time series

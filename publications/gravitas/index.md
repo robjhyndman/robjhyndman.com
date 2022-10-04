@@ -3,7 +3,7 @@ title: "Visualizing probability distributions across bivariate cyclic temporal g
 author: Sayani Gupta, Rob J Hyndman, Dianne Cook and Antony Unwin
 date: 2022-03-01
 slug: gravitas
-kind: article
+categories: Articles
 details: <em>J Computational & Graphical Statistics</em>, <b>31</b>(1), 14-25
 tags:
   - data science

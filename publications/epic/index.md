@@ -4,7 +4,7 @@ Status: Published
 date: 2014-08-01 06:24:41+00:00
 slug: epic
 title: Efficient identification of the Pareto optimal set
-kind: conference
+categories: Conference proceedings
 tags:
 - experimental design
 - optimization

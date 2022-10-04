@@ -5,7 +5,7 @@ date: 2008-05-15 03:10:52+00:00
 slug: bagplots-boxplots-and-outlier-detection-for-functional-data
 title: Bagplots, boxplots and outlier detection for functional data
 wordpress_id: 189
-kind: chapter
+categories: Book chapters
 tags:
 - functional data
 - graphics

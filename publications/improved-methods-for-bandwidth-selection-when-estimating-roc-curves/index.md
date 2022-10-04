@@ -4,7 +4,7 @@ Status: Published
 date: 2003-02-16 03:28:09+00:00
 slug: improved-methods-for-bandwidth-selection-when-estimating-roc-curves
 title: Improved methods for bandwidth selection when estimating ROC curves
-kind: article
+categories: Articles
 tags:
 - nonparametric smoothing
 details: <em>Statistics and Probability Letters</em> <b>64</b> 181-189

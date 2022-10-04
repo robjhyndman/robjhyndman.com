@@ -6,7 +6,7 @@ slug: lagphase
 title: Statistical issues with using herbarium data for the estimation of invasion lag-phases
 aliases:
   - /lagphase/
-kind: article
+categories: Articles
 tags:
   - ecology
 details: <em>Biological Invasions</em> <b>17</b>(12), 3371-3381

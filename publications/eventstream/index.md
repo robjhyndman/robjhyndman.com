@@ -3,7 +3,7 @@ author: Sevvandi Kandanaarachchi, Rob J Hyndman and Kate Smith&#8209;Miles
 date: 2020-07-11
 slug: eventstream
 title: "Early classification of spatio-temporal events using partial information"
-kind: article
+categories: Articles
 details: "<em>PLoS ONE</em>, 15(8): e0236331"
 tags:
 - data science

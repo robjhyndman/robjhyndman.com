@@ -5,8 +5,7 @@ date: 2011-07-14 09:24:57+00:00
 slug: emma
 title: Method for optimizing coating properties based on an evolutionary algorithm approach
 wordpress_id: 1807
-kind:
- article
+categories: Articles
 tags:
 - chemistry
 - experimental design

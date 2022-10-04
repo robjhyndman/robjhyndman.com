@@ -4,7 +4,7 @@ Status: Published
 date: 2005-05-22 01:31:17+00:00
 slug: dimension-reduction-for-clustering-time-series-using-global-characteristics
 title: Dimension reduction for clustering time series using global characteristics
-kind: conference
+categories: Conference proceedings
 tags:
 - time series
 details: "<em>Lecture Notes in Computer Science</em>, Volume 3516, April 2005, Pages 792-795. Proceedings. Computational Science - ICCS 2005: 5th International Conference, Atlanta, GA, USA, May 22-25, 2005"

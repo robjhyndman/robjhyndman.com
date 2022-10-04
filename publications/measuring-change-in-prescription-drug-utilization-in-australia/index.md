@@ -4,7 +4,7 @@ Status: Published
 date: 2006-05-16 04:57:29+00:00
 slug: measuring-change-in-prescription-drug-utilization-in-australia
 title: Measuring change in prescription drug utilization in Australia
-kind: article
+categories: Articles
 tags:
 - epidemiology
 details: <em>Pharmacoepidemiology & Drug Safety</em> <b>15</b>, 477-484

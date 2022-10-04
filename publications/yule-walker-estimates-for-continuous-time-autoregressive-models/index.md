@@ -6,7 +6,7 @@ slug: yule-walker-estimates-for-continuous-time-autoregressive-models
 title: Yule-Walker estimates for continuous-time autoregressive models
 details: <em>Journal of Time Series Analysis</em> <b>14</b>, 281-296
 status: Published
-kind: article
+categories: Articles
 tags:
 - time series
 doi: 10.1111/j.1467-9892.1993.tb00145.x

@@ -3,7 +3,7 @@ author: Rob J Hyndman
 date: 2005-01-15 08:30:17+00:00
 slug: ijf-editorial
 title: Editorial
-kind: editorial
+categories: Editorials
 tags:
 - forecasting
 doi: 10.1016/j.ijforecast.2004.11.004

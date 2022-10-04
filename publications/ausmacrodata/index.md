@@ -4,7 +4,7 @@ Status: Published
 date: 2017-02-14 05:26:17+00:00
 slug: ausmacrodata
 title: 'The Australian Macro Database: An online resource for macroeconomic research in Australia'
-kind: unpublished
+categories: Working papers
 tags:
 - data science
 - econometrics

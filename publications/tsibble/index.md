@@ -3,7 +3,7 @@ title: "A new tidy data structure to support exploration and modeling of tempora
 author: Earo Wang, Dianne Cook and Rob J Hyndman
 date: 2020-01-04
 slug: tsibble
-kind: article
+categories: Articles
 details: "<em>J Computational & Graphical Statistics</em>, <b>29</b>(3), 466-478"
 doi: 10.1080/10618600.2019.1695624
 tags:

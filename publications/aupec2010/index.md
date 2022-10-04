@@ -5,7 +5,7 @@ date: 2010-07-21 09:15:13+00:00
 slug: aupec2010
 title: Short-term load forecasting based on a semi-parametric additive model
 wordpress_id: 1303
-kind: conference
+categories: Conference proceedings
 tags:
 - electricity
 - forecasting

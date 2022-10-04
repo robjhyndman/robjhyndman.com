@@ -5,8 +5,7 @@ date: 2015-06-04 11:27:01+00:00
 slug: kdd2015
 title: 'Probabilistic time series forecasting with boosted additive models: an application to smart meter data'
 wordpress_id: 2990
-kind:
- unpublished
+categories: Working papers
 tags:
 - data science
 - density estimation

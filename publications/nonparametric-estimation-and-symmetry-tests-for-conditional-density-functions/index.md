@@ -5,7 +5,7 @@ date: 2002-07-16 03:23:33+00:00
 slug: nonparametric-estimation-and-symmetry-tests-for-conditional-density-functions
 title: Nonparametric estimation and symmetry tests for conditional density functions
 wordpress_id: 400
-kind: article
+categories: Articles
 tags:
 - density estimation
 - nonparametric smoothing

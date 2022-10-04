@@ -4,7 +4,7 @@ Status: Published
 date: 2001-06-16 03:08:35+00:00
 slug: bandwidth-selection-for-kernel-conditional-density-estimation
 title: Bandwidth selection for kernel conditional density estimation
-kind: article
+categories: Articles
 tags:
 - density estimation
 - nonparametric smoothing

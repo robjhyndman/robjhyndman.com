@@ -3,7 +3,7 @@ author: Thiyanga S Talagala, Rob J Hyndman, George Athanasopoulos
 date: 2018-06-06
 slug: fforms
 title: Meta-learning how to forecast time series
-kind: unpublished
+categories: Working papers
 tags:
 - accuracy
 - arima models

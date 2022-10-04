@@ -4,7 +4,7 @@ date: 2010-01-01 03:53:50+00:00
 slug: replication
 title: Encouraging replication and reproducible research
 wordpress_id: 1001
-kind: editorial
+categories: Editorials
 tags:
 - forecasting
 - reproducibility

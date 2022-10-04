@@ -5,7 +5,7 @@ date: 2006-07-16 04:27:50+00:00
 slug: 25-years-of-time-series-forecasting
 title: 25 years of time series forecasting
 wordpress_id: 456
-kind: article
+categories: Articles
 tags:
 - forecasting
 - time series

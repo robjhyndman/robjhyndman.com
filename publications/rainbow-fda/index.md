@@ -5,8 +5,7 @@ date: 2010-02-28 23:17:40+00:00
 slug: rainbow-fda
 title: Rainbow plots, bagplots and boxplots for functional data
 wordpress_id: 526
-kind:
- article
+categories: Articles
 tags:
 - functional data
 - graphics

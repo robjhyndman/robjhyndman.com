@@ -6,7 +6,7 @@ slug: estimating-and-visualizing-conditional-densities
 title: Estimating and visualizing conditional densities
 details: "<em>J Computational & Graphical Statistics</em>, <b>5</b>, 315-336"
 status: Published
-kind: article
+categories: Articles
 tag:
 - density estimation
 - graphics

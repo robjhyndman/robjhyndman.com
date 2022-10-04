@@ -5,7 +5,7 @@ date: 2007-02-16 05:24:01+00:00
 slug: forecasting-age-specific-breast-cancer-mortality-using-functional-data-models
 title: Forecasting age-specific breast cancer mortality using functional data models
 wordpress_id: 475
-kind: article
+categories: Articles
 tags:
 - epidemiology
 - forecasting

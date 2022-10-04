@@ -3,7 +3,7 @@ author: Mahdi Abolghasemi, Rob J Hyndman, Evangelos Spiliotis, Christoph Bergmei
 date: 2022-01-14
 slug: chfr
 title: "Model selection in reconciling hierarchical time series"
-kind: article
+categories: Articles
 details: <em>Machine Learning</em>, <b>111</b>, 739–789
 tags:
 - hierarchical forecasting

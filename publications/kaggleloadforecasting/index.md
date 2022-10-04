@@ -5,8 +5,7 @@ date: 2014-04-01 04:40:12+00:00
 slug: kaggleloadforecasting
 title: A gradient boosting approach to the Kaggle load forecasting competition
 wordpress_id: 2252
-kind:
- article
+categories: Articles
 tags:
 - boosting
 - electricity

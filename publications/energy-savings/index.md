@@ -4,7 +4,7 @@ Status: Published
 date: 2019-06-08
 slug: energy-savings
 title: Quantification of energy savings from energy conservation measures in buildings using machine learning
-kind: conference
+categories: Conference proceedings
 tags:
 - energy
 - R

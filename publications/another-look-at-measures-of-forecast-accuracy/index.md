@@ -4,7 +4,7 @@ Status: Published
 date: 2006-11-16 04:44:28+00:00
 slug: another-look-at-measures-of-forecast-accuracy
 title: Another look at measures of forecast accuracy
-kind: article
+categories: Articles
 aliases:
   - /papers/another-look-at-measures-of-forecast-accuracy/
 tags:

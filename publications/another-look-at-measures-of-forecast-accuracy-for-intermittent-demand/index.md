@@ -4,7 +4,7 @@ Status: Published
 date: 2006-09-16 04:29:45+00:00
 slug: another-look-at-measures-of-forecast-accuracy-for-intermittent-demand
 title: Another look at measures of forecast accuracy for intermittent demand
-kind: article
+categories: Articles
 tags:
 - accuracy
 - forecasting

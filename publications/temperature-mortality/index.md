@@ -5,8 +5,7 @@ date: 2016-12-07 00:54:33+00:00
 slug: temperature-mortality
 title: 'Exploring the influence of short-term temperature patterns on temperature-related mortality: a case-study of Melbourne, Australia'
 wordpress_id: 3676
-kind:
- article
+categories: Articles
 tags:
 - atmospheric science
 - demography

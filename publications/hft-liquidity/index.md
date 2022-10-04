@@ -3,7 +3,7 @@ author: Michael Hirsch, Dianne Cook, Paul Lajbcygier, Rob J Hyndman
 date: 2019-04-22
 slug: hft-liquidity
 title: Revealing high-frequency trading provision of liquidity with visualization
-kind: conference
+categories: Conference proceedings
 tags:
 - finance
 - time series

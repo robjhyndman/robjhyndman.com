@@ -4,8 +4,7 @@ Status: Published
 date: 2009-07-23 23:12:47+00:00
 slug: forecasting-functional-time-series-2
 title: Forecasting functional time series
-kind:
- article
+categories: Articles
 tags:
 - demography
 - functional data

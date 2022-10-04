@@ -5,8 +5,7 @@ date: 2010-08-17 08:05:10+00:00
 slug: bfast2
 title: Phenological change detection while accounting for abrupt and gradual trends in satellite image time series
 wordpress_id: 1382
-kind:
- article
+categories: Articles
 tags:
 - remote sensing
 - seasonality

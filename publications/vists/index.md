@@ -5,8 +5,7 @@ date: 2010-11-15 23:11:21+00:00
 slug: vists
 title: 'The vector innovations structural time series framework: a simple approach to multivariate forecasting'
 wordpress_id: 518
-kind:
- article
+categories: Articles
 tags:
 - exponential smoothing
 - state space models

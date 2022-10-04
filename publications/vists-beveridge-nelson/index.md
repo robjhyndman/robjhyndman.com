@@ -4,8 +4,7 @@ Status: Published
 date: 2009-01-01 23:09:55+00:00
 slug: vists-beveridge-nelson
 title: A multivariate innovations state space Beveridge-Nelson decomposition
-kind:
- article
+categories: Articles
 tags:
 - econometrics
 - exponential smoothing

@@ -6,7 +6,7 @@ slug: automatic-forecasting
 title: 'Automatic time series forecasting: the forecast package for R'
 aliases:
   - /papers/automatic-forecasting/
-kind: article
+categories: Articles
 tags:
 - exponential smoothing
 - forecasting

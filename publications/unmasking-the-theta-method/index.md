@@ -4,7 +4,7 @@ Status: Published
 date: 2003-04-16 03:29:35+00:00
 slug: unmasking-the-theta-method
 title: Unmasking the Theta method
-kind: article
+categories: Articles
 tags:
 - exponential smoothing
 - forecasting

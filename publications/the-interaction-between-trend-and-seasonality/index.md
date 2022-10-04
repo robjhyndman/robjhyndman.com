@@ -4,7 +4,7 @@ Status: Published
 date: 2004-10-16 03:36:14+00:00
 slug: the-interaction-between-trend-and-seasonality
 title: The interaction between trend and seasonality
-kind: article
+categories: Articles
 tags:
 - seasonality
 - time series

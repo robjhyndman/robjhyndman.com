@@ -6,7 +6,7 @@ slug: measurement-of-changes-in-antihypertensive-drug-utilization-following-prim
 title: Measurement of changes in antihypertensive drug utilization following primary
   care educational interventions
 wordpress_id: 472
-kind: article
+categories: Articles
 tags:
 - epidemiology
 details: <em>Pharmacoepidemiology & Drug Safety</em> <b>16</b>(3), 297-308

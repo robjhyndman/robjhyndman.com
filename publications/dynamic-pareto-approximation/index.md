@@ -4,8 +4,7 @@ Status: Published
 date: 2017-01-18 20:35:24+00:00
 slug: dynamic-pareto-approximation
 title: Dynamic Algorithm Selection for Pareto Optimal Set Approximation
-kind:
- article
+categories: Articles
 tags:
 - data science
 - optimization

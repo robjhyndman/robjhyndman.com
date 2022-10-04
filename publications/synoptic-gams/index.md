@@ -6,8 +6,7 @@ slug: synoptic-gams
 title: Investigating the influence of synoptic-scale circulation on air quality using
   self-organizing maps and generalized additive modelling
 doi: 10.1016/j.atmosenv.2010.09.032
-kind:
- article
+categories: Articles
 tags:
 - atmospheric science
 - gams

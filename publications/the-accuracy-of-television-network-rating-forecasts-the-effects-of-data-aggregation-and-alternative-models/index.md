@@ -5,7 +5,7 @@ date: 2006-01-16 05:47:46+00:00
 slug: the-accuracy-of-television-network-rating-forecasts-the-effects-of-data-aggregation-and-alternative-models
 title: 'The accuracy of television network rating forecasts: the effects of data aggregation
   and alternative models'
-kind: article
+categories: Articles
 tags:
 - forecasting
 - neural networks

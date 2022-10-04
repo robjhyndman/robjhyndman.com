@@ -3,7 +3,7 @@ author: Claire Kermorvant, Benoit Liquet, Guy Litt, Jeremy B Jones, Kerrie Menge
 date: 2021-12-03
 slug: reconstructing-water
 title: Reconstructing missing and anomalous data collected from high-frequency in-situ sensors in fresh waters
-kind: article
+categories: Articles
 details: "<em>International Journal of Environmental Research and Public Health</em>, <b>18</b>(23), 12803"
 tags:
 - data science

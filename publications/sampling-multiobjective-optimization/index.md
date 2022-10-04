@@ -5,7 +5,7 @@ date: 2016-02-28 21:08:16+00:00
 slug: sampling-multiobjective-optimization
 title: On sampling methods for costly multi-objective black-box optimization
 wordpress_id: 3489
-kind: chapter
+categories: Book chapters
 tags:
 - data science
 - experimental design

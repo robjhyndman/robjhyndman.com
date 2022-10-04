@@ -4,7 +4,7 @@ Status: Published
 date: 2007-03-16 05:17:49+00:00
 slug: minimum-sample-size-requirements-for-seasonal-forecasting-models
 title: Minimum sample size requirements for seasonal forecasting models
-kind: article
+categories: Articles
 tags:
 - forecasting
 - time series

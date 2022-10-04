@@ -4,7 +4,7 @@ Status: Published
 date: 2000-11-16 03:05:59+00:00
 slug: non-gaussian-conditional-linear-ar1-models
 title: Non-Gaussian conditional linear AR(1) models
-kind: article
+categories: Articles
 tags:
 - time series
 details: <em>Australian and New Zealand Journal of Statistics</em> <b>42</b>(4), 479-495

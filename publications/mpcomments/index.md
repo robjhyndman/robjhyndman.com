@@ -5,8 +5,7 @@ date: 2015-04-03 16:43:58+00:00
 slug: mpcomments
 title: Discussion of “High-dimensional autocovariance matrices and optimal linear prediction”
 wordpress_id: 2836
-kind:
- article
+categories: Articles
 tags:
 - forecasting
 - graphics

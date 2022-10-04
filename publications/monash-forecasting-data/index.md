@@ -3,7 +3,7 @@ author: Rakshitha Godahewa, Christoph Bergmeir, Geoffrey I Webb, Rob J Hyndman, 
 date: 2021-10-12
 slug: monash-forecasting-data
 title: "Monash Time Series Forecasting Archive"
-kind: article
+categories: Conference proceedings
 details: "<em>NeurIPS 2021 Datasets and Benchmarks</em>"
 tags:
 - data science

@@ -4,7 +4,7 @@ Status: Published
 date: 2006-09-17 02:42:27+00:00
 slug: projection-pursuit-estimator-for-multivariate-conditional-densities
 title: Projection pursuit estimator for multivariate conditional densities
-kind: article
+categories: Articles
 tags:
 - density estimation
 - nonparametric smoothing

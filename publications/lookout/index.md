@@ -3,7 +3,7 @@ author: Sevvandi Kandanaarachchi, Rob J Hyndman
 date: 2022-05-01
 slug: lookout
 title: "Leave-one-out kernel density estimates for outlier detection"
-kind: article
+categories: Articles
 details: <em>J Computational & Graphical Statistics</em>, <b>31</b>(2), 586-599
 tags:
 - data science

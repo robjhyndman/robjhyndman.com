@@ -5,8 +5,7 @@ date: 2010-01-14 23:21:12+00:00
 slug: bfast1
 title: Detecting trend and seasonal changes in satellite image time series
 wordpress_id: 728
-kind:
- article
+categories: Articles
 tags:
 - remote sensing
 - seasonality

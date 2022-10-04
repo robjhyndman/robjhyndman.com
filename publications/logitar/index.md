@@ -5,7 +5,7 @@ date: 1999-07-07 00:49:30+00:00
 slug: logitar
 title: Nonparametric additive regression models for binary time series
 wordpress_id: 295
-kind: conference
+categories: Conference proceedings
 details: "Proceedings, 1999 Australasian Meeting of the Econometric Society, 7-9 July 1999, University of Technology, Sydney"
 tags:
 - gams

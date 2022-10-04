@@ -4,8 +4,7 @@ date: 2012-09-01 20:11:33+00:00
 slug: rectify
 title: 'Recursive and direct multi-step forecasting: the best of both worlds'
 wordpress_id: 2159
-kind:
- unpublished
+categories: Working papers
 tags:
 - forecasting
 - time series

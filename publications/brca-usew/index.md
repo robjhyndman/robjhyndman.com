@@ -6,8 +6,7 @@ slug: brca-usew
 title: Using functional data analysis models to estimate future time trends of age-specific
   breast cancer mortality for the United States and England-Wales
 wordpress_id: 724
-kind:
- article
+categories: Articles
 tags:
 - demography
 - epidemiology

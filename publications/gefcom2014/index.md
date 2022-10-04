@@ -5,8 +5,7 @@ date: 2016-01-25 00:40:48+00:00
 slug: gefcom2014
 title: 'Probabilistic Energy Forecasting: Global Energy Forecasting Competition 2014 and Beyond'
 wordpress_id: 3545
-kind:
- article
+categories: Articles
 tags:
 - accuracy
 - data science

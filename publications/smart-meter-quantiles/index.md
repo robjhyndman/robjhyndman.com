@@ -6,8 +6,7 @@ slug: smart-meter-quantiles
 title: Forecasting uncertainty in electricity smart meter data by boosting additive
   quantile regression
 wordpress_id: 3488
-kind:
- article
+categories: Articles
 tags:
 - boosting
 - data science
