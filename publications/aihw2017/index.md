@@ -6,7 +6,7 @@ categories: Miscellaneous
 details: "Cat. no. IHW 174. Canberra: Australian Institute of Health and Welfare"
 date: 2017-12-05
 slug: aihw2017
-online: https://www.aihw.gov.au/reports/indigenous-australians/trends-in-indigenous-mortality-and-life-expectancy/contents/table-of-contents
+online: https://bit.ly/aihw2017
 ---
 
 The Enhanced Mortality Database (EMD) was developed in 2010 by the Australian Institute of Health and Welfare to explore the feasibility of creating an ongoing enhanced mortality data set that allows analysis of key mortality indicators including life expectancy and causes of death, to assist with monitoring ‘Closing the Gap’ health targets. The method involves using data linkage to enhance the identification of Aboriginal and Torres Strait Islander people in death registrations. Current official mortality statistics for Indigenous Australians include only those 5 jurisdictions which are considered to have adequate levels of Indigenous identification in death registrations data. The EMD method allows for the production of national mortality estimates that include data from all jurisdictions, and which have been adjusted for under-identification.
