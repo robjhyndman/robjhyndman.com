@@ -293,18 +293,12 @@ a.badge.badge-green {
   height: 100%;
 }
 
-.quarto-listing-category {
-  font-family: 'Fira Sans', 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
-}
-#quarto-margin-sidebar .quarto-listing-category {
-  font-size: 10pt;
-}
 .figure-caption {
   color: var(--darkgray);
   background-color: var(--lightgray);
   padding-left: 20px;
   font-size: 12pt;
-  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Fira Sans', 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 div.quarto-about-trestles .about-entity .about-link:hover {
@@ -328,10 +322,15 @@ div.quarto-about-trestles .about-entity .about-link:hover {
 }
 
 .quarto-category,
+.quarto-listing-category,
 .listing-category,
 .listing-actions-group,
 .about-link-text {
   font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#quarto-margin-sidebar .category-default {
+  font-size: 10pt;
 }
 
 .quarto-categories,
