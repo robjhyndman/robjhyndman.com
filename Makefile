@@ -12,6 +12,7 @@ build:
 deploy:
 	Rscript make_xml.R
 	cp .htaccess _site
+	cp styles.css _site
 	rsync -zrvce 'ssh -p 18765' _site/ u190-dvt18hap6a80@m80.siteground.biz:www/robjhyndman.com/public_html
 
 clean:
