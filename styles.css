@@ -1,23 +1,23 @@
 /* =Typography
 -----------------------------------------------------------------------------*/
 :root {
-  --bs-font-sans-serif: 'Fira Sans', 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --bs-font-sans-serif: 'Source Sans Pro', sans-serif;
 }
 body {
-  font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, Serif;
+  font-family: 'Roboto Slab', Georgia, Serif;
   font-size: 0.85em;
   line-height: 1.5em;
   background-color: #faf8f8;
 }
 
 pre > code {
-  font-family: 'Hack', 'Source Code Pro', 'Courier New', 'Courier', monospace;
+  font-family: 'Source Code Pro', monospace;
 }
 
 form,
 input[type="search"],
 select[multiple="multiple"] {
-  font-family: 'Fira Sans', 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1,
@@ -25,7 +25,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Fira Sans', 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #36454f;
   font-weight: bold;
 }
@@ -122,12 +122,12 @@ var,
 output {
   font-size: 90%;
   font-style: normal;
-  font-family: 'Source Code Pro', "Lucida Console", "Courier New", monospace;
+  font-family: 'Source Code Pro',  monospace;
 }
 
 nav,
 .footer {
-  font-family: 'Fira Sans', 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 100%;
 }
 
@@ -155,11 +155,11 @@ a.badge.badge-green {
   text-transform: none !important;
   padding: 5px 5px 3px 5px;
   text-transform: none;
-  font-family: 'Fira Sans', 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .badge {
-  font-family: 'Fira Sans', 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .label,
@@ -251,7 +251,7 @@ a.badge.badge-green {
 }
 
 .quarto-title-meta {
-  font-family: 'Fira Sans', 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: #ddd;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -290,7 +290,7 @@ a.badge.badge-green {
   background-color: var(--lightgray);
   padding-left: 20px;
   font-size: 12pt;
-  font-family: 'Fira Sans', 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 div.quarto-about-trestles .about-entity .about-link:hover {
@@ -318,7 +318,7 @@ div.quarto-about-trestles .about-entity .about-link:hover {
 .listing-category,
 .listing-actions-group,
 .about-link-text {
-  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 #quarto-margin-sidebar .category-default {

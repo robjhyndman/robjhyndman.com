@@ -9,7 +9,7 @@ categories:
 - R
 ---
 
-One of the things I repeatedly include in referee reports, and in my responses to authors who have submitted papers to the _International Journal of Forecasting_, are comments designed to include the quality of the graphics. Recently someone asked on [stats.stackexchange.com](http://stats.stackexchange.com) about[ best practices for producing plots](http://stats.stackexchange.com/questions/396/). So I thought it might be helpful to collate some of the answers given there and add a few comments of my own taken from things I've written for authors.
+One of the things I repeatedly include in referee reports, and in my responses to authors who have submitted papers to the _International Journal of Forecasting_, are comments designed to include the quality of the graphics. Recently someone asked on [stats.stackexchange.com](http://stats.stackexchange.com) about [best practices for producing plots](http://stats.stackexchange.com/questions/396/). So I thought it might be helpful to collate some of the answers given there and add a few comments of my own taken from things I've written for authors.
 
 The following "rules" are in no particular order.
 
