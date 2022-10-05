@@ -14,8 +14,6 @@ There is a new call for papers for a special issue of the *International Journal
 
 **Submission deadline:** 31 August 2021.
 
-<!--more-->
-
 Areas of interest include, but are not limited to:
 
 * New methodologies for hierarchical forecasting
@@ -27,4 +25,4 @@ Areas of interest include, but are not limited to:
 * Hierarchical forecasting with explanatory variables
 * Applications of hierarchical forecasting to new domains
 
-For further details, see http://bit.ly/ijfhierarchical
+For further details, see [bit.ly/ijfhierarchical](http://bit.ly/ijfhierarchical)
