@@ -6,6 +6,7 @@ title: 'The thief package for R: Temporal HIErarchical Forecasting'
 categories:
 - forecasting
 - R
+- hts
 - seasonality
 - time series
 ---

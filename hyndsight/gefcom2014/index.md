@@ -9,22 +9,17 @@ categories:
 - IJF
 - kaggle
 - R
+- hts
 ---
 
-The [2012 GEFcom competition](http://www.drhongtao.com/gefcom/2012) was a great success with several new innovative forecasting methods introduced. These have been published in the IJF as follows:<!-- more -->
+The [2012 GEFcom competition](http://www.drhongtao.com/gefcom/2012) was a great success with several new innovative forecasting methods introduced. These have been published in the IJF as follows:
 
   * [**Hong, Pinson and Fan**. Global Energy Forecasting Competition 2012](http://dx.doi.org/10.1016/j.ijforecast.2013.07.001)
-
   * [**Charleton and Singleton**. A refined parametric model for short term load forecasting](http://dx.doi.org/10.1016/j.ijforecast.2013.07.003)
-
   * [**Lloyd**. GEFCom2012 hierarchical load forecasting: Gradient boosting machines and Gaussian processes](http://dx.doi.org/10.1016/j.ijforecast.2013.07.002)
-
   * [**Nedelec, Cugliari and Goude**: GEFCom2012: Electric load forecasting and backcasting with semi-parametric models](http://dx.doi.org/10.1016/j.ijforecast.2013.07.004)
-
   * [**Ben Taieb and Hyndman**. A gradient boosting approach to the Kaggle load forecasting competition](http://dx.doi.org/10.1016/j.ijforecast.2013.07.005)
-
   * [**Silva**: A feature engineering approach to wind power forecasting: GEFCom 2012](http://dx.doi.org/10.1016/j.ijforecast.2013.07.007)
-
   * [**Mangalova and Agafonov**: Wind power forecasting using the k-nearest neighbors algorithm](http://dx.doi.org/10.1016/j.ijforecast.2013.07.008)
 
 These papers will appear in print in the next issue of the journal. The data and code for each method is also available.
@@ -44,16 +39,12 @@ Because this round of the competition is focusing on predicting the whole distri
 For each time period throughout the forecast horizon, the participants should provide the $0.01, 0.02, \dots, 0.99$ quantiles --- call these $q_1,\dots,q_{99}$, with $q_0=-\infty$ or the natural lower bound, and $q_{100}=\infty$ or the natural upper bound. The full predictive densities composed by these quantile forecasts are to be evaluated by the quantile score calculated through the pinball loss function.
 
 For a quantile forecast $q_a$ with $a/100$ as the target quantile, this score $L$ is defined as:
-
-<div>
 $$
 L(q_a, y) = \begin{cases}
 (1 - a/100) (q_a - y), & \text{if $y< q_a$};\\
 a/100 (y - q_a), & \text{if $y\ge q_a$};
 \end{cases}
 $$
-</div>
-
 where $y$ is the observation used for verification, and $a = 1, 2, \dots, 99$.
 
 To evaluate the full predictive densities, this score is then averaged over all target quantiles, from 0.01 to 0.99, for all time periods over all forecast horizons. The lower the score, the better the forecasts are.

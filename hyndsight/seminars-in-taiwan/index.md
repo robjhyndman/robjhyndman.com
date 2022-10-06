@@ -18,9 +18,8 @@ I'm currently visiting Taiwan and I'm giving two seminars while I'm here --- one
 
 ## Automatic Time Series Forecasting
 
-College of Technology Management, [Institute of Service Science](http://www.iss.nthu.edu.tw/),
-National Tsing Hua University, Hsinchu
-時間及地點：2015.1.7 (Wed.) 5pm @ TSMC building, 6F, room 622. 台積館6F孫運璿紀念中心
+College of Technology Management, [Institute of Service Science](http://www.iss.nthu.edu.tw/), National Tsing Hua University, Hsinchu 時間及地點：2015.1.7 (Wed.) 5pm @ TSMC building, 6F, room 622. 台積館6F孫運璿紀念中心
+
 Many applications require a large number of time series to be forecast completely automatically. For example, manufacturing companies often require weekly forecasts of demand for thousands of products at dozens of locations in order to plan distribution and maintain suitable inventory stocks. In these circumstances, it is not feasible for time series models to be developed for each series by an experienced analyst. Instead, an automatic forecasting algorithm is required. In addition to providing automatic forecasts when required, these algorithms also provide high quality benchmarks that can be used when developing more specific and specialized forecasting models.
 
 I will describe some algorithms for automatically forecasting univariate time series that have been developed over the last 20 years. The role of forecasting competitions in comparing the forecast accuracy of these algorithms will also be discussed.

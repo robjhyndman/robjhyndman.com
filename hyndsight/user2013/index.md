@@ -15,16 +15,13 @@ categories:
 
 This week I've been at the [R Users conference](http://www.edii.uclm.es/~useR-2013/) in Albacete, Spain. These conferences are a little unusual in that they are not really about research, unlike most conferences I attend. They provide a place for people to discuss and exchange ideas on how R can be used.
 
-Here are some thoughts and highlights of the conference, in no particular order.<!-- more -->
-
-
+Here are some thoughts and highlights of the conference, in no particular order.
 
   1. [Håvard Rue](http://www.math.ntnu.no/~hrue/index_eng.html) spoke on Bayesian computing with INLA and the [R-INLA](http://www.r-inla.org/) package. I was unaware of INLA before, but it is a much faster way than MCMC to do some Bayesian computations. It looks useful --- I might try it sometime.
 
   2. Christoph Bergmeir (who has just finished visiting me at Monash for a few months) talked about the Rsiopred package (not yet on CRAN) which uses a fuzzy multicriteria approach to forecasting ETS models. Essentially, it tries to optimize RMSE, MAE and MAPE simultaneously, which will give biased forecasts of course, but hopefully more robust forecasts. The optimization is also better (in the sense of getting closer to the global optimum) than the `ets()` function in the forecast package. Christoph is also responsible for the big improvement in speed of the `ets()` function from v4.05 of the forecast package.
 
-  3. José Manuel Benítez Sánchez (Christoph's boss) talked about the efforts of his team at the University of Granada to add [machine learning tools to CRAN](http://sci2s.ugr.es/dicits/index.php?p=software).
-Their [RSNNS package](http://dicits.ugr.es/software/RSNNS/) looks good. Next time I fit a neural net, I'll try it out.
+  3. José Manuel Benítez Sánchez (Christoph's boss) talked about the efforts of his team at the University of Granada to add [machine learning tools to CRAN](http://sci2s.ugr.es/dicits/index.php?p=software). Their [RSNNS package](http://dicits.ugr.es/software/RSNNS/) looks good. Next time I fit a neural net, I'll try it out.
 
   4. [Duncan Murdoch](https://www.uwo.ca/stats/people/bios/duncan-murdoch.html) gave an interesting talk on the new features in R 3.0.x and beyond. The most interesting part was that future releases will include the bug fixes and performance enhancements identified by [Radford Neal](http://radfordneal.wordpress.com/2013/06/22/announcing-pqr-a-faster-version-of-r/). In question time, Duncan explained why we will probably never have packages dependent on specific versions of other packages.
 

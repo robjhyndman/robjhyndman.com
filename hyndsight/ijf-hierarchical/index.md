@@ -6,6 +6,7 @@ categories:
   - research
   - ijf
   - forecasting
+  - hts
 ---
 
 There is a new call for papers for a special issue of the *International Journal of Forecasting* on **"Innovations in hierarchical forecasting"**.

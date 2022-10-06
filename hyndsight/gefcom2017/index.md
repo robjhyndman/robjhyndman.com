@@ -7,6 +7,7 @@ categories:
 - conferences
 - energy
 - forecasting
+- hts
 ---
 
 After the great success of the previous two energy forecasting competitions we have run ([GEFCom2012](http://www.drhongtao.com/gefcom/2012) and [GEFCom2014](http://www.drhongtao.com/gefcom/2014)), we are holding another one, this time focused on hierarchical probabilistic load forecasting. Check out all the details over on [Tao Hong's blog](http://blog.drhongtao.com/2016/10/gefcom2017-hierarchical-probabilistic-load-forecasting.html).
