@@ -405,3 +405,12 @@ div.quarto-post .listing-categories:hover .listing-category:hover {
 .list li {
   margin: 10px 0;
 }
+
+#quarto-appendix.default {
+  background-color: #faf8f8;
+  border-top: none;
+  padding-top: 0;
+}
+#quarto-appendix.default .quarto-appendix-heading {
+  font-size: 1.3em !important;
+}
