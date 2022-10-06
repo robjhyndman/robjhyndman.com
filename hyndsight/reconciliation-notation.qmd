@@ -1,0 +1,156 @@
+---
+title: Notation for forecast reconciliation
+bibliography: htsrefs.bib
+date: 2022-10-06
+categories:
+  - forecasting
+  - hts
+image: https://otexts.com/fpp3/figs/hts.png
+---
+
+The various papers on forecast reconcilation written over the last 13 years have not used a consistent notation. We have revised our notation as we have slowly come to understand the problem better. This is common in a new area, but it makes it tricky to read the literature as you need to figure out how the notation of each paper maps to what you've already read.
+
+Recently I spent a few weeks visiting [Professor Tommaso Di Fonzo](https://homes.stat.unipd.it/tommasodifonzo/) at the University of Padova (Italy), and one of the things we discussed was finding a notation we were both happy with so we could be more consistent in our future papers.
+
+This is what we came up with. Hopefully others will agree and use it too!
+
+For readers new to forecast reconciliation, [Chapter 11 of FPP3](https://otexts.com/fpp3/hierarchical.html) provides an introduction.
+
+We observe $n$ time series at time $t$, written as $\bm{y}_t$. The base forecasts of $\bm{y}_{T+h}$ given data $\bm{y}_1,\dots,\bm{y}_T$ are denoted by $\hat{\bm{y}}_h$.
+
+## Structural representation {-}
+
+This was the original formulation of the problem due to @HynEtAl2011, but presented here in our new notation.
+
+Let $\bm{b}_t$ be a vector of $n_b$ "bottom-level" time series at time $t$, and let $\bm{a}_t$ be a corresponding vector of $n_a = n-n_b$ aggregated time series, where
+$$
+ \bm{a}_t = \bm{A}\bm{b}_t
+$$
+and $\bm{A}$ is the $n_a\times n_b$ "aggregation" matrix specifying how the bottom-level series $\bm{b}_t$ are to be aggregated to form $\bm{a}_t$. The full vector of time series is given by
+$$
+ \bm{y}_t = \begin{bmatrix}\bm{a}_t \\\bm{b}_t\end{bmatrix}.
+$$
+This leads to the $n\times n_b$ "summing" or "structural" matrix given by
+$$
+  \bm{S} = \begin{bmatrix}\bm{A} \\ \bm{I}_{n_b}\end{bmatrix}
+$$
+such that $\bm{y}_t = \bm{S}\bm{b}_t$.
+
+All bottom-up, middle-out, top-down and linear reconciliation methods can be written as
+$$
+  \tilde{\bm{y}}_h = \bm{S}\bm{G}\hat{\bm{y}}_h,
+$$
+for different matrices $\bm{G}$.
+
+Optimal reconciled forecasts are obtained with $\bm{G}=(\bm{S}'\bm{W}^{-1}\bm{S})^{-1}\bm{W}^{-1}$, or
+$$
+  \tilde{\bm{y}}_h = \bm{M}\hat{\bm{y}}_h,
+$$
+where the $n\times n$ "mapping" matrix is given by
+$$
+  \bm{M} = \bm{S}(\bm{S}'\bm{W}^{-1}\bm{S})^{-1}\bm{W}^{-1},
+$$ {#eq-mapping1}
+$\hat{\bm{y}}_h$ are the $h$-step forecasts of $y_{T+h}$ given data to time $T$, and $\bm{W}$ is an $n \times n$ positive definite matrix. Different choices for $\bm{W}$ lead to different solutions such as OLS, WLS and MinT [@WicEtAl2019].
+
+## Linear combinations
+
+There is actually no reason for $\bm{a}_t$ to be restricted to aggregates of $\bm{b}_t$. They can include any linear combination of the bottom-level series $\bm{b}_t$, so the corresponding $\bm{A}$ and $\bm{S}$ matrices may contain any real values, not just 0s and 1s. Nevertheless, we will use the same notation for this more general setting.
+
+## Zero-constrained representation {-}
+
+This representation is more efficient and was used by @Di_FonGir2021a. It was also discussed in @WicEtAl2019. Here it is in the new notation.
+
+We can express the structural representation using the $n_a \times n$ constraint matrix
+$$\bm{C} = \begin{bmatrix}\bm{I}_{n_a} & -\bm{A}\end{bmatrix},$$
+so that $\bm{C}\bm{y}_t = \bm{0}_{n_a}$.
+Then we can write the mapping matrix as
+$$
+  \bm{M} = \bm{I}_n - \bm{W}\bm{C}'(\bm{C}\bm{W}\bm{C}')^{-1}\bm{C}.
+$$ {#eq-mapping2}
+Note that @eq-mapping2 involves inverting an $n_a \times n_a$ matrix, rather than the $n_b \times n_b$ matrix in @eq-mapping1. For most practical problems, $n_a < n_b$, so @eq-mapping2 is more efficient.
+
+This form of the mapping matrix also allows us to interpret the reconciliation as an additive adjustment to the base forecasts. If the base forecasts are already reconciled, then $\bm{C}\hat{\bm{y}}_h = \bm{0}_{n_a}$ and so $\bm{M}=\bm{I}_{n}$.
+
+## General zero-constrained representation {-}
+
+The most general way to express the problem is not to denote individual series as bottom-level or aggregated, but to define the linear constraints
+$$
+  \bm{\Gamma}\bm{y}_t = \bm{0}
+$$
+where $\bm{\Gamma}$ is an $r\times n$ matrix, not necessarily full rank, which may contain any real values.
+
+If $\bm{\Gamma}$ is full rank, then @eq-mapping2 holds with $\bm{C} = \bm{\Gamma}$.
+
+## Temporal reconciliation {-}
+
+Temporal reconciliation was proposed by @AthEtAl2017. Here it is in our new notation.
+
+For simplicity we will assume the original (scalar) time series is observed with a single seasonality of period $m$ (e.g., $m=12$ for monthly data), and the total length of the series $T$ is an integer multiple of $m$.
+We will denote the original series by $y$, and the various temporally aggregated series by $x$.
+
+Let $\{k_1,\dots,k_p\}$ denote the $p$ factors of $m$ in ascending order, where $k_1=1$ and $k_p=m$. For each factor $k$ of $m$, we can construct a temporally aggregated series
+$$x_j^{[k]} = \sum_{t = (j-1)k+1}^{jk} y_t$$
+for $j=1,\dots,T/k$. Of course, $x_j^{[1]} = y_t$.
+
+Since the observation index $j$ varies with each aggregation level, we define $\tau$ as the observation index of the most aggregated level (e.g., annual), so that $j=\tau$ at that level.
+
+For each aggregation level, we stack the observations in the column vectors
+$$
+\bm{x}_\tau^{[k]} = \begin{bmatrix*}[l]
+  x_{M_k(\tau-1)+1}^{[k]}\\
+  x_{M_k(\tau-1)+2}^{[k]}\\
+  \quad\vdots\\
+  x_{M_k\tau}^{[k]}
+  \end{bmatrix*},
+$$
+where $k=\{k_1,\dots,k_p\}$, $\tau=1,\dots,N$, and $N=T/m$.
+Collecting these in one column vector, we obtain
+$$\bm{x}_\tau = \begin{bmatrix*}[l]
+  {x_\tau^{[m]}}\\
+  {\bm{x}_\tau^{[m-1]}}\\
+  \quad\vdots\\
+  {\bm{x}_\tau^{[1]}}\\
+  \end{bmatrix*}.$$
+
+The structural representation of this formulation is
+$$\bm{x}_\tau = \bm{S} \bm{x}_\tau^{[1]}$$
+where $\bm{S} = \begin{bmatrix}\bm{A}\\\bm{I}\end{bmatrix}$ and
+$$\bm{A} =
+\begin{bmatrix}
+\bm{1}'_m \\
+\bm{I}_{m/k_{p-1}} \otimes \bm{1}'_{k_{p-1}} \\
+\vdots\\
+\bm{I}_{m/k_{2}} \otimes \bm{1}'_{k_{2}} \\
+\end{bmatrix}
+$$
+
+The zero-constrained representation is $\bm{C} = \begin{bmatrix} \bm{I} & -\bm{A}\end{bmatrix}$.
+
+If there are multiple seasonalities that are not integer multiples of each other, the resulting additional temporal aggregations can simply be stacked in $\bm{x}_t$, and $\bm{A}$ can be extended accordingly.
+
+## Cross-temporal reconcilation {-}
+
+Now consider the case where we have both cross-sectional and temporal aggregations, as discussed in @Di_FonGir2021a.
+
+Suppose we have observed $\bm{y}_t$ at the most temporally disaggregated level, including all the cross-sectionally disaggregated and aggregated (or constrained) series. Let $y_{i,t}$ be the $i$th element of the vector $\bm{y}_t$, $i=1,\dots,n$. For each $i$, we can expand $y_{i,t}$ to include all the temporally aggregated variants, giving a vector of length $p$:
+$$\bm{x}_{i,\tau} = \begin{bmatrix}
+  {x_{i,\tau}^{[m]}}\\
+  \vdots\\
+  {\bm{x}_{i,\tau}^{[1]}}
+  \end{bmatrix}.$$
+These can then be stacked into a long vector:
+$$\bm{x}_\tau = \begin{bmatrix}
+  \bm{x}_{1,\tau}\\
+  \vdots\\
+  \bm{x}_{n,\tau}
+  \end{bmatrix}.$$
+
+If $\bm{S}_{cr}$ denotes the structural matrix for the cross-sectional reconciliation, and $\bm{S}_{te}$ denotes the structural matrix for the temporal reconciliation, then the cross-temporal structural matrix is $\bm{S}_{ct} = \bm{S}_{cr} \otimes \bm{S}_{te}$, so that
+$$\bm{x}_\tau = \bm{S}_{ct} \bm{b}_\tau,$$
+where the bottom-level series
+$$\bm{b}_\tau = \begin{bmatrix}
+  {\bm{x}_{1,\tau}^{[1]}} \\
+  \vdots\\
+  {\bm{x}_{n,\tau}^{[1]}}
+  \end{bmatrix}.
+$$
