@@ -4,6 +4,7 @@ slug: job-advertisements
 title: Job advertisements
 categories:
 - jobs
+image: /img/ssa_jobs.png
 ---
 
 Employers often contact me asking how to find a good statistician, econometrician or forecaster for their organization. Students also ask me how to go about finding a job when they finish their degree. This post is for both groups, hopefully making it easier for them to pair up appropriately.

@@ -7,6 +7,7 @@ categories:
 - data science
 - jobs
 - statistics
+image: /img/ssa_jobs.png
 ---
 
 One of the great services of the Statistical Society of Australia is [an excellent **jobs board**](http://careers.statsoc.org.au) advertising available jobs for statisticians, data analysts, data scientists, etc. Jobs can be filtered by industry, location and job function.
