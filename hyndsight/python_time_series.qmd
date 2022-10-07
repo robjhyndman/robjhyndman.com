@@ -1,0 +1,57 @@
+---
+title: Python implementations of time series forecasting and anomaly detection
+date: 2022-10-07
+categories:
+  - Python
+  - forecasting
+  - anomalies
+  - hts
+bibliography: [rjhpubs.bib,theta.bib]
+csl: ../files/apa-single-spaced.csl
+---
+
+Regular readers will know that I develop statistical models and algorithms, and I write R implementations of them. I'm often asked if there are also Python implementations available. There are.
+
+##  Nixtla
+
+The best Python implementations for time series methods are available from [Nixtla](https://github.com/nixtla). Here are some of their packages related to my work, all compatible with [`scikit-learn`](http://scikit-learn.org/).
+
+ * [**statsforecast**](https://nixtla.github.io/statsforecast/): Automatic ARIMA and ETS forecasting [@HK08;@HKSG02].
+ * [**hierarchicalforecast**](https://nixtla.github.io/hierarchicalforecast/): Hierarchical forecasting [@hierarchical;@mint].
+ * [**tsfeatures**](https://github.com/Nixtla/tsfeatures): Time series features [@m3pca;@fforms;@fforma].
+
+They have also produced a lot of other great time series tools that are fast (optimized using [`numba`](https://numba.pydata.org)) and perform well compared to various alternatives.
+
+## pmdarima
+
+The first attempt to port my [`auto.arima()`](https://pkg.robjhyndman.com/forecast/reference/auto.arima.html) function to Python was [`pmdarima`](https://alkaline-ml.com/pmdarima/). This is also behind the [`AutoARIMA()`](https://www.sktime.org/en/stable/api_reference/auto_generated/sktime.forecasting.arima.AutoARIMA.html)  function in [sktime](https://www.sktime.org).
+
+## sktime
+
+[sktime](https://www.sktime.org) has the most complete set of time series methods for Python including
+
+ * [**AutoARIMA**](https://www.sktime.org/en/stable/api_reference/auto_generated/sktime.forecasting.arima.AutoARIMA.html): [@HK08];
+ * [**ETS**](https://www.sktime.org/en/stable/api_reference/auto_generated/sktime.forecasting.ets.AutoETS.html): [@HKSG02];
+ * [**BATS**](https://www.sktime.org/en/stable/api_reference/auto_generated/sktime.forecasting.bats.BATS.html)/[**TBATS**](https://www.sktime.org/en/stable/api_reference/auto_generated/sktime.forecasting.tbats.TBATS.html): [@DHS11];
+ * [**Theta**](https://www.sktime.org/en/stable/api_reference/auto_generated/sktime.forecasting.theta.ThetaForecaster.html): [@theta;@HB03];
+ * [**STLForecaster**](https://www.sktime.org/en/stable/api_reference/auto_generated/sktime.forecasting.trend.STLForecaster.html): [@mstl];
+ * [**Croston**](https://www.sktime.org/en/stable/api_reference/auto_generated/sktime.forecasting.croston.Croston.html): [@SH05];
+ * [**Bagged-ETS**](https://www.sktime.org/en/stable/api_reference/auto_generated/sktime.forecasting.compose.BaggingForecaster.html): [@baggedETS];
+
+ and more. These are also compatible with [`scikit-learn`](http://scikit-learn.org/).
+
+Recently, [Kate Buchorn](https://katiebuc.github.io/gsoc/) has ported some of my anomaly detection algorithms to Python and made them available in [sktime](https://www.sktime.org) including:
+
+ * [**STRAY**](https://github.com/sktime/sktime/pull/3338/files): High-dimensional anomaly detection [@stray].
+ * [**DOBIN**](https://github.com/sktime/sktime/pull/3373/files): Dimension reduction for anomaly detection [@dobin].
+
+## statsmodels
+
+The [statsmodels](https://www.stats.models.org) collection includes a few functions based on my work:
+
+* [**ETS**](https://www.statsmodels.org/stable/examples/notebooks/generated/ets.html): [@HKSG02];
+* [**Theta**](https://www.statsmodels.org/stable/examples/notebooks/generated/theta-model.html): [@theta;@HB03];
+* [**MSTL**](https://www.statsmodels.org/dev/generated/statsmodels.tsa.seasonal.MSTL.html): [@mstl];
+* [**functional boxplot**](https://www.statsmodels.org/dev/generated/statsmodels.graphics.functional.hdrboxplot.html): [@HS10];
+* [**functional HDR boxplot**](https://www.statsmodels.org/dev/generated/statsmodels.graphics.functional.hdrboxplot.html): [@HS10];
+* [**rainbowplot**](https://www.statsmodels.org/dev/generated/statsmodels.graphics.functional.rainbowplot.html): [@HS10].

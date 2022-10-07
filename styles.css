@@ -413,4 +413,8 @@ div.quarto-post .listing-categories:hover .listing-category:hover {
 }
 #quarto-appendix.default .quarto-appendix-heading {
   font-size: 1.3em !important;
+  border-bottom: 1px solid #b3cde0;
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }

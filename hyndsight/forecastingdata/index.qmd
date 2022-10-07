@@ -4,9 +4,10 @@ title: "Monash time series forecasting repository"
 slug: forecastingdata
 categories:
   - time series
-  - R
   - forecasting
   - data science
+  - R
+  - Python
 image: index_files/figure-html/auselec_plot-1.png
 ---
 
