@@ -8,6 +8,7 @@ categories:
   - hts
 bibliography: [rjhpubs.bib,theta.bib]
 csl: ../files/apa-single-spaced.csl
+image: /img/python.png
 ---
 
 Regular readers will know that I develop statistical models and algorithms, and I write R implementations of them. I'm often asked if there are also Python implementations available. There are.
