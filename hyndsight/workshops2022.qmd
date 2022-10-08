@@ -5,9 +5,8 @@ categories:
   - forecasting
   - R
 image: /img/forecasting_workshop.jpeg
+description: In most recent years, I've run a 2-3 day workshop, held in various locations around the world. The one this year will be in Canberra on 9-10 November, and will be taught jointly with [Associate Professor Bahman Rostami-Tabar](https://www.bahmanrt.com). [Details are here](https://statsoc.org.au/event-4945700).
 ---
-
-In most recent years, I've run a 2-3 day workshop, held in various locations around the world. The one this year will be in Canberra on 9-10 November, and will be taught jointly with [Associate Professor Bahman Rostami-Tabar](https://www.bahmanrt.com). [Details are here](https://statsoc.org.au/event-4945700).
 
 On day 1, we will look at the `tsibble` data structure for flexibly managing collections of related time series. We will look at how to do data wrangling, data visualizations and exploratory data analysis. We will explore feature-based methods to analyse time series data in high dimensions. A similar feature-based approach can be used to identify anomalous time series within a collection of time series, or to cluster or classify time series. Primary packages for day 1 will be `tsibble`, `lubridate` and `feasts` (along with the tidyverse of course).
 

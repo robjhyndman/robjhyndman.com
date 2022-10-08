@@ -5,9 +5,9 @@ categories:
   - computing
   - quarto
 image: /img/quarto_site.png
+description: This website is now managed using [Quarto](https://quarto.org). It ran using blogdown for the last six years, and [various other platforms before that](/hyndsight/blogdown). But Quarto had a few advantages, and I wanted to learn how to do it, so here we are.
 ---
 
-This website is now managed using [Quarto](https://quarto.org). It ran using blogdown for the last six years, and [various other platforms before that](/hyndsight/blogdown). But Quarto had a few advantages, and I wanted to learn how to do it, so here we are.
 
 For the blogdown site, I had to (painfully) hack my own hugo theme to make it look the way I wanted. This one is pretty much straight out of the Quarto box other than some css styling, and some tweaking of Quarto templates. In case anyone wants to create something similar for themselves, I've set up a [template version](https://github.com/robjhyndman/quarto_website_template) with just the bare minimum so you don't need to wade through the extra folders I've kept to ensure existing links continue to work.
 

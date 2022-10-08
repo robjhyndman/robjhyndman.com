@@ -9,9 +9,9 @@ categories:
 - statistics
 img: /img/amanda_cox.jpg
 fig-align: right
+description: WOMBAT is back! The WOMBAT conferences are "Workshops Organized by the Monash Business Analytics Team". The first one was held in 2016, and later editions took place in 2017 and 2019. The [2022 version](https://www.monash.edu/business/events/wombat-2022-communicating-with-data) will take place on 6-7 December.
 ---
 
-WOMBAT is back! The WOMBAT conferences are "Workshops Organized by the Monash Business Analytics Team". The first one was held in 2016, and later editions took place in 2017 and 2019. The [2022 version](https://www.monash.edu/business/events/wombat-2022-communicating-with-data) will take place on 6-7 December.
 
 The focus this year is on communicating with data. As with all WOMBAT events, the purpose is to bring together analysts from academia, industry and government to learn and discuss new open source tools for business analytics and data science.
 
