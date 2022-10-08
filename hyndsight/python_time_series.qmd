@@ -56,3 +56,7 @@ The [statsmodels](https://www.stats.models.org) collection includes a few functi
 * [**functional boxplot**](https://www.statsmodels.org/dev/generated/statsmodels.graphics.functional.hdrboxplot.html): [@HS10];
 * [**functional HDR boxplot**](https://www.statsmodels.org/dev/generated/statsmodels.graphics.functional.hdrboxplot.html): [@HS10];
 * [**rainbowplot**](https://www.statsmodels.org/dev/generated/statsmodels.graphics.functional.rainbowplot.html): [@HS10].
+
+## pyhts
+
+[Bohan Zhang](https://angelpone.github.io/) has produced [pyhts](https://angelpone.github.io/pyhts/), a re-implementation of the [hts](https://pkg.earo.me/hts/) package in Python, based on @hierarchical, @fasthts and @mint.
