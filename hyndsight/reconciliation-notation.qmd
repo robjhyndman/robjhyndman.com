@@ -105,10 +105,10 @@ $$
 where $k=\{k_1,\dots,k_p\}$, $\tau=1,\dots,N$, and $N=T/m$.
 Collecting these in one column vector, we obtain
 $$\bm{x}_\tau = \begin{bmatrix*}[l]
-  {x_\tau^{[m]}}\\
-  {\bm{x}_\tau^{[m-1]}}\\
+  {x_\tau^{[k_p]}}\\
+  {\bm{x}_\tau^{[k_p-1]}}\\
   \quad\vdots\\
-  {\bm{x}_\tau^{[1]}}\\
+  {\bm{x}_\tau^{[k_1]}}\\
   \end{bmatrix*}.$$
 
 The structural representation of this formulation is
@@ -133,9 +133,9 @@ Now consider the case where we have both cross-sectional and temporal aggregatio
 
 Suppose we have observed $\bm{y}_t$ at the most temporally disaggregated level, including all the cross-sectionally disaggregated and aggregated (or constrained) series. Let $y_{i,t}$ be the $i$th element of the vector $\bm{y}_t$, $i=1,\dots,n$. For each $i$, we can expand $y_{i,t}$ to include all the temporally aggregated variants, giving a vector of length $p$:
 $$\bm{x}_{i,\tau} = \begin{bmatrix}
-  {x_{i,\tau}^{[m]}}\\
+  {x_{i,\tau}^{[k_p]}}\\
   \vdots\\
-  {\bm{x}_{i,\tau}^{[1]}}
+  {\bm{x}_{i,\tau}^{[k_1]}}
   \end{bmatrix}.$$
 These can then be stacked into a long vector:
 $$\bm{x}_\tau = \begin{bmatrix}
