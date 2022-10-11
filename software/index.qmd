@@ -1,5 +1,6 @@
 ---
 pagetitle: "Rob J Hyndman - Software"
+freeze: false
 ---
 
 # CRAN task views
