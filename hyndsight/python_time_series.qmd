@@ -47,7 +47,7 @@ Recently, [Kate Buchorn](https://katiebuc.github.io/gsoc/) has ported some of my
 
 ## statsmodels
 
-The [statsmodels](https://www.stats.models.org) collection includes a few functions based on my work:
+The [statsmodels](https://www.statsmodels.org) collection includes a few functions based on my work:
 
 * [**ETS**](https://www.statsmodels.org/stable/examples/notebooks/generated/ets.html): [@HKSG02];
 * [**Theta**](https://www.statsmodels.org/stable/examples/notebooks/generated/theta-model.html): [@theta;@HB03];
