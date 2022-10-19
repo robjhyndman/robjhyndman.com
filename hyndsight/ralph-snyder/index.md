@@ -7,7 +7,6 @@ categories:
 - statistics
 - prizes
 - forecasting
-image: /img/Ralph.jpg
 ---
 
 At the *International Symposium on Forecasting* last week, my friend and colleague [Ralph Snyder](https://scholar.google.com/citations?user=Kc3oiaMAAAAJ&hl=en) was made a Fellow of the International Institute of Forecasters.
