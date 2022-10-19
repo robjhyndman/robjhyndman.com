@@ -106,7 +106,7 @@ where $k=\{k_1,\dots,k_p\}$, $\tau=1,\dots,N$, and $N=T/m$.
 Collecting these in one column vector, we obtain
 $$\bm{x}_\tau = \begin{bmatrix*}[l]
   {x_\tau^{[k_p]}}\\
-  {\bm{x}_\tau^{[k_p-1]}}\\
+  {\bm{x}_\tau^{[k_{p-1}]}}\\
   \quad\vdots\\
   {\bm{x}_\tau^{[k_1]}}\\
   \end{bmatrix*}.$$
@@ -144,7 +144,7 @@ $$\bm{x}_\tau = \begin{bmatrix}
   \bm{x}_{n,\tau}
   \end{bmatrix}.$$
 
-If $\bm{S}_{cr}$ denotes the structural matrix for the cross-sectional reconciliation, and $\bm{S}_{te}$ denotes the structural matrix for the temporal reconciliation, then the cross-temporal structural matrix is $\bm{S}_{ct} = \bm{S}_{cr} \otimes \bm{S}_{te}$, so that
+If $\bm{S}_{cs}$ denotes the structural matrix for the cross-sectional reconciliation, and $\bm{S}_{te}$ denotes the structural matrix for the temporal reconciliation, then the cross-temporal structural matrix is $\bm{S}_{ct} = \bm{S}_{cs} \otimes \bm{S}_{te}$, so that
 $$\bm{x}_\tau = \bm{S}_{ct} \bm{b}_\tau,$$
 where the bottom-level series
 $$\bm{b}_\tau = \begin{bmatrix}
