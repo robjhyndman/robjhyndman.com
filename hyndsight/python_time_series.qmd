@@ -59,3 +59,7 @@ The [statsmodels](https://www.statsmodels.org) collection includes a few functio
 ## pyhts
 
 [Bohan Zhang](https://angelpone.github.io/) has produced [pyhts](https://angelpone.github.io/pyhts/), a re-implementation of the [hts](https://pkg.earo.me/hts/) package in Python, based on @hierarchical, @fasthts and @mint.
+
+## Darts
+
+[Darts](https://unit8co.github.io/darts/) is a Python library for wrangling and forecasting time series. It includes wrappers for ETS and ARIMA models from [`statsforecast`](https://nixtla.github.io/statsforecast/) and [`pmdarima`](https://alkaline-ml.com/pmdarima/), as well as an implementation of [TBATS](https://unit8co.github.io/darts/generated_api/darts.models.forecasting.tbats.html) and some [reconciliation functionality](https://unit8co.github.io/darts/examples/16-hierarchical-reconciliation.html).
