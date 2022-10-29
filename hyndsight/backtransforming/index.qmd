@@ -17,21 +17,20 @@ $$f(\mu) + \frac{1}{2}\sigma^2f''(\mu).$$<!-- more -->
 ### Box-Cox transformations
 
 For a Box-Cox transformation,
+<div>
 $$f(x) = \begin{cases}
  (\lambda x+1)^{1/\lambda} & \text{if $\lambda\ne0$;}\\
  e^x & \text{if $\lambda=0$.}
-\end{cases}
-$$
+\end{cases}$$
+</div>
 So
 $$f''(x) = \begin{cases}
 (1-\lambda)(\lambda x+1)^{1/\lambda-2} & \text{if $\lambda\ne0$;}\\
- e^x & \text{if $\lambda=0$.}\end{cases}
-$$
+ e^x & \text{if $\lambda=0$.}\end{cases}$$
 and the backtransformed mean is given by
 $$\begin{cases}
  (\lambda \mu+1)^{1/\lambda}\left[1 + \frac{\sigma^2(1-\lambda)}{2(\lambda \mu+1)^{2}}\right] & \text{if $\lambda\ne0$;}\\
- e^\mu\left[1 + \frac{\sigma^2}{2}\right] & \text{if $\lambda=0$.}\end{cases}
- $$
+ e^\mu\left[1 + \frac{\sigma^2}{2}\right] & \text{if $\lambda=0$.}\end{cases}$$
 Therefore, to adjust the back-transformed mean obtained by R, the following code can be used.
 
 ```{r, message=FALSE, cache=TRUE}
