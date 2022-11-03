@@ -1,17 +1,23 @@
 /* =Typography
 -----------------------------------------------------------------------------*/
+@font-face {
+  font-family: 'hack_regular';
+  src: url('https://robjhyndman.com/fonts/hack_regular.woff2') format('woff2'),
+       url('https://robjhyndman.com/fonts/hack_regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-variant-ligatures: normal;
+}
+
 :root {
   --bs-font-sans-serif: 'Source Sans Pro', sans-serif;
+  --bs-font-monospace: hack_regular, monospace;
 }
 body {
   font-family: 'Roboto Slab', Georgia, Serif;
   font-size: 0.85em;
   line-height: 1.5em;
   background-color: #faf8f8;
-}
-
-pre > code {
-  font-family: 'Source Code Pro', monospace;
 }
 
 form,
@@ -122,7 +128,8 @@ var,
 output {
   font-size: 90%;
   font-style: normal;
-  font-family: 'Source Code Pro',  monospace;
+  font-family: hack_regular,  monospace !important;
+  font-variant-ligatures: normal !important;
 }
 
 nav,
