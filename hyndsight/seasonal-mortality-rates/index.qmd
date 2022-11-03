@@ -18,10 +18,6 @@ options(digits = 3, width = 75)
 
 The weekly mortality data recently published by the [Human Mortality Database](https://www.mortality.org) can be used to explore seasonality in mortality rates. Mortality rates are known to be seasonal due to temperatures and other weather-related effects [(Healy 2003)](http://dx.doi.org/10.1136/jech.57.10.784).
 
-<!--more-->
-
-The weekly mortality data recently published by the [Human Mortality Database](https://www.mortality.org) can be used to explore seasonality in mortality rates. Mortality rates are known to be seasonal due to temperatures and other weather-related effects [(Healy 2003)](http://dx.doi.org/10.1136/jech.57.10.784).
-
 ```{r loadpackages, warning=FALSE, message=FALSE}
 library(dplyr)
 library(tidyr)
@@ -40,7 +36,7 @@ stmf <- readRDS(here::here("data/stmf.rds"))
 ```
 
 ```{r download, eval=FALSE}
-stmf <- readr::read_csv("https://www.mortality.org/Public/STMF/Outputs/stmf.csv", skip=1)
+stmf <- readr::read_csv("https://www.mortality.org/File/GetDocument/Public/STMF/Outputs/stmf.csv", skip=1)
 ```
 
 ```{r wrangle, warning=FALSE, message=FALSE}
