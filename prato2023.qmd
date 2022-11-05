@@ -1,0 +1,92 @@
+---
+title: "IIF Workshop on Forecast Reconciliation"
+---
+
+**Dates:** 6-8 September 2023
+
+**Venue:** [Monash University Prato Centre, Italy](https://www.monash.edu/prato)
+
+This event is limited to 30 people, and attendance will be by invitation.
+
+## Organizing committee
+
+ * [Rob J Hyndman](https://robjhyndman.com)
+ * [Shanika Wickramasuriya](https://profiles.auckland.ac.nz/s-wickramasuriya)
+ * [Tommaso Di Fonzo](https://homes.stat.unipd.it/tommasodifonzo/en/home-2/)
+
+## Workshop aim
+
+Organisations use forecasts to make decisions in order to plan and function efficiently.  Such forecasts may  correspond to different time scales from short-term to medium-term to long-term; and can apply to different parts of the organization such as a single branch, a region, or worldwide.
+
+It is often important to ensure that the forecasts are coherent, so that the predicted values at disaggregate scales add up to the aggregate forecast. For example, monthly predictions should sum up to annual predictions and similarly, regional predictions should add up to country-level predictions. This allows forecasts to support aligned decision making across different planning units and horizons.
+
+This forecasting problem setting gives rise to hierarchical forecasting. Historically this has been addressed using Top-Down and Bottom-Up approaches, which have been shown to exhibit several limitations. In the past decade, the introduction of forecast reconciliation approaches has reinvigorated research into hierarchical forecasting.
+
+The workshop aims to draw together about 30 participants (both academics and practitioners) from around the world, to foster research collaboration on forecast reconciliation, and to encourage interactions between academics and practitioners who work in this area.
+
+## Workshop format
+
+The workshop will start with an evening reception, followed by two full days of presentations and discussions. Presenters and discussants will be drawn from academia and industry, and cover a range of experience from senior professors to PhD students. This format will allow ample time for full presentations and discussions on each of the presented papers.
+
+In addition to these presentations, we will include time on each day for discussion on "Reconciliation open problems". This will explore challenges and open problems that participants currently face, and encourage future research to tackle the problems. Any participant may present a 5 minute overview of an open problem, with discussion to follow.
+
+## Workshop topics
+
+* New methodologies for hierarchical forecasting
+* High dimensional hierarchical forecasting (methods and applications)
+* An improved understanding of the relationship between forecast reconciliation and  forecast combination
+* Probabilistic hierarchical forecasting for discrete and continuous distributions
+* Temporal and cross-temporal hierarchies
+* Machine learning and AI approaches to hierarchical forecasting
+* Hierarchical forecasting with explanatory variables
+* Applications of hierarchical forecasting to new domains
+
+## Program
+
+### 6 September
+
+* Welcome reception
+
+### 7 September
+
+* 9.00am -- 10.30am. 2 presenters and discussants
+* 10.30am -- 11.00am. Morning tea
+* 11.00am -- 12.30pm. 2 presenters and discussants
+* 12.30pm -- 1.30pm. Lunch
+* 1.30pm -- 3.00pm. 2 presenters and discussants
+* 3.00pm -- 3.30pm. Afternoon tea
+* 3.30pm -- 5.00pm. Open problem discussion
+
+### 8 September
+
+* 9.00am -- 10.30am. 2 presenters and discussants
+* 10.30am -- 11.00am. Morning tea
+* 11.00am -- 12.30pm. 2 presenters and discussants
+* 12.30pm -- 1.30pm. Lunch
+* 1.30pm -- 3.00pm. 2 presenters and discussants
+* 3.00pm -- 3.30pm. Afternoon tea
+* 3.30pm -- 5.00pm. Open problem discussion
+* 7.30pm -- 10.30pm. Workshop dinner
+
+## Monash University Prato Centre
+
+[Monash University Prato Centre](https://www.monash.edu/prato) occupies the 18th century Palazzo Vaj, and provides a European base for Monash University academics.
+
+![](img/Monash_Prato.jpg)
+
+## Getting there
+
+There are regular trains from Florence (only 17km away). Train routes and timetables are available on the [Trenitalia website](https://www.trenitalia.com/en.html).
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8377.008516426136!2d11.097695243299363!3d43.87991255076215!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x87a2b1cf083ca041!2sMonash%20University%20Prato%20Centre!5e0!3m2!1sen!2sau!4v1667629397682!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+## Accommodation
+
+There are many accommodation options in Prato. [Here are some of them](https://www.monash.edu/prato/visiting-prato/accommodation/local-accommodation). We recommend [Hotel Art Milano](https://www.arthotel-milano.it), a 10 minute walk from the Monash Prato Centre.
+
+## Sponsors
+
+[![](img/iif-logo-new.png)](https://forecasters.org)
+
+[![](img/MBSlogo.jpg)](https://www.monash.edu/business/ebs/)
