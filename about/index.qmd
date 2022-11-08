@@ -33,7 +33,7 @@ The following bio and [**this photo**](../img/RJH_Monash_headshot.jpg) may be us
 ::: {.column width="30%"}
 <ul class="fa-ul">
   <li><a href="https://github.com/robjhyndman"><i class="fa-li fa-brands fa-github"></i>GitHub</a></li>
-  <li><a href="https://twitter.com/robjhyndman"><i class="fa-li fa-brands fa-twitter"></i>Twitter</a></li>
+  <li><a rel="me" href="https://aus.social/@robjhyndman"><i class="fa-li fa-brands fa-mastadon"></i>Mastodon</a></li>
   <li><a href="http://en.wikipedia.org/wiki/Rob_J._Hyndman"><i class="fa-li fa-brands fa-wikipedia-w"></i>Wikipedia</a></li>
 </ul>
 
