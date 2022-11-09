@@ -253,3 +253,8 @@ Repeat Lab Session 16 but using all available data, and handling the annual seas
 * Which type of model works best?
 * Does the reconciliation improve the forecast accuracy?
 * Why doesn't the reconcililation make any difference to the SNAIVE forecasts?
+
+
+## Solutions to lab exercises
+
+[R code](https://raw.githubusercontent.com/robjhyndman/forecasting_workshop/main/labs.R)
