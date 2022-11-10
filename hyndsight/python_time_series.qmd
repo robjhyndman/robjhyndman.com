@@ -14,13 +14,21 @@ description: Regular readers will know that I develop statistical models and alg
 
 ##  Nixtla
 
-The best Python implementations for time series methods are available from [Nixtla](https://github.com/nixtla). Here are some of their packages related to my work, all compatible with [`scikit-learn`](http://scikit-learn.org/).
+The best Python implementations for my time series methods are available from [Nixtla](https://github.com/nixtla). Here are some of their packages related to my work, all compatible with [`scikit-learn`](http://scikit-learn.org/).
 
  * [**statsforecast**](https://nixtla.github.io/statsforecast/): Automatic ARIMA and ETS forecasting [@HK08;@HKSG02].
  * [**hierarchicalforecast**](https://nixtla.github.io/hierarchicalforecast/): Hierarchical forecasting [@hierarchical;@mint].
  * [**tsfeatures**](https://github.com/Nixtla/tsfeatures): Time series features [@m3pca;@fforms;@fforma].
 
 They have also produced a lot of other great time series tools that are fast (optimized using [`numba`](https://numba.pydata.org)) and perform well compared to various alternatives.
+
+## GluonTS
+
+[GluonTS](https://ts.gluon.ai/) from Amazon is excellent and provides lots of probabilistic time series forecasting models, with wrappers to some of my R code, and statsforecast from Nixtla.  The other models in GluonTS are also well worth exploring.
+
+## Merlion
+
+[Merlion](https://github.com/salesforce/Merlion) from Salesforce is another interesting python library which includes both my automatic ARIMA and automatic ETS algorithms, along with other forecasting methods. It also has some anomaly detection methods for time series.
 
 ## pmdarima
 
