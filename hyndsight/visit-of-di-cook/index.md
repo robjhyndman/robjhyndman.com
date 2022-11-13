@@ -13,7 +13,7 @@ categories:
 - statistics
 ---
 
-Next week, [Professor Di Cook](http://dicook.org) from Iowa State University is visiting my research group at Monash University. Di is a world leader in data visualization, and is especially well-known for her work on interactive graphics and the [XGobi](http://www2.research.att.com/areas/stat/xgobi/) and [GGobi](http://www.ggobi.org/) software. See [her book with Deb Swayne](http://amzn.com/dp/0387717617/?tag=otexts-20) for details.
+Next week, [Professor Di Cook](http://dicook.org) from Iowa State University is visiting my research group at Monash University. Di is a world leader in data visualization, and is especially well-known for her work on interactive graphics and the [XGobi](http://lib.stat.cmu.edu/general/XGobi/) and [GGobi](http://www.ggobi.org/) software. See [her book with Deb Swayne](http://amzn.com/dp/0387717617/?tag=otexts-20) for details.
 
 [![](/img/dicook.jpeg)](http://dicook.org)
 

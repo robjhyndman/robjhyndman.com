@@ -9,7 +9,7 @@ categories:
 - statistics
 ---
 
-The International Association for Statistical Computing (IASC) is holding a Data Analysis Competition. Winners will be invited to present their work at the [Joint Meeting of IASC-ABE Satellite Conference for the 60th ISI WSC 2015](https://www.ime.usp.br/~abe/iasc2015/) to be held at Atlântico Búzios Convention & Resort in Búzios, RJ, Brazil (August 2-4, 2015). They will also be invited to submit a manuscript for possible publication (following peer review) to IASC's official journal, [_Computational Statistics & Data Analysis_](http://www.journals.elsevier.com/computational-statistics-and-data-analysis/).<!-- more -->
+The International Association for Statistical Computing (IASC) is holding a Data Analysis Competition. Winners will be invited to present their work at the [Joint Meeting of IASC-ABE Satellite Conference for the 60th ISI WSC 2015](https://iasc-isi.org/2015/02/01/data-analysis-competition-2015-edition/) to be held at Atlântico Búzios Convention & Resort in Búzios, RJ, Brazil (August 2-4, 2015). They will also be invited to submit a manuscript for possible publication (following peer review) to IASC's official journal, [_Computational Statistics & Data Analysis_](http://www.journals.elsevier.com/computational-statistics-and-data-analysis/).<!-- more -->
 
 ### Competition Guidelines
 

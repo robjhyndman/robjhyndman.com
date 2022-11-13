@@ -53,7 +53,7 @@ Although rankings are always a little dodgy, they provide a rough guide to relat
 
   * in the top 15 departments in the world in [forecasting](http://ideas.repec.org/top/top.for.html)
 
-The QS world rankings of universities place Monash 24th in [economics and econometrics](http://www.topuniversities.com/university-rankings/university-subject-rankings/2014/economics-econometrics#sorting=rank+region=+country=319+faculty=+stars=false+search=), and in the top 100 in [statistics and operational research](http://www.topuniversities.com/university-rankings/university-subject-rankings/2014/statistics-operational-research#sorting=rank+region=+country=319+faculty=+stars=false+search=).
+The QS world rankings of universities place Monash 24th in [economics and econometrics](https://www.topuniversities.com/university-rankings/university-subject-rankings/2022/economics-econometrics), and in the top 100 in [statistics and operational research](https://www.topuniversities.com/university-rankings/university-subject-rankings/2022/statistics-operational-research).
 
 ### How do I apply?
 

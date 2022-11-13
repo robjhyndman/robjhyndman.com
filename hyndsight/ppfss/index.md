@@ -10,17 +10,17 @@ categories:
 
 This is the title of a wonderful new book that has just been released, courtesy of the Committee of Presidents of Statistical Societies.
 
-It can be freely downloaded from [the COPSS website](http://nisla05.niss.org/copss/past-present-future-copss.pdf) or a hard copy can be [purchased on Amazon](http://www.amazon.com/Past-Present-Future-Statistical-Science/dp/1482204967?tag=otexts-20) (for only a little over 10c per page which is not bad compared to other statistics books).
+It can be freely downloaded from [the COPSS website](https://higherlogicdownload.s3.amazonaws.com/AMSTAT/71a758c7-5229-4729-bb64-caf9d1cf855f/UploadedImages/past-present-future-copss.pdf) or a hard copy can be [purchased on Amazon](http://www.amazon.com/Past-Present-Future-Statistical-Science/dp/1482204967?tag=otexts-20) (for only a little over 10c per page which is not bad compared to other statistics books).
 
 The book consists of 52 chapters spanning 622 pages. The full table of contents below shows its scope and the list of authors (a veritable who's who in statistics).<!-- more -->
 
 * * *
 
-**The History of COPSS**
+### **The History of COPSS**
 
 A brief history of the Committee of Presidents of Statistical Societies (COPSS) _Ingram Olkin_
 
-**Reminiscences and Personal Reflections on Career Paths**
+### **Reminiscences and Personal Reflections on Career Paths**
 
 Reminiscences of the Columbia University Department of Mathematical Statistics in the late 1940s _Ingram Olkin_
 
@@ -44,7 +44,7 @@ Lessons from a twisted career path _Jeffrey S. Rosenthal_
 
 Promoting equity _Mary Gray_
 
-**Perspectives on the Field and Profession**
+### **Perspectives on the Field and Profession**
 
 Statistics in service to the nation _Stephen E. Fienberg_
 
@@ -64,7 +64,7 @@ Reflections on women in statistics in Canada _Mary E. Thompson_
 
 Reflections on diversity _Louise Ryan_
 
-**Reflections on the Discipline**
+### **Reflections on the Discipline**
 
 Why does statistics have two theories? _Donald A.S. Fraser_
 
@@ -114,7 +114,7 @@ Rise of the machines _Larry A. Wasserman_
 
 A trio of inference problems that could win you a Nobel Prize in statistics (if you help fund it) _Xiao-Li Meng_
 
-**Advice for the Next Generation**
+### **Advice for the Next Generation**
 
 Inspiration, aspiration, ambition _C.F. Jeff Wu_
 
