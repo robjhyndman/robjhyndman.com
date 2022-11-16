@@ -48,7 +48,7 @@ The first attempt to port my [`auto.arima()`](https://pkg.robjhyndman.com/foreca
 
  and more. These are also compatible with [`scikit-learn`](http://scikit-learn.org/).
 
-Recently, [Kate Buchorn](https://katiebuc.github.io/gsoc/) has ported some of my anomaly detection algorithms to Python and made them available in [sktime](https://www.sktime.org) including:
+Recently, [Kate Buchhorn](https://katiebuc.github.io/gsoc/) has ported some of my anomaly detection algorithms to Python and made them available in [sktime](https://www.sktime.org) including:
 
  * [**STRAY**](https://github.com/sktime/sktime/pull/3338/files): High-dimensional anomaly detection [@stray].
  * [**DOBIN**](https://github.com/sktime/sktime/pull/3373/files): Dimension reduction for anomaly detection [@dobin].
