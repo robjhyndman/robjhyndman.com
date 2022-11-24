@@ -3,6 +3,7 @@ title: "In the news"
 slug: "in-the-news"
 ---
 
+  * ["Business School joins new $7.86 million industrial transformation research centre"](https://www.monash.edu/business/news/2022/business-school-joins-new-$7.86-million-industrial-transformation-research-centre/), Monash News, 23 November 2022.
   * ["Monash University’s Rob Hyndman awarded the Pitman Medal 2021"](https://busycontinent.com/monash-universitys-rob-hyndman-awarded/), Busy Continent, 28 July 2021.
   * ["Top Stats Society Honour for ACEMS Chief Investigator"](https://acems.org.au/news/rob-hyndman-pitman-medal), ACEMS, 9 July 2021.
   * ["Rob Hyndman awarded the Pitman Medal 2021"](https://statsoc.org.au/News-and-media-releases/10736720), Statistical Society of Australia, 8 July 2021.
