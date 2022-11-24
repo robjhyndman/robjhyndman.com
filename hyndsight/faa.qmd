@@ -1,0 +1,12 @@
+---
+title: "Australian Academy of Science"
+date: "2022-11-25"
+categories:
+  - forecasting
+  - anomalies
+  - AAS
+image: /img/faa_video.png
+description: The Australian Academy of Science has put out a new video about my work.
+---
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/767544183?h=e830fd9cf1" width="800" height="450" frameborder="0" allowfullscreen></iframe>
