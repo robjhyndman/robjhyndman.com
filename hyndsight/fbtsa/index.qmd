@@ -75,6 +75,8 @@ This is holiday trips to the most popular ski region of Australia.
 The `feasts` package currently includes 42 features which can all be computed in one line like this.
 
 ```{r all_features}
+#| message: false
+#| warning: false
 # Compute features
 tourism_features <- tourism %>%
   features(Trips, feature_set(pkgs="feasts"))
