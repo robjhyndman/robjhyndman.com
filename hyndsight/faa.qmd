@@ -9,4 +9,4 @@ image: /img/faa_video.png
 description: The Australian Academy of Science has put out a new video about my work.
 ---
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/767544183?h=e830fd9cf1" width="800" height="450" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/uF36wh5Czc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
