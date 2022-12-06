@@ -77,6 +77,6 @@ snowy <- tourism |> filter(Region == "Snowy Mountains")
 * Use a feature-based approach to look for outlying series in `tourism`.
 * What is unusual about the series you identify as outliers?
 
-<!-- ## Solutions to lab exercises
+## Solutions to lab exercises
 
-[R code](https://raw.githubusercontent.com/robjhyndman/time_series_workshop/main/labs.R) -->
+[R code](https://raw.githubusercontent.com/robjhyndman/time_series_workshop/main/labs.R)
