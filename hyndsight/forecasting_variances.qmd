@@ -1,6 +1,6 @@
 ---
 title: Derivations of forecast variance for benchmark methods
-date: 2022-12-02
+date: 2022-12-08
 categories:
   - forecasting
 image: /img/fvar.png
@@ -22,9 +22,9 @@ Therefore
 y_{T+1} &= y_T + \varepsilon_T \\
 y_{T+2} &= y_{T+1} + \varepsilon_{T+1}  = y_T + \varepsilon_T + \varepsilon_{T+1}\\
 \vdots \\
-y_{T+h} &= y_T + \sum_{i=1}^h \varepsilon_{T+i}
+y_{T+h} &= y_T + \sum_{i=1}^h \varepsilon_{T+i}.
 \end{align*}
-Therefore
+Consequently
 \begin{align*}
 \hat{y}_{T+h|T} &= E(y_{T+h|T}) = y_T\\
 \text{and}\qquad
