@@ -20,8 +20,8 @@ Lately the topic seems to have been getting some much-needed attention and the f
 
 These two older books are also extremely useful references on good table design.
 
-  * [Show Me the Numbers: Designing Tables and Graphs to Enlighten](http://www.amazon.com/gp/product/0970601999/ref=as_li_ss_tl?ie=UTF8&tag=prorobjhyn-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0970601999)![](http://www.assoc-amazon.com/e/ir?t=prorobjhyn-20&l=as2&o=1&a=0970601999) (Few 2004)
+  * [Show Me the Numbers: Designing Tables and Graphs to Enlighten](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0970601999)![](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0970601999) (Few 2004)
 
-  * [The Chicago Guide to Writing about Numbers](http://www.amazon.com/gp/product/0226526313/ref=as_li_ss_tl?ie=UTF8&tag=prorobjhyn-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0226526313) (Miller 2004)
+  * [The Chicago Guide to Writing about Numbers](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0226526313) (Miller 2004)
 
 Finally, tables can often be replaced with graphics to better effect, a point argued by [Gelman, Pasarica and Dodhia (2002)](http://www.stat.columbia.edu/~gelman/research/published/dodhia.pdf) -- this one is not satirical!

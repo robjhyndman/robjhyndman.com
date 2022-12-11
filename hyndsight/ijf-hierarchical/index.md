@@ -11,7 +11,7 @@ categories:
 
 There is a new call for papers for a special issue of the *International Journal of Forecasting* on **"Innovations in hierarchical forecasting"**.
 
-**Guest editors:** [George Athanasopoulos](https://research.monash.edu/en/persons/george-athanasopoulos), [Rob J Hyndman](/), [Anastasios Panagiotelis](https://anastasiospanagiotelis.netlify.app/), and [Nikolaos Kourentzes](http://nikolaos.kourentzes.com/).
+**Guest editors:** [George Athanasopoulos](https://research.monash.edu/en/persons/george-athanasopoulos), [Rob J Hyndman](/), [Anastasios Panagiotelis](https://anastasiospanagiotelis.netlify.app/), and [Nikolaos Kourentzes](https://kourentzes.com/forecasting/).
 
 **Submission deadline:** 31 August 2021.
 

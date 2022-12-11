@@ -11,4 +11,4 @@ In the past couple of days, the authors of several blogs have noted that the won
 
 Of course, it is also nice to have a hard copy. Click the image to purchase from Amazon.
 
-[![](https://robjhyndman.com/pics/esl2.jpg)](http://www.amazon.com/gp/product/0387848576?ie=UTF8&tag=prorobjhyn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0387848576)![](http://www.assoc-amazon.com/e/ir?t=prorobjhyn-20&l=as2&o=1&a=0387848576)
+[![](https://robjhyndman.com/pics/esl2.jpg)](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0387848576)

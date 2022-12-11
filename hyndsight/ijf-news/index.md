@@ -32,7 +32,7 @@ There have been several changes to the editorial board over the last few months.
 
 Two new associate editors have joined the board in the last few months: [**David Rapach**](http://sites.slu.edu/rapachde/) and [**Ana Galvao**](http://www.wbs.ac.uk/about/person/ana-galvao). David is at Saint Louis University, USA, and is a consultant at Merrill Lynch and a visiting scholar at the Federal Reserve Bank, St Louis. He will be handling papers in financial forecasting. Ana is Associate Professor of Economic Modelling and Forecasting at the Warwick Business School, UK. She will be primarily be handling papers on real-time forecasting and non-linear time series. We welcome them both to the board.
 
-In addition, we have appointed [**Nikolaos Kourentzes**](http://nikolaos.kourentzes.com/) (University of Lancaster, UK) as book review editor, taking over from Monica Adya who remains on the board as an associate editor. Nikos works in business forecasting, forecasting support systems and data mining. Thanks to Nikos for taking on this important role on the board, and we look forward to many interesting book reviews.
+In addition, we have appointed [**Nikolaos Kourentzes**](https://kourentzes.com/forecasting/) (University of Lancaster, UK) as book review editor, taking over from Monica Adya who remains on the board as an associate editor. Nikos works in business forecasting, forecasting support systems and data mining. Thanks to Nikos for taking on this important role on the board, and we look forward to many interesting book reviews.
 
 ### Review articles
 
