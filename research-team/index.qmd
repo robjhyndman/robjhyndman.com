@@ -2,9 +2,6 @@
 title: "Research team"
 ---
 
-  * **Potential PhD students:** please read [Advice to PhD Applicants](/hyndsight/phdapplicants/)
-  * **Potential research fellows:** All available positions are filled.
-
 ## Current PhD students
 
   1. **[Lakshan Bernard](https://acems.org.au/our-people/lakshan-bernard)**. *Analytical tools for future power networks* (PhD, begun 2020).
