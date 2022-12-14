@@ -9,3 +9,4 @@ abstract: "Detecting anomalies from a series of temporal networks has many appli
 
 * [Associated R package](https://github.com/sevvandi/oddnet)
 * [R code for paper](https://github.com/sevvandi/supplementary_material/tree/master/oddnet)
+* [Associated R package](https://github.com/sevvandi/oddnet)
