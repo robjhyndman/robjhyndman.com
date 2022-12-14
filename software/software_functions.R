@@ -160,6 +160,7 @@ rjh_packages <- function() {
       "gravitas", "https://github.com/Sayani07/gravitas/raw/master/man/figures/logo.png",
       "hts", "stickers/htssticker.resized.png",
       "lookout", "https://sevvandi.github.io/lookout/reference/figures/logo.png",
+      "oddnet", "https://github.com/sevvandi/oddnet/raw/master/man/img/oddnet.png",
       "oddstream", "https://github.com/pridiltal/oddstream/raw/master/man/figures/logo.png",
       "oddwater", "https://github.com/pridiltal/oddwater/raw/master/man/fig/logo.png",
       "rticles", "https://pkgs.rstudio.com/rticles/logo.png",
@@ -179,7 +180,7 @@ rjh_packages <- function() {
       pull(package) |>
       generic_stickers()
     packages <- packages |>
-      mutate(hex = if_else(!is.na(hex), hex, here::here(paste0("software/stickers/", package, ".png"))))
+      mutate(hex = if_else(!is.na(hex), hex, paste0("stickers/", package, ".png")))
 
     # Add reference links to related papers
     # Syntax: package, publication slug, citation
@@ -216,7 +217,8 @@ rjh_packages <- function() {
       add_reference("thief", "temporal-hierarchies", "Athanasopoulos et al (2017)") |>
       add_reference("tsfeatures", "icdm2015", "Hyndman, Wang & Laptev (2015)") |>
       add_reference("tsfeatures", "ts-feature-space", "Kang, Hyndman & Smith-Miles (2017)") |>
-      add_reference("tsibble", "tsibble", "Wang, Cook & Hyndman (2020)")
+      add_reference("tsibble", "tsibble", "Wang, Cook & Hyndman (2020)") |>
+      add_reference("oddnet", "oddnet", "Kandanaarachchi & Hyndman (2022)")
     packages <- left_join(packages, references)
 
     # Improved titles for books and others
@@ -296,7 +298,8 @@ rjh_packages <- function() {
           "lookout",
           "stray",
           "oddstream",
-          "oddwater"
+          "oddwater",
+          "oddnet"
         )
       ) |>
       add_section(
