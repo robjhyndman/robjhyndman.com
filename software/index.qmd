@@ -12,7 +12,7 @@ freeze: false
 
 ```{r functions, include=FALSE}
 library(tidyverse)
-source("software_functions.R")
+source(here::here("software/software_functions.R"))
 packages <- rjh_packages()
 ```
 

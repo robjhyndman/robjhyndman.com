@@ -1,7 +1,7 @@
 # Create generic hex stickers for vector of package names
 generic_stickers <- function(packages) {
   # Check if the stickers already exist
-  existing <- fs::dir_ls(paste0("stickers/"), glob = "*.png") |>
+  existing <- fs::dir_ls(here::here("software/stickers/"), glob = "*.png") |>
     str_split("/") |>
     lapply(tail, n = 1) |>
     unlist() |>
@@ -27,7 +27,7 @@ create_generic_sticker <- function(name) {
     h_fill = "#536878",
     h_size = 2,
     h_color = "#647e91",
-    filename = paste0("stickers/", name, ".png")
+    filename = here::here(paste0("software/stickers/", name, ".png"))
   )
 }
 
@@ -123,9 +123,9 @@ add_section <- function(packages, section_name, include) {
 
 rjh_packages <- function() {
   # Get most recent packages file
-  if (fs::file_exists("packages.rds")) {
-    packages <- readRDS("packages.rds")
-    info <- fs::file_info("packages.rds")
+  if (fs::file_exists(here::here("software/packages.rds"))) {
+    packages <- readRDS(here::here("software/packages.rds"))
+    info <- fs::file_info(here::here("software/packages.rds"))
     recent_run <- (Sys.Date() == anytime::anydate(info$modification_time))
   } else {
     recent_run <- FALSE
@@ -179,7 +179,7 @@ rjh_packages <- function() {
       pull(package) |>
       generic_stickers()
     packages <- packages |>
-      mutate(hex = if_else(!is.na(hex), hex, paste0("stickers/", package, ".png")))
+      mutate(hex = if_else(!is.na(hex), hex, here::here(paste0("software/stickers/", package, ".png"))))
 
     # Add reference links to related papers
     # Syntax: package, publication slug, citation
@@ -327,7 +327,7 @@ rjh_packages <- function() {
       packages |> filter(section == "Other"),
     )
     # Save result
-    saveRDS(packages, file = "packages.rds")
+    saveRDS(packages, file = here::here("software/packages.rds"))
     return(packages)
   }
 }
