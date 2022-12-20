@@ -160,7 +160,7 @@ rjh_packages <- function() {
       "gravitas", "https://github.com/Sayani07/gravitas/raw/master/man/figures/logo.png",
       "hts", "stickers/htssticker.resized.png",
       "lookout", "https://sevvandi.github.io/lookout/reference/figures/logo.png",
-      "oddnet", "https://github.com/sevvandi/oddnet/raw/master/man/img/oddnet.png",
+      "oddnet", "https://raw.githubusercontent.com/sevvandi/oddnet/master/man/figures/oddnet.png",
       "oddstream", "https://github.com/pridiltal/oddstream/raw/master/man/figures/logo.png",
       "oddwater", "https://github.com/pridiltal/oddwater/raw/master/man/fig/logo.png",
       "rticles", "https://pkgs.rstudio.com/rticles/logo.png",

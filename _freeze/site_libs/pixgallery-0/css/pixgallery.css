@@ -1,0 +1,78 @@
+/* css styles for pixgallery */
+
+/* caption */
+
+.slbCaption {
+ font-size: 1em;
+ white-space: normal;
+}
+
+/* gallery box */
+
+.pixgallery-gallery-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  margin: 1em 0;
+}
+
+.pixgallery-child-box {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+}
+
+.pixgallery-child-box a:hover,
+.pixgallery-child-box a:focus,
+.pixgallery-child-box a:active {
+  -webkit-filter: brightness(0.8);
+  filter: brightness(0.8);
+}
+
+.pixgallery-image-box {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+}
+
+/* gallery grid */
+
+.pixgallery-gallery-grid {
+	display: -ms-grid;
+	display: grid;
+  margin-bottom: 0.5em;
+}
+
+.pixgallery-child-grid a:hover,
+.pixgallery-child-grid a:focus,
+.pixgallery-child-grid a:active {
+    -webkit-filter: brightness(0.8);
+    filter: brightness(0.8);
+}
+
+.pixgallery-image-grid {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+}
+
+
+
