@@ -13,6 +13,13 @@ deploy:
 	Rscript make_xml.R
 	cp .htaccess _site
 	cp styles.css _site
+	rsync -rau data/ _site/data/
+	rsync -rau files/ _site/files/
+	rsync -rau genealogy/ _site/genealogy/
+	rsync -rau img/ _site/img/
+	rsync -rau papers/ _site/papers/
+	rsync -rau Rfiles/ _site/Rfiles/
+	rsync -rau uwa2017/ _site/uwa2017/
 	rsync -zrvce 'ssh -p 18765' _site/ u190-dvt18hap6a80@m80.siteground.biz:www/robjhyndman.com/public_html
 
 clean:
