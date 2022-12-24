@@ -6,6 +6,7 @@ slug: jaci2015
 title: Do human rhinovirus infections and food allergy modify grass pollen–induced asthma hospital admissions in children?
 wordpress_id: 3002
 categories: Articles
+file: rhinovirus_pollen.pdf
 tags:
 - atmospheric science
 - epidemiology

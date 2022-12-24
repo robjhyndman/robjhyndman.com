@@ -10,7 +10,7 @@ categories: Articles
 tags:
 - epidemiology
 details: <em>European Respiratory Journal</em> <b>44</b>(Suppl 58)
-link: http://erj.ersjournals.com/content/44/Suppl_58/2919.short
+online: http://erj.ersjournals.com/content/44/Suppl_58/2919.short
 ---
 
 **Introduction**
