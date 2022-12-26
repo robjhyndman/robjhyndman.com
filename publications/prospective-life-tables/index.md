@@ -12,3 +12,7 @@ details: Chapter 8, pages 323-348, <em>Computational Actuarial Science with R</e
 file: prospect.pdf
 amazon: 1466592591
 ---
+
+[R Code](code.ch8.final.R)
+
+[Exercises](exercises.R)

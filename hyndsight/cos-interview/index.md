@@ -20,6 +20,6 @@ This is the third interview I've done in the last 18 months. The others were for
 
 
 
-  * [Data Mining Research](http://www.dataminingblog.com/data-mining-interview-rob-hyndman/). Republished in [_Amstat News_](http://magazine.amstat.org/blog/2011/12/01/qasitedec11/).
+  * [Data Mining Research](https://web.archive.org/web/20210922142539/http://www.dataminingblog.com/data-mining-interview-rob-hyndman/). Republished in [_Amstat News_](http://magazine.amstat.org/blog/2011/12/01/qasitedec11/).
 
   * [DecisionStats](http://www.decisionstats.com/interview-rob-j-hyndman-forecasting-expert-rstats/).

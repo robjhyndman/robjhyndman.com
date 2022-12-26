@@ -10,7 +10,7 @@ categories:
 - research team
 ---
 
-I'm delighted that [Professor Dianne Cook](http://dicook.org) will be joining Monash University in July 2015 as a Professor of Business Analytics. Di is an Australian who has worked in the US for the past 25 years, mostly at Iowa State University. She is moving back to Australia and joining the [Department of Econometrics and Business Statistics](http://www.buseco.monash.edu.au/ebs/) in the [Monash Business School](http://www.buseco.monash.edu.au/about/business-school/), as part of our initiative in Business Analytics.
+I'm delighted that [Professor Dianne Cook](http://dicook.org) will be joining Monash University in July 2015 as a Professor of Business Analytics. Di is an Australian who has worked in the US for the past 25 years, mostly at Iowa State University. She is moving back to Australia and joining the [Department of Econometrics and Business Statistics](http://www.buseco.monash.edu.au/ebs/) in the [Monash Business School](http://monash.edu/business), as part of our initiative in Business Analytics.
 
 ![](/img/dicook.jpeg)
 

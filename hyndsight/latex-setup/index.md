@@ -12,7 +12,7 @@ Today I was teaching the honours students in econometrics and economics about La
 
 ### MS-Windows
 
-  * Download and run the setup program for [MikTeX](http://www.miktex.org/download). Choose the “basic” system.
+  * Download and run the setup program for [MikTeX](https://miktex.org/download). Choose the “basic” system.
   * Download and run the installer program for [TeXstudio](http://texstudio.sourceforge.net/).
 
 Then run TeXstudio and start typing.

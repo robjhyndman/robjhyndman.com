@@ -25,4 +25,4 @@ Highlighting is possible by simply selecting some text, and clicking the highlig
 
 The free account allows 1000 highlights or annotations per year, so that should be enough for almost all students.
 
-If Diigo is not quite right for you, check out [Webnotes](http://www.webnotes.net/), or [one of the other annotation tools available](http://en.wikipedia.org/wiki/Web_annotation).
+If Diigo is not quite right for you, check out [one of the other annotation tools available](http://en.wikipedia.org/wiki/Web_annotation).

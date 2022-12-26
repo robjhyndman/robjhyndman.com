@@ -33,4 +33,4 @@ Akaike's Information Criterion (AIC) is a very useful model selection tool, but 
 
   10. The AIC is not a consistent model selection method. That does not bother me as I don't believe there is a true model to be selected. The AIC is optimal (in some senses) for forecasting, and that is much more important in my opinion.
 
-There are some further helpful clarifications in [AIC Myths and Misunderstandings](http://www.colostate.edu/depts/coopunit/pdfs/AIC%20Myths%20and%20Misunderstandings.pdf) by Anderson and Burnham.
+There are some further helpful clarifications in [AIC Myths and Misunderstandings](https://sites.warnercnr.colostate.edu/anderson/wp-content/uploads/sites/26/2016/11/AIC-Myths-and-Misunderstandings.pdf) by Anderson and Burnham.
