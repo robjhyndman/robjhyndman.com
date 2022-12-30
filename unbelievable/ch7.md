@@ -16,21 +16,21 @@ The practice of thanking God for safety and protection, for food and drink, for 
 
 In the Psalms, King David often encouraged an attitude of thankfulness in deliverance:
 
-<blockquote>3 Magnify the  with me!<br>
+<blockquote>3 Magnify the Lord with me!<br>
 Let’s praise his name together!<br>
-4 I sought the ’s help and he answered me;<br>
+4 I sought the Lord’s help and he answered me;<br>
 he delivered me from all my fears.<br>
 
 (Psalm 34:3–4)</blockquote>
 
 He also encouraged us to believe in a protective God:
 
-<blockquote>17 The godly cry out and the  hears;<br>
+<blockquote>17 The godly cry out and the Lord hears;<br>
 he saves them from all their troubles.<br>
-18 The  is near the brokenhearted;<br>
+18 The Lord is near the brokenhearted;<br>
 he delivers those who are discouraged.<br>
 19 The godly face many dangers,<br>
-but the  saves them from each one of them.<br>
+but the Lord saves them from each one of them.<br>
 20 He protects all his bones;<br>
 not one of them is broken.<br>
 

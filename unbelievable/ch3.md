@@ -51,6 +51,7 @@ There is a distinction between _having faith_ (believing when there is insuffici
 Not only is faith of no value, it can be dangerous. It is faith that leads fundamentalist Muslims to blow themselves up in a crowded marketplace, believing that they will be welcomed into heaven by 70 young virgins. It is faith that leads some Christians to abuse gay men and women, pushing many into depression and suicide, believing they are standing up for God’s moral standards.
 
 The philosopher and neuroscientist, Sam Harris, has written:[^3]
+
 >“We have names for people who have many beliefs for which there is no rational justification. When their beliefs are extremely common, we call them ‘religious’; otherwise, they are likely to be called ‘mad,’ ‘psychotic’ or ‘delusional.’”
 
 ## Doing background checks on God
