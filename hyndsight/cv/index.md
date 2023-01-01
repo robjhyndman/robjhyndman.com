@@ -141,7 +141,7 @@ It is easy to add your own categories and titles if these are not suitable. For 
 
 The `\maketitle` puts in the header box. After that it is a normal LaTeX document with `\section` commands for each section.
 
-  * It is common to have sections listing qualifications, employment history, awards, research grants, teaching experience and publications. The order of these varies depending on what you want to emphasise. Have a look at several CVs to see what other people do. Here are some examples from some well-known statisticians: [Andrew Gelman](http://www.stat.columbia.edu/~gelman/vitae.pdf), [Rob Tibshirani](http://www-stat.stanford.edu/~tibs/cv.pdf), [Matt Wand](http://matt-wand.utsacademics.info/webmiscl/WandCV.pdf).
+  * It is common to have sections listing qualifications, employment history, awards, research grants, teaching experience and publications. The order of these varies depending on what you want to emphasise. Have a look at several CVs to see what other people do. Here are some examples from some well-known statisticians: [Andrew Gelman](http://www.stat.columbia.edu/~gelman/vitae.pdf), [Rob Tibshirani](https://cap.stanford.edu/profiles/viewCV?facultyId=4688&name=Robert_Tibshirani), [Matt Wand](http://matt-wand.utsacademics.info/webmiscl/WandCV.pdf).
 
   * To add my publications, I have the following lines:
 

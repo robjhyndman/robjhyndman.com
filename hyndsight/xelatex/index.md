@@ -51,4 +51,4 @@ My first serious XeLaTeX document is [my latest CV](https://github.com/robjhyndm
     \setromanfont{Minion Pro}
     \setsansfont[Colour=AA0000]{Myriad Pro}
 
-For a lot more information, read the [fontspec manual](http://tug.ctan.org/tex-archive/macros/latex/contrib/fontspec/fontspec.pdf).
+For a lot more information, read the [fontspec manual](http://mirrors.ctan.org/macros/unicodetex/latex/fontspec/fontspec.pdf).

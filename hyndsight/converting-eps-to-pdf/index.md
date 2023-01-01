@@ -12,14 +12,13 @@ Simply include the package `epstopdf`. Then when you use pdflatex, the eps files
 
 For example:
 
-
     \documentclass{article}
     \usepackage{graphicx,epstopdf}
     \begin{document}
     \includegraphics[width=\textwidth]{fig1}
     \end{document}
 
-Then even though the only graphics file available is `fig1.eps`, this will still be processed ok using pdflatex or pdftexify. On the first pass, a new file called `fig1-eps-coverted-to.pdf` is created and inserted at the appropriate place. See the [documentation for more options and details](http://tug.ctan.org/tex-archive/macros/latex/contrib/oberdiek/epstopdf.pdf).
+Then even though the only graphics file available is `fig1.eps`, this will still be processed ok using pdflatex or pdftexify. On the first pass, a new file called `fig1-eps-coverted-to.pdf` is created and inserted at the appropriate place. See the [documentation for more options and details](https://tug.org/epstopdf/epstopdf.html).
 
 Thanks to [Joseph Wright](http://www.texdev.net/2009/09/28/eps-graphics-with-pdflatex/) for bringing this to my attention.
 

@@ -7,4 +7,4 @@ categories:
 - statistics
 ---
 
-There's a [nice article with this title](http://www.abc.net.au/unleashed/43020.html) by [Stephan Lewandowsky](http://www.abc.net.au/unleashed/stephan-lewandowsky-33172.html) on the ABC website today, exploring the difference between anecdotes and data, and the dangers of cherry-picking evidence.
+There's a [nice article with this title](https://www.abc.net.au/news/2011-01-14/lies2c_damn_lies2c_and_statistics/43020) by [Stephan Lewandowsky](https://www.abc.net.au/news/stephan-lewandowsky/33172) on the ABC website today, exploring the difference between anecdotes and data, and the dangers of cherry-picking evidence.
