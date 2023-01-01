@@ -6,21 +6,20 @@ title: No reason to believe
 
 Two years after I started my blog, I bumped into an old friend at church one Sunday. I hadn’t seen her for a couple of years and I asked after her family. She told me that Josh, her oldest son, had left the Christadelphian community and that he no longer believed in God. I decided to write to him to ask what had happened. After some correspondence, Josh read my blog, and responded with the following email (slightly edited):
 
-<blockquote>
-_You have meditated on “the problem of evil/suffering”, and conclude that good and evil must happen fairly randomly. (Consistent with God’s non-existence.)<br>
-You have meditated on the authorship of Matthew and seen that it’s clearly at least “fictionalized”, if not totally a literary creation; and also, that Jesus said possibly nothing at all about a ‘church.’ (Consistent with human vs divine ‘inspiration’)<br>
-You have pondered Inspiration, and are aware that most of the books show signs of ongoing editing and much human vs divine content. (ditto)<br>
-You showed that even in a bible-based, “orthodox” community, the culture is not aligned with the text. (ditto)_
-
-_Going back a bit further: I’d already read that you’re aware that Evolution is pretty much “a fact”, and therefore we must figure out radically new ways to understand Gen 1-2 and the flood, as well as the implications for Adam perhaps being more literary than real.<br>
-And so on.
+<blockquote><p>
+_You have meditated on “the problem of evil/suffering”, and conclude that good and evil must happen fairly randomly. (Consistent with God’s non-existence.)<br><br>
+You have meditated on the authorship of Matthew and seen that it’s clearly at least “fictionalized”, if not totally a literary creation; and also, that Jesus said possibly nothing at all about a ‘church.’ (Consistent with human vs divine ‘inspiration’)<br><br>
+You have pondered Inspiration, and are aware that most of the books show signs of ongoing editing and much human vs divine content. (ditto)<br><br>
+You showed that even in a bible-based, “orthodox” community, the culture is not aligned with the text. (ditto)_<br><br>
+_Going back a bit further: I’d already read that you’re aware that Evolution is pretty much “a fact”, and therefore we must figure out radically new ways to understand Gen 1-2 and the flood, as well as the implications for Adam perhaps being more literary than real.<br><br>
+And so on.<br><br>
 So my question is — it seems like for every point you’ve addressed, the hypothesis that_
 <blockquote>
 “Like all other religions, Christianity is a man-made invention”
 </blockquote>
-_has as much or more explanatory power than the alternatives. And clearly, that’s the conclusion that I’ve reached. But since you are educated, honest, and aware of all the sorts of things that became show-stoppers for me, I would LOVE to know which things stop you from slicing God out of the picture with Occam’s Razor.<br>
-As a skeptical but open-minded person, what should I look at? What should I investigate? What makes you believe (and preach!) in spite of the evidence?<br>
-Again, not looking for a debate, though happy to discuss as much or little as you’d like. If you can just toss me some links or bullet points I will happily digest.<br>
+_has as much or more explanatory power than the alternatives. And clearly, that’s the conclusion that I’ve reached. But since you are educated, honest, and aware of all the sorts of things that became show-stoppers for me, I would LOVE to know which things stop you from slicing God out of the picture with Occam’s Razor.<br><br>
+As a skeptical but open-minded person, what should I look at? What should I investigate? What makes you believe (and preach!) in spite of the evidence?<br><br>
+Again, not looking for a debate, though happy to discuss as much or little as you’d like. If you can just toss me some links or bullet points I will happily digest.<br><br>
 Also, feel ENTIRELY free to do no such thing. I am just curious, and always trying to undermine my own confirmation bias._
 </blockquote>
 
@@ -45,19 +44,15 @@ The more I wrote, the more I deleted, trying to find words that seemed assured a
 
 Here are a few paragraphs from what I finally managed to write to him.
 
->_I think we’ve wandered down many of the same thought roads, although we have ended up at different places (for now). Perhaps it would help if I explain something about my journey over the last couple of years._
-
->_I came to the view that evolution was probably correct more than five years ago. That didn’t bother me much, as I accepted the view that Genesis 1 was simply a creation drama, presenting God as creator, and was not meant to be taken literally._
-
->_In the last couple of years I’ve become much more conscious of how weird our community is, and how many established practices have no biblical basis. That led me to start thinking about what was biblical, and what would a biblical church look like. In the process, I started to think about inspiration, because it wasn’t clear that there was a biblical mandate for a church at all._
-
->_That led me to thinking seriously about inspiration in other areas. At first, very tentatively because I was frankly scared about where it would lead. I looked at textual criticism, contradictions that could not easily be reconciled (although I’m rather expert at resolving such things!), cultural practices that we now consider highly objectionable (e.g., the rape laws, genocide, restrictions on women, etc.), mis-use of scripture by Matthew and others, etc._
-
->_I’ve worked very slowly through all this, but have fairly recently come to the view that the Bible is a very human book, both in content, authorship, canon, and subsequent evolution. Now I’m not sure what to do with it._
-
->_You ask why I haven’t sliced God out of the picture. Perhaps I’m not there yet. I don’t know._
-
->_So where am I now? Mostly confused. I’ve thrown out a lot of theological and cultural baggage and I’m looking at what’s left and wondering if it can be put together in any kind of coherent manner that still involves God and the Bible. I really don’t know the answer to that._
+<blockquote><p>
+_I think we’ve wandered down many of the same thought roads, although we have ended up at different places (for now). Perhaps it would help if I explain something about my journey over the last couple of years._<br><br>
+_I came to the view that evolution was probably correct more than five years ago. That didn’t bother me much, as I accepted the view that Genesis 1 was simply a creation drama, presenting God as creator, and was not meant to be taken literally._<br><br>
+_In the last couple of years I’ve become much more conscious of how weird our community is, and how many established practices have no biblical basis. That led me to start thinking about what was biblical, and what would a biblical church look like. In the process, I started to think about inspiration, because it wasn’t clear that there was a biblical mandate for a church at all._<br><br>
+_That led me to thinking seriously about inspiration in other areas. At first, very tentatively because I was frankly scared about where it would lead. I looked at textual criticism, contradictions that could not easily be reconciled (although I’m rather expert at resolving such things!), cultural practices that we now consider highly objectionable (e.g., the rape laws, genocide, restrictions on women, etc.), mis-use of scripture by Matthew and others, etc._<br><br>
+_I’ve worked very slowly through all this, but have fairly recently come to the view that the Bible is a very human book, both in content, authorship, canon, and subsequent evolution. Now I’m not sure what to do with it._<br><br>
+_You ask why I haven’t sliced God out of the picture. Perhaps I’m not there yet. I don’t know._<br><br>
+_So where am I now? Mostly confused. I’ve thrown out a lot of theological and cultural baggage and I’m looking at what’s left and wondering if it can be put together in any kind of coherent manner that still involves God and the Bible. I really don’t know the answer to that._
+</blockquote>
 
 Having sent the email, I kept going over and over in my mind whether I had any good reasons to believe. I lay awake at night wondering about it, praying about it. I read over what I had previously written on reasons to believe. I read what other people had written on it and the reasons they gave to believe. Nothing was convincing. The gaping holes appeared larger than they ever had before.
 

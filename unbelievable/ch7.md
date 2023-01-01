@@ -16,16 +16,15 @@ The practice of thanking God for safety and protection, for food and drink, for 
 
 In the Psalms, King David often encouraged an attitude of thankfulness in deliverance:
 
-<blockquote>3 Magnify the Lord with me!<br>
+>3 Magnify the Lord with me!<br>
 Let’s praise his name together!<br>
 4 I sought the Lord’s help and he answered me;<br>
 he delivered me from all my fears.<br>
-
-(Psalm 34:3–4)</blockquote>
+(Psalm 34:3–4)
 
 He also encouraged us to believe in a protective God:
 
-<blockquote>17 The godly cry out and the Lord hears;<br>
+>17 The godly cry out and the Lord hears;<br>
 he saves them from all their troubles.<br>
 18 The Lord is near the brokenhearted;<br>
 he delivers those who are discouraged.<br>
@@ -33,16 +32,15 @@ he delivers those who are discouraged.<br>
 but the Lord saves them from each one of them.<br>
 20 He protects all his bones;<br>
 not one of them is broken.<br>
-
-(Psalm 34:17–20)</blockquote>
+(Psalm 34:17–20)
 
 The problem is, that simply is not true. God does not save godly people from every danger, and plenty of godly people have broken bones. The Psalm was written by David after he had managed to escape from trouble when in King Abimelech’s household[^1] He was delighted to escape, attributed his deliverance to God, and wrote the psalm in response. It seems he also assumed that such deliverance was available to other people too.
 
 But in other Psalms he is not so optimistic. For example, he says
 
-<blockquote>“Those who anticipate my defeat attack me all day long. Indeed, many are fighting against me” (Psalm 56:2);<br>
+>“Those who anticipate my defeat attack me all day long. Indeed, many are fighting against me” (Psalm 56:2);<br>
 “My God, my God, why have you abandoned me?” (Psalm 22:1); and<br>
-“The roof of my mouth is as dry as a piece of pottery; my tongue sticks to my gums. You set me in the dust of death.” (Psalm 22:15).</blockquote>
+“The roof of my mouth is as dry as a piece of pottery; my tongue sticks to my gums. You set me in the dust of death.” (Psalm 22:15).
 
 It might seem harmless enough to thank God for deliverance from trouble, but it carries some serious implications about the God who is believed to be in control. You see, when we thank God for protecting us from harm, we are also saying that he has not protected some other people. That somehow we are special and favoured, and that others are not. More than that, we are saying that God mysteriously (randomly?) selects some to survive, and some to suffer or die. A miraculously intervening God is also an unjust capricious God, sparing some and saving others, apparently on a whim.
 

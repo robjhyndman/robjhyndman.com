@@ -16,7 +16,7 @@ Many people have told me that I am mistaken in focusing on evidence, and that I 
 
 Faith is the gap between evidence and truth. The Bible agrees with this:
 
-<blockquote>Now faith is being sure of what we hope for, being convinced of what we do not see. (Hebrews 11:1)</blockquote>
+>Now faith is being sure of what we hope for, being convinced of what we do not see. (Hebrews 11:1)
 
 When there is a lot of evidence, we do not need much faith. No-one asks me to have faith in the periodic table, for example. But we are justifiably suspicious of people who have faith in crystals, as there is no evidence for crystal powers.
 
@@ -34,7 +34,7 @@ This is precisely the type of reasoning that is necessary when considering the e
 
 Religions make a virtue of faith, as if it is something to be valued. That is, people who believe without evidence (or even in spite of the evidence) are somehow more righteous than those who require evidence. The apostle Thomas was chastised by Jesus for requiring evidence:
 
-<blockquote>25 [Thomas] replied “Unless I see the wounds from the nails in his hands, and put my finger into the wounds from the nails, and put my hand into his side, I will never believe it!” 26 Eight days later … Jesus came and stood among them and said, “Peace be with you!” 27 Then he said to Thomas, “Put your finger here, and examine my hands. Extend your hand and put it into my side. Do not continue in your unbelief, but believe.” 28 Thomas replied to him, “My Lord and my God!” 29 Jesus said to him, “Have you believed because you have seen me? Blessed are the people who have not seen and yet have believed.” (John 20:25–29)</blockquote>
+>25 [Thomas] replied “Unless I see the wounds from the nails in his hands, and put my finger into the wounds from the nails, and put my hand into his side, I will never believe it!” 26 Eight days later … Jesus came and stood among them and said, “Peace be with you!” 27 Then he said to Thomas, “Put your finger here, and examine my hands. Extend your hand and put it into my side. Do not continue in your unbelief, but believe.” 28 Thomas replied to him, “My Lord and my God!” 29 Jesus said to him, “Have you believed because you have seen me? Blessed are the people who have not seen and yet have believed.” (John 20:25–29)
 
 Why would God prefer people who believed without evidence? That seems to be a strange virtue.
 

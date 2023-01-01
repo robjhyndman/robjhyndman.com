@@ -19,7 +19,7 @@ I will discuss each of these in turn.
 
 There are several prophecies of the return of Israel to their land, primarily in Deuteronomy, Jeremiah and Ezekiel. For example,
 
-<blockquote>10 So I, the Lord, tell you not to be afraid,<br>
+>10 So I, the Lord, tell you not to be afraid,<br>
 you descendants of Jacob, my servants.<br>
 Do not be terrified, people of Israel.<br>
 For I will rescue you and your descendants<br>
@@ -31,7 +31,7 @@ I will be with you and will rescue you.<br>
 I will completely destroy all the nations where I scattered you.<br>
 But I will not completely destroy you.<br>
 I will indeed discipline you, but only in due measure.<br>
-I will not allow you to go entirely unpunished. (Jeremiah 30:10--11)</blockquote>
+I will not allow you to go entirely unpunished. (Jeremiah 30:10--11)
 
 I first doubted that these were genuine prophecies of twentieth century events when I realized that all of the prophecies concerning the return of Israel were written during the time of the Babylonian captivity. Jeremiah was writing from Jerusalem while Judah was in Babylon; Ezekiel was writing as a captive in Babylon; and Deuteronomy is also thought to have been written around the same time, or even later.[^1] So at the time the prophecies were first written, Judah was in captivity in Babylon, and Israel had been taken captive by the Assyrians. To the people at the time, the original recipients of these prophecies, the clear meaning was that they would return to the land from which they were taken. Jeremiah and Ezekiel appear to have been writing to encourage the people to remain hopeful and optimistic — better times were around the corner, the Messiah was coming, and Israel would be powerful and prosperous. Of course, while the people did return to their land, along with all other ethnic groups living in captivity when the Persians came to power, the Messiah did not come and the promised power and prosperity did not occur.
 
@@ -39,15 +39,13 @@ Even if we take the prophecies as having two fulfilments, and allow for a later 
 
 It is perhaps surprising that the prophecies can be made to fit 20th century events as well as they do. Yet there is also an element of circularity here. It appears that the encouragement provided by Jeremiah and Ezekiel to their exiled people was appropriated by Zionists in the 20th century. Some of the early Zionists thought to return to Israel _because_ of the prophecies, not necessarily because they believed they were inspired or prophetic, but because they saw them as an historical precedent. The first Israeli prime-minister, David Ben Gurion, wrote of the Tanach (the Hebrew Bible):[^2]
 
-<blockquote>Ever since I came to the land, I was shaped by Tanach, since only here could I begin to fully grasp its rich depth; it influenced me more than any other book or literature, Jewish and non-Jewish …<p>
-
-The establishment of the state and the war of independence shone a new light on the Tanach, … [particularly] the stories of the fathers, the coming out of Egypt, the conquest followed by living on the land,…<p>
-
+<blockquote><p>Ever since I came to the land, I was shaped by Tanach, since only here could I begin to fully grasp its rich depth; it influenced me more than any other book or literature, Jewish and non-Jewish …<br><br>
+The establishment of the state and the war of independence shone a new light on the Tanach, … [particularly] the stories of the fathers, the coming out of Egypt, the conquest followed by living on the land,…<br><br>
 without knowing the Tanach, we cannot have … an understanding of our origin, our spirit, our life-mission and our future.</blockquote>
 
 The current prime minister of Israel, Benjamin Netanyahu, has said[^3]
 
-<blockquote>In our time the Biblical prophecies are being realized. As the prophet Amos said, they shall rebuild ruined cities and inhabit them. They shall plant vineyards and drink their wine. They shall till gardens and eat their fruit. And I will plant them upon their soil never to be uprooted again. Ladies and gentlemen, the people of Israel have come home never to be uprooted again.</blockquote>
+<blockquote><p>In our time the Biblical prophecies are being realized. As the prophet Amos said, they shall rebuild ruined cities and inhabit them. They shall plant vineyards and drink their wine. They shall till gardens and eat their fruit. And I will plant them upon their soil never to be uprooted again. Ladies and gentlemen, the people of Israel have come home never to be uprooted again.</blockquote>
 
 So the apparent “fit” of 20th century events to some aspects of the biblical prophecies is not quite the coincidence that it might seem.
 
@@ -88,11 +86,11 @@ The great prophecies of Daniel are only impressive evidence for the inspiration 
 
 Another famous prophecy that is often used as evidence for the divine origin of the Bible is Ezekiel’s description of the overthrow of Tyre in chapter 26. It describes the complete destruction of the city of Tyre.
 
-<blockquote>7 “For this is what the sovereign Lord  says: Take note that I am about to bring King Nebuchadrezzar of Babylon, king of kings, against Tyre from the north, with horses, chariots, and horsemen, an army and hordes of people. 8 He will kill your daughters in the field with the sword. He will build a siege wall against you, erect a siege ramp against you, and raise a great shield against you. 9 He will direct the blows of his battering rams against your walls and tear down your towers with his weapons. 10 He will cover you with the dust kicked up by his many horses. Your walls will shake from the noise of the horsemen, wheels, and chariots when he enters your gates like those who invade through a city’s broken walls. 11 With his horses’ hoofs he will trample all your streets. He will kill your people with the sword, and your strong pillars will tumble down to the ground. 12 They will steal your wealth and loot your merchandise. They will tear down your walls and destroy your luxurious homes. Your stones, your trees, and your soil he will throw into the water. 13 I will silence the noise of your songs; the sound of your harps will be heard no more. 14 I will make you a bare rock; you will be a place where fishing nets are spread. You will never be built again, for I, the Lord, have spoken, declares the sovereign Lord. (Ezekiel 26:7-14)</blockquote>
+<blockquote><p>7 “For this is what the sovereign Lord  says: Take note that I am about to bring King Nebuchadrezzar of Babylon, king of kings, against Tyre from the north, with horses, chariots, and horsemen, an army and hordes of people. 8 He will kill your daughters in the field with the sword. He will build a siege wall against you, erect a siege ramp against you, and raise a great shield against you. 9 He will direct the blows of his battering rams against your walls and tear down your towers with his weapons. 10 He will cover you with the dust kicked up by his many horses. Your walls will shake from the noise of the horsemen, wheels, and chariots when he enters your gates like those who invade through a city’s broken walls. 11 With his horses’ hoofs he will trample all your streets. He will kill your people with the sword, and your strong pillars will tumble down to the ground. 12 They will steal your wealth and loot your merchandise. They will tear down your walls and destroy your luxurious homes. Your stones, your trees, and your soil he will throw into the water. 13 I will silence the noise of your songs; the sound of your harps will be heard no more. 14 I will make you a bare rock; you will be a place where fishing nets are spread. You will never be built again, for I, the Lord, have spoken, declares the sovereign Lord. (Ezekiel 26:7-14)</blockquote>
 
 I have used this prophecy in several talks I’ve given on Bible inspiration. This is how I used to explain it.
 
-<blockquote>There were two cities called “Tyre”, one on the mainland and one on a small island about 500m off the coast. Between 585 and 573 BC, Nebuchadnezzar undertook a 13-year siege of Tyre and succeeded in capturing the mainland city. Two hundred and fifty years later, Alexander the Great used the rubble from the ruins of mainland Tyre to construct a causeway to the island. After a 7-month siege, he succeeded in capturing the island city. Mainland Tyre was never rebuilt and fishermen today use the site to spread their nets.</blockquote>
+<blockquote><p>There were two cities called “Tyre”, one on the mainland and one on a small island about 500m off the coast. Between 585 and 573 BC, Nebuchadnezzar undertook a 13-year siege of Tyre and succeeded in capturing the mainland city. Two hundred and fifty years later, Alexander the Great used the rubble from the ruins of mainland Tyre to construct a causeway to the island. After a 7-month siege, he succeeded in capturing the island city. Mainland Tyre was never rebuilt and fishermen today use the site to spread their nets.</blockquote>
 
 But that is not actually what was predicted, and some of the details are not even true.
 
@@ -107,7 +105,7 @@ But that is not actually what was predicted, and some of the details are not eve
 
 Further, Ezekiel himself admitted that this prophecy did not come true:
 
-<blockquote>
+<blockquote><p>
 Son of man, Nebuchadnezzar king of Babylon made his army labor hard against Tyre. Every head was made bald, and every shoulder was rubbed bare, yet neither he nor his army got anything from Tyre to pay for the labor that he had performed against her. (Ezekiel 29:18)
 </blockquote>
 
@@ -119,12 +117,12 @@ Several Old Testament prophecies about Jesus seem remarkably prescient.
 
 Isaiah 7 refers to a virgin birth:
 
-<blockquote>Therefore the Lord himself will give you a sign. Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel.
+<blockquote><p>Therefore the Lord himself will give you a sign. Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel.
 (Isaiah 7:14 ESV)</blockquote>
 
 Psalm 22 appears to predict his crucifixion:
 
-<blockquote>14 My strength drains away like water;<br>
+<blockquote><p>14 My strength drains away like water;<br>
 all my bones are dislocated;<br>
 my heart is like wax;<br>
 it melts away inside me.<br>
@@ -141,7 +139,7 @@ they are rolling dice for my garments. (Psalm 22:14–18)</blockquote>
 
 Isaiah 53 describes his atoning death:
 
-<blockquote>5 He was wounded because of our rebellious deeds,<br>
+<blockquote><p>5 He was wounded because of our rebellious deeds,<br>
 crushed because of our sins;<br>
 he endured punishment that made us well;<br>
 because of his wounds we have been healed.<br>
@@ -166,7 +164,7 @@ There is no doubt that these words were written before Jesus was born as they ha
 
 The problem here is that the prophets who wrote these words were not thinking about a Messiah at all. For example, the virgin birth prophecy is clearly about contemporary events concerning King Ahaz. The next two verses after v14 quoted above are:
 
-<blockquote>15 He shall eat curds and honey when he knows how to refuse the evil and choose the good. 16 For before the boy knows how to refuse the evil and choose the good, the land whose two kings you dread will be deserted. (Isaiah 7:15–16)</blockquote>
+<blockquote><p>15 He shall eat curds and honey when he knows how to refuse the evil and choose the good. 16 For before the boy knows how to refuse the evil and choose the good, the land whose two kings you dread will be deserted. (Isaiah 7:15–16)</blockquote>
 
 Even the word translated “virgin” in v14 probably referred to a young woman rather than specifically to a virgin, and it is translated that way in some modern versions (e.g., NET, RSV, NRSV).
 
@@ -194,7 +192,7 @@ When a biblical prophet says “Thus says the Lord …” it seems reasonable to
 
 One of the most famous unfulfilled prophecies is from Ezekiel who describes Egypt becoming “a desolation and waste” (Ezekiel 29:9; 30:7) and being uninhabited for forty years (Ezekiel 29:11,13). There is a clay tablet in the British Museum[^6] that states
 
-<blockquote>In the 37th year of Nebuchadrezzar, King of Babylon, he went to Mizraim [Egypt] to make war. AMASIS, King of Mizraim, collected [his army] and marched and spread abroad.</blockquote>
+<blockquote><p>In the 37th year of Nebuchadrezzar, King of Babylon, he went to Mizraim [Egypt] to make war. AMASIS, King of Mizraim, collected [his army] and marched and spread abroad.</blockquote>
 
 However, it is not specified whether the armies actually engaged in battle, and if they did, who won. Further, there is plenty of Egyptian evidence of ongoing activity in the following years, suggesting that they were far from desolate. We know the names of all of the Pharaohs during this period, and have inscriptions about them. Herodotus[^7] describes Egypt during the reign of Amasis II (570–526 BC) as wealthy and prosperous. Whether Herodotus can be trusted or not, it seems impossible that Egypt was uninhabited for any period of time, let alone forty years.
 
