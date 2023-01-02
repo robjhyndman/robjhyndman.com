@@ -2,6 +2,12 @@
 title: "Research team"
 ---
 
+
+## Current research fellows
+
+  * [**Xiaoqian Wang**](https://xqnwang.rbind.io) [{{< fa brands github >}}](https://github.com/xqnwang) [{{< fa brands twitter >}}](https://twitter.com/Xia0qianWang)
+
+
 ## Current PhD students
 
   1. **[Lakshan Bernard](https://acems.org.au/our-people/lakshan-bernard)**. *Analytical tools for future power networks* (PhD, begun 2020).
