@@ -8,9 +8,10 @@ categories:
 - Monash University
 - reproducible research
 - research team
+- rmarkdown
 ---
 
-Rmarkdown templates for staff and students in my department are now available via the [numbats package on github](https://github.com/numbats/monash).
+Rmarkdown templates for staff and students in my department are now available via the [monash package on github](https://github.com/numbats/monash).
 This provides templates for
 
    - PhD thesis

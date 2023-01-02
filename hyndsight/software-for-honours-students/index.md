@@ -8,6 +8,7 @@ categories:
 - Monash University
 - R
 - references
+- rmarkdown
 ---
 
 I spoke to our new crop of honours students this morning. Here are my slides, example files and links.

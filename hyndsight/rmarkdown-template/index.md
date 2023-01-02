@@ -10,6 +10,7 @@ categories:
 - reproducible research
 - research team
 - writing
+- rmarkdown
 ---
 
 This is only directly relevant to my Monash students and colleagues, but the same idea might be useful for adapting to other institutions.
