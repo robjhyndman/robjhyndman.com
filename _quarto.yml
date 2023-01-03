@@ -29,7 +29,7 @@ website:
       - href: about/index.qmd
         text: About
   page-footer:
-    left: "© 1993-2022, Rob J Hyndman <a rel='me' href='https://aus.social/@robjhyndman'></a>"
+    left: "© 1993-2023, Rob J Hyndman <a rel='me' href='https://aus.social/@robjhyndman'></a>"
     right:
       - text: Subscribe
         href: /subscribe.html
