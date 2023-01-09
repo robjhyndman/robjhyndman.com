@@ -8,7 +8,7 @@ categories:
 - obituary
 ---
 
-Robert Goodell Brown was the father of exponential smoothing. He died last week at the age of 90. While I never met him, I was indebted to him for exponential smoothing and his practical and insightful [books](http://www.amazon.com/Smoothing-Forecasting-Prediction-Discrete-Editions/dp/0486495922/?tag=prorobjhyn-20).
+Robert Goodell Brown was the father of exponential smoothing. He died last week at the age of 90. While I never met him, I was indebted to him for exponential smoothing and his practical and insightful [books](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0486495922).
 
 Today I received this email from King Harrison III advising of his death.<!-- more -->
 
@@ -40,4 +40,3 @@ Today I received this email from King Harrison III advising of his death.<!-- mo
 >
 >Best regards,
 >King III ([king3@k3s.com](mailto:king3@k3s.com))
-

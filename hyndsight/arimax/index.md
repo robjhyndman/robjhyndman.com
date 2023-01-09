@@ -57,7 +57,7 @@ This allows for lagged effects of covariates (via the $\beta(B)$ operator) and f
 
 Sometimes these are called "dynamic regression models", although different books use that term for different models.
 
-The method for selecting the orders of a transfer function model that is described in Box and Jenkins is cumbersome and difficult, but continues to be described in textbooks. A much better procedure is given in [Pankratz (1991)](http://www.amazon.com/gp/product/0471615285?ie=UTF8&tag=prorobjhyn-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0471615285), and repeated in my [1998 forecasting textbook](https://robjhyndman.com/forecasting/).
+The method for selecting the orders of a transfer function model that is described in Box and Jenkins is cumbersome and difficult, but continues to be described in textbooks. A much better procedure is given in [Pankratz (1991)](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0471615285), and repeated in my [1998 forecasting textbook](https://robjhyndman.com/forecasting/).
 
 ## Non-stationary data
 

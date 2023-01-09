@@ -10,7 +10,7 @@ categories:
 
 This is the title of a wonderful new book that has just been released, courtesy of the Committee of Presidents of Statistical Societies.
 
-It can be freely downloaded from [the COPSS website](https://higherlogicdownload.s3.amazonaws.com/AMSTAT/71a758c7-5229-4729-bb64-caf9d1cf855f/UploadedImages/past-present-future-copss.pdf) or a hard copy can be [purchased on Amazon](http://www.amazon.com/Past-Present-Future-Statistical-Science/dp/1482204967?tag=otexts-20) (for only a little over 10c per page which is not bad compared to other statistics books).
+It can be freely downloaded from [the COPSS website](https://higherlogicdownload.s3.amazonaws.com/AMSTAT/71a758c7-5229-4729-bb64-caf9d1cf855f/UploadedImages/past-present-future-copss.pdf) or a hard copy can be [purchased on Amazon](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F1482204967) (for only a little over 10c per page which is not bad compared to other statistics books).
 
 The book consists of 52 chapters spanning 622 pages. The full table of contents below shows its scope and the list of authors (a veritable who's who in statistics).<!-- more -->
 

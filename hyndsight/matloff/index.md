@@ -120,4 +120,4 @@ So instead of a review, here is the table of contents to give the flavour of wha
 
 Other people have reviewed the book including [Joseph Rickert](http://blog.revolutionanalytics.com/2011/11/review-of-the-art-of-r-programming-by-norman-matloff.html) and [Nathan Yau](http://flowingdata.com/2011/11/16/book-the-art-of-r-programming/), as well as a few people on [Amazon](http://www.amazon.com/review/1593273843?ie=UTF8&ref_=cm_cr_dp_all_summary&showViewpoints=1&sortBy=bySubmissionDateDescending&_encoding=UTF8&tag=prorobjhyn-20&linkCode=ur2&camp=1789&creative=390957) (with ten 5-star reviews to date!).
 
-At less then $25, you have little to lose -- [head over to Amazon and buy a copy now](http://www.amazon.com/gp/product/1593273843/ref=as_li_ss_tl?ie=UTF8&tag=prorobjhyn-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=1593273843)! If a few of my PhD students buy their own copies, I might get mine back.
+At less then $25, you have little to lose -- [head over to Amazon and buy a copy now](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F1593273843)! If a few of my PhD students buy their own copies, I might get mine back.

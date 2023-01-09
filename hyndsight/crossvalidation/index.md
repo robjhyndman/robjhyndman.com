@@ -57,7 +57,7 @@ If the diagonal values of $\mathbf{H}$ are denoted by $h_{1},\dots,h_{n}$, then 
 $$
 \text{CV} = \frac{1}{n}\sum_{i=1}^n [e_{i}/(1-h_{i})]^2,
 $$
-where $e_{i}$ is the residual obtained from fitting the model to all $n$ observations. See Christensen's book [Plane Answers to Complex Questions](http://www.amazon.com/gp/product/0387953612?ie=UTF8&tag=prorobjhyn-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0387953612) for a proof. Thus, it is not necessary to actually fit $n$ separate models when computing the CV statistic for linear models. This remarkable result allows cross-validation to be used while only fitting the model once to all available observations.
+where $e_{i}$ is the residual obtained from fitting the model to all $n$ observations. See Christensen's book [Plane Answers to Complex Questions](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0387953612) for a proof. Thus, it is not necessary to actually fit $n$ separate models when computing the CV statistic for linear models. This remarkable result allows cross-validation to be used while only fitting the model once to all available observations.
 
 ### Relationships with other quantities
 

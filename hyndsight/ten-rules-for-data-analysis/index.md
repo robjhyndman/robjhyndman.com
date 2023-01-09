@@ -7,7 +7,7 @@ categories:
 - statistics
 ---
 
-[Peter Kennedy](http://www.econ.sfu.ca/Contacts/Faculty_Profiles/PeterKennedy.html) was an associate editor of the _[International Journal of Forecasting](http://ijf.forecasters.org/)_ and a superb applied econometrician. He died unexpectedly in August 2010. He was best known for his excellent book _[A Guide to Econometrics](http://www.amazon.com/gp/product/1405182571/ref=as_li_ss_tl?ie=UTF8&tag=prorobjhyn-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1405182571)_ as well as his ["Ten Commandments of Applied Econometrics"](http://www.bus.lsu.edu/hill/writing/kennedy.pdf). He provided a variation on his ten commandments in [advice to his students](/files/Lecture21DoingAppliedEconometrics.pdf) in the form of the following ten rules:<!-- more -->
+[Peter Kennedy](http://www.econ.sfu.ca/Contacts/Faculty_Profiles/PeterKennedy.html) was an associate editor of the _[International Journal of Forecasting](http://ijf.forecasters.org/)_ and a superb applied econometrician. He died unexpectedly in August 2010. He was best known for his excellent book _[A Guide to Econometrics](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F1405182571)_ as well as his ["Ten Commandments of Applied Econometrics"](http://www.stat.columbia.edu/~gelman/stuff_for_blog/KennedyJEconomicSurveys2002.pdf). He provided a variation on his ten commandments in [advice to his students](/files/Lecture21DoingAppliedEconometrics.pdf) in the form of the following ten rules:<!-- more -->
 
 
   1. Use common sense (and economic theory)

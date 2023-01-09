@@ -21,6 +21,6 @@ To see why the first situation occurs, think about two highly correlated predict
 
 The second situation occurs, for example, when a predictor has high variability and a small coefficient. When the sample size is large enough, the estimated coefficient may be statistically significant. But for forecasting purposes, including the predictor increases the variance of the forecast without contributing much additional information.
 
-See Harrell's book _[Regression Modelling Strategies](http://www.amazon.com/gp/product/0387952322/ref=as_li_ss_tl?ie=UTF8&tag=prorobjhyn-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0387952322)_ for further discussion on the misuse of statistical tests for variable selection.
+See Harrell's book _[Regression Modelling Strategies](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0387952322)_ for further discussion on the misuse of statistical tests for variable selection.
 
 A much more reliable guide to selecting terms in any model, including ARIMA models, is to use [cross-validation or an approximation to it such as the AIC](/hyndsight/crossvalidation/). The `auto.arima()` function from the [forecast package](http://github.com/robjhyndman/forecast/) in R uses the AIC by default and usually chooses a reasonably good model for forecasting. If users wish to experiment with other models, use the AIC for comparison not significance tests of the coefficients.
