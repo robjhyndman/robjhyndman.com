@@ -14,11 +14,11 @@ Most students seem to go to Google first. This is not a good strategy. Google Sc
   * [Scopus](http://www.scopus.com/home.url)
   * [ISI Web of Knowledge](http://isiwebofknowledge.com/)
 
-If you track down something on Google scholar, but are at home and so do not have access to the paper, you can use [Monash ezproxy](javascript:void(location.href=%22http://ezproxy.lib.monash.edu.au/login?url=%22+location.href)). Just drag the previous link to your bookmarks. When you are on the page of a paper you want, click the link and it will ask for your usual Monash username/password, after which you should be able to access the paper.
+If you track down something on Google scholar, but are at home and so do not have access to the paper, you can use [Monash](javascript:void(location.href=%22https://go.openathens.net/redirector/www.monash.edu?url=%22+location.href)). Just drag the previous link to your bookmarks. When you are on the page of a paper you want, click the link and it will ask for your usual Monash username/password, after which you should be able to access the paper.
 
 Sometimes, a more restrictive search is needed. Try one of these:
 
-  * Statistics papers: [Current Index to Statistics](http://www.statindex.org/CIS/psqlQuery)
+  * Statistics papers: [Current Index to Statistics](https://mathscinet.ams.org/cis)
   * Statistical books: [My Google library](https://robjhyndman.com/hyndsight/searching-the-statistical-literature/)
   * Econometrics papers: [IDEAS/RePEc](http://ideas.repec.org/)
   * Computing papers: [CiteSeer](http://citeseerx.ist.psu.edu/)

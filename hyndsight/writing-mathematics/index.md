@@ -7,7 +7,7 @@ categories:
 - writing
 ---
 
-Mathematics has its own particular conventions and rules when it comes to writing. There have been several attempts to write them down. The most famous is Halmos's excellent essay ["How to write mathematics"](http://www.matem.unam.mx/ernesto/LIBROS/Halmos-How-To-Write%20Mathematics.pdf). Other good sources of advice are the following two books:
+Mathematics has its own particular conventions and rules when it comes to writing. There have been several attempts to write them down. The most famous is Halmos's excellent essay ["How to write mathematics"](https://users.cs.duke.edu/~brd/Advice/halmos.pdf). Other good sources of advice are the following two books:
 
 (I [reviewed these two books](http://dx.doi.org/10.1111/1467-842X.00078) in the _Australian and New Zealand Journal of Statistics_ a few years ago.)
 

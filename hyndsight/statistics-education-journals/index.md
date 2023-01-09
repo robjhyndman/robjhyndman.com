@@ -11,10 +11,10 @@ categories:
 In many research universities, there can be a tension that arises when great teachers don't publish much. I believe there is a place for excellent teachers who do limited research within a strong research university, but their contribution is considerably enhanced if they share their teaching insights. There are at least three reputable research journals for publishing articles on statistics education:
 
 
-  * [Journal of Statistics Education](http://www.amstat.org/PUBLICATIONS/JSE/)
+  * [Journal of Statistics Education](https://www.tandfonline.com/journals/ujse20)
 
   * [Statistics Education Research Journal](http://www.stat.auckland.ac.nz/serj/)
 
   * [Technology Innovations in Statistics Education](http://repositories.cdlib.org/uclastat/cts/tise/)
 
-In addition, there is the less research-oriented (but certainly not less useful)  [Teaching Statistics](http://www.rsscse.org.uk/ts/).
+In addition, there is the less research-oriented (but certainly not less useful)  [Teaching Statistics](https://onlinelibrary.wiley.com/journal/14679639).

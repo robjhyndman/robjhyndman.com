@@ -10,7 +10,7 @@ slug: research_habits
 
 ### Magic button for library access to papers
 
- * Drag this <a href='javascript:void(location.href="http://ezproxy.lib.monash.edu.au/login?url="+location.href)'><b>Monash</b></a> proxy link to your bookmarks.
+ * Drag this [Monash](javascript:void(location.href=%22https://go.openathens.net/redirector/www.monash.edu?url=%22+location.href)) link to your bookmarks.
 
 ### Links
 

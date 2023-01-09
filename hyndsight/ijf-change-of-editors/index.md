@@ -22,7 +22,7 @@ Today, there is a change in editors at the _International Journal of Forecasting
 There are five IJF editors:
 
   1. [Rob Hyndman](https://robjhyndman.com) (Editor-in-Chief)
-  2. [Dick van Dijk](http://people.few.eur.nl/djvandijk/)
+  2. [Dick van Dijk](https://www.eur.nl/people/dick-van-dijk)
   3. [Graham Elliott](http://econweb.ucsd.edu/~gelliott/)
   4. [Dilek Önkal](http://onkal.bilkent.edu.tr/)
   5. [Esther Ruiz](https://scholar.google.com/citations?user=sDYv4aIAAAAJ)
