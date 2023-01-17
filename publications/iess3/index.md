@@ -4,7 +4,6 @@ Status: Published
 date: 2010-01-01 04:30:50+00:00
 slug: iess3
 title: Forecasting Overview
-wordpress_id: 936
 categories: Book chapters
 tags:
 - forecasting
@@ -13,3 +12,5 @@ details: "Contribution to the <em>International Encyclopedia of Statistical Scie
 online: http://www.springer.com/gp/book/9783642048975
 file: forecastingoverview.pdf
 ---
+
+[Updated entry for 2nd edition](https://github.com/robjhyndman/IESS_entries/raw/main/Forecasting_Overview_Rob_Hyndman.pdf), 2023.
