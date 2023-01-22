@@ -31,4 +31,4 @@ Many people wrongly assume that forecasts are not possible in a changing environ
 
 * * *
 
-This is an edited version of Section 1­/1 from my new book [_Forecasting: principles and practice_.](http://otexts.org/fpp/1/1/)
+This is an edited version of Section 1­/1 from my new book [_Forecasting: principles and practice_.](https://otexts.com/fpp3/what-can-be-forecast.html)

@@ -19,7 +19,6 @@ categories:
 
 The first and best place to go is [TeX.StackExchange.com](http://tex.stackexchange.com). Search for help or ask a question. Otherwise, one of the following websites might be useful.
 
-  * [Recommended LaTeX reference books ](/hyndsight/latex-books/)
   * [Comprehensive LaTeX symbol list](http://www.ctan.org/tex-archive/info/symbols/comprehensive/symbols-a4.pdf)
   * [The LaTeX font catalogue](http://www.tug.dk/FontCatalogue/)
   * [Guide to Including Graphics:](http://www.ctan.org/tex-archive/macros/latex/required/graphics/grfguide.pdf) Read this document if you need to include external graphics files.
