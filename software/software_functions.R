@@ -151,6 +151,7 @@ rjh_packages <- function() {
     # Add location of hex stickers
     hex_stickers <- tribble(
       ~package, ~hex,
+      "cricketdata", "http://pkg.robjhyndman.com/cricketdata/reference/figures/cricketdata.png",
       "fable", "https://fable.tidyverts.org/reference/figures/logo.png",
       "fasster", "stickers/fasstersticker.resized.png",
       "feasts", "https://feasts.tidyverts.org/reference/figures/logo.png",
