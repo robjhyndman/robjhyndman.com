@@ -1,9 +1,10 @@
 ---
 author: Thiyanga S Talagala, Rob J Hyndman, George Athanasopoulos
-date: 2018-06-06
+date: 2023-01-31
 slug: fforms
 title: Meta-learning how to forecast time series
-categories: Working papers
+categories: Articles
+details: "<em>J Forecasting</em>, to appear"
 tags:
 - accuracy
 - arima models
@@ -14,7 +15,7 @@ tags:
 - features
 - classification
 - algorithm selection
-link: https://www.monash.edu/business/econometrics-and-business-statistics/research/publications/ebs/wp06-2018.pdf
+file: fforms.pdf
 ---
 
 A crucial task in time series forecasting is the identification of the most suitable forecasting
