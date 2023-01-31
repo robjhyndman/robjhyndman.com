@@ -16,6 +16,7 @@ tags:
 - classification
 - algorithm selection
 file: fforms.pdf
+github: thiyangt/fforms
 ---
 
 A crucial task in time series forecasting is the identification of the most suitable forecasting
@@ -28,3 +29,5 @@ framework is that the time-consuming process of building a classifier is handled
 of the forecasting task at hand.
 
 Associated R package: **[seer](https://github.com/thiyangt/seer)**
+
+Shiny app: https://thiyangt.github.io/fformsviz/fforms.html
