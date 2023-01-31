@@ -13,6 +13,7 @@ title: "Research team"
   1. **[Lakshan Bernard](https://acems.org.au/our-people/lakshan-bernard)**. *Analytical tools for future power networks* (PhD, begun 2020).
   1. **[Fan Cheng](https://fancheng.me/)**. *Manifold learning on empirical probability distributions* (PhD, submitted 2022). [{{< fa brands github >}}](https://github.com/ffancheng) [{{< fa brands twitter >}}](https://twitter.com/fanchengfc)
   1. [**Daniele Girolimetto**](https://danigiro.github.io) *Advancements in probabilistic forecast reconciliation* (Visiting PhD student, 2022). [{{< fa brands github >}}](https://github.com/daniGiro)
+  1. [**Cynthia Huang**](https://www.cynthiahqy.com) *Principles and tools for data harmonization* (PhD, begun 2021). [{{< fa brands github >}}](https://github.com/cynthiahqy) [{{< fa brands twitter >}}](https://twitter.com/cynthiahqy)
   1. [**Mitchell O'Hara-Wild**](https://mitchelloharawild.com) *Tools for forecasting large collections of time series* (PhD, begun 2023). [{{< fa brands github >}}](https://github.com/mitchelloharawild) [{{< fa brands twitter >}}](https://twitter.com/mitchoharawild)
   1. [**Nuwani Palihawadana**](https://optima.org.au/staff/nuwani-palihawadana/). *Optimal predictor selection for high-dimensional nonparametric forecasting* (PhD, begun 2020).  [{{< fa brands github >}}](https://github.com/nuwani-palihawadana)
   1. **Sixian (Alice) Tang**. *Mortality forecasting* (PhD, begun 2020).
