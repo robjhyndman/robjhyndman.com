@@ -8,7 +8,7 @@ categories:
 - statistics
 ---
 
-Last week we had the pleasure of [Professor Stephen Pollock](http://www2.le.ac.uk/departments/economics/people/professor-stephen-pollock) (University of Leicester) visiting our Department, best known in academic circles for his work on time series filtering (see [his papers](http://www.le.ac.uk/users/dsgp1/), and his [excellent book](http://amzn.com/dp/0125609906/?tag=prorobjhyn-20)). But he has another career as a member of the UK House of Lords (under the name [Viscount Hanworth](http://en.wikipedia.org/wiki/David_Pollock,_3rd_Viscount_Hanworth) -- he is a hereditary peer).
+Last week we had the pleasure of [Professor Stephen Pollock](http://www2.le.ac.uk/departments/economics/people/professor-stephen-pollock) (University of Leicester) visiting our Department, best known in academic circles for his work on time series filtering (see [his papers](http://www.le.ac.uk/users/dsgp1/), and his [excellent book](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0125609906/?tag=prorobjhyn-20)). But he has another career as a member of the UK House of Lords (under the name [Viscount Hanworth](http://en.wikipedia.org/wiki/David_Pollock,_3rd_Viscount_Hanworth) -- he is a hereditary peer).
 
 It made me wonder how many other politicians have PhDs (or equivalent) in statistics, or at least in mathematics. I realise that a lot of mathematicians before the 20th century were often involved in politics, in one way or another, especially in France. Also, the notion of a PhD is a relatively recent invention. But if we restrict the time to 1950 onwards, there must be quite a few politicians with doctorates in the mathematical sciences. <!-- more -->
 

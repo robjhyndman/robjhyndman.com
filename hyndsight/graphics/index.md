@@ -56,8 +56,8 @@ The following "rules" are in no particular order.
 
 The classic books on graphics are:
 
-  * [Tufte's "The Visual Display of Quantitative Information" (2nd ed, 2001).](http://amzn.com/dp/0961392142/?tag=otexts-20)
+  * [Tufte's "The Visual Display of Quantitative Information" (2nd ed, 2001).](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0961392142)
 
-  * [Cleveland's "The Elements of Graphing Data" (2nd ed, 1994).](http://amzn.com/dp/0963488414/?tag=otexts-20)
+  * [Cleveland's "The Elements of Graphing Data" (2nd ed, 1994).](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0963488414)
 
 These are both highly recommended.

@@ -100,24 +100,24 @@ Wenham, J. (2005). _Easter enigma: Are the resurrection accounts in conflict?_ E
 
 **The following books are those that I found useful in my exploration of a worldview without God.**
 
-[Bartholomew, D. J. (2008). _God, chance and purpose: Can God have it both ways?_ Cambridge, England: Cambridge University Press.](http://amzn.com/dp/B000SMACX0/?tag=otexts-20)
+[Bartholomew, D. J. (2008). _God, chance and purpose: Can God have it both ways?_ Cambridge, England: Cambridge University Press.](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2FB000SMACX0/)
 
-[Cline, E. H. (2007). _From Eden to exile: Unraveling mysteries of the Bible_. Washington DC, USA: National Geographic Society.](http://amzn.com/dp/1426202083/?tag=otexts-20)
+[Cline, E. H. (2007). _From Eden to exile: Unraveling mysteries of the Bible_. Washington DC, USA: National Geographic Society.](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F1426202083/)
 
-[Daniels, K. W. (2008). _Why I believed: Reflections of a former missionary_. Duncanville, TX, USA: Kenneth W Daniels.](http://amzn.com/dp/0578003880/?tag=otexts-20)
+[Daniels, K. W. (2008). _Why I believed: Reflections of a former missionary_. Duncanville, TX, USA: Kenneth W Daniels.](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0578003880/)
 
-[Ehrman, B. D. (2009). _Misquoting Jesus: The story behind who changed the Bible and why_. New York, USA: HarperCollins.](http://amzn.com/dp/0060859512/?tag=otexts-20)
+[Ehrman, B. D. (2009). _Misquoting Jesus: The story behind who changed the Bible and why_. New York, USA: HarperCollins.](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0060859512/)
 
-[Epstein, G. (2009). _Good without God: What a billion nonreligious people do believe_. New York, USA: William Morrow.](http://amzn.com/dp/006167012X/?tag=otexts-20)
+[Epstein, G. (2009). _Good without God: What a billion nonreligious people do believe_. New York, USA: William Morrow.](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F006167012X/)
 
-[Grayling, A. C. (2013). _The God argument: The case against religion and for humanism_. New York, USA: Bloomsbury.](http://amzn.com/dp/1620401924/?tag=otexts-20)
+[Grayling, A. C. (2013). _The God argument: The case against religion and for humanism_. New York, USA: Bloomsbury.](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F1620401924/)
 
-[Haidt, J. (2012). _The righteous mind: Why good people are divided by politics and religion_. New York, USA: Vintage.](http://amzn.com/dp/0307455777/?tag=otexts-20)
+[Haidt, J. (2012). _The righteous mind: Why good people are divided by politics and religion_. New York, USA: Vintage.](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0307455777/)
 
-[Harari, Y. N. (2015). _Sapiens: A brief history of Humankind_. New York, USA: Harper.](http://amzn.com/dp/0062316095/?tag=otexts-20)
+[Harari, Y. N. (2015). _Sapiens: A brief history of Humankind_. New York, USA: Harper.](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0062316095/)
 
-[Harris, S. (2004). _The end of faith: Religion, terror, and the future of reason_. New York, USA: W. W. Norton.](http://amzn.com/dp/0393327655/?tag=otexts-20)
+[Harris, S. (2004). _The end of faith: Religion, terror, and the future of reason_. New York, USA: W. W. Norton.](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0393327655/)
 
-[Hitchens, C. (2007). _God is not great: How religion poisons everything_. New York, USA: Twelve.](http://amzn.com/dp/0446697966/?tag=otexts-20)
+[Hitchens, C. (2007). _God is not great: How religion poisons everything_. New York, USA: Twelve.](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0446697966/)
 
-[Silberman, N. A. and I. Finkelstein (2001). _The Bible unearthed: Archaeology’s new vision of ancient Israel and the origin of its sacred texts_. New York, USA: Free Press.](http://amzn.com/dp/0684869136/?tag=otexts-20)
+[Silberman, N. A. and I. Finkelstein (2001). _The Bible unearthed: Archaeology’s new vision of ancient Israel and the origin of its sacred texts_. New York, USA: Free Press.](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0684869136/)

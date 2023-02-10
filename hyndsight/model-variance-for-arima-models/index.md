@@ -24,7 +24,7 @@ From today's email:
 
 #### My response:
 
-The `Arima()` and `auto.arima()` functions from the forecast package call the `arima()` function from the stats package. The `arima()` function in R uses the MLE estimate of the residual variance which has denominator $T$, where $T$ is the number of residuals. The SAS variance is the least squares estimate of the residual variance. Both are consistent estimators, but the MLE estimator is biased. Both estimators are discussed in [Brockwell and Davis's textbook](http://amzn.com/dp/0387953515/?tag=otexts-20).
+The `Arima()` and `auto.arima()` functions from the forecast package call the `arima()` function from the stats package. The `arima()` function in R uses the MLE estimate of the residual variance which has denominator $T$, where $T$ is the number of residuals. The SAS variance is the least squares estimate of the residual variance. Both are consistent estimators, but the MLE estimator is biased. Both estimators are discussed in [Brockwell and Davis's textbook](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0387953515).
 
 It would probably be better to use the unbiased estimator, and it would certainly improve the coverage of the prediction intervals. I might make this change in future versions of the `Arima` and `auto.arima` functions from the forecast package. I have no control over the `arima` function from the stats package.
 

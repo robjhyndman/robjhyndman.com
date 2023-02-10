@@ -76,7 +76,7 @@ You can also download [individual csv files for each data set](expsmooth_data.zi
 
  * [Review by Professor David Hand, *International Statistical Review*, 77(2), 315-316](https://doi.org/10.1111/j.1751-5823.2009.00085_17.x)
  * [Review by Lars-Erik Oller and Par Stockhammar, *International Journal of Forecasting*, 26(1), 204-205](https://doi.org/10.1016/j.ijforecast.2009.09.005)
- * [Amazon customer reviews](http://www.amazon.com/Forecasting-Exponential-Smoothing-Approach-Statistics/product-reviews/3540719164?tag=otexts-20)
+ * [Amazon customer reviews](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F3540719164)
 
 ## Errata
 

@@ -11,7 +11,7 @@ categories:
 - statistics
 ---
 
-My forecasting textbook with George Athanasopoulos is already available [online](http://www.otexts.org/fpp) (for free), and [in print via Amazon](http://amzn.com/dp/0987507109/?tag=otexts-20) (for under $40). Now we have made it available as a downloadable e-book via [Google Books](https://play.google.com/store/books/details?id=gDuRBAAAQBAJ) (for $15.55). The Google Books version is identical to the print version on Amazon (apart from a few typos that have been fixed).
+My forecasting textbook with George Athanasopoulos is already available [online](http://www.otexts.org/fpp) (for free), and [in print via Amazon](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0987507109/) (for under $40). Now we have made it available as a downloadable e-book via [Google Books](https://play.google.com/store/books/details?id=gDuRBAAAQBAJ) (for $15.55). The Google Books version is identical to the print version on Amazon (apart from a few typos that have been fixed).
 
 [![](/files/fppcover-208x300.jpg)](https://play.google.com/store/books/details?id=gDuRBAAAQBAJ)
 

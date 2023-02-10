@@ -19,7 +19,7 @@ Until a few years ago, I was regularly speaking at church conferences internatio
 
 The whole book is freely [available online](/unbelievable/). But if you prefer a print or offline version, you can buy a copy via one of the links below.
 
-**[Buy a print copy via Amazon](http://amzn.com/dp/1517363195/?tag=otexts-20)**
+**[Buy a print copy via Amazon](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F1517363195/)**
 
 **[Buy an e-copy via Google books](https://books.google.com/books?id=MrqMCgAAQBAJ)**
 

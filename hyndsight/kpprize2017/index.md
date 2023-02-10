@@ -14,9 +14,9 @@ All that aside, the job of the committee was to select an English-language artic
 The previous two winners of the KP Prize were:
 
  * 2015: Kung-Yee Liang and Scott Zeger for their Biometrika (1986) paper ["Longitudinal data analysis using generalized linear models"](https://www.jstor.org/stable/2336267).
- * 2013: Peter McCullagh and John Nelder for their 1983 monograph [*Generalized linear models*](http://amzn.com/dp/0412317605/?tag=otexts-20).
+ * 2013: Peter McCullagh and John Nelder for their 1983 monograph [*Generalized linear models*](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0412317605/).
 
-There were many excellent nominations, but we decided to award the 2017 prize to Rod Little and Don Rubin for their 1987 book ["Statistical analysis with missing data"](http://amzn.com/dp/0471183865/?tag=otexts-20).
+There were many excellent nominations, but we decided to award the 2017 prize to Rod Little and Don Rubin for their 1987 book ["Statistical analysis with missing data"](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0471183865/).
 
 These days, we routinely discuss whether data are "missing at random", "missing completely at random", or "missing not at random". These categories were developed by Little and Rubin, and have provided a very useful framework for data analysts to think about missing data.
 
