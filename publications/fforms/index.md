@@ -17,16 +17,10 @@ tags:
 - algorithm selection
 file: fforms.pdf
 github: thiyangt/fforms
+doi: 10.1002/for.2963
 ---
 
-A crucial task in time series forecasting is the identification of the most suitable forecasting
-method. We present a general framework for forecast-model selection using meta-learning. A
-random forest is used to identify the best forecasting method using only time series features.
-The framework is evaluated using time series from the M1 and M3 competitions and is
-shown to yield accurate forecasts comparable to several benchmarks and other commonly
-used automated approaches of time series forecasting. A key advantage of our proposed
-framework is that the time-consuming process of building a classifier is handled in advance
-of the forecasting task at hand.
+Features of time series are useful in identifying suitable models for forecasting. We present a general framework, labelled FFORMS (Feature-based FORecast Model Selection), which selects forecast models based on features calculated from each time series. The FFORMS framework builds a mapping that relates the features of a time series to the “best” forecast model using a classification algorithm such as a random forest. The framework is evaluated using time series from the M-forecasting competitions and is shown to yield forecasts that are almost as accurate as state-of-the-art methods, but are much faster to compute. We use model-agnostic machine learning interpretability methods to explore the results and to study what types of time series are best suited to each forecasting model.
 
 Associated R package: **[seer](https://github.com/thiyangt/seer)**
 
