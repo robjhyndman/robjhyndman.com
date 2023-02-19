@@ -41,13 +41,13 @@ $$
 $$
 for different matrices $\bm{G}$.
 
-Optimal reconciled forecasts are obtained with $\bm{G}=(\bm{S}'\bm{W}^{-1}\bm{S})^{-1}\bm{W}^{-1}$, or
+Optimal reconciled forecasts are obtained with $\bm{G}=(\bm{S}'\bm{W}^{-1}\bm{S})^{-1}\bm{S}'\bm{W}^{-1}$, or
 $$
   \tilde{\bm{y}}_h = \bm{M}\hat{\bm{y}}_h,
 $$
 where the $n\times n$ "mapping" matrix is given by
 $$
-  \bm{M} = \bm{S}(\bm{S}'\bm{W}^{-1}\bm{S})^{-1}\bm{W}^{-1},
+  \bm{M} = \bm{S}(\bm{S}'\bm{W}^{-1}\bm{S})^{-1}\bm{S}'\bm{W}^{-1},
 $$ {#eq-mapping1}
 $\hat{\bm{y}}_h$ are the $h$-step forecasts of $y_{T+h}$ given data to time $T$, and $\bm{W}$ is an $n \times n$ positive definite matrix. Different choices for $\bm{W}$ lead to different solutions such as OLS, WLS and MinT [@WicEtAl2019].
 
