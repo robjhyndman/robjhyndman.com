@@ -12,7 +12,7 @@ website:
   twitter-card:
     creator: "@robjhyndman"
   navbar:
-    background: "#536878"
+    background: "#234460"
     left:
       - href: hyndsight/index.qmd
         text: Hyndsight blog
@@ -39,7 +39,7 @@ website:
         href: https://github.com/robjhyndman
       - icon: mastodon
         href: https://aus.social/@robjhyndman
-    background: "#536878"
+    background: "#234460"
 
 date-format: "D MMMM YYYY"
 freeze: true

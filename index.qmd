@@ -1,7 +1,7 @@
 ---
 about:
   template: trestles
-  image: img/rjh.png
+  image: img/RJH_circle.png
   links:
     - icon: mastodon
       text: mastodon
