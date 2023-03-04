@@ -1,6 +1,6 @@
 ---
 author: Thiyanga S Talagala, Rob J Hyndman, George Athanasopoulos
-date: 2023-01-31
+date: 2023-02-09
 slug: fforms
 title: Meta-learning how to forecast time series
 categories: Articles

@@ -1,10 +1,10 @@
 ---
 title: "Forecasting, causality and feedback"
-date: "2022-09-30"
+date: "2023-04-01"
 author:  Rob J Hyndman
 file: Shmueli_Tafti_comment.pdf
 categories: Articles
-details: "<em>International Journal of Forecasting</em>, to appear"
+details: "<em>International Journal of Forecasting</em>, <b>39</b>(2), 558-560"
 doi: 10.1016/j.ijforecast.2022.09.007
 ---
 
