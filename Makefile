@@ -13,6 +13,7 @@ deploy:
 	Rscript make_xml.R
 	cp .htaccess _site
 	cp styles.css _site
+	rsync -rau etc3550/ _site/etc3550/
 	rsync -rau data/ _site/data/
 	rsync -rau files/ _site/files/
 	rsync -rau genealogy/ _site/genealogy/
