@@ -144,6 +144,19 @@ rjh_packages <- function() {
       ) |>
       # Average monthly downloads in last 3 months
       mutate(downloads = downloads / 3))
+    # Add in any packages not on r-universe
+    # This is only necessary until pkgsearch is updated.
+    # Then pkgmeta should return a complete set
+    missing_packages <- pkgmeta:::get_meta_cran(
+      c("bayesforecast", "fds", "fpp", "ftsa", "rainbow", "smoothAPC", "stR"),
+      include_downloads = TRUE, start = as.character(lubridate::ymd(Sys.Date() - 91))
+    )
+    cran_github <- bind_rows(cran_github, missing_packages) |>
+      mutate(
+        url = if_else(url == "https://OTexts.com/fpp3/",
+                      "http://pkg.robjhyndman.com/fpp3package/",
+                      url)
+      )
     # If that didn't work, just use the last available file
     if ("try-error" %in% class(cran_github)) {
       return(packages)
