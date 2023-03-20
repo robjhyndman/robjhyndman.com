@@ -20,10 +20,6 @@ slug: research_habits
  * [Semantic Scholar](https://www.semanticscholar.org)
  * Drag this [link](javascript:void(location.href=%22https://go.openathens.net/redirector/www.monash.edu?url=%22+location.href)) to your bookmarks to allow access to a paper via your Monash account.
 
-### Summarising a paper
-
- * [Paper Digest](https://www.paper-digest.com)
-
 ### Using git and github
 
  * [Happy git with R](http://happygitwithr.com)
