@@ -1,7 +1,7 @@
 ---
 about:
   template: trestles
-  image: img/RJH_circle.png
+  image: img/RJH_AAS_small.png
   links:
     - icon: twitter
       text: twitter
