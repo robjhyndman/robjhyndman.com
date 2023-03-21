@@ -3,6 +3,9 @@ about:
   template: trestles
   image: img/RJH_circle.png
   links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/robjhyndman
     - icon: mastodon
       text: mastodon
       href: https://aus.social/@robjhyndman
