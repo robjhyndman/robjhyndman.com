@@ -86,10 +86,12 @@ In addition to these presentations, we will include time on each day for discuss
 ## Invited discussants
 
 * [Anastasios Panagiotelis](https://anastasiospanagiotelis.netlify.app), University of Sydney, Australia
+* [Casey Lichtendahl](https://scholar.google.com/citations?user=6pQ8hnIAAAAJ&hl=en), Google, USA
 * [Christoph Bergmeir](https://cbergmeir.com), Meta, USA
 * [Dario Azzimonti](https://sites.google.com/view/darioazzimonti/home), IDSIA, Switzerland
 * [Fotios Petropoulos](http://fpetropoulos.eu), University of Bath, UK
 * [Luisa Bisaglia](https://homes.stat.unipd.it/luisabisaglia/en/home-2/), University of Padua, Italy
+* [Margaux Brégère](https://margauxbregere.github.io), Sorbonne University, France
 * [Ross Hollyman](https://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=ross_hollyman), University of Exeter, UK
 * [Tommaso Di Fonzo](https://homes.stat.unipd.it/tommasodifonzo/en/home-2/), University of Padua, Italy
 * [Weijie Shen](https://www.linkedin.com/in/weijieshen), Google, USA
