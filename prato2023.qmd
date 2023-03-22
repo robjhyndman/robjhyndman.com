@@ -68,6 +68,31 @@ In addition to these presentations, we will include time on each day for discuss
 * 3.30pm -- 5.00pm. Open problem discussion
 * 7.30pm -- 10.30pm. Workshop dinner
 
+## Invited speakers
+
+* [Adele Gouttes](https://de.linkedin.com/in/ad%C3%A8le-gouttes-bb405b84), Zalando, Germany
+* [Daniele Girolimetto](https://danigiro.github.io/), University of Padua, Italy
+* [Federico Garza](https://github.com/FedericoGarza), Nixtla, Mexico
+* [Giorgio Corani](https://sites.google.com/site/awerbhjkl678214/home), IDSIA, Switzerland
+* [Haoyun Wu](https://www.linkedin.com/in/haoyun-wu-b03b828b), Google, USA
+* [Jan Møller](https://scholar.google.com/citations?user=t6M3wewAAAAJ&hl=en), Denmark Technical University, Denmark
+* [Julien Leprince](https://scholar.google.com/citations?user=KDlduPEAAAAJ&hl=en), Technical University Eindhoven, Netherlands
+* [Raffaele Mattera](https://www.sites.google.com/view/raffaele-mattera/), University of Rome, Italy
+* [Shanika Wickramasuriya](https://profiles.auckland.ac.nz/s-wickramasuriya/publications), University of Auckland, New Zealand
+* [Syama Rangapuram](https://de.linkedin.com/in/syama-sundar-rangapuram-0164379), Amazon, Germany
+* [Xiaoqian Wang](https://xqnwang.rbind.io), Monash University, Australia
+* [Xing Han](https://aaronhan223.github.io), University of Texas, USA
+
+## Invited discussants
+
+* [Fotios Petropoulos](http://fpetropoulos.eu), University of Bath, UK
+* [Tommaso Di Fonzo](https://homes.stat.unipd.it/tommasodifonzo/en/home-2/), University of Padua, Italy
+* [Ross Hollyman](https://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=ross_hollyman), University of Exeter, UK
+* [Luisa Bisaglia](https://homes.stat.unipd.it/luisabisaglia/en/home-2/), University of Padua, Italy
+* [Christoph Bergmeir](https://cbergmeir.com), Meta, USA
+* [Dario Azzimonti](https://sites.google.com/view/darioazzimonti/home), IDSIA, Switzerland
+* [Weijie Shen](https://www.linkedin.com/in/weijieshen), Google, USA
+
 ## Monash University Prato Centre
 
 [Monash University Prato Centre](https://www.monash.edu/prato) occupies the 18th century Palazzo Vaj, and provides a European base for Monash University academics.
