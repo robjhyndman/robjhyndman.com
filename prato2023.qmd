@@ -85,6 +85,7 @@ In addition to these presentations, we will include time on each day for discuss
 
 ## Invited discussants
 
+* [Anastasios Panagiotelis](https://anastasiospanagiotelis.netlify.app), University of Sydney, Australia
 * [Christoph Bergmeir](https://cbergmeir.com), Meta, USA
 * [Dario Azzimonti](https://sites.google.com/view/darioazzimonti/home), IDSIA, Switzerland
 * [Fotios Petropoulos](http://fpetropoulos.eu), University of Bath, UK
