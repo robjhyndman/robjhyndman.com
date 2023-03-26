@@ -100,7 +100,7 @@ mrates %>%
 
 # Comparing seasonality across countries
 
-We can compare the seasonal patterns from all countries by using an STL decomposition to estimate the seasonality. There will be some differences because some countries provide weekly data by date of registration (instead of the date of occurrence). This is why, for example, we see sudden dips in England & Wales but do not see similar dips in Germany. Information about the type of data available is in [the metadata](https://www.mortality.org/File/GetDocument/Public/STMF_DOC/STMFmetadata.pdf).
+We can compare the seasonal patterns from all countries by using an STL decomposition to estimate the seasonality. There will be some differences because some countries provide weekly data by date of registration (instead of the date of occurrence). This is why, for example, we see sudden dips in England & Wales but do not see similar dips in Germany. Information about the type of data available is in [the metadata](https://www.mortality.org/File/GetDocument/Public/STMF/DOC/STMFmetadata.pdf).
 
 First we have to convert the data to a tsibble object.
 
