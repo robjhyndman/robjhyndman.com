@@ -6,4 +6,4 @@ title: "404 - Not found"
 
 Sorry, that page doesn't seem to be here.
 
-Try a search to find what you are looking for (click the magnifying glass -- at top right or in the hamburger menu).
+Try a search to find what you are looking for (click the magnifying glass -- at top left or in the hamburger menu).
