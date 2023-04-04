@@ -3,6 +3,7 @@ title: "Cross-temporal Probabilistic Forecast Reconciliation"
 date: "2023-03-31"
 author:  Daniele Girolimetto, George Athanasopoulos, Tommaso Di Fonzo, Rob J Hyndman
 github: daniGiro/ctprob
+arxiv: 2303.17277
 link: https://github.com/danigiro/ctprob/raw/main/paper/CTprob.pdf
 categories: Working papers
 ---
