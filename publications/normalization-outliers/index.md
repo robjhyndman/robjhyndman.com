@@ -8,7 +8,7 @@ details: "<em>Data Mining and Knowledge Discovery</em>, <b>34</b>, 309-354"
 tags:
 - data science
 - anomaly detection
-link: https://www.monash.edu/business/ebs/research/publications/ebs/wp16-2018.pdf
+link: https://bridges.monash.edu/ndownloader/files/38152086
 doi: 10.1007/s10618-019-00661-z
 ---
 

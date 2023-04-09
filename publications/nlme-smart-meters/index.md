@@ -11,7 +11,7 @@ tags:
   - forecasting
   - energy
   - statistics
-link: https://www.monash.edu/business/ebs/research/publications/ebs/wp41-2020.pdf
+link: https://bridges.monash.edu/ndownloader/files/38163618
 github: camroach87/1901-nlmets
 doi: 10.1002/for.2750
 ---

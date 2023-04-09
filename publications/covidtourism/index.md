@@ -10,7 +10,7 @@ tags:
   - time series
   - tourism
   - forecasting
-link: https://www.monash.edu/business/ebs/research/publications/ebs/wp01-2021.pdf
+link: https://bridges.monash.edu/ndownloader/files/38164284
 doi: 10.1177/00472875211059240
 ---
 

@@ -9,7 +9,7 @@ tags:
 - data science
 - anomaly detection
 - time series
-link: https://www.monash.edu/business/ebs/research/publications/ebs/wp01-2019.pdf
+link: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019WR024906
 doi: 10.1029/2019WR024906
 ---
 
