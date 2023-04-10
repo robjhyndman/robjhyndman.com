@@ -49,22 +49,26 @@ The following bio and [**this photo**](/img/RJH_AAS.jpg) may be used in media re
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1573.8494801911916!2d145.13333138705417!3d-37.91409860115737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66acc44ceea8d%3A0xa8874d62c042a30f!2s29%20Ancora%20Imparo%20Wy%2C%20Clayton%20VIC%203168!5e0!3m2!1sen!2sau!4v1649573729090!5m2!1sen!2sau" width="640" height="480"></iframe>
 
-## In the news
+## Qualifications
 
-Here is a list of [recent news articles about me](../news.qmd).
+ * B.Sc.(Hons), University of Melbourne, 1988.
+ * Ph.D., University of Melbourne, 1992.
+ * A.Stat., Statistical Society of Australia, 2000.
 
-## Administrative responsibilities
+## Employment history
 
-  * Executive Editor, *[The R Journal](https://rjournal.github.io)*.
-  * Editor, *[Journal of Statistical Software](http://www.jstatsoft.org/)*.
-  * Associate Editor, *[International Journal of Forecasting](http://ijf.forecasters.org/)*.
-  * Editor of the [NEP forecasting report](http://ideas.repec.org/n/nep-for/).
-  * Member of the Scaling committee, [Victorian Tertiary Admissions Centre](http://www.vtac.edu.au). This committee is responsible for producing the [ATAR for VCE students](http://en.wikipedia.org/wiki/Australian_Tertiary_Admission_Rank).
-  * Member of the Interstate Transfer Index Technical Group for the [Australasian Conference of Tertiary Admissions Centres](http://www.actac.edu.au).
-  * Member of the Aboriginal and Torres Strait Islander Statistical and Technical Advisory Group for the [Australian Institute of Health and Welfare](http://www.aihw.gov.au).
-  * Member of the [COVID-19 national situational assessment team](https://mspgh.unimelb.edu.au/research-groups/centre-for-epidemiology-and-biostatistics-research/Infectious-Disease-Dynamics/covid-19-national-situational-assessment).
+  * **Professor**, Department of Econometrics & Business Statistics, Monash University, 2003--.
+  * **KNAW Visiting Professor**, TU/Eindhoven, Netherlands, 2016.
+  * **Visiting Senior Research Fellow**, Mathematical Sciences Institute, Australian National University, 2002.
+  * **Associate Professor**, Department of Econometrics & Business Statistics, Monash University, 2001--2003.
+  * **Senior Lecturer**, Department of Econometrics & Business Statistics, Monash University, 1998--2000.
+  * **Visiting Professor**, Department of Statistics, Colorado State University, 1998.
+  * **Senior Lecturer**, Department of Mathematics and Statistics, Monash University, 1997--1998.
+  * **Lecturer**, Department of Mathematics and Statistics, Monash University, 1995--1996.
+  * **Lecturer**, Department of Statistics, University of Melbourne, 1993--1994.
+  * **Statistical consultant**, Department of Statistics, University of Melbourne, 1985--1992.
 
-## Fellowships and Memberships
+## Fellowships
 
 I am a fellow of the following organizations:
 
@@ -72,14 +76,79 @@ I am a fellow of the following organizations:
   * [Academy of the Social Sciences in Australia](https://socialsciences.org.au/academy-fellow/?sId=0032v00003JxrvjAAB)
   * [International Institute of Forecasters](https://forecasters.org/about/fellows/)
 
-I am additionally a member of the following organizations:
+## Society memberships
 
-  * [International Statistical Institute](http://isi.cbs.nl)  (elected member)
-  * [International Association for Statistical Computing](http://www.iasc-isi.org)
-  * [International Association for Statistical Education](https://iase-web.org)
-  * [International Society for Business and Industrial Statistics](http://isbis-isi.org)
-  * [Statistical Society of Australia](http://www.statsoc.org.au)
-  * [Foundation for Open Access Statistics](http://foastat.org/)
+  * Elected member, [International Statistical Institute](http://isi.cbs.nl)
+  * Member, [International Association for Statistical Computing](http://www.iasc-isi.org)
+  * Member, [International Association for Statistical Education](https://iase-web.org)
+  * Member, [International Society for Business and Industrial Statistics](http://isbis-isi.org)
+  * Member, [Statistical Society of Australia](http://www.statsoc.org.au)
+  * Member, [Foundation for Open Access Statistics](http://foastat.org/)
+
+## Society leadership
+
+  * Director, [International Institute of Forecasters](https://forecasters.org/), 2005--2018.
+  * Member, Scientific Program Advisory Group, [Statistical Society of Australia](http://www.statsoc.org.au), 2001--2004
+  * Central Council member, [Statistical Society of Australia](http://www.statsoc.org.au), 1993--1996.
+  * Secretary, Victorian branch, [Statistical Society of Australia](http://www.statsoc.org.au), 1993--1995.
+
+## Academic and research leadership
+
+  * **Head**, Department of Econometrics & Business Statistics, Monash University. 2019--2022.
+  * **Director**, Business & Economic Forecasting Unit, Monash University. 2001--2017.
+  * **Director of Consulting**, Econometrics and Business Statistics, Monash University. 2000--2014.
+  * **Director**, Monash University Statistical Consulting Service, 1997--1998.
+  * **Director**, Key Centre for Statistical Science, 1996--1998.
+
+## Editorial boards
+
+  * Executive Editor, *[The R Journal](https://rjournal.github.io)* (2023--2026).
+  * Editor, *[Journal of Statistical Software](http://www.jstatsoft.org/)* (2011--).
+  * Associate Editor, *[International Journal of Forecasting](http://ijf.forecasters.org/)* (2001--2004,2019--).
+  * Editor, [NEP forecasting report](http://ideas.repec.org/n/nep-for/) (2005--).
+  * Editor-in-Chief, *[International Journal of Forecasting](http://ijf.forecasters.org/)* (2005--2018).
+  * Theory and Methods Editor, *[Australian & New Zealand Journal of Statistics]()* (2001--2004).
+
+## Advisory boards
+
+  * Member of the Scaling committee, [Victorian Tertiary Admissions Centre](http://www.vtac.edu.au). This committee is responsible for producing the [ATAR for VCE students](http://en.wikipedia.org/wiki/Australian_Tertiary_Admission_Rank) (1994--).
+  * Member of the ATAR Technical Group for the [Australasian Conference of Tertiary Admissions Centres](http://www.actac.edu.au) (2003--).
+  * Member of the Indigenous Statistical and Information Advisory Group for the [Australian Institute of Health and Welfare](http://www.aihw.gov.au) (2017--).
+  * Member of the [COVID-19 national situational assessment team](https://mspgh.unimelb.edu.au/research-groups/centre-for-epidemiology-and-biostatistics-research/Infectious-Disease-Dynamics/covid-19-national-situational-assessment) (2020--).
+  * Member of the Methodology Advisory Committee for the Australian Bureau of Statistics (2010--2018).
+
+## Conference organization
+
+  * Chair, [IIF Workshop on Forecast Reconciliation](/prato2023.qmd), 2023.
+  * General Chair, International Symposium on Forecasting, 2017.
+  * Program Chair, International Symposium on Forecasting, 2012.
+  * Program Co-Chair, International Symposium on Forecasting, 2004.
+
+
+
+## Awards and honours
+
+* Australian Awards for University Teaching citation for outstanding contributions to student learning (2022)
+* [Pitman Medal, Statistical Society of Australia](https://www.statsoc.org.au/News-and-media-releases/10736720) (2021)
+* Vice-Chancellor's Award for Innovation in Learning and Teaching (2021)
+* MSA Teaching Excellence Award for Business and Economics, Monash Student Association (2020)
+* Dean's Award for Innovation in Learning and Teaching, Monash Business School (2020)
+* Commendation for the Dean's Award for Research Impact, Monash Business School (2018)
+* Nominee for MPA Supervisor of the Year, Monash Postgraduate Association (2014)
+* Dean's Award for Excellence in Innovation and External Collaboration, Monash Business School (2010)
+* HP Innovation Research Award (2010)
+* Dean's Award for Excellence in Research, Monash Business School (2008)
+* Vice-Chancellor's Award for Postgraduate Supervisor of the Year, Monash University (2008)
+* [Moran Medal for Statistical Science, Australian Academy of Science](https://www.science.org.au/past-winners/2007-awardees#moran) (2007)
+* Award for excellence in teaching, Monash Science Society (1998)
+* Finalist, Channel Ten Young Achiever Awards (1990)
+* Dwights Prize in Statistics, University of Melbourne (1988)
+* Norma McArthur Prize in Statistics, University of Melbourne (1987)
+* Second Maurice H Belz Prize in Statistics, University of Melbourne (1986)
+
+## In the news
+
+Here is a list of [recent news articles about me](../news.qmd).
 
 ## Trivia
 
