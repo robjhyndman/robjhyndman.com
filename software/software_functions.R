@@ -55,7 +55,7 @@ package_table <- function(packages) {
     }
     out <- paste0(out, "<tr>")
     out <- paste0(out, "<td><a href='", z$url[i], "'><img src='", z$hex[i], "' width='70px' style='vertical-align:middle'></a></td>")
-    out <- paste0(out, "<td width='60%'>", z$title[i], ".</td>")
+    out <- paste0(out, "<td width='55%'>", z$title[i], ".</td>")
     if (!is.na(z$github_url[i])) {
       out <- paste0(out, "<td><a href=", z$github_url[i], " class='badge badge-small badge-green'>Github</a></td>")
     } else {
@@ -165,6 +165,7 @@ rjh_packages <- function() {
     hex_stickers <- tribble(
       ~package, ~hex,
       "cricketdata", "http://pkg.robjhyndman.com/cricketdata/reference/figures/cricketdata.png",
+      "conduits", "https://github.com/PuwasalaG/conduits/raw/master/man/figures/logo.png",
       "fable", "https://fable.tidyverts.org/reference/figures/logo.png",
       "fasster", "stickers/fasstersticker.resized.png",
       "feasts", "https://feasts.tidyverts.org/reference/figures/logo.png",
@@ -283,6 +284,7 @@ rjh_packages <- function() {
         "Other time series analysis and forecasting",
         c(
           "bfast",
+          "conduits",
           "forecast",
           "gratis",
           "hts",
