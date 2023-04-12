@@ -200,6 +200,8 @@ rjh_packages <- function() {
     # Syntax: package, publication slug, citation
     references <- packages |>
       select(package) |>
+      # Avoid duplicates
+      distinct() |>
       mutate(
         publication = NA_character_, citation = NA_character_,
         publication2 = NA_character_, citation2 = NA_character_
