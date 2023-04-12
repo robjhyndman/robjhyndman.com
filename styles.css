@@ -15,7 +15,6 @@
 }
 body {
   font-family: 'Roboto Slab', Georgia, Serif;
-  font-size: 0.85em;
   line-height: 1.5em;
   background-color: #faf8f8;
 }
@@ -37,13 +36,13 @@ h5 {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   padding-bottom: 1em;
   line-height: 1.6em;
 }
 
 h2 {
-  font-size: 1.3em;
+  font-size: 1.5em;
   border-bottom: 1px solid #b3cde0;
 }
 
@@ -52,11 +51,11 @@ h2 a {
 }
 
 h3 {
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 h6 {
-  font-size: 0.8em;
+  font-size: 1.1em;
 }
 
 a {
