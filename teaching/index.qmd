@@ -43,7 +43,7 @@ This course is for you if you:
 
 ## Selected previous workshops
 
-* [Canberra 2022](https://robjhyndman.com/workshop2022)
+* [Canberra 2022](https://robjhyndman.com/seminars/workshop2022.html)
 * [San Francisco 2020](http://robjhyndman.com/workshop2020/)
 * [Kuala Lumpur 2019](https://robjhyndman.com/seminars/isi2019workshop/)
 * New York 2018
