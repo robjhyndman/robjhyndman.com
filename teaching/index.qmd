@@ -8,7 +8,7 @@ Reliable forecasts of business and economic variables must often be obtained aga
 
 **[Handbook entry](https://handbook.monash.edu/current/units/ETC3550)**
 
-**Textbook:** [*Forecasting: Principles and Practice*, Hyndman & Athanasopoulos (3rd ed., 2020)](https://OTexts.org/fpp3/)
+**Textbook:** [*Forecasting: Principles and Practice*, Hyndman & Athanasopoulos (3rd ed., 2021)](https://OTexts.org/fpp3/)
 
 [**Slides**](https://github.com/robjhyndman/ETC3550Slides/releases/tag/2022)
 
@@ -16,12 +16,38 @@ Reliable forecasts of business and economic variables must often be obtained aga
 
 # Tidy time series & forecasting in R
 
-*This is a 2-day workshop held no more than once per year.*
+*This is a 2-day workshop, usually run once per year.*
+
+[![](/img/tidyverts.png)](https://tidyverts.org)
+
+## Description
+
+It is common for organizations to collect huge amounts of data over time, and existing time series analysis tools are not always suitable to handle the scale, frequency and structure of the data collected. In this workshop, we will look at some packages and methods that have been developed to handle the analysis of large collections of time series.
 
 **Day 1**: We look at the tsibble data structure for flexibly managing collections of related time series. We look at how to do data wrangling, data visualizations and exploratory data analysis. We explore feature-based methods to explore time series data in high dimensions. A similar feature-based approach can be used to identify anomalous time series within a collection of time series, or to cluster or classify time series. Primary packages for day 1 are [tsibble](https://cran.r-project.org/package=tsibble), [lubridate](https://cran.r-project.org/package=lubridate) and [feasts](https://cran.r-project.org/package=feasts) (along with the [tidyverse](http://tidyverse.org) of course).
 
-**Day 2** is about forecasting. We look at some classical time series models and how they are automated in the [fable](https://cran.r-project.org/package=fable) package. We look at creating ensemble forecasts and hybrid forecasts, as well as some new forecasting methods that have performed well in large-scale forecasting competitions. Finally, we look at forecast reconciliation, allowing millions of time series to be forecast in a relatively short time while accounting for constraints on how the series are related.
+**Day 2** is about forecasting. We look at some classical time series models and how they are automated in the [fable](https://cran.r-project.org/package=fable) package, and we will explore the creation of ensemble forecasts and hybrid forecasts. Best practices for evaluating forecast accuracy will also be covered. Finally, we will look at forecast reconciliation, allowing millions of time series to be forecast in a relatively short time while accounting for constraints on how the series are related.
 
-[**More information . . .**](http://robjhyndman.com/workshop2020/)
+## Audience
 
-* * *
+This course is for you if you:
+
+* already use the [tidyverse packages](https://tidyverse.org) in R such as `dplyr`, `tidyr`, `tibble` and `ggplot2`;
+* need to analyze large collections of related time series; and
+* would like to learn how to use some tidy tools for time series analysis including visualization, decomposition and forecasting.
+
+## Upcoming workshops
+
+* [New York](https://rstats.ai/nyr#tidy-time-series-and-forecasting-in-r), 11-12 July 2023. Followed by the [New York R conference](https://rstats.ai/nyr). (Register for the workshop as part of the NYR conference registration.)
+* [Chicago](https://posit-conf-2023.github.io/workshops/workshops/forecasting/), 17-18 September 2023. Followed by the [Posit conference](https://posit.co/conference). (Register for the workshop as part of the Posit conference registration.)
+
+## Selected previous workshops
+
+* [Canberra 2022](https://robjhyndman.com/workshop2022)
+* [San Francisco 2020](http://robjhyndman.com/workshop2020/)
+* [Kuala Lumpur 2019](https://robjhyndman.com/seminars/isi2019workshop/)
+* New York 2018
+* [Perth 2017](https://robjhyndman.com/hyndsight/forecasting-workshop-perth/)
+* Eindhoven 2016
+* [Perth 2014](https://robjhyndman.com/seminars/uwa/)
+* [Kandersteg 2011](https://robjhyndman.com/hyndsight/swissworkshop2011/)

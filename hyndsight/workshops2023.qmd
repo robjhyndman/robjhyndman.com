@@ -1,0 +1,20 @@
+---
+title: Forecasting workshops in New York and Chicago
+date: 2023-04-13
+categories:
+  - forecasting
+  - R
+  - conferences
+  - teaching
+image: /img/tidyverts.png
+description: I'm giving a 2-day workshop on "Tidy Time Series and Forecasting in R", first at the New York R Conference in July, and then at the Posit Conference in Chicago in September.
+---
+
+Places are limited, so please book in early.
+
+* [New York](https://rstats.ai/nyr#tidy-time-series-and-forecasting-in-r), 11-12 July 2023. Followed by the [New York R conference](https://rstats.ai/nyr). (Register for the workshop as part of the NYR conference registration.)
+* [Chicago](https://posit-conf-2023.github.io/workshops/workshops/forecasting/), 17-18 September 2023. Followed by the [Posit conference](https://posit.co/conference). (Register for the workshop as part of the Posit conference registration.)
+
+The workshop introduces the [tidyverts](https://tidyverts.org) set of packages. Further details about the workshop are [here](https://robjhyndman.com/teaching/#tidy-time-series-forecasting-in-r).
+
+[![](/img/tidyverts.png)](https://tidyverts.org)
