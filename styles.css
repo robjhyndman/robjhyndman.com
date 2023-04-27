@@ -10,7 +10,7 @@
 }
 
 :root {
-  --bs-font-sans-serif: 'Source Sans Pro', sans-serif;
+  --bs-font-sans-serif: 'Fira Sans', sans-serif;
   --bs-font-monospace: hack_regular, monospace;
 }
 body {
@@ -22,7 +22,7 @@ body {
 form,
 input[type="search"],
 select[multiple="multiple"] {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 h1,
@@ -30,19 +30,19 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   color: #36454f;
   font-weight: bold;
 }
 
 h1 {
-  font-size: 1.8em;
+  font-size: 1.6em;
   padding-bottom: 1em;
   line-height: 1.6em;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.4em;
   border-bottom: 1px solid #b3cde0;
 }
 
@@ -51,11 +51,11 @@ h2 a {
 }
 
 h3 {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 h6 {
-  font-size: 1.1em;
+  font-size: 0.8em;
 }
 
 a {
@@ -133,7 +133,7 @@ output {
 
 nav,
 .footer {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 100%;
 }
 
@@ -161,11 +161,11 @@ a.badge.badge-green {
   text-transform: none !important;
   padding: 5px 5px 3px 5px;
   text-transform: none;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .badge {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .label,
@@ -257,7 +257,7 @@ a.badge.badge-green {
 }
 
 .quarto-title-meta {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   background-color: #ddd;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -296,7 +296,7 @@ a.badge.badge-green {
   background-color: var(--lightgray);
   padding-left: 20px;
   font-size: 12pt;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 div.quarto-about-trestles .about-entity .about-link:hover {
@@ -324,7 +324,7 @@ div.quarto-about-trestles .about-entity .about-link:hover {
 .listing-category,
 .listing-actions-group,
 .about-link-text {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 #quarto-margin-sidebar .category-default {
