@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: ../_site/prato2023
+
+website:
+  title: "2023 IIF Workshop on Forecast Reconciliation"
+  navbar:
+    background: "#234460"
+    left:
+      - href: program.qmd
+        text: Program
+
+date-format: "D MMMM YYYY"
+freeze: true
+
+format:
+  html:
+    theme: tango
+    css: styles.css
+    toc: true

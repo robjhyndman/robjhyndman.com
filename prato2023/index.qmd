@@ -1,5 +1,7 @@
 ---
 title: "IIF Workshop on Forecast Reconciliation"
+aliases:
+  - ../prato2023.html
 ---
 
 **Dates:** 6-8 September 2023
@@ -7,6 +9,8 @@ title: "IIF Workshop on Forecast Reconciliation"
 **Venue:** [Monash University Prato Centre, Italy](https://www.monash.edu/prato)
 
 This event is limited to 30 people, and attendance will be by invitation.
+
+![](/img/Monash_Prato.jpg)
 
 ## Organizing committee
 
@@ -41,67 +45,10 @@ In addition to these presentations, we will include time on each day for discuss
 * Hierarchical forecasting with explanatory variables
 * Applications of hierarchical forecasting to new domains
 
-## Program
-
-### 6 September
-
-* Welcome reception
-
-### 7 September
-
-* 9.00am -- 10.30am. 2 presenters and discussants
-* 10.30am -- 11.00am. Morning tea
-* 11.00am -- 12.30pm. 2 presenters and discussants
-* 12.30pm -- 1.30pm. Lunch
-* 1.30pm -- 3.00pm. 2 presenters and discussants
-* 3.00pm -- 3.30pm. Afternoon tea
-* 3.30pm -- 5.00pm. Open problem discussion
-
-### 8 September
-
-* 9.00am -- 10.30am. 2 presenters and discussants
-* 10.30am -- 11.00am. Morning tea
-* 11.00am -- 12.30pm. 2 presenters and discussants
-* 12.30pm -- 1.30pm. Lunch
-* 1.30pm -- 3.00pm. 2 presenters and discussants
-* 3.00pm -- 3.30pm. Afternoon tea
-* 3.30pm -- 5.00pm. Open problem discussion
-* 7.30pm -- 10.30pm. Workshop dinner
-
-## Invited speakers
-
-* [Adele Gouttes](https://de.linkedin.com/in/ad%C3%A8le-gouttes-bb405b84), Zalando, Germany
-* [Daniele Girolimetto](https://danigiro.github.io/), University of Padua, Italy
-* [Federico Garza](https://github.com/FedericoGarza), Nixtla, Mexico
-* [Giorgio Corani](https://sites.google.com/site/awerbhjkl678214/home), IDSIA, Switzerland
-* [Haoyun Wu](https://www.linkedin.com/in/haoyun-wu-b03b828b), Google, USA
-* [Jan Møller](https://scholar.google.com/citations?user=t6M3wewAAAAJ&hl=en), Denmark Technical University, Denmark
-* [Julien Leprince](https://scholar.google.com/citations?user=KDlduPEAAAAJ&hl=en), Technical University Eindhoven, Netherlands
-* [Raffaele Mattera](https://www.sites.google.com/view/raffaele-mattera/), University of Rome, Italy
-* [Shanika Wickramasuriya](https://profiles.auckland.ac.nz/s-wickramasuriya/publications), University of Auckland, New Zealand
-* [Syama Rangapuram](https://de.linkedin.com/in/syama-sundar-rangapuram-0164379), Amazon, Germany
-* [Xiaoqian Wang](https://xqnwang.rbind.io), Monash University, Australia
-* [Xing Han](https://aaronhan223.github.io), University of Texas, USA
-
-## Invited discussants
-
-* [Anastasios Panagiotelis](https://anastasiospanagiotelis.netlify.app), University of Sydney, Australia
-* [Casey Lichtendahl](https://www.linkedin.com/in/casey-lichtendahl-7a2688102), Google, USA
-* [Christoph Bergmeir](https://cbergmeir.com), Meta, USA
-* [Dario Azzimonti](https://sites.google.com/view/darioazzimonti/home), IDSIA, Switzerland
-* [Fotios Petropoulos](http://fpetropoulos.eu), University of Bath, UK
-* [Luisa Bisaglia](https://homes.stat.unipd.it/luisabisaglia/en/home-2/), University of Padua, Italy
-* [Margaux Brégère](https://margauxbregere.github.io), Sorbonne University, France
-* [Ross Hollyman](https://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=ross_hollyman), University of Exeter, UK
-* [Tommaso Di Fonzo](https://homes.stat.unipd.it/tommasodifonzo/en/home-2/), University of Padua, Italy
-* [Weijie Shen](https://www.linkedin.com/in/weijieshen), Google, USA
-* [Zeynep Erkin Baz](https://www.linkedin.com/in/zeynep-erkin-baz-51198a21), Meta, USA
-
 ## Monash University Prato Centre
 
 [Monash University Prato Centre](https://www.monash.edu/prato) occupies the 18th century Palazzo Vaj, and provides a European base for Monash University academics.
 
-![](img/Monash_Prato.jpg)
 
 ## Getting there
 
@@ -116,6 +63,6 @@ There are many accommodation options in Prato. [Here are some of them](https://w
 
 ## Sponsors
 
-[![](img/iif-logo-new.png)](https://forecasters.org)
+[![](/img/iif-logo-new.png)](https://forecasters.org)
 
-[![](img/MBSlogo.jpg)](https://www.monash.edu/business/ebs/)
+[![](/img/MBSlogo.jpg)](https://www.monash.edu/business/ebs/)

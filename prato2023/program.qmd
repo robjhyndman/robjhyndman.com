@@ -1,0 +1,75 @@
+---
+title: "IIF Workshop on Forecast Reconciliation"
+subtitle: Program
+---
+
+**Dates:** 6-8 September 2023
+
+**Venue:** [Monash University Prato Centre, Italy](https://www.monash.edu/prato)
+
+## 6 September
+
+* Welcome reception
+
+## 7 September
+
+* 9.00am -- 10.30am. 2 presenters and discussants
+* 10.30am -- 11.00am. Morning tea
+* 11.00am -- 12.30pm. 2 presenters and discussants
+* 12.30pm -- 1.30pm. Lunch
+* 1.30pm -- 3.00pm. 2 presenters and discussants
+* 3.00pm -- 3.30pm. Afternoon tea
+* 3.30pm -- 5.00pm. Open problem discussion
+
+## 8 September
+
+* 9.00am -- 10.30am. 2 presenters and discussants
+* 10.30am -- 11.00am. Morning tea
+* 11.00am -- 12.30pm. 2 presenters and discussants
+* 12.30pm -- 1.30pm. Lunch
+* 1.30pm -- 3.00pm. 2 presenters and discussants
+* 3.00pm -- 3.30pm. Afternoon tea
+* 3.30pm -- 5.00pm. Open problem discussion
+* 7.30pm -- 10.30pm. Workshop dinner
+
+## Speakers
+
+* [Adele Gouttes](https://de.linkedin.com/in/ad%C3%A8le-gouttes-bb405b84), Zalando, Germany
+* [Daniele Girolimetto](https://danigiro.github.io/), University of Padua, Italy
+* [Federico Garza](https://github.com/FedericoGarza), Nixtla, Mexico
+* [Giorgio Corani](https://sites.google.com/site/awerbhjkl678214/home), IDSIA, Switzerland
+* [Haoyun Wu](https://www.linkedin.com/in/haoyun-wu-b03b828b), Google, USA
+* [Jan Møller](https://scholar.google.com/citations?user=t6M3wewAAAAJ&hl=en), Denmark Technical University, Denmark
+* [Julien Leprince](https://scholar.google.com/citations?user=KDlduPEAAAAJ&hl=en), Technical University Eindhoven, Netherlands
+* [Raffaele Mattera. "Forecast reconciliation with clustering structure: application to stock prices"](mattera.md)
+* [Shanika Wickramasuriya](https://profiles.auckland.ac.nz/s-wickramasuriya/publications), University of Auckland, New Zealand
+* [Syama Rangapuram](https://de.linkedin.com/in/syama-sundar-rangapuram-0164379), Amazon, Germany
+* [Xiaoqian Wang](https://xqnwang.rbind.io), Monash University, Australia
+* [Xing Han, "Reliable predictions for hierarchical time series"](xinghan.md)
+
+## Discussants
+
+* [Anastasios Panagiotelis](https://anastasiospanagiotelis.netlify.app), University of Sydney, Australia
+* [Casey Lichtendahl](https://www.linkedin.com/in/casey-lichtendahl-7a2688102), Google, USA
+* [Christoph Bergmeir](https://cbergmeir.com), Meta, USA
+* [Dario Azzimonti](https://sites.google.com/view/darioazzimonti/home), IDSIA, Switzerland
+* [Fotios Petropoulos](http://fpetropoulos.eu), University of Bath, UK
+* [Margaux Brégère](https://margauxbregere.github.io), Sorbonne University, France
+* [Mitchell O'Hara-Wild](https://mitchelloharawild.com), Monash University, Australia
+* [Ross Hollyman](https://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=ross_hollyman), University of Exeter, UK
+* [Tommaso Di Fonzo](https://homes.stat.unipd.it/tommasodifonzo/en/home-2/), University of Padua, Italy
+* [Weijie Shen](https://www.linkedin.com/in/weijieshen), Google, USA
+* [Zeynep Erkin Baz](https://www.linkedin.com/in/zeynep-erkin-baz-51198a21), Meta, USA
+
+## Other attendees
+
+* [Bahman Rostami-Tabar](https://www.bahmanrt.com), University of Cardiff, Wales
+* [Bohan Zhang](https://scholar.google.com/citations?user=Blxza88AAAAJ), University of Sydney, Australia
+* [Kin Gutierrez Olivares](https://www.linkedin.com/in/kin-guti%C3%A9rrez-865377119), Nixtla, Mexico
+* [Lorenzo Zambon](https://scholar.google.com/citations?user=vfdwxl8AAAAJ), University of Pavia, Italy
+* [Mariangela Guidolin](https://homes.stat.unipd.it/mariangelaguidolin/en/home-2/), University of Padova, Italy
+* [Rajat Sen](https://rajatsen91.github.io), Google, USA
+* [Rob Hyndman](https://robjhyndman.com), Monash University, Australia
+* [Stefan Birr](https://de.linkedin.com/in/stefan-birr-30471a160), Zalando, Germany
+* [Tim Januschowski](https://de.linkedin.com/in/tim-januschowski-a426a630), Zalando, Germany
+* [Yangzhuoran (Fin) Yang](https://yangzhuoranyang.com), Monash University, Australia
