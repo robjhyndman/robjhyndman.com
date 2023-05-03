@@ -9,7 +9,7 @@ categories:
 
 I've been interviewed for several podcasts over the last year or so. It's always fun to talk about my work, and I hope there is enough differences between them to make it interesting for listeners. Here is a full list of them.
 
-*(Updated: 17 Nov 2021)*
+*(Updated)*
 
 <table>
 <thead>
@@ -20,6 +20,12 @@ I've been interviewed for several podcasts over the last year or so. It's always
 </tr>
 </thead>
 <tbody>
+<tr>
+<td style="text-align:left">14 March 2022</td>
+<td style="text-align:left"><strong>Faculty.net</strong></td>
+<td style="text-align:left"><a href="https://faculti.net/forecasting-in-social-settings/">Forecasting in social settings</a></td>
+</tr>
+<tr>
 <tr>
 <td style="text-align:left">17 November 2021</td>
 <td style="text-align:left"><strong>The Random Sample</strong></td>
