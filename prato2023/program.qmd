@@ -54,6 +54,7 @@ subtitle: Program
 * [Christoph Bergmeir](https://cbergmeir.com), Meta, USA
 * [Dario Azzimonti](https://sites.google.com/view/darioazzimonti/home), IDSIA, Switzerland
 * [Fotios Petropoulos](http://fpetropoulos.eu), University of Bath, UK
+* [Lorenzo Zambon](https://scholar.google.com/citations?user=vfdwxl8AAAAJ), University of Pavia, Italy
 * [Margaux Brégère](https://margauxbregere.github.io), Sorbonne University, France
 * [Mitchell O'Hara-Wild](https://mitchelloharawild.com), Monash University, Australia
 * [Ross Hollyman](https://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=ross_hollyman), University of Exeter, UK
@@ -66,7 +67,6 @@ subtitle: Program
 * [Bahman Rostami-Tabar](https://www.bahmanrt.com), University of Cardiff, Wales
 * [Bohan Zhang](https://scholar.google.com/citations?user=Blxza88AAAAJ), University of Sydney, Australia
 * [Kin Gutierrez Olivares](https://www.linkedin.com/in/kin-guti%C3%A9rrez-865377119), Nixtla, Mexico
-* [Lorenzo Zambon](https://scholar.google.com/citations?user=vfdwxl8AAAAJ), University of Pavia, Italy
 * [Mariangela Guidolin](https://homes.stat.unipd.it/mariangelaguidolin/en/home-2/), University of Padova, Italy
 * [Rajat Sen](https://rajatsen91.github.io), Google, USA
 * [Rob Hyndman](https://robjhyndman.com), Monash University, Australia
