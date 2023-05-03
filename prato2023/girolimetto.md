@@ -1,5 +1,5 @@
 ---
-title: "Cross-temporal probabilistic reconciliation forecast"
+title: "Cross-temporal probabilistic forecast reconciliation"
 ---
 
 ## Presenter
