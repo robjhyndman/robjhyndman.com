@@ -35,7 +35,7 @@ subtitle: Program
 ## Speakers
 
 * [Adele Gouttes](https://de.linkedin.com/in/ad%C3%A8le-gouttes-bb405b84), Zalando, Germany
-* [Daniele Girolimetto](https://danigiro.github.io/), University of Padua, Italy
+* [Daniele Girolimetto, "Cross-temporal probabilistic reconciliation forecast"](girolimetto.md)
 * [Federico Garza](https://github.com/FedericoGarza), Nixtla, Mexico
 * [Giorgio Corani](https://sites.google.com/site/awerbhjkl678214/home), IDSIA, Switzerland
 * [Haoyun Wu](https://www.linkedin.com/in/haoyun-wu-b03b828b), Google, USA
