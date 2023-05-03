@@ -6,7 +6,7 @@ title: "Forecast reconciliation with clustering structure: application to stock 
 
 <div class = "figure">
 [Raffaele Mattera](https://www.sites.google.com/view/raffaele-mattera/), University of Rome, Italy
-<img src="/img/mattera.png" width = "200" align = "left" style="padding-right: 50px;">
+<img src="/img/mattera.png" style="float:left;width=200px;height=200px">
 </div>
 
 ## Abstract

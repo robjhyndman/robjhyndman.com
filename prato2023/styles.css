@@ -412,3 +412,7 @@ div.quarto-post .listing-categories:hover .listing-category:hover {
 .list li {
   margin: 10px 0;
 }
+
+.katex {
+  font-size: 1.05em;
+}

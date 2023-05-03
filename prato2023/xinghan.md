@@ -6,7 +6,7 @@ title: "Reliable Predictions for Hierarchical Time Series"
 
 <div class = "figure">
 [Xing Han](https://aaronhan223.github.io), University of Texas at Austin, USA
-<img src="/img/xinghan.png" width = "200" align = "left" style="padding-right: 50px;">
+<img src="/img/xinghan.png" style="float:left;width=200px;height=200px">
 </div>
 
 ## Abstract

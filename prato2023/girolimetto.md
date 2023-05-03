@@ -6,7 +6,7 @@ title: "Cross-temporal probabilistic forecast reconciliation"
 
 <div class = "figure">
 [Daniele Girolimetto](https://danigiro.github.io), University of Padova, Italy
-<img src="/img/danielegiro.png" width = "200" align = "left" style="padding-right: 50px;">
+<img src="/img/danielegiro.png" style="float:left;width=200px;height=200px">
 </div>
 
 ## Abstract
