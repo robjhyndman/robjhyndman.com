@@ -68,6 +68,7 @@ subtitle: Program
 * [Bohan Zhang](https://scholar.google.com/citations?user=Blxza88AAAAJ), University of Sydney, Australia
 * [Kin Gutierrez Olivares](https://www.linkedin.com/in/kin-guti%C3%A9rrez-865377119), Nixtla, Mexico
 * [Mariangela Guidolin](https://homes.stat.unipd.it/mariangelaguidolin/en/home-2/), University of Padova, Italy
+* [Nicolò Rubattu](https://it.linkedin.com/in/nicorbtt?trk=org-employees), IDSIA, Switzerland
 * [Rajat Sen](https://rajatsen91.github.io), Google, USA
 * [Rob Hyndman](https://robjhyndman.com), Monash University, Australia
 * [Stefan Birr](https://de.linkedin.com/in/stefan-birr-30471a160), Zalando, Germany
