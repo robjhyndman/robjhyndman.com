@@ -34,17 +34,17 @@ subtitle: Program
 
 ## Speakers
 
-* [Adele Gouttes](https://de.linkedin.com/in/ad%C3%A8le-gouttes-bb405b84), Zalando, Germany
+* [Adèle Gouttes](gouttes.md)
 * [Daniele Girolimetto, "Cross-temporal probabilistic reconciliation forecast"](girolimetto.md)
-* [Federico Garza](https://github.com/FedericoGarza), Nixtla, Mexico
+* [Federico Garza](garza.md)
 * [Giorgio Corani, "Probabilistic Reconciliation by Conditioning"](corani.md)
-* [Haoyun Wu](https://www.linkedin.com/in/haoyun-wu-b03b828b), Google, USA
-* [Jan Møller](https://scholar.google.com/citations?user=t6M3wewAAAAJ&hl=en), Denmark Technical University, Denmark
-* [Julien Leprince](https://scholar.google.com/citations?user=KDlduPEAAAAJ&hl=en), Technical University Eindhoven, Netherlands
+* [Haoyun Wu](haoyun.md)
+* [Jan Møller](moeller.md)
+* [Julien Leprince](leprince.md)
 * [Raffaele Mattera. "Forecast reconciliation with clustering structure: application to stock prices"](mattera.md)
-* [Shanika Wickramasuriya](https://profiles.auckland.ac.nz/s-wickramasuriya/publications), University of Auckland, New Zealand
-* [Syama Rangapuram](https://de.linkedin.com/in/syama-sundar-rangapuram-0164379), Amazon, Germany
-* [Xiaoqian Wang](https://xqnwang.rbind.io), Monash University, Australia
+* [Shanika Wickramasuriya](shanika.md)
+* [Syama Rangapuram](rangapuram.md)
+* [Xiaoqian Wang](xiaoqian.md)
 * [Xing Han, "Reliable predictions for hierarchical time series"](xinghan.md)
 
 ## Discussants
