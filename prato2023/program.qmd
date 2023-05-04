@@ -54,7 +54,7 @@ subtitle: Program
 * [Christoph Bergmeir](https://cbergmeir.com), Meta, USA
 * [Dario Azzimonti](https://sites.google.com/view/darioazzimonti/home), IDSIA, Switzerland
 * [Fotios Petropoulos](http://fpetropoulos.eu), University of Bath, UK
-* [Lorenzo Zambon](https://scholar.google.com/citations?user=vfdwxl8AAAAJ), University of Pavia, Italy
+* [Lorenzo Zambon](https://scholar.google.com/citations?user=vfdwxl8AAAAJ), IDSIA, Switzerland
 * [Margaux Brégère](https://margauxbregere.github.io), Sorbonne University, France
 * [Mitchell O'Hara-Wild](https://mitchelloharawild.com), Monash University, Australia
 * [Ross Hollyman](https://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=ross_hollyman), University of Exeter, UK
