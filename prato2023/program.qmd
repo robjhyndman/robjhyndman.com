@@ -39,7 +39,7 @@ subtitle: Program
 * [Fede Garza](garza.md)
 * [Giorgio Corani, "Probabilistic Reconciliation by Conditioning"](corani.md)
 * [Haoyun Wu](haoyun.md)
-* [Jan Møller](moeller.md)
+* [Jan Møller, "Likelihood-based inference in temporal hierarchies"](moeller.md)
 * [Julien Leprince](leprince.md)
 * [Raffaele Mattera. "Forecast reconciliation with clustering structure: application to stock prices"](mattera.md)
 * [Shanika Wickramasuriya](shanika.md)
