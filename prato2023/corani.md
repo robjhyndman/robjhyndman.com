@@ -1,5 +1,5 @@
 ---
-title: "Probabilistic Reconciliation by Conditioning"
+title: "Probabilistic reconciliation by conditioning"
 ---
 
 ## Presenter
