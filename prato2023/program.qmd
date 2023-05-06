@@ -36,7 +36,7 @@ subtitle: Program
 
 * [Adèle Gouttes](gouttes.md)
 * [Daniele Girolimetto, "Cross-temporal probabilistic reconciliation forecast"](girolimetto.md)
-* [Fede Garza](garza.md)
+* [Fede Garza, "Conformal prediction as an alternative for uncertainty quantification in probabilistic hierarchical reconciliation"](garza.md)
 * [Giorgio Corani, "Probabilistic Reconciliation by Conditioning"](corani.md)
 * [Haoyun Wu](haoyun.md)
 * [Jan Møller, "Likelihood-based inference in temporal hierarchies"](moeller.md)
