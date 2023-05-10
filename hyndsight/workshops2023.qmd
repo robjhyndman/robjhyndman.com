@@ -17,4 +17,6 @@ Places are limited, so please book in early.
 
 The workshop introduces the [tidyverts](https://tidyverts.org) set of packages. Further details about the workshop are [here](https://robjhyndman.com/teaching/#tidy-time-series-forecasting-in-r).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g4221KXM7hU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 [![](/img/tidyverts.png)](https://tidyverts.org)
