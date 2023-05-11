@@ -51,7 +51,7 @@ subtitle: Program
 
 * [Anastasios Panagiotelis](https://anastasiospanagiotelis.netlify.app), University of Sydney, Australia
 * [Casey Lichtendahl](https://www.linkedin.com/in/casey-lichtendahl-7a2688102), Google, USA
-* [Christoph Bergmeir](https://cbergmeir.com), Meta, USA
+* [Christoph Bergmeir](https://cbergmeir.com), University of Granada, Spain
 * [Dario Azzimonti](https://sites.google.com/view/darioazzimonti/home), IDSIA, Switzerland
 * [Fotios Petropoulos](http://fpetropoulos.eu), University of Bath, UK
 * [Lorenzo Zambon](https://scholar.google.com/citations?user=vfdwxl8AAAAJ), IDSIA, Switzerland
