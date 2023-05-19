@@ -44,7 +44,7 @@ subtitle: Program
 * [Raffaele Mattera. "Forecast reconciliation with clustering structure: application to stock prices"](mattera.md)
 * [Shanika Wickramasuriya, "Theoretical properties of forecast reconciliation methods"](shanika.md)
 * [Syama Rangapuram](rangapuram.md)
-* [Xiaoqian Wang](xiaoqian.md)
+* [Xiaoqian Wang, "Forecast reconciliation with subset selection"](xiaoqian.md)
 * [Xing Han, "Reliable predictions for hierarchical time series"](xinghan.md)
 
 ## Discussants
