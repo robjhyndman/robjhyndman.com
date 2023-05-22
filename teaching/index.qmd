@@ -10,7 +10,7 @@ Reliable forecasts of business and economic variables must often be obtained aga
 
 **Textbook:** [*Forecasting: Principles and Practice*, Hyndman & Athanasopoulos (3rd ed., 2021)](https://OTexts.org/fpp3/)
 
-[**Slides**](https://github.com/robjhyndman/ETC3550Slides/releases/tag/2022)
+[**Slides**](https://github.com/robjhyndman/fpp3_slides)
 
 * * *
 
