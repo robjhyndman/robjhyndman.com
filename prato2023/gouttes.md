@@ -1,5 +1,5 @@
 ---
-title: "TBC"
+title: "Hierarchical forecasts: a case study from pricing in e-commerce"
 ---
 
 ## Presenter
@@ -11,4 +11,4 @@ title: "TBC"
 
 ## Abstract
 
-TBC
+We will explain the challenges we face with our data (millions of time series, high sparsity, time series starting/ending at different points), and how we use hierarchical forecast techniques in that context.

@@ -34,7 +34,7 @@ subtitle: Program
 
 ## Speakers
 
-* [Adèle Gouttes](gouttes.md)
+* [Adèle Gouttes, "Hierarchical forecasts: a case study from pricing in e-commerce"](gouttes.md)
 * [Daniele Girolimetto, "Cross-temporal probabilistic reconciliation forecast"](girolimetto.md)
 * [Fede Garza, "Conformal prediction as an alternative for uncertainty quantification in probabilistic hierarchical reconciliation"](garza.md)
 * [Giorgio Corani, "Probabilistic reconciliation by conditioning"](corani.md)
