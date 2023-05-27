@@ -7,7 +7,7 @@ categories:
 - podcast
 ---
 
-I've been interviewed for several podcasts over the last few years. It's always fun to talk about my work, and I hope there is enough differences between them to make it interesting for listeners. Here is a full list of them.
+I've been interviewed for several podcasts over the last few years. It's always fun to talk about my work, and I hope there are enough differences between them to make it interesting for listeners. Here is a full list of them.
 
 ```{r}
 #| echo: false
