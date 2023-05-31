@@ -22,7 +22,7 @@ deploy:
 	rsync -rau papers/ _site/papers/
 	rsync -rau Rfiles/ _site/Rfiles/
 	rsync -rau uwa2017/ _site/uwa2017/
-	rsync -zrvce 'ssh -p 18765' _site/ u190-dvt18hap6a80@m80.siteground.biz:www/robjhyndman.com/public_html
+	rsync -zrvce 'ssh -p 18765' _site/ u190-dvt18hap6a80@ssh.robjhyndman.com:www/robjhyndman.com/public_html
 
 clean:
 	rm -rf _site
