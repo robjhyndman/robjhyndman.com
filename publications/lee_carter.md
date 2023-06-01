@@ -1,6 +1,6 @@
 ---
 title: "Lee-Carter models: the wider context"
-date: "2022-12-20"
+date: "2023-06-01"
 author:  Rob J Hyndman
 file: Lee_Carter_comments.pdf
 categories: Articles
