@@ -43,7 +43,7 @@ subtitle: Program
 * [Julien Leprince](leprince.md)
 * [Raffaele Mattera, "Forecast reconciliation with clustering structure: application to stock prices"](mattera.md)
 * [Shanika Wickramasuriya, "Theoretical properties of forecast reconciliation methods"](shanika.md)
-* [Syama Rangapuram, "Coherent Probabilistic Forecasting of Temporal Hierarchies"](rangapuram.md)
+* [Syama Rangapuram, "Coherent probabilistic forecasting of temporal hierarchies"](rangapuram.md)
 * [Xiaoqian Wang, "Forecast reconciliation with subset selection"](xiaoqian.md)
 * [Xing Han, "Reliable predictions for hierarchical time series"](xinghan.md)
 

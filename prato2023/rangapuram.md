@@ -1,5 +1,5 @@
 ---
-title: "Coherent Probabilistic Forecasting of Temporal Hierarchies"
+title: "Coherent probabilistic forecasting of temporal hierarchies"
 ---
 
 ## Presenter
