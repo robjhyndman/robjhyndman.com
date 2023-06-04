@@ -39,7 +39,7 @@ This course is for you if you:
 ## Upcoming workshops
 
 * [New York](https://rstats.ai/nyr#tidy-time-series-and-forecasting-in-r), 11-12 July 2023. Followed by the [New York R conference](https://rstats.ai/nyr). (Register for the workshop as part of the NYR conference registration.)
-* [Chicago](https://posit-conf-2023.github.io/workshops/workshops/forecasting/), 17-18 September 2023. Followed by the [Posit conference](https://posit.co/conference). (Register for the workshop as part of the Posit conference registration.)
+* [Chicago](https://posit-conf-2023.github.io/workshops/workshops/forecasting/), 17-18 September 2023. Followed by the [Posit conference](https://posit.co/conference). (Register for the workshop as part of the Posit conference registration.) [[Video intro](https://youtu.be/g4221KXM7hU)]
 
 ## Selected previous workshops
 
