@@ -39,7 +39,7 @@ I will provide an up-to-date overview of this area, and show how reconciliation 
 
 4. **Probabilistic forecast reconciliation**
 
-    * @probhts
+    * @smartmeterhts
     * @coherentprob
     * @ctprob
 
