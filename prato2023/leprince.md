@@ -13,7 +13,9 @@ title: "TBC"
 
 TBC
 
+## Discussant
+
 <div class = "figure">
 [Margaux Brégère](https://margauxbregere.github.io), Sorbonne Université, France
-<img src=/img/??.png  width=200px height=200px style="float:left">
+<img src=/img/margaux.png  width=200px height=200px style="float:left">
 </div>
