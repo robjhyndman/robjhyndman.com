@@ -25,7 +25,7 @@ I will provide an up-to-date overview of this area, and show how reconciliation 
    * @lhf
 
 
-2. **The geometry of forecast reconciliation**
+2. **Perspectives on forecast reconciliation**
 
     * @Di_FonGir2022b
     * @htsgeometry
