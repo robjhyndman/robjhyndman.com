@@ -22,7 +22,6 @@ I will provide an up-to-date overview of this area, and show how reconciliation 
    * @hierarchical
    * @mint
    * @fasthts
-   * @lhf
 
 
 2. **Perspectives on forecast reconciliation**
@@ -31,6 +30,7 @@ I will provide an up-to-date overview of this area, and show how reconciliation 
     * @htsgeometry
     * @nonnegmint
     * @Van_ErvCug2015
+    * @lhf
 
 3. **Temporal and cross-temporal forecast reconciliation**
 
@@ -42,6 +42,7 @@ I will provide an up-to-date overview of this area, and show how reconciliation 
     * @smartmeterhts
     * @coherentprob
     * @ctprob
+    * @swissexports
 
 
 ## Software
