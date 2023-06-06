@@ -35,6 +35,7 @@ subtitle: Program
 ## Speakers
 
 * [Adèle Gouttes, "Hierarchical forecasts: a case study from pricing in e-commerce"](gouttes.md)
+* [Bohan Zhang, "Discrete Forecast Reconciliation"](bohanzhang.md)
 * [Daniele Girolimetto, "Cross-temporal probabilistic reconciliation forecast"](girolimetto.md)
 * [Fede Garza, "Conformal prediction as an alternative for uncertainty quantification in probabilistic hierarchical reconciliation"](garza.md)
 * [Giorgio Corani, "Probabilistic reconciliation by conditioning"](corani.md)
@@ -45,7 +46,6 @@ subtitle: Program
 * [Shanika Wickramasuriya, "Theoretical properties of forecast reconciliation methods"](shanika.md)
 * [Syama Rangapuram, "Coherent probabilistic forecasting of temporal hierarchies"](rangapuram.md)
 * [Xiaoqian Wang, "Forecast reconciliation with subset selection"](xiaoqian.md)
-* [Bohan Zhang, "Discrete Forecast Reconciliation"](bohanzhang.md)
 
 ## Discussants
 
@@ -67,6 +67,7 @@ subtitle: Program
 * [Bahman Rostami-Tabar](https://www.bahmanrt.com), University of Cardiff, Wales
 * [Kin Gutierrez Olivares](https://www.linkedin.com/in/kin-guti%C3%A9rrez-865377119), Nixtla, Mexico
 * [Mariangela Guidolin](https://homes.stat.unipd.it/mariangelaguidolin/en/home-2/), University of Padova, Italy
+* [Max Mergenthaler](https://github.com/mergenthaler), Nixtla, Mexico
 * [Nicolò Rubattu](https://it.linkedin.com/in/nicorbtt?trk=org-employees), IDSIA, Switzerland
 * [Rajat Sen](https://rajatsen91.github.io), Google, USA
 * [Rob Hyndman](https://robjhyndman.com), Monash University, Australia
