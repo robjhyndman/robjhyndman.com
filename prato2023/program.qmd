@@ -45,7 +45,7 @@ subtitle: Program
 * [Shanika Wickramasuriya, "Theoretical properties of forecast reconciliation methods"](shanika.md)
 * [Syama Rangapuram, "Coherent probabilistic forecasting of temporal hierarchies"](rangapuram.md)
 * [Xiaoqian Wang, "Forecast reconciliation with subset selection"](xiaoqian.md)
-* [Xing Han, "Reliable predictions for hierarchical time series"](xinghan.md)
+* [Bohan Zhang, "??"](bohanzhang.md)
 
 ## Discussants
 
@@ -65,7 +65,6 @@ subtitle: Program
 ## Other attendees
 
 * [Bahman Rostami-Tabar](https://www.bahmanrt.com), University of Cardiff, Wales
-* [Bohan Zhang](https://scholar.google.com/citations?user=Blxza88AAAAJ), University of Sydney, Australia
 * [Kin Gutierrez Olivares](https://www.linkedin.com/in/kin-guti%C3%A9rrez-865377119), Nixtla, Mexico
 * [Mariangela Guidolin](https://homes.stat.unipd.it/mariangelaguidolin/en/home-2/), University of Padova, Italy
 * [Nicolò Rubattu](https://it.linkedin.com/in/nicorbtt?trk=org-employees), IDSIA, Switzerland
