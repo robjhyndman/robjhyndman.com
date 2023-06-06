@@ -45,7 +45,7 @@ subtitle: Program
 * [Shanika Wickramasuriya, "Theoretical properties of forecast reconciliation methods"](shanika.md)
 * [Syama Rangapuram, "Coherent probabilistic forecasting of temporal hierarchies"](rangapuram.md)
 * [Xiaoqian Wang, "Forecast reconciliation with subset selection"](xiaoqian.md)
-* [Bohan Zhang, "??"](bohanzhang.md)
+* [Bohan Zhang, "Discrete Forecast Reconciliation"](bohanzhang.md)
 
 ## Discussants
 
