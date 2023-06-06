@@ -3,6 +3,8 @@ date: 2023-07-03
 title: Forecast reconciliation
 venue: University of North Carolina at Charlotte
 bibliography: hts.bib
+aliases:
+  - /fr2023
 ---
 
 **Distinguished Lecture Series for the International Institute of Forecasters**
