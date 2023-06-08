@@ -11,3 +11,4 @@ _site/*
 /_*.local
 
 /.luarc.json
+.vscode
