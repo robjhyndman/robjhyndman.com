@@ -17,5 +17,5 @@ We will explain the challenges we face with our data (millions of time series, h
 
 <div class = "figure">
 [Zeynep Erkin Baz](https://www.linkedin.com/in/zeynep-erkin-baz-51198a21), Meta, USA
-<img src=/img/??.png  width=200px height=200px style="float:left">
+<img src=/img/zeynep.png  width=200px height=200px style="float:left">
 </div>
