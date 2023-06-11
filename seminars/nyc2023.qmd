@@ -60,24 +60,24 @@ install.packages(c("tidyverse","fpp3", "GGally", "sugrrants"))
 | 15:00 - 15:30 | *Coffee break*   |
 | 15:30 - 17:00 | Session 4        |
 
-<!-- ## Slides
+## Slides
 
 ### Day 1
 
-  0. [Background](https://github.com/robjhyndman/forecasting_workshop/raw/main/0-intro.pdf)
-  1. [Introduction to tsibbles](https://github.com/robjhyndman/forecasting_workshop/raw/main/1-tsibbles.pdf)
-  2. [Time series graphics](https://github.com/robjhyndman/forecasting_workshop/raw/main/2-graphics.pdf)
-  3. [Transformations](https://github.com/robjhyndman/forecasting_workshop/raw/main/3-transformations.pdf)
-  4. [Seasonality and trends](https://github.com/robjhyndman/forecasting_workshop/raw/main/4-decompositions.pdf)
-  5. [Time series features](https://github.com/robjhyndman/forecasting_workshop/raw/main/5-feasts.pdf)
+  0. [Background](https://github.com/robjhyndman/forecasting_workshop/raw/NYC/0-intro.pdf)
+  1. [Introduction to tsibbles](https://github.com/robjhyndman/forecasting_workshop/raw/NYC/1-tsibbles.pdf)
+  2. [Time series graphics](https://github.com/robjhyndman/forecasting_workshop/raw/NYC/2-graphics.pdf)
+  3. [Transformations](https://github.com/robjhyndman/forecasting_workshop/raw/NYC/3-transformations.pdf)
+  4. [Seasonality and trends](https://github.com/robjhyndman/forecasting_workshop/raw/NYC/4-decompositions.pdf)
+  5. [Time series features](https://github.com/robjhyndman/forecasting_workshop/raw/NYC/5-feasts.pdf)
 
 ### Day 2
 
-  6. [Introduction to forecasting](https://github.com/robjhyndman/forecasting_workshop/raw/main/6-fable.pdf)
-  7. [Exponential smoothing](https://github.com/robjhyndman/forecasting_workshop/raw/main/7-ets.pdf)
-  8. [ARIMA models](https://github.com/robjhyndman/forecasting_workshop/raw/main/8-arima.pdf)
-  9. [Dynamic regression](https://github.com/robjhyndman/forecasting_workshop/raw/main/9-dynamic-regression.pdf)
-  10. [Hierarchical forecasting](https://github.com/robjhyndman/forecasting_workshop/raw/main/10-reconciliation.pdf) -->
+  6. [Introduction to forecasting](https://github.com/robjhyndman/forecasting_workshop/raw/NYC/6-fable.pdf)
+  7. [Exponential smoothing](https://github.com/robjhyndman/forecasting_workshop/raw/NYC/7-ets.pdf)
+  8. [ARIMA models](https://github.com/robjhyndman/forecasting_workshop/raw/NYC/8-arima.pdf)
+  9. [Dynamic regression](https://github.com/robjhyndman/forecasting_workshop/raw/NYC/9-dynamic-regression.pdf)
+  10. [Hierarchical forecasting](https://github.com/robjhyndman/forecasting_workshop/raw/NYC/10-reconciliation.pdf)
 
 ## Lab Sessions
 
