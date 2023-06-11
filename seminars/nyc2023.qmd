@@ -13,6 +13,9 @@ library(tidyverse)
 
 **Two-day workshop, Columbia University, New York City. 11-12 July 2023**
 
+<a href="https://rstats.ai/tickets.html" class="badge badge-blue">Register</a>
+
+
 ## Course description
 
 It is common for organizations to collect huge amounts of data over time, and existing time series analysis tools are not always suitable to handle the scale, frequency and structure of the data collected. In this workshop, we will look at some packages and methods that have been developed to handle the analysis of large collections of time series.
