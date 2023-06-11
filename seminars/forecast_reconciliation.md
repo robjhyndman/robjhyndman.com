@@ -34,17 +34,17 @@ I will provide an up-to-date overview of this area, and show how reconciliation 
     * @Van_ErvCug2015
     * @lhf
 
-3. **Temporal and cross-temporal forecast reconciliation**
-
-    * @temporal-hierarchies
-    * @Di_FonGir2022a
-
-4. **Probabilistic forecast reconciliation**
+3. **Probabilistic forecast reconciliation**
 
     * @smartmeterhts
     * @coherentprob
-    * @ctprob
     * @swissexports
+
+4. **Temporal and cross-temporal forecast reconciliation**
+
+    * @temporal-hierarchies
+    * @Di_FonGir2022a
+    * @ctprob
 
 
 ## Software
