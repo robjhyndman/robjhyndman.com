@@ -7,8 +7,12 @@ website:
   navbar:
     background: "#234460"
     left:
+      - href: index.qmd
+        text: Info
       - href: program.qmd
         text: Program
+      - href: attendees.qmd
+        text: Attendees
 
 date-format: "D MMMM YYYY"
 freeze: true

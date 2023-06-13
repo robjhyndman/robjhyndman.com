@@ -1,6 +1,5 @@
 ---
-title: "IIF Workshop on Forecast Reconciliation"
-subtitle: Program
+title: Program
 ---
 
 **Dates:** 6-8 September 2023
@@ -46,31 +45,3 @@ subtitle: Program
 * [Shanika Wickramasuriya, "Theoretical properties of forecast reconciliation methods"](shanika.md)
 * [Syama Rangapuram, "Coherent probabilistic forecasting of temporal hierarchies"](rangapuram.md)
 * [Xiaoqian Wang, "Forecast reconciliation with subset selection"](xiaoqian.md)
-
-## Discussants
-
-* [Anastasios Panagiotelis](https://anastasiospanagiotelis.netlify.app), University of Sydney, Australia
-* [Casey Lichtendahl](https://www.linkedin.com/in/casey-lichtendahl-7a2688102), Google, USA
-* [Christoph Bergmeir](https://cbergmeir.com), University of Granada, Spain
-* [Dario Azzimonti](https://sites.google.com/view/darioazzimonti/home), IDSIA, Switzerland
-* [Fotios Petropoulos](http://fpetropoulos.eu), University of Bath, UK
-* [Lorenzo Zambon](https://scholar.google.com/citations?user=vfdwxl8AAAAJ), IDSIA, Switzerland
-* [Margaux Brégère](https://margauxbregere.github.io), Sorbonne University, France
-* [Mitchell O'Hara-Wild](https://mitchelloharawild.com), Monash University, Australia
-* [Ross Hollyman](https://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=ross_hollyman), University of Exeter, UK
-* [Tommaso Di Fonzo](https://homes.stat.unipd.it/tommasodifonzo/en/home-2/), University of Padua, Italy
-* [Weijie Shen](https://www.linkedin.com/in/weijieshen), Google, USA
-* [Zeynep Erkin Baz](https://www.linkedin.com/in/zeynep-erkin-baz-51198a21), Meta, USA
-
-## Other attendees
-
-* [Bahman Rostami-Tabar](https://www.bahmanrt.com), University of Cardiff, Wales
-* [Kin Gutierrez Olivares](https://www.linkedin.com/in/kin-guti%C3%A9rrez-865377119), Nixtla, Mexico
-* [Mariangela Guidolin](https://homes.stat.unipd.it/mariangelaguidolin/en/home-2/), University of Padova, Italy
-* [Max Mergenthaler](https://github.com/mergenthaler), Nixtla, Mexico
-* [Nicolò Rubattu](https://it.linkedin.com/in/nicorbtt?trk=org-employees), IDSIA, Switzerland
-* [Rajat Sen](https://rajatsen91.github.io), Google, USA
-* [Rob Hyndman](https://robjhyndman.com), Monash University, Australia
-* [Stefan Birr](https://de.linkedin.com/in/stefan-birr-30471a160), Zalando, Germany
-* [Tim Januschowski](https://de.linkedin.com/in/tim-januschowski-a426a630), Zalando, Germany
-* [Yangzhuoran (Fin) Yang](https://yangzhuoranyang.com), Monash University, Australia

@@ -1,0 +1,136 @@
+---
+title: Attendees
+---
+
+<div class="figure"><a href="https://de.linkedin.com/in/ad%C3%A8le-gouttes-bb405b84/en?trk=public_profile_locale-url">
+&nbsp;&nbsp; Adèle Gouttes, Zalando, Germany
+<img src="/img/gouttes.png"   width=80px height=80px style="float:left"></a>
+</div><br>
+<div class="figure"><a href="https://anastasiospanagiotelis.netlify.app">
+&nbsp;&nbsp;Anastasios Panagiotelis, University of Sydney, Australia
+<img src="/img/tas.png"   width=80px height=80px style="float:left"></a>
+</div><br>
+<div class="figure"><a href="https://www.bahmanrt.com">
+&nbsp;&nbsp;Bahman Rostami-Tabar, University of Cardiff, Wales
+<img src="/img/bahman.png"   width=80px height=80px style="float:left"></a>
+</div><br>
+<div class="figure"><a href="https://github.com/AngelPone">
+&nbsp;&nbsp;Bohan Zhang, Beihang University, China
+<img src="/img/bohan.png"   width=80px height=80px style="float:left"></a>
+</div><br>
+<div class="figure"><a href="https://www.linkedin.com/in/casey-lichtendahl-7a2688102">
+&nbsp;&nbsp;Casey Lichtendahl, Google, USA
+<img src="/img/casey.png"   width=80px height=80px style="float:left"></a>
+</div><br>
+<div class="figure"><a href="https://cbergmeir.com">
+&nbsp;&nbsp;Christoph Bergmeir, University of Granada, Spain
+<img src="/img/christoph.png"   width=80px height=80px style="float:left"></a>
+</div><br>
+<div class="figure"><a href="https://danigiro.github.io">
+&nbsp;&nbsp;Daniele Girolimetto, University of Padova, Italy
+<img src="/img/danielegiro.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://sites.google.com/view/darioazzimonti/home">
+&nbsp;&nbsp;Dario Azzimonti, IDSIA, Switzerland
+<img src="/img/dario.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://github.com/FedericoGarza">
+&nbsp;&nbsp;Fede Garza, Nixtla, Mexico
+<img src="/img/garza.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="http://fpetropoulos.eu">
+&nbsp;&nbsp;Fotios Petropoulos, University of Bath, UK
+<img src="/img/fotios.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://sites.google.com/site/awerbhjkl678214/">
+&nbsp;&nbsp;Giorgio Corani, IDSIA, Switzerland
+<img src="/img/corani.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://scholar.google.com/citations?user=t6M3wewAAAAJ&hl=en">
+&nbsp;&nbsp;Jan Møller, Denmark Technical University, Denmark
+<img src="/img/moeller.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://scholar.google.com/citations?user=KDlduPEAAAAJ&hl=en">
+&nbsp;&nbsp;Julien Leprince, Technical University Eindhoven, Netherlands
+<img src="/img/leprince.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://www.linkedin.com/in/kin-guti%C3%A9rrez-865377119">
+&nbsp;&nbsp;Kin Gutierrez Olivares, Nixtla, Mexico
+<img src="/img/kin.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://scholar.google.com/citations?user=vfdwxl8AAAAJ">
+&nbsp;&nbsp;Lorenzo Zambon, IDSIA, Switzerland
+<img src="/img/lorenzo.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://margauxbregere.github.io">
+&nbsp;&nbsp;Margaux Brégère, Sorbonne University, France
+<img src="/img/margaux.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://homes.stat.unipd.it/mariangelaguidolin/en/home-2/">
+&nbsp;&nbsp;Mariangela Guidolin, University of Padova, Italy
+<img src="/img/mariangela.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://github.com/mergenthaler">
+&nbsp;&nbsp;Max Mergenthaler, Nixtla, Mexico
+<img src="/img/max.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://mitchelloharawild.com">
+&nbsp;&nbsp;Mitchell O'Hara-Wild, Monash University, Australia
+<img src="/img/mitch.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://it.linkedin.com/in/nicorbtt?trk=org-employees">
+&nbsp;&nbsp;Nicolò Rubattu, IDSIA, Switzerland
+<img src="/img/nicolo.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://www.sites.google.com/view/raffaele-mattera/">
+&nbsp;&nbsp;Raffaele Mattera, University of Rome, Italy
+<img src="/img/mattera.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://rajatsen91.github.io">
+&nbsp;&nbsp;Rajat Sen, Google, USA
+<img src="/img/rajat.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://robjhyndman.com">
+&nbsp;&nbsp;Rob Hyndman, Monash University, Australia
+<img src="/img/rjh.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=ross_hollyman">
+&nbsp;&nbsp;Ross Hollyman, University of Exeter, UK
+<img src="/img/ross.jpg"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://profiles.auckland.ac.nz/s-wickramasuriya/publications">
+&nbsp;&nbsp;Shanika Wickramasuriya, University of Auckland, New Zealand
+<img src="/img/shanika.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://de.linkedin.com/in/stefan-birr-30471a160">
+&nbsp;&nbsp;Stefan Birr, Zalando, Germany
+<img src="/img/stefan.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://de.linkedin.com/in/syama-sundar-rangapuram-0164379">
+&nbsp;&nbsp;Syama Rangapuram, Amazon, Germany
+<img src="/img/rangapuram.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://de.linkedin.com/in/tim-januschowski-a426a630">
+&nbsp;&nbsp;Tim Januschowski, Zalando, Germany
+<img src="/img/tim.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://homes.stat.unipd.it/tommasodifonzo/en/home-2/">
+&nbsp;&nbsp;Tommaso Di Fonzo, University of Padua, Italy
+<img src="/img/tommaso.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://www.linkedin.com/in/weijieshen">
+&nbsp;&nbsp;Weijie Shen, Google, USA
+<img src="/img/weijie.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://xqnwang.rbind.io">
+&nbsp;&nbsp;Xiaoqian Wang, Monash University, Australia
+<img src="/img/xiaoqian.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://yangzhuoranyang.com">
+&nbsp;&nbsp;Yangzhuoran (Fin) Yang, Monash University, Australia
+<img src="/img/fin.png"   width=80px height=80px style="float:left"></a>
+</div></br>
+<div class="figure"><a href="https://www.linkedin.com/in/zeynep-erkin-baz-51198a21">
+&nbsp;&nbsp;Zeynep Erkin Baz, Meta, USA
+<img src="/img/zeynep.png"   width=80px height=80px style="float:left"></a>
+</div></br>
