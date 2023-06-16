@@ -138,6 +138,9 @@ p155
 : In Table 10.1, the parameter range for $\phi$ should be $-1<\phi\le1$.
 
 p158
+: Last paragraph: the seasonal states should sum to zero, not one. So replace equation with $s_{m,t} \equiv s_{0,t} = -s_{1,t} - \dots - s_{m-1,t}$.
+
+p158
 : Last sentence: the second element of $\boldsymbol{w}$ should be $\phi$ and the second element of the top row of $\boldsymbol{F}$ should be $\phi$.
 
 p159
