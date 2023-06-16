@@ -22,4 +22,6 @@ The methods are applied to daily incident data from a UK ambulance service, from
 
 We use an ensemble of forecasting models, and show that the resulting forecasts are better than any individual forecasting model. We validate the forecasting approach using time-series cross-validation.
 
+[**Download Paper**](/publications/fem.md)
+
 ## Slides
