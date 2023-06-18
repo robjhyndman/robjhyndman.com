@@ -4,7 +4,7 @@ title: Probabilistic Forecast Reconciliation For Emergency Services Demand
 venue: International Symposium on Forecasting
 aliases:
   - '/fem2023/'
-link: https://github.com/robjhyndman/fem_talk/raw/main/fem_talk.pdf
+link: https://github.com/robjhyndman/fem-talk/raw/main/fem_talk.pdf
 ---
 
 Talk to be given at:
