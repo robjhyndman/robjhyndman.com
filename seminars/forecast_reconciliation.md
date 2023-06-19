@@ -30,15 +30,20 @@ I will provide an up-to-date overview of this area, and show how reconciliation 
 
     * @Di_FonGir2022b
     * @htsgeometry
-    * @nonnegmint
+    * @wickramasuriya2021properties
     * @Van_ErvCug2015
+    * @Ben_TaiEtAl2019
+    * @nonnegmint
+    * @ZhaEtAl2022
     * @lhf
+    * @hfrml
 
 3. **Probabilistic forecast reconciliation**
 
     * @smartmeterhts
     * @coherentprob
-    * @swissexports
+    * @CorEtAl2022
+    * @fem
 
 4. **Temporal and cross-temporal forecast reconciliation**
 
