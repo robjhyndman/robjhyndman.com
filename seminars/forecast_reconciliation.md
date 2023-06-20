@@ -19,14 +19,16 @@ I will provide an up-to-date overview of this area, and show how reconciliation 
 
 ## Outline
 
-1. **Hierarchical time series and forecast reconciliation**
+*(Click title for slides)*
+
+1. [**Hierarchical time series and forecast reconciliation**](https://github.com/robjhyndman/fr_iif/raw/main/fr1.pdf)
 
    * @hierarchical
    * @mint
    * @fasthts
 
 
-2. **Perspectives on forecast reconciliation**
+2. [**Perspectives on forecast reconciliation**](https://github.com/robjhyndman/fr_iif/raw/main/fr2.pdf)
 
     * @Di_FonGir2022b
     * @htsgeometry
@@ -38,14 +40,14 @@ I will provide an up-to-date overview of this area, and show how reconciliation 
     * @lhf
     * @hfrml
 
-3. **Probabilistic forecast reconciliation**
+3. [**Probabilistic forecast reconciliation**](https://github.com/robjhyndman/fr_iif/raw/main/fr3.pdf)
 
     * @smartmeterhts
     * @coherentprob
     * @CorEtAl2022
     * @fem
 
-4. **Temporal and cross-temporal forecast reconciliation**
+4. [**Temporal and cross-temporal forecast reconciliation**](https://github.com/robjhyndman/fr_iif/raw/main/fr4.pdf)
 
     * @temporal-hierarchies
     * @Di_FonGir2022a
