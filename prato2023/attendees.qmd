@@ -50,6 +50,10 @@ title: Attendees
 &nbsp;&nbsp;Jan Møller, Denmark Technical University, Denmark
 <img src="/img/moeller.png"   width=80px height=80px style="float:left"></a>
 </div></br>
+<div class="figure"><a href="https://www.linkedin.com/in/hujing">
+&nbsp;&nbsp;Jing Hu, Intuit, USA
+<img src="/img/jing.png"   width=80px height=80px style="float:left"></a>
+</div></br>
 <div class="figure"><a href="https://scholar.google.com/citations?user=KDlduPEAAAAJ&hl=en">
 &nbsp;&nbsp;Julien Leprince, Technical University Eindhoven, Netherlands
 <img src="/img/leprince.png"   width=80px height=80px style="float:left"></a>
