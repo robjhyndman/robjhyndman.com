@@ -4,7 +4,7 @@ date: "2023-06-01"
 author:  Rob J Hyndman
 file: Lee_Carter_comments.pdf
 categories: Articles
-details: "<em>International Journal of Forecasting</em>, to appear"
+details: "<em>International Journal of Forecasting</em>, <b>39</b>(3), 1053-1054"
 doi: "10.1016/j.ijforecast.2022.12.010"
 ---
 
