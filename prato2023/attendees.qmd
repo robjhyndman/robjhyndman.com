@@ -102,6 +102,10 @@ title: Attendees
 &nbsp;&nbsp;Shanika Wickramasuriya, University of Auckland, New Zealand
 <img src="/img/shanika.png"   width=80px height=80px style="float:left"></a>
 </div></br>
+<div class="figure"><a href="https://www.linkedin.com/in/shuxin-nie-3a726245/">
+&nbsp;&nbsp;Shuxin Nie, Google, USA
+<img src="/img/shuxin.png"   width=80px height=80px style="float:left"></a>
+</div></br>
 <div class="figure"><a href="https://de.linkedin.com/in/stefan-birr-30471a160">
 &nbsp;&nbsp;Stefan Birr, Zalando, Germany
 <img src="/img/stefan.png"   width=80px height=80px style="float:left"></a>
