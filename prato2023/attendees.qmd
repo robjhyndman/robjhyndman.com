@@ -2,143 +2,87 @@
 title: Attendees
 ---
 
-<div class="figure"><a href="https://de.linkedin.com/in/ad%C3%A8le-gouttes-bb405b84/en?trk=public_profile_locale-url">
-&nbsp;&nbsp; Adèle Gouttes, Zalando, Germany
-<img src="/img/gouttes.png"   width=80px height=80px style="float:left"></a>
-</div><br>
-<div class="figure"><a href="https://anastasiospanagiotelis.netlify.app">
-&nbsp;&nbsp;Anastasios Panagiotelis, University of Sydney, Australia
-<img src="/img/tas.png"   width=80px height=80px style="float:left"></a>
-</div><br>
-<div class="figure"><a href="https://www.bahmanrt.com">
-&nbsp;&nbsp;Bahman Rostami-Tabar, University of Cardiff, Wales
-<img src="/img/bahman.png"   width=80px height=80px style="float:left"></a>
-</div><br>
-<div class="figure"><a href="https://github.com/AngelPone">
-&nbsp;&nbsp;Bohan Zhang, Beihang University, China
-<img src="/img/bohan.png"   width=80px height=80px style="float:left"></a>
-</div><br>
-<div class="figure"><a href="https://www.linkedin.com/in/casey-lichtendahl-7a2688102">
-&nbsp;&nbsp;Casey Lichtendahl, Google, USA
-<img src="/img/casey.png"   width=80px height=80px style="float:left"></a>
-</div><br>
-<div class="figure"><a href="https://cbergmeir.com">
-&nbsp;&nbsp;Christoph Bergmeir, University of Granada, Spain
-<img src="/img/christoph.png"   width=80px height=80px style="float:left"></a>
-</div><br>
-<div class="figure"><a href="https://danigiro.github.io">
-&nbsp;&nbsp;Daniele Girolimetto, University of Padova, Italy
-<img src="/img/danielegiro.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://sites.google.com/view/darioazzimonti/home">
-&nbsp;&nbsp;Dario Azzimonti, IDSIA, Switzerland
-<img src="/img/dario.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://github.com/FedericoGarza">
-&nbsp;&nbsp;Fede Garza, Nixtla, Mexico
-<img src="/img/garza.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="http://fpetropoulos.eu">
-&nbsp;&nbsp;Fotios Petropoulos, University of Bath, UK
-<img src="/img/fotios.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://sites.google.com/site/awerbhjkl678214/">
-&nbsp;&nbsp;Giorgio Corani, IDSIA, Switzerland
-<img src="/img/corani.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://scholar.google.com/citations?user=t6M3wewAAAAJ&hl=en">
-&nbsp;&nbsp;Jan Møller, Denmark Technical University, Denmark
-<img src="/img/moeller.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://www.linkedin.com/in/hujing">
-&nbsp;&nbsp;Jing Hu, Intuit, USA
-<img src="/img/jing.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://scholar.google.com/citations?user=KDlduPEAAAAJ&hl=en">
-&nbsp;&nbsp;Julien Leprince, Technical University Eindhoven, Netherlands
-<img src="/img/leprince.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://www.linkedin.com/in/kin-guti%C3%A9rrez-865377119">
-&nbsp;&nbsp;Kin Gutierrez Olivares, Nixtla, Mexico
-<img src="/img/kin.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://scholar.google.com/citations?user=vfdwxl8AAAAJ">
-&nbsp;&nbsp;Lorenzo Zambon, IDSIA, Switzerland
-<img src="/img/lorenzo.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://margauxbregere.github.io">
-&nbsp;&nbsp;Margaux Brégère, Sorbonne University, France
-<img src="/img/margaux.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://homes.stat.unipd.it/mariangelaguidolin/en/home-2/">
-&nbsp;&nbsp;Mariangela Guidolin, University of Padova, Italy
-<img src="/img/mariangela.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://github.com/mergenthaler">
-&nbsp;&nbsp;Max Mergenthaler, Nixtla, Mexico
-<img src="/img/max.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://mitchelloharawild.com">
-&nbsp;&nbsp;Mitchell O'Hara-Wild, Monash University, Australia
-<img src="/img/mitch.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://it.linkedin.com/in/nicorbtt?trk=org-employees">
-&nbsp;&nbsp;Nicolò Rubattu, IDSIA, Switzerland
-<img src="/img/nicolo.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://www.sites.google.com/view/raffaele-mattera/">
-&nbsp;&nbsp;Raffaele Mattera, University of Rome, Italy
-<img src="/img/mattera.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://rajatsen91.github.io">
-&nbsp;&nbsp;Rajat Sen, Google, USA
-<img src="/img/rajat.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://robjhyndman.com">
-&nbsp;&nbsp;Rob Hyndman, Monash University, Australia
-<img src="/img/rjh.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=ross_hollyman">
-&nbsp;&nbsp;Ross Hollyman, University of Exeter, UK
-<img src="/img/ross.jpg"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://profiles.auckland.ac.nz/s-wickramasuriya/publications">
-&nbsp;&nbsp;Shanika Wickramasuriya, University of Auckland, New Zealand
-<img src="/img/shanika.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://www.linkedin.com/in/shuxin-nie-3a726245/">
-&nbsp;&nbsp;Shuxin Nie, Google, USA
-<img src="/img/shuxin.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://de.linkedin.com/in/stefan-birr-30471a160">
-&nbsp;&nbsp;Stefan Birr, Zalando, Germany
-<img src="/img/stefan.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://de.linkedin.com/in/syama-sundar-rangapuram-0164379">
-&nbsp;&nbsp;Syama Rangapuram, Amazon, Germany
-<img src="/img/rangapuram.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://de.linkedin.com/in/tim-januschowski-a426a630">
-&nbsp;&nbsp;Tim Januschowski, Zalando, Germany
-<img src="/img/tim.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://homes.stat.unipd.it/tommasodifonzo/en/home-2/">
-&nbsp;&nbsp;Tommaso Di Fonzo, University of Padua, Italy
-<img src="/img/tommaso.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://www.linkedin.com/in/weijieshen">
-&nbsp;&nbsp;Weijie Shen, Google, USA
-<img src="/img/weijie.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://xqnwang.rbind.io">
-&nbsp;&nbsp;Xiaoqian Wang, Monash University, Australia
-<img src="/img/xiaoqian.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://yangzhuoranyang.com">
-&nbsp;&nbsp;Yangzhuoran (Fin) Yang, Monash University, Australia
-<img src="/img/fin.png"   width=80px height=80px style="float:left"></a>
-</div></br>
-<div class="figure"><a href="https://www.linkedin.com/in/zeynep-erkin-baz-51198a21">
-&nbsp;&nbsp;Zeynep Erkin Baz, Meta, USA
-<img src="/img/zeynep.png"   width=80px height=80px style="float:left"></a>
-</div></br>
+<style>
+.container {
+  max-width: 340px;
+  display: flex;
+  &__image {
+    object-fit: contain;
+    align-self: flex-start;
+  }
+  &__text {
+    flex: 1 1 auto;
+    float: right;
+    width: 100%;
+  }
+}
+</style>
+
+```{r}
+#| output: asis
+#| message: false
+#| echo: false
+suppressMessages(library(tidyverse))
+people <- tribble(
+  ~Name, ~Affiliation, ~Country, ~Image, ~Link,
+  "Adèle Gouttes", "Zalando", "Germany", "gouttes.png", "https://de.linkedin.com/in/ad%C3%A8le-gouttes-bb405b84/",
+  "Anastasios Panagiotelis", "University of Sydney", "Australia", "tas.png", "https://anastasiospanagiotelis.netlify.app",
+  "Bahman Rostami-Tabar", "University of Cardiff", "Wales", "bahman.png", "https://www.bahmanrt.com",
+  "Bohan Zhang", "Beihang University", "China", "bohan.png", "https://github.com/AngelPone",
+  "Casey Lichtendahl", "Google", "USA", "casey.png", "https://www.linkedin.com/in/casey-lichtendahl-7a2688102",
+  "Christoph Bergmeir", "University of Granada", "Spain", "christoph.png", "https://cbergmeir.com",
+  "Daniele Girolimetto", "University of Padova", "Italy", "danielegiro.png", "https://danigiro.github.io",
+  "Dario Azzimonti", "IDSIA", "Switzerland", "dario.png", "https://sites.google.com/view/darioazzimonti/home",
+  "Fede Garza", "Nixtla", "Mexico", "garza.png", "https://github.com/FedericoGarza",
+  "Fotios Petropoulos", "University of Bath", "UK", "fotios.png", "http://fpetropoulos.eu",
+  "Giorgio Corani", "IDSIA", "Switzerland", "corani.png", "https://sites.google.com/site/awerbhjkl678214/",
+  "Jan Møller", "Denmark Technical University", "Denmark", "moeller.png", "https://scholar.google.com/citations?user=t6M3wewAAAAJ&hl=en",
+  "Jing Hu", "Intuit", "USA", "jing.png", "https://www.linkedin.com/in/hujing",
+  "Julien Leprince", "Technical University Eindhoven", "Netherlands", "leprince.png", "https://scholar.google.com/citations?user=KDlduPEAAAAJ&hl=en",
+  "Kin Gutierrez Olivares", "Nixtla", "Mexico", "kin.png", "https://www.linkedin.com/in/kin-guti%C3%A9rrez-865377119",
+  "Lorenzo Zambon", "IDSIA", "Switzerland", "lorenzo.png", "https://scholar.google.com/citations?user=vfdwxl8AAAAJ",
+  "Margaux Brégère", "Sorbonne University", "France", "margaux.png", "https://margauxbregere.github.io",
+  "Mariangela Guidolin", "University of Padova", "Italy", "mariangela.png", "https://homes.stat.unipd.it/mariangelaguidolin/en/home-2/",
+  "Max Mergenthaler", "Nixtla", "Mexico", "max.png", "https://github.com/mergenthaler",
+  "Mitchell O'Hara-Wild", "Monash University", "Australia", "mitch.png", "https://mitchelloharawild.com",
+  "Nicolò Rubattu", "IDSIA", "Switzerland", "nicolo.png", "https://it.linkedin.com/in/nicorbtt?trk=org-employees",
+  "Raffaele Mattera", "University of Rome", "Italy", "mattera.png", "https://www.sites.google.com/view/raffaele-mattera/",
+  "Rajat Sen", "Google", "USA", "rajat.png", "https://rajatsen91.github.io",
+  "Rob J Hyndman", "Monash University", "Australia", "rjh.png", "https://robjhyndman.com",
+  "Ross Hollyman", "University of Exeter", "UK", "ross.jpg", "https://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=ross_hollyman",
+  "Shanika Wickramasuriya", "University of Auckland", "New Zealand", "shanika.png", "https://profiles.auckland.ac.nz/s-wickramasuriya/publications",
+  "Shuxin Nie", "Google", "USA", "shuxin.png", "https://www.linkedin.com/in/shuxin-nie-3a726245/",
+  "Stefan Birr", "Zalando", "Germany", "stefan.png", "https://www.linkedin.com/in/stefan-birr-30471a160",
+  "Syama Rangapuram", "Amazon", "Germany", "rangapuram.png", "https://de.linkedin.com/in/syama-sundar-rangapuram-0164379",
+  "Tim Januschowski", "Zalando", "Germany", "tim.png", "https://de.linkedin.com/in/tim-januschowski-a426a630",
+  "Tommaso Di Fonzo", "University of Padova", "Italy", "tommaso.png", "https://homes.stat.unipd.it/tommasodifonzo/en/home-2/",
+  "Weijie Shen", "Google", "USA", "weijie.png", "https://www.linkedin.com/in/weijieshen",
+  "Xiaoqian Wang", "Monash University", "Australia", "xiaoqian.png", "https://xqnwang.rbind.io",
+  "Yangzhuoran (Fin) Yang", "Monash University", "Australia", "fin.png", "https://finyang.github.io",
+  "Zeynep Erkin Baz", "Meta", "USA", "zeynep.png", "https://www.linkedin.com/in/zeynep-erkin-baz-51198a21",
+)  |>
+arrange(Name)
+n <- NROW(people)
+display_person <- function(i) {
+  cat("<div class='container'>")
+  cat(paste0("<a href='", people$Link[i], "'>"))
+  cat(paste0("<img class='container_image' src='/img/", people$Image[i],
+    "' height=80px width=80px style='float: left; margin-bottom: 10px'>"))
+  cat("<div class='container_text' style='margin-left: 90px;'>")
+  cat(paste0("<b>",people$Name[i],"</b>,<br>", people$Affiliation[i], ",<br>", people$Country[i]))
+  cat("</div>")
+  cat("</a>")
+  cat("</div>")
+}
+cat("<div class='row'>")
+cat("<font size='3'>")
+cat("<div class = 'column' style = 'width: 50%; float: left;'>")
+for(i in seq(trunc(n/2 + 1))) {
+  display_person(i)
+}
+cat("</div>")
+cat("<div class = 'column' style = 'width: 50%; float: left;'>")
+for(i in seq(trunc(n/2 + 1)+1, n)) {
+  display_person(i)
+}
+```
