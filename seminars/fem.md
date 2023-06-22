@@ -1,17 +1,13 @@
 ---
-date: 2023-06-26
+date: 2023-12-11
 title: Probabilistic Forecast Reconciliation For Emergency Services Demand
-venue: International Symposium on Forecasting
+venue: Australian Statistics Conference
 aliases:
   - '/fem2023/'
 link: https://github.com/robjhyndman/fem-talk/raw/main/fem_talk.pdf
 ---
 
-Talk to be given at:
-
-* [International Symposium on Forecasting](https://isf.forecasters.org), Charlottesville, VA, USA. 26 June 2023
-* [World Statistics Congress](https://www.isi2023.org), Ottawa, Canada. 17 July 2023
-* [Australian Statistics Conference](https://www.asc2023.org), Wollongong, Australia. 11 December 2023
+Talk to be given at [Australian Statistical Conference](https://www.asc2023.org), Wollongong, Australia.
 
 
 ## Abstract

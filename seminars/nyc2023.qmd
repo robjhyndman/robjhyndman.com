@@ -13,6 +13,8 @@ library(tidyverse)
 
 **Two-day workshop, Columbia University, New York City. 11-12 July 2023**
 
+*To be taught by Mitch O'Hara-Wild*
+
 <a href="https://rstats.ai/tickets.html" class="badge badge-blue">Register</a>
 
 
