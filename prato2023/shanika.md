@@ -5,7 +5,7 @@ title: "Theoretical properties of forecast reconciliation methods"
 ## Presenter
 
 <div class = "figure">
-[Shanika Wickramasuriya](https://profiles.auckland.ac.nz/s-wickramasuriya/publications), University of Auckland, New Zealand
+[**Shanika Wickramasuriya**](https://profiles.auckland.ac.nz/s-wickramasuriya/publications), University of Auckland, New Zealand
 <img src="/img/shanika.png"  width=200px height=200px style="float:left">
 </div>
 
@@ -18,6 +18,6 @@ In this paper we prove that (a) GLS and MinT reduces to the same solution; (b) o
 ## Discussant
 
 <div class = "figure">
-[Lorenzo Zambon](https://scholar.google.com/citations?user=vfdwxl8AAAAJ&hl=it), IDSIA, Switzerland
+[**Lorenzo Zambon**](https://scholar.google.com/citations?user=vfdwxl8AAAAJ&hl=it), IDSIA, Switzerland
 <img src=/img/lorenzo.png  width=200px height=200px style="float:left">
 </div>

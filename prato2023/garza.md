@@ -5,7 +5,7 @@ title: "Conformal prediction as an alternative for uncertainty quantification in
 ## Presenter
 
 <div class = "figure">
-[Fede Garza](https://github.com/FedericoGarza), Nixtla, Mexico
+[**Fede Garza**](https://github.com/FedericoGarza), Nixtla, Mexico
 <img src="/img/garza.png"  width=200px height=200px style="float:left">
 </div>
 
@@ -16,6 +16,6 @@ This presentation introduces an agnostic approach for probabilistic hierarchical
 ## Discussant
 
 <div class = "figure">
-[Mitchell O'Hara-Wild](https://mitchelloharawild.com), Monash University, Australia
+[**Mitchell O'Hara-Wild**](https://mitchelloharawild.com), Monash University, Australia
 <img src=/img/mitch.png  width=200px height=200px style="float:left">
 </div>

@@ -5,7 +5,7 @@ title: "Discrete Forecast Reconciliation"
 ## Presenter
 
 <div class = "figure">
-[Bohan Zhang](https://github.com/AngelPone), Beihang University, China
+[**Bohan Zhang**](https://github.com/AngelPone), Beihang University, China
 <img src="/img/bohan.png"  width=200px height=200px style="float:left">
 </div>
 
@@ -15,4 +15,7 @@ While forecast reconciliation has seen great success for real valued data, the m
 
 ## Discussant
 
-TBD
+<div class = "figure">
+[**Fotios Petropoulos**](https://researchportal.bath.ac.uk/en/persons/fotios-petropoulos), University of Bath, UK
+<img src=/img/fotios.png  width=200px height=200px style="float:left">
+</div>

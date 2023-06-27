@@ -5,7 +5,7 @@ title: "Coherent probabilistic forecasting of temporal hierarchies"
 ## Presenter
 
 <div class = "figure">
-[Syama Rangapuram](https://de.linkedin.com/in/syama-sundar-rangapuram-0164379), Amazon, Germany
+[**Syama Rangapuram**](https://de.linkedin.com/in/syama-sundar-rangapuram-0164379), Amazon, Germany
 <img src="/img/rangapuram.png"  width=200px height=200px style="float:left">
 </div>
 
@@ -16,6 +16,6 @@ Forecasts at different time granularities are required in practice for addressin
 ## Discussant
 
 <div class = "figure">
-[Weijie Shen](https://www.linkedin.com/in/weijieshen), Google, USA
+[**Weijie Shen**](https://www.linkedin.com/in/weijieshen), Google, USA
 <img src=/img/weijie.png  width=200px height=200px style="float:left">
 </div>

@@ -5,7 +5,7 @@ title: "Cross-temporal probabilistic forecast reconciliation"
 ## Presenter
 
 <div class = "figure">
-[Daniele Girolimetto](https://danigiro.github.io), University of Padova, Italy
+[**Daniele Girolimetto**](https://danigiro.github.io), University of Padova, Italy
 <img src="/img/danielegiro.png"  width=200px height=200px style="float:left">
 </div>
 
@@ -18,6 +18,6 @@ Forecast reconciliation is a post-forecasting process that involves transforming
 ## Discussant
 
 <div class = "figure">
-[Casey Lichtendahl](https://www.linkedin.com/in/casey-lichtendahl-7a2688102), Google, USA
+[**Casey Lichtendahl**](https://www.linkedin.com/in/casey-lichtendahl-7a2688102), Google, USA
 <img src=/img/casey.png width=200px height=200px style="float:left">
 </div>

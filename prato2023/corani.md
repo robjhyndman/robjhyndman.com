@@ -5,7 +5,7 @@ title: "Probabilistic reconciliation by conditioning"
 ## Presenter
 
 <div class = "figure">
-[Giorgio Corani](https://sites.google.com/site/awerbhjkl678214/), IDSIA, Switzerland
+[**Giorgio Corani**](https://sites.google.com/site/awerbhjkl678214/), IDSIA, Switzerland
 <img src="/img/corani.png"  width=200px height=200px style="float:left">
 </div>
 
@@ -16,6 +16,6 @@ I will show how to perform probabilistic reconciliation via conditioning. First 
 ## Discussant
 
 <div class = "figure">
-[Anastasios Panagiotelis](https://anastasiospanagiotelis.netlify.app), University of Sydney, Australia
+[**Anastasios Panagiotelis**](https://anastasiospanagiotelis.netlify.app), University of Sydney, Australia
 <img src=/img/tas.png  width=200px height=200px style="float:left">
 </div>

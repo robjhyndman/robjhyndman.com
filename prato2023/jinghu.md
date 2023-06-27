@@ -5,7 +5,7 @@ title: "Reliable Predictions for Hierarchical Time Series"
 ## Presenter
 
 <div class = "figure">
-[Jing Hu](https://www.linkedin.com/in/hujing), Intuit, USA
+[**Jing Hu**](https://www.linkedin.com/in/hujing), Intuit, USA
 <img src="/img/jing.png"  width=200px height=200px style="float:left">
 </div>
 
@@ -16,6 +16,6 @@ Forecasting time series with hierarchical aggregation constraints is a common pr
 ## Discussant
 
 <div class = "figure">
-[Christoph Bergmeir](https://cbergmeir.com), University of Granada, Spain
+[**Christoph Bergmeir**](https://cbergmeir.com), University of Granada, Spain
 <img src=/img/christoph.png  width=200px height=200px style="float:left">
 </div>

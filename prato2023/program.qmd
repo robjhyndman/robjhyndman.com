@@ -8,40 +8,61 @@ title: Program
 
 ## 6 September
 
-* Welcome reception
+* **5.30pm**: *Welcome reception*
 
 ## 7 September
 
-* 9.00am -- 10.30am. 2 presenters and discussants
-* 10.30am -- 11.00am. Morning tea
-* 11.00am -- 12.30pm. 2 presenters and discussants
-* 12.30pm -- 1.30pm. Lunch
-* 1.30pm -- 3.00pm. 2 presenters and discussants
-* 3.00pm -- 3.30pm. Afternoon tea
-* 3.30pm -- 5.00pm. Open problem discussion
-* 7.30pm. Workshop dinner
+* **9.00am**: [**Giorgio Corani**, “Probabilistic reconciliation by conditioning”](corani.md)<br>
+  Discussant: [**Anastasios Panagiotelis**](https://anastasiospanagiotelis.netlify.app)
+
+* **9.45am**: [**Bohan Zhang**, “Discrete Forecast Reconciliation”](bohanzhang.md)<br>
+  Discussant: [**Fotios Petropoulos**](https://researchportal.bath.ac.uk/en/persons/fotios-petropoulos)
+
+* **10.30am**: *Morning tea*
+
+* **11.00am**: [**Jing Hu**, "Reliable Predictions for Hierarchical Time Series"](jinghu.md)<br>
+  Discussant: [**Christoph Bergmeir**](https://cbergmeir.com)
+
+* **11.45am**: [**Fede Garza**, "Conformal prediction as an alternative for uncertainty quantification in probabilistic hierarchical reconciliation"](garza.md)<br>
+  Discussant: [**Mitchell O'Hara-Wild**](https://mitchelloharawild.com)
+
+* **12.30pm**: *Lunch*
+
+* **1.30pm**: [**Julien Leprince**, "Forecasting hierarchies with coherency-learning"](leprince.md)<br>
+  Discussant: [**Margaux Brégère**](https://margauxbregere.github.io)
+
+* **2.15pm**: [**Xiaoqian Wang**, "Forecast reconciliation with subset selection"](xiaoqian.md)<br>
+  Discussant: [**Ross Hollyman**]()
+
+
+* **3.00pm**: *Afternoon tea*
+* **3.30pm**: Open problem discussion
+* **7.30pm**: *Workshop dinner*, [Il Dek](https://dekitalianbistrot.com/en/dek-prato-2/), [Piazza delle Carceri 1/2, Prato](https://goo.gl/maps/ZLT48fjjcB77qs3VA)
 
 ## 8 September
 
-* 9.00am -- 10.30am. 2 presenters and discussants
-* 10.30am -- 11.00am. Morning tea
-* 11.00am -- 12.30pm. 2 presenters and discussants
-* 12.30pm -- 1.30pm. Lunch
-* 1.30pm -- 3.00pm. 2 presenters and discussants
-* 3.00pm -- 3.30pm. Afternoon tea
-* 3.30pm -- 5.00pm. Open problem discussion
+* **9.00am**: [**Adèle Gouttes**, "Hierarchical forecasts: a case study from pricing in e-commerce"](gouttes.md)<br>
+  Discussant: [**Zeynep Erkin Baz**](https://www.linkedin.com/in/zeynep-erkin-baz-51198a21)
 
-## Speakers
+* **9.45am**: [**Raffaele Mattera**, "Forecast reconciliation with clustering structure: application to stock prices"](mattera.md)<br>
+  Discussant: [**Tommaso Di Fonzo**](https://homes.stat.unipd.it/tommasodifonzo/en/home-2/)
 
-* [Adèle Gouttes, "Hierarchical forecasts: a case study from pricing in e-commerce"](gouttes.md)
-* [Bohan Zhang, "Discrete Forecast Reconciliation"](bohanzhang.md)
-* [Daniele Girolimetto, "Cross-temporal probabilistic reconciliation forecast"](girolimetto.md)
-* [Fede Garza, "Conformal prediction as an alternative for uncertainty quantification in probabilistic hierarchical reconciliation"](garza.md)
-* [Giorgio Corani, "Probabilistic reconciliation by conditioning"](corani.md)
-* [Jan Møller, "Likelihood-based inference in temporal hierarchies"](moeller.md)
-* [Jing Hu, "Reliable Predictions for Hierarchical Time Series"](jinghu.md)
-* [Julien Leprince, "Forecasting hierarchies with coherency-learning"](leprince.md)
-* [Raffaele Mattera, "Forecast reconciliation with clustering structure: application to stock prices"](mattera.md)
-* [Shanika Wickramasuriya, "Theoretical properties of forecast reconciliation methods"](shanika.md)
-* [Syama Rangapuram, "Coherent probabilistic forecasting of temporal hierarchies"](rangapuram.md)
-* [Xiaoqian Wang, "Forecast reconciliation with subset selection"](xiaoqian.md)
+* **10.30am**: *Morning tea*
+
+* **11.00am**: [**Jan Møller**, “Likelihood-based inference in temporal hierarchies”](moeller.md)<br>
+  Discussant: [**Dario Azzimonti**](https://sites.google.com/view/darioazzimonti/home)
+
+* **11.45am**: [**Syama Rangapuram**, “Coherent probabilistic forecasting of temporal hierarchies”](rangapuram.md)<br>
+  Discussant: [**Weijie Shen**](https://www.linkedin.com/in/weijieshen)
+
+* **12.30pm**: *Lunch*
+
+* **1.30pm**: [**Daniele Girolimetto**, “Cross-temporal probabilistic reconciliation forecast”](girolimetto.md)<br>
+  Discussant: [**Casey Lichtendahl**](https://www.linkedin.com/in/casey-lichtendahl-7a2688102)
+
+* **2.15pm**: [**Shanika Wickramasuriya**, “Theoretical properties of forecast reconciliation methods”](shanika.md)<br>
+  Discussant: [**Lorenzo Zambon**](https://scholar.google.com/citations?user=vfdwxl8AAAAJ&hl=it)
+
+* **3.00pm**: *Afternoon tea*
+* **3.30pm**: Open problem discussion
+* **5.00pm**: *Workshop close*
