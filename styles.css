@@ -125,7 +125,7 @@ kbd,
 samp,
 var,
 output {
-  font-size: 90%;
+  font-size: 1em !important;
   font-style: normal;
   font-family: hack_regular,  monospace !important;
   font-variant-ligatures: normal !important;
