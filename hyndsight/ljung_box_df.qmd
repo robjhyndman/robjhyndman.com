@@ -1,0 +1,283 @@
+---
+title: Degrees of freedom for a Ljung-Box test
+date: 2023-06-28
+categories:
+  - forecasting
+  - time series
+image: /img/fvar.png
+bibliography: ljung_box.bib
+description: The Ljung-Box test is widely used to test for autocorrelation remaining in the residuals after fitting a model to a time series. In this post, I look at the degrees of freedom used in such tests.
+code-fold: true
+fig-height: 3
+fig-width: 8
+self-contained: true
+execute:
+  cache: true
+---
+
+## The Ljung-Box test
+
+Suppose an ARMA($p,q$) model is fitted to a time series of length $T$, giving a series of residuals $e_1,\dots,e_T$, and let the autocorrelations of this residual series be denoted by
+$$
+r_k = \sum_{t=k+1}^T e_te_{t-k} \Big/ \sum_{t=1}^T e_t^2, \qquad k=1,2,\dots
+$$
+The first $\ell$ autocorrelations are used to construct the statistic
+$$
+  Q = T(T+2) \sum_{k=1}^\ell (T-k)^{-1}r_k^2.
+$$
+
+This statistic was discussed by @BP70, who argued that if $T$ is large, and the model parameters correspond to the true data generating process, then $Q$ has a $\chi^2$ distribution with $\ell$ degrees of freedom. Later, @LB78 showed that if the model is correct, but with unknown parameters, then $Q$ has a $\chi^2$ distribution with $\ell-p-q$ degrees of freedom.
+
+## Extensions to other models
+
+These days, the Ljung-Box test is applied to a lot more models than non-seasonal ARMA models, and it is not clear what the degrees of freedom should be for other models. For example:
+
+* What if the model includes an intercept term? Should that be included in the degrees of freedom calculation?
+* What about a seasonal ARIMA model? Do we just count all coefficients?
+* Or a regression with ARMA errors? Should we include the regression coefficients when computing the degrees of freedom?
+* Or an ETS model? Do we count just the smoothing parameters, or do we include the states as well, or something else?
+
+Not long ago, I had naively assumed that the correct degrees of freedom would be $\ell-K$ where $K$ is the number of parameters estimated. I am in good company because Andrew Harvey in @harvey90 [p259] made exactly the same conjecture. That was what was coded in the [`forecast::checkresiduals()`](https://pkg.robjhyndman.com/forecast/reference/checkresiduals.html) function prior to v8.21, and how the test was applied in @fpp2 and @fpp3 until February 2023. But a recent [github discussion with Achim Zeilis](https://github.com/robjhyndman/forecast/issues/908) convinced me that is incorrect.
+
+Let's look at a few examples. For each model, we will simulate 5000 series, each of length 250 observations. For each series, we compute the p-value of a Ljung-Box test with $\ell=10$ and $\ell-K$ degrees of freedom, for different values of $K$. Under the null hypothesis of uncorrelated residuals, the $p$ values should have a uniform distribution.
+
+```{r}
+#| label: setup
+#| message: false
+library(forecast)
+library(ggplot2)
+set.seed(0)
+
+# Function to simulate p-values given a DGP model and
+# a function to fit the model to a time series
+simulate_pvalue <- function(model, fit_fn, l=10) {
+  ## simulate series
+  if(is.null(model$xreg)) {
+    y <- simulate(model, n = 250)
+  } else {
+    y <- simulate(model, xreg=model$xreg, n=250)
+  }
+  if(inherits(model, "ets")) {
+    # If multiplicative errors, fix non-positive values
+    if(model$components[1] == "M")
+      y[y <= 0] <- 1e-5
+  }
+  ## Fit model
+  m <- fit_fn(y)
+  ## compute p-values for various df
+  pv <- purrr::map_vec(0:3, m=m,
+    function(x, m) {
+      Box.test(residuals(m), lag = l, fitdf = x, type = "Ljung-Box")$p.value
+    }
+  )
+  names(pv) <- paste("K =", 0:3)
+  return(pv)
+}
+# Function to replicate the above function
+simulate_pvalues <- function(model, fit_fn, nsim = 5000, l=10) {
+  purrr::map_dfr(seq(nsim), function(x) {
+    simulate_pvalue(model, fit_fn, l=l)
+  })
+}
+# Histograms of p values
+hist_pvalues <- function(pv) {
+  pv |>
+    tidyr::pivot_longer(cols = seq(NCOL(arima_pvalues))) |>
+    ggplot(aes(x = value)) +
+    geom_histogram(bins = 30, boundary = 0) +
+    facet_grid(. ~ name) +
+    labs(title = "P value distributions")
+}
+# A nice table of the size of the test
+table_pvalues <- function(pv) {
+  tibble::tibble(`test size` = c(0.01, 0.05, 0.1)) %>%
+    dplyr::bind_cols(
+      purrr::map_df(pv, function(x) {ecdf(x)(.$`test size`)})
+    ) |>
+    knitr::kable()
+}
+```
+
+## ARIMA models with an intercept
+
+We will simulate from an ARIMA(2,0,0) model with a non-zero intercept. For the Ljung-Box test, we will consider $0 \le K \le 3$. Note that $K=0$ was the original proposal by @BP70, $K=2=p+q$ counts only ARMA coefficients, and $K=3$ counts all parameters estimated in the model. The resulting distributions of the p-values are shown below.
+
+```{r}
+#| label: ARIMA
+#| dependson: setup
+model <- Arima(sqrt(lynx), order=c(2,0,0))
+fit_fn <- function(y) {
+  Arima(y, order = c(2, 0, 0), include.mean = TRUE)
+}
+arima_pvalues <- simulate_pvalues(model, fit_fn)
+hist_pvalues(arima_pvalues)
+table_pvalues(arima_pvalues)
+```
+
+Clearly the one with $K=2$ is better than the alternatives. The table shows the empirical size of the test for different threshold levels. The empirical sizes are closest to the nominal sizes when $K=2=p+q$. So we shouldn't count the intercept when computing the degrees of freedom.
+
+## Seasonal ARIMA model
+
+Next, we will simulate from an ARIMA(0,1,1)(0,1,1)$_{12}$ model, often called the "airline model" due to its application to the Air passenger series in @BJ2016. In fact, our DGP for the simulations will be a model fitted to the `AirPassengers` data set. Again, we consider $0\le K \le 3$. There are two parameters to be estimated.
+
+```{r}
+#| label: SARIMA
+#| dependson: setup
+model <- Arima(log(AirPassengers), order=c(0,1,1), seasonal=c(0,1,1))
+fit_fn <- function(y) {
+  Arima(y, order = c(0,1,1), seasonal=c(0,1,1))
+}
+sarima_pvalues <- simulate_pvalues(model, fit_fn)
+hist_pvalues(sarima_pvalues)
+table_pvalues(sarima_pvalues)
+```
+
+Interesting. Although there are two parameters here, the tests with $K=0$ and $K=1$ do better than $K=2$. I would have expected $K=p+q+P+Q$ to be the right choice, but the test with $K=2$ has empirical size about twice the nominal size.
+
+As a guess, perhaps the seasonal lags aren't having an effect with $\ell=10$. We can test what happens for larger $\ell$ by setting $\ell=24$ (covering two years), and repeating the exercise.
+
+```{r}
+#| label: SARIMA2
+#| dependson: SARIMA
+sarima_pvalues <- simulate_pvalues(model, fit_fn, l=24)
+hist_pvalues(sarima_pvalues)
+table_pvalues(sarima_pvalues)
+```
+
+I was expecting $K=2$ to do best there, but not so. $K=1$ is the most uniform, and $K=0$ gives empirical sizes closest to the nominal sizes, with the results getting worse as $K$ increases. Perhaps always setting $K=p+q$ would be a sensible strategy for ARIMA models, even if they contain seasonal components. This needs some theoretical analysis.
+
+## Regression with ARMA errors
+
+We will simulate from a linear trend model with AR(1) errors. Here, $K=1$ counts only ARMA coefficients, while $K=3$ counts all parameters estimated. The resulting distributions of the p-values are shown below.
+
+```{r}
+#| label: RegARIMA
+#| dependson: setup
+model <- Arima(10 + seq(250)/10 + arima.sim(list(ar=0.7), n=250),
+               order = c(1,0,0), xreg = seq(250))
+fit_fn <- function(y) {
+  Arima(y, order = c(1,0,0), include.constant = TRUE, xreg = seq(250))
+}
+regarima_pvalues <- simulate_pvalues(model, fit_fn)
+hist_pvalues(regarima_pvalues)
+table_pvalues(regarima_pvalues)
+```
+
+The test with $K=1$ looks the most uniform, with the size of the test closest to the nominal values. So $K=p+q$ seems to be correct here.
+
+## Regression model
+
+Next, we will consider a linear trend model with iid errors. That is the same as the previous model, but with a simpler error structure.
+
+```{r}
+#| label: trend
+#| dependson: setup
+model <- Arima(10 + seq(250)/10 + rnorm(250),
+               order = c(0,0,0), xreg = seq(250))
+fit_fn <- function(y) {
+  Arima(y, include.constant = TRUE, xreg = seq(250))
+}
+trend_pvalues <- simulate_pvalues(model, fit_fn)
+hist_pvalues(trend_pvalues)
+table_pvalues(trend_pvalues)
+```
+
+The test with $K=0$ looks best. If we think of a regression model as a RegARIMA model with ARIMA(0,0,0) errors, this is consistent with the previous results, setting $K=p+q$.
+
+## ETS(A,N,N) model
+
+Now let's try an ETS(A,N,N) model, again using 5000 series each of length 250. If we count only the smoothing parameter, $K=1$, but if we count all estimated parameters, $K=2$. The distributions of p-values are shown below.
+
+```{r}
+#| label: ETSANN
+#| dependson: setup
+model <- ets(fma::strikes, "ANN")
+fit_fn <- function(y) {
+  ets(y, model = "ANN", damped = FALSE)
+}
+ets_pvalues <- simulate_pvalues(model, fit_fn)
+hist_pvalues(ets_pvalues)
+table_pvalues(ets_pvalues)
+```
+
+$K=1$ looks about right. That makes sense as an ETS(A,N,N) model is equivalent to an ARIMA(0,1,1) model.
+
+## ETS(M,N,N) model
+
+Next, let's try an ETS(M,N,N) model, which has no ARIMA equivalent, but which has one smoothing parameter and one initial state to estimate.
+
+```{r}
+#| label: ETSMNN
+#| dependson: setup
+model <- ets(fma::strikes, "MNN")
+fit_fn <- function(y) {
+  ets(y, model = "MNN", damped = FALSE)
+}
+ets_pvalues <- simulate_pvalues(model, fit_fn)
+hist_pvalues(ets_pvalues)
+table_pvalues(ets_pvalues)
+```
+
+Again, $K=1$ appears to be the best.
+
+## ETS(A,A,N) model
+
+An ETS(A,A,N) model is equivalent to an ARIMA(0,2,2) model, so I expect this one to need $K=2$.
+
+```{r}
+#| label: ETSAAN
+#| dependson: setup
+model <- ets(fma::strikes, "AAN")
+fit_fn <- function(y) {
+  ets(y, model = "AAN", damped = FALSE)
+}
+ets_pvalues <- simulate_pvalues(model, fit_fn)
+hist_pvalues(ets_pvalues)
+table_pvalues(ets_pvalues)
+```
+
+This time, my conjecture is correct, and $K=2$ works well.
+
+## ETS(A,A,A) model
+
+Finally, we will check a seasonal ETS model
+
+```{r}
+#| label: ETSAAA
+#| dependson: setup
+model <- ets(log(AirPassengers), model="AAA", damped=FALSE)
+fit_fn <- function(y) {
+  ets(y, model = "AAA", damped = FALSE)
+}
+ets_pvalues <- simulate_pvalues(model, fit_fn)
+hist_pvalues(ets_pvalues)
+table_pvalues(ets_pvalues)
+```
+
+Here there are 3 smoothing parameters, and 13 initial states to estimate. So I was expecting $K=3$ to do best, but it is the worse. Instead, $K=0$ is the best.
+
+## Conclusions
+
+Based only on this empirical evidence:
+
+* For ARIMA models, use $\ell-p-q$ degrees of freedom.
+* For seasonal ARIMA models, it appears that $\ell-p-q$ also gives the best results.
+* For regression with ARIMA errors, use $\ell-p-q$ degrees of freedom.
+* For OLS regression, use $\ell$ degrees of freedom.
+* For non-seasonal ETS models, use $K=$ the number of smoothing parameters.
+* For seasonal ETS models, use $K=0$.
+
+The last two of these appear to be contradictory, and it is not clear why.
+
+It seems like this might be a good project for a PhD student to explore. In particular, can these suggestions based on empirical evidence be supported theoretically?  It would also be good to explore other models such as TBATS, ARFIMA, NNETAR, etc.
+
+For now, I might avoid teaching the Ljung-Box test, and just get students to look at the ACF plot of the residuals instead.
+
+## Other literature
+
+* @Kim2004 shows that $Q \sim \chi^2_\ell$ for an AR(1) model with ARCH errors.
+* @McLeod1983 consider the equivalent test applied to autocorrelations of squared residuals, and show that $Q^* \sim \chi^2_\ell$.
+* @Mahdi2016 discusses a variation on the LB test for seasonal ARIMA models considering only autocorrelations at the seasonal lags.
+* Several other portmanteau tests (i.e., based on multiple autocorrelations) are available, and perhaps we should be using them and not the older Ljung-Box test. See @Mahdi2021 for some recent developments.
+
+## References
