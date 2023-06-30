@@ -47,11 +47,11 @@ people <- tribble(
   "Mitchell O'Hara-Wild", "Monash University", "Australia", "mitch.png", "https://mitchelloharawild.com",
   "Nicolò Rubattu", "IDSIA", "Switzerland", "nicolo.png", "https://it.linkedin.com/in/nicorbtt?trk=org-employees",
   "Raffaele Mattera", "University of Rome", "Italy", "mattera.png", "https://www.sites.google.com/view/raffaele-mattera/",
-  "Rajat Sen", "Google", "USA", "rajat.png", "https://rajatsen91.github.io",
+  #"Rajat Sen", "Google", "USA", "rajat.png", "https://rajatsen91.github.io",
   "Rob J Hyndman", "Monash University", "Australia", "rjh.png", "https://robjhyndman.com",
   "Ross Hollyman", "University of Exeter", "UK", "ross.jpg", "https://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=ross_hollyman",
   "Shanika Wickramasuriya", "University of Auckland", "New Zealand", "shanika.png", "https://profiles.auckland.ac.nz/s-wickramasuriya/publications",
-  "Shuxin Nie", "Google", "USA", "shuxin.png", "https://www.linkedin.com/in/shuxin-nie-3a726245/",
+  #"Shuxin Nie", "Google", "USA", "shuxin.png", "https://www.linkedin.com/in/shuxin-nie-3a726245/",
   "Stefan Birr", "Zalando", "Germany", "stefan.png", "https://www.linkedin.com/in/stefan-birr-30471a160",
   "Syama Rangapuram", "Amazon", "Germany", "rangapuram.png", "https://de.linkedin.com/in/syama-sundar-rangapuram-0164379",
   "Tim Januschowski", "Zalando", "Germany", "tim.png", "https://de.linkedin.com/in/tim-januschowski-a426a630",
@@ -77,12 +77,17 @@ display_person <- function(i) {
 cat("<div class='row'>")
 cat("<font size='3'>")
 cat("<div class = 'column' style = 'width: 50%; float: left;'>")
-for(i in seq(trunc(n/2 + 1))) {
+if((n/2 - trunc(n/2)) < 1e-9) {
+  nrows <- trunc(n/2)
+} else {
+  nrows <- trunc(n/2) + 1
+}
+for(i in seq(nrows)) {
   display_person(i)
 }
 cat("</div>")
 cat("<div class = 'column' style = 'width: 50%; float: left;'>")
-for(i in seq(trunc(n/2 + 1)+1, n)) {
+for(i in seq(nrows+1, n)) {
   display_person(i)
 }
 ```
