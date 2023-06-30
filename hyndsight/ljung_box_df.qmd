@@ -37,7 +37,7 @@ These days, the Ljung-Box test is applied to a lot more models than non-seasonal
 * Or a regression with ARMA errors? Should we include the regression coefficients when computing the degrees of freedom?
 * Or an ETS model? Do we count just the smoothing parameters, or do we include the states as well, or something else?
 
-Not long ago, I had naively assumed that the correct degrees of freedom would be $\ell-K$ where $K$ is the number of parameters estimated. I am in good company because Andrew Harvey in @harvey90 [p259] made exactly the same conjecture. That was what was coded in the [`forecast::checkresiduals()`](https://pkg.robjhyndman.com/forecast/reference/checkresiduals.html) function prior to v8.21, and how the test was applied in @fpp2 and @fpp3 until February 2023. But a recent [github discussion with Achim Zeilis](https://github.com/robjhyndman/forecast/issues/908) convinced me that is incorrect.
+Not long ago, I had naively assumed that the correct degrees of freedom would be $\ell-K$ where $K$ is the number of parameters estimated. I am in good company because Andrew Harvey in @harvey90 [p259] made exactly the same conjecture. That was what was coded in the [`forecast::checkresiduals()`](https://pkg.robjhyndman.com/forecast/reference/checkresiduals.html) function prior to v8.21, and how the test was applied in @fpp2 and @fpp3 until February 2023. But a recent [github discussion with Achim Zeilis](https://github.com/robjhyndman/forecast/issues/908) convinced me that it is incorrect.
 
 Let's look at a few examples. For each model, we will simulate 5000 series, each of length 250 observations. For each series, we compute the p-value of a Ljung-Box test with $\ell=10$ and $\ell-K$ degrees of freedom, for different values of $K$. Under the null hypothesis of uncorrelated residuals, the $p$ values should have a uniform distribution.
 
@@ -134,7 +134,7 @@ table_pvalues(sarima_pvalues)
 
 Interesting. Although there are two parameters here, the tests with $K=0$ and $K=1$ do better than $K=2$. I would have expected $K=p+q+P+Q$ to be the right choice, but the test with $K=2$ has empirical size about twice the nominal size.
 
-As a guess, perhaps the seasonal lags aren't having an effect with $\ell=10$. We can test what happens for larger $\ell$ by setting $\ell=24$ (covering two years), and repeating the exercise.
+As a guess, perhaps the seasonal parameters aren't having an effect with $\ell=10$. We can test what happens for larger $\ell$ by setting $\ell=24$ (covering two years), and repeating the exercise.
 
 ```{r}
 #| label: SARIMA2
@@ -163,7 +163,7 @@ hist_pvalues(regarima_pvalues)
 table_pvalues(regarima_pvalues)
 ```
 
-The test with $K=1$ looks the most uniform, with the size of the test closest to the nominal values. So $K=p+q$ seems to be correct here.
+The test with $K=1$ looks the most uniform, with the size of the test closest to the nominal values. So only counting ARMA coefficients seems to be correct here.
 
 ## Regression model
 
@@ -254,7 +254,7 @@ hist_pvalues(ets_pvalues)
 table_pvalues(ets_pvalues)
 ```
 
-Here there are 3 smoothing parameters, and 13 initial states to estimate. So I was expecting $K=3$ to do best, but it is the worse. Instead, $K=0$ is the best.
+Here there are 3 smoothing parameters, and 13 initial states to estimate. So I was expecting $K=3$ to do best, but it is the worst. Instead, $K=0$ is the best. I'm not sure what to make of this result.
 
 ## Conclusions
 
