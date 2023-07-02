@@ -56,7 +56,7 @@ people <- tribble(
   "Syama Rangapuram", "Amazon", "Germany", "rangapuram.png", "https://de.linkedin.com/in/syama-sundar-rangapuram-0164379",
   "Tim Januschowski", "Zalando", "Germany", "tim.png", "https://de.linkedin.com/in/tim-januschowski-a426a630",
   "Tommaso Di Fonzo", "University of Padova", "Italy", "tommaso.png", "https://homes.stat.unipd.it/tommasodifonzo/en/home-2/",
-  "Weijie Shen", "Google", "USA", "weijie.png", "https://www.linkedin.com/in/weijieshen",
+  #"Weijie Shen", "Google", "USA", "weijie.png", "https://www.linkedin.com/in/weijieshen",
   "Xiaoqian Wang", "Monash University", "Australia", "xiaoqian.png", "https://xqnwang.rbind.io",
   "Yangzhuoran (Fin) Yang", "Monash University", "Australia", "fin.png", "https://finyang.github.io",
   "Zeynep Erkin Baz", "Meta", "USA", "zeynep.png", "https://www.linkedin.com/in/zeynep-erkin-baz-51198a21",
