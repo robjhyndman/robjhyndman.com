@@ -15,7 +15,7 @@ For personal annotation of websites, the [Hypothesis extension](https://chrome.g
 
 > Thanks you so much for putting out this book! ... would it be possible to add OpenDyslexic (https://opendyslexic.org/) to your list of available type face on your website? I am attempting to make my way through your text book, but access to this font would make my life immeasurably easier.
 
-The simplest approach here is to use the install the [OpenDyslexic Font](https://chrome.google.com/webstore/detail/opendyslexic-font-for-chr/kplpcbodojdjlejmkfbghifakoinigie/) extension. When installed, the fpp3 book looks like this:
+The simplest approach here is to use the install the [OpenDyslexic Font](https://chrome.google.com/webstore/detail/opendyslexic-for-chrome/cdnapgfjopgaggbmfgbiinmmbdcglnam) extension. When installed, the fpp3 book looks like this:
 
 ![](/img/opendyslexic.png)
 

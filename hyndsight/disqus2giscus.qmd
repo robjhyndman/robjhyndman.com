@@ -11,7 +11,7 @@ I've been using Disqus for more than 13 years, largely because it was the only a
 
 But now there are several alternatives, and I've opted for [giscus](https://giscus.app) which is very lightweight, is built on Github Discussions, and is open source with no tracking or advertising. The other system I considered was [utterances](https://github.com/utterance/utterances) which is also hosted on Github, but uses issues rather than discussions. Consequently, comments on utterances can't be threaded (with replies to previous comments). Also, giscus appears to have a much more active development team behind it.
 
-The first step was to set up giscus on my blog. With quarto, this simply requires adding a few lines to the [`_metadata.yml`](_metadata.yml) file in the relevant folder. Here is what it looks like for me:
+The first step was to set up giscus on my blog. With quarto, this simply requires adding a few lines to the `_metadata.yml` file in the relevant folder. Here is what it looks like for me:
 
 ```
 comments:

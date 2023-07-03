@@ -32,7 +32,7 @@ options(
  * `find_player_id()`: Search for the player ID on [ESPNCricinfo](https://www.espncricinfo.com/).
  * `fetch_cricsheet()`: Fetch ball-by-ball, match and player data from [Cricsheet](https://cricsheet.org).
 
-[Jacquie Tran](https://www.jacquietran.com) wrote the first version of the `fetch_cricsheet()` function, and [the vignette](http://pkg.robjhyndman.com/cricketdata/articles/cricsheet.html) which demonstrates it.
+[Jacquie Tran](http://www.jacquietran.com) wrote the first version of the `fetch_cricsheet()` function, and [the vignette](http://pkg.robjhyndman.com/cricketdata/articles/cricsheet.html) which demonstrates it.
 
 Here are some examples demonstrating the Cricinfo functions.
 
