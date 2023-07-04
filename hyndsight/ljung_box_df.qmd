@@ -4,13 +4,12 @@ date: 2023-06-28
 categories:
   - forecasting
   - time series
-image: /img/fvar.png
+image: /img/ETSMNN.png
 bibliography: ljung_box.bib
 description: The Ljung-Box test is widely used to test for autocorrelation remaining in the residuals after fitting a model to a time series. In this post, I look at the degrees of freedom used in such tests.
 code-fold: true
 fig-height: 3
 fig-width: 8
-self-contained: true
 execute:
   cache: true
 ---
