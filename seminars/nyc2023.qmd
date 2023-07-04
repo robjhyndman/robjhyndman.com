@@ -245,7 +245,7 @@ vic_elec_daily <- vic_elec |>
 
 ### Lab Session 19
 
-Repeat Lab Session 16 but using all available data, and handling the annual seasonality using Fourier terms.
+Repeat Lab Session 18 but using all available data, and handling the annual seasonality using Fourier terms.
 
 ### Lab Session 20
 
