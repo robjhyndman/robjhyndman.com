@@ -329,7 +329,8 @@ rjh_packages <- function() {
           "ftsa",
           "rainbow",
           "Rsfar",
-          "smoothAPC"
+          "smoothAPC",
+          "tidylife"
         )
       ) |>
       add_section(
