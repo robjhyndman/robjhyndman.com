@@ -330,7 +330,7 @@ rjh_packages <- function() {
           "rainbow",
           "Rsfar",
           "smoothAPC",
-          "tidylife"
+          "vital"
         )
       ) |>
       add_section(
