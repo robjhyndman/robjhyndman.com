@@ -17,5 +17,5 @@ Several reconciliation methods are developed to adjust base forecasts in a hiera
 
 <div class = "figure">
 [**Ross Hollyman**](), University of Exeter, UK
-<img src=/img/ross.jpg width=200px height=200px style="float:left">
+<img src=/img/ross.png width=200px height=200px style="float:left">
 </div>
