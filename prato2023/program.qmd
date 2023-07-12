@@ -41,7 +41,7 @@ title: Program
 
 ## 8 September
 
-* **9.00am**: [**Adèle Gouttes**, "Hierarchical forecasts: a case study from pricing in e-commerce"](gouttes.md)<br>
+* **9.00am**: [**Adèle Gouttes** and **Stefan Birr**, "Hierarchical forecasts: a case study from pricing in e-commerce"](gouttes.md)<br>
   Discussant: [**Zeynep Erkin Baz**](https://www.linkedin.com/in/zeynep-erkin-baz-51198a21)
 
 * **9.45am**: [**Raffaele Mattera**, "Forecast reconciliation with clustering structure: application to stock prices"](mattera.md)<br>
