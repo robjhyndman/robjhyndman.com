@@ -18,6 +18,7 @@ deploy:
 	rsync -rau etc3550/ _site/etc3550/
 	rsync -rau data/ _site/data/
 	rsync -rau files/ _site/files/
+	rsync -rau fonts/ _site/fonts/
 	rsync -rau genealogy/ _site/genealogy/
 	rsync -rau img/ _site/img/
 	rsync -rau papers/ _site/papers/
