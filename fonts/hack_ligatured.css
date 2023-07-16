@@ -1,0 +1,12 @@
+/*!
+ *  Hack typeface https://github.com/source-foundry/Hack
+ *  Ligatured version from https://github.com/SimonPhumin/hack-1337
+ *  License: https://github.com/source-foundry/Hack/blob/master/LICENSE.md
+ */
+
+@font-face {
+  font-family: 'Hack_ligatured';
+  src: url('hack-lc-regular.woff2') format('woff2'), url('hack-lc-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
