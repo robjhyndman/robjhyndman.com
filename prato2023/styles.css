@@ -1,15 +1,6 @@
 /* css styles */
 /* =Typography
 -----------------------------------------------------------------------------*/
-@font-face {
-  font-family: 'hack_regular';
-  src: url('https://robjhyndman.com/fonts/hack-regular.woff2?sha=3114f1256') format('woff2'),
-       url('https://robjhyndman.com/fonts/hack-regular.woff?sha=3114f1256') format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-variant-ligatures: normal;
-}
-
 :root {
   --bs-font-sans-serif: 'Fira Sans', sans-serif;
   --bs-font-monospace: hack_regular, monospace;
@@ -128,7 +119,7 @@ var,
 output {
   font-size: 90%;
   font-style: normal;
-  font-family: hack_regular,  monospace !important;
+  font-family: Hack,  monospace !important;
   font-variant-ligatures: normal !important;
 }
 

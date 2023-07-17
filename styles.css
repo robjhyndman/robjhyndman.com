@@ -1,17 +1,8 @@
 /* =Typography
 -----------------------------------------------------------------------------*/
-@font-face {
-  font-family: 'hack_regular';
-  src: url('https://robjhyndman.com/fonts/hack-lc-regular.woff2') format('woff2'),
-       url('https://robjhyndman.com/fonts/hack-lc-regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-variant-ligatures: normal;
-}
-
 :root {
   --bs-font-sans-serif: 'Fira Sans', sans-serif;
-  --bs-font-monospace: hack_regular, monospace;
+  --bs-font-monospace: "Hack", monospace;
 }
 body {
   font-family: 'Merriweather', Georgia, Serif;
@@ -127,7 +118,7 @@ var,
 output {
   font-size: 1em !important;
   font-style: normal;
-  font-family: hack_regular,  monospace !important;
+  font-family: Hack,  monospace !important;
   font-variant-ligatures: normal !important;
 }
 
