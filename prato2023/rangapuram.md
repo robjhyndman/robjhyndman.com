@@ -16,6 +16,6 @@ Forecasts at different time granularities are required in practice for addressin
 ## Discussant
 
 <div class = "figure">
-[**Weijie Shen**](https://www.linkedin.com/in/weijieshen), Google, USA
-<img src=/img/weijie.png  width=200px height=200px style="float:left">
+[**Bahman Rostami-Tabar**](https://www.bahmanrt.com), University of Cardiff, Wales
+<img src=/img/bahman.png  width=200px height=200px style="float:left">
 </div>

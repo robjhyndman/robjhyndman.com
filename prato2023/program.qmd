@@ -53,7 +53,7 @@ title: Program
   Discussant: [**Dario Azzimonti**](https://sites.google.com/view/darioazzimonti/home)
 
 * **11.45am**: [**Syama Rangapuram**, “Coherent probabilistic forecasting of temporal hierarchies”](rangapuram.md)<br>
-  Discussant: TBD
+  Discussant: [**Bahman Rostami-Tabar**](https://www.bahmanrt.com)
 
 * **12.30pm**: *Lunch*
 
