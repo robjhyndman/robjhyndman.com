@@ -43,7 +43,7 @@ people <- tribble(
   "Lorenzo Zambon", "IDSIA", "Switzerland", "lorenzo.png", "https://scholar.google.com/citations?user=vfdwxl8AAAAJ",
   "Margaux Brégère", "Sorbonne University", "France", "margaux.png", "https://margauxbregere.github.io",
   "Mariangela Guidolin", "University of Padova", "Italy", "mariangela.png", "https://homes.stat.unipd.it/mariangelaguidolin/en/home-2/",
-  "Max Mergenthaler", "Nixtla", "Mexico", "max.png", "https://github.com/mergenthaler",
+  #"Max Mergenthaler", "Nixtla", "Mexico", "max.png", "https://github.com/mergenthaler",
   "Mitchell O'Hara-Wild", "Monash University", "Australia", "mitch.png", "https://mitchelloharawild.com",
   "Nicolò Rubattu", "IDSIA", "Switzerland", "nicolo.png", "https://it.linkedin.com/in/nicorbtt?trk=org-employees",
   "Raffaele Mattera", "University of Rome", "Italy", "mattera.png", "https://www.sites.google.com/view/raffaele-mattera/",
