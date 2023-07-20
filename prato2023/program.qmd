@@ -12,57 +12,101 @@ title: Program
 
 ## 7 September
 
+### Session 1
+
+* Chair: **Casey Lichtendahl**
+
 * **9.00am**: [**Giorgio Corani**, “Probabilistic reconciliation by conditioning”](corani.md)<br>
-  Discussant: [**Anastasios Panagiotelis**](https://anastasiospanagiotelis.netlify.app)
+Discussant: [**Anastasios Panagiotelis**](https://anastasiospanagiotelis.netlify.app)
 
 * **9.45am**: [**Bohan Zhang**, “Discrete Forecast Reconciliation”](bohanzhang.md)<br>
-  Discussant: [**Fotios Petropoulos**](https://researchportal.bath.ac.uk/en/persons/fotios-petropoulos)
+Discussant: [**Fotios Petropoulos**](https://researchportal.bath.ac.uk/en/persons/fotios-petropoulos)
 
-* **10.30am**: *Morning tea*
+**10.30am**: *Morning tea*
+
+### Session 2
+
+* Chair: **Mariangela Guidolin**
 
 * **11.00am**: [**Jing Hu**, "Reliable Predictions for Hierarchical Time Series"](jinghu.md)<br>
-  Discussant: [**Christoph Bergmeir**](https://cbergmeir.com)
+Discussant: [**Christoph Bergmeir**](https://cbergmeir.com)
 
 * **11.45am**: [**Fede Garza**, "Conformal prediction as an alternative for uncertainty quantification in probabilistic hierarchical reconciliation"](garza.md)<br>
-  Discussant: [**Mitchell O'Hara-Wild**](https://mitchelloharawild.com)
+Discussant: [**Mitchell O'Hara-Wild**](https://mitchelloharawild.com)
 
-* **12.30pm**: *Lunch*
+**12.30pm**: *Lunch*
+
+### Session 3
+
+* Chair: **Bahman Rostami-Tabar**
 
 * **1.30pm**: [**Julien Leprince**, "Forecasting hierarchies with coherency-learning"](leprince.md)<br>
-  Discussant: [**Margaux Brégère**](https://margauxbregere.github.io)
+Discussant: [**Margaux Brégère**](https://margauxbregere.github.io)
 
 * **2.15pm**: [**Xiaoqian Wang**, "Forecast reconciliation with subset selection"](xiaoqian.md)<br>
-  Discussant: [**Ross Hollyman**]()
+Discussant: [**Ross Hollyman**]()
 
+**3.00pm**: *Afternoon tea*
 
-* **3.00pm**: *Afternoon tea*
-* **3.30pm**: Open problem discussion
-* **7.30pm**: *Workshop dinner*, [Il Dek](https://dekitalianbistrot.com/en/dek-prato-2/), [Piazza delle Carceri 1/2, Prato](https://goo.gl/maps/ZLT48fjjcB77qs3VA)
+###  Session 4
+
+* Chair: **Anastasios Panagiotelis**
+
+* **3.30pm**: Short talks and open problems
+
+  * Bahman Rostami-Tabar: Forecast reconciliation problems in healthcare operations and the humanitarian sector
+  * Dario Azzimonti: On the uncertainty of reconciliation weights
+  * Lorenzo Zambon: Probabilistic reconciliation: projection vs conditioning
+  * Christoph Bergmeir: Hierarchical summary forecasting
+
+**7.30pm**: *Workshop dinner*, [Il Dek](https://dekitalianbistrot.com/en/dek-prato-2/), [Piazza delle Carceri 1/2, Prato](https://goo.gl/maps/ZLT48fjjcB77qs3VA)
 
 ## 8 September
 
+### Session 5
+
+* Chair: **Fotios Petropoulos**
+
 * **9.00am**: [**Adèle Gouttes** and **Stefan Birr**, "Hierarchical forecasts: a case study from pricing in e-commerce"](gouttes.md)<br>
-  Discussant: [**Zeynep Erkin Baz**](https://www.linkedin.com/in/zeynep-erkin-baz-51198a21)
+Discussant: [**Zeynep Erkin Baz**](https://www.linkedin.com/in/zeynep-erkin-baz-51198a21)
 
 * **9.45am**: [**Raffaele Mattera**, "Forecast reconciliation with clustering structure: application to stock prices"](mattera.md)<br>
-  Discussant: [**Tommaso Di Fonzo**](https://homes.stat.unipd.it/tommasodifonzo/en/home-2/)
+Discussant: [**Tommaso Di Fonzo**](https://homes.stat.unipd.it/tommasodifonzo/en/home-2/)
 
-* **10.30am**: *Morning tea*
+**10.30am**: *Morning tea*
+
+### Session 6
+
+* Chair: **Tim Januschowski**
 
 * **11.00am**: [**Jan Møller**, “Likelihood-based inference in temporal hierarchies”](moeller.md)<br>
-  Discussant: [**Dario Azzimonti**](https://sites.google.com/view/darioazzimonti/home)
+Discussant: [**Dario Azzimonti**](https://sites.google.com/view/darioazzimonti/home)
 
 * **11.45am**: [**Syama Rangapuram**, “Coherent probabilistic forecasting of temporal hierarchies”](rangapuram.md)<br>
-  Discussant: [**Bahman Rostami-Tabar**](https://www.bahmanrt.com)
+Discussant: [**Bahman Rostami-Tabar**](https://www.bahmanrt.com)
 
-* **12.30pm**: *Lunch*
+**12.30pm**: *Lunch*
+
+### Session 7
+
+* Chair: **Kin Gutierrez Olivares**
 
 * **1.30pm**: [**Daniele Girolimetto**, “Cross-temporal probabilistic reconciliation forecast”](girolimetto.md)<br>
-  Discussant: [**Casey Lichtendahl**](https://www.linkedin.com/in/casey-lichtendahl-7a2688102)
+Discussant: [**Casey Lichtendahl**](https://www.linkedin.com/in/casey-lichtendahl-7a2688102)
 
 * **2.15pm**: [**Shanika Wickramasuriya**, “Theoretical properties of forecast reconciliation methods”](shanika.md)<br>
-  Discussant: [**Lorenzo Zambon**](https://scholar.google.com/citations?user=vfdwxl8AAAAJ&hl=it)
+Discussant: [**Lorenzo Zambon**](https://scholar.google.com/citations?user=vfdwxl8AAAAJ&hl=it)
 
-* **3.00pm**: *Afternoon tea*
-* **3.30pm**: Open problem discussion
-* **5.00pm**: *Workshop close*
+**3.00pm**: *Afternoon tea*
+
+### Session 8
+
+* Chair: **Rob Hyndman**
+
+* **3.30pm**: Short talks and open problems
+
+  * Raffaele Mattera: The relationship between clustering and reconciliation
+  * Mitchell O'Hara-Wild: Reconciliation of structured time series forecasts with graphs
+  * Casey Lichtendahl: Data augmentation in hierarchical forecasting
+
+**5.00pm**: *Workshop close*
