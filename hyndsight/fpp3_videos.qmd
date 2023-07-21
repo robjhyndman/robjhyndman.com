@@ -1,0 +1,22 @@
+---
+title: "Videos for *Forecasting: principles and practice* (3rd ed)"
+date: 2023-07-21
+categories:
+  - forecasting
+  - time series
+  - fpp
+  - otexts
+  - video
+image: /img/fpp3videos.jpg
+description: "Over the past 6 months, George Athanasopoulos and I have added videos to most sections of the 3rd edition of our textbook *Forecasting: principles and practice*."
+fig-height: 3
+fig-width: 8
+execute:
+  cache: true
+---
+
+We have taught from the book many times, but this year we decided to pre-record short videos for each section. Our students often prefer a video explanation than reading the textbook, and we thought other readers might appreciate hearing from us as well.
+
+These videos are embedded in most sections of the book. So far, we've covered the sections that we include in our own courses, but we hope to eventually have videos for all sections. Most of these were done in a single take, so they are sometimes a little rough, but hopefully still useful.
+
+You can view the [entire playlist on YouTube](https://www.youtube.com/playlist?list=PLyCNZ_xXGzpm7W9jLqbIyBAiSO5jDwJeE).
