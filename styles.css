@@ -357,11 +357,14 @@ div.quarto-post .listing-categories:hover .listing-category:hover {
   color: #faf8f8 !important;
   opacity: .6;
 }
-#mlb2-4240669.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody,
-#mlb2-4240669.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
-  padding: 0px !important;
-}
 
+#mlb2-6650298.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input {
+  color: #666 !important;
+  font-family: "Fira Sans", sans-serif !important;
+}
+#mlb2-6650298.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button {
+  font-family: "Fira Sans", sans-serif !important;
+}
 
 .imgrow {
   display: flex;
