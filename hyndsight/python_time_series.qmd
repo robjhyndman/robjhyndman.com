@@ -38,7 +38,7 @@ The first attempt to port my [`auto.arima()`](https://pkg.robjhyndman.com/foreca
 
 [sktime](https://www.sktime.net) has the most complete set of time series methods for Python including
 
- * [**AutoARIMA**](https://www.sktime.net/en/stable/api_reference/auto_generated/sktime.forecasting.arima.AutoARIMA.html): [@HK08];
+ * [**AutoARIMA**](https://www.sktime.net/en/stable/api_reference/auto_generated/sktime.forecasting.statsforecast.StatsForecastAutoARIMA.html#sktime.forecasting.statsforecast.StatsForecastAutoARIMA): [@HK08];
  * [**ETS**](https://www.sktime.net/en/stable/api_reference/auto_generated/sktime.forecasting.ets.AutoETS.html): [@HKSG02];
  * [**BATS**](https://www.sktime.net/en/stable/api_reference/auto_generated/sktime.forecasting.bats.BATS.html)/[**TBATS**](https://www.sktime.net/en/stable/api_reference/auto_generated/sktime.forecasting.tbats.TBATS.html): [@DHS11];
  * [**Theta**](https://www.sktime.net/en/stable/api_reference/auto_generated/sktime.forecasting.theta.ThetaForecaster.html): [@theta;@HB03];
