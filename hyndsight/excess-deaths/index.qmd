@@ -33,13 +33,13 @@ library(ggplot2)
 
 ```{r hiddenfilter, include=FALSE, eval=TRUE}
 # Load data locally for reproducibility
-#stmf <- readr::read_csv("https://www.mortality.org/Public/STMF/Outputs/stmf.csv", skip=1)
+#stmf <- readr::read_csv("https://www.mortality.org/File/GetDocument/Public/STMF/Outputs/stmf.csv", skip=1)
 #saveRDS(stmf, file="static/data/stmf.rds")
 stmf <- readRDS(here::here("data/stmf.rds"))
 ```
 
 ```{r download, eval=FALSE}
-stmf <- readr::read_csv("https://www.mortality.org/Public/STMF/Outputs/stmf.csv", skip=1)
+stmf <- readr::read_csv("https://www.mortality.org/File/GetDocument/Public/STMF/Outputs/stmf.csv", skip=1)
 ```
 
 ```{r}
