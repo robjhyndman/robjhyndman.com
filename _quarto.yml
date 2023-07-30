@@ -4,7 +4,7 @@ project:
     - "*.qmd"
     - "*.md"
     - "!/unbelievable/"
-    - "!/prato/"
+    - "!/prato2023/"
 
 website:
   title: "Rob J Hyndman"
