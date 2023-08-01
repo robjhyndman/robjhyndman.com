@@ -27,80 +27,84 @@ for(i in seq_along(sections)) {
 
 # Quarto extensions
 
-## [Monash Letter Template](https://github.com/numbats/monash-quarto-letter)
-
-Create a letter on Monash University letterhead.
 
 <table>
-<tr><td valign="top" width="67%">
+<tr><td valign="top">
+[![](https://github.com/numbats/monash-quarto-letter/raw/main/examples/template.png){width=120}](https://github.com/numbats/monash-quarto-letter)
+</td>
+<td valign="top" width="85%">
+
+### [Monash Letter Template](https://github.com/numbats/monash-quarto-letter)
+
+Create a letter on Monash University letterhead.
 
 ```
 quarto use template numbats/monash-quarto-letter
 ```
 
-</td><td valign="top">
-[![](https://github.com/numbats/monash-quarto-letter/raw/main/examples/template.png){width=400}](https://github.com/numbats/monash-quarto-letter)
 </td>
 </tr>
 </table>
 
-## [Monash Memo Template](https://github.com/numbats/monash-quarto-memo)
+<table>
+<tr><td valign="top">
+[![](https://github.com/numbats/monash-quarto-memo/raw/main/examples/template.png){width=120}](https://github.com/numbats/monash-quarto-memo)
+</td>
+<td valign="top" width="85%">
+### [Monash Memo Template](https://github.com/numbats/monash-quarto-memo)
 
 Create a memo with optional Monash University branding.
 
-<table>
-<tr><td valign="top" width="67%">
 ```
 quarto use template numbats/monash-quarto-memo
 ```
 
-</td><td valign="top">
-[![](https://github.com/numbats/monash-quarto-memo/raw/main/examples/template.png){width=400}](https://github.com/numbats/monash-quarto-memo)
 </td>
 </tr>
 </table>
 
-## [Monash Working Paper Template](https://github.com/numbats/monash-quarto-workingpaper)
+<table>
+<tr><td valign="top">
+[![](https://github.com/numbats/monash-quarto-workingpaper/raw/main/examples/template.png){width=120}](https://github.com/numbats/monash-quarto-workingpaper)
+</td><td valign="top" width="85%">
+### [Monash Working Paper Template](https://github.com/numbats/monash-quarto-workingpaper)
 
 Create a working paper for the Department of Econometrics & Business Statistics, Monash University.
 
-<table>
-<tr><td valign="top" width="67%">
 ```
 quarto use template numbats/monash-quarto-workingpaper
 ```
 
-</td><td valign="top">
-[![](https://github.com/numbats/monash-quarto-workingpaper/raw/main/examples/template.png){width=400}](https://github.com/numbats/monash-quarto-workingpaper)
 </td>
 </tr>
 </table>
 
-## [Monash Report Template](https://github.com/numbats/monash-quarto-report)
+<table>
+<tr><td valign="top">
+[![](https://github.com/numbats/monash-quarto-report/raw/main/examples/template.png){width=120}](https://github.com/numbats/monash-quarto-report)
+</td><td valign="top" width="85%">
+### [Monash Report Template](https://github.com/numbats/monash-quarto-report)
 
 Create a Monash University report.
 
-<table>
-<tr><td valign="top" width="67%">
 ```
 quarto use template numbats/monash-quarto-report
 ```
 
-</td><td valign="top">
-[![](https://github.com/numbats/monash-quarto-report/raw/main/examples/template.png){width=400}](https://github.com/numbats/monash-quarto-report)
 </td>
 </tr>
 </table>
 
-## [Monash Thesis Template](https://github.com/numbats/monash-quarto-thesis)
+<table>
+<tr><td valign="top">
+[![](https://github.com/numbats/monash-quarto-thesis/raw/main/examples/template.png){width=120 fig-align='right'}](https://github.com/numbats/monash-quarto-thesis)
+</td>
+<td valign="top" width="85%">
+### [Monash Thesis Template](https://github.com/numbats/monash-quarto-thesis)
 
 Create a Monash University thesis.
 
-<table>
-<tr><td valign="top" width="67%">
 Either fork or download [the repository](https://github.com/numbats/monash-quarto-thesis) to get started.
-</td><td width=300 valign="top" align="right">
-[![](https://github.com/numbats/monash-quarto-thesis/raw/main/examples/template.png){width=400 fig-align='right'}](https://github.com/numbats/monash-quarto-thesis)
 </td>
 </tr>
 </table>
