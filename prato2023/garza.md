@@ -5,7 +5,7 @@ title: "Conformal prediction as an alternative for uncertainty quantification in
 ## Presenter
 
 <div class = "figure">
-[**Fede Garza**](https://github.com/FedericoGarza), Nixtla, Mexico
+[**Azul Garza**](https://github.com/FedericoGarza), Nixtla, Mexico
 <img src="/img/garza.png"  width=200px height=200px style="float:left">
 </div>
 

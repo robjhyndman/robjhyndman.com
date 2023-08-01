@@ -33,7 +33,7 @@ people <- tribble(
   "Christoph Bergmeir", "University of Granada", "Spain", "christoph.png", "https://cbergmeir.com",
   "Daniele Girolimetto", "University of Padova", "Italy", "danielegiro.png", "https://danigiro.github.io",
   "Dario Azzimonti", "IDSIA", "Switzerland", "dario.png", "https://sites.google.com/view/darioazzimonti/home",
-  "Fede Garza", "Nixtla", "Mexico", "garza.png", "https://github.com/FedericoGarza",
+  "Azul Garza", "Nixtla", "Mexico", "garza.png", "https://github.com/FedericoGarza",
   "Fotios Petropoulos", "University of Bath", "UK", "fotios.png", "http://fpetropoulos.eu",
   "Giorgio Corani", "IDSIA", "Switzerland", "corani.png", "https://sites.google.com/site/awerbhjkl678214/",
   "Jan Møller", "Denmark Technical University", "Denmark", "moeller.png", "https://scholar.google.com/citations?user=t6M3wewAAAAJ&hl=en",

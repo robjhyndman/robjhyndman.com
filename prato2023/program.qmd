@@ -31,7 +31,7 @@ Discussant: [**Fotios Petropoulos**](https://researchportal.bath.ac.uk/en/person
 * **11.00am**: [**Jing Hu**, "Reliable Predictions for Hierarchical Time Series"](jinghu.md)<br>
 Discussant: [**Christoph Bergmeir**](https://cbergmeir.com)
 
-* **11.45am**: [**Fede Garza**, "Conformal prediction as an alternative for uncertainty quantification in probabilistic hierarchical reconciliation"](garza.md)<br>
+* **11.45am**: [**Azul Garza**, "Conformal prediction as an alternative for uncertainty quantification in probabilistic hierarchical reconciliation"](garza.md)<br>
 Discussant: [**Mitchell O'Hara-Wild**](https://mitchelloharawild.com)
 
 **12.30pm**: *Lunch*
