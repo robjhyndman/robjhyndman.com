@@ -4,7 +4,7 @@ date: 2023-02-09
 slug: fforms
 title: Meta-learning how to forecast time series
 categories: Articles
-details: "<em>J Forecasting</em>, to appear"
+details: "<em>J Forecasting</em>, <42>(6), 1476-1501"
 tags:
 - accuracy
 - arima models
