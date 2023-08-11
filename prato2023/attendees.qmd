@@ -39,7 +39,7 @@ people <- tribble(
   "Jan Møller", "Denmark Technical University", "Denmark", "moeller.png", "https://scholar.google.com/citations?user=t6M3wewAAAAJ&hl=en",
   "Jing Hu", "Intuit", "USA", "jing.png", "https://www.linkedin.com/in/hujing",
   "Julien Leprince", "Technical University Eindhoven", "Netherlands", "leprince.png", "https://scholar.google.com/citations?user=KDlduPEAAAAJ&hl=en",
-  "Kin Gutierrez Olivares", "Nixtla", "Mexico", "kin.png", "https://www.linkedin.com/in/kin-guti%C3%A9rrez-865377119",
+  "Kin Gutierrez Olivares", "Nixtla", "Mexico", "kin.png", "https://www.linkedin.com/in/kin-g-olivares-865377119",
   "Lorenzo Zambon", "IDSIA", "Switzerland", "lorenzo.png", "https://scholar.google.com/citations?user=vfdwxl8AAAAJ",
   "Margaux Brégère", "Sorbonne University", "France", "margaux.png", "https://margauxbregere.github.io",
   "Mariangela Guidolin", "University of Padova", "Italy", "mariangela.png", "https://homes.stat.unipd.it/mariangelaguidolin/en/home-2/",
