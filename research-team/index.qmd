@@ -34,7 +34,7 @@ title: "Research team"
   1. **[Pablo Montero-Manso](https://www.sydney.edu.au/business/about/our-people/academic-staff/pablo-monteromanso.html)** [{{< fa brands github >}}](https://github.com/pmontman)
   1. **[Ingrida Steponavičė](http://users.monash.edu/~ingridas/)**
   1. **[Nick Tierney](https://www.njtierney.com/)** [{{< fa brands github >}}](https://github.com/njtierney) [{{< fa brands twitter >}}](https://twitter.com/nj_tierney)
-  1. **[Shanika Wickramasuriya](https://unidirectory.auckland.ac.nz/people/profile/s-wickramasuriya)** [{{< fa brands github >}}](https://github.com/ShanikaLW)
+  1. **[Shanika Wickramasuriya](https://profiles.auckland.ac.nz/s-wickramasuriya/)** [{{< fa brands github >}}](https://github.com/ShanikaLW)
 
 ## Former postgraduate students
 
