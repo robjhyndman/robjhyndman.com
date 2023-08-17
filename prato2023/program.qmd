@@ -54,7 +54,6 @@ Discussant: [**Ross Hollyman**]()
 
 * **3.30pm**: Short talks and open problems
 
-  * Bahman Rostami-Tabar: Forecast reconciliation problems in healthcare operations and the humanitarian sector
   * Dario Azzimonti: On the uncertainty of reconciliation weights
   * Lorenzo Zambon: Probabilistic reconciliation: projection vs conditioning
   * Christoph Bergmeir: Hierarchical summary forecasting
