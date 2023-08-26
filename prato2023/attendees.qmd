@@ -50,7 +50,7 @@ people <- tribble(
   #"Rajat Sen", "Google", "USA", "rajat.png", "https://rajatsen91.github.io",
   "Rob J Hyndman", "Monash University", "Australia", "rjh.png", "https://robjhyndman.com",
   "Ross Hollyman", "University of Exeter", "UK", "ross.png", "https://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=ross_hollyman",
-  "Shanika Wickramasuriya", "University of Auckland", "New Zealand", "shanika.png", "https://profiles.auckland.ac.nz/s-wickramasuriya/publications",
+  #"Shanika Wickramasuriya", "University of Auckland", "New Zealand", "shanika.png", "https://profiles.auckland.ac.nz/s-wickramasuriya/publications",
   #"Shuxin Nie", "Google", "USA", "shuxin.png", "https://www.linkedin.com/in/shuxin-nie-3a726245/",
   "Stefan Birr", "Zalando", "Germany", "stefan.png", "https://www.linkedin.com/in/stefan-birr-30471a160",
   "Syama Rangapuram", "Amazon", "Germany", "rangapuram.png", "https://de.linkedin.com/in/syama-sundar-rangapuram-0164379",
