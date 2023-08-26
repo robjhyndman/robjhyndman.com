@@ -93,7 +93,7 @@ Discussant: [**Bahman Rostami-Tabar**](https://www.bahmanrt.com)
 * **1.30pm**: [**Daniele Girolimetto**, “Cross-temporal probabilistic reconciliation forecast”](girolimetto.md)<br>
 Discussant: [**Casey Lichtendahl**](https://www.linkedin.com/in/casey-lichtendahl-7a2688102)
 
-* **2.15pm**: [**Shanika Wickramasuriya**, “Theoretical properties of forecast reconciliation methods”](shanika.md)<br>
+* **2.15pm**: [**Anastasios Panagiotelis**, “Forecast reconciliation for quantiles using bilevel optimisation”](tas.md)<br>
 Discussant: [**Lorenzo Zambon**](https://scholar.google.com/citations?user=vfdwxl8AAAAJ&hl=it)
 
 **3.00pm**: *Afternoon tea*
