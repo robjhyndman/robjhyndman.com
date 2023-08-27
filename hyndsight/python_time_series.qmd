@@ -32,19 +32,19 @@ They have also produced a lot of other great time series tools that are fast (op
 
 ## pmdarima
 
-The first attempt to port my [`auto.arima()`](https://pkg.robjhyndman.com/forecast/reference/auto.arima.html) function to Python was [`pmdarima`](https://alkaline-ml.com/pmdarima/). This is also behind the [`AutoARIMA()`](https://www.sktime.net/en/stable/api_reference/auto_generated/sktime.forecasting.arima.AutoARIMA.html)  function in [sktime](https://www.sktime.net).
+The first attempt to port my [`auto.arima()`](https://pkg.robjhyndman.com/forecast/reference/auto.arima.html) function to Python was [`pmdarima`](https://alkaline-ml.com/pmdarima/).
 
 ## sktime
 
 [sktime](https://www.sktime.net) has the most complete set of time series methods for Python including
 
- * [**AutoARIMA**](https://www.sktime.net/en/stable/api_reference/auto_generated/sktime.forecasting.statsforecast.StatsForecastAutoARIMA.html#sktime.forecasting.statsforecast.StatsForecastAutoARIMA): [@HK08];
- * [**ETS**](https://www.sktime.net/en/stable/api_reference/auto_generated/sktime.forecasting.ets.AutoETS.html): [@HKSG02];
- * [**BATS**](https://www.sktime.net/en/stable/api_reference/auto_generated/sktime.forecasting.bats.BATS.html)/[**TBATS**](https://www.sktime.net/en/stable/api_reference/auto_generated/sktime.forecasting.tbats.TBATS.html): [@DHS11];
- * [**Theta**](https://www.sktime.net/en/stable/api_reference/auto_generated/sktime.forecasting.theta.ThetaForecaster.html): [@theta;@HB03];
- * [**STLForecaster**](https://www.sktime.net/en/stable/api_reference/auto_generated/sktime.forecasting.trend.STLForecaster.html): [@mstl];
- * [**Croston**](https://www.sktime.net/en/stable/api_reference/auto_generated/sktime.forecasting.croston.Croston.html): [@SH05];
- * [**Bagged-ETS**](https://www.sktime.net/en/stable/api_reference/auto_generated/sktime.forecasting.compose.BaggingForecaster.html): [@baggedETS];
+ * [**AutoARIMA**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.statsforecast.StatsForecastAutoARIMA.html): [@HK08];
+ * [**ETS**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.ets.AutoETS.html): [@HKSG02];
+ * [**BATS**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.bats.BATS.html)/[**TBATS**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.tbats.TBATS.html): [@DHS11];
+ * [**Theta**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.theta.ThetaForecaster.html): [@theta;@HB03];
+ * [**STLForecaster**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.trend.STLForecaster.html): [@mstl];
+ * [**Croston**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.croston.Croston.html): [@SH05];
+ * [**Bagged-ETS**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.compose.BaggingForecaster.html): [@baggedETS];
 
  and more. These are also compatible with [`scikit-learn`](http://scikit-learn.org/).
 
