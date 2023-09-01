@@ -16,6 +16,8 @@ title: Program
 
 * Chair: **Casey Lichtendahl**
 
+* **8.45am**: **Rob Hyndman**. Welcome and introduction
+
 * **9.00am**: [**Giorgio Corani**, “Probabilistic reconciliation by conditioning”](corani.md)<br>
 Discussant: [**Anastasios Panagiotelis**](https://anastasiospanagiotelis.netlify.app)
 
