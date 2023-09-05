@@ -40,8 +40,6 @@ website:
         href: https://github.com/robjhyndman
       - icon: mastodon
         href: https://aus.social/@robjhyndman
-      - icon: twitter
-        href: https://twitter.com/robjhyndman
     background: "#234460"
 
 date-format: "D MMMM YYYY"
