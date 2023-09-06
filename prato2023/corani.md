@@ -19,3 +19,5 @@ I will show how to perform probabilistic reconciliation via conditioning. First 
 [**Anastasios Panagiotelis**](https://anastasiospanagiotelis.netlify.app), University of Sydney, Australia
 <img src=/img/tas.png  width=200px height=200px style="float:left">
 </div>
+
+[**Slides**](https://robjhyndman.com/files/prato/ResponseCorani.pdf)

@@ -15,6 +15,8 @@ We develop an algorithm for forecast reconciliation where the objective is to ob
 
 *[Joint work with Hossein Alipour, Nam Ho-Nuyen and George Athanasopoulos.]*
 
+[**Slides**](https://robjhyndman.com/files/prato/QuantileReco.pdf)
+
 ## Discussant
 
 <div class = "figure">
