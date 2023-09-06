@@ -15,6 +15,8 @@ Forecast reconciliation is a post-forecasting process that involves transforming
 
 [**Associated paper**](https://arxiv.org/abs/2303.17277)
 
+[**Slides**](https://robjhyndman.com/files/prato/Prato_daniele.pdf)
+
 ## Discussant
 
 <div class = "figure">

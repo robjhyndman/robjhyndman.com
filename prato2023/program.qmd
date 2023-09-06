@@ -60,7 +60,7 @@ Discussant: [**Ross Hollyman**]()
 
   * Dario Azzimonti: On the uncertainty of reconciliation weights
   * Lorenzo Zambon: Probabilistic reconciliation: projection vs conditioning
-  * Christoph Bergmeir: Hierarchical summary forecasting
+  * Christoph Bergmeir: [Hierarchical summary forecasting](https://robjhyndman.com/files/prato/bergmeir2023SummaryForecasting.pdf)
 
 **7.30pm**: *Workshop dinner*, [Il Dek](https://dekitalianbistrot.com/en/dek-prato-2/), [Piazza delle Carceri 1/2, Prato](https://goo.gl/maps/ZLT48fjjcB77qs3VA)
 
