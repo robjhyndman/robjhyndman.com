@@ -19,3 +19,5 @@ The variance-covariance matrix of the base forecast prediction errors is of impo
 [**Dario Azzimonti**](https://sites.google.com/view/darioazzimonti/home), IDSIA, Switzerland
 <img src=/img/dario.png  width=200px height=200px style="float:left">
 </div>
+
+[**Slides**](https://robjhyndman.com/files/prato/Azzimonti_discussion.pdf)
