@@ -19,7 +19,7 @@ Forecasting time series with hierarchical aggregation constraints is a common pr
 * [arxiv.org/abs/2112.11669](https://arxiv.org/abs/2112.11669)
 * [arxiv.org/abs/2205.14104](https://arxiv.org/abs/2205.14104)
 
-[**Slides**]("https://robjhyndman.com/files/prato/Hierarchical Time Series Forecasting - Prato.pdf")
+[**Slides**](https://robjhyndman.com/files/prato/Hierarchical Time Series Forecasting - Prato.pdf)
 
 ## Discussant
 

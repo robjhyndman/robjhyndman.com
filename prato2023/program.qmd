@@ -24,7 +24,7 @@ title: Program
 Discussant: [**Anastasios Panagiotelis**](https://anastasiospanagiotelis.netlify.app)
 
 * **9.45am**: [**Bohan Zhang**, “Discrete Forecast Reconciliation”](bohanzhang.md)<br>
-Discussant: [**Fotios Petropoulos**](https://researchportal.bath.ac.uk/en/persons/fotios-petropoulos)
+Discussant: [**Ross Hollyman**](https://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=ross_hollyman)
 
 **10.30am**: *Morning tea*
 
@@ -48,7 +48,7 @@ Discussant: [**Mitchell O'Hara-Wild**](https://mitchelloharawild.com)
 Discussant: [**Margaux Brégère**](https://margauxbregere.github.io)
 
 * **2.15pm**: [**Xiaoqian Wang**, "Forecast reconciliation with subset selection"](xiaoqian.md)<br>
-Discussant: [**Ross Hollyman**]()
+Discussant: [**Ross Hollyman**](https://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=ross_hollyman)
 
 **3.00pm**: *Afternoon tea*
 
@@ -71,7 +71,7 @@ Discussant: [**Ross Hollyman**]()
 
 ### Session 5
 
-* Chair: **Fotios Petropoulos**
+* Chair: **Ross Hollyman**
 
 * **9.00am**: [**Adèle Gouttes** and **Stefan Birr**, "Hierarchical forecasts: a case study from pricing in e-commerce"](gouttes.md)<br>
 Discussant: [**Zeynep Erkin Baz**](https://www.linkedin.com/in/zeynep-erkin-baz-51198a21)

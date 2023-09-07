@@ -18,7 +18,7 @@ title: "Hierarchical forecasts: a case study from pricing in e-commerce"
 
 We will explain the challenges we face with our data (millions of time series, high sparsity, time series starting/ending at different points), and how we use hierarchical forecast techniques in that context.
 
-[**Slides**]("https://robjhyndman.com/files/prato/Hierarchical Forecasting Review.pdf")
+[**Slides**](https://robjhyndman.com/files/prato/Hierarchical Forecasting Review.pdf)
 
 ## Discussant
 
