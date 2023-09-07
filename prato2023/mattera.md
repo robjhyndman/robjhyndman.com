@@ -21,3 +21,5 @@ This paper discusses the use of forecast reconciliation for time series characte
 [**Tommaso Di Fonzo**](https://homes.stat.unipd.it/tommasodifonzo/en/home-2/), Padua University, Italy
 <img src=/img/tommaso.png  width=200px height=200px style="float:left">
 </div>
+
+[**Slides**](https://robjhyndman.com/files/prato/Discussion_Mattera_handout.pdf)
