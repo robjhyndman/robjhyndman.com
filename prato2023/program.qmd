@@ -59,7 +59,7 @@ Discussant: [**Ross Hollyman**]()
 * **3.30pm**: Short talks and open problems
 
   * Dario Azzimonti: [On the uncertainty of reconciliation weights](https://robjhyndman.com/files/prato/Azzimonti.pdf)
-  * Lorenzo Zambon: Probabilistic reconciliation: projection vs conditioning
+  * Lorenzo Zambon: [Probabilistic reconciliation: projection vs conditioning](https://robjhyndman.com/files/prato/Zambon_projection_vs_conditioning.pdf)
   * Christoph Bergmeir: [Hierarchical summary forecasting](https://robjhyndman.com/files/prato/bergmeir2023SummaryForecasting.pdf)
   * Margaux Brégère: [On possible links between hierarchical forecasting and interpretable machine learning](https://robjhyndman.com/files/prato/ForecasteReconcialiation_OpenProb_09_23.pdf)
 
@@ -114,5 +114,6 @@ Discussant: [**Lorenzo Zambon**](https://scholar.google.com/citations?user=vfdwx
   * Raffaele Mattera: The relationship between clustering and reconciliation
   * Mitchell O'Hara-Wild: Reconciliation of structured time series forecasts with graphs
   * Casey Lichtendahl: Data augmentation in hierarchical forecasting
+  * Kin Gutierrez Olivares: [Probabilistic Coherent Forecasting with Deep Poisson Mixture Networks (DPMN)](https://docs.google.com/presentation/d/1eMe3iwTMeeSVH8PCzUMDfYT8tJNpXLK8VG2K7Drinco/edit?usp=sharing)
 
 **5.00pm**: *Workshop close*
