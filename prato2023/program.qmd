@@ -58,7 +58,7 @@ Discussant: [**Ross Hollyman**]()
 
 * **3.30pm**: Short talks and open problems
 
-  * Dario Azzimonti: On the uncertainty of reconciliation weights
+  * Dario Azzimonti: [On the uncertainty of reconciliation weights](https://robjhyndman.com/files/prato/Azzimonti.pdf)
   * Lorenzo Zambon: Probabilistic reconciliation: projection vs conditioning
   * Christoph Bergmeir: [Hierarchical summary forecasting](https://robjhyndman.com/files/prato/bergmeir2023SummaryForecasting.pdf)
 
