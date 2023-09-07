@@ -19,3 +19,5 @@ This presentation introduces an agnostic approach for probabilistic hierarchical
 [**Mitchell O'Hara-Wild**](https://mitchelloharawild.com), Monash University, Australia
 <img src=/img/mitch.png  width=200px height=200px style="float:left">
 </div>
+
+[**Slides**](https://slides.mitchelloharawild.com/prato2023-conformal-discussant)
