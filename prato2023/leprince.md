@@ -15,6 +15,8 @@ Many sectors nowadays require accurate and coherent predictions across their org
 
 [**Slides**](https://robjhyndman.com/files/prato/Presentation_JulienLeprince.pptx)
 
+[**Code**](https://github.com/JulienLeprince/hierarchicallearning)
+
 ## Discussant
 
 <div class = "figure">
