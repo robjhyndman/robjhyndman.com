@@ -112,7 +112,7 @@ Discussant: [**Lorenzo Zambon**](https://scholar.google.com/citations?user=vfdwx
 * **3.30pm**: Short talks and open problems
 
   * Raffaele Mattera: [The relationship between clustering and reconciliation](https://robjhyndman.com/files/prato/OpenProblems_Mattera.pdf)
-  * Mitchell O'Hara-Wild: Reconciliation of structured time series forecasts with graphs
+  * Mitchell O'Hara-Wild: [Reconciliation of structured time series forecasts with graphs](https://slides.mitchelloharawild.com/prato2023/)
   * Casey Lichtendahl: Data augmentation in hierarchical forecasting
   * Kin Gutierrez Olivares: [Probabilistic Coherent Forecasting with Deep Poisson Mixture Networks (DPMN)](kin.md)
 
