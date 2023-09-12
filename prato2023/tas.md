@@ -15,7 +15,7 @@ We develop an algorithm for forecast reconciliation where the objective is to ob
 
 *[Joint work with Hossein Alipour, Nam Ho-Nuyen and George Athanasopoulos.]*
 
-[**Slides**](https://robjhyndman.com/files/prato/QuantileReco.pdf)
+* [**Slides**](https://robjhyndman.com/files/prato/QuantileReco.pdf)
 
 ## Discussant
 
@@ -24,4 +24,4 @@ We develop an algorithm for forecast reconciliation where the objective is to ob
 <img src=/img/lorenzo.png  width=200px height=200px style="float:left">
 </div>
 
-[**Slides**](https://robjhyndman.com/files/prato/Zambon_discussion_quantile_reconciliation.pdf)
+* [**Slides**](https://robjhyndman.com/files/prato/Zambon_discussion_quantile_reconciliation.pdf)

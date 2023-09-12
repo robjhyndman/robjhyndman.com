@@ -15,9 +15,9 @@ We present a novel method capable of accurate and coherent probabilistic forecas
 
 Our mixture density approach can accurately model a wide range of joint probability distributions while efficiently modeling cross-series correlations. In addition, the density is modular and compatible as an output layer with state-of-the-art neural architectures. We optimize DPMN's density through the composite likelihood strategy, allowing us to apply it to large-scale datasets encompassing hundreds of thousands of series.
 
-## Papers
+**Papers**
 
  * [arxiv.org/abs/2110.13179](https://arxiv.org/abs/2110.13179)
  * [arxiv.org/abs/2305.07089](https://arxiv.org/abs/2305.07089)
 
-[**Slides**](https://docs.google.com/presentation/d/1eMe3iwTMeeSVH8PCzUMDfYT8tJNpXLK8VG2K7Drinco/edit?usp=sharing)
+* [**Slides**](https://docs.google.com/presentation/d/1eMe3iwTMeeSVH8PCzUMDfYT8tJNpXLK8VG2K7Drinco/edit?usp=sharing)

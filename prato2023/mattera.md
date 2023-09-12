@@ -24,4 +24,4 @@ This paper discusses the use of forecast reconciliation for time series characte
 <img src=/img/tommaso.png  width=200px height=200px style="float:left">
 </div>
 
-[**Slides**](https://robjhyndman.com/files/prato/Discussion_Mattera_handout.pdf)
+* [**Slides**](https://robjhyndman.com/files/prato/Discussion_Mattera_handout.pdf)
