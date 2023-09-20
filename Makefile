@@ -1,8 +1,8 @@
 ### Build and deploy https://robjhyndman.com
 
-all: serve
+default: preview
 
-serve:
+preview:
 	quarto preview
 
 build:

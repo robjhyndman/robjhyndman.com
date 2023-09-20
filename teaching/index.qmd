@@ -16,7 +16,7 @@ Reliable forecasts of business and economic variables must often be obtained aga
 
 # Tidy time series & forecasting in R
 
-*This is a 2-day workshop, usually run once per year.*
+*This is a 2-day workshop, run approximately once per year.*
 
 [![](/img/tidyverts.png)](https://tidyverts.org)
 
@@ -36,17 +36,14 @@ This course is for you if you:
 * need to analyze large collections of related time series; and
 * would like to learn how to use some tidy tools for time series analysis including visualization, decomposition and forecasting.
 
-## Upcoming workshops
-
-* [Chicago](https://posit-conf-2023.github.io/workshops/workshops/forecasting/), 17-18 September 2023. Followed by the [Posit conference](https://posit.co/conference). (Register for the workshop as part of the Posit conference registration.) [[Video intro](https://youtu.be/g4221KXM7hU)] [[Workshop materials](https://posit-conf-2023.github.io/forecasting/)]
-
 ## Selected previous workshops
 
-* [Canberra 2022](https://robjhyndman.com/seminars/workshop2022.html)
-* [San Francisco 2020](http://robjhyndman.com/workshop2020/)
-* [Kuala Lumpur 2019](https://robjhyndman.com/seminars/isi2019workshop/)
-* New York 2018
-* [Perth 2017](https://robjhyndman.com/hyndsight/forecasting-workshop-perth/)
-* Eindhoven 2016
-* [Perth 2014](https://robjhyndman.com/seminars/uwa/)
-* [Kandersteg 2011](https://robjhyndman.com/hyndsight/swissworkshop2011/)
+* [Chicago, USA, 2023](https://posit-conf-2023.github.io/forecasting/)
+* [Canberra, Australia, 2022](https://robjhyndman.com/seminars/workshop2022.html)
+* [San Francisco, USA, 2020](http://robjhyndman.com/workshop2020/)
+* [Kuala Lumpur, Malaysia, 2019](https://robjhyndman.com/seminars/isi2019workshop/)
+* New York, USA, 2018
+* [Perth, Australia, 2017](https://robjhyndman.com/hyndsight/forecasting-workshop-perth/)
+* Eindhoven, Netherlands, 2016
+* [Perth, Australia, 2014](https://robjhyndman.com/seminars/uwa/)
+* [Kandersteg, Switzerland, 2011](https://robjhyndman.com/hyndsight/swissworkshop2011/)
