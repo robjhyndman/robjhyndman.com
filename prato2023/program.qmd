@@ -77,7 +77,7 @@ Discussant: [**Ross Hollyman**](https://business-school.exeter.ac.uk/about/peopl
 Discussant: [**Zeynep Erkin Baz**](https://www.linkedin.com/in/zeynep-erkin-baz-51198a21)
 
 * **9.45am**: [**Raffaele Mattera**, "Forecast reconciliation with clustering structure: application to stock prices"](mattera.md)<br>
-Discussant: [**Tommaso Di Fonzo**](https://homes.stat.unipd.it/tommasodifonzo/en/home-2/)
+Discussant: [**Tommaso Di Fonzo**](https://homes.stat.unipd.it/tommasodifonzo/en/home-2.html)
 
 **10.30am**: *Morning tea*
 
