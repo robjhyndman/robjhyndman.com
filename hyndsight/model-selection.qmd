@@ -1,0 +1,27 @@
+---
+title: Forecast model selection
+date: 2023-09-27
+categories:
+  - forecasting
+  - time series
+image: https://otexts.com/fpp3/fpp_files/figure-html/cv1-1.png
+description: "When using a training/test split, or time-series cross-validation, are you choosing a specific model or a model class?"
+code-fold: true
+fig-height: 3
+fig-width: 8
+execute:
+  cache: true
+---
+
+This question arises most time I teach a forecasting workshop, and it was raised again in the following email I received today:
+
+
+> I have a time series that I have split into training and test datasets with an 80%-20% ratio.  I fit a series of different models (ETS, BATS, ARIMA, NN etc) to the training data and generate my forecasts from each model.  When evaluating the forecasts against the test set I find the model that gives the best outcome is an ARIMA(1,1,1) that was selected using the auto.arima function.  My question is this, should I proceed to fit an ARIMA(1,1,1) to the whole data set, or should I use the auto.arima function again which may give me a slightly different (p,d,q) order as there is now an extra 20% of unseen data available to the forecast model?  Any guidance would be greatly received.
+
+If you only have one class of model to consider (e.g., only ETS or only ARIMA), then it is easy enough to select the model on all available data using the AIC, and use the selected model to forecast the future. But if you are selecting between model classes, then you need to use either a training/test split, or (preferably) a [time-series cross-validation](https://otexts.com/fpp3/tscv.html) procedure.
+
+If you use time-series cross-validation, then there would usually be different models selected for each training set, and the cross-validated error is a measure of how well the model class works for your data. In that case, there is no single model for the training data, and you are selecting the *model class* rather than a specific model. This makes it clear that you should then apply the selected model class to all the data, when forecasting beyond the end of the available data. In other words, if you choose ARIMA over ETS, then you would then fit an ARIMA model to all the data, and use that model to forecast the future.
+
+You can think of a simple training/test split as a special case of time-series cross-validation, where there is a single fold. So the same argument applies. That is, you are selecting the model class that works best for your data, and so you should apply that model class to all the data, when forecasting beyond the end of the available data.
+
+This example also illustrates why it is important to use a time-series cross-validation procedure, rather than a simple training/test split. In this case, the ARIMA model was selected because it happened to work best for the particular training/test split that was used. But if a different split had been used, then a different model might have been selected. So the model selection is not stable. By averaging over multiple folds using a time-series cross-validation procedure, you can get a more stable estimate of the model class that works best for your data.
