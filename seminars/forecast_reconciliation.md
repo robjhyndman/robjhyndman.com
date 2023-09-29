@@ -7,7 +7,7 @@ aliases:
   - /fr2023
 ---
 
-*(Postponed until further notice)*
+9am UTC+11, *November 7, 10, 14, 17*
 
 **Distinguished Lecture Series for the International Institute of Forecasters**
 
