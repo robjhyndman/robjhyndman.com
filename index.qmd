@@ -5,11 +5,11 @@ about:
   links:
     - text: "{{< ai google-scholar >}}"
       href: https://scholar.google.com/citations?user=vamErfkAAAAJ
-    - icon: mastodon
+    - text: "{{< fa brands mastodon >}}"
       href: https://aus.social/@robjhyndman
-    - icon: github
+    - text: "{{< fa brands github-square >}}"
       href: https://github.com/robjhyndman
-    - icon: envelope
+    - text: "{{< fa envelope >}}"
       href: mailto:Rob.Hyndman@monash.edu
 ---
 
