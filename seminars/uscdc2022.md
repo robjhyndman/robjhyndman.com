@@ -14,7 +14,7 @@ aliases:
 </iframe>
 
 [Open](https://pkg.robjhyndman.com/combinations_talk/ensembles_uscdc_2022.html){.badge .badge-red}
-[{{< fa brands github >}} Code](https://github.com/robjhyndman/combinations_talk/){.badge .badge-green}
+[{{< fa brands github >}}](https://github.com/robjhyndman/combinations_talk/){.badge .badge-green}
 
 
 ### Associated paper

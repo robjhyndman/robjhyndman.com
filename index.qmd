@@ -3,20 +3,19 @@ about:
   template: trestles
   image: img/RJH_AAS_small.png
   links:
+    - text: "{{< ai google-scholar >}}"
+      href: https://scholar.google.com/citations?user=vamErfkAAAAJ
     - icon: mastodon
-      text: mastodon
       href: https://aus.social/@robjhyndman
     - icon: github
-      text: github
       href: https://github.com/robjhyndman
     - icon: envelope
-      text: mail
       href: mailto:Rob.Hyndman@monash.edu
 ---
 
 <div class="about-link-text">
 **Rob&nbsp;J&nbsp;Hyndman**<br>
 Professor of Statistics<br>
-[Department of Econometrics & Business Statistics](https://www.monash.edu/business/ebs)<br>
+[Department of Econometrics & Business Statistics](https://monash.edu/business/ebs)<br>
 [Monash University](https://monash.edu), Australia.
 </div>

@@ -299,6 +299,11 @@ a.badge.badge-green {
   font-family: 'Fira Sans', sans-serif;
 }
 
+div.quarto-about-trestles .about-entity .about-link {
+  border: none;
+  font-size: 15pt;
+}
+
 div.quarto-about-trestles .about-entity .about-link:hover {
   background-color: #234460;
   color: #ebebeb;

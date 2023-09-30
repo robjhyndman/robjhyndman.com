@@ -13,9 +13,9 @@ The following bio and [**this photo**](/img/RJH_AAS.jpg) may be used in media re
 ::: {.column width="30%"}
 
 <ul class="fa-ul">
-  <li><a href="https://github.com/robjhyndman/CV/raw/master/RobHyndmanCV.pdf"><i class="fa-li fa-regular fa-file-pdf"></i>Curriculum Vitae</a></li>
-  <li><a href="https://scholar.google.com/citations?user=vamErfkAAAAJ"><i class="fa-li ai ai-google-scholar" style="padding-top:4px;"></i>Google Scholar</a></li>
-  <li><a href="https://www.semanticscholar.org/author/R.-Hyndman/145211352"><i class="fa-li ai ai-semantic-scholar" style="padding-top:4px;"></i>Semantic Scholar</a></li>
+  <li><a href="https://github.com/robjhyndman/CV/raw/master/RobHyndmanCV.pdf"> {{< fa file-pdf >}}  Curriculum Vitae</a></li>
+  <li><a href="https://scholar.google.com/citations?user=vamErfkAAAAJ"> {{< ai google-scholar >}} Google Scholar</a></li>
+  <li><a href="https://www.semanticscholar.org/author/R.-Hyndman/145211352"> {{< ai semantic-scholar >}} Semantic Scholar</a></li>
 </ul>
 
 :::
@@ -23,18 +23,18 @@ The following bio and [**this photo**](/img/RJH_AAS.jpg) may be used in media re
 ::: {.column width="30%"}
 
 <ul class="fa-ul">
-  <li><a href="https://orcid.org/0000-0002-2140-5352"><i class="fa-li ai ai-orcid" style="padding-top:4px;"></i>ORCID</a></li>
-  <li><a href="https://www.scopus.com/authid/detail.uri?authorId=7006914313"><i class="fa-li ai ai-scopus" style="padding-top:4px;"></i>Scopus</a></li>
-    <li><a href=https://arxiv.org/a/hyndman_r_1.html><i class="fa-li ai ai-arxiv" style="padding-top:4px;"></i>arXiv</a></li>
+  <li><a href="https://orcid.org/0000-0002-2140-5352"> {{< ai orcid >}} ORCID</a></li>
+  <li><a href="https://www.scopus.com/authid/detail.uri?authorId=7006914313"> {{< ai scopus >}} Scopus</a></li>
+  <li><a href=https://arxiv.org/a/hyndman_r_1.html>{{< ai arxiv >}}  arXiv</a></li>
 </ul>
 
 :::
 
 ::: {.column width="30%"}
 <ul class="fa-ul">
-<li><a href="http://ideas.repec.org/e/phy3.html"><i class="fa-li fa-regular fa-lightbulb"></i>RePEc</a></li>
-  <li><a href="https://github.com/robjhyndman"><i class="fa-li fa-brands fa-github"></i>GitHub</a></li>
-  <li><a href="http://en.wikipedia.org/wiki/Rob_J._Hyndman"><i class="fa-li fa-brands fa-wikipedia-w"></i>Wikipedia</a></li>
+  <li><a href="http://ideas.repec.org/e/phy3.html"> {{< fa lightbulb >}} RePEc</a></li>
+  <li><a href="https://github.com/robjhyndman"> {{< fa brands github >}} GitHub</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/Rob_J._Hyndman"> {{< fa brands wikipedia-w >}} Wikipedia</a></li>
 </ul>
 
 :::
