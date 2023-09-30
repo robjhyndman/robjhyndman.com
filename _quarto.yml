@@ -36,10 +36,6 @@ website:
         href: /subscribe.html
       - icon: rss
         href: https://robjhyndman.com/index.xml
-      - icon: github
-        href: https://github.com/robjhyndman
-      - icon: mastodon
-        href: https://aus.social/@robjhyndman
     background: "#234460"
 
 date-format: "D MMMM YYYY"
