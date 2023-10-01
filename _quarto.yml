@@ -43,9 +43,11 @@ freeze: true
 
 format:
   html:
-    theme: tango
-    css: styles.css
+    theme:
+      - tango
+      - rjh.scss
     toc: true
+    mainfont: "Merriweather, Georgia, serif"
     html-math-method: katex
     include-in-header:
       file: header.html

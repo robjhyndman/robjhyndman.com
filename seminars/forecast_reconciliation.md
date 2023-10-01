@@ -1,13 +1,15 @@
 ---
-date: 2023-07-03
+date: 2023-11-07
 title: Forecast reconciliation
-venue: TBA
+venue: Online
 bibliography: hts.bib
 aliases:
   - /fr2023
 ---
 
 9am UTC+11, *November 7, 10, 14, 17*
+
+Zoom link to be added later
 
 **Distinguished Lecture Series for the International Institute of Forecasters**
 

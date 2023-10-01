@@ -58,41 +58,22 @@ Let's not be too sectarian about our disciplines, thinking everyone not trained 
 
 It reminds me of a famous joke, written by comedian [Emo Philips](http://www.emophilips.com/):
 
-<blockquote>
-I was walking across a bridge one day, and I saw a man standing on the edge, about to jump off. I immediately ran over and said "Stop! Don't do it!"
-<p>
-"Why shouldn't I?" he said.
-<p>
-I said, "Well, there's so much to live for!"
-<p>
-"Like what?"
-<p>
-"Well ... are you religious or atheist?"
-<p>
-"Religious."
-<p>
-"Me too! Are you Christian or Jewish?"
-<p>
-"Christian."
-<p>
-"Me too! Are you Catholic or Protestant?"
-<p>
-"Protestant."
-<p>
-"Me too! What franchise?"
-<p>
-"Baptist."
-<p>
-"Wow! Me too! Northern Baptist or Southern Baptist?"
-<p>
-"Northern Baptist"
-<p>
-"Me too! Are you Northern Conservative Baptist or Northern Liberal Baptist?"
-<p>
-"Northern Conservative Baptist"
-<p>
-"Me too! Are you Northern Conservative Fundamentalist Baptist or Northern Conservative Reformed Baptist?"
-<p>
-"Northern Conservative Fundamentalist Baptist"
-<p>
-To which I said, "Die, heretic scum!" and pushed him off.</blockquote>
+> I was walking across a bridge one day, and I saw a man standing on the edge, about to jump off. I immediately ran over and said "Stop! Don't do it!"
+<br>"Why shouldn't I?" he said.
+<br>I said, "Well, there's so much to live for!"
+<br>"Like what?"
+<br>"Well ... are you religious or atheist?"
+<br>"Religious."
+<br>"Me too! Are you Christian or Jewish?"
+<br>"Christian."
+<br>"Me too! Are you Catholic or Protestant?"
+<br>"Protestant."
+<br>"Me too! What franchise?"
+<br>"Baptist."
+<br>"Wow! Me too! Northern Baptist or Southern Baptist?"
+<br>"Northern Baptist"
+<br>"Me too! Are you Northern Conservative Baptist or Northern Liberal Baptist?"
+<br>"Northern Conservative Baptist"
+<br>"Me too! Are you Northern Conservative Fundamentalist Baptist or Northern Conservative Reformed Baptist?"
+<br>"Northern Conservative Fundamentalist Baptist"
+<br>To which I said, "Die, heretic scum!" and pushed him off.</blockquote>
