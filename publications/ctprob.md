@@ -1,11 +1,12 @@
 ---
 title: "Cross-temporal Probabilistic Forecast Reconciliation"
-date: "2023-03-31"
+date: "2023-10-09"
 author:  Daniele Girolimetto, George Athanasopoulos, Tommaso Di Fonzo, Rob J Hyndman
 github: daniGiro/ctprob
 arxiv: 2303.17277
 link: https://github.com/danigiro/ctprob/raw/main/paper/CTprob.pdf
-categories: Working papers
+categories: Articles
+details: "<em>International Journal of Forecasting</em>, to appear"
 ---
 
 Forecast reconciliation is a post-forecasting process that involves transforming a set of incoherent forecasts into coherent forecasts which satisfy a given set of linear constraints for a multivariate time series. In this paper we extend the current state-of-the-art cross-sectional probabilistic forecast reconciliation approach to encompass a cross-temporal framework, where temporal constraints are also applied. Our proposed methodology employs both parametric Gaussian and non-parametric bootstrap approaches to draw samples from an incoherent cross-temporal distribution.
