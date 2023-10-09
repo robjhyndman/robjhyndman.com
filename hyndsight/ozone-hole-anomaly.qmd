@@ -20,13 +20,13 @@ options(
 ggplot2::theme_set(theme_get() + theme(text = element_text(family = 'Fira Sans')))
 ```
 
-There is a widespread myth that NASA did not discover the hole in the ozone layer above the Antarctic until some British scientists spotted it in 1985, because they had been throwing away anomalous data that would have revealed it. This is not entirely true, but the real story is also instructive [@Pukelsheim1990;@Christie2001;@christie2004data].
+There is a widespread myth that NASA did not discover the hole in the ozone layer above the Antarctic because they had been throwing away anomalous data that would have revealed it. This is not true, but the real story is also instructive [@Pukelsheim1990;@Christie2001;@christie2004data].
 
-The British Antarctic Survey had collected data at the Halley Research Station, on the edge of the Brunt Ice Shelf in Antarctica, since 1957. @fig-halley shows these measurements (as orange points), which led to the first publication to identify the "ozone hole" [@Farman1985]. The low ozone values had been noticed as early as 1981, but it took a few years for the scientists to be convinced that the low values were real and not due to instrument problems, and then there were the usual publication delays.
+NASA had been collecting satellite data on Antarctic ozone levels using a Total Ozone Mapping Spectrometer (TOMS) since 1979, while British scientists had collected ozone data using ground sensors at the Halley Research Station, on the edge of the Brunt Ice Shelf in Antarctica, since 1957. @fig-halley shows average daily values from the NASA measurements in blue, and from the British observations in orange. There is a clear downward trend in the British data, especially from the late 1970s, which is confirmed with the NASA data. So why wasn't the "ozone hole" discovered until 1985?
 
 ```{r}
 #| label: fig-halley
-#| fig-cap: "Observations of Antarctic ozone levels since 1957, measured in Dobson units (DU). Observations are mean daily values from October each year. Ground observations are from Halley Research Station, while satellite observations were obtained using a Total Ozone Mapping Spectrometer (TOMS). The satellite data were obtained from [Leslie R Lait (NASA)](https://ozonewatch.gsfc.nasa.gov/facts/history_SH.html), while the Halley ground observations were obtained from [Jonathan Shanklin (British Antarctic Survey)](https://www.antarctica.ac.uk/met/jds/ozone/). The horizontal line shows the threshold of 180 DU, used by NASA to determine when the ozone level was unusually low. The graph shown is a modification of [one by Lait](https://ozonewatch.gsfc.nasa.gov/facts/history_SH.html)."
+#| fig-cap: "Observations of Antarctic ozone levels since 1957, measured in Dobson units (DU). Observations are mean daily values from October each year. Ground observations are from Halley Research Station, while satellite observations were obtained using a Total Ozone Mapping Spectrometer (TOMS). The satellite data were obtained from [Leslie R Lait (NASA)](https://ozonewatch.gsfc.nasa.gov/facts/history_SH.html), while the Halley ground observations were obtained from [Jonathan Shanklin (British Antarctic Survey)](https://www.antarctica.ac.uk/met/jds/ozone/). The horizontal line shows the threshold of 180 DU, used by NASA to determine when the ozone level was unusually low."
 #| echo: false
 #| warning: false
 #| message: false
@@ -57,11 +57,13 @@ ozone |>
   scale_y_continuous(sec.axis = dup_axis(breaks = 180, name = ""))
 ```
 
-In 1986, NASA scientists used satellite data from the Total Ozone Mapping Spectrometer (TOMS) to confirm the finding, also demonstrating that the ozone hole was widespread across the Antarctic [@stolarski1986nimbus]. The NASA data are shown as blue points in @fig-halley.
+The British scientists had noticed the low ozone values as early as 1981, but it took a few years for the scientists to be convinced that the low values were real and not due to instrument problems, and then there were the usual publication delays. Eventually, the results were published in @Farman1985.
 
-NASA flagged observations as anomalous when they were below 180 DU (shown as a horizontal line in @fig-halley). As is clear from the figure, this is much lower than any of the plotted points before the early 1980s. However, the 180 threshold was used for the *daily* measurements, which are much more variable than the monthly averages that are plotted. Occasionally daily observations did fall below 180, and so it was a reasonable threshold for the purpose of identifying instrument problems.
+Meanwhile, NASA was flagging observations as anomalous when they were below 180 DU (shown as a horizontal line in @fig-halley). As is clear from the figure, this is much lower than any of the plotted points before the early 1980s. However, the 180 threshold was used for the *daily* measurements, which are much more variable than the monthly averages that are plotted. Occasionally daily observations did fall below 180, and so it was a reasonable threshold for the purpose of identifying instrument problems.
 
 In fact, NASA had checked the unusually low TOMS values obtained before 1985 by comparing them against other available data. But the other data available to them showed ozone values of about 300 DU, so it was assumed that the satellite sensor was malfunctioning. The British Halley data were not available to them, and only after the publication of @Farman1985 did the NASA scientists realise that the TOMS results were accurate.
+
+In 1986, NASA scientists were able to confirm the British finding, also demonstrating that the ozone hole was widespread across the Antarctic [@stolarski1986nimbus].
 
 This example reveals some lessons about anomaly detection:
 
