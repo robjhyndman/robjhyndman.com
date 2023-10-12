@@ -69,5 +69,6 @@ In 1986, NASA scientists were able to confirm the British finding, also demonstr
 This example reveals some lessons about anomaly detection:
 
 * The NASA threshold of 180 was based on daily data, and was designed to identify instrument problems, not genuine systematic changes in ozone levels. The implicit assumption was that ozone levels varied seasonally, but that otherwise the distribution of observations was stable. All anomaly detection involves some implicit assumptions like this, and it is well to be aware of them.
+* Sometimes what we think are anomalies are not really anomalies, but the result of incorrect assumptions.
 * Often smoothing or averaging data will help to reveal issues that are not so obvious from the original data. This reduces the variation in the data, and allows more systematic variation to be uncovered.
 * Always plot the data. In this case, a graph such as @fig-halley would have revealed the problem in the late 1970s, but it seems no-one was producing plots like this.
