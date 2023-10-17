@@ -1,0 +1,27 @@
+---
+title: P-values for prediction intervals
+date: 2023-10-18
+categories:
+  - forecasting
+  - time series
+image: /img/PI.png
+description: "Does it make any sense to compute p-values for prediction intervals?"
+execute:
+  cache: true
+---
+
+I received this email today:
+
+> My team recently used some techniques found in your writings to perform forecasts ... Our work has been well received by reviewers, but one commenter asked two questions that I was hoping you may be able to provide insight on.
+
+> First, they wanted to know if we could provide P-values for our prediction intervals. In our work, we said, "Observed rates were deemed significantly different from expected rates when they did not fall within the 95% PI." This same language has been used by others published in the same journal. I am curious to hear your thoughts on giving P-values for these PIs and what the appropriate method for doing so would be (if any).
+
+> Second, they asked about making a correction for multiple comparisons. ... I believe we could apply a Bonferroni correction to the PIs, but that feels too liberal. Moreover, I am curious if this is even called for given our statement of what is deemed significant and the fact that our prediction interval construction relies on a non-parametric method.
+
+Here is my reply:
+
+1. I don't think this makes any sense. A p-value is the probability of obtaining observations at least as extreme as those observed given a null hypothesis. What's the hypothesis here? In forecasting, we don't usually have a hypothesis. Instead, we fit a model to the data, and make predictions based on the model. I guess you could make the null hypothesis "The future observations come from the forecast distributions", and then the p-value for each future time period would be the probability of the tails beyond the observations. But it is well-known that the estimated prediction intervals are almost always too narrow due to them not taking into account all sources of variance. So the size of this test would not be well-calibrated. I think you're better off pushing back rather than trying to meet the request.
+
+2. A Bonferroni correction assumes independence between the intervals, and that is not true for PIs from a forecasting model. The future forecast errors are all correlated (with the strength of the correlation depending on the model and the DGP). Usually we just say that these are pointwise PI, and so we expect 5% of observations to fall outside the 95% prediction intervals. It is possible to generate uniform PI, which contain 95% of all future sample paths, but this is a little tricky due to the correlations between horizons. It could be done via simulation -- simulate a 1000 future sample paths and compute the envelope that contains 950 of them.
+
+It sounds like the reviewers are only familiar with inferential statistics, and not with predictive modelling. You could point them to Shmueli's excellent [2010 paper "To explain or predict"](https://doi.org/10.1214/10-STS330), highlighting the differences between the two paradigms.
