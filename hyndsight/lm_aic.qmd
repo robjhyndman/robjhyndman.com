@@ -1,0 +1,75 @@
+---
+title: AIC calculations
+date: 2023-11-01
+image: /img/aic_lm.png
+categories:
+  - AIC
+description: The AIC returned by `TSLM()` is different from that returned by `lm()`. Why?
+---
+
+I get this question a lot, so I thought it might help to explain some issues with AIC calculation.
+
+First, the equation for the AIC is given by
+$$
+\text{AIC} = 2k - 2\log(L),
+$$
+where $L$ is the likelihood of the model and $k$ is the number of parameters that are estimated (including the error variance). For a linear regression model with iid $N(0,\sigma^2)$ errors, fitted to $n$ observations, the log-likelihood can be written as
+$$
+\log(L) = -\frac{n}{2}\log(2\pi) - \frac{n}{2}\log(\sigma^2) - \frac{1}{2\sigma^2}\sum_{i=1}^n \hat{e}_i^2
+$$
+where $\hat{e}_i$ is the residual for the $i$th observation. The AIC is then
+$$
+\text{AIC} = 2k + n\log(2\pi) + n\log(\sigma^2)  + \frac{1}{\sigma^2}\sum_{i=1}^n \hat{e}_i^2.
+$$
+Since we don't know $\sigma^2$, we estimate it using the residual sum of squared errors (SSE) divided by $n$, giving
+\begin{align*}
+\text{AIC} & = 2k +n\log(2\pi) + n\log\left(\frac{\text{SSE}}{n}\right) + n \\
+& = 2k + n\log\left(\frac{\text{SSE}}{n}\right) + C
+\end{align*}
+where $C = n + n\log(2\pi)$ is a constant that depends only on the sample size and not on the model. This constant is often ignored. Thus, different software implementations can lead to different AIC values for the same model, since they may include or exclude the constant $C$.
+
+Now, let's look at what R returns in a simple case using the `lm()` function.
+
+
+```{r}
+#| message: false
+set.seed(2023)
+library(fpp3)
+df <- tibble(
+  time = seq(100),
+  x = rnorm(100),
+  y = x + rnorm(100)
+)
+fit <- lm(y ~ x, data = df)
+AIC(fit)
+```
+
+We can check how this is calculated by computing it ourselves.
+
+```{r}
+sse <- sum(residuals(fit)^2)
+n <- length(residuals(fit))
+k <- length(fit$coefficients) + 1
+# With constant
+2*k + n*log(sse/n) + n*log(2*pi) + n
+# Without constant
+2*k + n*log(sse/n)
+```
+
+Clearly, `AIC()` applied to the output from `lm()` is using the version with the constant.
+
+Now compare that with what we obtain using the `TSLM()` function from the fable package.
+
+```{r}
+df |>
+  as_tsibble(index = time) |>
+  model(TSLM(y ~ x)) |>
+  glance() |>
+  pull(AIC)
+```
+
+This is the AIC without the constant.
+
+The situation is even more confusing with ARIMA models, and some other model classes, because some functions use approximations to the likelihood, rather than the exact likelihood.
+
+Thus, AIC values can be compared across models fitted using the same functions, but not necessarily when models have been fitted using different functions.
