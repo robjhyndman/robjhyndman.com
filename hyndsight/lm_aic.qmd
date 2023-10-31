@@ -21,10 +21,10 @@ where $\hat{e}_i$ is the residual for the $i$th observation. The AIC is then
 $$
 \text{AIC} = 2k + n\log(2\pi) + n\log(\sigma^2)  + \frac{1}{\sigma^2}\sum_{i=1}^n \hat{e}_i^2.
 $$
-Since we don't know $\sigma^2$, we estimate it using the residual sum of squared errors (SSE) divided by $n$, giving
+Since we don't know $\sigma^2$, we estimate it using the mean squared error (the maximum likelihood estimator), giving
 \begin{align*}
-\text{AIC} & = 2k +n\log(2\pi) + n\log\left(\frac{\text{SSE}}{n}\right) + n \\
-& = 2k + n\log\left(\frac{\text{SSE}}{n}\right) + C
+\text{AIC} & = 2k +n\log(2\pi) + n\log(\text{MSE}) + n \\
+& = 2k + n\log(\text{MSE}) + C
 \end{align*}
 where $C = n + n\log(2\pi)$ is a constant that depends only on the sample size and not on the model. This constant is often ignored. Thus, different software implementations can lead to different AIC values for the same model, since they may include or exclude the constant $C$.
 
@@ -47,13 +47,13 @@ AIC(fit)
 We can check how this is calculated by computing it ourselves.
 
 ```{r}
-sse <- sum(residuals(fit)^2)
+mse <- mean(residuals(fit)^2)
 n <- length(residuals(fit))
 k <- length(fit$coefficients) + 1
 # With constant
-2*k + n*log(sse/n) + n*log(2*pi) + n
+2*k + n*log(mse) + n*log(2*pi) + n
 # Without constant
-2*k + n*log(sse/n)
+2*k + n*log(mse)
 ```
 
 Clearly, `AIC()` applied to the output from `lm()` is using the version with the constant.
