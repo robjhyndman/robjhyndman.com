@@ -9,7 +9,7 @@ aliases:
 
 9am UTC+11, *November 7, 10, 14, 17*
 
-Zoom link to be added later
+*Available to [IIF members](https://forecasters.org/membership/join/) only*
 
 **Distinguished Lecture Series for the International Institute of Forecasters**
 
