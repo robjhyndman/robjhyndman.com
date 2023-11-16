@@ -66,3 +66,7 @@ I will provide an up-to-date overview of this area, and show how reconciliation 
 * [FoReco package for R](https://danigiro.github.io/FoReco/)
 * [hierarchicalforecast library for Python](https://nixtla.github.io/hierarchicalforecast/)
 * [pyhts library for Python](https://angelpone.github.io/)
+
+## Review paper
+
+[Athansopoulos, Hyndman, Kourentzes & Panagiotelis (2024) "Forecast reconcilation: a review", *International Journal of Forecasting*, to appear.](https://robjhyndman.com/publications/hfreview.html)
