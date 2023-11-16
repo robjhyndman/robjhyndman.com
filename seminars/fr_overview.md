@@ -12,7 +12,7 @@ Collections of time series that are formed via aggregation are prevalent in many
 
 ## Associated paper
 
-[Athanasopoulos, G, RJ Hyndman, N Kourentzes, and A Panagiotelis. 2023. “Forecast Reconciliation: A Review”](http://robjhyndman.com/publications/hfreview.html).
+[Athansopoulos, Hyndman, Kourentzes & Panagiotelis (2024) "Forecast reconcilation: a review", *International Journal of Forecasting*, to appear.](https://robjhyndman.com/publications/hfreview.html)
 
 
 ## Software
