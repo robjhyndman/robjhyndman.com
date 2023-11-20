@@ -23,3 +23,10 @@ Collections of time series that are formed via aggregation are prevalent in many
 * [FoReco package for R](https://danigiro.github.io/FoReco/)
 * [hierarchicalforecast library for Python](https://nixtla.github.io/hierarchicalforecast/)
 * [pyhts library for Python](https://angelpone.github.io/)
+
+## Slides for TSF 2023
+
+<iframe src="https://docs.google.com/gview?url=$link$&embedded=true"  width="100%" height=465></iframe>
+<a href="https://github.com/robjhyndman/fr_overview_talk/raw/main/fr_tsf2023.pdf" class="badge badge-small badge-red">Download pdf</a>
+
+## Slides for Zalando and Uni of Melbourne
