@@ -275,6 +275,7 @@ rjh_packages <- function() {
           "feasts",
           "fable",
           "fabletools",
+          "fable.binary",
           "fasster",
           "sugrrants",
           "gravitas"
