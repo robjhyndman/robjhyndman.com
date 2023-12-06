@@ -70,3 +70,7 @@ I will provide an up-to-date overview of this area, and show how reconciliation 
 ## Review paper
 
 [Athansopoulos, Hyndman, Kourentzes & Panagiotelis (2024) "Forecast reconcilation: a review", *International Journal of Forecasting*, to appear.](https://robjhyndman.com/publications/hfreview.html)
+
+## YouTube videos
+
+[YouTube videos of all talks are on the IIF channel](https://www.youtube.com/playlist?list=PLUxduCQo6_X0QO2GIZyYDaQSXY4b5oAnk)
