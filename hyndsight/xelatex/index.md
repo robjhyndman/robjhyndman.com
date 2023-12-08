@@ -46,7 +46,7 @@ Note the following features:
 
 A disadvantage of using XeLaTeX is that most of the fonts on your computer will not come with enough fancy characters (known as glyphs) for mathematics. So maths has to be set using  a standard LaTeX font. Consequently, I am not using XeLaTeX for my mathematical documents, but I have started trying it out on non-mathematical documents.
 
-My first serious XeLaTeX document is [my latest CV](https://github.com/robjhyndman/CV/raw/master/RobHyndmanCV.pdf) where I've used the following font commands:
+My first serious XeLaTeX document is [my latest CV](https://github.com/robjhyndman/CV/Historical/RobHyndmanCV_2012.pdf) where I've used the following font commands:
 
     \setromanfont{Minion Pro}
     \setsansfont[Colour=AA0000]{Myriad Pro}
