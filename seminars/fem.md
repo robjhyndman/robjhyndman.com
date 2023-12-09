@@ -1,10 +1,10 @@
 ---
-date: 2023-12-11
+date: 2023-12-14
 title: Probabilistic Forecast Reconciliation For Emergency Services Demand
 venue: Australian Statistics Conference
 aliases:
-  - '/fem2023/'
-link: https://github.com/robjhyndman/fem-talk/raw/main/fem_talk.pdf
+  - '/asc2023/'
+link: https://github.com/robjhyndman/fem-talk/raw/main/asc2023.pdf
 ---
 
 Talk to be given at [Australian Statistical Conference](https://www.asc2023.org), Wollongong, Australia.
