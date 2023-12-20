@@ -2,6 +2,8 @@
 title: "Hierarchical Time Series Forecasting in Emergency Medical Services"
 date: "2024-01-02"
 author:  Bahman Rostami-Tabar, Rob J Hyndman
+aliases:
+  - '/fems/'
 details: "<em>Journal of Service Research</em>, to appear"
 file: fem.pdf
 categories: Articles

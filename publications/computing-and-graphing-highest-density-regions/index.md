@@ -7,6 +7,8 @@ title: Computing and graphing highest density regions
 details: "<em>American Statistician</em>, <b>50</b>, 120-126"
 status: Published
 categories: Articles
+aliases:
+  - /publications/hdr/
 tag:
 - density estimation
 - graphics

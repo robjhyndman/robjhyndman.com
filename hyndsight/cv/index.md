@@ -163,7 +163,7 @@ Each `\printbib` command will add a section with all the publications in that ca
 
 You can have additional `\printbib` commands outside the publications environment, but the associated bib items will not be counted in the `sumpapers` value.
 
-Here is [my CV](https://github.com/robjhyndman/CV/raw/master/RobHyndmanCV.pdf) using this style file (although I use different fonts from those loaded in the style file).
+Here is [my CV](http://pkg.robjhyndman.com/CV/Historical/RobHyndmanCV_2012.pdf) using this style file (although I use different fonts from those loaded in the style file).
 
 [Download the style file](/research/cv.sty) and use it yourself. Feel free to modify it as you want.
 
