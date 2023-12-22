@@ -14,7 +14,7 @@ Reliable forecasts of business and economic variables must often be obtained aga
 
 R is widely used as a tool for data analysis and one of the most popular programming languages. This unit delves into R from the programming aspect instead of using it as a data analysis tool. You will learn a variety of programming paradigms and delve into the foundations of R as a programming language.
 
-**[Handbook entry](https://handbook.monash.edu/current/units/ETC4500)**
+**[Unit website](https://arp.numbat.space)**
 
 * * *
 
