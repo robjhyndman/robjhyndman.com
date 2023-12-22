@@ -2,15 +2,19 @@
 pagetitle: "Rob J Hyndman - Teaching"
 ---
 
-# ETC3550: Applied Forecasting for Business and Economics
+# ETC3550/5550: Applied Forecasting
 
 Reliable forecasts of business and economic variables must often be obtained against a backdrop of structural change in markets and the economy. This unit introduces methods suitable for forecasting in these circumstances including the decomposition of time series, exponential smoothing methods, ARIMA modelling, and regression with auto-correlated disturbances. Students can expect to enhance their computer skills with exercises using R.
 
-**[Handbook entry](https://handbook.monash.edu/current/units/ETC3550)**
+**[Unit website](https://af.numbat.space)**
 
-**Textbook:** [*Forecasting: Principles and Practice*, Hyndman & Athanasopoulos (3rd ed., 2021)](https://OTexts.org/fpp3/)
+* * *
 
-[**Slides**](https://github.com/robjhyndman/fpp3_slides)
+# ETC4500/5450: Advanced R Programming
+
+R is widely used as a tool for data analysis and one of the most popular programming languages. This unit delves into R from the programming aspect instead of using it as a data analysis tool. You will learn a variety of programming paradigms and delve into the foundations of R as a programming language.
+
+**[Handbook entry](https://handbook.monash.edu/current/units/ETC4500)**
 
 * * *
 
@@ -47,3 +51,7 @@ This course is for you if you:
 * Eindhoven, Netherlands, 2016
 * [Perth, Australia, 2014](https://robjhyndman.com/seminars/uwa/)
 * [Kandersteg, Switzerland, 2011](https://robjhyndman.com/hyndsight/swissworkshop2011/)
+
+## Related workshops
+
+* [Africast](https://workshop.f4sg.org/africast/)
