@@ -185,7 +185,8 @@ rjh_packages <- function() {
       "thief", "https://pkg.robjhyndman.com/thief/reference/figures/logo.png",
       "tsibble", "https://tsibble.tidyverts.org/reference/figures/logo.png",
       "tsibbledata", "https://tsibbledata.tidyverts.org/reference/figures/logo.png",
-      "vitae", "https://pkg.mitchelloharawild.com/vitae/reference/figures/logo.png"
+      "vitae", "https://pkg.mitchelloharawild.com/vitae/reference/figures/logo.png",
+      "weird", "https://pkg.robjhyndman.com/weird-package/reference/figures/weird-hex.png"
     )
     packages <- cran_github |> left_join(hex_stickers, by = "package")
 
@@ -236,6 +237,7 @@ rjh_packages <- function() {
       add_reference("tsfeatures", "ts-feature-space", "Kang, Hyndman & Smith-Miles (2017)") |>
       add_reference("tsibble", "tsibble", "Wang, Cook & Hyndman (2020)") |>
       add_reference("oddnet", "oddnet", "Kandanaarachchi & Hyndman (2022)")
+
     packages <- left_join(packages, references)
 
     # Improved titles for books and others
@@ -246,7 +248,8 @@ rjh_packages <- function() {
       "fma", "Data sets from <a href='https://robjhyndman.com/forecasting/'>Makridakis, Wheelwright & Hyndman (1998), <i>Forecasting: methods and applications</i>, Wiley</a>",
       "fpp", "Data sets from Hyndman & Athanasopoulos (2014) <i>Forecasting: principles and practice</i>, OTexts",
       "fpp2", "Data sets from <a href='https://OTexts.com/fpp2'>Hyndman & Athanasopoulos (2018) <i>Forecasting: principles and practice</i>, 2nd edition, OTexts</a>",
-      "fpp3", "Data sets from <a href='https://OTexts.com/fpp3'>Hyndman & Athanasopoulos (2021) <i>Forecasting: principles and practice</i>, 3rd edition, OTexts</a>"
+      "fpp3", "Data sets from <a href='https://OTexts.com/fpp3'>Hyndman & Athanasopoulos (2021) <i>Forecasting: principles and practice</i>, 3rd edition, OTexts</a>",
+      "weird", "Functions and data sets from <a href='https://OTexts.com/weird/'>Hyndman (2024) <i>That's weird: anomaly detection using R</i>, OTexts</a>",
     )
     packages <- packages |>
       left_join(extended_titles, by = "package") |>
@@ -318,7 +321,8 @@ rjh_packages <- function() {
           "stray",
           "oddstream",
           "oddwater",
-          "oddnet"
+          "oddnet",
+          "weird"
         )
       ) |>
       add_section(
