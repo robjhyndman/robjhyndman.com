@@ -186,6 +186,7 @@ rjh_packages <- function() {
       "tsibble", "https://tsibble.tidyverts.org/reference/figures/logo.png",
       "tsibbledata", "https://tsibbledata.tidyverts.org/reference/figures/logo.png",
       "vitae", "https://pkg.mitchelloharawild.com/vitae/reference/figures/logo.png",
+      "vital", "https://pkg.robjhyndman.com/vital/reference/figures/vital-hex.png",
       "weird", "https://pkg.robjhyndman.com/weird-package/reference/figures/weird-hex.png"
     )
     packages <- cran_github |> left_join(hex_stickers, by = "package")
