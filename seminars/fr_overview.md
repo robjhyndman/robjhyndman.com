@@ -3,6 +3,8 @@ date: 2023-09-11
 title: "Forecast reconciliation: a brief overview"
 venue: Zalando, Berlin, Germany
 bibliography: hts.bib
+aliases:
+  - /frslides
 link: https://github.com/robjhyndman/fr_overview_talk/raw/main/fr_overview.pdf
 ---
 
@@ -24,9 +26,14 @@ Collections of time series that are formed via aggregation are prevalent in many
 * [hierarchicalforecast library for Python](https://nixtla.github.io/hierarchicalforecast/)
 * [pyhts library for Python](https://angelpone.github.io/)
 
+## Slides for IMS-APRM 2024
+
+<iframe src="https://docs.google.com/gview?url=https://github.com/robjhyndman/fr_overview_talk/raw/main/fr_ims2024.pdf&embedded=true"  width="100%" height=465></iframe>
+<a href="https://github.com/robjhyndman/fr_overview_talk/raw/main/fr_ims2024.pdf" class="badge badge-small badge-red">Download pdf</a>
+
 ## Slides for TSF 2023
 
-<iframe src="https://docs.google.com/gview?url=$link$&embedded=true"  width="100%" height=465></iframe>
+<iframe src="https://docs.google.com/gview?url=https://github.com/robjhyndman/fr_overview_talk/raw/main/fr_tsf2023.pdf&embedded=true"  width="100%" height=465></iframe>
 <a href="https://github.com/robjhyndman/fr_overview_talk/raw/main/fr_tsf2023.pdf" class="badge badge-small badge-red">Download pdf</a>
 
 ## Slides for Zalando and Uni of Melbourne
