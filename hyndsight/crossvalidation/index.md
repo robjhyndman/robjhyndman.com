@@ -19,7 +19,7 @@ However, there is often not enough data to allow some of it to be kept back for 
 
   1. Let observation $i$ form the test set, and fit the model using the remaining data. Then compute the error $(e_{i}^*=y_{i}-\hat{y}_{i})$ for the omitted observation. This is sometimes called a "predicted residual" to distinguish it from an ordinary residual.
   2. Repeat step 1 for $i=1,\dots,n$.
-  3. Compute the MSE from $e_{1}^\*,\dots,e_{n}^\*$. We shall call this the CV.
+  3. Compute the MSE from $e_{1}^*,\dots,e_{n}^*$. We shall call this the CV.
 
 This is a much more efficient use of the available data, as you only omit one observation at each step. However, it can be very time consuming to implement (except for linear models --- see below).
 
@@ -91,7 +91,7 @@ When the data are not independent cross-validation becomes more difficult as lea
 
   1. Fit the model to the data $y_1,\dots,y_t$ and let $\hat{y}_{t+1}$ denote the forecast of the next observation. Then compute the error $(e_{t+1}^*=y_{t+1}-\hat{y}_{t+1})$ for the forecast observation.
   2. Repeat step 1 for $t=m,\dots,n-1$ where $m$ is the minimum number of observations needed for fitting the model.
-  3. Compute the MSE from $e_{m+1}^\*,\dots,e_{n}^\*$.
+  3. Compute the MSE from $e_{m+1}^*,\dots,e_{n}^*$.
 
 
 ### References
