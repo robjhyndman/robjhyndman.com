@@ -7,4 +7,5 @@ tags:
 - forecasting
 file: fr_editorial.pdf
 details: <em>International Journal of Forecasting</em>, to appear
+doi: 10.1016/j.ijforecast.2024.01.003
 ---
