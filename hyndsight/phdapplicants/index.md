@@ -9,6 +9,10 @@ categories:
 - supervision
 ---
 
+**Update** (28 January 2024): I am no longer taking new PhD students.
+
+* * *
+
 **For students who are interested in doing a PhD at Monash under my supervision.**
 
 First, check that you satisfy the following criteria:
