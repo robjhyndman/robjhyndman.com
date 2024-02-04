@@ -11,7 +11,7 @@ tags:
 - macroeconomics
 - time series
 doi: 10.1016/j.ejor.2020.09.046
-link: https://www.research-collection.ethz.ch/handle/20.500.11850/354388
+link: https://researchmgt.monash.edu/ws/portalfiles/portal/336582766/324412937_oa.pdf
 github: florian-eckert/hierarch_bayes
 ---
 
