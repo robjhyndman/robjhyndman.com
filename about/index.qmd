@@ -120,11 +120,11 @@ I am a fellow of the following organizations:
 ## Conference organization
 
   * Chair, [IIF Workshop on Forecast Reconciliation](/prato2023/index.qmd), 2023.
+  * Organizing committee, UserR! 2018.
+  * Organizing committee, Shonan high-dimensional time series workshop, 2018.
   * General Chair, International Symposium on Forecasting, 2017.
   * Program Chair, International Symposium on Forecasting, 2012.
   * Program Co-Chair, International Symposium on Forecasting, 2004.
-
-
 
 ## Awards and honours
 
