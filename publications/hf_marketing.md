@@ -1,6 +1,6 @@
 ---
 title: "Forecasting system’s accuracy: a framework for the comparison of different structures"
-date: "2023-09-06"
+date: "2023-09-19"
 author:  Carla Freitas Silveira Netto, Vinicius A Brei, Rob J Hyndman
 categories: Articles
 details: "<em>Applied Stochastic Models in Business and Industry</em>, to appear"

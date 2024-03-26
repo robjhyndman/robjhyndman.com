@@ -6,6 +6,7 @@ aliases:
   - '/fems/'
 details: "<em>Journal of Service Research</em>, to appear"
 file: fem.pdf
+doi: 10.1177/10946705241232169
 categories: Articles
 ---
 
