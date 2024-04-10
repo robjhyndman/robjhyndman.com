@@ -4,13 +4,21 @@ date: 2024-04-09
 categories:
   - forecasting
 image: https://otexts.com/fpp3/fpp_files/figure-html/biasadjust-1.png
-description: There is sometimes confusion between "forecast variance" and "forecast error variance". In fact, they are the same thing.
+description: There is sometimes confusion between "forecast variance" and "forecast error variance". In fact, they are the same thing, ignoring estimation error.
 ---
 
-Suppose we have a probabilistic forecast with estimated mean $\hat{\mu}_{T+h|T}$ and estimated variance $\hat{V}_{T+h|T}$.  That is, our estimated distribution of the future observation $y_{T+h}$, based on the data $y_1,\dots,y_T$, has mean $\hat{\mu}_{T+h|T}$ and variance $\hat{V}_{T+h|T}$. The **forecast variance** refers to $\hat{V}_{T+h|T}$, the estimated variance of the forecast distribution.
+Forecasting is all about estimating the distribution of future observations, conditional on the data available at the time of the forecast. Suppose we want to estimate the distribution of $y_{T+h}$, using the data $y_1,\dots,y_T$. Let $\mu_{T+h|T}$ denote the mean and $V_{T+h|T}$ denote the variance of this distribution. The **forecast variance** refers to $V_{T+h|T}$.
+
+Our forecasting model will provide us with an estimate of the mean and variance of this distribution. Let $\hat{\mu}_{T+h|T}$ denote the estimated mean and $\hat{V}_{T+h|T}$ denote the estimated variance.
 
 Now let our point forecast be denoted by $\hat{y}_{T+h|T}$. In most cases, the point forecast is the mean of the forecast distribution, i.e., $\hat{y}_{T+h|T} = \hat{\mu}_{T+h|T}$; but occasionally it might the median, or some other quantity.
 
-The **forecast error variance** refers to the variance of the forecast error, i.e., $\text{Var}(y_{T+h} - \hat{y}_{T+h|T})$. Ignoring any estimation error, this is clearly the same thing as the $\hat{V}_{T+h|T}$, regardless of whether the point forecast is the mean of the forecast distribution or not.
+The **forecast error variance** refers to the variance of the forecast error, i.e., $\text{Var}(y_{T+h} - \hat{y}_{T+h|T} \mid y_1,\dots,y_T)$. I've included the conditioning explicitly, just to make it clear that in forecasting we are always conditioning on the data available at the time of the forecast. If the point forecast is the mean of the forecast distribution, then the forecast error variance is $\text{Var}(y_{T+h} - \hat{\mu}_{T+h|T} \mid y_1,\dots,y_T)$, which is clearly the same as $V_{T+h|T}$ if we ignore the estimation error in obtaining the point forecast $\hat{\mu}_{T+h|T}$. But if we ignore the estimation error in the point forecast, then the same holds true for any point forecast; that is
+$$
+  \text{Var}(y_{T+h} - \hat{y}_{T+h|T} \mid y_1,\dots,y_T) = V_{T+h|T}.
+$$
+when we treat $\hat{y}_{T+h|T}$ as a constant. Hence, the forecast variance is the same as the forecast error variance, ignoring estimation error.
+
+Now it might be said that estimation error is important, and we shouldn't just glibly ignore it. But in fact, it is usually the smallest source of error in a forecast. The noise in the data is usually far larger, and so the forecast error variance is usually a good approximation to the forecast variance.
 
 Occasionally I see the term "forecast variance" used to mean $\text{Var}(\hat{y}_{T+h|T})$; i.e., the variance of the point forecast estimate. However, that quantity is rarely of interest to a forecaster --- we are usually interested in the distribution of a future observation, not in the distribution of the point forecast estimate.
