@@ -4,7 +4,7 @@ date: 2024-04-09
 categories:
   - forecasting
 image: https://otexts.com/fpp3/fpp_files/figure-html/biasadjust-1.png
-description: There is sometimes confusion between "forecast variance" and "forecast error variance". In fact, they are the same thing, assuming we have a good model and ignoring estimation error.
+description: There is sometimes confusion between "forecast variance" and "forecast error variance". In fact, they are the same thing, ignoring estimation error.
 ---
 
 Forecasting is all about estimating the distribution of future observations, conditional on the data available at the time of the forecast. Suppose we want to estimate the distribution of $y_{T+h}$, using the data $y_1,\dots,y_T$. Let $\mu_{T+h|T}$ denote the mean and $V_{T+h|T}$ denote the variance of this distribution. The **forecast variance** refers to $V_{T+h|T}$.
@@ -20,7 +20,5 @@ $$
 when we treat $\hat{y}_{T+h|T}$ as a constant. Hence, the forecast variance is the same as the forecast error variance, ignoring estimation error.
 
 Now it might be said that estimation error is important, and we shouldn't just glibly ignore it. But in fact, it is usually the smallest source of error in a forecast. The noise in the data is usually far larger, and so the forecast error variance is usually a good approximation to the forecast variance.
-
-I've also ignored model error. That is, I have assumed our model is at least approximately correct, so that the estimated mean and variance from the model are reasonable estimates of the true mean and variance. If the model is wrong, then the forecast error variance could be much larger than the (true) forecast variance.
 
 Occasionally I see the term "forecast variance" used to mean $\text{Var}(\hat{y}_{T+h|T})$; i.e., the variance of the point forecast estimate. However, that quantity is rarely of interest to a forecaster --- we are usually interested in the distribution of a future observation, not in the distribution of the point forecast estimate.
