@@ -1,6 +1,7 @@
 ---
 title: Forecast variance and forecast error variance
 date: 2024-04-09
+draft: true
 categories:
   - forecasting
 image: https://otexts.com/fpp3/fpp_files/figure-html/biasadjust-1.png
