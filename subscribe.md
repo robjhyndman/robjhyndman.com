@@ -1,6 +1,6 @@
 # Subscribe to new posts
 
-### Get new content in a weekly email {-}
+## Get new content in a weekly email {-}
 
 <style>
   .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview {
@@ -102,32 +102,9 @@
     max-height: 1.13em !important;
   }
 </style>
-<div class="followit--follow-form-container" attr-a attr-b attr-c attr-d attr-e attr-f>
-  <form data-v-1bbcb9ec=""
-    action="https://api.follow.it/subscription-form/ZFVJSy9vTHRxbWpoL3BzVUtWN0J0SmwwTGhmV0lhc1Q3d1hiWTBPZGE3QTVPMmhjcklkemZUdXdxWThLc1FGT2lqWW81R0x1NEtrbUl6bHZIejRlelA1dUtQZUZkOEUvOGw2Y3ZyK0dxYm8zUi95cEp5QklaVjA3eXRHQm1Ra2d8OHJaV3F1WkNPTmxTZ3VpVGRSNkcwWDBKd0JpZ25wTDZ2Ump6WkNuaDR1Yz0=/8"
-    method="post">
-    <div data-v-1bbcb9ec="" class="form-preview"
-      style="background-color: rgb(255, 255, 255); border-style: solid; border-width: 1px; border-color: rgb(204, 204, 204); position: relative;">
-      <div data-v-1bbcb9ec="" class="preview-heading">
-        <h5 data-v-1bbcb9ec=""
-          style="text-transform: none !important; font-family: Arial; font-weight: bold; color: rgb(0, 0, 0); font-size: 16px; text-align: center;">
-          Get new posts by email:
-        </h5>
-      </div>
-      <div data-v-1bbcb9ec="" class="preview-input-field"><input data-v-1bbcb9ec="" type="email" name="email"
-          required="required" placeholder="Enter your email" spellcheck="false"
-          style="text-transform: none !important; font-family: Arial; font-weight: normal; color: rgb(0, 0, 0); font-size: 14px; text-align: center; background-color: rgb(255, 255, 255);">
-      </div>
-      <div data-v-1bbcb9ec="" class="preview-submit-button"><button data-v-1bbcb9ec="" type="submit"
-          style="text-transform: none !important; font-family: Arial; font-weight: bold; color: rgb(255, 255, 255); font-size: 16px; text-align: center; background-color: rgb(0, 0, 0);">
-          Subscribe
-        </button></div>
-    </div>
-  </form><a href="https://follow.it" class="powered-by-line">Powered by <img
-      src="https://follow.it/static/img/colored-logo.svg" alt="follow.it" height="17px" /></a>
-</div>
+<div class="followit--follow-form-container" attr-a attr-b attr-c attr-d attr-e attr-f><form data-v-1bbcb9ec="" action="https://api.follow.it/subscription-form/ZFVJSy9vTHRxbWpoL3BzVUtWN0J0SmwwTGhmV0lhc1Q3d1hiWTBPZGE3QTVPMmhjcklkemZUdXdxWThLc1FGT2lqWW81R0x1NEtrbUl6bHZIejRlelA1dUtQZUZkOEUvOGw2Y3ZyK0dxYm8zUi95cEp5QklaVjA3eXRHQm1Ra2d8OHJaV3F1WkNPTmxTZ3VpVGRSNkcwWDBKd0JpZ25wTDZ2Ump6WkNuaDR1Yz0=/8" method="post"><div data-v-1bbcb9ec="" class="form-preview" style="background-color: rgb(255, 255, 255); border-style: none; position: relative;"><div data-v-1bbcb9ec="" class="preview-heading"></div> <div data-v-1bbcb9ec="" class="preview-input-field"><input data-v-1bbcb9ec="" type="email" name="email" required="required" placeholder="Enter your email" spellcheck="false" style="text-transform: none !important; font-family: 'Fira Sans', sans-serif; font-weight: normal; color: rgb(0, 0, 0); font-size: 14px; text-align: center; background-color: rgb(255, 255, 255);"></div><br><div data-v-1bbcb9ec="" class="preview-submit-button"><button data-v-1bbcb9ec="" type="submit" style="text-transform: none !important; font-family: 'Fira Sans', sans-serif; font-weight: bold; color: rgb(255, 255, 255); font-size: 16px; text-align: center; background-color: rgb(0, 0, 0);">Subscribe</button></div></div></form></div>
 
-### Get new content via RSS {-}
+## Get new content via RSS {-}
 
 * [All posts](/index.xml)
 * [Only publications](/publications/index.xml)
