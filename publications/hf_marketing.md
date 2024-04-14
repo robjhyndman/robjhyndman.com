@@ -3,7 +3,7 @@ title: "Forecasting system’s accuracy: a framework for the comparison of diffe
 date: "2024-04-14"
 author:  Carla Freitas Silveira Netto, Vinicius A Brei, Rob J Hyndman
 categories: Articles
-details: "<em>Applied Stochastic Models in Business and Industry</em>, 40(2), 462-482."
+details: "<em>Applied Stochastic Models in Business and Industry</em>, 40(2), 462-482"
 doi: 10.1002/asmb.2823
 ---
 
