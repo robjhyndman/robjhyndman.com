@@ -126,11 +126,17 @@ quarto install extension numbats/monash-quarto-report
 
 ## [Monash Thesis Template](https://github.com/numbats/monash-quarto-thesis)
 
-This is a Quarto template that assists you in creating a Monash University thesis.
+This is a Quarto template for a Monash University thesis.
 
 <table>
-<tr><td width = 700 valign="top">
-Either fork or download [the repository](https://github.com/numbats/monash-quarto-thesis) to get started.
+<tr><td valign="top">
+
+```
+quarto use template numbats/monash-quarto-thesis
+```
+
+This will copy the template to your current directory, which you can use as a starting place for your thesis.
+
 </td><td width=300 valign="top" align="right">
 [![](https://github.com/numbats/monash-quarto-thesis/raw/main/examples/template.png){width=300 fig-align='right'}](https://github.com/numbats/monash-quarto-thesis)
 </td>
