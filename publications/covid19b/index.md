@@ -1,11 +1,12 @@
 ---
-author: Nick Golding, Freya M Shearer, Robert Moss, Peter Dawson, Dennis Liu, Joshua V Ross, Rob J Hyndman, Pablo Montero-Manso, Gerry Ryan, Tobin South, Jodie McVernon, David J Price, and James M McCaw
-date: 2021-05-28
-slug: covid19b
-title: "Situational assessment of COVID-19 in Australia"
+author: "Adeshina Adekunle, Aarathy Babu, Peter Dawson, David Duncan, Nicholas Geard, Kathryn Glass, Nick Golding, Tianxiao Hao, Rob J Hyndman, Dennis Liu, Michael Lydeamore, Emma McBride, James McCaw, Jodie McVernon, Michael Meehan, Pablo Montero-Manso, Dylan Morris, Rob Moss, Mitchell O'Hara-Wild, David Price, Joshua Ross, Gerard Ryan, Katharine Senior, Freya Shearer, Tobin Smith, Mingmei Teo, Ruarai Tobin, Camelia Walker, Saras Windecker, James Wood"
+date: 2023-12-31
+title: "Series of weekly COVID-19 epidemic situational assessment reports submitted to the Australian Government Department of Health, Office of Health Protection, from April 2020 to December 2023"
 categories: Miscellaneous
 tags:
 - epidemiology
 - forecasting
-link: https://www.doherty.edu.au/uploads/content_doc/Technical_Report_15_March_2021_RELEASED_VERSION.pdf
+doi: 10.26188/24845328.v3
 ---
+
+test
