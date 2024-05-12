@@ -27,7 +27,7 @@ title: "Research team"
   1. **[Shu Fan](http://users.monash.edu.au/~shufan/)**
   1. **[Puwasala Gamakumara](https://puwasala.netlify.app/)** [{{< fa brands github >}}](https://github.com/PuwasalaG)
   1. **[Bin Jiang](https://www.linkedin.com/in/bin-jiang-44918b28/)**
-  1. **[Sevvandi Kandanaarachchi](https://sevvandi.netlify.com/)** [{{< fa brands github >}}](https://github.com/sevvandi)
+  1. **[Sevvandi Kandanaarachchi](https://sevvandi.netlify.app/)** [{{< fa brands github >}}](https://github.com/sevvandi)
   1. **[Yanfei Kang](http://yanfei.site)** [{{< fa brands github >}}](https://github.com/ykang)
   1. **[Stuart Lee](https://stuartlee.org/)** [{{< fa brands github >}}](https://github.com/sa-lee/)
   1. **[Zhuo Li](https://sites.google.com/view/zhuo-li/home)**
