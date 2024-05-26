@@ -12,7 +12,7 @@ slug: "in-the-news"
   * [New pension age signals unsustainable trend, experts say](https://www.agedcareguide.com.au/talking-aged-care/new-pension-age-signals-unsustainable-trend-experts-say), Aged Care Guide, 26 April 2023.
   * [Citations for outstanding contributions to student learning](https://campusmorningmail.com.au/news/citations-for-outstanding-contributions-to-student-learning/), Campus Morning Mail, 22 February 2023.
   * [Rethinking COVID hegemony](https://www.croakey.org/rethinking-covid-hegemony/), Croakey, 1 February 2023.
-  * [Australia may not like China but likes Chinese tourists](https://www.indepthnews.net/index.php/sustainability/covid-19/5865-australia-may-not-like-china-but-likes-chinese-tourists), IDN-InDepthNews, 11 January 2023.
+  * [Australia may not like China but likes Chinese tourists](https://indepthnews.net/australia-may-not-like-china-but-likes-chinese-tourists/), IDN-InDepthNews, 11 January 2023.
   * ["Australian governments have kept much of their COVID research and modelling secret. Why?"](https://www.abc.net.au/news/2023-01-07/covid-data-government-secrecy/101827548), ABC News, 7 January 2023.
   * ["Business School joins new $7.86 million industrial transformation research centre"](https://www.monash.edu/business/news/2022/business-school-joins-new-$7.86-million-industrial-transformation-research-centre/), Monash News, 23 November 2022.
   * ["Monash University’s Rob Hyndman awarded the Pitman Medal 2021"](https://busycontinent.com/monash-universitys-rob-hyndman-awarded/), Busy Continent, 28 July 2021.
@@ -66,7 +66,7 @@ slug: "in-the-news"
   * [Rob Hyndman receives an HP Innovation Research Award](https://web.archive.org/web/20120710042405/http://news-events.buseco.monash.edu.au/2010/07/rob-hyndman-receives-an-hp-innovation-research-award/): *Monash Business and Economics Faculty News*, 12 July 2010.
   * [Wheels inaccurate](http://web.archive.org/web/20100915023256/http://www.countrynews.com.au:80/story.asp?TakeNo=201005312508795): *Country News*, 31 May 2010.
   * [Ranking Economic Forecasts](https://web.archive.org/web/20090831200809/http://blogs.reuters.com/macroscope/2009/08/27/ranking-economic-forecasts/): *Reuters*, 27 August 2009.
-  * [Statistics experts label ISP filtering trials unscientific](http://www.arnnet.com.au/article/312845/statistics_experts_label_isp_filtering_trials_unscientific/): 29 July 2009.
+  * [Statistics experts label ISP filtering trials unscientific](https://web.archive.org/web/20231109131828/https://www.arnnet.com.au/article/312845/statistics_experts_label_isp_filtering_trials_unscientific/): 29 July 2009.
   * Winning the 2008 vice-chancellor's postgraduate supervision award:
      - [Faculty news](https://web.archive.org/web/20110415161102/http://www.buseco.monash.edu.au/news/buseco-bulletin08/august/stories/moranmedal.html)
      - [Monash memo](http://adm.monash.edu/records-archives/archives/memo-archive/2004-2007/stories/20080820/research-awards.html)
