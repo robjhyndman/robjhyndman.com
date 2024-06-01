@@ -1,12 +1,12 @@
 ---
 title: "Cross-temporal probabilistic forecast reconciliation: Methodological and practical issues"
-date: "2023-11-07"
+date: "2024-07-01"
 author:  Daniele Girolimetto, George Athanasopoulos, Tommaso Di Fonzo, Rob J Hyndman
 github: daniGiro/ctprob
 arxiv: 2303.17277
 link: https://github.com/danigiro/ctprob/raw/main/paper/CTprob.pdf
 categories: Articles
-details: "<em>International Journal of Forecasting</em>, to appear"
+details: "<em>International Journal of Forecasting</em>, 40(3), 1134-1151"
 doi: 10.1016/j.ijforecast.2023.10.003
 aliases:
   - /ctprob
