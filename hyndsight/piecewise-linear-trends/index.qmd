@@ -50,7 +50,7 @@ x1 <- seq(T)
 fit <- auto.arima(livestock, xreg=x1)
 fc <- forecast(fit, xreg=T+seq(10))
 b0 <- coef(fit)["intercept"]
-b1 <- coef(fit)["x1"]
+b1 <- coef(fit)["xreg"]
 t <- seq(T+10)
 trend <- ts(b0 + b1*t, start=start(livestock))
 
