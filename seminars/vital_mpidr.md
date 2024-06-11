@@ -2,6 +2,7 @@
 date: 2024-06-26
 title: "Tidy data analysis for demography using R"
 venue: Max Planck Institute for Demographic Research, Rostock, Germany
+aliases: ["/mpidr2024"]
 link: https://github.com/robjhyndman/vital-talk/raw/main/vital.pdf
 ---
 
