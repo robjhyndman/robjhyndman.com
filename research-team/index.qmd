@@ -15,7 +15,7 @@ title: "Research team"
   4. [**Mitchell O'Hara-Wild**](https://mitchelloharawild.com) *Tools for forecasting large collections of time series* (PhD, begun 2023). [{{< fa brands github >}}](https://github.com/mitchelloharawild)
   5. [**Nuwani Palihawadana**](https://optima.org.au/staff/nuwani-palihawadana/). *Optimal predictor selection for high-dimensional nonparametric forecasting* (PhD, begun 2020).  [{{< fa brands github >}}](https://github.com/nuwani-palihawadana)
   6. **Sixian (Alice) Tang**. *Mortality forecasting* (PhD, begun 2020).
-  7. **[Fin Yang](https://yangzhuoranyang.com/)**. *Forecast reconciliation with linear combinations* (PhD, begun 2020). [{{< fa brands github >}}](https://github.com/finyang/)
+  7. **[Fin Yang](https://yangzhuoranyang.com/)**. *Component-based Methods in Multivariate and Hierarchical Time Series Forecasting* (PhD, submitted 2024). [{{< fa brands github >}}](https://github.com/finyang/)
 
 ## Former research fellows
 
