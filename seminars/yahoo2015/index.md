@@ -9,7 +9,7 @@ venue: Yahoo Campus, Sunnyvale, California
 slideshare: kwYZMnav4qyD5D
 ---
 
-### **[Yahoo Big Thinkers](https://labs.yahoo.com/news/big-thinker-rob-hyndman-explores-science-forecasting-and-prediction)**
+### **Yahoo Big Thinkers**
 
 Sunnyvale, California
 
