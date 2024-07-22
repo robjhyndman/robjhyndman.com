@@ -10,7 +10,7 @@ image: /img/monash_letter_template.png
 description: "I've created some quarto templates with Monash University branding."
 ---
 
-## [Monash Letter Template](https://github.com/numbats/monash-quarto-letter)
+## [Monash Letter Template](https://github.com/quarto-monash/letter)
 
 This is a Quarto template that assists you in creating a letter on
 Monash University letterhead.
@@ -19,7 +19,7 @@ Monash University letterhead.
 <tr><td valign="top">
 
 ```
-quarto use template numbats/monash-quarto-letter
+quarto use template quarto-monash/letter
 ```
 
 This will install the extension and create an example qmd file that you
@@ -30,16 +30,16 @@ document. From the quarto project or document directory, run the
 following command to install this format:
 
 ```
-quarto install extension numbats/monash-quarto-letter
+quarto install extension quarto-monash/letter
 ```
 
 </td><td valign="top">
-[![](https://github.com/numbats/monash-quarto-letter/raw/main/examples/template.png){width=700}](https://github.com/numbats/monash-quarto-letter)
+[![](https://github.com/quarto-monash/letter/raw/main/examples/template.png){width=700}](https://github.com/quarto-monash/letter)
 </td>
 </tr>
 </table>
 
-## [Monash Memo Template](https://github.com/numbats/monash-quarto-memo)
+## [Monash Memo Template](https://github.com/quarto-monash/memo)
 
 This is a Quarto template that assists you in creating a memo, with optional Monash University branding.
 
@@ -47,7 +47,7 @@ This is a Quarto template that assists you in creating a memo, with optional Mon
 <tr><td valign="top">
 
 ```
-quarto use template numbats/monash-quarto-memo
+quarto use template quarto-monash/memo
 ```
 
 This will install the extension and create an example qmd file that you
@@ -58,17 +58,17 @@ document. From the quarto project or document directory, run the
 following command to install this format:
 
 ```
-quarto install extension numbats/monash-quarto-memo
+quarto install extension quarto-monash/memo
 ```
 
 </td><td valign="top">
-[![](https://github.com/numbats/monash-quarto-memo/raw/main/examples/template.png){width=700}](https://github.com/numbats/monash-quarto-memo)
+[![](https://github.com/quarto-monash/memo/raw/main/examples/template.png){width=700}](https://github.com/quarto-monash/memo)
 </td>
 </tr>
 </table>
 
 
-## [Monash Working Paper Template](https://github.com/numbats/monash-quarto-workingpaper)
+## [Monash Working Paper Template](https://github.com/quarto-monash/workingpaper)
 
 This is a Quarto template that assists you in creating a working paper for the Department of Econometrics & Business Statistics, Monash University.
 
@@ -76,7 +76,7 @@ This is a Quarto template that assists you in creating a working paper for the D
 <tr><td valign="top">
 
 ```
-quarto use template numbats/monash-quarto-workingpaper
+quarto use template quarto-monash/workingpaper
 ```
 
 This will install the extension and create an example qmd file that you
@@ -87,16 +87,16 @@ document. From the quarto project or document directory, run the
 following command to install this format:
 
 ```
-quarto install extension numbats/monash-quarto-workingpaper
+quarto install extension quarto-monash/workingpaper
 ```
 
 </td><td valign="top">
-[![](https://github.com/numbats/monash-quarto-workingpaper/raw/main/examples/template.png){width=900}](https://github.com/numbats/monash-quarto-workingpaper)
+[![](https://github.com/quarto-monash/workingpaper/raw/main/examples/template.png){width=900}](https://github.com/quarto-monash/workingpaper)
 </td>
 </tr>
 </table>
 
-## [Monash Report Template](https://github.com/numbats/monash-quarto-report)
+## [Monash Report Template](https://github.com/quarto-monash/report)
 
 This is a Quarto template that assists you in creating a Monash University report.
 
@@ -104,7 +104,7 @@ This is a Quarto template that assists you in creating a Monash University repor
 <tr><td valign="top">
 
 ```
-quarto use template numbats/monash-quarto-report
+quarto use template quarto-monash/report
 ```
 
 This will install the extension and create an example qmd file that you
@@ -115,16 +115,16 @@ document. From the quarto project or document directory, run the
 following command to install this format:
 
 ```
-quarto install extension numbats/monash-quarto-report
+quarto install extension quarto-monash/report
 ```
 
 </td><td valign="top">
-[![](https://github.com/numbats/monash-quarto-report/raw/main/examples/template.png){width=900}](https://github.com/numbats/monash-quarto-report)
+[![](https://github.com/quarto-monash/report/raw/main/examples/template.png){width=900}](https://github.com/quarto-monash/report)
 </td>
 </tr>
 </table>
 
-## [Monash Thesis Template](https://github.com/numbats/monash-quarto-thesis)
+## [Monash Thesis Template](https://github.com/quarto-monash/thesis)
 
 This is a Quarto template for a Monash University thesis.
 
@@ -132,13 +132,42 @@ This is a Quarto template for a Monash University thesis.
 <tr><td valign="top">
 
 ```
-quarto use template numbats/monash-quarto-thesis
+quarto use template quarto-monash/thesis
 ```
 
 This will copy the template to your current directory, which you can use as a starting place for your thesis.
 
 </td><td width=300 valign="top" align="right">
-[![](https://github.com/numbats/monash-quarto-thesis/raw/main/examples/template.png){width=300 fig-align='right'}](https://github.com/numbats/monash-quarto-thesis)
+[![](https://github.com/quarto-monash/thesis/raw/main/examples/template.png){width=300 fig-align='right'}](https://github.com/quarto-monash/thesis)
+</td>
+</tr>
+</table>
+
+
+## [Monash Presentation Template](https://github.com/quarto-monash/report)
+
+This is a Quarto template that assists you in creating a presentation using either Beamer (pdf) or RevealJS (html), with Monash University branding.
+
+<table>
+<tr><td valign="top">
+
+```
+quarto use template quarto-monash/presentation
+```
+
+This will install the extension and create an example qmd file that you
+can use as a starting place for your presentation.
+
+You may also use this format with an existing Quarto project or
+document. From the quarto project or document directory, run the
+following command to install this format:
+
+```
+quarto install extension quarto-monash/presentation
+```
+
+</td><td valign="top" width = 300>
+[![](https://github.com/quarto-monash/presentation/raw/main/examples/pdftemplate.png){width=1200}](https://github.com/quarto-monash/presentation)
 </td>
 </tr>
 </table>
