@@ -30,16 +30,16 @@ for(i in seq_along(sections)) {
 
 <table>
 <tr><td valign="top">
-[![](https://github.com/numbats/monash-quarto-letter/raw/main/examples/template.png){width=120}](https://github.com/numbats/monash-quarto-letter)
+[![](https://github.com/quarto-monash/letter/raw/main/examples/template.png){width=120}](https://github.com/quarto-monash/letter)
 </td>
 <td valign="top" width="85%">
 
-### [Monash Letter Template](https://github.com/numbats/monash-quarto-letter)
+### [Monash Letter Template](https://github.com/quarto-monash/letter)
 
-Create a letter on Monash University letterhead.
+Create a letter on Monash Business School letterhead.
 
 ```
-quarto use template numbats/monash-quarto-letter
+quarto use template quarto-monash/letter
 ```
 
 </td>
@@ -48,15 +48,32 @@ quarto use template numbats/monash-quarto-letter
 
 <table>
 <tr><td valign="top">
-[![](https://github.com/numbats/monash-quarto-memo/raw/main/examples/template.png){width=120}](https://github.com/numbats/monash-quarto-memo)
+[![](https://github.com/quarto-monash/memo/raw/main/examples/template.png){width=120}](https://github.com/quarto-monash/memo)
 </td>
 <td valign="top" width="85%">
-### [Monash Memo Template](https://github.com/numbats/monash-quarto-memo)
+### [Monash Memo Template](https://github.com/quarto-monash/memo)
 
-Create a memo with optional Monash University branding.
+Create a memo with optional Monash Business School branding.
 
 ```
-quarto use template numbats/monash-quarto-memo
+quarto use template quarto-monash/memo
+```
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr><td>
+[![](https://github.com/quarto-monash/presentation/raw/main/examples/pdftemplate.png){width=120}](https://github.com/quarto-monash/presentation)
+</td>
+<td valign="top" width="85%">
+### [Monash Presentation Template](https://github.com/quarto-monash/presentation)
+
+Create a Monash University themed presentation using either Beamer or RevealJS.
+
+```
+quarto use template quarto-monash/presentation
 ```
 
 </td>
@@ -65,46 +82,49 @@ quarto use template numbats/monash-quarto-memo
 
 <table>
 <tr><td valign="top">
-[![](https://github.com/numbats/monash-quarto-workingpaper/raw/main/examples/template.png){width=120}](https://github.com/numbats/monash-quarto-workingpaper)
+[![](https://github.com/quarto-monash/report/raw/main/examples/template.png){width=120}](https://github.com/quarto-monash/report)
 </td><td valign="top" width="85%">
-### [Monash Working Paper Template](https://github.com/numbats/monash-quarto-workingpaper)
+### [Monash Report Template](https://github.com/quarto-monash/report)
+
+Create a Monash Business School consulting report.
+
+```
+quarto use template quarto-monash/report
+```
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr><td valign="top">
+[![](https://github.com/quarto-monash/thesis/raw/main/examples/template.png){width=120 fig-align='right'}](https://github.com/quarto-monash/thesis)
+</td>
+<td valign="top" width="85%">
+### [Monash Thesis Template](https://github.com/quarto-monash/thesis)
+
+Create a Monash University thesis.
+
+```
+quarto use template quarto-monash/thesis
+```
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr><td valign="top">
+[![](https://github.com/quarto-monash/workingpaper/raw/main/examples/template.png){width=120}](https://github.com/quarto-monash/workingpaper)
+</td><td valign="top" width="85%">
+### [Monash Working Paper Template](https://github.com/quarto-monash/workingpaper)
 
 Create a working paper for the Department of Econometrics & Business Statistics, Monash University.
 
 ```
-quarto use template numbats/monash-quarto-workingpaper
+quarto use template quarto-monash/workingpaper
 ```
 
-</td>
-</tr>
-</table>
-
-<table>
-<tr><td valign="top">
-[![](https://github.com/numbats/monash-quarto-report/raw/main/examples/template.png){width=120}](https://github.com/numbats/monash-quarto-report)
-</td><td valign="top" width="85%">
-### [Monash Report Template](https://github.com/numbats/monash-quarto-report)
-
-Create a Monash University report.
-
-```
-quarto use template numbats/monash-quarto-report
-```
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr><td valign="top">
-[![](https://github.com/numbats/monash-quarto-thesis/raw/main/examples/template.png){width=120 fig-align='right'}](https://github.com/numbats/monash-quarto-thesis)
-</td>
-<td valign="top" width="85%">
-### [Monash Thesis Template](https://github.com/numbats/monash-quarto-thesis)
-
-Create a Monash University thesis.
-
-Either fork or download [the repository](https://github.com/numbats/monash-quarto-thesis) to get started.
 </td>
 </tr>
 </table>
