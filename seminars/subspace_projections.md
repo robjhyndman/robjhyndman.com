@@ -3,6 +3,8 @@ date: 2024-09-19
 title: "Improving forecasts via subspace projections"
 venue: Curtin University
 bibliography: hts.bib
+aliases:
+    - /curtin2024
 nocite: |
    - @hierarchical
    - @mint
