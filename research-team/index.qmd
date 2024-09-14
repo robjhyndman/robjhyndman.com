@@ -21,20 +21,21 @@ title: "Research team"
 
   1. **[Muhammad Akram](https://www.acu.edu.au/research-and-enterprise/our-research-institutes/mary-mackillop-institute-for-health-research/our-people/muhammad-akram)**
   2. **[George Athanasopoulos](https://research.monash.edu/en/persons/george-athanasopoulos)** [{{< fa brands github >}}](https://github.com/georgeAthana)
-  3. **[Baki Billah](https://research.monash.edu/en/persons/md-billah)**
-  4. **[Gary Deng](https://www.linkedin.com/in/gary-minfeng-deng)**
-  5. **[Bircan Erbas](https://scholars.latrobe.edu.au/display/berbas)**
-  6. **[Shu Fan](http://users.monash.edu.au/~shufan/)**
-  7. **[Puwasala Gamakumara](https://puwasala.netlify.app/)** [{{< fa brands github >}}](https://github.com/PuwasalaG)
-  8. **[Bin Jiang](https://www.linkedin.com/in/bin-jiang-44918b28/)**
-  9.  **[Sevvandi Kandanaarachchi](https://sevvandi.netlify.app/)** [{{< fa brands github >}}](https://github.com/sevvandi)
-  10. **[Yanfei Kang](http://yanfei.site)** [{{< fa brands github >}}](https://github.com/ykang)
-  11. **[Stuart Lee](https://stuartlee.org/)** [{{< fa brands github >}}](https://github.com/sa-lee/)
-  12. **[Zhuo Li](https://sites.google.com/view/zhuo-li/home)**
-  13. **[Pablo Montero-Manso](https://www.sydney.edu.au/business/about/our-people/academic-staff/pablo-monteromanso.html)** [{{< fa brands github >}}](https://github.com/pmontman)
-  14. **[Ingrida Steponavičė](http://users.monash.edu/~ingridas/)**
-  15. **[Nick Tierney](https://www.njtierney.com/)** [{{< fa brands github >}}](https://github.com/njtierney)
-  16. **[Shanika Wickramasuriya](https://research.monash.edu/en/persons/shanika-wickramasuriya)** [{{< fa brands github >}}](https://github.com/ShanikaLW)
+  3. **[Christoph Bergmeir](https://www.cbergmeir.com/)** [{{< fa brands github >}}](https://github.com/cbergmeir)
+  4. **[Baki Billah](https://research.monash.edu/en/persons/md-billah)**
+  5. **[Gary Deng](https://www.linkedin.com/in/gary-minfeng-deng)**
+  6. **[Bircan Erbas](https://scholars.latrobe.edu.au/display/berbas)**
+  7. **[Shu Fan](http://users.monash.edu.au/~shufan/)**
+  8. **[Puwasala Gamakumara](https://puwasala.netlify.app/)** [{{< fa brands github >}}](https://github.com/PuwasalaG)
+  9. **[Bin Jiang](https://www.linkedin.com/in/bin-jiang-44918b28/)**
+  10.  **[Sevvandi Kandanaarachchi](https://sevvandi.netlify.app/)** [{{< fa brands github >}}](https://github.com/sevvandi)
+  11. **[Yanfei Kang](http://yanfei.site)** [{{< fa brands github >}}](https://github.com/ykang)
+  12. **[Stuart Lee](https://stuartlee.org/)** [{{< fa brands github >}}](https://github.com/sa-lee/)
+  13. **[Zhuo Li](https://sites.google.com/view/zhuo-li/home)**
+  14. **[Pablo Montero-Manso](https://www.sydney.edu.au/business/about/our-people/academic-staff/pablo-monteromanso.html)** [{{< fa brands github >}}](https://github.com/pmontman)
+  15. **[Ingrida Steponavičė](http://users.monash.edu/~ingridas/)**
+  16. **[Nick Tierney](https://www.njtierney.com/)** [{{< fa brands github >}}](https://github.com/njtierney)
+  17. **[Shanika Wickramasuriya](https://research.monash.edu/en/persons/shanika-wickramasuriya)** [{{< fa brands github >}}](https://github.com/ShanikaLW)
 
 ## Former postgraduate research students
 
