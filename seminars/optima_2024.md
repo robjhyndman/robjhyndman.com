@@ -6,6 +6,7 @@ slug: future_forecasting
 aliases:
   - "/future_forecasting"
 link: https://github.com/robjhyndman/uncertain_futures/raw/main/optima_forecasting.pdf
+youtube: ihtJH4X3XyQ
 ---
 
 ## Seminar for the OPTIMA ARC training centre
@@ -20,4 +21,3 @@ In his presentation, Professor Rob J Hyndman will discuss the conditions we need
 
 He will also look at how forecasting has changed over the last 50 years, and what forecasting might look like in the future.
 
-### Slides
