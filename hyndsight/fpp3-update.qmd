@@ -5,11 +5,11 @@ categories:
   - forecasting
   - R
   - teaching
-image: https://pkg.robjhyndman.com/fpp3package/logo.png
-description: The [`fpp3` package](https://pkg.robjhyndman.com/fpp3package/) has had its first major update since the book was published.
+image: https://pkg.robjhyndman.com/fpp3/logo.png
+description: The [`fpp3` package](https://pkg.robjhyndman.com/fpp3/) has had its first major update since the book was published.
 ---
 
-The [`fpp3` package](https://pkg.robjhyndman.com/fpp3package/) is a companion to the book [Forecasting: Principles and Practice](https://OTexts.com/fpp3/) (3rd edition, Hyndman & Athanasopoulos, OTexts). When you load the package, it loads the data and functions needed for the examples in the book.
+The [`fpp3` package](https://pkg.robjhyndman.com/fpp3/) is a companion to the book [Forecasting: Principles and Practice](https://OTexts.com/fpp3/) (3rd edition, Hyndman & Athanasopoulos, OTexts). When you load the package, it loads the data and functions needed for the examples in the book.
 
 ```{r}
 #| label: loadfpp3
@@ -30,22 +30,22 @@ Each year, we take a new data set, and write the exam around how to analyse the 
 
 We also think it is best to use "fresh and local"^[Thanks to [Di Cook](https://dicook.org) for this phrase.] data sets. So the data are almost always from Australia, and included data up to about a month before the exam was written.
 
-In the latest update to the [`fpp3` package](https://pkg.robjhyndman.com/fpp3package/), we have expanded these data sets to cover more series than we did in the exams, and in most cases updated them to include more recent observations.
+In the latest update to the [`fpp3` package](https://pkg.robjhyndman.com/fpp3/), we have expanded these data sets to cover more series than we did in the exams, and in most cases updated them to include more recent observations.
 
 The new data sets are:
 
- - [`aus_births`](https://pkg.robjhyndman.com/fpp3package/reference/aus_births.html): Australian births data
- - [`aus_fertility`](https://pkg.robjhyndman.com/fpp3package/reference/aus_fertility.html): Australian fertility rates
- - [`aus_inbound`](https://pkg.robjhyndman.com/fpp3package/reference/aus_inbound.html): Monthly short term (<1 year) visitor arrivals to Australia
- - [`aus_migration`](https://pkg.robjhyndman.com/fpp3package/reference/aus_migration.html): Australian migration data
- - [`aus_mortality`](https://pkg.robjhyndman.com/fpp3package/reference/aus_mortality.html): Australian mortality data
- - [`aus_outbound`](https://pkg.robjhyndman.com/fpp3package/reference/aus_outbound.html): Monthly short term (<1 year) resident departures in Australia
- - [`aus_tobacco`](https://pkg.robjhyndman.com/fpp3package/reference/aus_tobacco.html): Australian cigarette and tobacco expenditure
- - [`aus_vehicle_sales`](https://pkg.robjhyndman.com/fpp3package/reference/aus_vehicle_sales.html): Australian vehicle sales
- - [`melb_walkers`](https://pkg.robjhyndman.com/fpp3package/reference/melb_walkers.html): Average daily total pedestrian count in Melbourne
- - [`nsw_offences`](https://pkg.robjhyndman.com/fpp3package/reference/nsw_offences.html): Monthly offences in NSW
- - [`ny_childcare`](https://pkg.robjhyndman.com/fpp3package/reference/ny_childcare.html): New York childcare data
- - [`otexts_views`](https://pkg.robjhyndman.com/fpp3package/reference/otexts_views.html
+ - [`aus_births`](https://pkg.robjhyndman.com/fpp3/reference/aus_births.html): Australian births data
+ - [`aus_fertility`](https://pkg.robjhyndman.com/fpp3/reference/aus_fertility.html): Australian fertility rates
+ - [`aus_inbound`](https://pkg.robjhyndman.com/fpp3/reference/aus_inbound.html): Monthly short term (<1 year) visitor arrivals to Australia
+ - [`aus_migration`](https://pkg.robjhyndman.com/fpp3/reference/aus_migration.html): Australian migration data
+ - [`aus_mortality`](https://pkg.robjhyndman.com/fpp3/reference/aus_mortality.html): Australian mortality data
+ - [`aus_outbound`](https://pkg.robjhyndman.com/fpp3/reference/aus_outbound.html): Monthly short term (<1 year) resident departures in Australia
+ - [`aus_tobacco`](https://pkg.robjhyndman.com/fpp3/reference/aus_tobacco.html): Australian cigarette and tobacco expenditure
+ - [`aus_vehicle_sales`](https://pkg.robjhyndman.com/fpp3/reference/aus_vehicle_sales.html): Australian vehicle sales
+ - [`melb_walkers`](https://pkg.robjhyndman.com/fpp3/reference/melb_walkers.html): Average daily total pedestrian count in Melbourne
+ - [`nsw_offences`](https://pkg.robjhyndman.com/fpp3/reference/nsw_offences.html): Monthly offences in NSW
+ - [`ny_childcare`](https://pkg.robjhyndman.com/fpp3/reference/ny_childcare.html): New York childcare data
+ - [`otexts_views`](https://pkg.robjhyndman.com/fpp3/reference/otexts_views.html
 ): OTexts page views
 
 Thanks to Nuwani Palihawadana and Shanika Wickramasuriya for most of the work on this latest update, completed at the [NUMBAT hackathon](https://numbat.space/posts/hackathon_2024/) last month.

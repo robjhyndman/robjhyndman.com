@@ -154,7 +154,7 @@ rjh_packages <- function() {
     cran_github <- bind_rows(cran_github, missing_packages) |>
       mutate(
         url = if_else(url == "https://OTexts.com/fpp3/",
-                      "http://pkg.robjhyndman.com/fpp3package/",
+                      "http://pkg.robjhyndman.com/fpp3/",
                       url)
       )
     # If that didn't work, just use the last available file
@@ -188,7 +188,7 @@ rjh_packages <- function() {
       "vitae", "https://pkg.mitchelloharawild.com/vitae/reference/figures/logo.png",
       "vital", "https://pkg.robjhyndman.com/vital/reference/figures/vital-hex.png",
       "weird", "https://pkg.robjhyndman.com/weird-package/reference/figures/weird-hex.png",
-      "fpp3", "https://pkg.robjhyndman.com/fpp3package/logo.png"
+      "fpp3", "https://pkg.robjhyndman.com/fpp3/logo.png"
     )
     packages <- cran_github |> left_join(hex_stickers, by = "package")
 
