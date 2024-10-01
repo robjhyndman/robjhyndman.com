@@ -3,6 +3,8 @@ pagetitle: "Rob J Hyndman - Software"
 freeze: false
 ---
 
+
+# [Repository Dashboard](https://pkg.robjhyndman.com/gh-dashboard/){.badge .badge-large .badge-blue}
 # CRAN task views
 
 * [**Time Series**](https://cran.r-project.org/view=TimeSeries)
