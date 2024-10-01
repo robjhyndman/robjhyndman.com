@@ -37,8 +37,8 @@ create_generic_sticker <- function(name) {
 
 package_table <- function(packages) {
   z <- packages
-  out <- paste("##", z$section[1], "\n\n")
-  out <- paste(out, "<table>")
+  out <- paste0("## ", z$section[1], "\n\n")
+  out <- paste0(out, "<table>")
   for (i in seq(NROW(z))) {
     # Create title with extras
     if (!is.na(z$publication[i])) {
@@ -53,27 +53,27 @@ package_table <- function(packages) {
         z$citation2[i], "</a>"
       )
     }
-    out <- paste0(out, "<tr>")
-    out <- paste0(out, "<td><a href='", z$url[i], "'><img src='", z$hex[i], "' width='70px' style='vertical-align:middle'></a></td>")
-    out <- paste0(out, "<td width='55%'>", z$title[i], ".</td>")
+    out <- paste0(out, "\n<tr>")
+    out <- paste0(out, "\n  <td><a href='", z$url[i], "'><img src='", z$hex[i], "' width='70px' style='vertical-align:middle'></a></td>")
+    out <- paste0(out, "\n  <td width='55%'>", z$title[i], ".</td>")
     if (!is.na(z$github_url[i])) {
-      out <- paste0(out, "<td><a href=", z$github_url[i], " class='badge badge-small badge-green'>Github</a></td>")
+      out <- paste0(out, "\n  <td><a href=", z$github_url[i], " class='badge badge-small badge-green'>Github</a></td>")
     } else {
-      out <- paste0(out, "<td></td>")
+      out <- paste0(out, "\n  <td>\n</td>")
     }
     if (!is.na(z$cran_url[i])) {
-      out <- paste0(out, "<td><a href=", z$cran_url[i], " class='badge badge-small badge-blue'>CRAN</a></td>")
+      out <- paste0(out, "\n  <td><a href=", z$cran_url[i], " class='badge badge-small badge-blue'>CRAN</a></td>")
     } else {
-      out <- paste0(out, "<td></td>")
+      out <- paste0(out, "\n  <td></td>")
     }
     if (!is.na(z$downloads[i])) {
-      out <- paste0(out, "<td>Monthly downloads:<br>", round(z$downloads[i]), "</td>")
+      out <- paste0(out, "\n  <td>Monthly downloads:<br>", round(z$downloads[i]), "</td>")
     } else {
-      out <- paste0(out, "<td></td>")
+      out <- paste0(out, "\n  <td></td>")
     }
-    out <- paste0(out, "</tr>")
+    out <- paste0(out, "\n</tr>")
   }
-  out <- paste0(out, "</table>")
+  out <- paste0(out, "\n</table>\n\n")
   cat(out)
 }
 
@@ -359,4 +359,36 @@ rjh_packages <- function() {
     saveRDS(packages, file = here::here("software/packages.rds"))
     return(packages)
   }
+}
+
+quarto_extension <- function(repo, description) {
+  section_id <- paste0("monash-",repo,"-template")
+  repo_url <- paste0("https://github.com/quarto-monash/", repo)
+  section <- paste(
+    "Monash",
+    tools::toTitleCase(if(repo == "workingpaper") "Working paper" else repo),
+    "Template"
+  )
+  img <- paste0(
+    repo_url,
+    "/raw/main/examples/",
+    if(repo == "presentation") "pdftemplate" else "template",
+    ".png"
+  )
+  cat(
+    "<table>\n<tr>\n<td><a href='",
+    repo_url,
+    "'><img src='",
+    img,
+    "' class='img-fluid' width=120></a></td>\n<td valign='top' width='85%'>\n\n### [",
+    section,
+    "](",
+    repo_url,
+    ")\n\n",
+    description,
+    ".\n\n<pre><code>quarto use template quarto-monash/",
+    repo,
+    "</code></pre></td>\n</tr>\n</table>",
+    sep=""
+  )
 }

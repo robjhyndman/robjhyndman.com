@@ -3,22 +3,36 @@ pagetitle: "Rob J Hyndman - Software"
 freeze: false
 ---
 
+```{r}
+#| label: functions
+#| include: false
+library(tidyverse)
+source(here::here("software/software_functions.R"))
+```
+
+```{css}
+#| label: h1_heading
+#| echo: false
+h1 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+```
 
 # [Repository Dashboard](https://pkg.robjhyndman.com/gh-dashboard/){.badge .badge-large .badge-blue}
+
 # CRAN task views
 
 * [**Time Series**](https://cran.r-project.org/view=TimeSeries)
 * [**Anomaly Detection**](https://github.com/pridiltal/ctv-AnomalyDetection)
 
-# Selected R packages I've coauthored
+# Selected R packages
 
-```{r functions, include=FALSE}
-library(tidyverse)
-source(here::here("software/software_functions.R"))
+```{r}
+#| label: r_packages
+#| echo: false
+#| output: asis
 packages <- rjh_packages()
-```
-
-```{r tables, echo=FALSE, results='asis'}
 sections <- unique(packages$section)
 for(i in seq_along(sections)) {
   packages %>%
@@ -29,104 +43,14 @@ for(i in seq_along(sections)) {
 
 # Quarto extensions
 
-
-<table>
-<tr><td valign="top">
-[![](https://github.com/quarto-monash/letter/raw/main/examples/template.png){width=120}](https://github.com/quarto-monash/letter)
-</td>
-<td valign="top" width="85%">
-
-### [Monash Letter Template](https://github.com/quarto-monash/letter)
-
-Create a letter on Monash Business School letterhead.
-
+```{r}
+#| label: quarto_extensions
+#| output: asis
+#| echo: false
+quarto_extension("letter",       "Create a letter on Monash Business School letterhead")
+quarto_extension("memo",         "Create a memo with optional Monash Business School branding")
+quarto_extension("presentation", "Create a Monash University themed presentation using either Beamer or RevealJS")
+quarto_extension("report",       "Create a Monash Business School consulting report")
+quarto_extension("thesis",       "Create a Monash University thesis")
+quarto_extension("workingpaper", "Create a working paper for the Department of Econometrics & Business Statistics, Monash University")
 ```
-quarto use template quarto-monash/letter
-```
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr><td valign="top">
-[![](https://github.com/quarto-monash/memo/raw/main/examples/template.png){width=120}](https://github.com/quarto-monash/memo)
-</td>
-<td valign="top" width="85%">
-### [Monash Memo Template](https://github.com/quarto-monash/memo)
-
-Create a memo with optional Monash Business School branding.
-
-```
-quarto use template quarto-monash/memo
-```
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr><td>
-[![](https://github.com/quarto-monash/presentation/raw/main/examples/pdftemplate.png){width=120}](https://github.com/quarto-monash/presentation)
-</td>
-<td valign="top" width="85%">
-### [Monash Presentation Template](https://github.com/quarto-monash/presentation)
-
-Create a Monash University themed presentation using either Beamer or RevealJS.
-
-```
-quarto use template quarto-monash/presentation
-```
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr><td valign="top">
-[![](https://github.com/quarto-monash/report/raw/main/examples/template.png){width=120}](https://github.com/quarto-monash/report)
-</td><td valign="top" width="85%">
-### [Monash Report Template](https://github.com/quarto-monash/report)
-
-Create a Monash Business School consulting report.
-
-```
-quarto use template quarto-monash/report
-```
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr><td valign="top">
-[![](https://github.com/quarto-monash/thesis/raw/main/examples/template.png){width=120 fig-align='right'}](https://github.com/quarto-monash/thesis)
-</td>
-<td valign="top" width="85%">
-### [Monash Thesis Template](https://github.com/quarto-monash/thesis)
-
-Create a Monash University thesis.
-
-```
-quarto use template quarto-monash/thesis
-```
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr><td valign="top">
-[![](https://github.com/quarto-monash/workingpaper/raw/main/examples/template.png){width=120}](https://github.com/quarto-monash/workingpaper)
-</td><td valign="top" width="85%">
-### [Monash Working Paper Template](https://github.com/quarto-monash/workingpaper)
-
-Create a working paper for the Department of Econometrics & Business Statistics, Monash University.
-
-```
-quarto use template quarto-monash/workingpaper
-```
-
-</td>
-</tr>
-</table>
