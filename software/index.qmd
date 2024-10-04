@@ -32,10 +32,12 @@ h1 {
 #| label: r_packages
 #| echo: false
 #| output: asis
-packages <- rjh_packages()
+#| warning: false
+#| message: false
+packages <- rjh_packages() |> suppressMessages() |> suppressWarnings()
 sections <- unique(packages$section)
 for(i in seq_along(sections)) {
-  packages %>%
+  packages |>
     filter(section == sections[i]) %>%
     package_table()
 }

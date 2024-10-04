@@ -143,7 +143,8 @@ rjh_packages <- function() {
         github_repos = github
       ) |>
       # Average monthly downloads in last 3 months
-      mutate(downloads = downloads / 3))
+      mutate(downloads = downloads / 3)) |>
+      suppressWarnings()
     # Add in any packages not on r-universe
     # This is only necessary until pkgsearch is updated.
     # Then pkgmeta should return a complete set
