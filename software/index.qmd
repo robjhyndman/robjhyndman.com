@@ -49,6 +49,7 @@ for(i in seq_along(sections)) {
 #| label: quarto_extensions
 #| output: asis
 #| echo: false
+quarto_extension("exam",         "Create an exam for Monash Business School")
 quarto_extension("letter",       "Create a letter on Monash Business School letterhead")
 quarto_extension("memo",         "Create a memo with optional Monash Business School branding")
 quarto_extension("presentation", "Create a Monash University themed presentation using either Beamer or RevealJS")
