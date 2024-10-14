@@ -28,6 +28,8 @@ h1 {
 
 # Selected R packages
 
+### [R Universe](https://robjhyndman.r-universe.dev/){.badge .badge-large .badge-blue}
+
 ```{r}
 #| label: r_packages
 #| echo: false
