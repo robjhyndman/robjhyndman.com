@@ -19,7 +19,7 @@ h1 {
 }
 ```
 
-# [Repository Dashboard](https://pkg.robjhyndman.com/gh-dashboard/){.badge .badge-large .badge-blue}
+#### [Repository Dashboard](https://pkg.robjhyndman.com/gh-dashboard/){.badge .badge-large .badge-blue} [R Universe](https://robjhyndman.r-universe.dev/){.badge .badge-large .badge-blue}
 
 # CRAN task views
 
@@ -27,8 +27,6 @@ h1 {
 * [**Anomaly Detection**](https://github.com/pridiltal/ctv-AnomalyDetection)
 
 # Selected R packages
-
-### [R Universe](https://robjhyndman.r-universe.dev/){.badge .badge-large .badge-blue}
 
 ```{r}
 #| label: r_packages
