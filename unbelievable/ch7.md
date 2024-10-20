@@ -48,7 +48,7 @@ It might seem harmless enough to thank God for deliverance from trouble, but it 
 
 To try to reconcile the apparent injustice, a natural reaction is to assume that those killed or suffering are greater sinners than those who survive. This is the punishment perspective and it is implied in the Psalm quoted above. It is also what Job’s friends argued, and it was widely believed in first century Israel. But the book of Job clearly says that the perspective of punishment is wrong, and Jesus also rejects it (Luke 13:1–5). Tragedy does not strike the worst sinners more often — it affects us all equally.
 
-Another attempt to resolve the issue is simply to say that God knows best. He has the bigger picture in mind, he can see into the future, and when things appear mysterious to us, we are simply incapable of understanding the mind and perspective of God. But that is not really an answer at all; it simply avoids the problem by saying it is too hard.
+Another attempt to resolve the issue is to say that God knows best. He has the bigger picture in mind, he can see into the future, and when things appear mysterious to us, we are simply incapable of understanding the mind and perspective of God. But that is not really an answer at all; it merely avoids the problem by saying it is too hard.
 
 ## Cruel randomness
 
