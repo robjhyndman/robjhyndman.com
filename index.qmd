@@ -5,8 +5,8 @@ about:
   links:
     - text: "{{< ai google-scholar >}}"
       href: https://scholar.google.com/citations?user=vamErfkAAAAJ
-    - text: "{{< fa brands mastodon >}}"
-      href: https://aus.social/@robjhyndman
+    - text: "{{< fa brands bluesky >}}"
+      href: https://bsky.app/profile/robjhyndman.bsky.social
     - text: "{{< fa brands github >}}"
       href: https://github.com/robjhyndman
     - text: "{{< ai cv >}}"
