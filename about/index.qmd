@@ -13,7 +13,7 @@ The following bio and [**this photo**](/img/RJH_AAS.jpg) may be used in media re
 ::: {.column width="30%"}
 
 <ul class="fa-ul">
-  <li><a href="http://pkg.robjhyndman.com/CV/RobHyndmanCV.pdf">{{< fa file-pdf >}} Curriculum Vitae</a></li>
+  <li><a href="https://github.com/robjhyndman/CV/raw/master/RobHyndmanCV.pdf">{{< fa file-pdf >}} Curriculum Vitae</a></li>
   <li><a href="https://scholar.google.com/citations?user=vamErfkAAAAJ">{{< ai google-scholar >}} Google Scholar</a></li>
   <li><a href="https://www.semanticscholar.org/author/R.-Hyndman/145211352">{{< ai semantic-scholar >}} Semantic Scholar</a></li>
 </ul>
@@ -114,7 +114,7 @@ I am a fellow of the following organizations:
   * Member of the Scaling committee, [Victorian Tertiary Admissions Centre](http://www.vtac.edu.au). This committee is responsible for producing the [ATAR for VCE students](http://en.wikipedia.org/wiki/Australian_Tertiary_Admission_Rank) (1994--).
   * Member of the ATAR Technical Group for the [Australasian Conference of Tertiary Admissions Centres](http://www.actac.edu.au) (2003--).
   * Member of the Indigenous Statistical and Information Advisory Group for the [Australian Institute of Health and Welfare](http://www.aihw.gov.au) (2017--2023).
-  * Member of the [COVID-19 national situational assessment team](https://mspgh.unimelb.edu.au/research-groups/centre-for-epidemiology-and-biostatistics-research/Infectious-Disease-Dynamics/covid-19-national-situational-assessment) (2020--2023).
+  * Member of the [National COVID-19 Epidemic Situational Assessment team](https://mspgh.unimelb.edu.au/research-groups/centre-for-epidemiology-and-biostatistics-research/infectious-disease-dynamics/national-covid-19-epidemic-situational-assessment-202023) (2020--2023).
   * Member of the Methodology Advisory Committee for the Australian Bureau of Statistics (2010--2018).
 
 ## Conference organization
@@ -161,7 +161,7 @@ My [Erdös number](http://www.oakland.edu/enp/) is 3 in two different ways.
 
 ## Other interests
 
- * I play tennis for the [Heathmont Parker Reserve Tennis Club](http://www.hprtc.org.au/), and I'm coached by [Ben Longridge](https://www.facebook.com/advantedgetennis/).
+ * I play tennis for the [Heathmont Parker Reserve Tennis Club](http://www.hprtc.org.au/), and I'm coached by [Ben Longridge](https://play.tennis.com.au/LongridgeTennis).
  * Previously I played cricket for the [Heathwood Cricket Club](https://www.heathwood.cc/). I'm also an accredited umpire with Cricket Australia.
 
 ## Family websites

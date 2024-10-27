@@ -21,7 +21,7 @@ language:
 
 # Publications
 
-[Curriculum Vitae &nbsp; {{< fa regular file-pdf >}}](http://pkg.robjhyndman.com/CV/RobHyndmanCV.pdf){.badge .badge-large}
+[Curriculum Vitae &nbsp; {{< fa regular file-pdf >}}](https://github.com/robjhyndman/CV/raw/master/RobHyndmanCV.pdf){.badge .badge-large}
 &nbsp;&nbsp;&nbsp;&nbsp;
 [Google Scholar &nbsp; {{< ai google-scholar >}}](https://scholar.google.com/citations?user=vamErfkAAAAJ){.badge .badge-large}
 
