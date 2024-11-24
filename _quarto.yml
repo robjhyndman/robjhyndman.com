@@ -10,8 +10,6 @@ website:
   title: "Rob J Hyndman"
   site-url: "https://robjhyndman.com"
   open-graph: true
-  twitter-card:
-    creator: "@robjhyndman"
   navbar:
     background: "#234460"
     left:
