@@ -7,7 +7,7 @@ aliases:
 link: https://github.com/robjhyndman/workflow_talk/raw/main/workflow.pdf
 ---
 
-Talk to be given at [Research Bazaar Victoria](https://resbaz.github.io/resbazvic2024/), Clayton, Australia.
+Talk given at [Research Bazaar Victoria](https://resbaz.github.io/resbazvic2024/), Clayton, Australia.
 
 
 ## Abstract
