@@ -11,6 +11,7 @@ build:
 	quarto render prato2023
 
 deploy:
+	chmod -R +r .
 	Rscript make_xml.R
 	cp .htaccess _site
 	cp img/favicon.ico _site
