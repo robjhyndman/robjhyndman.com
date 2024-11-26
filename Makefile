@@ -26,4 +26,3 @@ deploy:
 
 clean:
 	rm -rf _site
-	rm -rf _freeze
