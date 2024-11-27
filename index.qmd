@@ -6,7 +6,7 @@ about:
     - text: "{{< ai google-scholar >}}"
       href: https://scholar.google.com/citations?user=vamErfkAAAAJ
     - text: "{{< fa brands bluesky >}}"
-      href: http://robjhyndman.bsky.social
+      href: https://bsky.app/profile/robjhyndman.com
     - text: "{{< fa brands github >}}"
       href: https://github.com/robjhyndman
     - text: "{{< ai cv >}}"
