@@ -10,7 +10,7 @@ about:
     - text: "{{< fa brands github >}}"
       href: https://github.com/robjhyndman
     - text: "{{< ai cv >}}"
-      href: https://github.com/robjhyndman/CV/raw/master/RobHyndmanCV.pdf
+      href: https://github.com/robjhyndman/CV/raw/main/RobHyndmanCV.pdf
     - text: "{{< fa envelope >}}"
       href: mailto:Rob.Hyndman@monash.edu
 ---
