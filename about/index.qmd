@@ -13,7 +13,7 @@ The following bio and [**this photo**](/img/RJH_AAS.jpg) may be used in media re
 ::: {.column width="30%"}
 
 <ul class="fa-ul">
-  <li><a href="https://github.com/robjhyndman/CV/raw/master/RobHyndmanCV.pdf">{{< fa file-pdf >}} Curriculum Vitae</a></li>
+  <li><a href="https://cdn.jsdelivr.net/gh/robjhyndman/CV@main/RobHyndmanCV.pdf">{{< fa file-pdf >}} Curriculum Vitae</a></li>
   <li><a href="https://scholar.google.com/citations?user=vamErfkAAAAJ">{{< ai google-scholar >}} Google Scholar</a></li>
   <li><a href="https://www.semanticscholar.org/author/R.-Hyndman/145211352">{{< ai semantic-scholar >}} Semantic Scholar</a></li>
 </ul>
