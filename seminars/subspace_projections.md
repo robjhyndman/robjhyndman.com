@@ -22,8 +22,8 @@ Univariate, multivariate, and hierarchical forecasts can all be improved using p
 
 ## Slides
 
-<iframe src="https://docs.google.com/gview?url=https://github.com/robjhyndman/subspace_projections_talk/raw/main/subspace_projections.pdf&embedded=true"  width="100%" height=465></iframe>
-<a href="https://github.com/robjhyndman/subspace_projections_talk/raw/main/subspace_projections.pdf" class="badge badge-small badge-red">Download pdf</a>
+<iframe src="https://docs.google.com/gview?url=https://github.com/robjhyndman/subspace_projections_talk/raw/main/subspace_curtin.pdf&embedded=true"  width="100%" height=465></iframe>
+<a href="https://github.com/robjhyndman/subspace_projections_talk/raw/main/subspace_curtin.pdf" class="badge badge-small badge-red">Download pdf</a>
 
 ## Software
 
