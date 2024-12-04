@@ -1,10 +1,11 @@
 ---
 date: 2024-09-19
 title: "Improving forecasts via subspace projections"
-venue: Curtin University
+venue: Various
 bibliography: hts.bib
 aliases:
     - /curtin2024
+    - /srilanka2024
 nocite: |
    - @hierarchical
    - @mint
@@ -20,10 +21,15 @@ nocite: |
 
 Univariate, multivariate, and hierarchical forecasts can all be improved using projections onto linear subspaces, regardless of what forecasting method is used. I will show some theoretical guarantees of this statement, and demonstrate using empirical applications how linear projections can lead to (sometimes dramatic) improvements in forecast accuracy.
 
-## Slides
+## Given at
 
-<iframe src="https://docs.google.com/gview?url=https://github.com/robjhyndman/subspace_projections_talk/raw/main/subspace_curtin.pdf&embedded=true"  width="100%" height=465></iframe>
-<a href="https://github.com/robjhyndman/subspace_projections_talk/raw/main/subspace_curtin.pdf" class="badge badge-small badge-red">Download pdf</a>
+* Curtin University, Perth, Australia: 9 September 2024
+* [International Statistics Conference 2024](https://isc24.iassl.lk), Sri Lanka: 28 December 2024
+
+## Slides (Sri Lanka)
+
+<iframe src="https://docs.google.com/gview?url=https://github.com/robjhyndman/subspace_projections_talk/raw/main/subspace_projections.pdf&embedded=true"  width="100%" height=465></iframe>
+<a href="https://github.com/robjhyndman/subspace_projections_talk/raw/main/subspace_projections.pdf" class="badge badge-small badge-red">Download pdf</a>
 
 ## Software
 
