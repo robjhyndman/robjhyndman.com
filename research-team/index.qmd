@@ -5,7 +5,7 @@ title: "Research team"
 
 ## Current research fellows
 
-  * [**Xiaoqian Wang**](https://xqnwang.rbind.io) [{{< fa brands github >}}](https://github.com/xqnwang)
+None
 
 
 ## Current PhD students
@@ -14,8 +14,6 @@ title: "Research team"
   2. **[Cynthia Huang](https://www.cynthiahqy.com)**. *Principles and tools for data harmonization* (PhD, begun 2021). [{{< fa brands github >}}](https://github.com/cynthiahqy)
   3. **[Mitchell O'Hara-Wild](https://mitchelloharawild.com)**. *Tools for forecasting large collections of time series* (PhD, begun 2023). [{{< fa brands github >}}](https://github.com/mitchelloharawild)
   4. **[Nuwani Palihawadana](https://nuwanipalihawadana.netlify.app/)**. *Optimal predictor selection for high-dimensional nonparametric forecasting* (PhD, begun 2020). [{{< fa brands github >}}](https://github.com/nuwani-palihawadana)
-  5. **Sixian (Alice) Tang**. *Modelling structural changes in human mortality* (PhD, submitted 2024). [{{< fa brands github >}}](https://github.com/zxzx121hinata)
-  6. **[Fin Yang](https://yangzhuoranyang.com/)**. *Component-Based Methods in Multivariate and Hierarchical Time Series Forecasting* (PhD, submitted 2024). [{{< fa brands github >}}](https://github.com/finyang/)
 
 ## Former research fellows
 
@@ -26,7 +24,7 @@ title: "Research team"
   5. **[Gary Deng](https://www.linkedin.com/in/gary-minfeng-deng)**
   6. **[Bircan Erbas](https://scholars.latrobe.edu.au/display/berbas)**
   7. **[Shu Fan](http://users.monash.edu.au/~shufan/)**
-  8. **[Puwasala Gamakumara](https://puwasala.netlify.app/)** [{{< fa brands github >}}](https://github.com/PuwasalaG)
+  8. **[Puwasala Gamakumara](https://www.linkedin.com/in/puwasala-gamakumara-phd/)** [{{< fa brands github >}}](https://github.com/PuwasalaG)
   9. **[Bin Jiang](https://www.linkedin.com/in/bin-jiang-44918b28/)**
   10.  **[Sevvandi Kandanaarachchi](https://sevvandi.netlify.app/)** [{{< fa brands github >}}](https://github.com/sevvandi)
   11. **[Yanfei Kang](http://yanfei.site)** [{{< fa brands github >}}](https://github.com/ykang)
@@ -35,7 +33,8 @@ title: "Research team"
   14. **[Pablo Montero-Manso](https://www.sydney.edu.au/business/about/our-people/academic-staff/pablo-monteromanso.html)** [{{< fa brands github >}}](https://github.com/pmontman)
   15. **[Ingrida Steponavičė](http://users.monash.edu/~ingridas/)**
   16. **[Nick Tierney](https://www.njtierney.com/)** [{{< fa brands github >}}](https://github.com/njtierney)
-  17. **[Shanika Wickramasuriya](https://research.monash.edu/en/persons/shanika-wickramasuriya)** [{{< fa brands github >}}](https://github.com/ShanikaLW)
+  17. **[Xiaoqian Wang](https://xqnwang.rbind.io)** [{{< fa brands github >}}](https://github.com/xqnwang)
+  18. **[Shanika Wickramasuriya](https://research.monash.edu/en/persons/shanika-wickramasuriya)** [{{< fa brands github >}}](https://github.com/ShanikaLW)
 
 ## Former postgraduate research students
 
@@ -48,7 +47,7 @@ title: "Research team"
   7. **[Ashton de Silva](https://academics.rmit.edu.au/ashton-desilva)**. [*The vector innovations structural time series framework*](https://bridges.monash.edu/articles/thesis/The_vector_innovations_structural_time_series_framework/14874258). (Ph.D., graduated 2007). Now a Professor in the School of Economics, Finance and Marketing at RMIT.
   8. **[Alexander Dokumentov](https://www.linkedin.com/in/dokumentov/)**, *[Smoothing, decomposition and forecasting of multidimensional and functional time series using regularisation](https://bridges.monash.edu/articles/thesis/Smoothing_decomposition_and_forecasting_of_multidimensional_and_functional_time_series_using_regularisation/4713580)* (PhD, graduated 2016). Now a Data Scientist at Growing Data. [{{< fa brands github >}}](https://github.com/dokal01/)
   9.  **[Bircan Erbas](https://scholars.latrobe.edu.au/display/berbas)**. *Statistical methodological issues in studies of respiratory disease and air pollution*, (Ph.D., Uni of Melbourne, graduated 2001). Now a Professor in the School of Public Health at La Trobe University.
-  10. **[Puwasala Gamakumara](https://puwasala.netlify.app/)**, [*Probabilistic forecast reconciliation: theory and applications*](https://bridges.monash.edu/articles/thesis/Probabilistic_Forecast_Reconciliation_Theory_and_Applications/11869533) (PhD, graduated 2020).  Now a Senior Data Analyst at the Australian Energy Market Operator. [{{< fa brands github >}}](https://github.com/PuwasalaG)
+  10. **[Puwasala Gamakumara](https://puwasala.netlify.app/)**, [*Probabilistic forecast reconciliation: theory and applications*](https://bridges.monash.edu/articles/thesis/Probabilistic_Forecast_Reconciliation_Theory_and_Applications/11869533) (PhD, graduated 2020).  Now a Senior Data Scientist at the Australian Energy Market Operator. [{{< fa brands github >}}](https://github.com/PuwasalaG)
   11. **[Daniele Girolimetto](https://danigiro.github.io)** *Forecast reconciliation: methodological issues and applications* (PhD, graduated 2024). Now a Research Fellow at the University of Padova. [{{< fa brands github >}}](https://github.com/danigiro)
   12. **[Sayani Gupta](https://au.linkedin.com/in/sayanigupta)**. [*Visualization and analysis of probability distributions of large temporal data*](https://bridges.monash.edu/articles/thesis/Visualization_and_analysis_of_probability_distributions_of_large_temporal_data/19304453) (PhD, graduated 2022). Now a Senior Analyst at the Australian Energy Market Operator. [{{< fa brands github >}}](https://github.com/Sayani07)
   13. **[Abdul Aziz Hayat](https://experts.deakin.edu.au/4826-abdul-hayat-muhammad)**. *[Identifying GDP volatility and modeling changing seasonality](https://bridges.monash.edu/articles/thesis/Identifying_GDP_volatility_and_modeling_changing_seasonality/14835549)*. (Ph.D., graduated 2007). Now a Senior Lecturer in the Deakin Business School.
@@ -61,13 +60,15 @@ title: "Research team"
   20. **[Cameron Roach](https://www.linkedin.com/in/cameron-roach-00873b69/)**. *[Time series modelling and forecasting of disaggregated electricity data](https://bridges.monash.edu/articles/thesis/Time_series_modelling_and_forecasting_of_disaggregated_electricity_data/12671585)*, (PhD, graduated 2020). Now a Data Intelligence Lead with Energy Australia. [{{< fa brands github >}}](https://github.com/camroach87/)
   21. **[Han Lin Shang](https://researchers.mq.edu.au/en/persons/hanlin-shang)**. *[Visualizing and forecasting functional time series](https://bridges.monash.edu/articles/thesis/Visualizing_and_forecasting_functional_time_series/4546333)*. (Ph.D., graduated 2010). Winner of Mollie Holman doctoral medal in Business &amp; Economics, 2010. Now a Professor at Macquarie University.
   22. **[Thilaksha Silva](https://www.linkedin.com/in/thilakshasilva/)**. *[Estimating and forecasting a time series of densities using a functional data approach](https://bridges.monash.edu/articles/thesis/Estimating_and_forecasting_a_time_series_of_densities_using_a_functional_data_approach/4679500)*. (PhD, graduated 2015). Now a Senior Data Scientist at CitiPower and Powercor.
-  22. **Leanna Tedesco**. *Non-Gaussian first order autoregressive time series models*. (M.Sc., Uni of Melbourne, graduated 1995). Now Group Manager Forecasting, at the [Australian Energy Market Operator](https://aemo.com.au/en/about/careers/employee-stories/employee-in-the-spotlight-with-leanna-tedesco).
+  22. **Leanna Tedesco**. *Non-Gaussian first order autoregressive time series models*. (M.Sc., Uni of Melbourne, graduated 1995). Now Manager for Operations Planning, [Australian Energy Market Operator](https://aemo.com.au/en/about/careers/employee-stories/employee-in-the-spotlight-with-leanna-tedesco).
   23. **[Priyanga Dilini Talagala](http://prital.netlify.app/)**, [*Anomaly detection in streaming time series data*](https://bridges.monash.edu/articles/thesis/Anomaly_Detection_in_Streaming_Time_Series_Data/11302250) (PhD, graduated 2019). Now a Senior Lecturer at the University of Moratuwa, Sri Lanka. [{{< fa brands github >}}](https://github.com/pridiltal)
   24. **[Thiyanga Talagala](https://thiyanga.netlify.app/)**, [*Computationally efficient forecasting methods for large-scale real-time applications*](https://bridges.monash.edu/articles/thesis/Computationally_Efficient_Forecasting_Methods_for_Large-Scale_Real-Time_Applications/10310507) (PhD, graduated 2019). Now a Senior Lecturer at the University of Sri Jayewardenepura, Sri Lanka. [{{< fa brands github >}}](https://github.com/thiyangt)
-  25. **[Shahid Ullah](https://www.flinders.edu.au/people/shahid.ullah)**. *[Demographic forecasting using functional data analysis](https://bridges.monash.edu/articles/thesis/Demographic_forecasting_using_functional_data_analysis/14876214)*. (Ph.D., graduated 2007). Now an Associate Professor in Biostatistics at Flinders University.
-  26. **[Laura Villanova](https://scholar.google.com.au/citations?user=OeZdcD0AAAAJ)**. *Response surface optimization for high-dimensional systems with multiple responses*. (Ph.D., graduated 2010). Now working at the Technische Universität Graz, Austria.
-  27. **[Earo Wang](http://earo.me)**, [*Tidy tools for supporting fluent workflow in temporal data analysis*](https://bridges.monash.edu/articles/thesis/Tidy_tools_for_supporting_fluent_workflow_in_temporal_data_analysis/11302226) (PhD, graduated 2019). Winner of Mollie Holman doctoral medal in Business &amp; Economics, 2019. Now a data scientist at Canva. [{{< fa brands github >}}](https://github.com/earowang)
-  28. **[Xiaozhe Catherine Wang (Lopes)](https://www.linkedin.com/in/catherine-lopes/)**. *[Characteristic-based forecasting for time series data](https://bridges.monash.edu/articles/thesis/Characteristic-based_forecasting_for_time_series_data/14973339)*, (Ph.D., graduated 2005). Winner of Mollie Holman doctoral medal in IT, 2005. Now Chief Data & AI Strategist at OpsDo Analytics.
-  29. **[Shanika Wickramasuriya](https://research.monash.edu/en/persons/shanika-wickramasuriya)**. [*Optimal forecasts for hierarchical and grouped time series*](https://bridges.monash.edu/articles/thesis/Optimal_forecasts_for_hierarchical_and_grouped_time_series/5032136), (PhD, graduated 2017). Now a Lecturer at Monash University. [{{< fa brands github >}}](https://github.com/ShanikaLW)
-  30. **[Farah Yasmeen](https://www.researchgate.net/profile/Farah_Yasmeen)**. *[Functional linear models for mortality forecasting](https://bridges.monash.edu/articles/thesis/Functional_linear_models_for_mortality_forecasting/5044465)*. (Ph.D., graduated 2011). Now an Assistant Professor at the University of Karachi, Pakistan.
-  31. **[Bruce Yu](https://www.linkedin.com/in/bruce-yu-198a3a10)**. *[Flood frequency analysis](https://bridges.monash.edu/articles/thesis/Flood_frequency_analysis/19574389)*. (M.Sc., graduated 1998).
+  25. **[Sixian (Alice) Tang](https://scholar.google.com/citations?user=THxPqDwAAAAJ&hl=en)**. *Modelling structural changes in human mortality* (PhD, graduated 2025). [{{< fa brands github >}}](https://github.com/zxzx121hinata)
+  26. **[Shahid Ullah](https://www.flinders.edu.au/people/shahid.ullah)**. *[Demographic forecasting using functional data analysis](https://bridges.monash.edu/articles/thesis/Demographic_forecasting_using_functional_data_analysis/14876214)*. (Ph.D., graduated 2007). Now an Associate Professor in Biostatistics at Flinders University.
+  27. **[Laura Villanova](https://scholar.google.com.au/citations?user=OeZdcD0AAAAJ)**. *Response surface optimization for high-dimensional systems with multiple responses*. (Ph.D., graduated 2010). Now working at the Technische Universität Graz, Austria.
+  28. **[Earo Wang](http://earo.me)**, [*Tidy tools for supporting fluent workflow in temporal data analysis*](https://bridges.monash.edu/articles/thesis/Tidy_tools_for_supporting_fluent_workflow_in_temporal_data_analysis/11302226) (PhD, graduated 2019). Winner of Mollie Holman doctoral medal in Business &amp; Economics, 2019. Now a data scientist at Canva. [{{< fa brands github >}}](https://github.com/earowang)
+  29. **[Xiaozhe Catherine Wang (Lopes)](https://www.linkedin.com/in/catherine-lopes/)**. *[Characteristic-based forecasting for time series data](https://bridges.monash.edu/articles/thesis/Characteristic-based_forecasting_for_time_series_data/14973339)*, (Ph.D., graduated 2005). Winner of Mollie Holman doctoral medal in IT, 2005. Now Chief Data & AI Strategist at OpsDo Analytics.
+  30. **[Shanika Wickramasuriya](https://research.monash.edu/en/persons/shanika-wickramasuriya)**. [*Optimal forecasts for hierarchical and grouped time series*](https://bridges.monash.edu/articles/thesis/Optimal_forecasts_for_hierarchical_and_grouped_time_series/5032136), (PhD, graduated 2017). Now a Lecturer at Monash University. [{{< fa brands github >}}](https://github.com/ShanikaLW)
+  31. **[Fin Yang](https://yangzhuoranyang.com/)**. *Component-Based Methods in Multivariate and Hierarchical Time Series Forecasting* (PhD, graduated 2025). [{{< fa brands github >}}](https://github.com/finyang/).
+  32. **[Farah Yasmeen](https://www.researchgate.net/profile/Farah_Yasmeen)**. *[Functional linear models for mortality forecasting](https://bridges.monash.edu/articles/thesis/Functional_linear_models_for_mortality_forecasting/5044465)*. (Ph.D., graduated 2011). Now an Assistant Professor at the University of Karachi, Pakistan.
+  33. **[Bruce Yu](https://www.linkedin.com/in/bruce-yu-198a3a10)**. *[Flood frequency analysis](https://bridges.monash.edu/articles/thesis/Flood_frequency_analysis/19574389)*. (M.Sc., graduated 1998).
