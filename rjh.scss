@@ -67,6 +67,7 @@ h6 {
 a {
   color: lighten($theme-main, 15%);
   text-decoration: none;
+  font-weight: inherit;
 }
 
 a:hover {

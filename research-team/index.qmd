@@ -23,7 +23,7 @@ None
   4. **[Baki Billah](https://research.monash.edu/en/persons/md-billah)**
   5. **[Gary Deng](https://www.linkedin.com/in/gary-minfeng-deng)**
   6. **[Bircan Erbas](https://scholars.latrobe.edu.au/display/berbas)**
-  7. **[Shu Fan](http://users.monash.edu.au/~shufan/)**
+  7. **Shu Fan**
   8. **[Puwasala Gamakumara](https://www.linkedin.com/in/puwasala-gamakumara-phd/)** [{{< fa brands github >}}](https://github.com/PuwasalaG)
   9. **[Bin Jiang](https://www.linkedin.com/in/bin-jiang-44918b28/)**
   10.  **[Sevvandi Kandanaarachchi](https://sevvandi.netlify.app/)** [{{< fa brands github >}}](https://github.com/sevvandi)
@@ -31,7 +31,7 @@ None
   12. **[Stuart Lee](https://stuartlee.org/)** [{{< fa brands github >}}](https://github.com/sa-lee/)
   13. **[Zhuo Li](https://sites.google.com/view/zhuo-li/home)**
   14. **[Pablo Montero-Manso](https://www.sydney.edu.au/business/about/our-people/academic-staff/pablo-monteromanso.html)** [{{< fa brands github >}}](https://github.com/pmontman)
-  15. **[Ingrida Steponavičė](http://users.monash.edu/~ingridas/)**
+  15. **Ingrida Steponavičė**
   16. **[Nick Tierney](https://www.njtierney.com/)** [{{< fa brands github >}}](https://github.com/njtierney)
   17. **[Xiaoqian Wang](https://xqnwang.rbind.io)** [{{< fa brands github >}}](https://github.com/xqnwang)
   18. **[Shanika Wickramasuriya](https://research.monash.edu/en/persons/shanika-wickramasuriya)** [{{< fa brands github >}}](https://github.com/ShanikaLW)

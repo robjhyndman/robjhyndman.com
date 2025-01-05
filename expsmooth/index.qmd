@@ -3,7 +3,7 @@ slug: 'expsmooth'
 title: 'Forecasting with Exponential Smoothing: the State Space Approach'
 ---
 
-**[Rob J Hyndman](http://robjhyndman.com), [Anne B Koehler](https://miamioh.edu/fsb/directory/?up=/directory/koehleab), [J Keith Ord](https://gufaculty360.georgetown.edu/s/faculty-profile?netid=ordk), [Ralph D Snyder](https://research.monash.edu/en/persons/ralph-snyder)** (Springer, 2008).
+**[Rob J Hyndman](https://robjhyndman.com), [Anne B Koehler](https://miamioh.edu/fsb/directory/?up=/directory/koehleab), [J Keith Ord](https://scholar.google.com/citations?user=-0p44ukAAAAJ), [Ralph D Snyder](https://research.monash.edu/en/persons/ralph-snyder)** (Springer, 2008).
 
 <style>
 .verticalhorizontal {
