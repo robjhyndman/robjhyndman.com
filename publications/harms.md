@@ -1,6 +1,6 @@
 ---
-title: "Responsible forecasting: identifying and typifying forecasting harms"
-date: "2024-11-26"
+title: "Towards Socially Responsible Forecasting: Identifying and Typifying Forecasting Harms"
+date: "2025-01-16"
 author: Bahman Rostami-Tabar, Travis Greene, Galit Shmueli, Rob&nbsp;J&nbsp;Hyndman
 arxiv: 2411.16531
 categories: Working papers
