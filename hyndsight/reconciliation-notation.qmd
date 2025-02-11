@@ -113,7 +113,7 @@ $$\bm{x}_\tau = \begin{bmatrix*}[l]
 
 The structural representation of this formulation is
 $$\bm{x}_\tau = \bm{S} \bm{x}_\tau^{[1]}$$
-where $\bm{S} = \begin{bmatrix}\bm{A}\\\bm{I}\end{bmatrix}$ and
+where $\bm{S} = \begin{bmatrix}\bm{A}\\\bm{I}_m\end{bmatrix}$ and
 $$\bm{A} =
 \begin{bmatrix}
 \bm{1}'_m \\
@@ -122,8 +122,9 @@ $$\bm{A} =
 \bm{I}_{m/k_{2}} \otimes \bm{1}'_{k_{2}} \\
 \end{bmatrix}
 $$
+where $\bm{1}_m$ is an $m$-vector of 1s.
 
-The zero-constrained representation is $\bm{C} = \begin{bmatrix} \bm{I} & -\bm{A}\end{bmatrix}$.
+The zero-constrained representation is $\bm{C} = \begin{bmatrix} \bm{I}_{m} & -\bm{A}\end{bmatrix}$.
 
 If there are multiple seasonalities that are not integer multiples of each other, the resulting additional temporal aggregations can simply be stacked in $\bm{x}_t$, and $\bm{A}$ can be extended accordingly.
 
@@ -144,7 +145,7 @@ $$\bm{x}_\tau = \begin{bmatrix}
   \bm{x}_{n,\tau}
   \end{bmatrix}.$$
 
-If $\bm{S}_{cs}$ denotes the structural matrix for the cross-sectional reconciliation, and $\bm{S}_{te}$ denotes the structural matrix for the temporal reconciliation, then the cross-temporal structural matrix is $\bm{S}_{ct} = \bm{S}_{cs} \otimes \bm{S}_{te}$, so that
+If $\bm{S}_{cs}$ denotes the structural matrix for the cross-sectional reconciliation, and $\bm{S}_{te}$ denotes the structural matrix for the temporal reconciliation, then the cross-temporal structural matrix is $\bm{S}_{ct} = \bm{S}_{cs} \otimes \bm{S}_{te}$, where $\otimes$ is the Kronecker product. Then
 $$\bm{x}_\tau = \bm{S}_{ct} \bm{b}_\tau,$$
 where the bottom-level series
 $$\bm{b}_\tau = \begin{bmatrix}
