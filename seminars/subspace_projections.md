@@ -6,6 +6,7 @@ bibliography: hts.bib
 aliases:
     - /curtin2024
     - /srilanka2024
+    - /amazon2025
 nocite: |
    - @hierarchical
    - @mint
@@ -25,6 +26,7 @@ Univariate, multivariate, and hierarchical forecasts can all be improved using p
 
 * Curtin University, Perth, Australia: 9 September 2024
 * [International Statistics Conference 2024](https://isc24.iassl.lk), Sri Lanka: 28 December 2024
+* Amazon “Forecasting, Macroeconomics & Finance” seminar, online, 21 February 2025
 
 ## Slides (Sri Lanka)
 

@@ -38,5 +38,5 @@ date: 2017-11-18
 These talks contain many ideas from my coauthors and students. Apart from the coauthors in the papers listed above, the following people have contributed ideas (and I hope they will be coauthors of future papers):
 
  * [Anastasios Panagiotelis](https://anastasiospanagiotelis.netlify.app/)
- * [Puwasala Gamakumara](https://acems.org.au/our-people/puwasala-gamakumara)
+ * [Puwasala Gamakumara](https://puwasala.netlify.app)
  * [Mitchell O'Hara-Wild](http://www.mitchelloharawild.com/)

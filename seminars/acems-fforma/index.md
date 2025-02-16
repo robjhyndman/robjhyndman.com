@@ -7,7 +7,7 @@ link: https://github.com/robjhyndman/fforma-talk/raw/master/fforma.pdf
 youtube: IRCfeG2_SKs
 ---
 
-## Talk given at [ACEMS workshop on "Statistical Methods for the Analysis of High-Dimensional and Massive Data Sets"](https://acems.org.au/events/statistical-methods-analysis-high-dimensional-and-massive-data-sets)
+## Talk given at [ACEMS workshop on "Statistical Methods for the Analysis of High-Dimensional and Massive Data Sets"](https://web.archive.org/web/20221012142824/https://acems.org.au/events/statistical-methods-analysis-high-dimensional-and-massive-data-sets)
 
 I will discuss two algorithms used in forecasting large collections of diverse time series. Each of these algorithms uses a meta-learning approach with vectors of features computed from  time series to guide the way the forecasts are computed.
 

@@ -10,4 +10,4 @@ categories:
 
 ## Podcast interview for The Random Sample
 
-Recently I was interviewed for the ACEMS podcast "The Random Sample" on the topic of forecasting. You can listen to the episode [here](https://acems.org.au/podcast/episode-29-forecasting-the-future).
+Recently I was interviewed for the ACEMS podcast "The Random Sample" on the topic of forecasting. You can listen to the episode [here](https://www.therandomsample.com.au/podcast/forecasting-the-future-the-future-of-forecasting/).

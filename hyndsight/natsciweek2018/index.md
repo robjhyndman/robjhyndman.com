@@ -9,7 +9,7 @@ categories:
   - Monash University
 ---
 
-Next week is [National Science Week](https://www.scienceweek.net.au/) and there are a few mathematics activities happening around Melbourne that are being sponsored by [ACEMS](https://acems.org.au).
+Next week is [National Science Week](https://www.scienceweek.net.au/) and there are a few mathematics activities happening around Melbourne that are being sponsored by [ACEMS](https://web.archive.org/web/20250207003726/https://acems.org.au/home).
 
 [![](/img/PolsterLecture2018.png)](https://www.eventbrite.com/e/melbourne-the-maths-captial-of-the-world-tickets-48783867862)
 

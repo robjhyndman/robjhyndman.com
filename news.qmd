@@ -16,22 +16,22 @@ slug: "in-the-news"
   * ["Australian governments have kept much of their COVID research and modelling secret. Why?"](https://www.abc.net.au/news/2023-01-07/covid-data-government-secrecy/101827548), ABC News, 7 January 2023.
   * ["Business School joins new $7.86 million industrial transformation research centre"](https://www.monash.edu/business/news/2022/business-school-joins-new-$7.86-million-industrial-transformation-research-centre/), Monash News, 23 November 2022.
   * ["Monash University’s Rob Hyndman awarded the Pitman Medal 2021"](https://busycontinent.com/monash-universitys-rob-hyndman-awarded/), Busy Continent, 28 July 2021.
-  * ["Top Stats Society Honour for ACEMS Chief Investigator"](https://acems.org.au/news/rob-hyndman-pitman-medal), ACEMS, 9 July 2021.
+  * ["Top Stats Society Honour for ACEMS Chief Investigator"](https://web.archive.org/web/20240424193450/https://acems.org.au/news/rob-hyndman-pitman-medal), ACEMS, 9 July 2021.
   * ["Rob Hyndman awarded the Pitman Medal 2021"](https://statsoc.org.au/News-and-media-releases/10736720), Statistical Society of Australia, 8 July 2021.
   * ["IIF Fellow & Distinguished Researcher: Rob Hyndman"](https://forecasters.org/blog/2021/07/02/iif-fellow-distinguished-researcher-rob-hyndman/), International Institute of Forecasters, 2 July 2021.
   * ["International Journal of Forecasting Announces Best Papers from the M4 special issue"](https://forecasters.org/blog/2021/06/30/international-journal-of-forecasting-announces-best-papers-from-the-m4-special-issue/), International Institute of Forecasters, 30 June 2021.
   * ["All eyes online"](https://www.monash.edu/business/awards/george-athanasopoulos-and-rob-hyndman), "Monash Awards", 10 June 2021.
   * [“This is really a marathon.” Meet the statistician helping forecast the spread of COVID-19](https://impact.monash.edu/covid-19/this-is-really-a-marathon-meet-the-statistician-helping-forecast-the-spread-of-covid-19/), *Monash Impact*, 25 May 2021.
-  * [The Australia Academy of Science Elects ACEMS Chief Investigator as New Fellow](https://acems.org.au/news/rob-hyndman-science-academy-fellow), *ACEMS News*, 25 May 2021.
+  * [The Australia Academy of Science Elects ACEMS Chief Investigator as New Fellow](https://web.archive.org/web/20241104201440/https://acems.org.au/news/rob-hyndman-science-academy-fellow), *ACEMS News*, 25 May 2021.
   * [Leading Monash University scientists elected Fellows of Australian Academy of Science](https://www.monash.edu/news/articles/leading-monash-university-scientists-elected-fellow-of-australian-academy-of-science), *Monash News*, 25 May 2021.
   * [Distinguished statistician elected Fellow of the Australian Academy of Science](https://www.monash.edu/news/articles/distinguished-statistician-elected-fellow-of-the-australian-academy-of-science), *Monash News*, 25 May 2021.
   * [Twenty-two Australians recognised among our nation’s most distinguished scientists](https://www.science.org.au/news-and-events/news-and-media-releases/twenty-two-australians-recognised-among-nations-distinguished-scientists), *Australian Academy of Science*, 25 May 2021.
   * [Hundreds of academics back self-ID sex question in Scottish census](https://www.heraldscotland.com/news/19208054.hundreds-academics-back-self-id-sex-question-scottish-census/), *The Herald* (Scotland), 4 April 2021.
-  * [Two ACEMS Researchers Named Fellows by Social Sciences Academy](https://acems.org.au/news/acems-social-sciences-fellows), *ACEMS News*, 16 November 2020.
+  * [Two ACEMS Researchers Named Fellows by Social Sciences Academy](https://web.archive.org/web/20241205120702/https://acems.org.au/news/acems-social-sciences-fellows), *ACEMS News*, 16 November 2020.
   * [Cybersecurity: How data scrutiny can thwart attacks](https://impact.monash.edu/big-data/cybersecurity-how-data-scrutiny-can-thwart-attacks/), *Monash Impact*, 12 November 2020.
   * [Respected Business researchers honoured as Fellows of Academy of Social Sciences of Australia](https://www.monash.edu/business/news/2020/respected-business-researchers-honoured-as-fellows-of-academy-of-social-sciences-of-australia), *Monash Business News*, 11 November 2020.
   * [What's the pandemic forecast?](https://web.archive.org/web/20201020143019/https://www.arc.gov.au/news-publications/media/feature-articles/whats-pandemic-forecast), *ARC feature article*, 30 September 2020.
-  * [What's the pandemic forecast?](https://acems.org.au/news/covid-forecasting-team), *ACEMS news*, 12 August 2020.
+  * [What's the pandemic forecast?](https://web.archive.org/web/20241003232107/https://acems.org.au/news/covid-forecasting-team), *ACEMS news*, 12 August 2020.
   * [Inaugural Zema Energy Studies Scholarship launched](https://www.energymagazine.com.au/inaugural-zema-energy-studies-scholarship-launched/), *Energy Magazine*, 5 March 2020.
   * [New scholarship program supports Monash students to address Australia's energy sector challenges](https://www.monash.edu/news/articles/new-scholarship-program-supports-monash-students-to-address-australias-energy-sector-challenges), *Monash News*, 4 March 2020.
   * [Big data, big deal: what a career in data science really takes](https://thenewdaily.com.au/sponsored/2019/11/27/big-data-big-deal-what-a-career-in-data-science-really-takes/), *The New Daily*, 27 November 2019.

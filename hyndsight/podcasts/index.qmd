@@ -20,12 +20,12 @@ tribble(
     ~Date, ~Podcast, ~url, ~Episode,
     "2023-05-26", "Forecasting Impact", "https://forecastingimpact.buzzsprout.com/1641538/12809499-forecasting-software-panel", "Forecasting software panel",
     "2022-03-14", "Faculty.net", "https://faculti.net/forecasting-in-social-settings/", "Forecasting in social settings",
-    "2021-11-17", "The Random Sample", "https://acems.org.au/podcast/episode-66-software-as-research-output", "Software as a first class research output",
+    "2021-11-17", "The Random Sample", "https://www.therandomsample.com.au/podcast/software-as-a-first-class-research-output/", "Software as a first class research output",
     "2021-05-24", "Data Skeptic", "https://podcastaddict.com/episode/123511469", "Forecasting principles and practice",
     "2021-04-12", "Seriously Social", "https://seriouslysocial.org.au/podcasts/forecasting-the-future-the-science-of-prediction/", "Forecasting the future: the science of prediction",
     "2021-02-06", "Forecasting Impact", "https://forecastingimpact.buzzsprout.com/1641538/7708129-rob-hyndman", "Rob Hyndman",
     "2020-07-19", "The Curious Quant", "https://share.transistor.fm/s/dc2dfd76", "Forecasting COVID, time series, and why causality doesnt matter as much as you think",
-    "2020-05-27", "The Random Sample", "https://acems.org.au/podcast/episode-29-forecasting-the-future", "Forecasting the future & the future of forecasting",
+    "2020-05-27", "The Random Sample", "https://www.therandomsample.com.au/podcast/forecasting-the-future-the-future-of-forecasting/", "Forecasting the future & the future of forecasting",
     "2019-10-09", "Thought Capital", "https://impact.monash.edu/podcasts/forecasts-are-always-wrong-but-we-need-them-anyway/", "Forecasts are always wrong (but we need them anyway)",
   ) |>
   mutate(

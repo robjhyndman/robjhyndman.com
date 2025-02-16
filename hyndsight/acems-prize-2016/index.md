@@ -11,7 +11,7 @@ categories:
 - statistics
 ---
 
-We have established a new annual prize for research students at Monash University in the general area of business analytics, funded by the [Australian Centre of Excellence in Mathematical and Statistical Frontiers (ACEMS)](http://acems.org.au/). The rules of the award are listed below.
+We have established a new annual prize for research students at Monash University in the general area of business analytics, funded by the [Australian Centre of Excellence in Mathematical and Statistical Frontiers (ACEMS)](https://web.archive.org/web/20250207003726/https://acems.org.au/home). The rules of the award are listed below.
 
   1. The student must have submitted a paper to a high quality journal or refereed conference on some topic in the general area of business analytics, computational statistics or data visualization.
   2. Up to $3000 will be awarded to the student to assist with research expenses subject to the approval of the relevant supervisor.
