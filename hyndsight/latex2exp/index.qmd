@@ -22,12 +22,12 @@ library(latex2exp)
 
 fit <- lca(fr.mort)
 
-par(mfrow=c(2,2), mar=c(4,5,2,1), family="serif")
-plot(fit$age, fit$ax, type="l", ylab=TeX("a_x"), xlab="Age: x")
-plot(fit$age, fit$bx, type="l", ylab=TeX("b_x"), xlab="Age: x")
-plot(0, type="n", axes=FALSE, xlab="", ylab="")
+par(mfrow = c(2, 2), mar = c(4, 5, 2, 1), family = "serif")
+plot(fit$age, fit$ax, type = "l", ylab = TeX("a_x"), xlab = "Age: x")
+plot(fit$age, fit$bx, type = "l", ylab = TeX("b_x"), xlab = "Age: x")
+plot(0, type = "n", axes = FALSE, xlab = "", ylab = "")
 text(1, 0, TeX("m_{x,t} = a_x + k_tb_x + e_{x,t}"))
-plot(fit$kt, ylab=TeX("k_t"), xlab="Year: t")
+plot(fit$kt, ylab = TeX("k_t"), xlab = "Year: t")
 ```
 
 There are several more examples in the [package documentation](https://github.com/stefano-meschiari/latex2exp).

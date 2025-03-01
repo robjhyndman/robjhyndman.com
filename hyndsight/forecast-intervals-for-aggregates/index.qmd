@@ -26,7 +26,7 @@ library(ggplot2)
 
 fit <- ets(gas)
 # Forecast two years ahead
-fc <- forecast(fit, h=24)
+fc <- forecast(fit, h = 24)
 plot(fc)
 ```
 
@@ -37,8 +37,9 @@ set.seed(2015)
 nsim <- 10000
 h <- 6
 sim <- numeric(nsim)
-for(i in seq_len(nsim))
-  sim[i] <- sum(simulate(fit, future=TRUE, nsim=h))
+for (i in seq_len(nsim)) {
+  sim[i] <- sum(simulate(fit, future = TRUE, nsim = h))
+}
 meanagg <- mean(sim)
 ```
 
@@ -51,8 +52,8 @@ sum(fc$mean[1:6])
 Prediction intervals are now easy to obtain:
 
 ```{r sim3, cache=TRUE, dependson='sim1'}
-#80% interval:
-quantile(sim, prob=c(0.1, 0.9))
-#95% interval:
-quantile(sim, prob=c(0.025, 0.975))
+# 80% interval:
+quantile(sim, prob = c(0.1, 0.9))
+# 95% interval:
+quantile(sim, prob = c(0.025, 0.975))
 ```

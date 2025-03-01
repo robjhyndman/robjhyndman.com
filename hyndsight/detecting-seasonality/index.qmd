@@ -27,12 +27,12 @@ For example, the `pigs` data (Monthly number of pigs slaughted in Victoria) does
 
 ```{r, message=FALSE, cache=TRUE}
 fit1 <- ets(pigs)
-fit2 <- ets(pigs, model="ANN")
+fit2 <- ets(pigs, model = "ANN")
 
-deviance <- 2*c(logLik(fit1) - logLik(fit2))
+deviance <- 2 * c(logLik(fit1) - logLik(fit2))
 df <- attributes(logLik(fit1))$df - attributes(logLik(fit2))$df
-#P value
-1-pchisq(deviance,df)
+# P value
+1 - pchisq(deviance, df)
 ```
 
 The resulting p-value is $5.2\times 10^{-7}$, so the additional seasonal component is significant.

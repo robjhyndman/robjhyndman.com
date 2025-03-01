@@ -16,17 +16,20 @@ The simplest approach is a regression with ARIMA errors. Here is an example usin
 
 ```{r, message=FALSE, cache=TRUE}
 library(forecast)
-gas <- ts(read.csv("https://robjhyndman.com/data/gasoline.csv", header=FALSE)[,1],
-          freq=365.25/7, start=1991+31/365.25)
-bestfit <- list(aicc=Inf)
-for(i in 1:25)
+gas <- ts(read.csv("https://robjhyndman.com/data/gasoline.csv", header = FALSE)[, 1],
+  freq = 365.25 / 7, start = 1991 + 31 / 365.25
+)
+bestfit <- list(aicc = Inf)
+for (i in 1:25)
 {
-  fit <- auto.arima(gas, xreg=fourier(gas, K=i), seasonal=FALSE)
-  if(fit$aicc < bestfit$aicc)
+  fit <- auto.arima(gas, xreg = fourier(gas, K = i), seasonal = FALSE)
+  if (fit$aicc < bestfit$aicc) {
     bestfit <- fit
-  else break;
+  } else {
+    break
+  }
 }
-fc <- forecast(bestfit, xreg=fourier(gas, K=12, h=104))
+fc <- forecast(bestfit, xreg = fourier(gas, K = 12, h = 104))
 plot(fc)
 ```
 
@@ -42,8 +45,8 @@ An alternative approach is the TBATS model introduced by [De Livera et al (JASA,
 
 ```{r, cache=TRUE}
 gastbats <- tbats(gas)
-fc2 <- forecast(gastbats, h=104)
-plot(fc2, ylab="thousands of barrels per day")
+fc2 <- forecast(gastbats, h = 104)
+plot(fc2, ylab = "thousands of barrels per day")
 ```
 
 Here the fitted model is given at the top of the plot as TBATS(0.999, {2,2}, 1, {<52.18,8>}). That is, a Box-Cox transformation of 0.999 (essentially doing nothing), ARMA(2,2) errors, a damping parameter of 1 (doing nothing) and 8 Fourier pairs with period $m=52.18$. This model can be written as

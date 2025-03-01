@@ -66,8 +66,9 @@ fit
 ```
 
 ```{r include=FALSE}
-if(!identical(fabletools:::model_sum(fit$ets[[1]]), "ETS(A,A,A)"))
+if (!identical(fabletools:::model_sum(fit$ets[[1]]), "ETS(A,A,A)")) {
   stop("Model not ETS(A,A,A)")
+}
 ```
 
 An `r fabletools:::model_sum(fit$ets[[1]])`, or additive Holt-Winters model, has been selected for the transformed data. We can produce forecasts in the usual way.

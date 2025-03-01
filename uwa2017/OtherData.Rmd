@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo=TRUE, cache=TRUE, messages=FALSE, warnings=FALSE)
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE, messages = FALSE, warnings = FALSE)
 library(fpp2)
 ```
 

@@ -9,7 +9,7 @@ categories:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, cache=TRUE)
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 ```
 
 The latest version of the [forecast package for R is now on CRAN](https://cran.r-project.org/package=forecast).  This is the version used in the [2nd edition of my forecasting textbook](https://OTexts.org/fpp2) with George Athanasopoulos. So readers should now be able to replicate all examples in the book using only CRAN packages.
@@ -43,14 +43,17 @@ The `tsCV()` function introduced in version 8.0 has proven popular, and it has n
 For example, we can fit an AR(2) model to the lynx data, and compute cross-validation statistics up to horizon 10.
 
 ```{r}
-#Fit an AR(2) model to each rolling origin subset
-far2 <- function(x, h){forecast(Arima(x, order=c(2,0,0)), h=h)}
-e <- tsCV(lynx, far2, h=10)
+# Fit an AR(2) model to each rolling origin subset
+far2 <- function(x, h) {
+  forecast(Arima(x, order = c(2, 0, 0)), h = h)
+}
+e <- tsCV(lynx, far2, h = 10)
 # Compute the MSE values and remove missing values
 mse <- colMeans(e^2, na.rm = T)
 # Plot the MSE values against the forecast horizon
 data.frame(h = 1:10, MSE = mse) %>%
-  ggplot(aes(x = h, y = MSE/1e6)) + geom_point()
+  ggplot(aes(x = h, y = MSE / 1e6)) +
+  geom_point()
 ```
 
 `tsCV()` now also has a `window` argument so the training data can be kept at a constant size.

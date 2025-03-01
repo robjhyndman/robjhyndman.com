@@ -36,17 +36,18 @@ Still assuming normality, we could generate the forecast quantiles from 1% to 99
 where `mu` and `sigma` are the estimated mean and standard deviation of the forecast distribution. So if you are using the forecast package in R, you can do something like this:
 
 ```{r, message=FALSE, cache=TRUE}
-    library(forecast)
-    fit <- auto.arima(WWWusage)
-    fc <- forecast(fit, h=20, level=95)
-    qf <- matrix(0, nrow=99, ncol=20)
-    m <- fc$mean
-    s <- (fc$upper-fc$lower)/1.96/2
-    for(h in 1:20)
-      qf[,h] <- qnorm((1:99)/100, m[h], s[h])
+library(forecast)
+fit <- auto.arima(WWWusage)
+fc <- forecast(fit, h = 20, level = 95)
+qf <- matrix(0, nrow = 99, ncol = 20)
+m <- fc$mean
+s <- (fc$upper - fc$lower) / 1.96 / 2
+for (h in 1:20) {
+  qf[, h] <- qnorm((1:99) / 100, m[h], s[h])
+}
 
-    plot(fc)
-    matlines(101:120, t(qf), col=rainbow(120), lty=1)
+plot(fc)
+matlines(101:120, t(qf), col = rainbow(120), lty = 1)
 ```
 
 Of course, assuming a normal distribution is rather restrictive and not very interesting. For a more interesting but much more complicated approach to generating quantiles, see my 2010 paper on [Density forecasting for long-term peak electricity demand](/publications/peak-electricity-demand/).

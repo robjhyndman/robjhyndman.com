@@ -123,7 +123,7 @@ You can compute the daily changes in the Google stock price in 2018 using
 dgoog <- gafa_stock |>
   filter(Symbol == "GOOG", year(Date) >= 2018) |>
   mutate(trading_day = row_number()) |>
-  update_tsibble(index=trading_day, regular=TRUE) |>
+  update_tsibble(index = trading_day, regular = TRUE) |>
   mutate(diff = difference(Close))
 ```
 
@@ -228,12 +228,12 @@ vic_elec_daily <- vic_elec |>
   filter(year(Time) == 2014) |>
   index_by(Date = date(Time)) |>
   summarise(
-    Demand = sum(Demand)/1e3,
+    Demand = sum(Demand) / 1e3,
     Temperature = max(Temperature),
     Holiday = any(Holiday)
   ) |>
   mutate(
-    Temp2 = I(pmax(Temperature-20,0)),
+    Temp2 = I(pmax(Temperature - 20, 0)),
     Day_Type = case_when(
       Holiday ~ "Holiday",
       wday(Date) %in% 2:6 ~ "Weekday",

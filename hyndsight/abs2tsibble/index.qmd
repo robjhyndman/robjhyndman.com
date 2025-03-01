@@ -34,8 +34,12 @@ tsibbledata::aus_retail
 ```
 
 ```{r, include=FALSE}
-start <- tsibbledata::aus_retail %>% pull(Month) %>% min()
-end <- tsibbledata::aus_retail %>% pull(Month) %>% max()
+start <- tsibbledata::aus_retail %>%
+  pull(Month) %>%
+  min()
+end <- tsibbledata::aus_retail %>%
+  pull(Month) %>%
+  max()
 ```
 
 There are `r length(unique(tsibbledata::aus_retail[["Series ID"]]))` combinations of State and Industry (each corresponding to a `Series ID`).
@@ -62,14 +66,15 @@ The `series` column contains information about the state and industry, so we wil
 ```{r}
 retail1 <- retail1 %>%
   separate(series, c("Category", "State", "Industry"),
-           sep = ";", extra = "drop") %>%
+    sep = ";", extra = "drop"
+  ) %>%
   mutate(
     State = trimws(State),
     Industry = trimws(Industry),
   ) %>%
   select(-Category) %>%
   filter(
-    Industry  != "Total (Industry)",
+    Industry != "Total (Industry)",
     State != "Total (State)"
   )
 ```

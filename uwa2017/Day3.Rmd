@@ -8,7 +8,7 @@ editor_options:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo=TRUE, cache=TRUE, messages=FALSE, warnings=FALSE)
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE, messages = FALSE, warnings = FALSE)
 library(fpp2)
 ```
 
@@ -17,17 +17,19 @@ library(fpp2)
 ```{r}
 retaildata <- readxl::read_excel("retail.xlsx", skip = 1)
 mytimeseries <- ts(retaildata[["A3349873A"]],
-                  frequency=12, start=c(1982,4))
+  frequency = 12, start = c(1982, 4)
+)
 (etsmod <- ets(mytimeseries))
 ```
 
 ```{r}
-myfn <- function(y,h)
-{
-  y %>% ets(model="MAM", damped=FALSE) %>% forecast(h=h)
+myfn <- function(y, h) {
+  y %>%
+    ets(model = "MAM", damped = FALSE) %>%
+    forecast(h = h)
 }
 e <- tsCV(mytimeseries, myfn)
-sqrt(mean(e^2, na.rm=TRUE))
+sqrt(mean(e^2, na.rm = TRUE))
 ```
 
 ```{r}
@@ -35,12 +37,13 @@ ggtsdisplay(e)
 ```
 
 ```{r}
-myfn <- function(y,h)
-{
-  y %>% ets %>% forecast(h=h)
+myfn <- function(y, h) {
+  y %>%
+    ets() %>%
+    forecast(h = h)
 }
 e2 <- tsCV(mytimeseries, myfn)
-sqrt(mean(e2^2, na.rm=TRUE))
+sqrt(mean(e2^2, na.rm = TRUE))
 ```
 
 ```{r}
@@ -52,23 +55,29 @@ ggtsdisplay(e2)
 ```{r}
 lambda <- BoxCox.lambda(mytimeseries)
 fit1 <- auto.arima(mytimeseries,
-          xreg=fourier(mytimeseries, 1),
-          seasonal=FALSE, lambda=lambda)
+  xreg = fourier(mytimeseries, 1),
+  seasonal = FALSE, lambda = lambda
+)
 fit2 <- auto.arima(mytimeseries,
-          xreg=fourier(mytimeseries, 2),
-          seasonal=FALSE, lambda=lambda)
+  xreg = fourier(mytimeseries, 2),
+  seasonal = FALSE, lambda = lambda
+)
 fit3 <- auto.arima(mytimeseries,
-          xreg=fourier(mytimeseries, 3),
-          seasonal=FALSE, lambda=lambda)
+  xreg = fourier(mytimeseries, 3),
+  seasonal = FALSE, lambda = lambda
+)
 fit4 <- auto.arima(mytimeseries,
-          xreg=fourier(mytimeseries, 4),
-          seasonal=FALSE, lambda=lambda)
+  xreg = fourier(mytimeseries, 4),
+  seasonal = FALSE, lambda = lambda
+)
 fit5 <- auto.arima(mytimeseries,
-          xreg=fourier(mytimeseries, 5),
-          seasonal=FALSE, lambda=lambda)
+  xreg = fourier(mytimeseries, 5),
+  seasonal = FALSE, lambda = lambda
+)
 fit6 <- auto.arima(mytimeseries,
-          xreg=fourier(mytimeseries, 6),
-          seasonal=FALSE, lambda=lambda)
+  xreg = fourier(mytimeseries, 6),
+  seasonal = FALSE, lambda = lambda
+)
 fit1$aicc
 fit2$aicc
 fit3$aicc
@@ -80,17 +89,19 @@ fit6$aicc
 ```{r}
 checkresiduals(fit6)
 fc <- forecast(fit6,
-      xreg=fourier(mytimeseries, 6,36))
+  xreg = fourier(mytimeseries, 6, 36)
+)
 autoplot(fc)
 ```
 
 ```{r}
-newretaildata <- readxl::read_excel("8501011.xls", sheet=2, skip=9)
+newretaildata <- readxl::read_excel("8501011.xls", sheet = 2, skip = 9)
 mynewdata <- ts(newretaildata[["A3349873A"]],
-                  frequency=12, start=c(1982,4))
-mynewdata <- window(mynewdata, start=2014)
+  frequency = 12, start = c(1982, 4)
+)
+mynewdata <- window(mynewdata, start = 2014)
 autoplot(fc) +
-  autolayer(mynewdata, series="Future")
+  autolayer(mynewdata, series = "Future")
 ```
 
 # Lab Session 15
@@ -101,10 +112,10 @@ plot(infantgts)
 smatrix(infantgts)
 
 # Forecast 10-step-ahead and reconcile the forecasts
-infantforecast <- forecast(infantgts, h=10)
+infantforecast <- forecast(infantgts, h = 10)
 
 # Plot the forecasts including the last ten historical years
-plot(infantforecast, include=10)
+plot(infantforecast, include = 10)
 ```
 
 ```{r}
@@ -112,10 +123,11 @@ plot(infantforecast, include=10)
 allts_infant <- aggts(infantgts)
 
 # Forecast all series using ARIMA models
-allf <- matrix(, nrow=10, ncol=ncol(allts_infant))
-for(i in 1:ncol(allts_infant))
-  allf[,i] <- forecast(auto.arima(allts_infant[,i]), h=10)$mean
-allf <- ts(allf, start=2004)
+allf <- matrix(, nrow = 10, ncol = ncol(allts_infant))
+for (i in 1:ncol(allts_infant)) {
+  allf[, i] <- forecast(auto.arima(allts_infant[, i]), h = 10)$mean
+}
+allf <- ts(allf, start = 2004)
 
 # combine the forecasts with the group matrix to get a gts object
 y.f <- combinef(allf, groups = infantgts$groups)
@@ -123,11 +135,11 @@ y.f <- combinef(allf, groups = infantgts$groups)
 
 ```{r}
 # set up training and testing samples
-data <- window(infantgts, end=1993)
-test <- window(infantgts, start=1994)
+data <- window(infantgts, end = 1993)
+test <- window(infantgts, start = 1994)
 
 # Compute forecasts on training data
-forecast <- forecast(data, h=10)
+forecast <- forecast(data, h = 10)
 
 # calculate ME, RMSE, MAE, MAPE, MPE and MASE
 accuracy(forecast, test)
@@ -135,13 +147,13 @@ accuracy(forecast, test)
 
 ```{r}
 # Overall forecast accuracy
-rmse <- accuracy(forecast, test)["RMSE",]
+rmse <- accuracy(forecast, test)["RMSE", ]
 sqrt(sum(rmse^2))
 ```
 
 ```{r}
-forecast_bu <- forecast(data, h=10, method="bu")
-sqrt(sum(accuracy(forecast_bu, test)["RMSE",]^2))
+forecast_bu <- forecast(data, h = 10, method = "bu")
+sqrt(sum(accuracy(forecast_bu, test)["RMSE", ]^2))
 ```
 
 # Lab Session 16
@@ -149,19 +161,19 @@ sqrt(sum(accuracy(forecast_bu, test)["RMSE",]^2))
 ```{r}
 library(thief)
 lambda <- BoxCox.lambda(mytimeseries)
-fcarima <- forecast(auto.arima(mytimeseries, lambda=lambda), h=36)
-fcthief <- thief(mytimeseries, usemodel='arima', lambda=lambda, h=36)
+fcarima <- forecast(auto.arima(mytimeseries, lambda = lambda), h = 36)
+fcthief <- thief(mytimeseries, usemodel = "arima", lambda = lambda, h = 36)
 autoplot(mytimeseries) +
-  autolayer(fcthief, series="Thief") +
-  autolayer(fcarima, series="ARIMA", PI=FALSE) +
-  autolayer(mynewdata, series="New data")
+  autolayer(fcthief, series = "Thief") +
+  autolayer(fcarima, series = "ARIMA", PI = FALSE) +
+  autolayer(mynewdata, series = "New data")
 ```
 
 ```{r}
-autoplot(window(mytimeseries, start=2012)) +
-  autolayer(fcthief, series="Thief") +
-  autolayer(fcarima, series="ARIMA", PI=FALSE) +
-  autolayer(mynewdata, series="New data")
+autoplot(window(mytimeseries, start = 2012)) +
+  autolayer(fcthief, series = "Thief") +
+  autolayer(fcarima, series = "ARIMA", PI = FALSE) +
+  autolayer(mynewdata, series = "New data")
 ```
 
 # Lab Session 17
@@ -169,13 +181,13 @@ autoplot(window(mytimeseries, start=2012)) +
 ```{r}
 fit <- tbats(mytimeseries)
 checkresiduals(fit)
-forecast(fit) %>% autoplot
+forecast(fit) %>% autoplot()
 ```
 
 ```{r}
 fit <- tbats(gasoline)
 checkresiduals(fit)
-forecast(fit) %>% autoplot
+forecast(fit) %>% autoplot()
 ```
 
 # Lab Session 18
@@ -183,49 +195,51 @@ forecast(fit) %>% autoplot
 ```{r}
 fit <- nnetar(mytimeseries)
 checkresiduals(fit)
-forecast(fit, h=36, PI=TRUE) %>% autoplot
+forecast(fit, h = 36, PI = TRUE) %>% autoplot()
 ```
 
 # Lab Session 19
 
 ```{r}
 lambda <- BoxCox.lambda(mytimeseries)
-e1 <- tsCV(mytimeseries, snaive, h=12)
-e2 <- tsCV(mytimeseries, hw, h=12,
-           seasonal='mult')
-e3 <- tsCV(mytimeseries, thief, h=12)
-e4 <- tsCV(mytimeseries, stlf, lambda=lambda, h=12)
+e1 <- tsCV(mytimeseries, snaive, h = 12)
+e2 <- tsCV(mytimeseries, hw,
+  h = 12,
+  seasonal = "mult"
+)
+e3 <- tsCV(mytimeseries, thief, h = 12)
+e4 <- tsCV(mytimeseries, stlf, lambda = lambda, h = 12)
 ```
 
 ```{r}
-f0 <- function(y,h, ...) {
-  forecast(ets(y, ...), h=h)
+f0 <- function(y, h, ...) {
+  forecast(ets(y, ...), h = h)
 }
-f1 <- function(y,h, ...) {
-  forecast(auto.arima(y, ...), h=h)
+f1 <- function(y, h, ...) {
+  forecast(auto.arima(y, ...), h = h)
 }
-f2 <- function(y,h, ...) {
-  forecast(tbats(y, ...), h=h)
+f2 <- function(y, h, ...) {
+  forecast(tbats(y, ...), h = h)
 }
-f3 <- function(y,h, ...) {
-  forecast(nnetar(y, ...), h=h)
+f3 <- function(y, h, ...) {
+  forecast(nnetar(y, ...), h = h)
 }
-e5 <- tsCV(mytimeseries, f0, h=12)
-e6 <- tsCV(mytimeseries, f1, lambda=lambda, h=12)
-e7 <- tsCV(mytimeseries, f2, h=12)
-e8 <- tsCV(mytimeseries, f3, lambda=lambda, h=12)
+e5 <- tsCV(mytimeseries, f0, h = 12)
+e6 <- tsCV(mytimeseries, f1, lambda = lambda, h = 12)
+e7 <- tsCV(mytimeseries, f2, h = 12)
+e8 <- tsCV(mytimeseries, f3, lambda = lambda, h = 12)
 ```
 
 ```{r}
 c(
-  SNAIVE=mean(e1^2, na.rm=TRUE),
-  HW=mean(e2^2, na.rm=TRUE),
-  THIEF=mean(e3^2, na.rm=TRUE),
-  STLF=mean(e4^2, na.rm=TRUE),
-  ETS=mean(e5^2, na.rm=TRUE),
-  ARIMA=mean(e6^2, na.rm=TRUE),
-  TBATS=mean(e7^2, na.rm=TRUE),
-  NNETAR=mean(e8^2, na.rm=TRUE)
+  SNAIVE = mean(e1^2, na.rm = TRUE),
+  HW = mean(e2^2, na.rm = TRUE),
+  THIEF = mean(e3^2, na.rm = TRUE),
+  STLF = mean(e4^2, na.rm = TRUE),
+  ETS = mean(e5^2, na.rm = TRUE),
+  ARIMA = mean(e6^2, na.rm = TRUE),
+  TBATS = mean(e7^2, na.rm = TRUE),
+  NNETAR = mean(e8^2, na.rm = TRUE)
 )
 ```
 

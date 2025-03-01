@@ -34,21 +34,21 @@ plot(infantgts)
 A potential forecasting method is to use a regression model on the log scale with a constant to 1970 and a decreasing trend thereafter. The figure below shows the model for the most aggregated data.
 
 ```{r, cache=TRUE}
-plot(log(aggts(infantgts, level=0)), xlab="Year", ylab="Log total infant deaths")
-y <- log(aggts(infantgts, level=0))
+plot(log(aggts(infantgts, level = 0)), xlab = "Year", ylab = "Log total infant deaths")
+y <- log(aggts(infantgts, level = 0))
 z <- pmax(time(infantgts$bts) - 1970, 0)
 fit <- lm(y ~ z)
-lines(ts(fitted(fit),start=1933),col='red')
+lines(ts(fitted(fit), start = 1933), col = "red")
 ```
 
 To apply this model to all series, and allow for ARMA errors, we can use the following code.
 
 ```{r, echo=TRUE, cache=TRUE}
-    y = window(infantgts, start=1944)
-    z = pmax(time(y$bts) - 1970, 0)
-    fz = max(z) + 1:10
-    fc = forecast(y, h=10, fmethod="arima", xreg=z, newxreg=fz, lambda=0)
-    plot(fc)
+y <- window(infantgts, start = 1944)
+z <- pmax(time(y$bts) - 1970, 0)
+fz <- max(z) + 1:10
+fc <- forecast(y, h = 10, fmethod = "arima", xreg = z, newxreg = fz, lambda = 0)
+plot(fc)
 ```
 
 I started the series at 1944 as there were a few zero observations before that, and taking logs caused problems. The argument `lambda=0` means the models are fitted to the logged data (although reconciliation must occur on the original scale).

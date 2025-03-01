@@ -15,7 +15,7 @@ Suppose we fit a NNETAR model to the famous Canadian `lynx` data:
 ```{r, message=FALSE}
 library(forecast)
 set.seed(2015)
-(fit <- nnetar(lynx, lambda=0.5))
+(fit <- nnetar(lynx, lambda = 0.5))
 ```
 
 I've used a Box-Cox transformation with $\lambda=0.5$ to ensure the residuals will be roughly homoscedastic.
@@ -40,9 +40,10 @@ $$
 In this way, we can iteratively simulate a future sample path. By repeatedly simulating sample paths, we build up knowledge of the distribution for all future values based on the fitted neural network. Here is a simulation of 9 possible future sample paths for the lynx data. Each sample path covers the next 20 years after the observed data.
 
 ```{r, message=FALSE}
-sim <- ts(matrix(0, nrow=20, ncol=9), start=end(lynx)[1]+1)
-for(i in seq(9))
-  sim[,i] <- simulate(fit, nsim=20)
+sim <- ts(matrix(0, nrow = 20, ncol = 9), start = end(lynx)[1] + 1)
+for (i in seq(9)) {
+  sim[, i] <- simulate(fit, nsim = 20)
+}
 
 library(ggplot2)
 autoplot(lynx) + forecast::autolayer(sim)
@@ -51,7 +52,7 @@ autoplot(lynx) + forecast::autolayer(sim)
 If we do this a few hundred or thousand times, we can get a very good picture of the forecast distributions. This is how the `forecast.nnetar` function produces prediction intervals:
 
 ```{r}
-fcast <- forecast(fit, PI=TRUE, h=20)
+fcast <- forecast(fit, PI = TRUE, h = 20)
 autoplot(fcast)
 ```
 

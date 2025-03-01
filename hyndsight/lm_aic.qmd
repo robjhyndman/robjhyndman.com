@@ -51,9 +51,9 @@ mse <- mean(residuals(fit)^2)
 n <- length(residuals(fit))
 k <- length(fit$coefficients) + 1
 # With constant
-2*k + n*log(mse) + n*log(2*pi) + n
+2 * k + n * log(mse) + n * log(2 * pi) + n
 # Without constant
-2*k + n*log(mse)
+2 * k + n * log(mse)
 ```
 
 Clearly, `AIC()` applied to the output from `lm()` is using the version with the constant.

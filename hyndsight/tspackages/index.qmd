@@ -13,10 +13,10 @@ categories:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
-	echo = TRUE,
-	message = FALSE,
-	warning = FALSE,
-	cache = TRUE
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE,
+  cache = TRUE
 )
 ```
 
@@ -67,28 +67,41 @@ library(anomalous)
 
 yahoo <- cbind(dat0, dat1, dat2, dat3)
 hwl <- bind_cols(
-         tsfeatures(yahoo,
-           c("acf_features","entropy","lumpiness",
-             "flat_spots","crossing_points")),
-         tsfeatures(yahoo,"stl_features", s.window='periodic',
-           robust=TRUE),
-         tsfeatures(yahoo, "max_kl_shift", width=48),
-         tsfeatures(yahoo,
-           c("mean","var"), scale=FALSE, na.rm=TRUE),
-         tsfeatures(yahoo,
-           c("max_level_shift","max_var_shift"), trim=TRUE)) %>%
-  select(mean, var, x_acf1, trend, linearity, curvature,
-         seasonal_strength, peak, trough,
-         entropy, lumpiness, spike, max_level_shift, max_var_shift,
-         flat_spots, crossing_points, max_kl_shift, time_kl_shift)
+  tsfeatures(
+    yahoo,
+    c(
+      "acf_features", "entropy", "lumpiness",
+      "flat_spots", "crossing_points"
+    )
+  ),
+  tsfeatures(yahoo, "stl_features",
+    s.window = "periodic",
+    robust = TRUE
+  ),
+  tsfeatures(yahoo, "max_kl_shift", width = 48),
+  tsfeatures(yahoo,
+    c("mean", "var"),
+    scale = FALSE, na.rm = TRUE
+  ),
+  tsfeatures(yahoo,
+    c("max_level_shift", "max_var_shift"),
+    trim = TRUE
+  )
+) %>%
+  select(
+    mean, var, x_acf1, trend, linearity, curvature,
+    seasonal_strength, peak, trough,
+    entropy, lumpiness, spike, max_level_shift, max_var_shift,
+    flat_spots, crossing_points, max_kl_shift, time_kl_shift
+  )
 ```
 
 ```{r yahoo2, dependson="yahoo"}
 # 2-d Feature space
-prcomp(na.omit(hwl), scale=TRUE)$x %>%
+prcomp(na.omit(hwl), scale = TRUE)$x %>%
   as_tibble() %>%
-  ggplot(aes(x=PC1, y=PC2)) +
-    geom_point()
+  ggplot(aes(x = PC1, y = PC2)) +
+  geom_point()
 ```
 
 ### [Kang, Hyndman & Smith-Miles (IJF 2017)](/publications/ts-feature-space/)
@@ -102,26 +115,30 @@ library(tidyverse)
 library(forecast)
 
 M3data <- combine_training_test(M3)
-khs_stl <- function(x,...)
-{
-  lambda <- BoxCox.lambda(x, lower=0, upper=1, method='loglik')
+khs_stl <- function(x, ...) {
+  lambda <- BoxCox.lambda(x, lower = 0, upper = 1, method = "loglik")
   y <- BoxCox(x, lambda)
-  c(stl_features(y, s.window='periodic', robust=TRUE, ...),
-    lambda=lambda)
+  c(stl_features(y, s.window = "periodic", robust = TRUE, ...),
+    lambda = lambda
+  )
 }
 khs <- bind_cols(
   tsfeatures(M3data, c("frequency", "entropy")),
-  tsfeatures(M3data, "khs_stl", scale=FALSE)) %>%
-  select(frequency, entropy, trend, seasonal_strength,
-    e_acf1, lambda) %>%
-  replace_na(list(seasonal_strength=0)) %>%
+  tsfeatures(M3data, "khs_stl", scale = FALSE)
+) %>%
+  select(
+    frequency, entropy, trend, seasonal_strength,
+    e_acf1, lambda
+  ) %>%
+  replace_na(list(seasonal_strength = 0)) %>%
   rename(
     Frequency = frequency,
     Entropy = entropy,
     Trend = trend,
     Season = seasonal_strength,
     ACF1 = e_acf1,
-    Lambda = lambda) %>%
+    Lambda = lambda
+  ) %>%
   mutate(Period = as.factor(Frequency))
 ```
 
@@ -132,11 +149,11 @@ khs %>%
   GGally::ggpairs()
 
 # 2-d Feature space (Top of Fig 2)
-prcomp(select(khs, -Period), scale=TRUE)$x %>%
+prcomp(select(khs, -Period), scale = TRUE)$x %>%
   as_tibble() %>%
-  bind_cols(Period=khs$Period) %>%
-  ggplot(aes(x=PC1, y=PC2)) +
-    geom_point(aes(col=Period))
+  bind_cols(Period = khs$Period) %>%
+  ggplot(aes(x = PC1, y = PC2)) +
+  geom_point(aes(col = Period))
 ```
 
 This package will make it easier for other researchers to replicate our papers, and to use a feature-based approach for analysing large collections of time series. If anyone has features they think are particularly useful, feel free to send me a pull-request with your feature functions to include in the package.

@@ -49,22 +49,24 @@ set.seed(0)
 
 # Function to simulate p-values given a DGP model and
 # a function to fit the model to a time series
-simulate_pvalue <- function(model, fit_fn, l=10) {
+simulate_pvalue <- function(model, fit_fn, l = 10) {
   ## simulate series
-  if(is.null(model$xreg)) {
+  if (is.null(model$xreg)) {
     y <- simulate(model, n = 250)
   } else {
-    y <- simulate(model, xreg=model$xreg, n=250)
+    y <- simulate(model, xreg = model$xreg, n = 250)
   }
-  if(inherits(model, "ets")) {
+  if (inherits(model, "ets")) {
     # If multiplicative errors, fix non-positive values
-    if(model$components[1] == "M")
+    if (model$components[1] == "M") {
       y[y <= 0] <- 1e-5
+    }
   }
   ## Fit model
   m <- fit_fn(y)
   ## compute p-values for various df
-  pv <- purrr::map_vec(0:3, m=m,
+  pv <- purrr::map_vec(0:3,
+    m = m,
     function(x, m) {
       Box.test(residuals(m), lag = l, fitdf = x, type = "Ljung-Box")$p.value
     }
@@ -73,9 +75,9 @@ simulate_pvalue <- function(model, fit_fn, l=10) {
   return(pv)
 }
 # Function to replicate the above function
-simulate_pvalues <- function(model, fit_fn, nsim = 5000, l=10) {
+simulate_pvalues <- function(model, fit_fn, nsim = 5000, l = 10) {
   purrr::map_dfr(seq(nsim), function(x) {
-    simulate_pvalue(model, fit_fn, l=l)
+    simulate_pvalue(model, fit_fn, l = l)
   })
 }
 # Histograms of p values
@@ -91,7 +93,9 @@ hist_pvalues <- function(pv) {
 table_pvalues <- function(pv) {
   tibble::tibble(`test size` = c(0.01, 0.05, 0.1)) %>%
     dplyr::bind_cols(
-      purrr::map_df(pv, function(x) {ecdf(x)(.$`test size`)})
+      purrr::map_df(pv, function(x) {
+        ecdf(x)(.$`test size`)
+      })
     ) |>
     knitr::kable()
 }
@@ -104,7 +108,7 @@ We will simulate from an ARIMA(2,0,0) model with a non-zero intercept. For the L
 ```{r}
 #| label: ARIMA
 #| dependson: setup
-model <- Arima(sqrt(lynx), order=c(2,0,0))
+model <- Arima(sqrt(lynx), order = c(2, 0, 0))
 fit_fn <- function(y) {
   Arima(y, order = c(2, 0, 0), include.mean = TRUE)
 }
@@ -122,9 +126,9 @@ Next, we will simulate from an ARIMA(0,1,1)(0,1,1)$_{12}$ model, often called th
 ```{r}
 #| label: SARIMA
 #| dependson: setup
-model <- Arima(log(AirPassengers), order=c(0,1,1), seasonal=c(0,1,1))
+model <- Arima(log(AirPassengers), order = c(0, 1, 1), seasonal = c(0, 1, 1))
 fit_fn <- function(y) {
-  Arima(y, order = c(0,1,1), seasonal=c(0,1,1))
+  Arima(y, order = c(0, 1, 1), seasonal = c(0, 1, 1))
 }
 sarima_pvalues <- simulate_pvalues(model, fit_fn)
 hist_pvalues(sarima_pvalues)
@@ -138,7 +142,7 @@ As a guess, perhaps the seasonal parameters aren't having an effect with $\ell=1
 ```{r}
 #| label: SARIMA2
 #| dependson: SARIMA
-sarima_pvalues <- simulate_pvalues(model, fit_fn, l=24)
+sarima_pvalues <- simulate_pvalues(model, fit_fn, l = 24)
 hist_pvalues(sarima_pvalues)
 table_pvalues(sarima_pvalues)
 ```
@@ -152,10 +156,11 @@ We will simulate from a linear trend model with AR(1) errors. Here, $K=1$ counts
 ```{r}
 #| label: RegARIMA
 #| dependson: setup
-model <- Arima(10 + seq(250)/10 + arima.sim(list(ar=0.7), n=250),
-               order = c(1,0,0), xreg = seq(250))
+model <- Arima(10 + seq(250) / 10 + arima.sim(list(ar = 0.7), n = 250),
+  order = c(1, 0, 0), xreg = seq(250)
+)
 fit_fn <- function(y) {
-  Arima(y, order = c(1,0,0), include.constant = TRUE, xreg = seq(250))
+  Arima(y, order = c(1, 0, 0), include.constant = TRUE, xreg = seq(250))
 }
 regarima_pvalues <- simulate_pvalues(model, fit_fn)
 hist_pvalues(regarima_pvalues)
@@ -171,8 +176,9 @@ Next, we will consider a linear trend model with iid errors. That is the same as
 ```{r}
 #| label: trend
 #| dependson: setup
-model <- Arima(10 + seq(250)/10 + rnorm(250),
-               order = c(0,0,0), xreg = seq(250))
+model <- Arima(10 + seq(250) / 10 + rnorm(250),
+  order = c(0, 0, 0), xreg = seq(250)
+)
 fit_fn <- function(y) {
   Arima(y, include.constant = TRUE, xreg = seq(250))
 }
@@ -244,7 +250,7 @@ Finally, we will check a seasonal ETS model
 ```{r}
 #| label: ETSAAA
 #| dependson: setup
-model <- ets(log(AirPassengers), model="AAA", damped=FALSE)
+model <- ets(log(AirPassengers), model = "AAA", damped = FALSE)
 fit_fn <- function(y) {
   ets(y, model = "AAA", damped = FALSE)
 }

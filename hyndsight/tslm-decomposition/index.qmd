@@ -9,8 +9,8 @@ categories:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, cache=TRUE)
-options(digits=3)
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
+options(digits = 3)
 ```
 
 Many users have tried to do a seasonal decomposition with a short time series, and hit the error "Series has less than two periods".
@@ -22,9 +22,11 @@ However, it is possible to use a linear regression model to decompose a time ser
 This problem [came up on crossvalidated.com](https://stackoverflow.com/q/51329598/144157) recently, with the following data set.
 
 ```{r}
-df <- ts(c(2735.869,2857.105,2725.971,2734.809,2761.314,2828.224,2830.284,
-  2758.149,2774.943,2782.801,2861.970,2878.688,3049.229,3029.340,3099.041,
-  3071.151,3075.576,3146.372,3005.671,3149.381), start=c(2016,8), frequency=12)
+df <- ts(c(
+  2735.869, 2857.105, 2725.971, 2734.809, 2761.314, 2828.224, 2830.284,
+  2758.149, 2774.943, 2782.801, 2861.970, 2878.688, 3049.229, 3029.340, 3099.041,
+  3071.151, 3075.576, 3146.372, 3005.671, 3149.381
+), start = c(2016, 8), frequency = 12)
 ```
 
 We can approximate the seasonal pattern using [Fourier terms](https://otexts.org/fpp2/useful-predictors.html#fourier-series) with a few parameters.
@@ -38,14 +40,14 @@ decompose_df <- tslm(df ~ trend + fourier(df, 2))
 Then the usual decomposition plot can be constructed.
 
 ```{r}
-trend <- coef(decompose_df)[1] + coef(decompose_df)['trend']*seq_along(df)
+trend <- coef(decompose_df)[1] + coef(decompose_df)["trend"] * seq_along(df)
 components <- cbind(
   data = df,
   trend = trend,
   season = df - trend - residuals(decompose_df),
   remainder = residuals(decompose_df)
 )
-autoplot(components, facet=TRUE)
+autoplot(components, facet = TRUE)
 ```
 
 Here the model is
@@ -62,8 +64,8 @@ The trend could also be made nonlinear, by replacing `trend` with a polynomial o
 As with other methods of decomposition, it is easy enough to remove the seasonal component to get the seasonally adjusted data.
 
 ```{r, fig.height=3}
-adjust_df <- df - components[,'season']
-autoplot(df, series="Data") +
-  autolayer(adjust_df, series="Seasonally adjusted")
+adjust_df <- df - components[, "season"]
+autoplot(df, series = "Data") +
+  autolayer(adjust_df, series = "Seasonally adjusted")
 ```
 

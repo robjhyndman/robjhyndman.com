@@ -35,9 +35,11 @@ Usually, residuals are computed as the difference between observations and the c
 ```{r, message=FALSE, cache=TRUE}
 library(ggplot2)
 fit <- ets(woolyrnq)
-res <- cbind(Residuals = residuals(fit),
-             Response.residuals = residuals(fit, type='response'))
-autoplot(res, facets=TRUE)
+res <- cbind(
+  Residuals = residuals(fit),
+  Response.residuals = residuals(fit, type = "response")
+)
+autoplot(res, facets = TRUE)
 ```
 
 ## Some new graphs
@@ -51,16 +53,18 @@ gghistogram(lynx)
 The `ggseasonplot` function is useful for studying seasonal patterns and how they change over time. It now has a `polar` argument to create graphs like this.
 
 ```{r, message=FALSE, cache=TRUE}
-ggseasonplot(USAccDeaths, polar=TRUE)
+ggseasonplot(USAccDeaths, polar = TRUE)
 ```
 
 I often want to add a time series line to an existing plot. Base graphics has `line()` which works well when a time series is passed as an argument. So I added `autolayer` which is similar (but more general). It is an S3 method like `autoplot`, and adds a layer to an existing `ggplot` object. `autolayer` will eventually form part of the next release of `ggplot2`, but for now it is available in the `forecast` package. There are methods provided for `ts` and `forecast` objects:
 
 ```{r, message=FALSE, cache=TRUE}
-WWWusage %>% ets %>% forecast(h=20) -> fc
-autoplot(WWWusage, series="Data") +
-  autolayer(fc, series="Forecast") +
-  autolayer(fitted(fc), series="Fitted")
+WWWusage %>%
+  ets() %>%
+  forecast(h = 20) -> fc
+autoplot(WWWusage, series = "Data") +
+  autolayer(fc, series = "Forecast") +
+  autolayer(fitted(fc), series = "Fitted")
 ```
 
 ## Cross-validation

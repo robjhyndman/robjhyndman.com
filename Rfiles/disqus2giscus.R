@@ -49,7 +49,7 @@ comments <- tibble::tibble(
   comment_id = xml2::xml_attr(comments_nodes, "id"),
   parent_id = map_chr(comments_nodes, function(x) {
     parent <- xml2::xml_find_all(x, "d1:parent")
-    if(length(parent) == 0) NA_character_ else xml2::xml_attr(parent,"id")
+    if (length(parent) == 0) NA_character_ else xml2::xml_attr(parent, "id")
   }),
   message = xml2::xml_text(
     xml2::xml_find_all(comments_nodes, "d1:message")
@@ -90,15 +90,26 @@ threads <- threads |>
   mutate(url = str_remove(url, website))
 
 # Store github repo details
-repo <- gh::gh_gql(paste0('query FindRepo {
-  repository(owner: "',github_name, '", name: "', github_repo, '") {
+repo <- gh::gh_gql(paste0(
+  'query FindRepo {
+  repository(owner: "',
+  github_name,
+  '", name: "',
+  github_repo,
+  '") {
     id
   }
-}'))
+}'
+))
 
 # Get available discussion categories
-discussion_categories <- gh::gh_gql(paste0('query {
-  repository(owner: "', github_name, '", name: "', github_repo, '") {
+discussion_categories <- gh::gh_gql(paste0(
+  'query {
+  repository(owner: "',
+  github_name,
+  '", name: "',
+  github_repo,
+  '") {
     discussionCategories(first: 10) {
       nodes {
         id
@@ -106,10 +117,13 @@ discussion_categories <- gh::gh_gql(paste0('query {
       }
     }
   }
-}'))
+}'
+))
 
 # Get first category id
-category_id <- discussion_categories$data$repository$discussionCategories$nodes[[1]]$id
+category_id <- discussion_categories$data$repository$discussionCategories$nodes[[
+  1
+]]$id
 
 # Template for new discussion post
 new_discussion_query <- 'mutation {
@@ -137,12 +151,14 @@ new_comment_query <- 'mutation {
 # Resolve root comment
 resolve_root_comment <- function(comment_id, parent_id) {
   resolved <- is.na(parent_id)
-  while(length(unresolved <- which(!resolved)) > 0) {
+  while (length(unresolved <- which(!resolved)) > 0) {
     parent_comments <- match(parent_id[unresolved], comment_id)
     # Set resolved parents
     resolved[unresolved] <- newly_resolved <- is.na(parent_id[parent_comments])
     # Update unresolved parents
-    parent_id[unresolved[!newly_resolved]] <- parent_id[parent_comments[!newly_resolved]]
+    parent_id[unresolved[!newly_resolved]] <- parent_id[parent_comments[
+      !newly_resolved
+    ]]
   }
   parent_id
 }
@@ -154,14 +170,28 @@ add_comment <- function(comment, discussion_id) {
     msg_html <- tempfile(fileext = ".html")
   )
   rmarkdown::pandoc_convert(
-    input = msg_html, from = "html",
-    output = msg_md <- tempfile(fileext = ".md"), to = "markdown"
+    input = msg_html,
+    from = "html",
+    output = msg_md <- tempfile(fileext = ".md"),
+    to = "markdown"
   )
   # Remove escaping of &quot
-  comment$message <- gsub('\\\\"', '"', paste0(readLines(msg_md), collapse = "\n"))
+  comment$message <- gsub(
+    '\\\\"',
+    '"',
+    paste0(readLines(msg_md), collapse = "\n")
+  )
   # Fix embeded links
-  comment$message <- gsub('\\{rel=\\"nofollow noopener\\"\\}', "", comment$message)
-  comment$message <- gsub(' \\"http[:/ a-zA-Z0-9_\\-\\.]*\\"',"",comment$message)
+  comment$message <- gsub(
+    '\\{rel=\\"nofollow noopener\\"\\}',
+    "",
+    comment$message
+  )
+  comment$message <- gsub(
+    ' \\"http[:/ a-zA-Z0-9_\\-\\.]*\\"',
+    "",
+    comment$message
+  )
 
   # Add comment metadata
   comment$guest <- comment$author != my_disqus_name
@@ -176,16 +206,15 @@ Originally posted {{#guest}}by {{{author}}} {{/guest}}on {{date}}
     discussion_id = discussion_id,
     comment_body = gsub("\\\\", "\\\\\\\\", comment$message)
   )
-  if("reply_id" %in% colnames(comment)) {
-    if(!is.na(comment$reply_id))
-      data$reply_id <- comment$reply_id
+  if ("reply_id" %in% colnames(comment)) {
+    if (!is.na(comment$reply_id)) data$reply_id <- comment$reply_id
   }
   query <- whisker::whisker.render(
     template = new_comment_query,
     data = data
   )
   while (!is.null((out <- gh::gh_gql(query))$errors)) {
-    if(out$errors[[1]]$message == "was submitted too quickly") {
+    if (out$errors[[1]]$message == "was submitted too quickly") {
       cli::cli_alert_danger("Hit rate limit, waiting 1 minute...")
       Sys.sleep(60)
     } else {
@@ -198,7 +227,7 @@ Originally posted {{#guest}}by {{{author}}} {{/guest}}on {{date}}
 
 ## Iterate over comments data to add all comments as giscus posts
 thread_ids <- unique(comments$thread_id)
-for(i in 1:length(thread_ids)) {
+for (i in 1:length(thread_ids)) {
   # Grab thread for post i
   discussion_thread <- comments %>%
     filter(thread_id == thread_ids[i]) %>%
@@ -211,11 +240,15 @@ for(i in 1:length(thread_ids)) {
       repo_id = repo$data$repository$id,
       category_id = category_id,
       discussion_title = discussion_thread$title_url[1],
-      discussion_body = paste(discussion_thread$title[1],"\n",discussion_thread$url[1])
+      discussion_body = paste(
+        discussion_thread$title[1],
+        "\n",
+        discussion_thread$url[1]
+      )
     )
   )
   while (!is.null((new_discussion <- gh::gh_gql(post))$errors)) {
-    if(new_discussion$errors[[1]]$message == "was submitted too quickly") {
+    if (new_discussion$errors[[1]]$message == "was submitted too quickly") {
       cli::cli_alert_danger("Hit rate limit, waiting 1 minute...")
       Sys.sleep(60)
     } else {
@@ -224,25 +257,30 @@ for(i in 1:length(thread_ids)) {
     }
   }
   # Split thread into comments and replies
-  discussion_thread_type <- split(discussion_thread,
-            ifelse(is.na(discussion_thread$parent_id), "comment", "reply"))
+  discussion_thread_type <- split(
+    discussion_thread,
+    ifelse(is.na(discussion_thread$parent_id), "comment", "reply")
+  )
   discussion_thread_type$comment$id <- ""
   # Post comments
-  for(j in seq(NROW(discussion_thread_type$comment))) {
+  for (j in seq(NROW(discussion_thread_type$comment))) {
     discussion_thread_type$comment$id[j] <- add_comment(
-      discussion_thread_type$comment[j,],
+      discussion_thread_type$comment[j, ],
       discussion_id = new_discussion$data$createDiscussion$discussion$id
     )
   }
   # Add replies if they exist
-  if(!is.null(discussion_thread_type$reply)) {
+  if (!is.null(discussion_thread_type$reply)) {
     discussion_thread_type$reply$id <- ""
     discussion_thread_type$reply$reply_id <-
-      discussion_thread_type$comment$id[match(discussion_thread_type$reply$parent_id, discussion_thread_type$comment$comment_id)]
+      discussion_thread_type$comment$id[match(
+        discussion_thread_type$reply$parent_id,
+        discussion_thread_type$comment$comment_id
+      )]
     # Post replies
-    for(j in seq(NROW(discussion_thread_type$reply))) {
+    for (j in seq(NROW(discussion_thread_type$reply))) {
       discussion_thread_type$reply$id[j] <- add_comment(
-        discussion_thread_type$reply[j,],
+        discussion_thread_type$reply[j, ],
         discussion_id = new_discussion$data$createDiscussion$discussion$id
       )
     }

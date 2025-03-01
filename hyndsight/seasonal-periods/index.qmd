@@ -18,9 +18,11 @@ The [same question was asked on crossvalidated.com](http://stats.stackexchange.c
 Yes, the "frequency" is the number of observations per "cycle" (normally a year, but sometimes a week, a day or an hour). This is the opposite of the definition of frequency in physics, or in Fourier analysis, where "period" is the length of the cycle, and "frequency" is the inverse of period. When using the `ts()` function in R, the following choices should be used.
 
 ```{r freqtable, echo=FALSE, cache=TRUE}
-tab <- data.frame(Data=c("Annual","Quarterly","Monthly","Weekly"),
-  Frequency=c(1,4,12,52))
-knitr::kable(tab, booktabs=TRUE)
+tab <- data.frame(
+  Data = c("Annual", "Quarterly", "Monthly", "Weekly"),
+  Frequency = c(1, 4, 12, 52)
+)
+knitr::kable(tab, booktabs = TRUE)
 ```
 
 Actually, there are not 52 weeks in a year, but 365.25/7 = `r format(365.25/7,digits=4)` on average, allowing for a leap year every fourth year. But most functions which use `ts` objects require integer frequency.
@@ -30,20 +32,22 @@ If the frequency of observations is greater than once per week, then there is us
 An alternative is to use a `msts` object (defined in the `forecast` package) which handles multiple seasonality time series. Then you can specify all the frequencies that might be relevant. It is also flexible enough to handle non-integer frequencies.
 
 ```{r freqtable2, echo=FALSE, cache=TRUE}
-require(htmlTable, quietly=TRUE)
+require(htmlTable, quietly = TRUE)
 tab <- rbind(
-  Daily=c(NA,NA,NA,7, 365.25),
-  Hourly=c(NA,NA,24, 24*7, 24*365.25),
-  'Half-hourly'=c(NA,NA, 2*24, 2*24*7, 2*24*365.25),
-  Minutes=c(NA, 1, 24, 24*7, 24*365.25)*60,
-  Seconds=c(1/60, 1, 24, 24*7, 24*365.25)*60*60)
+  Daily = c(NA, NA, NA, 7, 365.25),
+  Hourly = c(NA, NA, 24, 24 * 7, 24 * 365.25),
+  "Half-hourly" = c(NA, NA, 2 * 24, 2 * 24 * 7, 2 * 24 * 365.25),
+  Minutes = c(NA, 1, 24, 24 * 7, 24 * 365.25) * 60,
+  Seconds = c(1 / 60, 1, 24, 24 * 7, 24 * 365.25) * 60 * 60
+)
 htmlTable(tab,
-   align="r",
-   align.header="lrrrrr",
-   header=c("Minute","Hour","Day","Week","Year"),
-   cgroup="Frequencies",
-   n.cgroup=5,
-   rowlabel="Data")
+  align = "r",
+  align.header = "lrrrrr",
+  header = c("Minute", "Hour", "Day", "Week", "Year"),
+  cgroup = "Frequencies",
+  n.cgroup = 5,
+  rowlabel = "Data"
+)
 ```
 
 You won't necessarily want to include all of these frequencies --- just the ones that are likely to be present in the data. For example, any natural phenomena (e.g., sunshine hours) is unlikely to have a weekly period, and if your data are measured in one-minute intervals over a 3 month period, there is no point including an annual frequency.

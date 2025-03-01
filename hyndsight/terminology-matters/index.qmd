@@ -37,7 +37,7 @@ tribble(
   "Categorical", "Function/time series", "Time series classification", "Machine learning",
   "Numerical element of time series", "Past values of same and/or other time series", "Time series regression/forecasting", "Statistics",
   "Categorical element of time series", "Past values of same and/or other time series", "Categorical time series analysis", "Statistics",
-  ) %>%
+) %>%
   knitr::kable()
 ```
 

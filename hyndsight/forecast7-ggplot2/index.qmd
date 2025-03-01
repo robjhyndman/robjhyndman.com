@@ -35,14 +35,14 @@ autoplot(fc)
 
 ```{r, message=FALSE, cache=TRUE}
 # autoplot of an stl object
-autoplot(stl(mdeaths, s.window="periodic", robust=TRUE))
+autoplot(stl(mdeaths, s.window = "periodic", robust = TRUE))
 ```
 
 ```{r, message=FALSE, cache=TRUE}
 # Plotting multiple forecasts in one plot
-fmdeaths <- cbind(Males=mdeaths, Females=fdeaths)
+fmdeaths <- cbind(Males = mdeaths, Females = fdeaths)
 fit <- tslm(fmdeaths ~ trend + season)
-fcast <- forecast(fit, h=10)
+fcast <- forecast(fit, h = 10)
 autoplot(fcast)
 ```
 
@@ -54,28 +54,28 @@ autoplot(fit)
 
 ```{r, message=FALSE, cache=TRUE}
 # Plotting the inverse characteristic roots of an ARIMA model
-fit <- auto.arima(mdeaths, D=1)
+fit <- auto.arima(mdeaths, D = 1)
 autoplot(fit)
 ```
 
 For plotting functions that do not use an S3 plot() method, there is now a ggplot2 version with "gg" prefixed to the function name.
 
 ```{r, message=FALSE, cache=TRUE}
-    ggtsdisplay(mdeaths)
-    ggAcf(mdeaths)
-    ggPacf(mdeaths)
-    ggCcf(mdeaths, fdeaths)
+ggtsdisplay(mdeaths)
+ggAcf(mdeaths)
+ggPacf(mdeaths)
+ggCcf(mdeaths, fdeaths)
 ```
 
 ```{r, message=FALSE, cache=TRUE}
-    ggseasonplot(mdeaths)
-    ggmonthplot(mdeaths)
+ggseasonplot(mdeaths)
+ggmonthplot(mdeaths)
 ```
 
 There is also a new `geom_forecast()` function which uses `forecast.ts()` to obtain forecasts of the time series passed to `autoplot()`.
 
 ```{r, message=FALSE, cache=TRUE}
-    autoplot(mdeaths) + geom_forecast(h=36)
+autoplot(mdeaths) + geom_forecast(h = 36)
 ```
 
 Almost all of this new gglot2 goodness was created by Mitchell O'Hara-Wild, a Monash University student who I employ as a research assistant.

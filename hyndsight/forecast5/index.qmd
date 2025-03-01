@@ -25,14 +25,14 @@ Real data are often not as well-behaved as a Gaussian distribution, and outliers
 
 ```{r, warning=FALSE, message=FALSE}
 library(fpp)
-tsoutliers(melsyd[,3])
+tsoutliers(melsyd[, 3])
 ```
 
 A more general function is `tsclean` which is a combination of `na.interp` and `tsoutliers`, so it handles both missing values and outliers. It will return a cleaned version of a time series with outliers and missing values replaced by estimated values.
 
 ```{r}
-plot(melsyd[,3], main="Economy class passengers: Melbourne-Sydney")
-lines(tsclean(melsyd[,3]), col='red')
+plot(melsyd[, 3], main = "Economy class passengers: Melbourne-Sydney")
+lines(tsclean(melsyd[, 3]), col = "red")
 ```
 
 These three functions have one common argument `lambda` (a Box-Cox transformation parameter). If present, the time series is transformed before the outliers are identified and replaced, or missing values are estimated.

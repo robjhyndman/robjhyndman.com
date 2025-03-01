@@ -34,20 +34,20 @@ library(tsibble)
 
 ```{r ausdata, message=FALSE}
 repo <- "https://raw.githubusercontent.com/tidyverts/tsibbledata/master/data-raw/vic_elec/"
-states <- c("NSW","QLD","SA","TAS","VIC")
+states <- c("NSW", "QLD", "SA", "TAS", "VIC")
 dirs <- paste0(repo, states, "2015")
 
 # Read holidays data
-holidays <- paste0(dirs,"/holidays.txt") %>%
+holidays <- paste0(dirs, "/holidays.txt") %>%
   as.list() %>%
-  map_dfr(read_csv, col_names=FALSE, .id="State") %>%
+  map_dfr(read_csv, col_names = FALSE, .id = "State") %>%
   transmute(
     State = states[as.numeric(State)],
-    Date = dmy(X1), 
+    Date = dmy(X1),
     Holiday = TRUE
   )
 # Read temperature data
-temperatures <- paste0(dirs,"/temperature.csv") %>%
+temperatures <- paste0(dirs, "/temperature.csv") %>%
   as.list() %>%
   map_dfr(read_csv, .id = "State") %>%
   mutate(
@@ -55,7 +55,7 @@ temperatures <- paste0(dirs,"/temperature.csv") %>%
     Date = as_date(Date, origin = ymd("1899-12-30"))
   )
 # Read demand data
-demands <- paste0(dirs,"/demand.csv") %>%
+demands <- paste0(dirs, "/demand.csv") %>%
   as.list() %>%
   map_dfr(read_csv, .id = "State") %>%
   mutate(
@@ -67,19 +67,19 @@ aus_elec <- demands %>%
   left_join(temperatures, by = c("State", "Date", "Period")) %>%
   transmute(
     State,
-    Time = as.POSIXct(Date + minutes((Period-1) * 30)),
+    Time = as.POSIXct(Date + minutes((Period - 1) * 30)),
     Period,
     Date = as_date(Time),
-    DOW = wday(Date, label=TRUE),
-    Demand = OperationalLessIndustrial, 
+    DOW = wday(Date, label = TRUE),
+    Demand = OperationalLessIndustrial,
     Temperature = Temp,
   ) %>%
   left_join(holidays, by = c("State", "Date")) %>%
   replace_na(list(Holiday = FALSE))
 # Remove duplicates and create a tsibble
 aus_elec <- aus_elec %>%
-  filter(!are_duplicated(aus_elec, index=Time, key=State)) %>%
-  as_tsibble(index = Time, key=State)
+  filter(!are_duplicated(aus_elec, index = Time, key = State)) %>%
+  as_tsibble(index = Time, key = State)
 ```
 
 This block of code reads in raw data files containing holiday information, temperatures and electricity demand for each state, and then joins them into a single tsibble. For some reason, there are duplicated rows from South Australia, so the last few lines removes the duplicates before forming a tsibble, keyed by State.
@@ -97,11 +97,11 @@ This data set contains half-hourly data from all states from 1 January 2002 - 1 
 The [Global Energy Forecasting Competition in 2017](http://www.drhongtao.com/gefcom/2017) involved data on hourly zonal loads of ISO New England from March 2003 to April 2017. The data have already been packaged into tibble format by Cameron Roach in the [gefcom2017data Github repository](https://github.com/camroach87/gefcom2017data). So it is relatively easy to convert this to a tsibble.
 
 ```{r gefcom2017, message=FALSE, warning=FALSE}
-#devtools::install_github("camroach87/gefcom2017data")
+# devtools::install_github("camroach87/gefcom2017data")
 library(gefcom2017data)
-gefcom2017 <- gefcom %>% 
+gefcom2017 <- gefcom %>%
   ungroup() %>%
-  as_tsibble(key=zone, index=ts)
+  as_tsibble(key = zone, index = ts)
 gefcom2017
 ```
 

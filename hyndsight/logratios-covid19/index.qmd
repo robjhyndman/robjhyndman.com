@@ -21,7 +21,7 @@ There have been some great data visualizations produced of COVID-19 case and dea
 To produce something like it, we can use the `tidycovid19` package from Joachim Gassen:
 
 ```{r load, message=FALSE}
-#remotes::install_github("joachim-gassen/tidycovid19")
+# remotes::install_github("joachim-gassen/tidycovid19")
 library(tidyverse)
 library(tsibble)
 library(tidycovid19)
@@ -29,10 +29,10 @@ library(tidycovid19)
 
 ```{r hiddenfilter, include=FALSE, eval=TRUE}
 # Load data locally for reproducibility
-#updates <- download_merged_data(cached = TRUE) %>%
+# updates <- download_merged_data(cached = TRUE) %>%
 #  filter(date <= as.Date("2020-04-05"))
-#updates$timestamp <- "2020-04-04 17:49:31 AEDT"
-#saveRDS(updates, file="static/data/tidycovid.rds")
+# updates$timestamp <- "2020-04-04 17:49:31 AEDT"
+# saveRDS(updates, file="static/data/tidycovid.rds")
 updates <- readRDS(here::here("data/tidycovid.rds"))
 ```
 
@@ -87,11 +87,11 @@ updates %>%
     date >= as.Date("2020-03-01")
   ) %>%
   ggplot(aes(x = date, y = cases_logratio, col = country)) +
-    geom_point() +
-    geom_smooth(method = "loess") +
-    facet_wrap(. ~ country, ncol = 3) +
-    xlab("Date") +
-    ggthemes::scale_color_colorblind()
+  geom_point() +
+  geom_smooth(method = "loess") +
+  facet_wrap(. ~ country, ncol = 3) +
+  xlab("Date") +
+  ggthemes::scale_color_colorblind()
 ```
 
 There are some obvious reporting issues (e.g., Spain had no new cases on 12 March, but roughly twice as many cases as we might expect on the 13 March), but the smooth (loess) curve corrects for these discrepancies. We can plot the smoothed log ratios to see how each country is tracking in terms of the slope of the curve.
@@ -104,16 +104,17 @@ updates %>%
   filter(iso3c %in% countries) %>%
   filter(date >= as.Date("2020-03-01")) %>%
   ggplot(aes(x = date, y = cases_logratio, col = country)) +
-  geom_hline(yintercept = log(2)/c(2:7,14,21), col='grey') +
+  geom_hline(yintercept = log(2) / c(2:7, 14, 21), col = "grey") +
   geom_smooth(method = "loess", se = FALSE) +
   scale_y_continuous(
-   "Daily increase in cumulative cases",
-    breaks = log(1+seq(0,60,by=10)/100),
-    labels = paste0(seq(0,60,by=10),"%"),
-    minor_breaks=NULL,
-    sec.axis = sec_axis(~ log(2)/(.),
-      breaks = c(2:7,14,21),
-      name = "Doubling time (days)")
+    "Daily increase in cumulative cases",
+    breaks = log(1 + seq(0, 60, by = 10) / 100),
+    labels = paste0(seq(0, 60, by = 10), "%"),
+    minor_breaks = NULL,
+    sec.axis = sec_axis(~ log(2) / (.),
+      breaks = c(2:7, 14, 21),
+      name = "Doubling time (days)"
+    )
   ) +
   ggthemes::scale_color_colorblind()
 ```

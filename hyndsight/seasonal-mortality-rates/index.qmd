@@ -36,7 +36,7 @@ stmf <- readRDS(here::here("data/stmf.rds"))
 ```
 
 ```{r download, eval=FALSE}
-stmf <- readr::read_csv("https://www.mortality.org/File/GetDocument/Public/STMF/Outputs/stmf.csv", skip=1)
+stmf <- readr::read_csv("https://www.mortality.org/File/GetDocument/Public/STMF/Outputs/stmf.csv", skip = 1)
 ```
 
 ```{r wrangle, warning=FALSE, message=FALSE}
@@ -118,7 +118,7 @@ stl_season <- mrates %>%
   model(STL(log(mxt) ~ season(window = "periodic"), robust = TRUE)) %>%
   components() %>%
   mutate(
-    pc_increase = 100*(exp(season_year)-1),
+    pc_increase = 100 * (exp(season_year) - 1),
     week = lubridate::week(date),
     year = lubridate::year(date)
   ) %>%

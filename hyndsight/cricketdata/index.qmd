@@ -19,7 +19,7 @@ options(digits = 3, width = 75)
 
 # Okabi-Ito colours
 options(
-  ggplot2.discrete.colour = c("#D55E00", "#0072B2","#009E73", "#CC79A7", "#E69F00", "#56B4E9", "#F0E442")
+  ggplot2.discrete.colour = c("#D55E00", "#0072B2", "#009E73", "#CC79A7", "#E69F00", "#56B4E9", "#F0E442")
 )
 ```
 
@@ -63,7 +63,8 @@ wt20 %>%
   ggplot(aes(y = StrikeRate, x = Average)) +
   geom_point(alpha = 0.3, col = "blue") +
   ggtitle("Women International T20 Bowlers") +
-  ylab("Balls per wicket") + xlab("Runs per wicket")
+  ylab("Balls per wicket") +
+  xlab("Runs per wicket")
 ```
 
 ```{r boochatham, echo=FALSE}
@@ -95,7 +96,7 @@ ave <- menODI %>%
   ) %>%
   select(Runs, NotOut)
 
-ave <- sum(ave$Runs)/sum(!ave$NotOut)
+ave <- sum(ave$Runs) / sum(!ave$NotOut)
 ```
 
 ```{r menodigraph, warning=FALSE, message=FALSE}
@@ -157,7 +158,7 @@ MLave <- MegLanning %>%
 names(MLave) <- paste("Average =", round(MLave, 2))
 # Plot ODI scores
 ggplot(MegLanning) +
-  geom_hline(aes(yintercept = MLave), col="gray") +
+  geom_hline(aes(yintercept = MLave), col = "gray") +
   geom_point(aes(x = Date, y = Runs, col = NotOut)) +
   ggtitle("Meg Lanning ODI Scores") +
   scale_y_continuous(sec.axis = sec_axis(~., breaks = MLave))

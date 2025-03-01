@@ -8,39 +8,41 @@ categories:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, cache=FALSE, message=FALSE, warning=FALSE)
+knitr::opts_chunk$set(echo = FALSE, cache = FALSE, message = FALSE, warning = FALSE)
 library(forecast)
 library(ggplot2)
 ```
 
 ```{r}
 # Update via Journal Citations Reports
-ijf <- read.csv(here::here("data/JournalProfileGrid.csv"),header=TRUE,stringsAsFactors = FALSE, skip=1)
+ijf <- read.csv(here::here("data/JournalProfileGrid.csv"), header = TRUE, stringsAsFactors = FALSE, skip = 1)
 # Strip commas
-ijf[,2] <- as.numeric(sub(",","",ijf[,2]))
+ijf[, 2] <- as.numeric(sub(",", "", ijf[, 2]))
 # Remove redundant bottom rows
-nr <- sum(!is.na(ijf[,2]))
-ijf <- ijf[1:nr,]
-ijf <- cbind("IJF",ijf)
+nr <- sum(!is.na(ijf[, 2]))
+ijf <- ijf[1:nr, ]
+ijf <- cbind("IJF", ijf)
 colnames(ijf) <-
-   c("Journal","Year","Total cites","2 year Impact Factor",
-     "IF without self-cites","5 year Impact Factor",
-     "Immediacy Index","Citable items","Cited Half Life",
-     "Citing Half Life","Eigenfactor","Influence","Citable articles",
-     "Normalized Eigenfactor","X","AveJIF%")
-selfciteIF <- ijf[1,5]
-if2 <- ijf[1,4]
-if5 <- ijf[1,6]
+  c(
+    "Journal", "Year", "Total cites", "2 year Impact Factor",
+    "IF without self-cites", "5 year Impact Factor",
+    "Immediacy Index", "Citable items", "Cited Half Life",
+    "Citing Half Life", "Eigenfactor", "Influence", "Citable articles",
+    "Normalized Eigenfactor", "X", "AveJIF%"
+  )
+selfciteIF <- ijf[1, 5]
+if2 <- ijf[1, 4]
+if5 <- ijf[1, 6]
 ```
 
 ```{r}
 ## Update from Journal Citations Reports
-citing <- read.csv(here::here("data/JournalCitingTab.csv"), header=TRUE, stringsAsFactors=FALSE, skip=1)[,-c(1,14)]
-colnames(citing) <- c("Impact","Citing Journal", "All Yrs", 2016:2007, "Rest")
-citing <- citing[,-1]
-selfcites <- citing[3,2]
-totalcites <- citing[1,2]
-articles <- sum(ijf[2:3,"Citable items"])
+citing <- read.csv(here::here("data/JournalCitingTab.csv"), header = TRUE, stringsAsFactors = FALSE, skip = 1)[, -c(1, 14)]
+colnames(citing) <- c("Impact", "Citing Journal", "All Yrs", 2016:2007, "Rest")
+citing <- citing[, -1]
+selfcites <- citing[3, 2]
+totalcites <- citing[1, 2]
+articles <- sum(ijf[2:3, "Citable items"])
 cites <- round(if2 * articles)
 ```
 
@@ -55,14 +57,14 @@ The IJF 5-year impact factor is `r if5`.
 The following time series plot shows some historical perspective.
 
 ```{r}
-ijf <- ts(ijf[nrow(ijf):1,c(3,4,6,7,8)],start=min(as.numeric(ijf[,"Year"])))
+ijf <- ts(ijf[nrow(ijf):1, c(3, 4, 6, 7, 8)], start = min(as.numeric(ijf[, "Year"])))
 
-autoplot(ijf[,2], series="2yr") +
-  forecast::autolayer(ijf[,3], series="5yr") +
-  guides(color=FALSE) +
-  scale_color_manual(breaks=c("2yr","5yr"), values=c("#dd0000","#0000dd")) +
-  annotate('text', x=2014.9, y=2.8, label="5 year IF", colour="#0000dd") +
-  annotate('text', x=2015.6, y=1.4, label="2 year IF", colour="#dd0000") +
+autoplot(ijf[, 2], series = "2yr") +
+  forecast::autolayer(ijf[, 3], series = "5yr") +
+  guides(color = FALSE) +
+  scale_color_manual(breaks = c("2yr", "5yr"), values = c("#dd0000", "#0000dd")) +
+  annotate("text", x = 2014.9, y = 2.8, label = "5 year IF", colour = "#0000dd") +
+  annotate("text", x = 2015.6, y = 1.4, label = "2 year IF", colour = "#dd0000") +
   ylab("Impact Factor") +
   xlab("Year")
 ```

@@ -34,9 +34,11 @@ h1 {
 #| output: asis
 #| warning: false
 #| message: false
-packages <- rjh_packages() |> suppressMessages() |> suppressWarnings()
+packages <- rjh_packages() |>
+  suppressMessages() |>
+  suppressWarnings()
 sections <- unique(packages$section)
-for(i in seq_along(sections)) {
+for (i in seq_along(sections)) {
   packages |>
     filter(section == sections[i]) %>%
     package_table()
@@ -49,11 +51,11 @@ for(i in seq_along(sections)) {
 #| label: quarto_extensions
 #| output: asis
 #| echo: false
-quarto_extension("exam",         "Create an exam for Monash Business School")
-quarto_extension("letter",       "Create a letter on Monash Business School letterhead")
-quarto_extension("memo",         "Create a memo with optional Monash Business School branding")
+quarto_extension("exam", "Create an exam for Monash Business School")
+quarto_extension("letter", "Create a letter on Monash Business School letterhead")
+quarto_extension("memo", "Create a memo with optional Monash Business School branding")
 quarto_extension("presentation", "Create a Monash University themed presentation using either Beamer or RevealJS")
-quarto_extension("report",       "Create a Monash Business School consulting report")
-quarto_extension("thesis",       "Create a Monash University thesis")
+quarto_extension("report", "Create a Monash Business School consulting report")
+quarto_extension("thesis", "Create a Monash University thesis")
 quarto_extension("workingpaper", "Create a working paper for the Department of Econometrics & Business Statistics, Monash University")
 ```

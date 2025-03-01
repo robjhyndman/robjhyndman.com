@@ -82,7 +82,9 @@ holidays %>% ACF(Trips)
 To plot the ACFs for all series, we can pass the result to `autoplot()`.
 
 ```{r ACFplot, fig.height=9, fig.width=6, warning=FALSE}
-holidays %>% ACF(Trips) %>% autoplot()
+holidays %>%
+  ACF(Trips) %>%
+  autoplot()
 ```
 
 Here, the low seasonality in the ACT is evident compared to the other states.
@@ -90,7 +92,9 @@ Here, the low seasonality in the ACT is evident compared to the other states.
 The remaining two graphical methods require only one time series. So we filter out the Tasmanian holiday data to illustrate them.
 
 ```{r lagplot, fig.height=6, fig.width=6}
-holidays %>% filter(State=="Tasmania") %>% gg_lag(Trips, geom="point")
+holidays %>%
+  filter(State == "Tasmania") %>%
+  gg_lag(Trips, geom = "point")
 ```
 
 This lag plot shows a scatterplot of the lagged observation (vertical axis) against the current observation, with points coloured by the current quarter. The correlations of these lag plots are what make up the ACF. In this example, it is clear that Q1 is a strong quarter for Tasmania, and that the seasonality induces positive correlations at lags 4 and 8, but negative correlations at lags 2 and 6.
@@ -98,7 +102,9 @@ This lag plot shows a scatterplot of the lagged observation (vertical axis) agai
 Finally, we show a composite plot created using `gg_tsdisplay()`. This is a little different from the corresponding `ggtsdisplay()` function in the forecast package which showed the PACF in the bottom right panel by default. I think the season plot is a little more informative for exploratory data analysis, so that is what is shown by default in this new function. The other panels are the same.
 
 ```{r gg_tsdisplay, fig.height=6, fig.width=10, warning=FALSE}
-holidays %>% filter(State=="Tasmania") %>% gg_tsdisplay(Trips)
+holidays %>%
+  filter(State == "Tasmania") %>%
+  gg_tsdisplay(Trips)
 ```
 
 ## Decompositions
@@ -106,7 +112,10 @@ holidays %>% filter(State=="Tasmania") %>% gg_tsdisplay(Trips)
 The stats package provides the `stl()` function for STL decomposition of single time series with one seasonal period. The forecast package extended this with `mstl()` to allow for multiple seasonal periods. The feasts package allows for more flexible seasonality and for multiple series to be handled simultaneously.
 
 ```{r stl, fig.height=6, fig.width=10}
-holidays %>% model(STL(Trips)) %>% components() %>% autoplot()
+holidays %>%
+  model(STL(Trips)) %>%
+  components() %>%
+  autoplot()
 ```
 
 All components from all series are shown here. Note that the annual seasonality has been estimated by default. With time series containing other seasonal periods, more than one seasonal component will be produced. These can be controlled using the `STL` arguments.
@@ -117,7 +126,7 @@ To demonstrate on a more difficult series, here is an STL decomposition for half
 library(lubridate)
 tsibbledata::vic_elec %>%
   filter(yearmonth(Date) >= yearmonth("2014 Oct")) %>%
-  model(STL(Demand ~ trend(window=77) + season(window="periodic"))) %>%
+  model(STL(Demand ~ trend(window = 77) + season(window = "periodic"))) %>%
   components() %>%
   autoplot()
 ```
@@ -128,10 +137,10 @@ The hourly seasonality is largely meaningless -- we do not expect electricity de
 tsibbledata::vic_elec %>%
   filter(yearmonth(Date) >= yearmonth("2014 Oct")) %>%
   model(STL(
-    Demand ~ trend(window=77) +
-        season("week", window="periodic")
+    Demand ~ trend(window = 77) +
+      season("week", window = "periodic")
   )) %>%
-  components %>%
+  components() %>%
   autoplot()
 ```
 

@@ -8,8 +8,8 @@ categories:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, cache=TRUE)
-options(digits=3)
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
+options(digits = 3)
 ```
 
 Occasionally R might not be the tool you want to use (hard to believe, but apparently that happens). Then you may need to export some data from R via a csv file. When the data is stored as a `ts` object, the time index can easily get lost. So I wrote a little function to make this easier, using the `tsibble` package to do almost all of the work in looking after the time index. (Thanks to Earo in the comments for greatly simplifying my original code.)

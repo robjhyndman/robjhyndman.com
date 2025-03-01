@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo=TRUE, cache=TRUE, messages=FALSE, warnings=FALSE)
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE, messages = FALSE, warnings = FALSE)
 library(fpp2)
 ```
 
@@ -14,6 +14,6 @@ library(fpp2)
 
 ```{r}
 retaildata <- readxl::read_excel("retail.xlsx", skip = 1)
-mytimeseries <- ts(retaildata[["A3349873A"]], frequency=12, start=c(1982,4))
+mytimeseries <- ts(retaildata[["A3349873A"]], frequency = 12, start = c(1982, 4))
 ```
 

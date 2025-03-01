@@ -23,7 +23,7 @@ You can now facet a time series plot like this:
 library(forecast)
 library(ggplot2)
 lungDeaths <- cbind(mdeaths, fdeaths)
-autoplot(lungDeaths, facets=TRUE)
+autoplot(lungDeaths, facets = TRUE)
 ```
 
 So `autoplot.mts` now behaves similarly to `plot.mts`
@@ -33,11 +33,13 @@ So `autoplot.mts` now behaves similarly to `plot.mts`
 The `fitted` function has a new argument `h` to allow computation of in-sample fitted values of more than one-step-ahead. In time series, fitted values are defined as the one-step-forecasts of the data used in training a model. Sometimes it is useful to have corresponding \(h\)-step forecasts, where \(h>1\). This is now possible.
 
 ```{r, cache=TRUE}
-fit <- Arima(WWWusage,c(3,1,0))
-tab <- cbind(data=WWWusage,
-  'h=1' = fitted(fit, h=1),
-  'h=2' = fitted(fit, h=2),
-  'h=3' = fitted(fit, h=3))
+fit <- Arima(WWWusage, c(3, 1, 0))
+tab <- cbind(
+  data = WWWusage,
+  "h=1" = fitted(fit, h = 1),
+  "h=2" = fitted(fit, h = 2),
+  "h=3" = fitted(fit, h = 3)
+)
 autoplot(tab) + ylab("Internet users") + xlab("Minute")
 ```
 

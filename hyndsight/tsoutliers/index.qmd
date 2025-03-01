@@ -45,9 +45,9 @@ If $Q1$ denotes the 25th percentile and $Q3$ denotes the 75th percentile of the 
 ```{r include=FALSE}
 Q1 <- qnorm(0.25)
 Q3 <- qnorm(0.75)
-IQR <- Q3-Q1
-lower <- Q1 - 3*IQR
-prob <- pnorm(lower)*2
+IQR <- Q3 - Q1
+lower <- Q1 - 3 * IQR
+prob <- pnorm(lower) * 2
 ```
 
 If the remainder values are normally distributed, then the probability of an observation being identified as an outlier is approximately 1 in `r sprintf("%d", round(1/prob/1e3)*1e3)`.
@@ -77,10 +77,12 @@ Sure enough, it is easily found and the suggested replacement (linearly interpol
 The `tsclean()` function removes outliers identified in this way, and replaces them (and any missing values) with linearly interpolated replacements.
 
 ```{r}
-autoplot(tsclean(gold), series="clean", color='red', lwd=0.9) +
-  autolayer(gold, series="original", color='gray', lwd=1) +
-  geom_point(data = tsoutliers(gold) %>% as.data.frame(),
-             aes(x=index, y=replacements), col='blue') +
+autoplot(tsclean(gold), series = "clean", color = "red", lwd = 0.9) +
+  autolayer(gold, series = "original", color = "gray", lwd = 1) +
+  geom_point(
+    data = tsoutliers(gold) %>% as.data.frame(),
+    aes(x = index, y = replacements), col = "blue"
+  ) +
   labs(x = "Day", y = "Gold price ($US)")
 ```
 

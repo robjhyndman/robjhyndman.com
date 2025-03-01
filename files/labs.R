@@ -33,7 +33,8 @@ pelt %>% autoplot(Lynx)
 
 gafa_stock %>%
   autoplot(Close) +
-  xlab("Day") + ylab("Closing price")
+  xlab("Day") +
+  ylab("Closing price")
 
 # Lab Session 3
 
@@ -78,7 +79,9 @@ tourism %>%
 
 ## Two series have all zeros, so we will drop these to avoid problems in the later calculations
 PBSnozeros <- PBS %>%
-  filter(!(Concession == "General" & Type == "Co-payments" & (ATC2 %in% c("R", "S"))))
+  filter(
+    !(Concession == "General" & Type == "Co-payments" & (ATC2 %in% c("R", "S")))
+  )
 
 library(broom)
 pbsfeat <- PBSnozeros %>%
@@ -144,9 +147,7 @@ fc %>%
 # Lab Session 10
 
 mypbs <- PBS %>%
-  aggregate_key(Concession * Type * ATC1,
-    Cost = sum(Cost) / 1e6
-  )
+  aggregate_key(Concession * Type * ATC1, Cost = sum(Cost) / 1e6)
 fit <- mypbs %>%
   filter(Month <= yearmonth("2005 Jun")) %>%
   model(

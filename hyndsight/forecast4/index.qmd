@@ -60,7 +60,7 @@ Like many of the functions in the forecast package, the default arguments usuall
 
 ```{r}
 fit <- nnetar(lynx)
-plot(forecast(fit,h=20))
+plot(forecast(fit, h = 20))
 ```
 
 Because random starting values are used, the forecasts will be slightly different each time the function is called.
@@ -76,8 +76,8 @@ library(fpp)
 ```
 
 ```{r}
-fit <- Arima(euretail, order=c(0,1,3), seasonal=c(0,1,1))
-plot(forecast(fit,h=12))
+fit <- Arima(euretail, order = c(0, 1, 3), seasonal = c(0, 1, 1))
+plot(forecast(fit, h = 12))
 ```
 
 ### Future development

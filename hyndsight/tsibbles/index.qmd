@@ -77,8 +77,8 @@ pedestrian %>%
     Weekend = (Day %in% c("Sun", "Sat"))
   ) %>%
   ggplot(aes(x = Time, y = Count, group = Date)) +
-    geom_line(aes(col = Weekend)) +
-    facet_grid(Sensor ~ .)
+  geom_line(aes(col = Weekend)) +
+  facet_grid(Sensor ~ .)
 ```
 
 The volume and pattern of pedestrian traffic at these four locations is clearly very different. See [Wang et al](https://robjhyndman.com/publications/calendar-vis/) for a more complete analysis with a cool calendar plot.

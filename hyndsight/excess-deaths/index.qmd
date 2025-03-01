@@ -33,13 +33,13 @@ library(ggplot2)
 
 ```{r hiddenfilter, include=FALSE, eval=TRUE}
 # Load data locally for reproducibility
-#stmf <- readr::read_csv("https://www.mortality.org/File/GetDocument/Public/STMF/Outputs/stmf.csv", skip=1)
-#saveRDS(stmf, file="static/data/stmf.rds")
+# stmf <- readr::read_csv("https://www.mortality.org/File/GetDocument/Public/STMF/Outputs/stmf.csv", skip=1)
+# saveRDS(stmf, file="static/data/stmf.rds")
 stmf <- readRDS(here::here("data/stmf.rds"))
 ```
 
 ```{r download, eval=FALSE}
-stmf <- readr::read_csv("https://www.mortality.org/File/GetDocument/Public/STMF/Outputs/stmf.csv", skip=1)
+stmf <- readr::read_csv("https://www.mortality.org/File/GetDocument/Public/STMF/Outputs/stmf.csv", skip = 1)
 ```
 
 ```{r}
@@ -75,7 +75,8 @@ deaths <- stmf %>%
       NOR = "Norway",
       PRT = "Portugal",
       SWE = "Sweden",
-      USA = "United States")
+      USA = "United States"
+    )
   ) %>%
   select(year, week, country, deaths)
 ```
@@ -93,12 +94,12 @@ Now we can plot the deaths from this year compared to those from all other avail
 ```{r weekly, message=FALSE}
 deaths %>%
   mutate(thisyear = (year == 2020)) %>%
-  ggplot(aes(x=week, y=deaths, group=year)) +
-    geom_line(aes(col=thisyear)) +
-    facet_wrap(~ country, scales='free_y') +
-    scale_color_manual(values=c("FALSE"='gray',"TRUE"='red')) +
-    guides(col=FALSE) +
-    ggtitle("Weekly deaths")
+  ggplot(aes(x = week, y = deaths, group = year)) +
+  geom_line(aes(col = thisyear)) +
+  facet_wrap(~country, scales = "free_y") +
+  scale_color_manual(values = c("FALSE" = "gray", "TRUE" = "red")) +
+  guides(col = FALSE) +
+  ggtitle("Weekly deaths")
 ```
 
 Clearly there are a few problems with the last week of available data from Finland, Norway and the United States. These are due to incomplete counts as noted in the [meta data provided by HMD](https://www.mortality.org/File/GetDocument/Public/STMF/DOC/STMFmetadata.pdf), and the same problem may affect other countries too. As more data are made available, earlier weeks may also be updated.
@@ -107,7 +108,7 @@ Note that there is a lag before the data are made available. We can see how far 
 
 ```{r, message=FALSE}
 deaths %>%
-  filter(year==2020) %>%
+  filter(year == 2020) %>%
   group_by(country) %>%
   summarise(last_week = max(week)) %>%
   mutate(
@@ -121,7 +122,7 @@ Before continuing, I'll remove that last week of data for all countries (which w
 ```{r remove_lastweek, message=FALSE}
 deaths <- deaths %>%
   group_by(country, year) %>%
-  filter(!(year==2020 & week==max(week))) %>%
+  filter(!(year == 2020 & week == max(week))) %>%
   select(year, week, country, deaths)
 ```
 
@@ -132,7 +133,7 @@ To estimate the total excess deaths up to the most recent data, we can first com
 ```{r excess, message=FALSE}
 recent_deaths <- deaths %>%
   filter(year >= 2015 & year <= 2019) %>%
-  group_by(country,week) %>%
+  group_by(country, week) %>%
   summarise(median_deaths = median(deaths)) %>%
   ungroup()
 excess_deaths <- deaths %>%
@@ -141,12 +142,12 @@ excess_deaths <- deaths %>%
   mutate(excess = deaths - median_deaths)
 excess_deaths %>%
   mutate(thisyear = (year == 2020)) %>%
-  ggplot(aes(x=week, y=excess, group=year)) +
-  geom_hline(yintercept=0, col='gray') +
-  geom_line(aes(col=thisyear)) +
-  facet_wrap(~ country, scales='free_y') +
-  scale_color_manual(values=c("FALSE"='gray',"TRUE"='red')) +
-  guides(col=FALSE) +
+  ggplot(aes(x = week, y = excess, group = year)) +
+  geom_hline(yintercept = 0, col = "gray") +
+  geom_line(aes(col = thisyear)) +
+  facet_wrap(~country, scales = "free_y") +
+  scale_color_manual(values = c("FALSE" = "gray", "TRUE" = "red")) +
+  guides(col = FALSE) +
   ggtitle("Weekly excess deaths")
 ```
 
@@ -158,12 +159,12 @@ Finally, we can summarise the total excess deaths per country for 2020.
 
 ```{r, message=FALSE}
 excess_deaths %>%
-  filter(year==2020) %>%
+  filter(year == 2020) %>%
   group_by(country) %>%
   summarise(
     excess = sum(excess),
     last_week = max(week),
-    as_at = as.Date("2020-01-01") + 7*(last_week-1)
+    as_at = as.Date("2020-01-01") + 7 * (last_week - 1)
   ) %>%
   select(country, excess, as_at)
 ```

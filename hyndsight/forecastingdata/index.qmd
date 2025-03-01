@@ -42,15 +42,15 @@ The first three data sets are stored with a date index, so they are read as dail
 ```{r m3b}
 m3_yearly <- m3_yearly %>%
   mutate(year = year(start_timestamp)) %>%
-  as_tsibble(index=year) %>%
+  as_tsibble(index = year) %>%
   select(-start_timestamp)
 m3_quarterly <- m3_quarterly %>%
   mutate(quarter = yearquarter(start_timestamp)) %>%
-  as_tsibble(index=quarter) %>%
+  as_tsibble(index = quarter) %>%
   select(-start_timestamp)
 m3_monthly <- m3_monthly %>%
   mutate(month = yearmonth(start_timestamp)) %>%
-  as_tsibble(index=month) %>%
+  as_tsibble(index = month) %>%
   select(-start_timestamp)
 ```
 
@@ -73,9 +73,9 @@ aus_elec
 
 ```{r auselec_plot}
 aus_elec %>%
-  filter(state=="VIC") %>%
+  filter(state == "VIC") %>%
   autoplot(value) +
-  labs(x = "Time", y="Electricity demand (MWh)")
+  labs(x = "Time", y = "Electricity demand (MWh)")
 ```
 
 ## Forecasting benchmarks

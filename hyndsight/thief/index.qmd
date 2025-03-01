@@ -45,28 +45,32 @@ Here is an example using these lower-level functions. This example is in the pap
 
 ```{r thief2, cache=TRUE}
 # Original series: Total Weekly Emergency Admissions in the UK
-total <- AEdemand[,12]
+total <- AEdemand[, 12]
 
 # Construct all temporal aggregates
 totalagg <- tsaggregates(total)
-autoplot(totalagg, main="Total Emergency Admissions")
+autoplot(totalagg, main = "Total Emergency Admissions")
 
 # Compute base forecasts
 base <- list()
-for(i in seq_along(totalagg))
+for (i in seq_along(totalagg)) {
   base[[i]] <- forecast(auto.arima(totalagg[[i]]),
-                 h=2*frequency(totalagg[[i]]), level=80)
+    h = 2 * frequency(totalagg[[i]]), level = 80
+  )
+}
 
 # Reconcile forecasts
 reconciled <- reconcilethief(base)
 
-#Plot original and reconciled forecasts
-par(mfrow=c(2,3), mar=c(3,3,1,0))
-for(i in 6:1)
+# Plot original and reconciled forecasts
+par(mfrow = c(2, 3), mar = c(3, 3, 1, 0))
+for (i in 6:1)
 {
-  plot(reconciled[[i]], main=names(totalagg)[i],
-       xlim=c(2010.5,2017.5), flwd=1)
-  lines(base[[i]]$mean, col="red")
+  plot(reconciled[[i]],
+    main = names(totalagg)[i],
+    xlim = c(2010.5, 2017.5), flwd = 1
+  )
+  lines(base[[i]]$mean, col = "red")
 }
 ```
 
