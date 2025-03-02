@@ -10,7 +10,7 @@ tags:
 - forecasting
 - time series
 arxiv: 2105.06643
-link: https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/eddea82ad2755b24c4e168c5fc2ebd40-Abstract-round2.html
+link: https://neurips.cc/virtual/2021/29865
 github: rakshitha123/TSForecasting
 online: http://forecastingdata.org/
 ---
