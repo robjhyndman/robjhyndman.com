@@ -4,7 +4,7 @@ date: "2024-08-19"
 author: Rob&nbsp;J&nbsp;Hyndman, Bahman Rostami-Tabar
 link: https://raw.githubusercontent.com/bahmanrostamitabar/forecasting_interrupted_time_series/main/fits.pdf
 categories: Articles
-details: "<em>J Operational Research Society</em>, to appear"
+details: "<em>J Operational Research Society</em>, <b>76</b>(4), 790-803"
 doi: 10.1080/01605682.2024.2395315
 github: bahmanrostamitabar/forecasting_interrupted_time_series
 ---
