@@ -103,10 +103,10 @@ I am a fellow of the following organizations:
 ## Editorial boards
 
   * Executive Editor, *[The R Journal](https://rjournal.github.io)* (2023--2026).
-  * Editor, *[Journal of Statistical Software](http://www.jstatsoft.org/)* (2011--).
-  * Associate Editor, *[International Journal of Forecasting](http://ijf.forecasters.org/)* (2001--2004,2019--).
-  * Editor, [NEP forecasting report](http://ideas.repec.org/n/nep-for/) (2005--).
+  * Editor, *[Journal of Statistical Software](http://www.jstatsoft.org/)* (2011--2025).
+  * Editor, [NEP forecasting report](http://ideas.repec.org/n/nep-for/) (2005--2025).
   * Editor-in-Chief, *[International Journal of Forecasting](http://ijf.forecasters.org/)* (2005--2018).
+  * Associate Editor, *[International Journal of Forecasting](http://ijf.forecasters.org/)* (2001--2004, 2019--).
   * Theory and Methods Editor, *[Australian & New Zealand Journal of Statistics]()* (2001--2004).
 
 ## Advisory boards
