@@ -1,12 +1,12 @@
 ---
-date: 2024-04-08
+date: 2025-03-31
 title: "Developing good research habits"
 venue: Monash
 link: https://github.com/robjhyndman/ResearchHabits/raw/master/ResearchHabits.pdf
 slug: research_habits
 ---
 
-## Presentation for the 2024 honours and masters students
+## Presentation for the 2025 honours and masters students
 
 ### Reference managers
 
@@ -26,4 +26,4 @@ slug: research_habits
 ### Quarto
 
 * [Quarto](https://quarto.org)
-* [Quarto thesis template](https://github.com/numbats/monash-quarto-thesis)
+* [Quarto thesis template](https://github.com/quarto-monash/thesis)
