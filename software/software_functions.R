@@ -170,26 +170,15 @@ rjh_packages <- function() {
       "https://raw.githubusercontent.com/robjhyndman/CV/master/github_r_repos.txt"
     )$V1
     # Combine CRAN and github repos
-    cran_github <- try(
-      pkgmeta::get_meta(
-        cran_author = "Hyndman",
-        include_downloads = TRUE,
-        start = as.character(lubridate::ymd(Sys.Date() - 91)),
-        github_repos = github
-      ) |>
-        # Average monthly downloads in last 3 months
-        mutate(downloads = downloads / 3)
-    ) |>
-      suppressWarnings()
-    # Add in any packages not on r-universe
-    # This is only necessary until pkgsearch is updated.
-    # Then pkgmeta should return a complete set
-    missing_packages <- pkgmeta:::get_meta_cran(
-      c("bayesforecast", "fds", "fpp", "ftsa", "rainbow", "smoothAPC", "stR"),
+    cran_github <- pkgmeta::get_meta(
+      cran_author = "Hyndman",
       include_downloads = TRUE,
-      start = as.character(lubridate::ymd(Sys.Date() - 91))
-    )
-    cran_github <- bind_rows(cran_github, missing_packages) |>
+      start = as.character(lubridate::ymd(Sys.Date() - 91)),
+      github_repos = github
+    ) |>
+      # Average monthly downloads in last 3 months
+      mutate(downloads = downloads / 3)
+    cran_github <- cran_github |>
       mutate(
         url = if_else(
           url == "https://OTexts.com/fpp3/",
@@ -197,10 +186,6 @@ rjh_packages <- function() {
           url
         )
       )
-    # If that didn't work, just use the last available file
-    if ("try-error" %in% class(cran_github)) {
-      return(packages)
-    }
     # Add location of hex stickers
     hex_stickers <- tribble(
       ~package,
