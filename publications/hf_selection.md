@@ -4,7 +4,7 @@ date: "2025-01-01"
 author: Xiaoqian Wang, Rob&nbsp;J&nbsp;Hyndman, Shanika L Wickramasuriya
 link: https://github.com/xqnwang/hfs/raw/main/paper/hf_selection.pdf
 categories: Articles
-details: "<em>European J Operational Research</em>, to appear"
+details: "<em>European J Operational Research</em>, <b>323</b>(2), 455-470"
 github: xqnwang/hfs
 doi: 10.1016/j.ejor.2024.12.004
 ---
