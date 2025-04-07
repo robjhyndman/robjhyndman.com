@@ -241,7 +241,13 @@ rjh_packages <- function() {
       "fpp3",
       "https://pkg.robjhyndman.com/fpp3/logo.png",
       "ozbabynames",
-      "https://pkg.robjhyndman.com/ozbabynames/logo.png"
+      "https://pkg.robjhyndman.com/ozbabynames/logo.png",
+      "spiderorchid",
+      "https://numbats.github.io/spiderorchid/reference/figures/spiderorchid-hex.png",
+      "pkgmeta",
+      "https://pkg.robjhyndman.com/pkgmeta/reference/figures/pkgmeta-hex.png",
+      "eechidna",
+      "https://jforbes14.github.io/eechidna/reference/figures/logo.png"
     )
     packages <- cran_github |> left_join(hex_stickers, by = "package")
 
@@ -343,11 +349,6 @@ rjh_packages <- function() {
         "sfar",
         "Zamani, Haghbin, Hashemi & Hyndman (2001)"
       ) |>
-      add_reference(
-        "smoothAPC",
-        "mortality-smoothing",
-        "Dokumentov, Hyndman & Tickle (2018)"
-      ) |>
       add_reference("stR", "str", "Dokumentov & Hyndman (2020)") |>
       add_reference(
         "stray",
@@ -389,8 +390,6 @@ rjh_packages <- function() {
       "Data sets from <a href='http://www.exponentialsmoothing.net/'>Hyndman, Koehler, Ord & Snyder (2008), <i>Forecasting with exponential smoothing: the state space approach</i>, Springer</a>",
       "fma",
       "Data sets from <a href='https://robjhyndman.com/forecasting/'>Makridakis, Wheelwright & Hyndman (1998), <i>Forecasting: methods and applications</i>, Wiley</a>",
-      "fpp",
-      "Data sets from Hyndman & Athanasopoulos (2014) <i>Forecasting: principles and practice</i>, OTexts",
       "fpp2",
       "Data sets from <a href='https://OTexts.com/fpp2'>Hyndman & Athanasopoulos (2018) <i>Forecasting: principles and practice</i>, 2nd edition, OTexts</a>",
       "fpp3",
@@ -402,7 +401,7 @@ rjh_packages <- function() {
       left_join(extended_titles, by = "package") |>
       mutate(title = if_else(is.na(alt_title), title, alt_title))
 
-    # Exclude packages I haven't had much to do with or are outdated
+    # Exclude packages I haven't had much to do with or are outdated or archived
     packages <- packages |>
       filter(
         !package %in%
@@ -413,7 +412,9 @@ rjh_packages <- function() {
             "fracdiff",
             "nortsTest",
             "rmarkdown",
-            "robets"
+            "robets",
+            "smoothAPC",
+            "fpp"
           )
       )
 
@@ -455,7 +456,6 @@ rjh_packages <- function() {
           "compenginets",
           "expsmooth",
           "fma",
-          "fpp",
           "fpp2",
           "fpp3",
           "Mcomp",
@@ -484,7 +484,6 @@ rjh_packages <- function() {
           "ftsa",
           "rainbow",
           "Rsfar",
-          "smoothAPC",
           "vital"
         )
       ) |>
