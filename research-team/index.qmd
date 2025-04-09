@@ -5,7 +5,7 @@ title: "Research team"
 
 ## Current research fellows
 
-**[Cynthia Huang](https://www.cynthiahqy.com)**. [{{< fa brands github >}}](https://github.com/cynthiahqy)
+**[Cynthia Huang](https://www.cynthiahqy.com)** [{{< fa brands github >}}](https://github.com/cynthiahqy)
   
 ## Current PhD students
 
