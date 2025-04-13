@@ -18,7 +18,11 @@ Occasionally R might not be the tool you want to use (hard to believe, but appar
 # Convert time series data to csv
 ts2csv <- function(x) {
   fname <- paste0(deparse(substitute(x)), ".csv")
-  readr::write_csv(tsibble::as_tsibble(x, gather = FALSE), fname)
+  if(inherits(x, "mts")) {
+   readr::write_csv(tsibble::as_tsibble(x, pivot_longer = FALSE), fname)
+  } else {
+   readr::write_csv(tsibble::as_tsibble(x), fname)
+  }
 }
 
 library(fpp2)
@@ -27,3 +31,4 @@ ts2csv(visnights)  # Multivariate quarterly data
 ts2csv(elecdemand) # Multivariate half-hourly data
 ```
 
+(Updated: 13 April 2025)
