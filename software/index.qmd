@@ -11,8 +11,8 @@ source(here::here("software/software_functions.R"))
 ```
 
 ```{css}
-#| label: h1_heading
-#| echo: false
+/*| label: h1_heading */
+/*| echo: false */
 h1 {
   padding-bottom: 0px;
   margin-bottom: 0px;
