@@ -13,7 +13,7 @@ format:
 
 comments:
   giscus:
-    repo:  robjhyndman/robjhyndman.com
+    repo: robjhyndman/robjhyndman.com
     repo-id: "R_kgDOH5G3Uw"
     category: "Announcements"
     category-id: "DIC_kwDOH5G3U84CRUp9"

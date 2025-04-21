@@ -247,7 +247,9 @@ rjh_packages <- function() {
       "pkgmeta",
       "https://pkg.robjhyndman.com/pkgmeta/reference/figures/pkgmeta-hex.png",
       "eechidna",
-      "https://jforbes14.github.io/eechidna/reference/figures/logo.png"
+      "https://jforbes14.github.io/eechidna/reference/figures/logo.png",
+      "calcal",
+      "https://pkg.robjhyndman.com/calcal/reference/figures/calcal-hex.png",
     )
     packages <- cran_github |> left_join(hex_stickers, by = "package")
 
