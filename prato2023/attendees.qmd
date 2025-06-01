@@ -92,4 +92,6 @@ cat("<div class = 'column' style = 'width: 50%; float: left;'>")
 for (i in seq(nrows + 1, n)) {
   display_person(i)
 }
+cat("</div>")
+cat("</div>")
 ```
