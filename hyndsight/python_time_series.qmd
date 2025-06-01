@@ -70,4 +70,4 @@ The [statsmodels](https://www.statsmodels.org) collection includes a few functio
 
 ## Darts
 
-[Darts](https://unit8co.github.io/darts/) is a Python library for wrangling and forecasting time series. It includes wrappers for ETS and ARIMA models from [`statsforecast`](https://nixtla.github.io/statsforecast/) and [`pmdarima`](https://alkaline-ml.com/pmdarima/), as well as an implementation of [TBATS](https://unit8co.github.io/darts/generated_api/darts.models.forecasting.tbats_model.html) and some [reconciliation functionality](https://unit8co.github.io/darts/examples/16-hierarchical-reconciliation.html).
+[Darts](https://unit8co.github.io/darts/) is a Python library for wrangling and forecasting time series. It includes wrappers for ETS, ARIMA and other models from [`statsforecast`](https://nixtla.github.io/statsforecast/) and [`pmdarima`](https://alkaline-ml.com/pmdarima/), and some [reconciliation functionality](https://unit8co.github.io/darts/examples/16-hierarchical-reconciliation.html).
