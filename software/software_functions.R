@@ -428,6 +428,7 @@ rjh_packages <- function() {
         c(
           "tsibble",
           "tsibbledata",
+          "ggtime",
           "feasts",
           "fable",
           "fabletools",
