@@ -27,3 +27,4 @@ RewriteRule ^seminars/workshop2020.* https://github.com/rstudio-conf-2020/time-s
 RewriteRule ^wikipedia http://en.wikipedia.org/wiki/Rob_J._Hyndman [R=301,L,NC]
 RewriteRule ^working(.)papers/(.*) https://robjhyndman.com/publications/$2 [R=301,L,NC]
 RewriteRule ^youtube https://www.youtube.com/playlist?list=PL12D676032C3A6B70 [R=301,L,NC]
+RewriteRule ^postdoc https://careers.pageuppeople.com/513/cw/en/job/680864/research-fellow [R=301,L,NC]

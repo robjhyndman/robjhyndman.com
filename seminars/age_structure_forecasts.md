@@ -3,7 +3,7 @@ date: 2025-06-30
 title: "Forecasting the age structure of the scientific workforce in Australia"
 venue: International Symposium on Forecasting, Beijing, China
 aliases:
-  - /age_structure_forecasts
+  - /isf2025
 link: https://github.com/robjhyndman/age_structure_forecasts/raw/main/age_structure_talk.pdf
 github: robjhyndman/age_structure_forecasts
 ---
