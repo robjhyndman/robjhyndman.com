@@ -10,4 +10,4 @@ categories:
 
 ## Podcast interview for Seriously Social
 
-Recently I was interviewed for the podcast "Seriously Social". You can listen to the episode [here](https://www.seriouslysocialpodcast.org.au/e/forecasting/).
+Recently I was interviewed for the podcast "Seriously Social". You can listen to the episode [here](https://seriouslysocial.org.au/podcasts/forecasting-the-future-the-science-of-prediction/).
