@@ -13,4 +13,4 @@ online: http://www.springer.com/gp/book/9783642048975
 file: businessforecasting.pdf
 ---
 
-[Updated entry for 2nd edition](https://github.com/robjhyndman/IESS_entries/raw/main/Business_Forecasting_Rob_Hyndman.pdf), 2023.
+[Updated entry for 2nd edition](/publications/iess2b.md), 2025.
