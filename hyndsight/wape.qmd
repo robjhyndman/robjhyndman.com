@@ -3,8 +3,8 @@ title: "WAPE: Weighted Absolute Percentage Error"
 date: 2025-08-08
 categories:
   - forecasting
-bibliography: [wmape.bib]
-image: ../img/wmape.png
+bibliography: [wape.bib]
+image: ../img/wape.png
 csl: ../files/apa-single-spaced.csl
 description: I was recently asked for my view on the so-called "Weighted Absolute Percentage Error" (WAPE).
 ---
