@@ -1,0 +1,60 @@
+---
+title: "WAPE: Weighted Absolute Percentage Error"
+date: 2025-08-08
+categories:
+  - forecasting
+bibliography: [wmape.bib]
+image: ../img/wmape.png
+csl: ../files/apa-single-spaced.csl
+description: I was recently asked for my view on the so-called "Weighted Absolute Percentage Error" (WAPE).
+---
+
+The WAPE was introduced by @wmape who called it the MAD/Mean ratio. It is defined as
+$$
+\text{WAPE} = \frac{\sum_{t} |y_t - \hat{y}_t|}{\sum_{t} |y_t|}
+$$
+where
+
+- $y_t$ is the actual value at time $t$,
+- $\hat{y}_t$ is the forecast value at time $t$
+
+You can think of it as a weighted percentage error by writing it as
+$$
+\text{WAPE} = \sum_{t} w_t \frac{|y_t - \hat{y}_t|}{|y_t|}
+$$
+where the weights are given by
+$$w_t = \frac{|y_t|}{\sum_{t} |y_t| }$$
+
+It can also be considered a relative MAE where the comparison method has all forecasts equal to zero.
+
+Or you could think of it as like a MASE [@HK06] but with scaling based on the sum of absolute values on the test set rather than the sum of absolute differences on the training set.
+
+This has some obvious advantages over the MAPE:
+
+1. The MAPE is undefined when *any* actual value in the test set is zero. The WAPE is defined even when some actuals are zero. It is only undefined when *all* the actuals used in the denominator are zero.
+2. Optimizing the MAPE does not lead to a sensible point forecasts [@gneiting2011], but optimizing the WAPE will lead to the median forecast.
+
+However, I think there are a couple of problems that do not seem to have been widely recognized.
+
+1. The resulting estimate is only consistent when the time series is stationary. So it should not be used with data that has trends, or seasonality, or heteroskedasiticy.
+2. It is quite possible to have all actuals in the test set equal to zero, especially with intermittent demand time series and small test sets. Then the denominator is zero, and the WAPE is undefined.
+
+For these reasons, I think the Mean Absolute Scaled Error (MASE) [@HK06] is a better choice than the WAPE. The MASE is defined as
+$$
+\text{MASE} = \frac{\sum_{t=T+1}^{T+h} |y_t - \hat{y}_t|}{\sum_{t=1}^T |y_t - \hat{y}_{t-m}|}
+$$
+where $m=1$ for non-seasonal data, and $m$ is the seasonal period for seasonal data.
+Because the denominator is defined on the *training* data, not the *test* data, it avoids the above problems with the WAPE:
+
+* It is a consistent estimator provided the series is *difference stationary*, which is a much weaker condition than stationarity.
+* The training data is also usually much longer than the test data, so it is much less likely to contain only zeros. In fact, if the training data did contain only zeros, then the obvious forecasts would all be zeros too.
+
+I don't want to suggest there are no problems with the MASE. @wmape point out one potential drawback of MASE --- when there are structural breaks or outliers in the training data.
+
+These days, if I want a scale-free accuracy measure, I prefer the Root Mean Squared Scaled Error (RMSSE):
+$$
+\text{RMSSE} = \sqrt{\frac{\sum_{t=T+1}^{T+h} (y_t - \hat{y}_t)^2}{\sum_{t=1}^T (y_t - \hat{y}_{t-m})^2}}
+$$
+It has all the advantages (and disadvantages) of the MASE, but optimizing it leads to the mean forecast rather than the median. It also aligns better with how models are estimated. Almost all models are estimated by minimizing the sum of squared errors, so it makes sense to evaluate them using squared errors as well.
+
+Point forecast reconciliation also works on means rather than medians, and is optimized using least squares, so it is more natural to evaluate using a squared error measure.
