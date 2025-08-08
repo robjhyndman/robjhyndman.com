@@ -25,7 +25,7 @@ $$
 where the weights are given by
 $$w_t = \frac{|y_t|}{\sum_{t} |y_t| }$$
 
-It can also be considered a relative MAE where the comparison method has all forecasts equal to zero.
+It can also be considered a relative MAE where the comparison method has all forecasts equal to zero. In fact, $1-\text{WAPE}$ would give the skill score relative to the forecast of zero for all $t$.
 
 Or you could think of it as like a MASE [@HK06] but with scaling based on the sum of absolute values on the test set rather than the sum of absolute differences on the training set.
 
