@@ -28,7 +28,7 @@ website:
       - href: about/index.qmd
         text: About
   page-footer:
-    left: "© 1993-2025, Rob J Hyndman <a rel='me' href='https://aus.social/@robjhyndman'></a>"
+    left: "&copy; 1993-[]{#current-year} Rob J Hyndman <a rel='me' href='https://aus.social/@robjhyndman'></a>"
     right:
       - text: Subscribe
         href: /subscribe.html
@@ -42,10 +42,18 @@ freeze: true
 format:
   html:
     theme:
-      - tango
-      - rjh.scss
+      light:
+        - tango
+        - rjh.scss
     toc: true
     mainfont: "Merriweather, Georgia, serif"
     html-math-method: katex
+    code-link: true
+    fig-responsive: true
     include-in-header:
       file: header.html
+    include-after-body:
+      - text: |
+          <script>
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+          </script>
