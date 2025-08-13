@@ -144,7 +144,7 @@ This will copy the template to your current directory, which you can use as a st
 </table>
 
 
-## [Monash Presentation Template](https://github.com/quarto-monash/report)
+## [Monash Presentation Template](https://github.com/quarto-monash/presentation)
 
 This is a Quarto template that assists you in creating a presentation using either Beamer (pdf) or RevealJS (html), with Monash University branding.
 
