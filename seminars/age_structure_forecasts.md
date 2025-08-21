@@ -4,7 +4,7 @@ title: "Forecasting the age structure of the scientific workforce in Australia"
 venue: International Symposium on Forecasting, Beijing, China
 aliases:
   - /isf2025
-link: https://github.com/robjhyndman/age_structure_forecasts/raw/main/age_structure_talk.pdf
+link: https://github.com/robjhyndman/age_structure_forecasts/raw/63898251377b53a39186e6058b7aebc7a97653db/age_structure_talk.pdf
 github: robjhyndman/age_structure_forecasts
 ---
 
@@ -16,4 +16,4 @@ By forecasting age structures in disciplines such as Physics and Astronomy, Math
 
 This forecasting framework not only aids in strategic planning and policy formulation within the scientific community, but also offers a blueprint for other professional sectors seeking to understand workforce dynamics amid demographic shifts.
 
-## Slides
+## Slides (ISF)
