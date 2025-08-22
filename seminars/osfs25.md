@@ -1,7 +1,7 @@
 ---
 date: 2025-06-26
 title: "25 years of open source forecasting software"
-venue: Beijing
+venue: Beihang University, Beijing, China
 aliases: ["/osfs25"]
 ---
 
