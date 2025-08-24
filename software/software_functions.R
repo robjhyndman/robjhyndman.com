@@ -519,12 +519,16 @@ quarto_extension <- function(repo, description) {
     tools::toTitleCase(if (repo == "workingpaper") "Working paper" else repo),
     "Template"
   )
-  img <- paste0(
-    repo_url,
-    "/raw/main/examples/",
-    if (repo == "presentation") "pdftemplate" else "template",
-    ".png"
-  )
+  if (repo == "unit") {
+    img <- "https://robjhyndman.com/img/iml.png"
+  } else {
+    img <- paste0(
+      repo_url,
+      "/raw/main/examples/",
+      if (repo == "presentation") "pdftemplate" else "template",
+      ".png"
+    )
+  }
   cat(
     "<table>\n<tr>\n<td><a href='",
     repo_url,
