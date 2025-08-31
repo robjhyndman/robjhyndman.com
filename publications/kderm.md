@@ -4,7 +4,7 @@ date: 2024-10-07
 slug: kderm
 title: "Distortion corrected kernel density estimator on Riemannian manifolds"
 categories: Articles
-details: <em>J Computational & Graphical Statistics</em>, to appear
+details: <em>J Computational & Graphical Statistics</em>, <b>34</b>(3), 906-922
 tags:
 - data science
 - anomaly detection
