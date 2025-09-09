@@ -16,3 +16,4 @@ packages.rds
 *.kate-swp
 
 **/*.quarto_ipynb
+.history
