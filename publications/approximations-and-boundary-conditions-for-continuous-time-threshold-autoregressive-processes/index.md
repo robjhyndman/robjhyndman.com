@@ -10,6 +10,7 @@ categories: Articles
 tags:
 - time series
 jstor: 3215333
+file: approx_ctar.pdf
 ---
 
 Continuous time threshold autoregressive (CTAR) processes have been developed in the past few years for modelling non-linear time series observed at irregular intervals. Several approximating processes are given here which are useful for simulation and inference. Each of the approximating processes implicitly defines conditions on the thresholds, thus providing greater understanding of the way in which boundary conditions arise.

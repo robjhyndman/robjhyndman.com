@@ -11,6 +11,7 @@ tags:
 - nonparametric smoothing
 - time series
 doi: 10.1016/S0167-9473%2898%2900034-6
+file: smooth_nongauss.pdf
 ---
 
 We consider nonparametric smoothing for time series which are clearly non-Gaussian and which are subject to an autoregressive random component. This generalizes methods for smoothing Gaussian series with autoregressive errors, but in the non-Gaussian case the autoregressive structure is not always additive. The problem can be formulated in a general way to include many common non-Gaussian autoregressive models. The amount of smoothing can be chosen by penalized likelihood methods, and we give simulations and parametric bootstrap methods for studying and empirically estimating the penalty function. We illustrate these methods, the generality of their application, and several data analytic methods with examples involving real data.

@@ -10,6 +10,7 @@ categories: Articles
 tag:
 - software
 jstor: 2684934
+file: sample_quantiles.pdf
 ---
 
 There are a large number of different definitions used for sample quantiles in statistical computer packages. Often within the same package one definition will be used to compute a quantile explicitly while other definitions may be used when producing a boxplot, a probability plot or a QQ-plot. We compare the most commonly implemented sample quantile definitions by writing them in a common notation and investigating their motivation and some of their properties. We argue that there is a need to adopt a standard definition for sample quantiles so that the same answers are produced by different packages and within each package. We conclude by recommending that the median-unbiased estimator is used since it has most of the desirable properties of a quantile estimator and can be defined independently of the underlying distribution.

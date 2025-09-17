@@ -9,6 +9,7 @@ tags:
 - nonparametric smoothing
 details: <em>J Computational & Graphical Statistics</em> <b>11</b>(4), 784-798
 doi: 10.1198/106186002862
+file: mixedhazard.pdf
 ---
 
 We propose a new method for estimation of the hazard function from a set of censored failure time data, with a view to extending the general approach to more complicated models. The approach is based on a mixed model representation of penalized spline hazard estimators. One payoff is the automation of the smoothing parameter choice through restricted maximum likelihood. Another is the option to use standard mixed model software for automatic hazard estimation.
