@@ -3,6 +3,8 @@ author: Rob J Hyndman, Kelly Vanh Nguyen
 date: 2025-09-17
 title: "Forecasting the age structure of the scientific workforce in Australia"
 categories: Working papers
+aliases:
+  - /publications/asf
 tags:
 - functional data analysis
 - demography
