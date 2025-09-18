@@ -10,4 +10,5 @@ categories: Book reviews
 tag:
 - density estimation
 - nonparametric smoothing
+file: br_ks.pdf
 ---

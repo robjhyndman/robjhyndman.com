@@ -8,4 +8,6 @@ details: "<em>Australian & New Zealand Journal of Statistics</em> <b>41</b>(4), 
 categories: Book reviews
 tags:
 - teaching
+doi: 10.1111/1467-842X.00101
+file: br_ws.pdf
 ---

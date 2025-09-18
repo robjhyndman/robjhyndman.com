@@ -9,6 +9,8 @@ categories: Articles
 tags:
 - nonparametric smoothing
 - time series
+doi: 10.1111/j.1467-842X.1997.tb00694.x
+file: npacvf.pdf
 ---
 
 Nonparametric estimators of autocovariance functions for non-stationary time series are developed. The estimators are based on straightforward nonparametric mean function estimation ideas and allow use of any linear smoother (e.g. smoothing spline, local polynomial). We study the properties of the estimators and illustrate their usefulness through application to some meteorological and seismic time series.

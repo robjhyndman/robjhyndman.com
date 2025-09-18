@@ -8,4 +8,6 @@ details: "<em>Australian & New Zealand Journal of Statistics</em> <b>41</b>(2), 
 categories: Book reviews
 tags:
 - writing
+doi: 10.1111/1467-842X.00078
+file: br_krantz_higham.pdf
 ---

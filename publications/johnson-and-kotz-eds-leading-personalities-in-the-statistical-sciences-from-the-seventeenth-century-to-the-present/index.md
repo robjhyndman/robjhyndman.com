@@ -8,4 +8,6 @@ details: "<em>Australian & New Zealand Journal of Statistics</em> <b>40</b>(3), 
 categories: Book reviews
 tags:
 - history
+file: br_jk.pdf
+doi: 10.1111/1467-842X.00041
 ---

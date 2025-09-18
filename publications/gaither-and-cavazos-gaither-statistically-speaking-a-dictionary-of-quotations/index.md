@@ -9,4 +9,6 @@ categories: Book reviews
 tags:
 - history
 - writing
+doi: 10.1111/1467-842X.00090
+file: br_gc.pdf
 ---

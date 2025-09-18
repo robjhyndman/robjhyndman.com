@@ -8,4 +8,6 @@ details: "<em>Australian & New Zealand Journal of Statistics</em> <b>40</b>(2), 
 categories: Book reviews
 tags:
 - nonparametric smoothing
+doi: 10.1111/1467-842X.00028
+file: br_simonoff.pdf
 ---
