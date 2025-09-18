@@ -7,4 +7,5 @@ wordpress_id: 3445
 categories: Editorials
 details: <em>International Journal of Forecasting</em> <b>31</b>(2), 391
 doi: 10.1016/j.ijforecast.2015.04.001
+file: change-to-the-ijf-editors.pdf
 ---

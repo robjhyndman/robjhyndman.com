@@ -14,6 +14,7 @@ tags:
 - nonparametric smoothing
 details: "<em>IEEE Transactions on Power Systems</em> <b>25</b>(2), 1142-1153"
 doi: 10.1109/TPWRS.2009.2036017
+file: peak_electricity_demand.pdf
 ---
 
 **Abstract:** Long-term electricity demand forecasting plays an important role in planning for future generation facilities and transmission augmentation. In a long term context, planners must adopt a probabilistic view of potential peak demand levels, therefore density forecasts (providing estimates of the full probability distributions of the possible future values of the demand) are more helpful than point forecasts, and are necessary for utilities to evaluate and hedge the financial risk accrued by demand variability and forecasting uncertainty. This paper proposes a new methodology to forecast the density of long-term peak electricity demand.

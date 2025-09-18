@@ -12,6 +12,7 @@ tags:
 - time series
 details: "<em>Statistical modelling</em> <b>10</b>(4), 353-374"
 doi: 10.1177/1471082X0901000401
+file: vists.pdf
 ---
 
 The vector innovations structural time series framework is proposed as a way of modelling a set of related time series. Like all multivariate approaches, the aim is to exploit potential inter-series dependencies to improve the fit and forecasts. The model is based around an  unobserved vector of components representing features such as the level and slope of each  time series. Equations that describe the evolution of these components through time are used to represent the inter-temporal dependencies. The approach is illustrated on a bivariate data set comprising Australian exchange rates of the UK pound and US dollar. The forecasting accuracy of the new modelling framework is compared to other common uni- and multivariate approaches in an experiment using time series from a large macroeconomic database.

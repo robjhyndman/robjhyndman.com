@@ -14,6 +14,7 @@ tags:
 - time series
 details: "<em>Journal of Epidemiology</em> <b>20</b>(2), 159-165"
 doi: 10.2188/jea.JE20090072
+file: brca_usew.pdf
 ---
 
 **Background:** Mortality/incidence predictions are used for planning public health resources and need to accurately reflect age-related changes through time. We present a new forecasting model to estimate future trends in age-related breast cancer mortality for the United States and England-Wales.

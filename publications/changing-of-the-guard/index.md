@@ -9,4 +9,5 @@ tags:
 - forecasting
 details: "<em>International Journal of Forecasting</em> <b>26</b>(1), p1"
 doi: 10.1016/j.ijforecast.2009.12.002
+file: changing_of_the_guard.pdf
 ---

@@ -12,6 +12,7 @@ tags:
 - time series
 details: <em>Demographic Research</em> <b>25</b>(5), 173-214
 doi: 10.4054/DemRes.2011.25.5
+file: mortality_forecast_comparison.pdf
 ---
 
 **Abstract:**

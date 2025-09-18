@@ -11,6 +11,7 @@ tags:
 - energy
 doi: 10.1109/MPE.2018.2801441
 details: <em>IEEE Power and Energy Magazine</em>, <b>16</b>(3), 18-25
+file: visualizing-big-energy-data.pdf
 ---
 
 ![](/img/laplacian.png)

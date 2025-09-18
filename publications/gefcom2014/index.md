@@ -14,6 +14,7 @@ tags:
 - probability
 details: <em>International Journal of Forecasting</em> <b>32</b>(3), 896–913
 doi: 10.1016/j.ijforecast.2016.02.001
+file: gefcom2014.pdf
 ---
 
 The energy industry has been going through a significant modernization process over the last decade. Its infrastructure is being upgraded rapidly. The supply, demand and prices are becoming more volatile and less predictable than ever before. Even its business model is being challenged fundamentally. In this competitive and dynamic environment, many decision-making processes rely on probabilistic forecasts to quantify the uncertain future. Although most of the papers in the energy forecasting literature focus on point or single-valued forecasts, the research interest in probabilistic energy forecasting research has taken off rapidly in recent years. In this paper, we summarize the recent research progress on probabilistic energy forecasting. A major portion of the paper is devoted to introducing the Global Energy Forecasting Competition 2014 (GEFCom2014), a probabilistic energy forecasting competition with four tracks on load, price, wind and solar forecasting, which attracted 581 participants from 61 countries. We conclude the paper with 12 predictions for the next decade of energy forecasting.
