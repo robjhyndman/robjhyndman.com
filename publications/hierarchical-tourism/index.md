@@ -11,6 +11,7 @@ tags:
 - tourism
 details: <em>International Journal of Forecasting</em> <b>25</b>(1), 146-166
 doi: 10.1016/j.ijforecast.2008.07.004
+file: hierarchical_tourism.pdf
 ---
 
 In this paper we explore the hierarchical nature of tourism demand time series and produce short-term forecasts for Australian domestic tourism. The data and forecasts are organized in a hierarchy based on disaggregating the data for different geographical regions and for different purposes of travel. We consider five approaches to hierarchical forecasting: two variations of the top-down approach, the bottom-up method, a newly proposed top-down approach where top-level forecasts are disaggregated according to forecasted proportions of lower level series, and a recently proposed optimal combination approach. Our forecast performance evaluation shows that the top-down approach based on forecast proportions and the optimal combination method perform best for the tourism hierarchies we consider. By applying these methods, we produce detailed forecasts for the Australian domestic tourism market.

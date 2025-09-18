@@ -10,6 +10,7 @@ tags:
 - atmospheric science
 details: <em>Environmetrics</em> <b>19</b>(8), 818-835
 doi: 10.1002/env.905
+file: generation_temps.pdf
 ---
 
 We present tools to generate synthetic sequences of half-hourly temperatures with similar statistical characteristics to observed historical data. Temperatures are generated using a combination of daily and half-hourly temperature models which account for intra-day and intra-year seasonality, as well as short- and long-term serial correlations. Details of the model estimation are given as well as a description of the synthetic generation.

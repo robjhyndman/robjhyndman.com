@@ -11,6 +11,8 @@ tags:
 - functional data
 details: <em>Mathematics and Computers in Simulation</em> <b>81</b>, 1310-1324
 doi: 10.1016/j.matcom.2010.04.027
+file: shang.pdf
+online: https://mssanz.org.au/modsim09/D11/shang.pdf
 ---
 
 **Abstract**

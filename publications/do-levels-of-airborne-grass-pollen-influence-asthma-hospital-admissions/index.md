@@ -10,6 +10,7 @@ tags:
 - epidemiology
 details: <em>Clinical and Experimental Allergy</em> <b>37</b>(11), 1641-1647
 doi: 10.1111/j.1365-2222.2007.02818.x
+file: pollen.pdf
 ---
 
 
