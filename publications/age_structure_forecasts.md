@@ -8,7 +8,7 @@ aliases:
 tags:
 - functional data analysis
 - demography
-link: https://raw.githubusercontent.com/robjhyndman/age_structure_forecasts/main/age_structure_forecasts.pdf
+link: https://raw.githubusercontent.com/robjhyndman/age_structure_forecasts/main/asf_wp.pdf
 github: robjhyndman/age_structure_forecasts
 ---
 
