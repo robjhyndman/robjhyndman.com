@@ -377,8 +377,13 @@ rjh_packages <- function() {
         "ts-feature-space",
         "Kang, Hyndman & Smith-Miles (2017)"
       ) |>
+      add_reference("conformalForecast", "cpts.html", "Wang & Hyndman (2024)") |>
+      add_reference("conduits", "condnormts.html", "Gamakumara et al (2023)") |>
       add_reference("tsibble", "tsibble", "Wang, Cook & Hyndman (2020)") |>
-      add_reference("oddnet", "oddnet", "Kandanaarachchi & Hyndman (2022)")
+      add_reference("oddnet", "oddnet", "Kandanaarachchi & Hyndman (2022)") |>
+      add_reference("feasts", "fpp3", "Hyndman & Athanasopoulos (2021)") |>
+      add_reference("fable", "fpp3", "Hyndman & Athanasopoulos (2021)") |>
+      add_reference("fabletools", "fpp3", "Hyndman & Athanasopoulos (2021)")
 
     packages <- left_join(packages, references)
 
