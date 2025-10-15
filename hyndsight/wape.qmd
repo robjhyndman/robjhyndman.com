@@ -54,7 +54,7 @@ These days, if I want a scale-free accuracy measure, I prefer the Root Mean Squa
 $$
 \text{RMSSE} = \sqrt{\frac{\sum_{t} (y_t - \hat{y}_t)^2}{\sum_{t=1}^T (y_t - \hat{y}_{t-m})^2}},
 $$
-where again the sum in the numerator is over the *test* set, and the sum in the denominator is over the *training* set. This has all the advantages (and disadvantages) of the MASE, but optimising it leads to the mean forecast rather than the median. It also aligns better with how models are estimated. Almost all models are estimated by minimising the sum of squared errors, so it makes sense to evaluate them using squared errors as well.
+where again the sum in the numerator is over the *test* set, and the sum in the denominator is over the *training* set. This has all the advantages (and most disadvantages) of the MASE, but optimising it leads to the mean forecast rather than the median. It also aligns better with how models are estimated. Almost all models are estimated by minimising the sum of squared errors, so it makes sense to evaluate them using squared errors as well.
 
 Point forecast reconciliation also works on means rather than medians, and is optimised using least squares, so it is more natural to evaluate using a squared error measure.
 
@@ -78,6 +78,6 @@ $$
 $$
 where both sums are over the test set. As $n$ increases, the numerator will converge to the mean absolute value of the noise, approximately $0.798 \sigma$. But the denominator won't converge at all as it depends on the trend in the series. So the WAPE is not a consistent estimator of anything.
 
-To see the effect of this, imagine the time series is daily sales, and you produce forecasts each week for the next 7 observations, and evaluate them using the WAPE. Over time, your WAPE values get smaller and smaller, because the denominator is growing larger and larger as the trend accumulates. So if you have the illusion of improving accuracy, but your forecasts are really no more accurate than they were at the start.
+To see the effect of this, imagine the time series is daily sales, and you produce forecasts each week for the next 7 observations, and evaluate them using the WAPE. Over time, your WAPE values get smaller and smaller, because the denominator is growing larger and larger as the trend accumulates. So you have the illusion of improving accuracy, but your forecasts are really no more accurate than they were at the start.
 
 While I have used a linear trend as the example here, similar problems can occur whenever the underlying time series is not stationary.
