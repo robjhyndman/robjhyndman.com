@@ -10,6 +10,7 @@ nocite: |
    - @lookout
    - @lookout2
    - @surprisalevt
+   - @weird
 ---
 
 ## Abstract
