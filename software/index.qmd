@@ -24,7 +24,7 @@ h1 {
 # CRAN task views
 
 * [**Time Series**](https://cran.r-project.org/view=TimeSeries)
-* [**Anomaly Detection**](https://github.com/pridiltal/ctv-AnomalyDetection)
+* [**Anomaly Detection**](https://cran.r-project.org/view=AnomalyDetection)
 
 # Selected R packages
 
