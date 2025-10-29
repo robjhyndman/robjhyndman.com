@@ -24,8 +24,8 @@ I will discuss a probabilistic approach to anomaly detection based on extreme 's
 
 ## Slides (ANU)
 
-<a href="https://github.com/robjhyndman/surprisal_talk/raw/main/surprisals.pdf" class="badge badge-small badge-red">Download pdf</a>
-<iframe src="https://docs.google.com/gview?url=https://github.com/robjhyndman/surprisal_talk/raw/main/surprisals.pdf&embedded=true"  width="100%" height=465></iframe>
+<a href="https://github.com/robjhyndman/surprisal_talk/raw/f69df7203a21d11f70311ceb83e7546230d5411a/surprisals.pdf" class="badge badge-small badge-red">Download pdf</a>
+<iframe src="https://docs.google.com/gview?url=https://github.com/robjhyndman/surprisal_talk/raw/f69df7203a21d11f70311ceb83e7546230d5411a/surprisals.pdf&embedded=true"  width="100%" height=465></iframe>
 
 ## Software
 
