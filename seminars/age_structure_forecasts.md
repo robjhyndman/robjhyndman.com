@@ -5,6 +5,10 @@ venue: Various
 aliases:
   - /isf2025
   - /asc2025
+bibliography: asf.bib
+noocite: |
+   - @asf
+   - @HB08
 github: robjhyndman/age_structure_forecasts
 ---
 
@@ -29,3 +33,5 @@ This forecasting framework not only aids in strategic planning and policy formul
 
 * [ISF 2025 slides](https://github.com/robjhyndman/age_structure_forecasts/raw/63898251377b53a39186e6058b7aebc7a97653db/age_structure_talk.pdf)
 * [ASC 2025 slides](https://github.com/robjhyndman/age_structure_forecasts/raw/main/age_structure_talk.pdf)
+
+## References
