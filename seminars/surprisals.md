@@ -6,6 +6,7 @@ bibliography: surprisals.bib
 aliases:
     - /toptime2025
     - /abudhabi2025
+    - /fsi2025
 nocite: |
    - @lookout
    - @lookout2
@@ -19,13 +20,15 @@ I will discuss a probabilistic approach to anomaly detection based on extreme 's
 
 ## Given at
 
-* [TopTime Conference](https://maths.anu.edu.au/news-events/events/topological-methods-time-varying-data-theory-and-applications-top-time), Australian National University, Canberra, Australia: 27-31 October 2025.
-* [Frontiers of Statistical Inference 2025](https://stat-ml.github.io/frontiers-stat-inf-2025/), MBZUAI, Abu Dhabi, UAE: 24-27 November 2025.
+* [TopTime Conference](https://maths.anu.edu.au/news-events/events/topological-methods-time-varying-data-theory-and-applications-top-time), Australian National University, Canberra, Australia: 28 October 2025.
+* [Frontiers of Statistical Inference 2025](https://stat-ml.github.io/frontiers-stat-inf-2025/), MBZUAI, Abu Dhabi, UAE: 26 November 2025.
 
-## Slides (ANU)
+## Slides 
 
-<a href="https://github.com/robjhyndman/surprisal_talk/raw/f69df7203a21d11f70311ceb83e7546230d5411a/surprisals.pdf" class="badge badge-small badge-red">Download pdf</a>
 <iframe src="https://docs.google.com/gview?url=https://github.com/robjhyndman/surprisal_talk/raw/f69df7203a21d11f70311ceb83e7546230d5411a/surprisals.pdf&embedded=true"  width="100%" height=465></iframe>
+
+* [Top time slides](https://github.com/robjhyndman/surprisal_talk/raw/f69df7203a21d11f70311ceb83e7546230d5411a/surprisals.pdf)
+* [FSI slides](https://github.com/robjhyndman/surprisal_talk/raw/main/surprisals_fsi2025.pdf)
 
 ## Software
 
