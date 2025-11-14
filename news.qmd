@@ -2,7 +2,8 @@
 title: "In the news"
 slug: "in-the-news"
 ---
-
+ 
+  * [Highly Cited Monash Researchers recognised for global research influence](https://www.monash.edu/news/articles/highly-cited-monash-researchers-recognised-for-global-research-influence), Monash News, 13 November 2025
   * [Monash Researchers Lauded for Global Influence](https://www.miragenews.com/monash-researchers-lauded-for-global-influence-1569539/), Mirage, 13 November 2025
   * [The Australian names Monash University number one in research for 2024](https://www.monash.edu/news/articles/the-australian-names-monash-university-number-one-in-research-for-2024), Monash News, 8 November 2023.
   * [We delve deep into the data to reveal excellence](https://www.theaustralian.com.au/special-reports/research-magazine/we-delve-deep-into-the-data-to-reveal-excellence/news-story/858367617e0925e28620100cb208172b), The Australian, 8 November 2023.
