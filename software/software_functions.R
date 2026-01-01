@@ -247,7 +247,7 @@ rjh_packages <- function() {
       "pkgmeta",
       "https://pkg.robjhyndman.com/pkgmeta/reference/figures/pkgmeta-hex.png",
       "eechidna",
-      "https://jforbes14.github.io/eechidna/reference/figures/logo.png",
+      "stickers/eechidna.png",
       "calcal",
       "https://pkg.robjhyndman.com/calcal/logo.png",
       "ggtime",
