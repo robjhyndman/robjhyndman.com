@@ -257,7 +257,9 @@ rjh_packages <- function() {
       "expsmooth",
       "https://pkg.robjhyndman.com/expsmooth/reference/figures/expsmooth-hex.png",
       "fma",
-      "https://pkg.robjhyndman.com/fma/reference/figures/fma-hex.png"
+      "https://pkg.robjhyndman.com/fma/reference/figures/fma-hex.png",
+      "hdrcde",
+      "https://pkg.robjhyndman.com/hdrcde/reference/figures/hdrcde-hex.png"
     )
     packages <- cran_github |> left_join(hex_stickers, by = "package")
 
