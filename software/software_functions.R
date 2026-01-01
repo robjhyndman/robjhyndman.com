@@ -238,6 +238,8 @@ rjh_packages <- function() {
       "https://pkg.robjhyndman.com/vital/reference/figures/vital-hex.png",
       "weird",
       "https://pkg.robjhyndman.com/weird-package/reference/figures/weird-hex.png",
+      "fpp2",
+      "https://pkg.robjhyndman.com/fpp2-package/logo.png",
       "fpp3",
       "https://pkg.robjhyndman.com/fpp3/logo.png",
       "ozbabynames",
