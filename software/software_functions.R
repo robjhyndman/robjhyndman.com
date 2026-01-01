@@ -250,6 +250,12 @@ rjh_packages <- function() {
       "https://jforbes14.github.io/eechidna/reference/figures/logo.png",
       "calcal",
       "https://pkg.robjhyndman.com/calcal/logo.png",
+      "ggtime",
+      "https://github.com/mitchelloharawild/ggtime/raw/main/hex/ggtime.png",
+      "expsmooth",
+      "https://pkg.robjhyndman.com/expsmooth/reference/figures/expsmooth-hex.png",
+      "fma",
+      "https://pkg.robjhyndman.com/fma/reference/figures/fma-hex.png"
     )
     packages <- cran_github |> left_join(hex_stickers, by = "package")
 
@@ -467,7 +473,6 @@ rjh_packages <- function() {
           "fpp2",
           "fpp3",
           "Mcomp",
-          "ozdata",
           "tscompdata",
           "tsdl"
         )
