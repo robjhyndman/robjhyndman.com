@@ -259,7 +259,9 @@ rjh_packages <- function() {
       "fma",
       "https://pkg.robjhyndman.com/fma/reference/figures/fma-hex.png",
       "hdrcde",
-      "https://pkg.robjhyndman.com/hdrcde/reference/figures/hdrcde-hex.png"
+      "https://pkg.robjhyndman.com/hdrcde/reference/figures/hdrcde-hex.png",
+      "tsfeatures",
+      "https://pkg.robjhyndman.com/tsfeatures/reference/figures/tsfeatures-hex.png"
     )
     packages <- cran_github |> left_join(hex_stickers, by = "package")
 
