@@ -1,0 +1,89 @@
+
+---
+title: forecast package v9
+date: 2026-01-12
+categories:
+  - forecasting
+  - R
+  - time series
+image: https://pkg.robjhyndman.com/forecast/logo.png
+---
+
+It's been nearly nine years since the [last major release of the forecast package](/hyndsight/forecast8/), as we have been focusing on developing [`fable`](https://fable.tidyverts.org/) and [related packages](https://tidyverts.org) as a tidyverse-based alternative for time series forecasting in R.
+
+However, version 9.0 of the `forecast` package has now been released on CRAN. Thanks to Maximilian Muecke for helping with this release, and for modernising some of the old code.
+
+Here are the main new features and changes.
+
+```{r}
+#| include: false
+library(forecast)
+```
+
+## New forecasting models
+
+The usual workflow with the forecast package is to fit a model to a time series, and then forecast from the model. For example
+
+```{r}
+#| eval: false
+USAccDeaths |> ets() |> forecast()
+USAccDeaths |> auto.arima() |> forecast()
+```
+
+But there have always been a few functions that produce forecasts directly from a time series, without the need to explicitly fit a model first. For example, 
+
+```{r}
+#| eval: false
+USAccDeaths |> snaive()
+```
+
+produces seasonal naive forecasts.
+
+But now you can obtain the same forecasts by first fitting a model and then forecasting from it:
+
+```{r}
+#| eval: false
+USAccDeaths |> rw_model(lag = 12) |> forecast()
+```
+
+Similarly, you can now fit and forecast from mean models, cubic spline models, theta models, and Croston's method using the new `mean_model()`, `spline_model()`, `theta_model()`, and `croston_model()` functions. The existing `naive()`, `snaive()`, `rwf`, `meanf()`, `splinef()`, `thetaf()`, and `croston()` functions are still available for backward compatibility, but are now merely wrappers around the modelling and `forecast` functions.
+
+This should make it easier to set up forecasting workflows involving many different models. For example, suppose you wanted to compute forecasts from five different models applied to the `USAccDeaths` time series.
+
+```{r}
+library(purrr)
+model_fns <- list(ets, auto.arima, rw_model, rw_model, mean_model)
+args <- vector("list", length(model_fns))
+args[[3]] <- list(lag = 12)
+args[[4]] <- list(lag = 12, drift = TRUE)
+models <- map2(model_fns, args, ~ do.call(.x, c(list(y=USAccDeaths), .y)))
+names(models) <- map(models, function(u) u$method)
+forecasts <- map(models, forecast)
+```
+
+Note that `rw_model` is included twice, with different arguments, allowing the calculation of seasonal naive, and seasonal naive with drift, forecasts.
+
+Forecasting with multiple models is easy to do using the [`fable` package](https://fable.tidyverts.org/) (and was one of the key considerations in its design). Now it is also possible to do it using the `forecast` package, with this more consistent interface.
+
+## Missing values in ETS models
+
+I wrote the first version of the ETS code (more than 25 years ago) for a consulting project where there were no missing values, so I didn't write the code to handle them. But obviously missing values occur a lot in many applications, and I've now belatedly added support for them. If there are gaps in a time series, `ets()` can be applied, and it computes the likelihood and fitted values correctly using all available data. (Previously, it would fit a model to the largest contiguous segment of the data.)
+
+This change has also been made to the `ETS()` function in the  [`fable` package](https://fable.tidyverts.org/).
+
+## Bootstrapped prediction intervals
+
+The default prediction intervals in the forecast package are based on the (usually reasonable) assumption that forecast errors are Gaussian. 
+Bootstrapped prediction intervals allow for non-Gaussian forecast errors. These have long been available using ETS, ARIMA, and other models; they are now also available using ARFIMA and TBATS models. 
+
+## Other changes
+
+* Added parallelization for `nnetar()`.
+* More consistent handling of the `biasadj` argument across models.
+* More consistent interface for simulated and bootstrapped prediction intervals for all models.
+* Bug fixes and performance improvements.
+* Documentation improvements.
+
+## Future of the forecast package
+
+I would still encourage people to use the [`fable` package](https://fable.tidyverts.org/) for new projects, as it provides a more modern and consistent interface for time series forecasting in R. However, the `forecast` package will continue to be maintained, with bug fixes and minor improvements as needed.
