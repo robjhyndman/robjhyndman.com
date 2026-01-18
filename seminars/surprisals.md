@@ -23,7 +23,7 @@ I will discuss a probabilistic approach to anomaly detection based on extreme 's
 * [TopTime Conference](https://maths.anu.edu.au/news-events/events/topological-methods-time-varying-data-theory-and-applications-top-time), Australian National University, Canberra, Australia: 28 October 2025.
 * [Frontiers of Statistical Inference 2025](https://stat-ml.github.io/frontiers-stat-inf-2025/), MBZUAI, Abu Dhabi, UAE: 26 November 2025.
 
-## Slides 
+## Slides
 
 <iframe src="https://docs.google.com/gview?url=https://github.com/robjhyndman/surprisal_talk/raw/f69df7203a21d11f70311ceb83e7546230d5411a/surprisals.pdf&embedded=true"  width="100%" height=465></iframe>
 
@@ -33,4 +33,4 @@ I will discuss a probabilistic approach to anomaly detection based on extreme 's
 ## Software
 
 * [lookout package for R](https://sevvandi.github.io/lookout/)
-* [weird package for R](http://pkg.robjhyndman.com/weird-package/)
+* [weird package for R](http://pkg.robjhyndman.com/weird/)
