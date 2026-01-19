@@ -436,7 +436,11 @@ rjh_packages <- function() {
             "fpp"
           )
       )
-
+    # Fix URL of weird
+    packages <- packages |>
+      mutate(
+        url = if_else(package == "weird", "https://pkg.robjhyndman.com/weird/", url)
+      )
     # Add in section information
     packages <- packages |>
       arrange(package) |>
