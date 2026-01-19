@@ -13,7 +13,7 @@ title: "Research team"
 
 ## Former research fellows
 
-  1. **[Muhammad Akram](https://www.acu.edu.au/research-and-enterprise/our-research-institutes/mary-mackillop-institute-for-health-research/our-people/muhammad-akram)**
+  1. **[Muhammad Akram](https://orcid.org/0000-0003-1073-3614)**
   2. **[George Athanasopoulos](https://research.monash.edu/en/persons/george-athanasopoulos)** [{{< fa brands github >}}](https://github.com/georgeAthana)
   3. **[Christoph Bergmeir](https://www.cbergmeir.com/)** [{{< fa brands github >}}](https://github.com/cbergmeir)
   4. **[Baki Billah](https://research.monash.edu/en/persons/md-billah)**
@@ -35,7 +35,7 @@ title: "Research team"
 ## Former postgraduate research students
 
   1. **[Roman Ahmed](https://www.linkedin.com/in/romanahmed)**. [*Forecasting hierarchical time series*](https://bridges.monash.edu/articles/thesis/Forecasting_hierarchical_time_series/14956233). (Ph.D., graduated 2010). Now Analytics Manager at Optus.
-  2. **[Muhammad Akram](https://www.acu.edu.au/research-and-enterprise/our-research-institutes/mary-mackillop-institute-for-health-research/our-people/muhammad-akram)**. [*Stability properties of state space models for exponential smoothing*](https://bridges.monash.edu/articles/thesis/Stability_properties_of_state_space_models_for_exponential_smoothing/14873391), (Ph.D., graduated 2005). Now a Research Fellow at the ACU Mary MacKillop Institute for Health Research.
+  2. **[Muhammad Akram](https://orcid.org/0000-0003-1073-3614)**. [*Stability properties of state space models for exponential smoothing*](https://bridges.monash.edu/articles/thesis/Stability_properties_of_state_space_models_for_exponential_smoothing/14873391), (Ph.D., graduated 2005). Now a Biostatistician at the Hudson Institute of Medical Research.
   3. **[Sengarapillai Arivalzahan](https://maths.jfn.ac.lk/index.php/dr-s-arivalzahan/)**. [*Discrimination and classification in functional data analysis*](https://bridges.monash.edu/articles/thesis/Discrimination_and_classification_in_functional_data_analysis/14971401), (Ph.D., graduated 2008). Now a Senior Lecturer at University of Jaffna, Sri Lanka.
   4. **[David Bashtannyk](https://www.linkedin.com/in/david-bashtannyk-53b30796)**. [*Kernel conditional density estimation*](https://bridges.monash.edu/articles/thesis/Kernel_conditional_density_estimation/14873652), (Ph.D., graduated 2001). Now Senior Manager  Valuations Risk at ANZ Bank.
   5. **[Souhaib Ben Taieb](http://souhaib-bentaieb.com/)**, *[Machine-learning strategies for multi-step time series forecasting](https://souhaib-bentaieb.com/papers/2014_phd.pdf)* (PhD, graduated 2014). Winner of a Solvay Award for his PhD thesis. Now Associate Professor at Mohamed bin Zayed University of Artificial Intelligence in Abu Dhabi, UAE. [{{< fa brands github >}}](https://github.com/bsouhaib/)
