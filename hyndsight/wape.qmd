@@ -41,9 +41,9 @@ However, I think there are a couple of problems that do not seem to have been wi
 
 For these reasons, I think the Mean Absolute Scaled Error (MASE) [@HK06] is a better choice than the WAPE. The MASE is defined as
 $$
-\text{MASE} = \frac{\sum_{t} |y_t - \hat{y}_t|}{\sum_{t=1}^T |y_t - \hat{y}_{t-m}|}
+\text{MASE} = \frac{\frac{1}{n}\sum_{t} |y_t - \hat{y}_t|}{\frac{1}{T}\sum_{t=1}^T |y_t - \hat{y}_{t-m}|}
 $$
-where $m=1$ for non-seasonal data, and $m$ is the seasonal period for seasonal data, and the sum in the numerator is over the *test* set, while the sum in the denominator is over the *training* set. Because the denominator is defined on the *training* data, not the *test* data, it avoids the above problems with the WAPE:
+where $m=1$ for non-seasonal data, and $m$ is the seasonal period for seasonal data, and the sum in the numerator is over the *test* set (of size $n$), and the sum in the denominator is over the *training* set (of size $T$). Because the denominator is defined on the *training* data, not the *test* data, it avoids the above problems with the WAPE:
 
 * It is a consistent estimator provided the series is *difference stationary*, which is a much weaker condition than stationarity.
 * The training data is also usually much longer than the test data, so it is much less likely to contain only zeros. In fact, if the training data did contain only zeros, then the obvious forecasts would all be zeros too.
@@ -52,7 +52,7 @@ I don't want to suggest there are no problems with the MASE. @wmape point out on
 
 These days, if I want a scale-free accuracy measure, I prefer the Root Mean Squared Scaled Error (RMSSE):
 $$
-\text{RMSSE} = \sqrt{\frac{\sum_{t} (y_t - \hat{y}_t)^2}{\sum_{t=1}^T (y_t - \hat{y}_{t-m})^2}},
+\text{RMSSE} = \sqrt{\frac{\frac{1}{n}\sum_{t} (y_t - \hat{y}_t)^2}{\frac{1}{T}\sum_{t=1}^T (y_t - \hat{y}_{t-m})^2}},
 $$
 where again the sum in the numerator is over the *test* set, and the sum in the denominator is over the *training* set. This has all the advantages (and most disadvantages) of the MASE, but optimising it leads to the mean forecast rather than the median. It also aligns better with how models are estimated. Almost all models are estimated by minimising the sum of squared errors, so it makes sense to evaluate them using squared errors as well.
 
