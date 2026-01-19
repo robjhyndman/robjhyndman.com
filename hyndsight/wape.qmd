@@ -41,7 +41,7 @@ However, I think there are a couple of problems that do not seem to have been wi
 
 For these reasons, I think the Mean Absolute Scaled Error (MASE) [@HK06] is a better choice than the WAPE. The MASE is defined as
 $$
-\text{MASE} = \frac{\frac{1}{n}\sum_{t} |y_t - \hat{y}_t|}{\frac{1}{T}\sum_{t=1}^T |y_t - \hat{y}_{t-m}|}
+\text{MASE} = \frac{\frac{1}{n}\sum_{t} |y_t - \hat{y}_t|}{\frac{1}{T-m}\sum_{t=m+1}^T |y_t - y_{t-m}|}
 $$
 where $m=1$ for non-seasonal data, and $m$ is the seasonal period for seasonal data, and the sum in the numerator is over the *test* set (of size $n$), and the sum in the denominator is over the *training* set (of size $T$). Because the denominator is defined on the *training* data, not the *test* data, it avoids the above problems with the WAPE:
 
@@ -52,7 +52,7 @@ I don't want to suggest there are no problems with the MASE. @wmape point out on
 
 These days, if I want a scale-free accuracy measure, I prefer the Root Mean Squared Scaled Error (RMSSE):
 $$
-\text{RMSSE} = \sqrt{\frac{\frac{1}{n}\sum_{t} (y_t - \hat{y}_t)^2}{\frac{1}{T}\sum_{t=1}^T (y_t - \hat{y}_{t-m})^2}},
+\text{RMSSE} = \sqrt{\frac{\frac{1}{n}\sum_{t} (y_t - \hat{y}_t)^2}{\frac{1}{T-m}\sum_{t=m+1}^T (y_t - y_{t-m})^2}},
 $$
 where again the sum in the numerator is over the *test* set, and the sum in the denominator is over the *training* set. This has all the advantages (and most disadvantages) of the MASE, but optimising it leads to the mean forecast rather than the median. It also aligns better with how models are estimated. Almost all models are estimated by minimising the sum of squared errors, so it makes sense to evaluate them using squared errors as well.
 
@@ -69,7 +69,7 @@ $$
 which is an estimate of the variance of the noise. As more observations are included in the calculation, the RMSE will converge to $\sigma$. That makes it "consistent" in a statistical sense. Practically, it also means that the expected RMSE does not depend on which observations you use to evaluate the forecasts --- the RMSE values will be similar regardless of the test set used in the calculation. That is, if you evaluate the forecasts over the next week, the RMSE will be similar to the RMSE calculated on a cross-validated set.
 
 Suppose, instead, we use the RMSSE to evaluate the forecasts. The RMSSE is equal to the RMSE divided by
-$$\sqrt{\frac{1}{T}\sum_{t=1}^T (y_{t} - \hat{y}_{t-1})^2} = \sqrt{\frac{1}{T}\sum_{t=1}^T (b + \varepsilon_t - \varepsilon_{t-1})^2}$$
+$$\sqrt{\frac{1}{T-1}\sum_{t=2}^T (y_{t} - y_{t-1})^2} = \sqrt{\frac{1}{T-1}\sum_{t=2}^T (b + \varepsilon_t - \varepsilon_{t-1})^2}$$
 So the RMSSE is still consistent (it converges to $\sigma/\sqrt{b^2 + 2\sigma^2}$), and the expected RMSSE does not depend on which observations you use to evaluate the forecasts.
 
 Now, suppose we use the WAPE to evaluate these forecasts. Then we obtain
