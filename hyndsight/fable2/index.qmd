@@ -108,7 +108,7 @@ vic_cafe %>%
   geom_line(aes(y = Turnover)) +
   geom_line(aes(y = .sim, colour = as.factor(.rep)), data = sim) +
   ggtitle("Monthly turnover of Victorian cafes") +
-  guides(col = FALSE)
+  guides(col = "none")
 ```
 
 Prediction intervals are calculated using percentiles of the future sample paths. This is all built into the `forecast()` function so you do not need to call `generate()` directly.

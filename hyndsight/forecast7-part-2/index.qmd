@@ -48,7 +48,7 @@ cols <- c("Mean" = "#0000ee", "Median" = "#ee0000")
 autoplot(fc1) + ylab("Price") + xlab("Year") +
   autolayer(fc2, PI = FALSE, series = "Median") +
   autolayer(fc1, PI = FALSE, series = "Mean") +
-  guides(fill = FALSE) +
+  guides(fill = "none") +
   scale_colour_manual(name = "Forecasts", values = cols)
 ```
 
@@ -84,4 +84,3 @@ The next major release will probably be around the end of 2016. On the to-do lis
   * **Better choice of seasonal differencing**. Currently `auto.arima` does a pretty good job at finding the orders of a model, and the number of first-differences required, but it does not handle seasonal differences well. It often selects 0 differences, when I think it should select 1 difference. So I tend to over-ride the automatic choice with `auto.arima(x, D=1)`. I will attempt to find some better tests of seasonal unit roots than those that are currently implemented.
 
   * **Prediction intervals for NNAR forecasts**. The forecasts obtained using a NNAR model (via the `nnetar` function) do not have prediction intervals because there is no underlying stochastic model on which to base them. However, there are ways of computing the uncertainty using simulation, and I hope to implement something like that for the next version.
-

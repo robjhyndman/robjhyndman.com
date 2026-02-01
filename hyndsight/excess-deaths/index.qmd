@@ -98,7 +98,7 @@ deaths %>%
   geom_line(aes(col = thisyear)) +
   facet_wrap(~country, scales = "free_y") +
   scale_color_manual(values = c("FALSE" = "gray", "TRUE" = "red")) +
-  guides(col = FALSE) +
+  guides(col = "none") +
   ggtitle("Weekly deaths")
 ```
 
