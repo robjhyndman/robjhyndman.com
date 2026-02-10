@@ -1,6 +1,7 @@
 ---
 title: "Hyndsight"
 description: Thoughts on research, forecasting, statistics, and other distractions
+exclude-from-recent: true
 listing:
   contents: .
   sort: "date desc"

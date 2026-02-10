@@ -44,6 +44,17 @@ listing:
     sort-ui: false
     filter-ui: false
 
+  - id: recent-hyndsight
+    contents:
+      - hyndsight/
+    exclude:
+      exclude-from-recent: true
+    sort: "date desc"
+    max-items: 3
+    template: "updates.ejs"
+    sort-ui: false
+    filter-ui: false
+
   - id: recent-news
     contents: news.yml
     sort: "date desc"
@@ -55,17 +66,22 @@ listing:
     filter-ui: false
 ---
 
-## [Recent publications](/publications/) {.recent-heading}
+### [Recent publications](/publications/) {.recent-heading}
 
-::: {#recent-publications}
+::: {#recent-publications .frontpage-listing}
 :::
 
-## [Recent seminars](/seminars) {.recent-heading}
+### [Recent seminars](/seminars) {.recent-heading}
 
-::: {#recent-seminars}
+::: {#recent-seminars .frontpage-listing}
 :::
 
-## [Recent news items](/news.qmd) {.recent-heading}
+### [Recent blog posts](/hyndsight) {.recent-heading}
 
-::: {#recent-news}
+::: {#recent-hyndsight .frontpage-listing}
+:::
+
+### [Recent news items](/news.qmd) {.recent-heading}
+
+::: {#recent-news .frontpage-listing}
 :::

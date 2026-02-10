@@ -539,6 +539,14 @@ textarea {
 }
 
 .recent-heading {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 0.6em;
+  margin-bottom: 0.3em;
+}
+
+/* Remove extra vertical space after listings on the front page */
+.frontpage-listing,
+.frontpage-listing .quarto-listing,
+.frontpage-listing .quarto-listing-container {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
