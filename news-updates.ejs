@@ -1,0 +1,5 @@
+<ul class="recent-news">
+<% for (const item of items) { %>
+  <li><a href="<%- item.href %>" class="recent-news-title"><%- item.title %></a><% if (item.outlet) { %>, <% if (item['outlet-url']) { %><a href="<%- item['outlet-url'] %>" class="recent-news-outlet"><%- item.outlet %></a><% } else { %><span class="recent-news-outlet"><%- item.outlet %></span><% } %><% } %><% if (item['date-text']) { %>, <span class="recent-news-date"><%- item['date-text'] %></span><% } else if (item.date) { %>, <span class="recent-news-date"><%- item.date %></span><% } %></li>
+<% } %>
+</ul>

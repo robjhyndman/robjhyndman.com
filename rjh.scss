@@ -75,7 +75,7 @@ a:hover {
 }
 
 hr {
-  border-top: 1px solid lighter($theme-main, 40%);
+  border-top: 1px solid lighten($theme-main, 40%);
   margin-top: 5ex;
   margin-bottom: 5ex;
   max-width: 100%;
@@ -83,7 +83,7 @@ hr {
 
 blockquote {
   background: $theme-gray;
-  border-left: 10px solid darken($theme-gray,30%);
+  border-left: 10px solid darken($theme-gray, 30%);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
@@ -92,12 +92,12 @@ blockquote {
 }
 
 blockquote p {
-  color: darken($theme-gray,70%);
+  color: darken($theme-gray, 70%);
   display: inline;
 }
 
 blockquote:before {
-  color: darken($theme-gray,30%);
+  color: darken($theme-gray, 30%);
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -117,7 +117,7 @@ th {
 table th,
 table td {
   border-bottom: 0px !important;
-  padding: 0.2em .2em;
+  padding: 0.2em 0.2em;
 }
 
 ul {
@@ -148,7 +148,8 @@ nav,
   font-size: 100%;
 }
 
-nav, .footer p {
+nav,
+.footer p {
   margin-block-start: 0em;
   margin-block-end: -0.6em;
 }
@@ -163,7 +164,6 @@ a.navbar-brand:hover {
 }
 
 /* Badges */
-
 a.badge.badge-red {
   color: #fff;
 }
@@ -190,7 +190,7 @@ a.badge.badge-green {
 
 .label,
 .badge {
-  background: darken($theme-gray,10%);
+  background: darken($theme-gray, 10%);
   font-size: 12.75px;
   display: inline-block;
   line-height: 1;
@@ -209,7 +209,7 @@ a.badge.badge-green {
 
 .badge {
   border-radius: 15px;
-  opacity: .75;
+  opacity: 0.75;
 }
 
 .badge-small {
@@ -239,12 +239,12 @@ a.badge.badge-green {
 
 .label-blue,
 .badge-blue {
-  background: #4673B8;
+  background: #4673b8;
 }
 
 .label-red,
 .badge-red {
-  background: #BD666D;
+  background: #bd666d;
 }
 
 .label-green,
@@ -317,11 +317,27 @@ a.badge.badge-green {
 }
 
 .figure-caption {
-  color: darken($theme-gray,40%);
+  color: darken($theme-gray, 40%);
   background-color: $theme-gray;
   padding-left: 20px;
   font-size: 12pt;
   font-family: $font-family-sans-serif;
+}
+
+/* ---- About (trestles) tweaks ---- */
+
+/* Ensure the subtitle (your name/address block) is left aligned on ALL screen sizes.
+   The trestles template applies centering on narrow viewports; we override that here. */
+div.quarto-about-trestles .about-entity,
+div.quarto-about-trestles .about-entity .about-subtitle,
+div.quarto-about-trestles .about-entity p.subtitle,
+div.quarto-about-trestles .about-entity .subtitle {
+  text-align: left !important;
+}
+
+/* If the about template uses flexbox on some breakpoints, keep items left aligned */
+div.quarto-about-trestles .about-entity {
+  align-items: flex-start;
 }
 
 div.quarto-about-trestles .about-entity .about-links {
@@ -331,13 +347,13 @@ div.quarto-about-trestles .about-entity .about-links {
 div.quarto-about-trestles .about-entity .about-link {
   border: none;
   font-size: 20pt;
-  column-gap: .2em;
+  column-gap: 0.2em;
   color: $theme-main;
 }
 
 @media (max-width: 991.98px) {
   div.quarto-about-trestles .about-entity .about-link {
-    column-gap: .2em;
+    column-gap: 0.2em;
     padding: 5pt !important;
   }
 }
@@ -347,11 +363,12 @@ div.quarto-about-trestles .about-entity .about-link:hover {
   color: $theme-gray;
 }
 
-.badge-grey:hover, .quarto-category:hover,
+.badge-grey:hover,
+.quarto-category:hover,
 .listing-category:hover {
   background-color: $theme-main;
   color: $theme-gray !important;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .badge-grey:hover a {
@@ -376,10 +393,11 @@ div.quarto-about-trestles .about-entity .about-link:hover {
 #quarto-margin-sidebar .category:hover {
   color: #085ad4;
 }
-.sidebar nav[role=doc-toc]>ul a:hover {
+.sidebar nav[role='doc-toc'] > ul a:hover {
   color: #085ad4;
 }
-.sidebar nav[role=doc-toc] ul>li>a:hover, .sidebar nav[role=doc-toc] ul>li>ul>li>a:hover {
+.sidebar nav[role='doc-toc'] ul > li > a:hover,
+.sidebar nav[role='doc-toc'] ul > li > ul > li > a:hover {
   color: #085ad4 !important;
 }
 .quarto-categories,
@@ -392,7 +410,7 @@ div.quarto-about-trestles .about-entity .about-link:hover {
 }
 
 div.quarto-post .metadata {
-  font-size: .9em;
+  font-size: 0.9em;
 }
 div.quarto-post .listing-categories .listing-category {
   background: #e9e9e9;
@@ -409,7 +427,7 @@ div.quarto-post .listing-categories .listing-category {
 div.quarto-post .listing-categories:hover .listing-category:hover {
   background-color: $theme-main;
   color: $theme-gray !important;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .imgrow {
@@ -465,12 +483,62 @@ div.quarto-post .listing-categories:hover .listing-category:hover {
   margin-bottom: 1rem;
 }
 
-input, button, select, optgroup, textarea {
+input,
+button,
+select,
+optgroup,
+textarea {
   border-radius: 6px;
   font-family: $font-family-sans-serif;
 }
 
-.page-link.active, .active>.page-link {
+.page-link.active,
+.active > .page-link {
   color: #fff;
   background-color: $theme-main;
+}
+
+/*
+  Optional: place the subtitle (your address/affiliation block) BELOW the icon links
+  in the trestles about sidebar.
+
+  If this doesn't take effect, open your browser devtools and inspect the
+  left column; adjust the selectors for the subtitle / links containers.
+*/
+@media (min-width: 992px) {
+  .quarto-about-trestles .about-entity {
+    display: flex;
+    flex-direction: column;
+    font-family: $font-family-sans-serif;
+  }
+
+  /* Try common class names for the links area */
+  .quarto-about-trestles .about-entity .about-links,
+  .quarto-about-trestles .about-entity .about-link,
+  .quarto-about-trestles .about-entity .about-links-container {
+    order: 2;
+  }
+
+  /* Try common class names for the subtitle */
+  .quarto-about-trestles .about-entity .about-subtitle,
+  .quarto-about-trestles .about-entity p.subtitle,
+  .quarto-about-trestles .about-entity .subtitle {
+    order: 3;
+    margin-top: 0.75rem;
+  }
+}
+
+.recent-updates,
+.recent-updates * {
+  font-family: var(--bs-font-sans-serif);
+}
+
+.recent-news,
+.recent-news * {
+  font-family: var(--bs-font-sans-serif);
+}
+
+.recent-heading {
+  margin-top: 0;
+  margin-bottom: 0;
 }

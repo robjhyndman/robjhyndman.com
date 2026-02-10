@@ -1,0 +1,426 @@
+# News items metadata
+# Fields used by listings/templates:
+# - title: required
+# - href: recommended (use "" if no link)
+# - outlet: optional
+# - outlet-url: optional (link to outlet homepage or article if no href)
+# - date: required for sorting (ISO YYYY-MM-DD)
+
+- title: "Professor Rob Hyndman: a visionary who transformed modern forecasting"
+  href: "files/IASSL_RJH.pdf"
+  outlet: "IASSL Newsletter"
+  outlet-url: "https://iassl.lk/wp-content/uploads/2026/02/IASSL-NEWSLETTER-Sep-Dec-2025.pdf"
+  date: 2025-12-31
+
+- title: "Highly Cited Monash Researchers recognised for global research influence"
+  href: "https://www.monash.edu/news/articles/highly-cited-monash-researchers-recognised-for-global-research-influence"
+  outlet: "Monash News"
+  date: 2025-11-13
+
+- title: "Monash Researchers Lauded for Global Influence"
+  href: "https://www.miragenews.com/monash-researchers-lauded-for-global-influence-1569539/"
+  outlet: "Mirage News"
+  date: 2025-11-13
+
+- title: "The Australian names Monash University number one in research for 2024"
+  href: "https://www.monash.edu/news/articles/the-australian-names-monash-university-number-one-in-research-for-2024"
+  outlet: "Monash News"
+  date: 2023-11-08
+
+- title: "We delve deep into the data to reveal excellence"
+  href: "https://www.theaustralian.com.au/special-reports/research-magazine/we-delve-deep-into-the-data-to-reveal-excellence/news-story/858367617e0925e28620100cb208172b"
+  outlet: "The Australian"
+  date: 2023-11-08
+
+- title: "Are there moves to raise the pension age to 70? Advocates fear there are"
+  href: "https://www.thesenior.com.au/story/8264953/pension-age-rises-to-67-will-it-go-higher/"
+  outlet: "The Senior"
+  date: 2023-07-10
+
+- title: "The pension age will soon change to 67, should it be higher?"
+  href: "https://www.abc.net.au/melbourne/programs/mornings/pension-age-increasing/102414352"
+  outlet: "ABC Radio"
+  date: 2023-05-31
+
+- title: "Work until 70: higher pension age on the horizon"
+  href: "https://www.theaustralian.com.au/business/wealth/work-until-70-higher-pension-age-on-horizon-as-life-expectancy-rises/news-story/8563ab2eca5a3c733fcb154ccfb8a970"
+  outlet: "The Australian"
+  date: 2023-05-30
+
+- title: "Work until 70: higher pension age on the horizon"
+  href: "https://www.dailytelegraph.com.au/news/national/work-until-70-higher-pension-age-on-horizon-as-life-expectancy-rises/news-story/8563ab2eca5a3c733fcb154ccfb8a970"
+  outlet: "Daily Telegraph"
+  date: 2023-05-30
+
+- title: "New pension age signals unsustainable trend, experts say"
+  href: "https://www.agedcareguide.com.au/talking-aged-care/new-pension-age-signals-unsustainable-trend-experts-say"
+  outlet: "Aged Care Guide"
+  date: 2023-04-26
+
+- title: "Citations for outstanding contributions to student learning"
+  href: "https://campusmorningmail.com.au/news/citations-for-outstanding-contributions-to-student-learning/"
+  outlet: "Campus Morning Mail"
+  date: 2023-02-22
+
+- title: "Rethinking COVID hegemony"
+  href: "https://www.croakey.org/rethinking-covid-hegemony/"
+  outlet: "Croakey"
+  date: 2023-02-01
+
+- title: "Australia may not like China but likes Chinese tourists"
+  href: "https://indepthnews.net/australia-may-not-like-china-but-likes-chinese-tourists/"
+  outlet: "IDN-InDepthNews"
+  date: 2023-01-11
+
+- title: "Australian governments have kept much of their COVID research and modelling secret. Why?"
+  href: "https://www.abc.net.au/news/2023-01-07/covid-data-government-secrecy/101827548"
+  outlet: "ABC News"
+  date: 2023-01-07
+
+- title: "Business School joins new $7.86 million industrial transformation research centre"
+  href: "https://www.monash.edu/business/news/2022/business-school-joins-new-$7.86-million-industrial-transformation-research-centre/"
+  outlet: "Monash News"
+  date: 2022-11-23
+
+- title: "Monash University’s Rob Hyndman awarded the Pitman Medal 2021"
+  href: "https://busycontinent.com/monash-universitys-rob-hyndman-awarded/"
+  outlet: "Busy Continent"
+  date: 2021-07-28
+
+- title: "Top Stats Society Honour for ACEMS Chief Investigator"
+  href: "https://web.archive.org/web/20240424193450/https://acems.org.au/news/rob-hyndman-pitman-medal"
+  outlet: "ACEMS"
+  date: 2021-07-09
+
+- title: "Rob Hyndman awarded the Pitman Medal 2021"
+  href: "https://statsoc.org.au/News-and-media-releases/10736720"
+  outlet: "Statistical Society of Australia"
+  date: 2021-07-08
+
+- title: "IIF Fellow & Distinguished Researcher: Rob Hyndman"
+  href: "https://forecasters.org/blog/2021/07/02/iif-fellow-distinguished-researcher-rob-hyndman/"
+  outlet: "International Institute of Forecasters"
+  date: 2021-07-02
+
+- title: "International Journal of Forecasting Announces Best Papers from the M4 special issue"
+  href: "https://forecasters.org/blog/2021/06/30/international-journal-of-forecasting-announces-best-papers-from-the-m4-special-issue/"
+  outlet: "International Institute of Forecasters"
+  date: 2021-06-30
+
+- title: "All eyes online"
+  href: "https://www.monash.edu/business/awards/george-athanasopoulos-and-rob-hyndman"
+  outlet: "Monash Awards"
+  date: 2021-06-10
+
+- title: "This is really a marathon. Meet the statistician helping forecast the spread of COVID-19"
+  href: "https://impact.monash.edu/covid-19/this-is-really-a-marathon-meet-the-statistician-helping-forecast-the-spread-of-covid-19/"
+  outlet: "Monash Impact"
+  date: 2021-05-25
+
+- title: "The Australia Academy of Science Elects ACEMS Chief Investigator as New Fellow"
+  href: "https://web.archive.org/web/20241104201440/https://acems.org.au/news/rob-hyndman-science-academy-fellow"
+  outlet: "ACEMS News"
+  date: 2021-05-25
+
+- title: "Leading Monash University scientists elected Fellows of Australian Academy of Science"
+  href: "https://www.monash.edu/news/articles/leading-monash-university-scientists-elected-fellow-of-australian-academy-of-science"
+  outlet: "Monash News"
+  date: 2021-05-25
+
+- title: "Distinguished statistician elected Fellow of the Australian Academy of Science"
+  href: "https://www.monash.edu/news/articles/distinguished-statistician-elected-fellow-of-the-australian-academy-of-science"
+  outlet: "Monash News"
+  date: 2021-05-25
+
+- title: "Twenty-two Australians recognised among our nation’s most distinguished scientists"
+  href: "https://www.science.org.au/news-and-events/news-and-media-releases/twenty-two-australians-recognised-among-nations-distinguished-scientists"
+  outlet: "Australian Academy of Science"
+  date: 2021-05-25
+
+- title: "Hundreds of academics back self-ID sex question in Scottish census"
+  href: "https://www.heraldscotland.com/news/19208054.hundreds-academics-back-self-id-sex-question-scottish-census/"
+  outlet: "The Herald (Scotland)"
+  date: 2021-04-04
+
+- title: "Two ACEMS Researchers Named Fellows by Social Sciences Academy"
+  href: "https://web.archive.org/web/20241205120702/https://acems.org.au/news/acems-social-sciences-fellows"
+  outlet: "ACEMS News"
+  date: 2020-11-16
+
+- title: "Cybersecurity: How data scrutiny can thwart attacks"
+  href: "https://impact.monash.edu/big-data/cybersecurity-how-data-scrutiny-can-thwart-attacks/"
+  outlet: "Monash Impact"
+  date: 2020-11-12
+
+- title: "Respected Business researchers honoured as Fellows of Academy of Social Sciences of Australia"
+  href: "https://www.monash.edu/business/news/2020/respected-business-researchers-honoured-as-fellows-of-academy-of-social-sciences-of-australia"
+  outlet: "Monash Business News"
+  date: 2020-11-11
+
+- title: "What’s the pandemic forecast?"
+  href: "https://web.archive.org/web/20201020143019/https://www.arc.gov.au/news-publications/media/feature-articles/whats-pandemic-forecast"
+  outlet: "ARC feature article"
+  date: 2020-09-30
+
+- title: "What’s the pandemic forecast?"
+  href: "https://web.archive.org/web/20241003232107/https://acems.org.au/news/covid-forecasting-team"
+  outlet: "ACEMS news"
+  date: 2020-08-12
+
+- title: "Inaugural Zema Energy Studies Scholarship launched"
+  href: "https://www.energymagazine.com.au/inaugural-zema-energy-studies-scholarship-launched/"
+  outlet: "Energy Magazine"
+  date: 2020-03-05
+
+- title: "New scholarship program supports Monash students to address Australia's energy sector challenges"
+  href: "https://www.monash.edu/news/articles/new-scholarship-program-supports-monash-students-to-address-australias-energy-sector-challenges"
+  outlet: "Monash News"
+  date: 2020-03-04
+
+- title: "Big data, big deal: what a career in data science really takes"
+  href: "https://thenewdaily.com.au/sponsored/2019/11/27/big-data-big-deal-what-a-career-in-data-science-really-takes/"
+  outlet: "The New Daily"
+  date: 2019-11-27
+
+- title: "How to boost your career one gigabyte at a time"
+  href: "https://thenewdaily.com.au/sponsored/2019/10/24/how-to-boost-your-career-one-gigabyte-at-a-time/"
+  outlet: "The New Daily"
+  date: 2019-10-24
+
+- title: "River and reef water quality monitoring revolutionized"
+  href: "https://www.technologynetworks.com/applied-sciences/news/river-and-reef-water-quality-monitoring-revolutionized-323567"
+  outlet: "Technology Networks"
+  date: 2019-09-04
+
+- title: "Revolutionizing water quality monitoring for our rivers and reef"
+  href: "https://www.sciencedaily.com/releases/2019/09/190903091446.htm"
+  outlet: "ScienceDaily"
+  date: 2019-09-03
+
+- title: "Labor’s climate policy is second-rate – because the government’s policy is fifth-rate"
+  href: "https://thenewdaily.com.au/money/finance-news/2019/05/06/labor-climate-policy-costings/"
+  outlet: "The New Daily"
+  date: 2019-05-06
+
+- title: "Announcing the winners of the Facebook Statistics for Improving Insights and Decisions research awards"
+  href: "https://research.facebook.com/blog/2019/1/announcing-the-winners-of-the-statistics-for-improving-insights-and-decisions-research-awards/"
+  outlet: "Facebook Research"
+  date: 2019-01-25
+
+- title: "Forecasting: putting the smart into smart meters"
+  href: "https://impact.monash.edu/energy/forecasting-putting-the-smart-into-smart-meters/"
+  outlet: "Monash Impact"
+  date: 2018-10-24
+
+- title: "QUT works with ABS to boost use of big data"
+  href: "https://www.qut.edu.au/news?news-id=133908"
+  outlet: "QUT News"
+  date: 2018-08-03
+
+- title: "Future predictions: revolutionising the accuracy of business forecasting"
+  href: "https://impact.monash.edu/big-data/future-predictions-revolutionising-the-accuracy-of-business-forecasting/"
+  outlet: "Monash Impact"
+  date: 2018-04-11
+
+- title: "A big-hearted optimist: Hans Rosling tributes pour in on social media"
+  href: "https://www.theguardian.com/global-development/2017/feb/08/hans-rosling-tributes-melinda-gates-big-hearted-optimist"
+  outlet: "The Guardian"
+  date: 2017-02-08
+
+- title: "Smart-meter data could improve the performance and efficiency of national power grids"
+  href: "https://phys.org/news/2017-02-smart-meter-efficiency-national-power-grids.html"
+  outlet: "Phys.org"
+  date: 2017-02-07
+
+- title: "How a tourism slump revolutionised global forecasting"
+  href: "https://impact.monash.edu/economy/how-a-tourism-slump-revolutionised-global-forecasting/"
+  outlet: "Monash Impact"
+  date: 2016-12-13
+
+- title: "Treasury to seek outside advice for economic forecasts"
+  href: "http://www.afr.com/news/politics/treasury-to-seek-outside-advice-for-economic-forecasts-20160221-gmzhc2"
+  outlet: "Australian Financial Review"
+  date: 2016-02-21
+
+- title: "Getting to know Rob Hyndman"
+  href: "http://www.monash.edu/news/articles/getting-to-know-rob-hyndman"
+  outlet: "Monash News"
+  date: 2015-08-19
+
+- title: "Monash Business School forecaster a big thinker"
+  href: "https://www.monash.edu/news/show/monash-business-school-forecaster-a-big-thinker"
+  outlet: "Monash News"
+  date: 2015-06-30
+
+- title: "Big Thinker Rob Hyndman Explores The Science Of Forecasting And Prediction"
+  href: "https://labs.yahoo.com/news/big-thinker-rob-hyndman-explores-science-forecasting-and-prediction"
+  outlet: "Yahoo"
+  date: 2015-06-29
+
+- title: "Unis ride analytics, data mining boom"
+  href: "http://www.theage.com.au/national/education/unis-ride-analytics-data-mining-boom-20141020-118nnt.html"
+  outlet: "The Age"
+  date: 2014-10-27
+
+- title: "ABS jobs and unemployment figures -- key questions answered by an expert"
+  href: "http://www.theguardian.com/news/datablog/2014/oct/09/abs-jobs-and-unemployment-figures-key-questions-answered-by-an-expert"
+  outlet: "The Guardian"
+  date: 2014-10-09
+
+- title: "Paying for ABS data: experts warn Hockey idea 'extremely detrimental'"
+  href: "http://www.theguardian.com/australia-news/2014/oct/09/paying-for-abs-data-experts-warn-hockey-idea-extremely-detrimental"
+  outlet: "The Guardian"
+  date: 2014-10-09
+
+- title: "Interview"
+  href: "https://blog.earo.me/2014/01/26/interview-with-rob/"
+  outlet: "Capital of Statistics"
+  outlet-url: "http://cos.name/2014/02/cos-interview-rob-j-hyndman/"
+  date: 2014-01-26
+
+- title: "IEEE Power & Energy Society Announces the Eight Winning Teams for the Global Energy Forecasting Competition 2012"
+  href: "http://www.ieee-pes.org/ieee-pes-announces-the-eight-winning-teams-for-the-gefcom2012"
+  outlet-url: "https://web.archive.org/web/20140714161927/http://finance.yahoo.com/news/ieee-power-energy-society-announces-120700338.html"
+  outlet: "IEEE Power & Energy Society"
+  date: 2013-10-08
+
+- title: "Interview on DecisionStats"
+  href: "http://www.decisionstats.com/interview-rob-j-hyndman-forecasting-expert-rstats/"
+  outlet: "DecisionStats"
+  date: 2012-08-09
+
+- title: "Interview on Data Mining Research"
+  href: "https://web.archive.org/web/20120517193003/http://www.dataminingblog.com/data-mining-interview-rob-hyndman/"
+  outlet: "Data Mining Research"
+  outlet-url: "http://magazine.amstat.org/blog/2011/12/01/qasitedec11/"
+  date: 2011-10-21
+
+- title: "Made to measure but can we trust TV ratings?"
+  href: "http://www.smh.com.au/entertainment/tv-and-radio/made-to-measure-but-can-we-trust-tv-ratings-20110422-1dr9m.html"
+  outlet: "Sydney Morning Herald"
+  date: 2011-04-23
+
+- title: "May the best analyst win"
+  href: "http://www.sciencemag.org/content/331/6018/698.full"
+  outlet: "Science 331(6018), 698–699"
+  date: 2011-02-11
+
+- title: "VCE hub a home for the weird and wonderful"
+  href: "http://www.theage.com.au/national/education/vce-hub-a-home-for-the-weird-and-wonderful-20100910-154t6.html"
+  outlet: "The Age"
+  date: 2010-09-13
+
+- title: "2010 Dean's Award for Excellence in Innovation and External Collaboration"
+  href: "https://web.archive.org/web/20110303173556/http://news-events.buseco.monash.edu.au/2010/08/2010-dean%E2%80%99s-award-for-excellence-in-innovation-and-external-collaboration/"
+  outlet: "Monash Business and Economic Faculty News"
+  date: 2010-08-25
+
+- title: "Nothing is as easy as it seems"
+  href: "http://www.scientificcomputing.com/article/2010/08/nothing-easy-it-seems"
+  outlet: "Scientific Computing"
+  date: 2010-08-03
+
+- title: "Rob Hyndman receives an HP Innovation Research Award"
+  href: "https://web.archive.org/web/20120710042405/http://news-events.buseco.monash.edu.au/2010/07/rob-hyndman-receives-an-hp-innovation-research-award/"
+  outlet: "Monash Business and Economics Faculty News"
+  date: 2010-07-12
+
+- title: "Wheels inaccurate"
+  href: "http://web.archive.org/web/20100915023256/http://www.countrynews.com.au:80/story.asp?TakeNo=201005312508795"
+  outlet: "Country News"
+  date: 2010-05-31
+
+- title: "Statistics experts label ISP filtering trials unscientific"
+  href: "https://web.archive.org/web/20231109131828/https://www.arnnet.com.au/article/312845/statistics_experts_label_isp_filtering_trials_unscientific/"
+  outlet: "ARNnet"
+  date: 2009-07-29
+
+- title: "Ranking Economic Forecasts"
+  href: "https://web.archive.org/web/20090831200809/http://blogs.reuters.com/macroscope/2009/08/27/ranking-economic-forecasts/"
+  outlet: "Reuters"
+  date: 2009-08-27
+
+- title: "Winning the 2008 vice-chancellor's postgraduate supervision award (Faculty news)"
+  href: "https://web.archive.org/web/20110415161102/http://www.buseco.monash.edu.au/news/buseco-bulletin08/august/stories/moranmedal.html"
+  outlet: "Monash (Faculty news)"
+  date: 2008-08-20
+
+- title: "Winning the 2008 vice-chancellor's postgraduate supervision award (Monash memo)"
+  href: "http://adm.monash.edu/records-archives/archives/memo-archive/2004-2007/stories/20080820/research-awards.html"
+  outlet: "Monash memo"
+  date: 2008-08-20
+
+- title: "Winning the 2008 vice-chancellor's postgraduate supervision award (My thoughts on winning the award)"
+  href: "https://robjhyndman.com/hyndsight/supervision-award/"
+  outlet: "robjhyndman.com"
+  date: 2008-08-20
+
+- title: "Peak electricity demand determined by forecasting model"
+  href: "http://adm.monash.edu/records-archives/archives/memo-archive/2004-2007/stories/20070815/rob-hyndman.html"
+  outlet: "Monash News"
+  date: 2007-08-15
+
+- title: "Lock me up (letter to the editor)"
+  href: "http://www.theage.com.au/news/letters/neither-a-borrower-nor-a-lender-be/2007/07/16/1184559701338.html"
+  outlet: "The Age"
+  date: 2007-07-17
+
+- title: "Rob Hyndman awarded with prestigious Moran Medal"
+  href: "https://web.archive.org/web/20080723031256/http://www.buseco.monash.edu.au/news/2007/june/moran-medal.html"
+  outlet: "Monash"
+  date: 2007-06-05
+
+- title: "Victorian scientists receive prestigious awards"
+  href: ""
+  outlet: "AAS Press release"
+  date: 2007-05-02
+
+- title: "Academic wins prestigious award for outstanding contribution to statistical science"
+  href: "https://web.archive.org/web/20120421193249/http://www.monash.edu.au/news/releases/show/1043"
+  outlet: "Monash News"
+  date: 2006-12-18
+
+- title: "Study allays university admissions concerns"
+  href: "http://www.abc.net.au/news/2006-09-19/study-allays-university-admissions-concerns/1267414"
+  outlet: "ABC News"
+  date: 2006-09-19
+
+- title: "Pass mark for UAIs but can improve"
+  href: "http://web.archive.org/web/20080905094555/http://www.canberratimes.com.au/news/local/news/general/pass-mark-for-uais-but-can-improve/347234.aspx"
+  outlet: "Canberra Times"
+  date: 2006-09-19
+
+- title: "International recognition for Monash statistician"
+  href: "http://adm.monash.edu/records-archives/archives/memo-archive/2004-2007/stories/20051130/r-hyndman.html"
+  outlet: "Monash News"
+  date: 2005-11-30
+
+- title: "Forecasting Professor appointed Editor-in-Chief of top journal"
+  href: "https://web.archive.org/web/20080723003856/http://www.buseco.monash.edu.au/news/2004/may/forecasting.html"
+  outlet: "Monash News"
+  date: 2004-05-01
+
+- title: "The Perils of Projecting Population"
+  href: "http://web.archive.org/web/20040623175820/http://www.abc.net.au/rn/talks/lm/stories/s1110050.htm"
+  outlet: "Life Matters, ABC Radio National"
+  date: 2004-05-18
+
+- title: "Canberra 'loses count on elderly'"
+  href: "http://www.theage.com.au/articles/2004/05/15/1084571000068.html"
+  outlet: "The Age"
+  date: 2004-05-16
+
+- title: "Research warns of health system pressure from elderly"
+  href: "http://www.abc.net.au/news/2004-05-12/research-warns-of-health-system-pressure-from/1974408"
+  outlet: "ABC News"
+  date: 2004-05-12
+
+- title: "Australia's aged population is increasing faster than the government realises"
+  href: "http://www.news-medical.net/news/2004/05/10/1367.aspx"
+  outlet: "News-Medical.Net"
+  date: 2004-05-10
+
+- title: "Uncertainty over population forecasting and the elderly"
+  href: "https://web.archive.org/web/20120422042523/http://www.monash.edu.au/news/releases/show/95"
+  outlet: "Monash News"
+  date: 2004-05-04

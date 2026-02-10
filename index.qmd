@@ -1,4 +1,9 @@
 ---
+subtitle: |
+  <b>Rob J Hyndman</b><br>
+  Professor of Statistics<br>
+  [Department of Econometrics & Business Statistics](https://monash.edu/business/ebs)<br>
+  [Monash University](https://monash.edu), Australia.
 about:
   template: trestles
   image: img/RJH_AAS_small.png
@@ -13,11 +18,54 @@ about:
       href: https://cdn.jsdelivr.net/gh/robjhyndman/CV@main/RobHyndmanCV.pdf
     - text: "{{< fa envelope >}}"
       href: mailto:Rob.Hyndman@monash.edu
+
+toc: false
+
+listing:
+  - id: recent-publications
+    contents:
+      - publications/
+    exclude:
+      exclude-from-recent: true
+    sort: "date desc"
+    max-items: 3
+    template: "updates.ejs"
+    sort-ui: false
+    filter-ui: false
+
+  - id: recent-seminars
+    contents:
+      - seminars/
+    exclude:
+      exclude-from-recent: true
+    sort: "date desc"
+    max-items: 3
+    template: "updates.ejs"
+    sort-ui: false
+    filter-ui: false
+
+  - id: recent-news
+    contents: news.yml
+    sort: "date desc"
+    max-items: 3
+    template: "news-updates.ejs"
+    field-types:
+      date: date
+    sort-ui: false
+    filter-ui: false
 ---
 
-<div class="about-link-text">
-**Rob&nbsp;J&nbsp;Hyndman**<br>
-Professor of Statistics<br>
-[Department of Econometrics & Business Statistics](https://monash.edu/business/ebs)<br>
-[Monash University](https://monash.edu), Australia.
-</div>
+## [Recent publications](/publications/) {.recent-heading}
+
+::: {#recent-publications}
+:::
+
+## [Recent seminars](/seminars) {.recent-heading}
+
+::: {#recent-seminars}
+:::
+
+## [Recent news items](/news.qmd) {.recent-heading}
+
+::: {#recent-news}
+:::

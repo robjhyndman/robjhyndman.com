@@ -1,5 +1,7 @@
 ---
 pagetitle: "Rob J Hyndman - Seminars"
+toc: false
+exclude-from-recent: true
 listing:
   contents: .
   sort: "date desc"
