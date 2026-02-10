@@ -14,8 +14,9 @@ $sidebar-fg: lighten($theme-gray, 10%);
 $font-family-sans-serif: 'Fira Sans', sans-serif;
 $font-family-monospace: 'Hack', monospace;
 
-$h2-font-size: 1.5rem !default;
-$h3-font-size: 1.3rem !default;
+$h1-font-size: 1.6rem !default;
+$h2-font-size: 1.4rem !default;
+$h3-font-size: 1.2rem !default;
 
 $code-block-bg: $theme-gray;
 
@@ -42,22 +43,16 @@ h5 {
 }
 
 h1 {
-  font-size: 1.6em;
   padding-bottom: 1em;
   line-height: 1.6em;
 }
 
 h2 {
-  font-size: 1.4em;
   border-bottom: 1px solid lighten($theme-main, 30%);
 }
 
 h2 a {
   border-bottom: none;
-}
-
-h3 {
-  font-size: 1.2em;
 }
 
 h6 {

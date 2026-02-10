@@ -48,6 +48,7 @@ format:
     toc: true
     mainfont: "Merriweather, Georgia, serif"
     html-math-method: katex
+    fontsize: "12pt"
     code-link: true
     fig-responsive: true
     include-in-header:
