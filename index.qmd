@@ -1,9 +1,4 @@
 ---
-subtitle: |
-  <b>Rob J Hyndman</b><br>
-  Professor of Statistics<br>
-  [Department of Econometrics & Business Statistics](https://monash.edu/business/ebs)<br>
-  [Monash University](https://monash.edu), Australia.
 about:
   template: trestles
   image: img/RJH_AAS_small.png
