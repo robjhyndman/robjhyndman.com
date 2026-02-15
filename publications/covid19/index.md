@@ -7,5 +7,5 @@ categories: Miscellaneous
 tags:
 - epidemiology
 - forecasting
-link: https://www.doherty.edu.au/uploads/content_doc/Technical_report_4_update_29July2020.pdf
+file: covid19.pdf
 ---
