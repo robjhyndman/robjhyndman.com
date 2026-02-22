@@ -9,7 +9,7 @@ tags:
 - data science
 - econometrics
 - time series
-link: http://business.monash.edu/econometrics-and-business-statistics/research/publications/ebs/wp01-17.pdf
+link: https://www.monash.edu/business/ebs/research/publications/ebs/wp01-17.pdf
 ---
 
-A website that encourages and facilities the use of quantitative, publicly available Australian macroeconomic data is introduced. The Australian Macro Database hosted at [ausmacrodata.org](http://ausmacrodata.org) provides a user friendly front end for searching among over 40000 economic variables, sourced from the Australian Bureau of Statistics and the Reserve Bank of Australia. The search box, tags and categories used to facilitate data retrieval, are described in detail. Known issues with the website and future plans are discussed in the conclusion.
+A website that encourages and facilities the use of quantitative, publicly available Australian macroeconomic data is introduced. The Australian Macro Database hosted at [ausmacrodata.org](https://web.archive.org/web/20240622055003/http://www.ausmacrodata.org/) provides a user friendly front end for searching among over 40000 economic variables, sourced from the Australian Bureau of Statistics and the Reserve Bank of Australia. The search box, tags and categories used to facilitate data retrieval, are described in detail. Known issues with the website and future plans are discussed in the conclusion.
