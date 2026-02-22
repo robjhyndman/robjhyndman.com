@@ -19,5 +19,5 @@ A popular approach to forecasting macroeconomic variables is to utilize a large 
 
 ### Data:
 
- * [Australian data](http://ausmacrodata.org/WP%20Data/P1/ausmacrodata_JAPHV_2016.csv)
+ * [Australian data](/data/ausmacrodata_JAPHV_2016.csv)
  * [International data](/data/inter_data_transf_updated.csv) [[Variable codes](/data/ForeignVariables.xlsx)]
