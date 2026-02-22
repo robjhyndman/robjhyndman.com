@@ -7,7 +7,7 @@ wordpress_id: 1712
 categories: Articles
 tags:
 - R
-link: "http://journal.r-project.org/archive/2011-1/RJournal_2011-1_Hyndman.pdf"
+link: "https://journal.r-project.org/news/RJ-2011-1-Hyndman/"
 details: "<em>The R Journal</em>, <b>3</b>(1), 69–71"
 ---
 
