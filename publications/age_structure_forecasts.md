@@ -10,7 +10,7 @@ tags:
 - demography
 link: https://raw.githubusercontent.com/robjhyndman/age_structure_forecasts/main/asf_wp.pdf
 github: robjhyndman/age_structure_forecasts
-details: "<em>Australian & New Zealand Journal of Statistics</em>, to appear"
+details: "<em>Australian & New Zealand Journal of Statistics</em>, <b>68</b>(1), 1369-1473"
 doi: 10.1111/anzs.70043
 ---
 
