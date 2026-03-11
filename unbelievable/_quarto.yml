@@ -4,6 +4,8 @@ project:
 
 book:
   title: "Unbelievable"
+  date: 2015-08-23
+  date-format: "YYYY"
   author: "[Rob J Hyndman](https://robjhyndman.com)"
   chapters:
     - href: "index.qmd"
