@@ -1,10 +1,9 @@
 ---
 author: Rob J Hyndman, Sevvandi Kandanaarachchi, Katharine Turner
-date: 2026-01-31
+date: 2026-03-24
 slug: lookout2
 title: "When lookout sees crackle: Anomaly detection via kernel density estimation"
 categories: Working papers
-details: in preparation
 tags:
 - data science
 - anomaly detection
