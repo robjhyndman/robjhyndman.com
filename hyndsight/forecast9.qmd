@@ -30,7 +30,7 @@ USAccDeaths |> ets() |> forecast()
 USAccDeaths |> auto.arima() |> forecast()
 ```
 
-But there have always been a few functions that produce forecasts directly from a time series, without the need to explicitly fit a model first. For example, 
+But there have always been a few functions that produce forecasts directly from a time series, without the need to explicitly fit a model first. For example,
 
 ```{r}
 #| eval: false
@@ -73,8 +73,8 @@ This change has also been made to the `ETS()` function in the  [`fable` package]
 
 ## Bootstrapped prediction intervals
 
-The default prediction intervals in the forecast package are based on the (usually reasonable) assumption that forecast errors are Gaussian. 
-Bootstrapped prediction intervals allow for non-Gaussian forecast errors. These have long been available using ETS, ARIMA, and other models; they are now also available using ARFIMA and TBATS models. 
+The default prediction intervals in the forecast package are based on the (usually reasonable) assumption that forecast errors are Gaussian.
+Bootstrapped prediction intervals allow for non-Gaussian forecast errors. These have long been available using ETS, ARIMA, and other models; they are now also available using ARFIMA and TBATS models.
 
 ## Other changes
 
