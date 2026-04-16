@@ -152,6 +152,10 @@ I am a fellow of the following organizations:
 
 Here is a list of [recent news articles about me](../news.qmd).
 
+## Podcast interviews
+
+{{< include /podcasts.qmd >}}
+
 ## Trivia
 
 My [mathematical genealogy](/hyndsight/mathematical-genealogy/) goes back to Leibniz, Bernoulli, Euler, Lagrange and Poisson.
