@@ -17,4 +17,4 @@ Here's the blurb (not written by me):
 > <br><br>
 > In this episode, Prof. Rob Hyndman joins Dr. Genevieve Hayes to make the case for why rigorous statistical thinking remains indispensable in the age of AI, and what data scientists are giving up when they abandon it.
 
-[**Check it out**](https://valuedrivendatascience.com/101) if you're interested.
+[**Check it out**](https://valuedrivendatascience.com/101) if you're interested. Other podcasts I've done are [listed here](podcasts/index.qmd).
