@@ -3,9 +3,11 @@
 default: preview
 
 preview:
+	Rscript update_podcast_date.R
 	quarto preview
 
 build:
+	Rscript update_podcast_date.R
 	quarto render
 	quarto render unbelievable
 	quarto render prato2023
