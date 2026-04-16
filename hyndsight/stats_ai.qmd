@@ -1,0 +1,20 @@
+
+---
+title: Why traditional statistics still matters in the age of AI
+date: 2026-04-16
+categories:
+  - forecasting
+  - statistics
+  - AI
+image: /img/vdds.png
+---
+
+I was interviewed on this topic recently by [Dr Genevieve Hayes](https://www.genevievehayes.com/) for her podcast [Value Driven Data Science](https://valuedrivendatascience.com).
+
+Here's the blurb (not written by me):
+
+> Data scientists today are under pressure to adopt the latest tools - machine learning, LLMs, generative AI. But in the rush to embrace what's new, many are leaving some of the most powerful analytical tools sitting on the shelf. Tools that handle something modern AI largely can't: uncertainty.
+> <br><br>
+> In this episode, Prof. Rob Hyndman joins Dr. Genevieve Hayes to make the case for why rigorous statistical thinking remains indispensable in the age of AI, and what data scientists are giving up when they abandon it.
+
+[**Check it out**](https://valuedrivendatascience.com/101) if you're interested.
