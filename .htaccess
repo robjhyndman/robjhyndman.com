@@ -27,7 +27,3 @@ RewriteRule ^working.?papers/(.*) https://robjhyndman.com/publications/$2 [R=301
 RewriteRule ^youtube https://www.youtube.com/playlist?list=PL12D676032C3A6B70 [R=301,L,NC]
 
 RewriteRule ^publications/fpp3.* https://OTexts.com/fpp3 [R=301,L,NC]
-
-# redirect otexts.robjhyndman.com/* -> https://otexts.com/*
-RewriteCond %{HTTP_HOST} ^otexts\.robjhyndman\.com$ [NC]
-RewriteRule ^(.*)$ https://otexts.com/$1 [R=301,L]
