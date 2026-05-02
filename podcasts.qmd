@@ -7,6 +7,7 @@ library(knitr)
 library(kableExtra)
 tribble(
   ~Date, ~Podcast, ~url, ~Episode,
+  "2026-04-23", "Value Driven Data Science", "https://valuedrivendatascience.com/102", "How giving away your work for free can build your authority as a data scientist",
   "2026-04-16", "Value Driven Data Science", "https://valuedrivendatascience.com/101", "Why traditional statistics still matters in the age of AI",
   "2023-05-26", "Forecasting Impact", "https://forecastingimpact.buzzsprout.com/1641538/12809499-forecasting-software-panel", "Forecasting software panel",
   "2022-03-14", "Faculty.net", "https://faculti.net/forecasting-in-social-settings/", "Forecasting in social settings",
