@@ -1,6 +1,8 @@
 ---
 pagetitle: "Rob J Hyndman - Software"
 freeze: false
+toc: true
+toc-depth: 2
 ---
 
 ```{r}
@@ -47,40 +49,36 @@ for (i in seq_along(sections)) {
 
 # Quarto extensions
 
+## Monash University templates
+
 ```{r}
 #| label: quarto_extensions
 #| output: asis
 #| echo: false
-quarto_extension(
-  "exam",
-  "Create an exam for Monash Business School"
+extensions <- tibble::tribble(
+  ~repo          , ~description                                                                                         ,
+  "exam"         , "Create an exam for Monash Business School"                                                          ,
+  "letter"       , "Create a letter on Monash Business School letterhead"                                               ,
+  "memo"         , "Create a memo with optional Monash Business School branding"                                        ,
+  "presentation" , "Create a Monash University themed presentation using either Beamer or RevealJS"                     ,
+  "report"       , "Create a Monash Business School consulting report"                                                  ,
+  "thesis"       , "Create a Monash University thesis"                                                                  ,
+  "unit"         , "Create a unit website for Monash Business School"                                                   ,
+  "workingpaper" , "Create a working paper for the Department of Econometrics & Business Statistics, Monash University" ,
 )
+for (i in seq_len(nrow(extensions))) {
+  quarto_extension(extensions$repo[i], extensions$description[i])
+}
+```
+
+## Other templates
+
+```{r}
+#| label: other_extensions
+#| output: asis
+#| echo: false
 quarto_extension(
-  "letter",
-  "Create a letter on Monash Business School letterhead"
-)
-quarto_extension(
-  "memo",
-  "Create a memo with optional Monash Business School branding"
-)
-quarto_extension(
-  "presentation",
-  "Create a Monash University themed presentation using either Beamer or RevealJS"
-)
-quarto_extension(
-  "report",
-  "Create a Monash Business School consulting report"
-)
-quarto_extension(
-  "thesis",
-  "Create a Monash University thesis"
-)
-quarto_extension(
-  "unit",
-  "Create a unit website for Monash Business School"
-)
-quarto_extension(
-  "workingpaper",
-  "Create a working paper for the Department of Econometrics & Business Statistics, Monash University"
+  "ims-journals",
+  "Create a submission for an IMS journal such as <em>Statistical Science</em> or <em>Annals of Applied Statistics</em>"
 )
 ```
