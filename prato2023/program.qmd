@@ -89,7 +89,7 @@ Discussant: [**Tommaso Di Fonzo**](https://homes.stat.unipd.it/tommasodifonzo/)
 Discussant: [**Dario Azzimonti**](https://sites.google.com/view/darioazzimonti/home)
 
 * **11.45am**: [**Syama Rangapuram**, “Coherent probabilistic forecasting of temporal hierarchies”](rangapuram.md)<br>
-Discussant: [**Bahman Rostami-Tabar**](https://www.bahmanrt.com)
+Discussant: [**Bahman Rostami-Tabar**](https://bahmanrostamitabar.github.io/)
 
 **12.30pm**: *Lunch*
 
