@@ -2,6 +2,8 @@
 title: "Research team"
 ---
 
+> I am not taking new PhD students, or new research fellows. If you're interested in a PhD at Monash University with a different supervisor, see [here](https://www.monash.edu/business/research/phd-programs).
+
 ## Current PhD students
 
   1. **[Lakshan Bernard](https://optima.org.au/staff/lakshan/)**. *Analytical tools for future power networks* (PhD, begun 2020). [{{< fa brands github >}}](https://github.com/mkldb)
