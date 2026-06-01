@@ -6,6 +6,11 @@
 # - outlet-url: optional (link to outlet homepage or article if no href)
 # - date: required for sorting (ISO YYYY-MM-DD)
 
+- title: "Inaugural cohort of Vice-Chancellor’s Distinguished Professors"
+  href: "https://www.monash.edu/news/articles/inaugural-cohort-of-vice-chancellors-distinguished-professors"
+  outlet: "Monash News"
+  date: 2026-06-01
+
 - title: "Professor Rob Hyndman: a visionary who transformed modern forecasting"
   href: "files/IASSL_RJH.pdf"
   outlet: "IASSL Newsletter"
