@@ -31,16 +31,19 @@ language:
 
 <div class="imgrow">
 <div class="imgcolumn">
-<a href="https://OTexts.org/fpp3/"><img src="/img/fpp3_cover.jpg" height=270 align="center"></a>
+<a href="https://OTexts.org/fpp3/"><img src="/img/fpp3_cover.jpg" height=250 align="center"></a>
 </div>
 <div class="imgcolumn">
-<a href="/expsmooth/"><img src="/expsmooth/expsmooth.jpg" height=270></a>
+<a href="https://OTexts.org/fpppy/"><img src="/img/fpppy_cover.jpg" height=250 align="center"></a>
 </div>
 <div class="imgcolumn">
-<a href="/forecasting/"><img src="/forecasting/fma.jpg" height=270></a>
+<a href="/expsmooth/"><img src="/expsmooth/expsmooth.jpg" height=250></a>
 </div>
 <div class="imgcolumn">
-<a href="/unbelievable/"><img src="/unbelievable/unbelievablecover-200x300.jpg" height=270></a>
+<a href="/forecasting/"><img src="/forecasting/fma.jpg" height=250></a>
+</div>
+<div class="imgcolumn">
+<a href="/unbelievable/"><img src="/unbelievable/unbelievablecover.jpg" height=250></a>
 </div>
 </div>
 

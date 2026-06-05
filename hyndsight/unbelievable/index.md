@@ -12,7 +12,7 @@ This is a very different book from my usual areas of forecasting and statistics.
 <table style="border: 0;">
 <tr>
 <td style="background-color: #faf8f8; border-bottom: 0; vertical-align: top">
-<img src="/unbelievable/unbelievablecover-200x300.jpg" style="margin-right: 2em;">&nbsp;&nbsp;&nbsp;
+<img src="/unbelievable/unbelievablecover.jpg" style="margin-right: 2em;">&nbsp;&nbsp;&nbsp;
 </td>
 <td style="background-color: #faf8f8;  border-bottom: 0;">
 Until a few years ago, I was regularly speaking at church conferences internationally, and my books are still used in Bible classes and Sunday Schools around the world. I even helped establish an innovative new church, which became a model for similar churches in other countries. Eventually I came to the view that I was mistaken, and that there was little or no evidence that the Bible was inspired or that God exists. In this book, I reflect on how I was fooled, and why I changed my mind.
