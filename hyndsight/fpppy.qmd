@@ -1,0 +1,20 @@
+---
+title: "Forecasting: Principles and Practice, the Pythonic Way"
+date: 2026-06-05
+categories:
+  - forecasting
+  - Python
+  - teaching
+image: "https://otexts.com/fpppy/figs/fpppy_front_cover.jpg"
+description: 'The Python edition of "Forecasting: Principles and Practice" is now [available in print](https://otexts.com/fpppy/print-version.html).'
+---
+
+<a href="https://otexts.com/fpppy/print-version.html"><img src = "https://otexts.com/fpppy/figs/fpppy_front_cover.jpg" alt = "FPPPY front cover" style = "width: 300px; float: right; margin-left: 20px; margin-bottom: 20px;"></a>
+
+About a year ago, we did a soft launch of the online edition of ["Forecasting: Principles and Practice, the Pythonic Way" (FPPPY)](https://OTexts.com/fpppy/). In this latest edition of the FPP book, George Athanasopoulos and I are joined by four additional co-authors: Azul Garza, Cristian Challu, Max Mergenthaler and Kin Olivares. [Our new co-authors](https://otexts.com/fpppy/authors.html) are Python and forecasting experts, and have all been involved in developing the open-source [Nixtla software](https://github.com/Nixtla/) that is used throughout the book.
+
+Since the online edition was launched, we have made numerous small updates and improvements to the book, ironing out errors, improving the presentation, and simplifying the Python code where possible. Now it is [available in print](https://otexts.com/fpppy/print-version.html) as well!
+
+The first 13 chapters of the Python edition closely follow the corresponding [R fpp3 edition](https://otexts.com/fpp3/), but with code examples in Python rather than R. We have also included two new chapters: [Neural networks](https://otexts.com/fpppy/14-neural-networks.html) and [Foundation forecasting models](https://otexts.com/fpppy/15-foundation-models.html), which are dedicated to recent techniques and developments in neural networks applied to forecasting.
+
+As with previous editions, all code and examples are fully reproducible, and exercises are provided for teaching or self-study. The [online edition](https://otexts.com/fpppy/) will remain free, and will be updated as needed. The [print edition](https://otexts.com/fpppy/print-version.html) is available for purchase, and we hope it will be a useful resource for students, practitioners, and anyone interested in learning about forecasting with Python.
