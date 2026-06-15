@@ -1,24 +1,23 @@
 /* =Typography
 -----------------------------------------------------------------------------*/
 :root {
-  --bs-font-sans-serif: 'Fira Sans', sans-serif;
+  --bs-font-sans-serif: "Fira Sans", sans-serif;
 }
 
-
 body {
-  font-family: 'Merriweather', Georgia, Serif;
+  font-family: "Merriweather", Georgia, Serif;
   line-height: 1.5em;
   background-color: #faf8f8;
 }
 
 pre > code {
-  font-family: 'Hack', monospace;
+  font-family: "Hack", monospace;
 }
 
 form,
 input[type="search"],
 select[multiple="multiple"] {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 h1,
@@ -26,19 +25,19 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   color: #36454f;
   font-weight: bold;
 }
 
 h1 {
-  font-size: 1.6em;
+  font-size: 1.6rem;
   padding-bottom: 1em;
   line-height: 1.6em;
 }
 
 h2 {
-  font-size: 1.4em;
+  font-size: 1.4rem;
   border-bottom: 1px solid #b3cde0;
 }
 
@@ -47,11 +46,11 @@ h2 a {
 }
 
 h3 {
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 h6 {
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 a {
@@ -102,7 +101,7 @@ th {
 table th,
 table td {
   border-bottom: 0px !important;
-  padding: 0.2em .2em;
+  padding: 0.2em 0.2em;
 }
 
 ul {
@@ -123,12 +122,12 @@ var,
 output {
   font-size: 90%;
   font-style: normal;
-  font-family: 'Hack', monospace;
+  font-family: "Hack", monospace;
 }
 
 nav,
 .footer {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 100%;
 }
 
@@ -152,21 +151,21 @@ a.badge.badge-green {
 }
 
 .badge-large {
-  font-size: 18px !important;
+  font-size: 1.125rem !important;
   text-transform: none !important;
   padding: 5px 5px 3px 5px;
   text-transform: none;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .badge {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .label,
 .badge {
   background: #e0e3e5;
-  font-size: 12.75px;
+  font-size: 0.8rem;
   display: inline-block;
   line-height: 1;
   padding: 4px 7px 3px 7px;
@@ -184,11 +183,11 @@ a.badge.badge-green {
 
 .badge {
   border-radius: 15px;
-  opacity: .75;
+  opacity: 0.75;
 }
 
 .badge-small {
-  font-size: 11.25px;
+  font-size: 0.7rem;
   padding: 5px 5px 3px 5px;
 }
 
@@ -214,12 +213,12 @@ a.badge.badge-green {
 
 .label-blue,
 .badge-blue {
-  background: #4673B8;
+  background: #4673b8;
 }
 
 .label-red,
 .badge-red {
-  background: #BD666D;
+  background: #bd666d;
 }
 
 .label-green,
@@ -252,7 +251,7 @@ a.badge.badge-green {
 }
 
 .quarto-title-meta {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   background-color: #ddd;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -290,8 +289,8 @@ a.badge.badge-green {
   color: var(--darkgray);
   background-color: var(--lightgray);
   padding-left: 20px;
-  font-size: 12pt;
-  font-family: 'Fira Sans', sans-serif;
+  font-size: 1rem;
+  font-family: "Fira Sans", sans-serif;
 }
 
 div.quarto-about-trestles .about-entity .about-link:hover {
@@ -304,7 +303,7 @@ div.quarto-about-trestles .about-entity .about-link:hover {
 .listing-category:hover {
   background-color: #536878;
   color: #ebebeb !important;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .badge-grey:hover a {
@@ -324,14 +323,14 @@ div.quarto-about-trestles .about-entity .about-link:hover {
 }
 
 #quarto-margin-sidebar .category-default {
-  font-size: 10pt;
+  font-size: 0.833rem;
 }
 
 #quarto-margin-sidebar .category:hover {
   color: #0d6efd;
 }
 
-.sidebar nav[role=doc-toc] > ul a:hover {
+.sidebar nav[role="doc-toc"] > ul a:hover {
   color: #0d6efd;
 }
 
@@ -345,7 +344,7 @@ div.quarto-about-trestles .about-entity .about-link:hover {
 }
 
 div.quarto-post .metadata {
-  font-size: .9em;
+  font-size: 0.9rem;
 }
 
 div.quarto-post .listing-categories .listing-category {
@@ -353,7 +352,7 @@ div.quarto-post .listing-categories .listing-category {
   color: #536878;
   text-align: center;
   border-radius: 15px;
-  font-size: 11.25px;
+  font-size: 0.6875rem;
   padding: 1px 5px 0 5px;
   border: none;
   margin-left: -5px;
@@ -363,14 +362,15 @@ div.quarto-post .listing-categories .listing-category {
 div.quarto-post .listing-categories:hover .listing-category:hover {
   background-color: #536878;
   color: #faf8f8 !important;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 #mlb2-4240669.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody,
-#mlb2-4240669.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
+#mlb2-4240669.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody {
   padding: 0px !important;
 }
-
 
 .imgrow {
   display: flex;
