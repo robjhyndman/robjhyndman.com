@@ -1,0 +1,20 @@
+---
+title: "Women in Forecasting"
+date: 2026-06-15
+categories:
+  - forecasting
+image: "/img/wif2026.jpg"
+description: 'The second edition of the Women in Forecasting (WIF) Conference is taking place on 27 June, right before the International Symposium on Forecasting in Montreal Canada.'
+---
+
+[Women in Forecasting](https://wif.nixtla.io/) was created to showcase the important contributions women are making to time series forecasting, a field where women remain underrepresented. Beyond the talks, the conference is also an opportunity to build community, foster professional connections, and support mentorship for those entering the field and those advancing in their careers.
+
+I'm delighted to see four of my own former PhD students are [invited speakers](https://wif.nixtla.io/#speakers) at the conference, along with Mariana Menchero who was a great help to me in solving numerous technical issues related to the [Python edition of FPP](https://OTexts.com/fpppy). 
+
+**Date:** Saturday, June 27
+
+**Venue:** Université du Québec à Montréal (The same venue as ISF 2026)
+
+Registration is required for both the in-person venue and on the Zoom.
+
+Register for the WIF Conference: <https://wif.nixtla.io/>
