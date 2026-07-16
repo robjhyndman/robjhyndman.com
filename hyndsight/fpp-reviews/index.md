@@ -4,21 +4,21 @@ link: https://robjhyndman.com/hyndsight/fpp-reviews/
 slug: fpp-reviews
 title: Feeling the FPP love
 categories:
-- forecasting
-- fpp
-- otexts
-- R
+  - forecasting
+  - fpp
+  - otexts
+  - R
 ---
 
 It is now exactly 12 months since the print version of my [forecasting textbook](http://www.otexts.org/fpp) with George Athanasopoulos was [released on Amazon.com](https://robjhyndman.com/hyndsight/fpp-amazon/). Although the book is freely available online, it seems that a lot of people still like to buy print books.<!-- more -->
 
-It's nice to see that it has been getting some good reviews. It is rated 4.6 stars on [Amazon.com](http://www.amazon.com/dp/0987507109/&tag=otexts-20) with 6 out of 8 reviewers giving it 5 stars (the 3 reviewers on [Amazon.co.uk](http://www.amazon.co.uk/dp/0987507109/?tag=otexts-21) all gave it 5 stars).
+It's nice to see that it has been getting some good reviews. It is rated 4.6 stars on [Amazon.com](http://www.amazon.com/dp/0987507109?tag=otexts-20) with 6 out of 8 reviewers giving it 5 stars (the 3 reviewers on [Amazon.co.uk](http://www.amazon.co.uk/dp/0987507109?tag=otexts-21) all gave it 5 stars).
 
 My favourite Amazon review is [this one](http://www.amazon.com/review/R2VCA02N0CVQ6M/ref=cm_cr_dp_title?ie=UTF8&ASIN=0987507109&channel=detail-glance&nodeID=283155&store=books&tag=otexts-20):
 
->The book is well written and up to date -- the online edition is likely to continue to be updated frequently. Hyndman is an inspiration. His blog is very interesting if you are a statistician, and written in a very clear style. His research group is the author of the R forecast package used in this book. He and his collaborators have made great strides in systematizing smoothing methods. You are not only reading a clear introductory textbook, you are reading one that's up to date with modern forecasting practice (excluding the more exotic data mining methods, which clearly go beyond introductory texts). (I'm sure George Athanasopoulos has many fine qualities, but I'm less familiar with him.)
+> The book is well written and up to date -- the online edition is likely to continue to be updated frequently. Hyndman is an inspiration. His blog is very interesting if you are a statistician, and written in a very clear style. His research group is the author of the R forecast package used in this book. He and his collaborators have made great strides in systematizing smoothing methods. You are not only reading a clear introductory textbook, you are reading one that's up to date with modern forecasting practice (excluding the more exotic data mining methods, which clearly go beyond introductory texts). (I'm sure George Athanasopoulos has many fine qualities, but I'm less familiar with him.)
 
->This book is ideal for self-study because the associated website has the answers to the exercises.
+> This book is ideal for self-study because the associated website has the answers to the exercises.
 
 Isn't he nice? Yes, George is a great guy!
 
@@ -26,7 +26,7 @@ However, the review is not entirely accurate. The website does not contain answe
 
 The only bad review (3 stars) was this one:
 
->Online version much better than printed version.
+> Online version much better than printed version.
 
 Seriously? The only difference between the online and print versions is that a small number of typos have been corrected in the online version.
 

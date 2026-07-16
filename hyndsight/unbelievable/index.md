@@ -3,8 +3,8 @@ date: 2015-09-15 23:36:36+00:00
 slug: unbelievable
 title: Unbelievable
 categories:
-- evidence
-- religion
+  - evidence
+  - religion
 ---
 
 This is a very different book from my usual areas of forecasting and statistics. It is a personal memoir describing my journey of deconversion from Christianity.
@@ -19,7 +19,7 @@ Until a few years ago, I was regularly speaking at church conferences internatio
 
 The whole book is freely [available online](/unbelievable/). But if you prefer a print or offline version, you can buy a copy via one of the links below.
 
-**[Buy a print copy via Amazon](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F1517363195/)**
+**[Buy a print copy via Amazon](https://amazon.com/dp/1517363195?tag=otexts-20/)**
 
 **[Buy an e-copy via Google books](https://books.google.com/books?id=MrqMCgAAQBAJ)**
 

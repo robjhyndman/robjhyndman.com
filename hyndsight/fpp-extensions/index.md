@@ -21,4 +21,4 @@ The simplest approach here is to use the install the [OpenDyslexic Font](https:/
 
 The only issue is that the equations are not rendered properly by default. But these can be fixed. First, right click on an equation and choose `Math Settings/Math Renderer/HTML-CSS`. Then right click again and choose `Math Settings/Scale all math/50%`. You only need to do these steps once.
 
-By the way, a print version of the third edition is [now available](http://geni.us/fpp3).
+By the way, a print version of the third edition is [now available](https://otexts.com/fpp3/buy-a-print-version.html).

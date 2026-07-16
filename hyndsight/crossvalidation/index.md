@@ -4,9 +4,9 @@ link: https://robjhyndman.com/hyndsight/crossvalidation/
 slug: crossvalidation
 title: Why every statistician should know about cross-validation
 categories:
-- forecasting
-- StackExchange
-- statistics
+  - forecasting
+  - StackExchange
+  - statistics
 ---
 
 Surprisingly, many statisticians see cross-validation as something data miners do, but not a core statistical technique. I thought it might be helpful to summarize the role of cross-validation in statistics, especially as it is proposed that the Q&A site at [stats.stackexchange.com](http://stats.stackexchange.com) should be renamed CrossValidated.com.
@@ -17,9 +17,9 @@ One way to measure the predictive ability of a model is to test it on a set of d
 
 However, there is often not enough data to allow some of it to be kept back for testing. A more sophisticated version of training/​test sets is **leave-one-out cross-​​validation** (LOOCV) in which the accuracy measures are obtained as follows. Suppose there are $n$ independent observations, $y_1,\dots,y_n$.
 
-  1. Let observation $i$ form the test set, and fit the model using the remaining data. Then compute the error $(e_{i}^*=y_{i}-\hat{y}_{i})$ for the omitted observation. This is sometimes called a "predicted residual" to distinguish it from an ordinary residual.
-  2. Repeat step 1 for $i=1,\dots,n$.
-  3. Compute the MSE from $e_{1}^*,\dots,e_{n}^*$. We shall call this the CV.
+1. Let observation $i$ form the test set, and fit the model using the remaining data. Then compute the error $(e_{i}^*=y_{i}-\hat{y}_{i})$ for the omitted observation. This is sometimes called a "predicted residual" to distinguish it from an ordinary residual.
+2. Repeat step 1 for $i=1,\dots,n$.
+3. Compute the MSE from $e_{1}^*,\dots,e_{n}^*$. We shall call this the CV.
 
 This is a much more efficient use of the available data, as you only omit one observation at each step. However, it can be very time consuming to implement (except for linear models --- see below).
 
@@ -41,23 +41,23 @@ In a famous paper, [Shao (1993)](http://www.jstor.org/stable/2290328) showed tha
 
 While cross-validation can be computationally expensive in general, it is very easy and fast to compute LOOCV for linear models. A linear model can be written as
 $$
-\mathbf{Y} = \mathbf{X}\boldsymbol{\beta} + \mathbf{e}.
+  \mathbf{Y} = \mathbf{X}\boldsymbol{\beta} + \mathbf{e}.
 $$
 Then
 $$
-\hat{\boldsymbol{\beta}} = (\mathbf{X}'\mathbf{X})^{-1}\mathbf{X}'\mathbf{Y}
+  \hat{\boldsymbol{\beta}} = (\mathbf{X}'\mathbf{X})^{-1}\mathbf{X}'\mathbf{Y}
 $$
 and the fitted values can be calculated using
 $$
-\mathbf{\hat{Y}} = \mathbf{X}\hat{\boldsymbol{\beta}} = \mathbf{X}(\mathbf{X}'\mathbf{X})^{-1}\mathbf{X}'\mathbf{Y} = \mathbf{H}\mathbf{Y},
+  \mathbf{\hat{Y}} = \mathbf{X}\hat{\boldsymbol{\beta}} = \mathbf{X}(\mathbf{X}'\mathbf{X})^{-1}\mathbf{X}'\mathbf{Y} = \mathbf{H}\mathbf{Y},
 $$
 where $\mathbf{H} = \mathbf{X}(\mathbf{X}'\mathbf{X})^{-1}\mathbf{X}'$ is known as the "hat-matrix" because it is used to compute $\mathbf{\hat{Y}}$ ("Y-hat").
 
 If the diagonal values of $\mathbf{H}$ are denoted by $h_{1},\dots,h_{n}$, then the cross-validation statistic can be computed using
 $$
-\text{CV} = \frac{1}{n}\sum_{i=1}^n [e_{i}/(1-h_{i})]^2,
+  \text{CV} = \frac{1}{n}\sum_{i=1}^n [e_{i}/(1-h_{i})]^2,
 $$
-where $e_{i}$ is the residual obtained from fitting the model to all $n$ observations. See Christensen's book [Plane Answers to Complex Questions](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0387953612) for a proof. Thus, it is not necessary to actually fit $n$ separate models when computing the CV statistic for linear models. This remarkable result allows cross-validation to be used while only fitting the model once to all available observations.
+where $e_{i}$ is the residual obtained from fitting the model to all $n$ observations. See Christensen's book [Plane Answers to Complex Questions](https://amazon.com/dp/0387953612?tag=otexts-20) for a proof. Thus, it is not necessary to actually fit $n$ separate models when computing the CV statistic for linear models. This remarkable result allows cross-validation to be used while only fitting the model once to all available observations.
 
 ### Relationships with other quantities
 
@@ -71,7 +71,7 @@ A jackknife estimator is obtained by recomputing an estimate leaving out one obs
 
 Akaike's Information Criterion is defined as
 $$
-\text{AIC} = -2\log {\cal L}+ 2p,
+  \text{AIC} = -2\log {\cal L}+ 2p,
 $$
 where ${\cal L}$ is the maximized likelihood using all available data for estimation and $p$ is the number of free parameters in the model. Asymptotically, minimizing the AIC is equivalent to minimizing the CV value. This is true for any model [(Stone 1977)](http://www.jstor.org/stable/2984877), not just linear models. It is this property that makes the AIC so useful in model selection when the purpose is prediction.
 
@@ -79,7 +79,7 @@ where ${\cal L}$ is the maximized likelihood using all available data for estima
 
 A related measure is Schwarz's Bayesian Information Criterion:
 $$
-\text{BIC} = -2\log {\cal L}+ p\log(n),
+  \text{BIC} = -2\log {\cal L}+ p\log(n),
 $$
 where $n$ is the number of observations used for estimation. Because of the heavier penalty, the model chosen by BIC is either the same as that chosen by AIC, or one with fewer terms. Asymptotically, for linear models minimizing BIC is equivalent to leave-$v$-out cross-validation when $v = n[1-1/(\log(n)-1)]$ [(Shao 1997)](http://www3.stat.sinica.edu.tw/statistica/oldpdf/A7n21.pdf).
 
@@ -89,10 +89,9 @@ Many statisticians like to use BIC because it is consistent --- if there is a tr
 
 When the data are not independent cross-validation becomes more difficult as leaving out an observation does not remove all the associated information due to the correlations with other observations. For time series forecasting, a cross-validation statistic is obtained as follows
 
-  1. Fit the model to the data $y_1,\dots,y_t$ and let $\hat{y}_{t+1}$ denote the forecast of the next observation. Then compute the error $(e_{t+1}^*=y_{t+1}-\hat{y}_{t+1})$ for the forecast observation.
-  2. Repeat step 1 for $t=m,\dots,n-1$ where $m$ is the minimum number of observations needed for fitting the model.
-  3. Compute the MSE from $e_{m+1}^*,\dots,e_{n}^*$.
-
+1. Fit the model to the data $y_1,\dots,y_t$ and let $\hat{y}_{t+1}$ denote the forecast of the next observation. Then compute the error $(e_{t+1}^*=y_{t+1}-\hat{y}_{t+1})$ for the forecast observation.
+2. Repeat step 1 for $t=m,\dots,n-1$ where $m$ is the minimum number of observations needed for fitting the model.
+3. Compute the MSE from $e_{m+1}^*,\dots,e_{n}^*$.
 
 ### References
 

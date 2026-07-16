@@ -4,14 +4,14 @@ link: https://robjhyndman.com/hyndsight/tests2/
 slug: tests2
 title: Statistical tests for variable selection
 categories:
-- forecasting
-- R
-- statistics
+  - forecasting
+  - R
+  - statistics
 ---
 
 I received an email today with the following comment:
 
->I’m using ARIMA with Intervention detection and was planning to use your package to identify my initial ARIMA model for later iteration, however I found that sometimes the auto.arima function returns a model where AR/MA coefficients are not significant. So my question is: Is there a way to filter the search for ARIMA models that only have significant coefficients. I can remove the non-significant coefficients but I think it would be better to search for those models that only have significant coefficients.
+> I'm using ARIMA with Intervention detection and was planning to use your package to identify my initial ARIMA model for later iteration, however I found that sometimes the auto.arima function returns a model where AR/MA coefficients are not significant. So my question is: Is there a way to filter the search for ARIMA models that only have significant coefficients. I can remove the non-significant coefficients but I think it would be better to search for those models that only have significant coefficients.
 
 Statistical significance is not usually a good basis for determining whether a variable should be included in a model, despite the fact that many people who should know better use them for exactly this purpose.  Even some textbooks discuss variable selection using statistical tests, thus perpetuating bad statistical practice.
 
@@ -21,6 +21,6 @@ To see why the first situation occurs, think about two highly correlated predict
 
 The second situation occurs, for example, when a predictor has high variability and a small coefficient. When the sample size is large enough, the estimated coefficient may be statistically significant. But for forecasting purposes, including the predictor increases the variance of the forecast without contributing much additional information.
 
-See Harrell's book _[Regression Modelling Strategies](http://buy.geni.us/Proxy.ashx?TSID=140570\&GR_URL=http%3A%2F%2Fwww.amazon.com%2Fdp%2F0387952322)_ for further discussion on the misuse of statistical tests for variable selection.
+See Harrell's book *[Regression Modelling Strategies](https://amazon.com/dp/0387952322?tag=otexts-20)* for further discussion on the misuse of statistical tests for variable selection.
 
 A much more reliable guide to selecting terms in any model, including ARIMA models, is to use [cross-validation or an approximation to it such as the AIC](/hyndsight/crossvalidation/). The `auto.arima()` function from the [forecast package](http://github.com/robjhyndman/forecast/) in R uses the AIC by default and usually chooses a reasonably good model for forecasting. If users wish to experiment with other models, use the AIC for comparison not significance tests of the coefficients.
