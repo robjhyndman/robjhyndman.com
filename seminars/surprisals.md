@@ -2,7 +2,7 @@
 date: 2025-10-28
 title: "Anomaly detection using surprisals"
 venue: Various
-bibliography: surprisals.bib
+bibliography: [surprisals.bib, weird.bib]
 aliases:
     - /toptime2025
     - /abudhabi2025
