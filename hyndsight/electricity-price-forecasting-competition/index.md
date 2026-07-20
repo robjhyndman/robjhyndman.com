@@ -4,13 +4,13 @@ link: https://robjhyndman.com/hyndsight/electricity-price-forecasting-competitio
 slug: electricity-price-forecasting-competition
 title: Electricity price forecasting competition
 categories:
-- conferences
-- data science
-- energy
-- forecasting
+  - conferences
+  - data science
+  - energy
+  - forecasting
 ---
 
-The [GEFCom competitions](http://gefcom.org) have been a great success in generating good research on forecasting methods for electricity demand, and in enabling a comprehensive comparative evaluation of various methods. But they have only considered price forecasting in a simplified setting. So I'm happy to see this challenge is being taken up as part of the [European Energy Market Conference](http://www.eem2016.com) for 2016, to be held from 6-9 June at the University of Porto in Portugal.<!-- more -->
+The [GEFCom competitions](https://web.archive.org/web/20220119012907/http://www.drhongtao.com/gefcom) have been a great success in generating good research on forecasting methods for electricity demand, and in enabling a comprehensive comparative evaluation of various methods. But they have only considered price forecasting in a simplified setting. So I'm happy to see this challenge is being taken up as part of the [European Energy Market Conference](http://www.eem2016.com) for 2016, to be held from 6-9 June at the University of Porto in Portugal.<!-- more -->
 
 The objective is to providing a dynamic and realistic gaming context, to involve the scientific, academic and industry community in order to address a real price forecast problem. The challenge will be to forecast the hourly spot price of the Iberian Electricity Market, MIBEL, on a daily rolling basis, for the 24 hours of the 5 days ahead. Over 14 days of competition, from 4th to 17th of April 2016, until 10.00 UTC, competitors must submit the forecast for the 5 days ahead. Historical hourly data will be provided for 2015. The winner will receive 1000 € and the 3 highest ranked forecasters will have free access to the EEM2016 Conference.
 

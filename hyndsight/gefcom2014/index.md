@@ -4,29 +4,29 @@ link: https://robjhyndman.com/hyndsight/gefcom2014/
 slug: gefcom2014
 title: Global energy forecasting competitions
 categories:
-- energy
-- forecasting
-- IJF
-- kaggle
-- R
-- hts
+  - energy
+  - forecasting
+  - IJF
+  - kaggle
+  - R
+  - hts
 ---
 
 The [2012 GEFcom competition](http://www.drhongtao.com/gefcom/2012) was a great success with several new innovative forecasting methods introduced. These have been published in the IJF as follows:
 
-  * [**Hong, Pinson and Fan**. Global Energy Forecasting Competition 2012](http://dx.doi.org/10.1016/j.ijforecast.2013.07.001)
-  * [**Charleton and Singleton**. A refined parametric model for short term load forecasting](http://dx.doi.org/10.1016/j.ijforecast.2013.07.003)
-  * [**Lloyd**. GEFCom2012 hierarchical load forecasting: Gradient boosting machines and Gaussian processes](http://dx.doi.org/10.1016/j.ijforecast.2013.07.002)
-  * [**Nedelec, Cugliari and Goude**: GEFCom2012: Electric load forecasting and backcasting with semi-parametric models](http://dx.doi.org/10.1016/j.ijforecast.2013.07.004)
-  * [**Ben Taieb and Hyndman**. A gradient boosting approach to the Kaggle load forecasting competition](http://dx.doi.org/10.1016/j.ijforecast.2013.07.005)
-  * [**Silva**: A feature engineering approach to wind power forecasting: GEFCom 2012](http://dx.doi.org/10.1016/j.ijforecast.2013.07.007)
-  * [**Mangalova and Agafonov**: Wind power forecasting using the k-nearest neighbors algorithm](http://dx.doi.org/10.1016/j.ijforecast.2013.07.008)
+- [**Hong, Pinson and Fan**. Global Energy Forecasting Competition 2012](http://dx.doi.org/10.1016/j.ijforecast.2013.07.001)
+- [**Charleton and Singleton**. A refined parametric model for short term load forecasting](http://dx.doi.org/10.1016/j.ijforecast.2013.07.003)
+- [**Lloyd**. GEFCom2012 hierarchical load forecasting: Gradient boosting machines and Gaussian processes](http://dx.doi.org/10.1016/j.ijforecast.2013.07.002)
+- [**Nedelec, Cugliari and Goude**: GEFCom2012: Electric load forecasting and backcasting with semi-parametric models](http://dx.doi.org/10.1016/j.ijforecast.2013.07.004)
+- [**Ben Taieb and Hyndman**. A gradient boosting approach to the Kaggle load forecasting competition](http://dx.doi.org/10.1016/j.ijforecast.2013.07.005)
+- [**Silva**: A feature engineering approach to wind power forecasting: GEFCom 2012](http://dx.doi.org/10.1016/j.ijforecast.2013.07.007)
+- [**Mangalova and Agafonov**: Wind power forecasting using the k-nearest neighbors algorithm](http://dx.doi.org/10.1016/j.ijforecast.2013.07.008)
 
 These papers will appear in print in the next issue of the journal. The data and code for each method is also available.
 
 ### GEFCom 2014
 
-The [2014 edition of the competition](http://www.gefcom.org/) is now under way with a probabilistic focus. The great thing about these competitions and the associated papers is that they provide a serious empirical comparison of the forecast capability of different algorithms. There are lots of suggested approaches to forecasting energy, but without head-to-head comparisons like this, it is not always clear what is a good method, and what methods can be discarded.
+The [2014 edition of the competition](https://web.archive.org/web/20220119012907/http://www.drhongtao.com/gefcom) is now under way with a probabilistic focus. The great thing about these competitions and the associated papers is that they provide a serious empirical comparison of the forecast capability of different algorithms. There are lots of suggested approaches to forecasting energy, but without head-to-head comparisons like this, it is not always clear what is a good method, and what methods can be discarded.
 
 The developers of the best performing methods in the competition will be invited to submit a paper to a [special issue of the IJF on probabilistic energy forecasting](/hyndsight/probabilistic-energy-forecasting/), to be edited by Tao Hong and Pierre Pinson.
 
@@ -51,4 +51,4 @@ To evaluate the full predictive densities, this score is then averaged over all 
 
 ### Further information
 
-For more information about the competition and how to enter, please visit [www.gefcom.org](http://www.gefcom.org/).
+For more information about the competition and how to enter, please visit [www.gefcom.org](https://web.archive.org/web/20220119012907/http://www.drhongtao.com/gefcom).

@@ -4,10 +4,10 @@ link: https://robjhyndman.com/hyndsight/gepbox/
 slug: gepbox
 title: George E P Box (1919-2013)
 categories:
-- consulting
-- forecasting
-- obituary
-- statistics
+  - consulting
+  - forecasting
+  - obituary
+  - statistics
 ---
 
 Last Thursday (28 March 2013), George Box passed away at the age of 93. He was one of the great statisticians of the last 100 years, and leaves an astonishingly diverse legacy.
@@ -20,9 +20,9 @@ I only met Box once, at a conference about 10 or 12 years ago, when he was in hi
 
 Box was son-in-law to RA Fisher --- he married Joan Fisher, the second of RA Fisher's five daughters. Thus, he was a link back to the foundations of modern statistics.
 
-There is an interesting [interview with George Box](/files/Boxinterview.pdf), conducted by Daniel Peña, that was published in the _International Journal of Forecasting_ in 2001. I have attached it [here](/files/Boxinterview.pdf) for those who do not have access to IJF papers. In addition, several people have written reminiscences of Box in the last few days. Here are two that I enjoyed:
+There is an interesting [interview with George Box](/files/Boxinterview.pdf), conducted by Daniel Peña, that was published in the *International Journal of Forecasting* in 2001. I have attached it [here](/files/Boxinterview.pdf) for those who do not have access to IJF papers. In addition, several people have written reminiscences of Box in the last few days. Here are two that I enjoyed:
 
-  * [Bradley Jones](http://blogs.sas.com/content/jmp/2013/03/29/george-box-a-remembrance/)
-  * [John Hunter](http://management.curiouscatblog.net/2013/03/28/george-box/)
+- [Bradley Jones](https://web.archive.org/web/20151127154628/http://blogs.sas.com/content/jmp/2013/03/29/george-box-a-remembrance/)
+- [John Hunter](http://management.curiouscatblog.net/2013/03/28/george-box/)
 
 Box's extraordinary legacy continues through his [many published papers and books](http://scholar.google.com/scholar?q=author%3A%22gep+box%22), and through his students and their intellectual descendants, some of whom are [listed on the mathematical genealogy](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=42226).
