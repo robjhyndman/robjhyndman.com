@@ -1,15 +1,27 @@
 ---
-author:  D Vicendese, L Te Marvelde, PD McNair, K Whitfield, DR English, S Ben Taieb, RJ Hyndman, R Thomas
+author: D Vicendese, L Te Marvelde, PD McNair, K Whitfield, DR English, S Ben Taieb, RJ Hyndman, R Thomas
 Status: Published
 date: 2019-12-08
 slug: colorectal
-details: "<em>Statistics and Data Science</em>, RSSDS 2019 (ed. Nguyen H). Communications in Computer and Information Science <b>1150</b>, pp 162-182. Springer, Singapore"
+details: >-
+  <em>Statistics and Data Science</em>, RSSDS 2019 (ed.
+  Nguyen H).
+  Communications in Computer and Information Science <b>1150</b>, pp 162-182.
+  Springer, Singapore
 title: Predicting the whole distribution with methods for depth data analysis demonstrated on a colorectal cancer treatment study
-categories: Book chapters
+categories: Conference proceedings
 tags:
-- applied statistics
+  - applied statistics
 doi: 10.1007/978-981-15-1960-4_12
 file: colorectal.pdf
 ---
 
-We demonstrate the utility of predicting the whole distribution of an outcome rather than a marginal change. We overcome inconsistent data modelling techniques in a real world problem. A model based on additive quantile regression and boosting was used to predict the whole distribution of length of hospital stay (LOS) following colorectal cancer surgery. The model also assessed the association of hospital and patient characteristics over the whole distribution of LOS. The model recovered the empirical LOS distribution. A counterfactual simulation quantified change in LOS over the whole distribution if an important associated predictor were to be varied. The model showed that important hospital and patient characteristics were differentially associated across the distribution of LOS. Model insights were much richer than just focusing on a marginal change. This method is novel for public health and epidemiological studies and could be applied in other fields of research.
+We demonstrate the utility of predicting the whole distribution of an outcome rather than a marginal change.
+We overcome inconsistent data modelling techniques in a real world problem.
+A model based on additive quantile regression and boosting was used to predict the whole distribution of length of hospital stay (LOS) following colorectal cancer surgery.
+The model also assessed the association of hospital and patient characteristics over the whole distribution of LOS.
+The model recovered the empirical LOS distribution.
+A counterfactual simulation quantified change in LOS over the whole distribution if an important associated predictor were to be varied.
+The model showed that important hospital and patient characteristics were differentially associated across the distribution of LOS.
+Model insights were much richer than just focusing on a marginal change.
+This method is novel for public health and epidemiological studies and could be applied in other fields of research.
