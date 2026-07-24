@@ -1,20 +1,17 @@
 ---
-date: TBD
+date: 2026-10-27
 title: "Surprises in time series analysis"
-venue: TBD
-bibliography:
-  book: weird.bib
-  papers: surprisals.bib
-filters:
-  - multibib
-citeproc: false
+venue: University of Connecticut, USA
+bibliography: [weird.bib, surprisals.bib]
 validate-yaml: false
 nocite: |
-   - @lookout
-   - @lookout2
    - @surprisalevt
    - @weird
 ---
+
+Part of [Time Series Connect webinar series](https://yaozheng-stat.github.io/time-series-connect/)
+
+Monday 26 October 2026, 6:00 PM Eastern Time
 
 ## Abstract
 
@@ -28,7 +25,4 @@ The methods will be illustrated using the [{weird}](https://pkg.robjhyndman.com/
 
 [![](https://pkg.robjhyndman.com/weird/reference/figures/weird-hex.png){width=130px fig-alt="weird package hex logo"}](https://pkg.robjhyndman.com/weird/)
 
-## Book
-
-::: {#refs-book}
-:::
+## References
