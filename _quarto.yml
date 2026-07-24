@@ -5,6 +5,7 @@ project:
     - "*.md"
     - "!/unbelievable/"
     - "!/prato2023/"
+    - "!/seminars/ts_surprises.md"
 
 website:
   title: "Rob J Hyndman"
