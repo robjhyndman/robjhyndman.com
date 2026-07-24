@@ -1,5 +1,5 @@
 ---
-date: 2026-10-27
+date: 2026-10-26
 title: "Surprises in time series analysis"
 venue: University of Connecticut, USA
 bibliography: [weird.bib, surprisals.bib]
