@@ -10,6 +10,8 @@ categories:
   - statistics
 ---
 
-I recently co-authored [a chapter on "Prospective Life Tables"](/publications/prospective-life-tables/) for this book, edited by [Arthur Charpentier](http://perso.univ-rennes1.fr/arthur.charpentier/). R code to reproduce the figures and to complete the exercises for our chapter is [available](https://robjhyndman.com/publications/prospective-life-tables/). The book can be [purchased on Amazon](https://amazon.com/dp/1466592591?tag=otexts-20).
+I recently co-authored [a chapter on "Prospective Life Tables"](/publications/prospective-life-tables/) for this book, edited by [Arthur Charpentier](https://freakonometrics.github.io/).
+R code to reproduce the figures and to complete the exercises for our chapter is [available](https://robjhyndman.com/publications/prospective-life-tables/).
+The book can be [purchased on Amazon](https://amazon.com/dp/1466592591?tag=otexts-20).
 
 [![](/files/41JYoNQh2HL._SY300_.jpg)](https://www.amazon.com/dp/1466592591?tag=otexts-20)

@@ -4,50 +4,48 @@ link: https://robjhyndman.com/hyndsight/blogs-about-research/
 slug: blogs-about-research
 title: Blogs about research
 categories:
-- journals
-- organization
-- productivity
-- progress
-- references
-- research team
-- statistics
-- supervision
+  - journals
+  - organization
+  - productivity
+  - progress
+  - references
+  - research team
+  - statistics
+  - supervision
 ---
 
-If you find this blog helpful (or even if you don't but you're interested in blogs on research issues and tools), there are a few other blogs about doing research that you might find useful. Here are a few that I read.
+If you find this blog helpful (or even if you don't but you're interested in blogs on research issues and tools), there are a few other blogs about doing research that you might find useful.
+Here are a few that I read.
 
+- [Patter](http://patthomson.wordpress.com/) -- Pat Thomson.
 
+- [The Thesis Whisperer](http://thesiswhisperer.com/) -- Inger Mewburn.
 
-  * [Patter](http://patthomson.wordpress.com/) -- Pat Thomson.
+- [The Research Whisperer](http://theresearchwhisperer.wordpress.com/) -- several RMIT researchers.
 
-  * [The Thesis Whisperer](http://thesiswhisperer.com/) -- Inger Mewburn.
+- [the (research) supervisor's friend](http://supervisorsfriend.wordpress.com/) -- Geof Hill.
 
-  * [The Research Whisperer](http://theresearchwhisperer.wordpress.com/) -- several RMIT researchers.
+- [My Research Rants](https://web.archive.org/web/20121128144521/http://myresearchrants.wordpress.com/) -- Jordi Cabot.
 
-  * [the (research) supervisor's friend](http://supervisorsfriend.wordpress.com/) -- Geof Hill.
+- [profserious](http://blog.prof.so/) -- Anthony Finkelstein.
 
-  * [My Research Rants](http://myresearchrants.wordpress.com/) -- Jordi Cabot.
+- [Academic Life](http://marialuisaaliotta.wordpress.com/) -- Marialuisa Aliotta.
 
-  * [The Three Month Thesis](http://jameshaytonphd.com/everything/) -- James Hayton.
+- [Help for New Professors](http://help4newprofs.wordpress.com/) -- Faye Hicks.
 
-  * [profserious](http://blog.prof.so/) -- Anthony Finkelstein.
+- [The Art of Scientific Writing](http://thesistips.wordpress.com/) -- Faye Hicks.
 
-  * [Academic Life](http://marialuisaaliotta.wordpress.com/) -- Marialuisa Aliotta.
+- [Explorations of style](http://explorationsofstyle.wordpress.com/)-- Rachael Cayley.
 
-  * [Help for New Professors](http://help4newprofs.wordpress.com/) -- Faye Hicks.
+- [sharmanedit](http://sharmanedit.wordpress.com/) -- Anna Sharman.
 
-  * [The Art of Scientific Writing](http://thesistips.wordpress.com/) -- Faye Hicks.
+- [GradHacker](http://www.gradhacker.org/) -- writers from several universities.
 
-  * [Explorations of style](http://explorationsofstyle.wordpress.com/)-- Rachael Cayley.
+- [PhD Life](http://blogs.warwick.ac.uk/researchexchange/) -- Warwick Uni students.
 
-  * [sharmanedit](http://sharmanedit.wordpress.com/) -- Anna Sharman.
-
-  * [GradHacker](http://www.gradhacker.org/) -- writers from several universities.
-
-  * [PhD Life](http://blogs.warwick.ac.uk/researchexchange/) -- Warwick Uni students.
-
-  * [PhD Comics](http://www.phdcomics.com/comics.php) -- essential reading for every PhD student, and good therapy.
+- [PhD Comics](http://www.phdcomics.com/comics.php) -- essential reading for every PhD student, and good therapy.
 
 I've created [a bundle](http://www.google.com/reader/bundle/user%2F15350839325370906198%2Fbundle%2Fresearch) so you can [subscribe to all of these in one go](http://www.google.com/reader/bundle/user%2F15350839325370906198%2Fbundle%2Fresearch).
 
-Of course, there are [lots of statistics blogs](http://academicblogs.org/index.php?title=Mathematics/Statistics#Statistics_.28math.ST.29) as well, and [blogs about other research disciplines](http://www.academicblogs.org). The ones above are those that concentrate on generic research issues.
+Of course, there are [lots of statistics blogs](http://academicblogs.org/index.php?title=Mathematics/Statistics#Statistics_.28math.ST.29) as well, and [blogs about other research disciplines](http://www.academicblogs.org).
+The ones above are those that concentrate on generic research issues.

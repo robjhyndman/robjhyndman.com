@@ -28,7 +28,7 @@ Participants will be assumed to be familiar with basic statistical tools such as
 
 ## Need help with R?
 
-* [Datacamp: Introduction to R course](https://www.datacamp.com/courses/free-introduction-to-r)
+- [Datacamp: Introduction to R course](https://www.datacamp.com/courses/free-introduction-to-r)
 
 ## Program
 
@@ -66,87 +66,97 @@ Participants will be assumed to be familiar with basic statistical tools such as
 
 ## Lab Session 1
 
- 1. For the first four lab sessions, we will use the `qcement` data (Quarterly Australian Portand Cement production, 1956--2014). Plot the data using `autoplot()`.
- 2. Split the data into a training set and a test set of 4 years. We will apply models to the training set, and compare the forecasts on the test set. Use `window()` to split the data.
- 3. Compute a seasonal naïve forecast applied to the training data, and plot the results. Use `snaive()` to produce the forecasts.
- 4. Test if the residuals are white noise using the `checkresiduals()` function. What do you conclude?
+1. For the first four lab sessions, we will use the `qcement` data (Quarterly Australian Portand Cement production, 1956--2014).
+   Plot the data using `autoplot()`.
+2. Split the data into a training set and a test set of 4 years.
+   We will apply models to the training set, and compare the forecasts on the test set.
+   Use `window()` to split the data.
+3. Compute a seasonal naïve forecast applied to the training data, and plot the results.
+   Use `snaive()` to produce the forecasts.
+4. Test if the residuals are white noise using the `checkresiduals()` function.
+   What do you conclude?
 
 ## Lab Session 2
 
-  1. Compare the forecasts of the four benchmark methods to the test data using the `accuracy()` command.
-  2. What do you conclude?
+1. Compare the forecasts of the four benchmark methods to the test data using the `accuracy()` command.
+2. What do you conclude?
 
 ## Lab Session 3
 
-  1. For the `qcement` data, fit a suitable ARIMA model for the logged data using `auto.arima()`. You can use the argument `lambda=0` in the `auto.arima()` function to take the logs. That way, the forecasts will be on the original scale.
-  2. Does this model pass the residuals check?
-  3. How does it compare to the benchmark models on the test data?
+1. For the `qcement` data, fit a suitable ARIMA model for the logged data using `auto.arima()`.
+   You can use the argument `lambda=0` in the `auto.arima()` function to take the logs.
+   That way, the forecasts will be on the original scale.
+2. Does this model pass the residuals check?
+3. How does it compare to the benchmark models on the test data?
 
 ## Lab Session 4
 
-  1. Download quarterly GDP data from the [Australian Macro Database](http://ausmacrodata.org/series.php?id=gdpcknaaoq). To make this a time series:
+1. Download quarterly GDP data from the [Australian Macro Database](https://web.archive.org/web/20231130074138/http://ausmacrodata.org/series.php?id=gdpcknaasaq).
+   To make this a time series:
 
-     ```r
-     ausgdp <- ts(read.csv("gdpcknaaoq.csv")[,1],
-       start=c(1959,3), frequency=4)
-     ```
+   ```r
+   ausgdp <- ts(read.csv("gdpcknaaoq.csv")[, 1], start = c(1959, 3), frequency = 4)
+   ```
 
-  2. Fit a dynamic regression model to the logged `qcement` data with GDP as a predictor variable. Make sure you use the same time periods for both variables.
-  3. How do the results compare with the ARIMA model fitted earlier?
+2. Fit a dynamic regression model to the logged `qcement` data with GDP as a predictor variable.
+   Make sure you use the same time periods for both variables.
+
+3. How do the results compare with the ARIMA model fitted earlier?
 
 ## Lab Session 5
 
-  1. The `visnights` data set contains quarterly visitor nights for various regions of Australia. To turn this into an `hts` object:
+1. The `visnights` data set contains quarterly visitor nights for various regions of Australia.
+   To turn this into an `hts` object:
 
-      ```r
-      library(hts)
-      tourism.hts <- hts(visnights, characters = c(3, 5))
-      ```
+   ```r
+   library(hts)
+   tourism.hts <- hts(visnights, characters = c(3, 5))
+   ```
 
-  2. Generate forecasts of the bottom level series using ARIMA models, and sum them for "bottom-up" forecasts:
+2. Generate forecasts of the bottom level series using ARIMA models, and sum them for "bottom-up" forecasts:
 
-      ```r
-      visnightsfc <- forecast(tourism.hts, method='bu', fmethod='arima', h=8)
+   ```r
+   visnightsfc <- forecast(tourism.hts, method = 'bu', fmethod = 'arima', h = 8)
 
-      autoplot(aggts(tourism.hts, level=0)) +
-        autolayer(aggts(visnightsfc, level=0), lty=2)
-      autoplot(aggts(tourism.hts, level=1)) +
-        autolayer(aggts(visnightsfc, level=1), lty=2)
-      autoplot(aggts(tourism.hts, level=2)) +
-        autolayer(aggts(visnightsfc, level=2), lty=2)
-      ```
+   autoplot(aggts(tourism.hts, level = 0)) +
+     autolayer(aggts(visnightsfc, level = 0), lty = 2)
+   autoplot(aggts(tourism.hts, level = 1)) +
+     autolayer(aggts(visnightsfc, level = 1), lty = 2)
+   autoplot(aggts(tourism.hts, level = 2)) +
+     autolayer(aggts(visnightsfc, level = 2), lty = 2)
+   ```
 
-      Do the forecasts look reasonable?
+   Do the forecasts look reasonable?
 
-  3. Now use optimally reconciled forecasts:
+3. Now use optimally reconciled forecasts:
 
-      ```r
-      visnightsfc2 <- forecast(tourism.hts, fmethod='arima', h=8)
+   ```r
+   visnightsfc2 <- forecast(tourism.hts, fmethod = 'arima', h = 8)
 
-      autoplot(aggts(tourism.hts, level=0)) +
-        autolayer(aggts(visnightsfc2, level=0), lty=2)
-      autoplot(aggts(tourism.hts, level=1)) +
-        autolayer(aggts(visnightsfc2, level=1), lty=2)
-      autoplot(aggts(tourism.hts, level=2)) +
-        autolayer(aggts(visnightsfc2, level=2), lty=2)
+   autoplot(aggts(tourism.hts, level = 0)) +
+     autolayer(aggts(visnightsfc2, level = 0), lty = 2)
+   autoplot(aggts(tourism.hts, level = 1)) +
+     autolayer(aggts(visnightsfc2, level = 1), lty = 2)
+   autoplot(aggts(tourism.hts, level = 2)) +
+     autolayer(aggts(visnightsfc2, level = 2), lty = 2)
 
-      autoplot(aggts(visnightsfc2, level=0)) +
-        autolayer(aggts(visnightsfc, level=0), lty=2)
-      autoplot(aggts(visnightsfc2, level=1)) +
-        autolayer(aggts(visnightsfc, level=1), lty=2)
-      autoplot(aggts(visnightsfc2, level=2)) +
-        autolayer(aggts(visnightsfc, level=2), lty=2)
-      ```
+   autoplot(aggts(visnightsfc2, level = 0)) +
+     autolayer(aggts(visnightsfc, level = 0), lty = 2)
+   autoplot(aggts(visnightsfc2, level = 1)) +
+     autolayer(aggts(visnightsfc, level = 1), lty = 2)
+   autoplot(aggts(visnightsfc2, level = 2)) +
+     autolayer(aggts(visnightsfc, level = 2), lty = 2)
+   ```
 
-      What difference has the reconciliation step made?
+   What difference has the reconciliation step made?
 
 ## Further resources for forecasting
 
-* [Datacamp: Forecasting using R course](https://www.datacamp.com/courses/forecasting-using-r)
-* [International Institute of Forecasters](https://forecasters.org)
-* [International Journal of Forecasting](https://ijf.forecasters.org/)
-* [International Symposium on Forecasting](https://isf.forecasters.org/)
-* [Hyndsight blog](https://robjhyndman.com/hyndsight/)
-* [First Port of Call](https://fpc.forecasters.org/)
-* [Questions on R](https://stackoverflow.com/questions/tagged/forecasting)
-* [Questions on statistics](https://stats.stackexchange.com/questions/tagged/forecasting)
+- [Datacamp: Forecasting using R course](https://www.datacamp.com/courses/forecasting-using-r)
+- [International Institute of Forecasters](https://forecasters.org)
+- [International Journal of Forecasting](https://ijf.forecasters.org/)
+- [International Symposium on Forecasting](https://isf.forecasters.org/)
+- [Hyndsight blog](https://robjhyndman.com/hyndsight/)
+- [First Port of Call](https://fpc.forecasters.org/)
+- [Questions on R](https://stackoverflow.com/questions/tagged/forecasting)
+- [Questions on statistics](https://stats.stackexchange.com/questions/tagged/forecasting)
