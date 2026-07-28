@@ -1,12 +1,10 @@
 ---
-title: Growth rates
+title: Monthly, quarterly and annual growth rates
 date: 2026-07-28
 categories:
   - time series
-description: Blah
+description: "I received the following question by email:"
 ---
-
-I received the following question by email:
 
 > I was wondering if mathematical relationships exist between monthly, quarterly, and annual growth rates (percentage changes).
 > For time series data ...<br>
@@ -21,12 +19,12 @@ I received the following question by email:
 
 Suppose we have monthly data $y_1,y_2,\dots$.
 Then the monthly growth rates are given by $g_t = \frac{y_t - y_{t - 1}}{y_{t - 1}}$, and the year-over-year growth rates are given by $G_t = \frac{y_t - y_{t - 12}}{y_{t - 12}}$.
-Some algebraic manipulation leads to
+A little algebra gives
 $$
   1 + G_t = \prod_{j = 1}^{12} (1 + g_{t - j + 1}).
-$$
+$$ {#eq-product-growth}
 So the year-over-year rate is the compounded product of the last 12 monthly rates.
-A useful recurrence relationship is
+This gives a recurrence relationship:
 $$
   \frac{1 + G_t}{1 + G_{t - 1}} = \frac{1 + g_t}{1 + g_{t - 12}}.
 $$
@@ -34,29 +32,35 @@ Therefore
 $$
   G_t > G_{t - 1} \iff g_t > g_{t - 12}.
 $$
-In other words, the year-over-year rate rises when the current monthly change is larger than the change 12 months ago, and it falls when the current monthly change is smaller than the change 12 months ago.
+In other words, the year-over-year rate rises when the current monthly change exceeds the change 12 months ago, and falls when the reverse holds.
 
-For example, annual inflation peaks when the monthly inflation rates entering the 12-month window become smaller than the monthly inflation rates dropping out of the window.
-Because year-over-year growth is effectively a 12-month trailing window of monthly growth, its average timing is centered about 5.5 months in the past.
-In general, for smooth series, the month-to-month rate often leads the year-over-year rate by about **5 to 6 months**.
+For example, annual inflation peaks when the monthly rates entering the 12-month window fall below the rates dropping out of it.
+Because year-over-year growth is effectively a 12-month trailing window of monthly growth, month-to-month growth tends to lead year-over-year growth by about half the window length: the *centre lag* of an equally-weighted $k$-period trailing window is $(k - 1)/2$ periods, or 5.5 months when $k = 12$.
+
+This centre-lag rule works best when the underlying series changes slowly within the 12-month window, as is typical of series like inflation, and is less reliable for more volatile or noisy series.
+
+## Quarterly growth vs year-over-year growth
+
+The quarterly version is exactly analogous: just replace 12 by 4.
+Since four-quarter growth is a trailing 4-quarter window of quarterly growth, quarter-to-quarter growth leads year-over-year growth by about 1.5 quarters, under the same condition as above.
 
 ## Log growth rates
 
-Taking logarithms turns the multiplicative relationship above into a linear one, which is often more convenient for compounding over several periods, forecasting, or working with series such as price indices where growth is conventionally expressed in log form.
+Taking logarithms turns the multiplicative relationship above into a linear one, which is more convenient for compounding over several periods, for forecasting, and for series such as price indices, where growth is conventionally expressed in log form.
 
 Define monthly log growth $\ell_t = \ln(1 + g_t)$ and year-over-year log growth $L_t = \ln(1 + G_t)$, using $g_t$ and $G_t$ from above.
-Taking logs of the product identity $1 + G_t = \prod_{j = 1}^{12}(1 + g_{t - j + 1})$ turns the product into a sum:
+Taking logs of @eq-product-growth turns the product into a sum:
 $$
   L_t = \sum_{j = 0}^{11} \ell_{t - j}.
 $$
-So $L_t$ rises when $\ell_t > \ell_{t - 12}$, the same turning condition as before, but now a linear relationship rather than a multiplicative one.
+So $L_t$ rises when $\ell_t > \ell_{t - 12}$: the same turning condition as before, now linear rather than multiplicative.
 
 This also gives a forecasting formula:
 $$
   L_{t + h} = L_t
               + \sum_{s = 1}^{h} \left(\ell_{t + s} - \ell_{t + s - 12}\right).
 $$
-So given assumptions about future monthly growth, you can forecast the future year-over-year rate exactly in log terms.
+So given a model for future monthly growth, you can forecast the future year-over-year rate in log terms.
 
 The same idea works over any horizon, comparing the most recent 3-month block to the corresponding block a year earlier:
 $$
@@ -64,16 +68,11 @@ $$
   - L_{t - 3} = \sum_{j = 0}^{2} \ell_{t - j}
   - \sum_{j = 0}^{2} \ell_{t - 12 - j}.
 $$
-So the year-over-year rate has risen over the past three months if recent 3-month growth is higher than the corresponding 3-month block from one year ago.
+So the year-over-year rate has risen over the past three months if the most recent 3-month growth exceeds the same 3-month block a year earlier.
 
-This is exactly how CPI inflation is usually reported: with $y_t$ the price index, $\ell_t$ is monthly inflation and $L_t$ is the standard year-over-year inflation rate quoted in the news.
+This is exactly how CPI inflation is usually reported: $y_t$ is the price index, $\ell_t$ the monthly inflation rate, and $L_t$ the standard year-over-year rate quoted in the news.
 
-## Quarterly growth vs year-over-year growth
-
-The quarterly version is exactly analogous: just replace 12 by 4.
-Since four-quarter growth is a trailing 4-quarter window of quarterly growth, its average timing is centered about 1.5 quarters in the past.
-
-## 3-month moving averages/totals vs 12-month moving averages/totals
+## 3-month moving averages vs 12-month moving averages
 
 A *trailing* [simple moving average](https://otexts.com/fpp3/moving-averages.html) of $\{y_1, y_2, \dots\}$ is defined as:
 $$
@@ -85,6 +84,7 @@ $$
 $$
 So $\hat{T}_{k,t}$ rises when the newest observation entering the window, $y_{t}$, exceeds the oldest observation leaving the window, $y_{t - k}$, and falls when the reverse holds.
 
-As with the growth-rate case, the practical lead between two moving averages of different lengths can be approximated from the center of each trailing window.
-A trailing $k$-period average is centered about $(k - 1)/2$ periods in the past, so a 3-month average is centered about 1 month in the past, while a 12-month average is centered about 5.5 months in the past.
-So for smooth cycles, a 3-month moving average tends to lead a 12-month moving average by about $5.5 - 1 = 4.5$ months, for exactly the same reason that monthly growth leads year-over-year growth above.
+As with the growth-rate case, the practical lead between two moving averages of different lengths can be approximated from the centre of each trailing window.
+A trailing $k$-period average is centred about $(k - 1)/2$ periods in the past, so a 3-month average is centred about 1 month in the past, while a 12-month average is centred about 5.5 months in the past.
+So a 3-month moving average tends to lead a 12-month moving average by about $5.5 - 1 = 4.5$ months, for the same reason that monthly growth leads year-over-year growth above.
+As before, this holds as long as the series moves slowly relative to the 12-month window.
