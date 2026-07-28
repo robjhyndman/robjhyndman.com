@@ -1,0 +1,155 @@
+---
+title: Growth rates
+date: 2026-07-28
+categories:
+  - time series
+description: Blah
+---
+
+I received the following question by email:
+
+> I was wondering if mathematical relationships exist between monthly, quarterly, and annual growth rates (percentage changes).
+> For time series data ...
+> 1) Is there a mathematical formula to know by how many months the Month-to-Month changes lead turns in this-month-to-the-same-month-one-year-ago changes (annual changes)?
+> 2) Is there a mathematical formula to know by how many quarters the Quarter-to-Quarter changes lead turns in this-quarter-to-the-same-quarter-one-year-ago changes (annual changes)?
+> Also, regarding simple moving averages/totals:
+> 3) Is there an exact or approximate formula to know by how many months a 3-month simple moving average (or moving total) leads a turn in a 12-month simple moving average (or moving total)?
+> As an example: Inflation is typically measured with Y/Y percentage changes in the CPI.
+> So, it would be helpful to be able to identify when the 12-month rate of change will likely reach a top or bottom, using the 1-month or 3-months rates of change.
+
+## 1) Monthly growth vs year-over-year growth
+
+Suppose we have monthly data $y_1,y_2,\dots$, which aggregate to annual data $Y_t = \sum_{j = 1}^{12} y_{t - j + 1}$.
+Then the monthly growth rates are given by $g_t = \frac{y_t - y_{t - 1}}{y_{t - 1}}$, and the annual growth rates are given by $G_t = \frac{Y_t - Y_{t - 1}}{Y_{t - 1}}$.
+Thus
+$$
+  1 + G_t = \prod_{j = 1}^{12} (1 + g_{t - j + 1}).
+$$
+So the year-over-year rate is the compounded product of the last 12 monthly rates.
+A useful recurrence relationship is
+$$
+  \frac{1 + G_t}{1 + G_{t - 1}} = \frac{1 + g_t}{1 + g_{t - 12}}.
+$$
+Therefore
+$$
+  G_t > G_{t - 1} \iff g_t > g_{t - 12}.
+$$
+In other words, the year-over-year rate rises when the current monthly change is larger than the change 12 months ago, and it falls when the current monthly change is smaller than the change 12 months ago.
+
+So a local peak in the year-over-year rate occurs when the comparison switches from:
+$$
+  r_t \ge r_{t - 12}
+$$
+to:
+$$
+  r_{t + 1} < r_{t - 11}
+$$
+In plain English: annual inflation peaks when the monthly inflation rates entering the 12-month window become smaller than the monthly inflation rates dropping out of the window.
+There is no exact fixed lead such as "monthly inflation leads annual inflation by 6 months."
+But because year-over-year inflation is effectively a 12-month trailing window of monthly inflation, its average timing is centered about 5.5 months in the past.
+So for smooth cycles, the month-to-month rate often leads the year-over-year rate by about **5 to 6 months**.
+
+## 2) Quarterly growth vs four-quarter / year-over-year growth
+
+The quarterly version is exactly analogous.
+Just replace 12 by 4.
+
+Since four-quarter growth is a trailing 4-quarter window of quarterly growth, its average timing is centered:
+$$
+  \frac{4 - 1}{2} = 1.5
+$$
+quarters in the past.
+So for smooth cycles, quarter-to-quarter growth tends to lead four-quarter growth by about **1.5 quarters**.
+
+## 3) 3-month moving averages/totals vs 12-month moving averages/totals
+
+For a simple moving average of some series $x_t$, define:
+$$
+  MA_{N,t} = \frac{1}{N} \sum_{j = 0}^{N - 1} x_{t - j}
+$$
+Then:
+$$
+  MA_{N,t} - MA_{N,t - 1} = \frac{x_t - x_{t - N}}{N}
+$$
+So a 12-month moving average rises when:
+$$
+  x_t > x_{t - 12}
+$$
+and falls when:
+$$
+  x_t < x_{t - 12}
+$$
+A 3-month moving average rises when:
+$$
+  x_t > x_{t - 3}
+$$
+So the exact turning rule for a moving average is also a replacement rule: the moving average turns when the new observation entering the window crosses the old observation leaving the window.
+As for the lead between a 3-month and 12-month moving average, the usual approximation is based on the center of the trailing window.
+A trailing 3-month average is centered about:
+$$
+  \frac{3 - 1}{2} = 1
+$$
+month behind the current month.
+A trailing 12-month average is centered about:
+$$
+  \frac{12 - 1}{2} = 5.5
+$$
+months behind the current month.
+So the 3-month moving average tends to lead the 12-month moving average by:
+$$
+  5.5 - 1 = 4.5
+$$
+months.
+Thus, for smooth data, a 3-month moving average or 3-month moving total tends to lead a 12-month moving average or 12-month moving total by about **4 to 5 months**.
+Again, this is approximate.
+It is most reliable when the underlying series has a smooth, persistent cycle.
+It is less reliable when the series has shocks, jumps, seasonality, or high noise.
+
+## CPI inflation example
+
+For CPI, it is often cleaner to use log changes.
+Monthly log inflation:
+$$
+  g_t = \ln\left(\frac{P_t}{P_{t - 1}}\right)
+$$
+Year-over-year log inflation:
+$$
+  G_t = \ln\left(\frac{P_t}{P_{t - 12}}\right)
+$$
+Then:
+$$
+  G_t = \sum_{j = 0}^{11} g_{t - j}
+$$
+So year-over-year inflation is exactly a 12-month moving total of monthly log inflation.
+Its change is:
+$$
+  G_t - G_{t - 1} = g_t - g_{t - 12}
+$$
+Therefore, year-over-year CPI inflation rises when current monthly log inflation exceeds the monthly log inflation from 12 months ago.
+It falls when current monthly log inflation is lower than the monthly log inflation from 12 months ago.
+This is the "base effect" in precise mathematical form.
+A practical forecasting formula is:
+$$
+  G_{t + h} = G_t + \sum_{s = 1}^{h} \left(g_{t + s} - g_{t + s - 12}\right)
+$$
+So if you have assumptions for future monthly inflation, you can forecast the future year-over-year rate exactly in log terms.
+For 3-month inflation, the useful comparison is:
+$$
+  G_t - G_{t - 3} = \sum_{j = 0}^{2} g_{t - 12 - j}
+$$
+So the year-over-year rate over the past three months has risen if recent 3-month inflation is higher than the corresponding 3-month block from one year ago.
+
+## Short answer
+
+For monthly data:
+- Exact rule: year-over-year growth rises when current monthly growth exceeds monthly growth 12 months earlier.
+- Exact turn condition: annual growth turns when that comparison changes sign.
+- Approximate lead: monthly growth leads year-over-year growth by about **5--6 months** in smooth cycles.
+For quarterly data:
+- Exact rule: four-quarter growth rises when current quarter-to-quarter growth exceeds quarter-to-quarter growth 4 quarters earlier.
+- Approximate lead: quarter-to-quarter growth leads four-quarter growth by about **1.5 quarters**.
+For 3-month vs 12-month moving averages/totals:
+- Exact rule: an $N$-period moving average rises when the current observation exceeds the observation $N$ periods ago.
+- Approximate lead: a 3-month moving average leads a 12-month moving average by about **4.5 months**.
+The most important takeaway is that annual growth rates are not mysterious: they are rolling windows.
+A top or bottom occurs when the incoming short-period changes become smaller or larger than the old short-period changes dropping out of the window.
