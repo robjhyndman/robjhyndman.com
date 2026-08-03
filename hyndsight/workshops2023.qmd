@@ -12,10 +12,15 @@ description: I'm giving a 2-day workshop on "Tidy Time Series and Forecasting in
 
 Places are limited, so please book in early.
 
-* [New York](https://rstats.ai/nyr#tidy-time-series-and-forecasting-in-r), 11-12 July 2023. Followed by the [New York R conference](https://rstats.ai/nyr). (Register for the workshop as part of the NYR conference registration.)
-* [Chicago](https://posit-conf-2023.github.io/workshops/workshops/forecasting/), 17-18 September 2023. Followed by the [Posit conference](https://posit.co/conference). (Register for the workshop as part of the Posit conference registration.)
+- [New York](https://web.archive.org/web/20230612041012/https://rstats.ai/nyr#tidy-time-series-and-forecasting-in-r), 11-12 July 2023.
+  Followed by the [New York R conference](https://web.archive.org/web/20230612041012/https://rstats.ai/nyr).
+  (Register for the workshop as part of the NYR conference registration.)
+- [Chicago](https://posit-conf-2023.github.io/workshops/workshops/forecasting/), 17-18 September 2023.
+  Followed by the [Posit conference](https://posit.co/conference).
+  (Register for the workshop as part of the Posit conference registration.)
 
-The workshop introduces the [tidyverts](https://tidyverts.org) set of packages. Further details about the workshop are [here](https://robjhyndman.com/teaching/#tidy-time-series-forecasting-in-r).
+The workshop introduces the [tidyverts](https://tidyverts.org) set of packages.
+Further details about the workshop are [here](https://robjhyndman.com/teaching/#tidy-time-series-forecasting-in-r).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g4221KXM7hU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

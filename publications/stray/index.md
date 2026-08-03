@@ -8,13 +8,20 @@ details: <em>J Computational & Graphical Statistics</em>, <b>30</b>(2), 360-374
 arxiv: "1908.04000"
 doi: 10.1080/10618600.2020.1807997
 tags:
-- data science
-- anomaly detection
-- time series
+  - data science
+  - anomaly detection
+  - time series
 ---
 
-The HDoutliers algorithm is a powerful unsupervised algorithm for detecting anomalies in high-dimensional data, with a strong theoretical foundation. However, it suffers from some limitations that significantly hinder its performance level, under certain circumstances. In this article, we propose an algorithm that addresses these limitations. We define an anomaly as an observation that deviates markedly from the majority with a large distance gap. An approach based on extreme value theory is used for the anomalous threshold calculation. Using various synthetic and real datasets, we demonstrate the wide applicability and usefulness of our algorithm, which we call the stray algorithm. We also demonstrate how this algorithm can assist in detecting anomalies present in other data structures using feature engineering. We show the situations where the stray algorithm outperforms the HDoutliers algorithm both in accuracy and computational time.
+The HDoutliers algorithm is a powerful unsupervised algorithm for detecting anomalies in high-dimensional data, with a strong theoretical foundation.
+However, it suffers from some limitations that significantly hinder its performance level, under certain circumstances.
+In this article, we propose an algorithm that addresses these limitations.
+We define an anomaly as an observation that deviates markedly from the majority with a large distance gap.
+An approach based on extreme value theory is used for the anomalous threshold calculation.
+Using various synthetic and real datasets, we demonstrate the wide applicability and usefulness of our algorithm, which we call the stray algorithm.
+We also demonstrate how this algorithm can assist in detecting anomalies present in other data structures using feature engineering.
+We show the situations where the stray algorithm outperforms the HDoutliers algorithm both in accuracy and computational time.
 
 [R implementation](https://github.com/pridiltal/stray).
 
-[Python implementation](https://github.com/sktime/sktime/blob/main/sktime/annotation/stray.py)
+[Python implementation](https://www.sktime.net/docs/api-reference/sktimedetectionstraystray/)

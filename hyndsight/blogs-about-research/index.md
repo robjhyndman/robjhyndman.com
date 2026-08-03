@@ -45,7 +45,5 @@ Here are a few that I read.
 
 - [PhD Comics](http://www.phdcomics.com/comics.php) -- essential reading for every PhD student, and good therapy.
 
-I've created [a bundle](http://www.google.com/reader/bundle/user%2F15350839325370906198%2Fbundle%2Fresearch) so you can [subscribe to all of these in one go](http://www.google.com/reader/bundle/user%2F15350839325370906198%2Fbundle%2Fresearch).
-
 Of course, there are [lots of statistics blogs](http://academicblogs.org/index.php?title=Mathematics/Statistics#Statistics_.28math.ST.29) as well, and [blogs about other research disciplines](http://www.academicblogs.org).
 The ones above are those that concentrate on generic research issues.
