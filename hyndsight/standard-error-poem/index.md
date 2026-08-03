@@ -15,7 +15,7 @@ The poem won the inaugural Monash University [poetry competition](https://www.mo
 
 ![](/files/davidgoodard.jpg)
 
-For those who like this sort of thing (as I do), there is a nice collection of [statistical poetry here](http://www.talkstats.com/showthread.php/23441-Statistics-Poetry).
+For those who like this sort of thing (as I do), there is a nice collection of [statistical poetry here](https://web.archive.org/web/20220326120245/http://www.talkstats.com/threads/statistics-poetry.23441/).
 
 ### Standard error
 

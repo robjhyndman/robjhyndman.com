@@ -24,5 +24,4 @@ Otherwise, one of the following websites might be useful.
 - [Comprehensive LaTeX symbol list](http://www.ctan.org/tex-archive/info/symbols/comprehensive/symbols-a4.pdf)
 - [The LaTeX font catalogue](http://www.tug.dk/FontCatalogue/)
 - [Guide to Including Graphics:](http://www.ctan.org/tex-archive/macros/latex/required/graphics/grfguide.pdf) Read this document if you need to include external graphics files.
-- [Hypertext Help with LaTeX](http://www.giss.nasa.gov/tools/latex/ltx-2.html): well organized help.
 - [BibTeXing](http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/btxdoc.html): The definitive guide to BibTeX, the LaTeX bibliography support system.

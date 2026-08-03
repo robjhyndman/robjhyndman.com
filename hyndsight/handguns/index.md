@@ -20,7 +20,6 @@ Here are some of the news items I've found:<!--more-->
 - [KPBS](http://www.kpbs.org/news/2017/may/01/study-california-gun-sales-spiked-after-recent-mas/)
 - [Larkspur Patch](https://patch.com/california/larkspurcortemadera/ca-handgun-sales-spiked-after-san-bernardino-sandy-hook-mass)
 - [Pantagraph](http://www.pantagraph.com/lifestyles/health-med-fit/california-handgun-sales-spiked-after-mass-shootings/article_71a755e3-fd55-505a-b097-21ec71084e25.html)
-- [Philadelphia Inquirer](http://www.philly.com/philly/health/topics/HealthDay722081_20170501_California_Handgun_Sales_Spiked_After_2_Mass_Shootings.html)
 - [ScienceDaily](https://www.sciencedaily.com/releases/2017/05/170501184346.htm)
 - [San Francisco Chronicle](http://www.sfgate.com/news/article/Ca-gun-sales-climbed-following-terrorist-11112405.php)
 - [Stanford Health Policy](http://healthpolicy.fsi.stanford.edu/news/california-handgun-sales-spike-after-2-mass-shootings)
