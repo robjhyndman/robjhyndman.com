@@ -63,7 +63,7 @@ Here are some thoughts and highlights of the conference, in no particular order.
     However, if you google [[rstudio preview release]](https://www.google.com/search?q=rstudio+preview+release) you might find it.
     The debugging features are excellent, so look out for v0.98 available soon.
 
-11. I finally met the team from [Revolution Analytics](http://www.revolutionanalytics.com/), the people who produce Revolution R.
+11. I finally met the team from [Revolution Analytics](https://en.wikipedia.org/wiki/Revolution_Analytics), the people who produce Revolution R.
     Unfortunately, Revolution R is not available for 64-bit Ubuntu which is the platform I use.
 
 12. I was amazed at how much effort is going into making R work with gigantically enormous and humungous data sets.

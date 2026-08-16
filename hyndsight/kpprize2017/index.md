@@ -36,4 +36,4 @@ The citation for the award reads as follows:
 > For example, it plays a key role in the current work on sensitivity analysis with incomplete data.
 
 The prize consists of a cash award of 5,000 Euros, and the winners will present the Pearson Lecture at the World Statistics Congress (WSC) in Marrakech in July.
-The official [prize announcement is on the ISI website](https://www.isi-web.org/images/news/2017-05KPPrize.pdf).
+The official [prize announcement is on the ISI website](https://isi-web.org/former-karl-pearson-prize).
