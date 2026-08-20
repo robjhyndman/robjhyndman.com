@@ -2,7 +2,7 @@
   <% for (const item of items) { %>
     <li>
       <a href="<%- item.path %>" class="recent-updates-title"><%- item.title %></a>
-      <% if (item.date) { %> (<%- item.date %>)<% } %>
+      <% if (item.date) { %> <span class="recent-updates-date">(<%- item.date %>)</span><% } %>
     </li>
     <% } %>
 </ul>

@@ -360,9 +360,19 @@ div.quarto-about-trestles .about-entity .subtitle {
   text-align: left !important;
 }
 
-/* If the about template uses flexbox on some breakpoints, keep items left aligned */
+/* Size the photo/icon column to fit its own content (the photo's natural
+   width) rather than a fraction of the page, so the card grid gets whatever
+   width is left over -- and keep it pinned to the left instead of centered. */
 div.quarto-about-trestles .about-entity {
   align-items: flex-start;
+  flex: 0 0 auto;
+}
+
+div.quarto-about-trestles .about-entity .about-image {
+  max-width: 100%;
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 div.quarto-about-trestles .about-entity .about-links {
@@ -373,7 +383,12 @@ div.quarto-about-trestles .about-entity .about-link {
   border: none;
   font-size: 1.667rem;
   column-gap: 0.2em;
+  background-color: transparent;
   color: $theme-main;
+  border-radius: 8px;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
 }
 
 @media (max-width: 991.98px) {
@@ -386,6 +401,11 @@ div.quarto-about-trestles .about-entity .about-link {
 div.quarto-about-trestles .about-entity .about-link:hover {
   background-color: $theme-main;
   color: #fff;
+  opacity: 0.8;
+}
+
+div.quarto-about-trestles .about-contents {
+  border-left: none;
 }
 
 .quarto-category:hover,
@@ -899,24 +919,52 @@ textarea {
   color: darken($theme-gray, 45%);
 }
 
-/* News listing */
-.recent-news li {
+/* Recent-items lists (homepage cards + news page) */
+.recent-news li,
+.recent-updates li {
   margin: 0.5rem 0;
   padding: 2px 4px;
   border-radius: 4px;
   transition: background-color 0.15s ease;
 }
 
-.recent-news li:hover {
+.recent-news li:hover,
+.recent-updates li:hover {
   background-color: rgba($theme-main, 0.06);
 }
 
-.recent-news li::marker {
+.recent-news li::marker,
+.recent-updates li::marker {
   color: $theme-main;
   font-weight: bold;
 }
 
 .recent-news-outlet,
-.recent-news-date {
+.recent-news-date,
+.recent-updates-date {
   color: darken($theme-gray, 45%);
+}
+
+/* Homepage recent-items cards */
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+@media (max-width: 767.98px) {
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.home-card {
+  border: 1.5px solid rgba($theme-main, 0.2);
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  background: $theme-gray;
+}
+
+.home-card .recent-heading {
+  margin-top: 0;
 }

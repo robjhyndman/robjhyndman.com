@@ -15,6 +15,7 @@ about:
       href: mailto:Rob.Hyndman@monash.edu
 
 toc: false
+page-layout: full
 
 listing:
   - id: recent-publications
@@ -61,22 +62,34 @@ listing:
     filter-ui: false
 ---
 
+::: {.home-grid}
+
+::: {.home-card}
 ### [Recent publications](/publications/) {.recent-heading}
 
 ::: {#recent-publications .frontpage-listing}
 :::
+:::
 
+::: {.home-card}
 ### [Recent seminars](/seminars) {.recent-heading}
 
 ::: {#recent-seminars .frontpage-listing}
 :::
+:::
 
+::: {.home-card}
 ### [Recent blog posts](/hyndsight) {.recent-heading}
 
 ::: {#recent-hyndsight .frontpage-listing}
 :::
+:::
 
+::: {.home-card}
 ### [Recent news items](/news.qmd) {.recent-heading}
 
 ::: {#recent-news .frontpage-listing}
+:::
+:::
+
 :::
