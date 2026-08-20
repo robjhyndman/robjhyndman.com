@@ -255,6 +255,27 @@ $badge-colors: (
   border-radius: 10px;
 }
 
+.quarto-title-meta:empty {
+  display: none;
+}
+
+/* The trestles about-page template always emits an empty .quarto-title-meta
+   (whitespace-only, so :empty above doesn't catch it) — hide it explicitly
+   so it doesn't show as a stray box above the social icon row. Quarto's own
+   #title-block-header.quarto-title-block.default .quarto-title-meta rule
+   sets display:grid with ID-level specificity, so this needs !important to
+   win. */
+div.quarto-about-trestles .quarto-title-meta {
+  display: none !important;
+}
+
+.quarto-links-cell {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 0.5em;
+}
+
 .quarto-title-meta-heading {
   margin: 1ex 1ex 0 1ex !important;
 }

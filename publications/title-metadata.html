@@ -67,41 +67,50 @@ $endif$
     </div>
   </div>
 
-  <div>
-    <div class="quarto-title-meta-heading">Links</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date" style="color: #fff !important;">
-      $if(doi)$
-      <a href="https://doi.org/$doi$" class="badge badge badge-blue">DOI</a>
-      $endif$
-      $if(amazon)$
-      <a href="https://amazon.com/dp/$amazon$?tag=otexts-20" class="badge badge badge-blue">Amazon</a>
-      $endif$
-      $if(jstor)$
-      <a href="http://jstor.org/stable/$jstor$" class="badge badge badge-blue">JSTOR</a>
-      $endif$
-      $if(arxiv)$
-      <a href="https://arxiv.org/abs/$arxiv$" class="badge badge badge-red">arXiv</a>
-      $endif$
-      $if(link)$
-      <a href=$link$ class="badge badge badge-red">pdf</a>
-      $endif$
-      $if(online)$
-      <a href=$online$ class="badge badge badge-blue">Online</a>
-      $endif$
-      $if(figshare)$ <a href="https://bridges.monash.edu/ndownloader/files/$figshare$" class="badge badge badge-red">pdf</a>
-      $endif$
-      $if(file)$<a href="https://robjhyndman.com/papers/$file$" class="badge badge badge-red">pdf</a>
-      $endif$
-      $if(github)$<a href="http://github.com/$github$" class="badge badge badge-green"><i class="bi bi-github"></i></a>
-      $endif$
-      $if(bitbucket)$<a href="http://bitbucket.org/$bitbucket$" class="badge badge badge-green">code</a>
-      $endif$
-      $if(doi)$<span data-doi=$doi$ data-hide-no-mentions="true" class="altmetric-embed"></span>
-      $endif$
-      </p>
+  <div class="quarto-links-cell">
+    <div>
+      <div class="quarto-title-meta-heading">Links</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date" style="color: #fff !important;">
+        $if(doi)$
+        <a href="https://doi.org/$doi$" class="badge badge badge-blue">DOI</a>
+        $endif$
+        $if(amazon)$
+        <a href="https://amazon.com/dp/$amazon$?tag=otexts-20" class="badge badge badge-blue">Amazon</a>
+        $endif$
+        $if(jstor)$
+        <a href="http://jstor.org/stable/$jstor$" class="badge badge badge-blue">JSTOR</a>
+        $endif$
+        $if(arxiv)$
+        <a href="https://arxiv.org/abs/$arxiv$" class="badge badge badge-red">arXiv</a>
+        $endif$
+        $if(link)$
+        <a href=$link$ class="badge badge badge-red">pdf</a>
+        $endif$
+        $if(online)$
+        <a href=$online$ class="badge badge badge-blue">Online</a>
+        $endif$
+        $if(figshare)$ <a href="https://bridges.monash.edu/ndownloader/files/$figshare$" class="badge badge badge-red">pdf</a>
+        $endif$
+        $if(file)$<a href="https://robjhyndman.com/papers/$file$" class="badge badge badge-red">pdf</a>
+        $endif$
+        $if(github)$<a href="http://github.com/$github$" class="badge badge badge-green"><i class="bi bi-github"></i></a>
+        $endif$
+        $if(bitbucket)$<a href="http://bitbucket.org/$bitbucket$" class="badge badge badge-green">code</a>
+        $endif$
+        $if(doi)$<span data-doi=$doi$ data-hide-no-mentions="true" class="altmetric-embed"></span>
+        $endif$
+        </p>
+      </div>
     </div>
 
+    $if(categories)$
+    <div class="quarto-title-meta-contents">
+      $for(categories)$
+      <span class="badge badge-small badge-grey quarto-category">$categories$</span>
+      $endfor$
+    </div>
+    $endif$
   </div>
 </div>
 

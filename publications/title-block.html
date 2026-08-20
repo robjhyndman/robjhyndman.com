@@ -1,0 +1,17 @@
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">$title$</h1>
+</div>
+
+$title-metadata.html()$
+
+</header>
+
+$if(hide-description)$
+$elseif(description)$
+<div>
+  <div class="description">
+    $description$
+  </div>
+</div><p></p>
+$endif$

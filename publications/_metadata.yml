@@ -3,7 +3,9 @@
 format:
   html:
     template: publication.html
-    template-partials: title-metadata.html
+    template-partials:
+      - title-metadata.html
+      - title-block.html
 
 sidebar: false
 author-title: Authors
