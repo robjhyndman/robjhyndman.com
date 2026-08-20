@@ -515,6 +515,10 @@ div.quarto-post {
     box-shadow 0.2s ease;
 }
 
+div.quarto-post .listing-title a {
+  color: lighten($theme-main, 15%);
+}
+
 div.quarto-post:hover {
   border-color: $theme-main;
   box-shadow:
