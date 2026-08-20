@@ -898,3 +898,25 @@ textarea {
 .year-tag {
   color: darken($theme-gray, 45%);
 }
+
+/* News listing */
+.recent-news li {
+  margin: 0.5rem 0;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: background-color 0.15s ease;
+}
+
+.recent-news li:hover {
+  background-color: rgba($theme-main, 0.06);
+}
+
+.recent-news li::marker {
+  color: $theme-main;
+  font-weight: bold;
+}
+
+.recent-news-outlet,
+.recent-news-date {
+  color: darken($theme-gray, 45%);
+}
