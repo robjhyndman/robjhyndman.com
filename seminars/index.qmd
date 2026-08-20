@@ -24,6 +24,31 @@ listing:
 
 # Seminars I've given (since 2006)
 
+[YouTube playlist](https://www.youtube.com/playlist?list=PL12D676032C3A6B70){.badge .badge-large}
+
 Some of these seminars were given more than once, but to avoid repetition, repeats are not always listed.
 
-Talks on YouTube are available on [this playlist](https://www.youtube.com/playlist?list=PL12D676032C3A6B70).
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const heading = document.querySelector("h1");
+  const listing = document.getElementById("listing-listing");
+  const filterBox = listing ? listing.querySelector(".listing-actions-group") : null;
+  if (heading && filterBox) {
+    heading.classList.add("listing-heading-row");
+    heading.appendChild(filterBox);
+  }
+
+  // Make the whole row clickable, navigating to that seminar's page
+  const tbody = listing ? listing.querySelector("tbody.list") : null;
+  if (tbody) {
+    tbody.addEventListener("click", function (e) {
+      if (e.target.closest("a")) return;
+      const row = e.target.closest("tr");
+      const link = row ? row.querySelector("a.listing-title") : null;
+      if (link) {
+        window.location.href = link.href;
+      }
+    });
+  }
+});
+</script>

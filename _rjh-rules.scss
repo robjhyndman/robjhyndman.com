@@ -31,6 +31,7 @@ h2 a {
   border-bottom: none;
 }
 
+h1.listing-heading-row,
 h2.listing-heading-row {
   display: flex;
   align-items: center;
@@ -38,10 +39,12 @@ h2.listing-heading-row {
   flex-wrap: wrap;
 }
 
+h1.listing-heading-row .listing-actions-group,
 h2.listing-heading-row .listing-actions-group {
   order: 2;
 }
 
+h1.listing-heading-row .quarto-listing-filter,
 h2.listing-heading-row .quarto-listing-filter {
   margin-bottom: 0;
 }
@@ -769,4 +772,28 @@ textarea {
   font-size: 0.85rem;
   margin: 0.5rem 0 0 0;
   overflow-x: auto;
+}
+
+/* Seminars table listing */
+.quarto-listing-container-table {
+  border: 1.5px solid rgba($theme-main, 0.2);
+  border-radius: 14px;
+  padding: 0.75rem 1rem;
+  background: $theme-gray;
+  overflow: hidden;
+}
+
+.quarto-listing-table tbody tr {
+  cursor: pointer;
+}
+
+.quarto-listing-table tbody tr:hover td {
+  background-color: rgba($theme-main, 0.08) !important;
+}
+
+.quarto-listing-table thead th {
+  background-color: $theme-main !important;
+  color: #fff;
+  padding: 0.5em 0.5em !important;
+  opacity: 0.8;
 }
