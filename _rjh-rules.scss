@@ -274,6 +274,7 @@ div.quarto-about-trestles .quarto-title-meta {
   justify-content: space-between;
   align-items: flex-end;
   gap: 0.5em;
+  flex-wrap: wrap;
 }
 
 .quarto-title-meta-heading {
@@ -290,6 +291,12 @@ div.quarto-about-trestles .quarto-title-meta {
     grid-template-columns: minmax(max-content, 1fr) 1fr;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 1em;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #title-block-header.quarto-title-block.default .quarto-title-meta {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -901,6 +908,25 @@ textarea {
 
 .badge-stack .badge {
   margin-bottom: 4px;
+}
+
+/* The three-column row of badge-stacks at the top of the About page
+   (CV/GitHub/Wikipedia, Scholar/Semantic Scholar/ORCID, Scopus/arXiv/RePEc)
+   sits in pandoc's div.columns. Quarto's own theme CSS deliberately reverts
+   pandoc's flex-based .columns back to `display: initial` with each
+   `div.column` as `display: inline-block` (see _quarto-rules.scss, "restore
+   previous pandoc columns behavior") so flex properties like flex-direction
+   have no effect here. Each column also carries an inline `style="width:30%"`
+   from the .qmd, which beats any external stylesheet without !important. At
+   phone widths 30% is too narrow for a badge's text, and since inline-block
+   boxes don't clip overflow, the badge text bleeds into the next column and
+   looks like the three columns are overlapping. Forcing each column to full
+   width makes it wrap onto its own line, which stacks them properly. */
+@media (max-width: 767.98px) {
+  div.columns div.column {
+    width: 100% !important;
+    display: block;
+  }
 }
 
 /* Responsive map embed (About page) */

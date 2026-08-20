@@ -23,7 +23,28 @@ language:
 
 # Publications
 
-[{{< ai google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=vamErfkAAAAJ){.badge .badge-large} &nbsp;&nbsp;&nbsp;&nbsp; [{{< ai semantic-scholar >}} Semantic Scholar](https://www.semanticscholar.org/author/R.-Hyndman/145211352){.badge .badge-large} &nbsp;&nbsp;&nbsp;&nbsp; [{{< ai orcid >}} ORCID](https://orcid.org/0000-0002-2140-5352){.badge .badge-large} &nbsp;&nbsp;&nbsp;&nbsp; [{{< ai scopus >}} Scopus](https://www.scopus.com/authid/detail.uri?authorId=7006914313){.badge .badge-large} &nbsp;&nbsp;&nbsp;&nbsp; [{{< ai arxiv >}} arXiv](https://arxiv.org/a/hyndman_r_1.html){.badge .badge-large} &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa lightbulb >}} RePEc](http://ideas.repec.org/e/phy3.html){.badge .badge-large}
+::: {.columns}
+::::: {.column width="30%"}
+<div class="badge-stack">
+[{{< ai google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=vamErfkAAAAJ){.badge .badge-large}\
+[{{< ai semantic-scholar >}} Semantic Scholar](https://www.semanticscholar.org/author/R.-Hyndman/145211352){.badge .badge-large}
+</div>
+:::::
+
+::::: {.column width="30%"}
+<div class="badge-stack">
+[{{< ai orcid >}} ORCID](https://orcid.org/0000-0002-2140-5352){.badge .badge-large}\
+[{{< ai scopus >}} Scopus](https://www.scopus.com/authid/detail.uri?authorId=7006914313){.badge .badge-large}
+</div>
+:::::
+
+::::: {.column width="30%"}
+<div class="badge-stack">
+[{{< ai arxiv >}} arXiv](https://arxiv.org/a/hyndman_r_1.html){.badge .badge-large}\
+[{{< fa lightbulb >}} RePEc](http://ideas.repec.org/e/phy3.html){.badge .badge-large}
+</div>
+:::::
+:::
 
 <div id="books-section">
 
