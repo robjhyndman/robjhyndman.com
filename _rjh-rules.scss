@@ -250,10 +250,8 @@ $badge-colors: (
 
 .quarto-title-meta {
   font-family: $font-family-sans-serif;
-  background-color: $badge-neutral-bg;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
+  background-color: $theme-gray;
+  border: 1.5px solid rgba($theme-main, 0.2);
   border-radius: 10px;
 }
 
