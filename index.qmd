@@ -1,4 +1,7 @@
 ---
+title: 'Professor Rob J Hyndman <span class="post-nominals">FAA FASSA</span>'
+subtitle: "Vice-Chancellor's Distinguished Professor of Statistics<br>Monash University, Australia"
+pagetitle: "Rob J Hyndman"
 about:
   template: trestles
   image: img/RJH_AAS_small.png

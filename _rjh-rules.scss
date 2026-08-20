@@ -301,6 +301,35 @@ div.quarto-about-trestles .about-entity .subtitle {
   text-align: left !important;
 }
 
+/* Name/title/institution block under the photo: same small, plain size for
+   both the title and subtitle lines, no special colouring, with the name
+   in bold and tight spacing between the two lines. */
+div.quarto-about-trestles .about-entity #title-block-header h1.title,
+div.quarto-about-trestles .about-entity #title-block-header p.subtitle {
+  color: inherit;
+  margin: 0;
+}
+
+div.quarto-about-trestles .about-entity #title-block-header h1.title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+div.quarto-about-trestles
+  .about-entity
+  #title-block-header
+  h1.title
+  .post-nominals {
+  font-weight: normal;
+}
+
+div.quarto-about-trestles .about-entity #title-block-header p.subtitle {
+  font-weight: normal;
+  font-size: 1rem;
+  padding: 0;
+  margin-top: -0.3em;
+}
+
 /* Size the photo/icon column to fit its own content (the photo's natural
    width) rather than a fraction of the page, so the card grid gets whatever
    width is left over -- and keep it pinned to the left instead of centered. */
