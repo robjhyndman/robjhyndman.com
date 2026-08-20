@@ -21,12 +21,11 @@ h1 {
 }
 ```
 
-#### [Repository Dashboard](https://pkg.robjhyndman.com/gh-dashboard/){.badge .badge-large .badge-blue} [R Universe](https://robjhyndman.r-universe.dev/){.badge .badge-large .badge-blue}
+#### [Repository Dashboard](https://pkg.robjhyndman.com/gh-dashboard/){.badge .badge-large} [R Universe](https://robjhyndman.r-universe.dev/){.badge .badge-large}
 
 # CRAN task views
 
-* [**Time Series**](https://cran.r-project.org/view=TimeSeries)
-* [**Anomaly Detection**](https://cran.r-project.org/view=AnomalyDetection)
+[Time Series](https://cran.r-project.org/view=TimeSeries){.badge .badge-large} [Anomaly Detection](https://cran.r-project.org/view=AnomalyDetection){.badge .badge-large}
 
 # Selected R packages
 

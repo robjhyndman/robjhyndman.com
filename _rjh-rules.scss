@@ -31,6 +31,21 @@ h2 a {
   border-bottom: none;
 }
 
+h2.listing-heading-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+h2.listing-heading-row .listing-actions-group {
+  order: 2;
+}
+
+h2.listing-heading-row .quarto-listing-filter {
+  margin-bottom: 0;
+}
+
 a {
   color: lighten($theme-main, 15%);
   text-decoration: none;
@@ -171,6 +186,7 @@ a.navbar-brand:hover {
 .badge:hover {
   background: $badge-neutral-fg;
   color: #fff !important;
+  opacity: 0.8;
 }
 
 .label-outline {
@@ -400,11 +416,18 @@ div.quarto-about-trestles .about-entity .about-link:hover {
   font-size: 0.833rem;
 }
 
-#quarto-margin-sidebar .quarto-listing-category .category {
+#quarto-margin-sidebar .category-default .category {
   border-radius: 15px;
   padding: 2px 10px;
   margin-bottom: 3px;
-  margin-left: -10px;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+
+#quarto-margin-sidebar .category-cloud .category {
+  border-radius: 4px;
+  padding: 0 3px;
   transition:
     background-color 0.15s ease,
     color 0.15s ease;
@@ -419,9 +442,10 @@ div.quarto-about-trestles .about-entity .about-link:hover {
   background-color: $theme-main;
   color: #fff;
   font-weight: 500;
+  opacity: 0.8;
 }
 
-#quarto-margin-sidebar .quarto-category-count {
+#quarto-margin-sidebar .category-default .quarto-category-count {
   opacity: 0.65;
   font-size: 0.85em;
 }
@@ -489,7 +513,7 @@ div.quarto-post .listing-categories .listing-category:hover {
   background-color: $theme-main;
   color: #fff !important;
   border-color: $theme-main;
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .imgrow {
