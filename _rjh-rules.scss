@@ -472,12 +472,29 @@ div.quarto-about-trestles .about-contents {
   opacity: 0.65;
   font-size: 0.85em;
 }
-.sidebar nav[role="doc-toc"] > ul a:hover {
-  color: #085ad4;
+nav[role="doc-toc"] .nav-link {
+  display: block;
+  border-radius: 15px;
+  padding: 2px 10px;
+  margin-bottom: 3px;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
 }
-.sidebar nav[role="doc-toc"] ul > li > a:hover,
-.sidebar nav[role="doc-toc"] ul > li > ul > li > a:hover {
-  color: #085ad4 !important;
+
+nav[role="doc-toc"] .nav-link:hover {
+  background-color: rgba($theme-main, 0.12);
+  color: $theme-main;
+}
+
+nav[role="doc-toc"] .nav-link.active,
+.sidebar nav[role="doc-toc"] ul > li > a.active,
+.sidebar nav[role="doc-toc"] ul > li > ul > li > a.active {
+  background-color: $theme-main;
+  color: #fff !important;
+  border-left: none;
+  font-weight: 500;
+  opacity: 0.8;
 }
 .quarto-categories,
 .quarto-category,
