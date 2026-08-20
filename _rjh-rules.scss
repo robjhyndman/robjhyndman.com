@@ -207,88 +207,29 @@ a.navbar-brand:hover {
   padding: 5px 5px 3px 5px;
 }
 
-.label-black,
-.badge-black {
-  background: rgba(#0f0f0f, 0.12);
-  color: #0f0f0f;
-}
-.label-black:hover,
-.badge-black:hover,
-a.badge-black:hover {
-  background: #0f0f0f;
-  color: #fff !important;
-}
+$badge-colors: (
+  "black": #0f0f0f,
+  "blue": #4673b8,
+  "red": #bd666d,
+  "green": #2c9f42,
+  "yellow": #ffc800,
+  "white": #ffffff,
+  "grey": $badge-neutral-fg,
+);
 
-.label-blue,
-.badge-blue {
-  background: rgba(#4673b8, 0.12);
-  color: #4673b8;
-}
-.label-blue:hover,
-.badge-blue:hover,
-a.badge-blue:hover {
-  background: #4673b8;
-  color: #fff !important;
-}
+@each $name, $color in $badge-colors {
+  .label-#{$name},
+  .badge-#{$name} {
+    background: rgba($color, 0.12);
+    color: $color;
+  }
 
-.label-red,
-.badge-red {
-  background: rgba(#bd666d, 0.12);
-  color: #bd666d;
-}
-.label-red:hover,
-.badge-red:hover,
-a.badge-red:hover {
-  background: #bd666d;
-  color: #fff !important;
-}
-
-.label-green,
-.badge-green {
-  background: rgba(#2c9f42, 0.12);
-  color: #2c9f42;
-}
-.label-green:hover,
-.badge-green:hover,
-a.badge-green:hover {
-  background: #2c9f42;
-  color: #fff !important;
-}
-
-.label-yellow,
-.badge-yellow {
-  background: rgba(#ffc800, 0.12);
-  color: #ffc800;
-}
-.label-yellow:hover,
-.badge-yellow:hover,
-a.badge-yellow:hover {
-  background: #ffc800;
-  color: #fff !important;
-}
-
-.label-white,
-.badge-white {
-  background: rgba(#ffffff, 0.12);
-  color: #ffffff;
-}
-.label-white:hover,
-.badge-white:hover,
-a.badge-white:hover {
-  background: #ffffff;
-  color: #000 !important;
-}
-
-.label-grey,
-.badge-grey {
-  background: rgba($badge-neutral-fg, 0.12);
-  color: $badge-neutral-fg;
-}
-.label-grey:hover,
-.badge-grey:hover,
-a.badge-grey:hover {
-  background: $badge-neutral-fg;
-  color: #fff !important;
+  .label-#{$name}:hover,
+  .badge-#{$name}:hover,
+  a.badge-#{$name}:hover {
+    background: $color;
+    color: if($name == "white", #000, #fff) !important;
+  }
 }
 
 .image-left {
@@ -505,14 +446,26 @@ nav[role="doc-toc"] .nav-link.active,
   margin-right: 5px;
 }
 
-div.quarto-post {
+/* Shared card styling (blog post / package / template / unit / quote / home / table cards) */
+%card-base {
   border: 1.5px solid rgba($theme-main, 0.2);
   border-radius: 14px;
-  padding: 1.25rem 1.5rem;
   background: $theme-gray;
   transition:
     border-color 0.2s ease,
     box-shadow 0.2s ease;
+}
+
+%card-hover-glow {
+  border-color: $theme-main;
+  box-shadow:
+    0 0 16px 1px rgba($theme-main, 0.18),
+    0 6px 16px rgba($theme-main, 0.12);
+}
+
+div.quarto-post {
+  @extend %card-base;
+  padding: 1.25rem 1.5rem;
 }
 
 div.quarto-post .listing-title a {
@@ -520,10 +473,7 @@ div.quarto-post .listing-title a {
 }
 
 div.quarto-post:hover {
-  border-color: $theme-main;
-  box-shadow:
-    0 0 16px 1px rgba($theme-main, 0.18),
-    0 6px 16px rgba($theme-main, 0.12);
+  @extend %card-hover-glow;
 }
 
 div.quarto-post .thumbnail img {
@@ -669,10 +619,7 @@ textarea {
 }
 
 .recent-updates,
-.recent-updates * {
-  font-family: var(--bs-font-sans-serif);
-}
-
+.recent-updates *,
 .recent-news,
 .recent-news * {
   font-family: var(--bs-font-sans-serif);
@@ -700,22 +647,14 @@ textarea {
 }
 
 .package-card {
+  @extend %card-base;
   display: flex;
   gap: 0.6rem;
-  border: 1.5px solid rgba($theme-main, 0.2);
-  border-radius: 10px;
   padding: 0.6rem 0.75rem;
-  background: $theme-gray;
-  transition:
-    border-color 0.2s ease,
-    box-shadow 0.2s ease;
 }
 
 .package-card:hover {
-  border-color: $theme-main;
-  box-shadow:
-    0 0 12px 1px rgba($theme-main, 0.18),
-    0 4px 12px rgba($theme-main, 0.12);
+  @extend %card-hover-glow;
 }
 
 .package-card-left {
@@ -764,24 +703,16 @@ textarea {
 
 /* Quarto extension/template cards */
 .template-card {
+  @extend %card-base;
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  border: 1.5px solid rgba($theme-main, 0.2);
-  border-radius: 14px;
   padding: 1rem 1.25rem;
   margin-bottom: 1rem;
-  background: $theme-gray;
-  transition:
-    border-color 0.2s ease,
-    box-shadow 0.2s ease;
 }
 
 .template-card:hover {
-  border-color: $theme-main;
-  box-shadow:
-    0 0 16px 1px rgba($theme-main, 0.18),
-    0 6px 16px rgba($theme-main, 0.12);
+  @extend %card-hover-glow;
 }
 
 .template-card-img-link {
@@ -817,10 +748,8 @@ textarea {
 
 /* Seminars table listing */
 .quarto-listing-container-table {
-  border: 1.5px solid rgba($theme-main, 0.2);
-  border-radius: 14px;
+  @extend %card-base;
   padding: 0.75rem 1rem;
-  background: $theme-gray;
   overflow: hidden;
 }
 
@@ -848,21 +777,13 @@ textarea {
 }
 
 .unit-card {
+  @extend %card-base;
   position: relative;
-  border: 1.5px solid rgba($theme-main, 0.2);
-  border-radius: 14px;
   padding: 1rem 1.25rem;
-  background: $theme-gray;
-  transition:
-    border-color 0.2s ease,
-    box-shadow 0.2s ease;
 }
 
 .unit-card:hover {
-  border-color: $theme-main;
-  box-shadow:
-    0 0 16px 1px rgba($theme-main, 0.18),
-    0 6px 16px rgba($theme-main, 0.12);
+  @extend %card-hover-glow;
 }
 
 .unit-card h3 {
@@ -878,11 +799,9 @@ textarea {
 
 /* Research team notice card */
 .quote-card {
-  border: 1.5px solid rgba($theme-main, 0.2);
-  border-radius: 14px;
+  @extend %card-base;
   padding: 1rem 1.25rem;
   margin-bottom: 1.5rem;
-  background: $theme-gray;
 }
 
 .quote-card p {
@@ -980,10 +899,8 @@ textarea {
 }
 
 .home-card {
-  border: 1.5px solid rgba($theme-main, 0.2);
-  border-radius: 14px;
+  @extend %card-base;
   padding: 1rem 1.25rem;
-  background: $theme-gray;
 }
 
 .home-card .recent-heading {
