@@ -49,6 +49,17 @@ h2.listing-heading-row .quarto-listing-filter {
   margin-bottom: 0;
 }
 
+.listing-actions-group .input-group-text {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.listing-actions-group .form-select,
+.listing-actions-group .form-control {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
 a {
   color: lighten($theme-main, 15%);
   text-decoration: none;
@@ -778,8 +789,18 @@ textarea {
 /* Seminars table listing */
 .quarto-listing-container-table {
   @extend %card-base;
-  padding: 0.75rem 1rem;
+  padding: 0;
   overflow: hidden;
+}
+
+.quarto-listing-container-table .cell,
+.quarto-listing-container-table .cell-output-display {
+  margin: 0;
+}
+
+.quarto-listing-container-table .quarto-listing-table {
+  margin: 0;
+  border: none;
 }
 
 .quarto-listing-table tbody tr {

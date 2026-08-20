@@ -19,7 +19,7 @@ listing:
     - title
     - venue
   field-display-names:
-      venue: Venue
+    venue: Venue
 ---
 
 # Seminars I've given (since 2006)

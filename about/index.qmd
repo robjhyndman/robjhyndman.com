@@ -99,12 +99,9 @@ I am a fellow of the following organizations:
 
 ## Academic and research leadership
 
-- **Head**, Department of Econometrics & Business Statistics, Monash University
-  [(2019--2022)]{.year-tag}
-- **Director**, Business & Economic Forecasting Unit, Monash University
-  [(2001--2017)]{.year-tag}
-- **Director of Consulting**, Econometrics and Business Statistics, Monash University
-  [(2000--2014)]{.year-tag}
+- **Head**, Department of Econometrics & Business Statistics, Monash University [(2019--2022)]{.year-tag}
+- **Director**, Business & Economic Forecasting Unit, Monash University [(2001--2017)]{.year-tag}
+- **Director of Consulting**, Econometrics and Business Statistics, Monash University [(2000--2014)]{.year-tag}
 - **Director**, Monash University Statistical Consulting Service [(1997--1998)]{.year-tag}
 - **Director**, Key Centre for Statistical Science [(1996--1998)]{.year-tag}
 
