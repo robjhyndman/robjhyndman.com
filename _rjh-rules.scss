@@ -834,3 +834,38 @@ textarea {
   position: absolute;
   inset: 0;
 }
+
+/* Research team notice card */
+.quote-card {
+  border: 1.5px solid rgba($theme-main, 0.2);
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  background: $theme-gray;
+}
+
+.quote-card p {
+  margin-bottom: 0.5rem;
+}
+
+.quote-card p:last-child {
+  margin-bottom: 0;
+}
+
+/* Research team bio lists */
+.team-list li {
+  margin: 0.2rem 0;
+  color: darken($theme-gray, 45%);
+  font-size: 0.9rem;
+}
+
+.team-list li strong,
+.team-list li em {
+  color: $body-color;
+  font-size: 1rem;
+}
+
+.team-list li::marker {
+  color: $theme-main;
+  font-weight: bold;
+}
