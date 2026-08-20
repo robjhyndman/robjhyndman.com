@@ -797,3 +797,40 @@ textarea {
   padding: 0.5em 0.5em !important;
   opacity: 0.8;
 }
+
+/* Teaching unit cards */
+.unit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.unit-card {
+  position: relative;
+  border: 1.5px solid rgba($theme-main, 0.2);
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  background: $theme-gray;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.unit-card:hover {
+  border-color: $theme-main;
+  box-shadow:
+    0 0 16px 1px rgba($theme-main, 0.18),
+    0 6px 16px rgba($theme-main, 0.12);
+}
+
+.unit-card h3 {
+  margin-top: 0;
+  border-bottom: none;
+}
+
+.unit-card .badge::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
