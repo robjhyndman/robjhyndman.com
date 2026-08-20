@@ -8,6 +8,7 @@ toc-depth: 2
 ```{r}
 #| label: functions
 #| include: false
+
 library(tidyverse)
 source(here::here("software/software_functions.R"))
 ```
@@ -21,7 +22,7 @@ h1 {
 }
 ```
 
-#### [Repository Dashboard](https://pkg.robjhyndman.com/gh-dashboard/){.badge .badge-large} [R Universe](https://robjhyndman.r-universe.dev/){.badge .badge-large}
+[Repository Dashboard](https://pkg.robjhyndman.com/gh-dashboard/){.badge .badge-large} [R Universe](https://robjhyndman.r-universe.dev/){.badge .badge-large}
 
 # CRAN task views
 
@@ -35,6 +36,7 @@ h1 {
 #| output: asis
 #| warning: false
 #| message: false
+
 packages <- rjh_packages() |>
   suppressMessages() |>
   suppressWarnings()
@@ -54,16 +56,18 @@ for (i in seq_along(sections)) {
 #| label: quarto_extensions
 #| output: asis
 #| echo: false
+
 extensions <- tibble::tribble(
-  ~repo          , ~description                                                                                         ,
-  "exam"         , "Create an exam for Monash Business School"                                                          ,
-  "letter"       , "Create a letter on Monash Business School letterhead"                                               ,
-  "memo"         , "Create a memo with optional Monash Business School branding"                                        ,
-  "presentation" , "Create a Monash University themed presentation using either Beamer or RevealJS"                     ,
-  "report"       , "Create a Monash Business School consulting report"                                                  ,
-  "thesis"       , "Create a Monash University thesis"                                                                  ,
-  "unit"         , "Create a unit website for Monash Business School"                                                   ,
-  "workingpaper" , "Create a working paper for the Department of Econometrics & Business Statistics, Monash University" ,
+  ~repo            , ~description                                                                                         ,
+  "exam"           , "Create an exam for Monash Business School"                                                          ,
+  "letter"         , "Create a letter on Monash Business School letterhead"                                               ,
+  "memo"           , "Create a memo with optional Monash Business School branding"                                        ,
+  "presentation"   , "Create a Monash University themed presentation using either Beamer or RevealJS"                     ,
+  "report"         , "Create a Monash Business School consulting report"                                                  ,
+  "thesis"         , "Create a Monash University thesis"                                                                  ,
+  "honours-thesis" , "Create a Monash University honours thesis"                                                          ,
+  "unit"           , "Create a unit website for Monash Business School"                                                   ,
+  "workingpaper"   , "Create a working paper for the Department of Econometrics & Business Statistics, Monash University" ,
 )
 for (i in seq_len(nrow(extensions))) {
   quarto_extension(extensions$repo[i], extensions$description[i])
@@ -76,6 +80,7 @@ for (i in seq_len(nrow(extensions))) {
 #| label: other_extensions
 #| output: asis
 #| echo: false
+
 quarto_extension(
   "ims-journals",
   "Create a submission for an IMS journal such as <em>Statistical Science</em> or <em>Annals of Applied Statistics</em>"

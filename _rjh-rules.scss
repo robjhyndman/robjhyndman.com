@@ -646,3 +646,127 @@ textarea {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
+
+/* Software package cards */
+.package-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.package-card {
+  display: flex;
+  gap: 0.6rem;
+  border: 1.5px solid rgba($theme-main, 0.2);
+  border-radius: 10px;
+  padding: 0.6rem 0.75rem;
+  background: $theme-gray;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.package-card:hover {
+  border-color: $theme-main;
+  box-shadow:
+    0 0 12px 1px rgba($theme-main, 0.18),
+    0 4px 12px rgba($theme-main, 0.12);
+}
+
+.package-card-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 105px;
+}
+
+.package-card-right {
+  flex: 1;
+  min-width: 0;
+}
+
+.package-hex {
+  width: 105px;
+  height: 105px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.package-card-desc {
+  font-size: 0.9rem;
+  line-height: 1.35;
+  margin-bottom: 0.4rem;
+}
+
+.package-card-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.package-card-badges .badge {
+  margin: 0;
+}
+
+.package-card-downloads {
+  font-family: $font-family-sans-serif;
+  font-size: 0.8rem;
+  color: $badge-neutral-fg;
+  opacity: 0.6;
+  margin-top: 0.3rem;
+}
+
+/* Quarto extension/template cards */
+.template-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border: 1.5px solid rgba($theme-main, 0.2);
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  background: $theme-gray;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.template-card:hover {
+  border-color: $theme-main;
+  box-shadow:
+    0 0 16px 1px rgba($theme-main, 0.18),
+    0 6px 16px rgba($theme-main, 0.12);
+}
+
+.template-card-img-link {
+  display: contents;
+}
+
+.template-card-img {
+  width: 140px;
+  height: 200px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.template-card-body {
+  flex: 1;
+  min-width: 0;
+  align-self: flex-start;
+}
+
+.template-card-body h3 {
+  margin-top: 0;
+}
+
+.template-card-cmd {
+  background: $badge-neutral-bg;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.85rem;
+  margin: 0.5rem 0 0 0;
+  overflow-x: auto;
+}

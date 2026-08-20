@@ -39,7 +39,7 @@ create_generic_sticker <- function(name) {
 package_table <- function(packages) {
   z <- packages
   out <- paste0("## ", z$section[1], "\n\n")
-  out <- paste0(out, "<table>")
+  out <- paste0(out, "<div class='package-grid'>")
   for (i in seq(NROW(z))) {
     # Create title with extras
     if (!is.na(z$publication[i])) {
@@ -62,49 +62,67 @@ package_table <- function(packages) {
         "</a>"
       )
     }
-    out <- paste0(out, "\n<tr>")
+    out <- paste0(out, "\n<div class='package-card'>")
     out <- paste0(
       out,
-      "\n  <td><a href='",
+      "\n  <div class='package-card-left'>",
+      "<a href='",
       z$url[i],
       "'><img src='",
       z$hex[i],
-      "' width='70px' style='vertical-align:middle'></a></td>"
+      "' class='package-hex' alt='",
+      z$package[i],
+      " hex logo'></a></div>"
     )
-    out <- paste0(out, "\n  <td width='55%'>", z$title[i], ".</td>")
+    out <- paste0(out, "\n  <div class='package-card-right'>")
+    out <- paste0(
+      out,
+      "\n  <p class='package-card-desc'>",
+      z$title[i],
+      ".</p>"
+    )
+    out <- paste0(out, "\n  <div class='package-card-badges'>")
+    if (
+      !is.na(z$url[i]) &&
+        (is.na(z$github_url[i]) || z$url[i] != z$github_url[i]) &&
+        (is.na(z$cran_url[i]) || z$url[i] != z$cran_url[i])
+    ) {
+      out <- paste0(
+        out,
+        "<a href='",
+        z$url[i],
+        "' class='badge badge-small'>Website</a>"
+      )
+    }
     if (!is.na(z$github_url[i])) {
       out <- paste0(
         out,
-        "\n  <td><a href=",
+        "<a href=",
         z$github_url[i],
-        " class='badge badge-small badge-green'>Github</a></td>"
+        " class='badge badge-small badge-green'>Github</a>"
       )
-    } else {
-      out <- paste0(out, "\n  <td>\n</td>")
     }
     if (!is.na(z$cran_url[i])) {
       out <- paste0(
         out,
-        "\n  <td><a href=",
+        "<a href=",
         z$cran_url[i],
-        " class='badge badge-small badge-blue'>CRAN</a></td>"
+        " class='badge badge-small badge-blue'>CRAN</a>"
       )
-    } else {
-      out <- paste0(out, "\n  <td></td>")
     }
+    out <- paste0(out, "</div>")
     if (!is.na(z$downloads[i])) {
       out <- paste0(
         out,
-        "\n  <td>Monthly downloads:<br>",
+        "\n  <div class='package-card-downloads'>",
         round(z$downloads[i]),
-        "</td>"
+        " downloads/month</div>"
       )
-    } else {
-      out <- paste0(out, "\n  <td></td>")
     }
-    out <- paste0(out, "\n</tr>")
+    out <- paste0(out, "\n  </div>")
+    out <- paste0(out, "\n</div>")
   }
-  out <- paste0(out, "\n</table>\n\n")
+  out <- paste0(out, "\n</div>\n\n")
   cat(out)
 }
 
@@ -550,7 +568,15 @@ quarto_extension <- function(repo, description) {
     repo_url <- paste0("https://github.com/quarto-monash/", repo)
     section <- paste(
       "Monash",
-      tools::toTitleCase(if (repo == "workingpaper") "Working paper" else repo),
+      tools::toTitleCase(
+        if (repo == "workingpaper") {
+          "Working paper"
+        } else if (repo == "honours-thesis") {
+          "Honours thesis"
+        } else {
+          repo
+        }
+      ),
       "Template"
     )
     if (repo == "unit") {
@@ -566,19 +592,21 @@ quarto_extension <- function(repo, description) {
     repo <- paste0("quarto-monash/", repo)
   }
   cat(
-    "<table>\n<tr>\n<td><a href='",
+    "<div class='template-card'>\n<a href='",
     repo_url,
-    "'><img src='",
+    "' class='template-card-img-link'><img src='",
     img,
-    "' class='img-fluid' width=120></a></td>\n<td valign='top' width='85%'>\n\n### [",
+    "' class='template-card-img' alt='",
+    section,
+    " example'></a>\n<div class='template-card-body'>\n\n### [",
     section,
     "](",
     repo_url,
     ")\n\n",
     description,
-    ".\n\n<pre><code>quarto use template ",
+    ".\n\n<pre class='template-card-cmd'><code>quarto use template ",
     repo,
-    "</code></pre></td>\n</tr>\n</table>",
+    "</code></pre>\n</div>\n</div>\n\n",
     sep = ""
   )
 }
