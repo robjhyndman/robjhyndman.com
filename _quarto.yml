@@ -45,6 +45,8 @@ format:
       light:
         - tango
         - rjh.scss
+      dark:
+        - rjh-dark.scss
     toc: true
     mainfont: "Merriweather, Georgia, serif"
     html-math-method: katex

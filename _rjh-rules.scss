@@ -1,0 +1,624 @@
+body {
+  line-height: 1.5em;
+}
+
+form,
+input[type="search"],
+select[multiple="multiple"] {
+  font-family: $font-family-sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $font-family-sans-serif;
+  color: $theme-main;
+  font-weight: bold;
+}
+
+h1 {
+  padding-bottom: 1em;
+  line-height: 1.6em;
+}
+
+h2 {
+  border-bottom: 1px solid lighten($theme-main, 30%);
+}
+
+h2 a {
+  border-bottom: none;
+}
+
+a {
+  color: lighten($theme-main, 15%);
+  text-decoration: none;
+  font-weight: inherit;
+}
+
+a:hover {
+  color: #085ad4;
+}
+
+hr {
+  border-top: 1px solid lighten($theme-main, 40%);
+  margin-top: 5ex;
+  margin-bottom: 5ex;
+  max-width: 100%;
+}
+
+blockquote {
+  background: $theme-gray;
+  border-left: 10px solid darken($theme-gray, 30%);
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+  font-style: normal;
+  font-size: 95%;
+}
+
+blockquote p {
+  color: darken($theme-gray, 70%);
+  display: inline;
+}
+
+blockquote:before {
+  color: darken($theme-gray, 30%);
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.table {
+  --bs-table-bg: #{$theme-gray};
+}
+
+td,
+th {
+  background-color: lighten($theme-gray, 20%) !important;
+}
+
+table th,
+table td {
+  border-bottom: 0px !important;
+  padding: 0.2em 0.2em;
+}
+
+ul {
+  list-style: square;
+}
+
+dd {
+  margin-left: 2em;
+}
+
+/* =Code
+-----------------------------------------------------------------------------*/
+pre,
+code,
+kbd,
+samp,
+var,
+output {
+  font-size: 1rem !important;
+  font-style: normal;
+  font-family: $font-family-monospace !important;
+  font-variant-ligatures: normal !important;
+}
+
+nav,
+.footer {
+  font-family: $font-family-sans-serif;
+  font-size: 100%;
+}
+
+nav p,
+.footer p {
+  margin-block-start: 0em;
+  margin-block-end: -0.6em;
+}
+
+.nav-footer {
+  padding-bottom: 0 !important;
+}
+
+a.nav-link:hover,
+a.navbar-brand:hover {
+  color: #fff !important;
+}
+
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.nav-footer {
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Badges */
+.badge-large {
+  font-size: 1.125rem !important;
+  text-transform: none !important;
+  padding: 5px 5px 3px 5px;
+  text-transform: none;
+  font-family: $font-family-sans-serif;
+}
+
+.badge {
+  font-family: $font-family-sans-serif;
+}
+
+.label,
+.badge {
+  background: rgba($badge-neutral-fg, 0.12);
+  font-size: 0.8rem;
+  display: inline-block;
+  line-height: 1;
+  padding: 4px 7px 3px 7px;
+  color: $badge-neutral-fg;
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.label:hover,
+.badge:hover {
+  background: $badge-neutral-fg;
+  color: #fff !important;
+}
+
+.label-outline {
+  background: none;
+  border: 1px solid $theme-main;
+  padding: 3px 6px 2px 6px;
+}
+
+.badge {
+  border-radius: 15px;
+}
+
+.badge-small {
+  font-size: 0.7rem;
+  padding: 5px 5px 3px 5px;
+}
+
+.label-black,
+.badge-black {
+  background: rgba(#0f0f0f, 0.12);
+  color: #0f0f0f;
+}
+.label-black:hover,
+.badge-black:hover,
+a.badge-black:hover {
+  background: #0f0f0f;
+  color: #fff !important;
+}
+
+.label-blue,
+.badge-blue {
+  background: rgba(#4673b8, 0.12);
+  color: #4673b8;
+}
+.label-blue:hover,
+.badge-blue:hover,
+a.badge-blue:hover {
+  background: #4673b8;
+  color: #fff !important;
+}
+
+.label-red,
+.badge-red {
+  background: rgba(#bd666d, 0.12);
+  color: #bd666d;
+}
+.label-red:hover,
+.badge-red:hover,
+a.badge-red:hover {
+  background: #bd666d;
+  color: #fff !important;
+}
+
+.label-green,
+.badge-green {
+  background: rgba(#2c9f42, 0.12);
+  color: #2c9f42;
+}
+.label-green:hover,
+.badge-green:hover,
+a.badge-green:hover {
+  background: #2c9f42;
+  color: #fff !important;
+}
+
+.label-yellow,
+.badge-yellow {
+  background: rgba(#ffc800, 0.12);
+  color: #ffc800;
+}
+.label-yellow:hover,
+.badge-yellow:hover,
+a.badge-yellow:hover {
+  background: #ffc800;
+  color: #fff !important;
+}
+
+.label-white,
+.badge-white {
+  background: rgba(#ffffff, 0.12);
+  color: #ffffff;
+}
+.label-white:hover,
+.badge-white:hover,
+a.badge-white:hover {
+  background: #ffffff;
+  color: #000 !important;
+}
+
+.label-grey,
+.badge-grey {
+  background: rgba($badge-neutral-fg, 0.12);
+  color: $badge-neutral-fg;
+}
+.label-grey:hover,
+.badge-grey:hover,
+a.badge-grey:hover {
+  background: $badge-neutral-fg;
+  color: #fff !important;
+}
+
+.image-left {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+.quarto-title-meta {
+  font-family: $font-family-sans-serif;
+  background-color: $badge-neutral-bg;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.quarto-title-meta-heading {
+  margin: 1ex 1ex 0 1ex !important;
+}
+
+.quarto-title-meta-contents {
+  margin: 0ex 1ex 1ex 1ex !important;
+}
+
+#title-block-header.quarto-title-block.default {
+  .quarto-title-meta {
+    display: grid;
+    grid-template-columns: minmax(max-content, 1fr) 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1em;
+  }
+}
+
+.video-player {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.youtube-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.figure-caption {
+  color: darken($theme-gray, 40%);
+  background-color: $theme-gray;
+  padding-left: 20px;
+  font-size: 1rem;
+  font-family: $font-family-sans-serif;
+}
+
+/* ---- About (trestles) tweaks ---- */
+
+/* Ensure the subtitle (your name/address block) is left aligned on ALL screen sizes.
+   The trestles template applies centering on narrow viewports; we override that here. */
+div.quarto-about-trestles .about-entity,
+div.quarto-about-trestles .about-entity .about-subtitle,
+div.quarto-about-trestles .about-entity p.subtitle,
+div.quarto-about-trestles .about-entity .subtitle {
+  text-align: left !important;
+}
+
+/* If the about template uses flexbox on some breakpoints, keep items left aligned */
+div.quarto-about-trestles .about-entity {
+  align-items: flex-start;
+}
+
+div.quarto-about-trestles .about-entity .about-links {
+  display: flow-root;
+}
+
+div.quarto-about-trestles .about-entity .about-link {
+  border: none;
+  font-size: 1.667rem;
+  column-gap: 0.2em;
+  color: $theme-main;
+}
+
+@media (max-width: 991.98px) {
+  div.quarto-about-trestles .about-entity .about-link {
+    column-gap: 0.2em;
+    padding: 5pt !important;
+  }
+}
+
+div.quarto-about-trestles .about-entity .about-link:hover {
+  background-color: $theme-main;
+  color: #fff;
+}
+
+.quarto-category:hover,
+.listing-category:hover {
+  background-color: $theme-main;
+  color: #fff !important;
+}
+
+.badge-grey:hover a {
+  color: #fff !important;
+}
+
+.badge-grey a {
+  border-bottom: 0 !important;
+}
+
+.quarto-category,
+.quarto-listing-category,
+.listing-category,
+.listing-actions-group,
+.about-link-text {
+  font-family: $font-family-sans-serif;
+}
+
+#quarto-margin-sidebar .quarto-listing-category-title {
+  color: $theme-main;
+  margin-bottom: 0.5rem;
+}
+
+#quarto-margin-sidebar .category-default {
+  font-size: 0.833rem;
+}
+
+#quarto-margin-sidebar .quarto-listing-category .category {
+  border-radius: 15px;
+  padding: 2px 10px;
+  margin-bottom: 3px;
+  margin-left: -10px;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+
+#quarto-margin-sidebar .quarto-listing-category .category:hover {
+  background-color: rgba($theme-main, 0.12);
+  color: $theme-main;
+}
+
+#quarto-margin-sidebar .quarto-listing-category .category.active {
+  background-color: $theme-main;
+  color: #fff;
+  font-weight: 500;
+}
+
+#quarto-margin-sidebar .quarto-category-count {
+  opacity: 0.65;
+  font-size: 0.85em;
+}
+.sidebar nav[role="doc-toc"] > ul a:hover {
+  color: #085ad4;
+}
+.sidebar nav[role="doc-toc"] ul > li > a:hover,
+.sidebar nav[role="doc-toc"] ul > li > ul > li > a:hover {
+  color: #085ad4 !important;
+}
+.quarto-categories,
+.quarto-category,
+.listing-category {
+  line-height: 1.8em !important;
+  padding: 1px 5px 0 5px;
+  margin-left: -5px;
+  margin-right: 5px;
+}
+
+div.quarto-post {
+  border: 1.5px solid rgba($theme-main, 0.2);
+  border-radius: 14px;
+  padding: 1.25rem 1.5rem;
+  background: $theme-gray;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+div.quarto-post:hover {
+  border-color: $theme-main;
+  box-shadow:
+    0 0 16px 1px rgba($theme-main, 0.18),
+    0 6px 16px rgba($theme-main, 0.12);
+}
+
+div.quarto-post .thumbnail img {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+div.quarto-post .metadata {
+  font-size: 0.9rem;
+  font-family: $font-family-sans-serif;
+}
+div.quarto-post .listing-categories .listing-category {
+  background: none;
+  color: $theme-main;
+  opacity: 0.7;
+  text-align: center;
+  border: 1px solid rgba($theme-main, 0.4);
+  border-radius: 15px;
+  font-size: 0.7rem;
+  padding: 1px 8px 0 8px;
+  margin-left: 0;
+  margin-right: 9px;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease,
+    border-color 0.15s ease,
+    opacity 0.15s ease;
+}
+
+div.quarto-post .listing-categories .listing-category:hover {
+  background-color: $theme-main;
+  color: #fff !important;
+  border-color: $theme-main;
+  opacity: 1;
+}
+
+.imgrow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+/* Create four equal columns that sits next to each other */
+.imgcolumn {
+  flex: 25%;
+  max-width: 20%;
+  padding: 0px;
+  text-align: center;
+}
+
+.imgcolumn img {
+  margin-top: 0px;
+  vertical-align: middle;
+  border-radius: 6px;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.imgcolumn img:hover {
+  transform: scale(1.05) translateY(-3px);
+  box-shadow:
+    0 0 16px 1px rgba($theme-main, 0.25),
+    0 10px 20px rgba($theme-main, 0.2);
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .imgcolumn {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .imgcolumn {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.list li {
+  margin: 10px 0;
+}
+
+#quarto-appendix.default {
+  background-color: $body-bg;
+  border-top: none;
+  padding-top: 0;
+}
+#quarto-appendix.default .quarto-appendix-heading {
+  font-size: 1.3rem !important;
+  border-bottom: 1px solid lighten($theme-main, 30%);
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  border-radius: 6px;
+  font-family: $font-family-sans-serif;
+}
+
+.page-link.active,
+.active > .page-link {
+  color: #fff;
+  background-color: $theme-main;
+}
+
+/*
+  Optional: place the subtitle (your address/affiliation block) BELOW the icon links
+  in the trestles about sidebar.
+
+  If this doesn't take effect, open your browser devtools and inspect the
+  left column; adjust the selectors for the subtitle / links containers.
+*/
+@media (min-width: 992px) {
+  .quarto-about-trestles .about-entity {
+    display: flex;
+    flex-direction: column;
+    font-family: $font-family-sans-serif;
+  }
+
+  /* Try common class names for the links area */
+  .quarto-about-trestles .about-entity .about-links,
+  .quarto-about-trestles .about-entity .about-link,
+  .quarto-about-trestles .about-entity .about-links-container {
+    order: 2;
+  }
+
+  /* Try common class names for the subtitle */
+  .quarto-about-trestles .about-entity .about-subtitle,
+  .quarto-about-trestles .about-entity p.subtitle,
+  .quarto-about-trestles .about-entity .subtitle {
+    order: 3;
+    margin-top: 0.75rem;
+  }
+}
+
+.recent-updates,
+.recent-updates * {
+  font-family: var(--bs-font-sans-serif);
+}
+
+.recent-news,
+.recent-news * {
+  font-family: var(--bs-font-sans-serif);
+}
+
+.recent-heading {
+  margin-top: 0.6em;
+  margin-bottom: 0.3em;
+}
+
+/* Remove extra vertical space after listings on the front page */
+.frontpage-listing,
+.frontpage-listing .quarto-listing,
+.frontpage-listing .quarto-listing-container {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
