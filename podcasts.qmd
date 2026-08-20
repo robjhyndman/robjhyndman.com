@@ -1,7 +1,10 @@
 
+::: {.quarto-listing-container-table}
+
 ```{r}
 #| echo: false
 #| message: false
+#| html-table-processing: none
 library(tidyverse)
 library(knitr)
 library(kableExtra)
@@ -26,9 +29,25 @@ tribble(
   arrange(desc(Date)) |>
   mutate(Date = format(as_date(Date), "%e %B %Y")) |>
   select(-url) |>
-  kable(format = "html", escape = FALSE) |>
+  kable(format = "html", escape = FALSE, table.attr = 'class="quarto-listing-table table"') |>
   kable_styling(full_width = TRUE) |>
   column_spec(1, width = "25%") |>
   column_spec(2, width = "30%", bold = TRUE) |>
   column_spec(3, width = "45%")
 ```
+
+:::
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".quarto-listing-container-table .quarto-listing-table tbody tr").forEach(function (row) {
+    row.addEventListener("click", function (e) {
+      if (e.target.closest("a")) return;
+      const link = row.querySelector("a");
+      if (link) {
+        window.location.href = link.href;
+      }
+    });
+  });
+});
+</script>
