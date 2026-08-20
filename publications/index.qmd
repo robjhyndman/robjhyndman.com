@@ -27,6 +27,8 @@ language:
 &nbsp;&nbsp;&nbsp;&nbsp;
 [Google Scholar &nbsp; {{< ai google-scholar >}}](https://scholar.google.com/citations?user=vamErfkAAAAJ){.badge .badge-large}
 
+<div id="books-section">
+
 ## Books
 
 <div class="imgrow">
@@ -47,4 +49,72 @@ language:
 </div>
 </div>
 
-## Papers
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const categoryContainer = document.querySelector(".quarto-listing-category.category-default");
+  const booksSection = document.getElementById("books-section");
+  if (!categoryContainer || !booksSection) return;
+
+  // Add a "Books" entry to the Type filter, in alphabetical order
+  const bookCount = booksSection.querySelectorAll(".imgcolumn").length;
+  const booksEl = document.createElement("div");
+  booksEl.className = "category";
+  booksEl.setAttribute("data-category", btoa("Books"));
+  booksEl.innerHTML = "Books <span class=\"quarto-category-count\">(" + bookCount + ")</span>";
+  booksEl.onclick = function () {
+    window.quartoListingCategory(booksEl.getAttribute("data-category"));
+  };
+
+  const others = Array.from(categoryContainer.querySelectorAll(".category"))
+    .filter((el) => el.getAttribute("data-category") !== "");
+  const insertBefore = others.find(
+    (el) => el.textContent.trim().replace(/\s*\(\d+\)$/, "").localeCompare("Books") > 0
+  );
+  if (insertBefore) {
+    categoryContainer.insertBefore(booksEl, insertBefore);
+  } else {
+    categoryContainer.appendChild(booksEl);
+  }
+
+  // Hide the Books section whenever a different category is selected,
+  // and hide the Papers heading and listing (filter box included) when Books is selected
+  const sidebar = document.getElementById("quarto-margin-sidebar");
+  const papersHeadingText = document.getElementById("papers-heading");
+  const papersHeadingEl = papersHeadingText ? papersHeadingText.closest("h2") : null;
+  const papersListing = document.getElementById("listing-listing");
+
+  // Move the listing's filter box up into the heading row, to the right of the title
+  const filterBox = papersListing ? papersListing.querySelector(".listing-actions-group") : null;
+  if (papersHeadingEl && filterBox) {
+    papersHeadingEl.classList.add("listing-heading-row");
+    papersHeadingEl.appendChild(filterBox);
+  }
+  function updateBooksVisibility() {
+    const activeEl = categoryContainer.querySelector(".category.active");
+    const active = activeEl
+      ? decodeURIComponent(atob(activeEl.getAttribute("data-category")))
+      : "";
+    booksSection.style.display = active === "" || active === "Books" ? "" : "none";
+    if (papersListing) {
+      papersListing.style.display = active === "Books" ? "none" : "";
+    }
+    if (papersHeadingEl) {
+      if (active === "Books") {
+        papersHeadingEl.style.display = "none";
+      } else {
+        papersHeadingEl.style.display = "";
+        papersHeadingText.textContent = active === "" ? "All papers" : active;
+      }
+    }
+  }
+  sidebar.addEventListener("click", function () {
+    setTimeout(updateBooksVisibility, 0);
+  });
+  updateBooksVisibility();
+  setTimeout(updateBooksVisibility, 0);
+});
+</script>
+
+## [Papers]{#papers-heading}
