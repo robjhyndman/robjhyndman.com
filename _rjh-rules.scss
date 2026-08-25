@@ -576,6 +576,22 @@ div.quarto-post .listing-categories .listing-category:hover {
   opacity: 0.8;
 }
 
+/* Post descriptions can contain markdown formatting (emphasis, code, links)
+   meant for the styled preamble on the post page itself. Strip that
+   formatting back to plain text in the blog listing. */
+.listing-description em,
+.listing-description strong,
+.listing-description code,
+.listing-description a {
+  font-style: normal;
+  font-weight: normal;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+  background: none;
+}
+
 .imgrow {
   display: flex;
   flex-wrap: wrap;

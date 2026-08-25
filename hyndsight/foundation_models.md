@@ -7,11 +7,10 @@ bibliography: [foundation.bib]
 image: https://otexts.com/fpp3/fpp_files/figure-html/cv1-1.png
 csl: ../files/apa-single-spaced.csl
 description: >-
-  I was emailed by a journalist writing an article about time series foundation models.
-  Here is my response.
+  *I was emailed by a journalist writing an article about time series foundation models.*
+  *Here is my response.*
+  *While the questions were about a specific new transformer model, the comments are more widely applicable, so I've edited my answer to be more generic.*
 ---
-
-*While the questions were about a specific new transformer model, the comments are more widely applicable, so I've edited my answer to be more generic.*
 
 As background, I would point you to my online forecasting textbook where we have a chapter on foundation models\ [@fpppy].
 Another excellent reference on this topic is Christoph Bergmeir's paper "LLMs and Foundational Models: Not (Yet) as Good as Hoped"\ [@Bergmeir2024llms].
