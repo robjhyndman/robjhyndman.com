@@ -13,7 +13,7 @@ Here are some of the news items I've found:<!--more-->
 - [CBC](http://www.cbc.ca/news/world/gun-control-us-nra-trump-1.4095837)
 - [CNN](http://edition.cnn.com/2017/05/01/health/gun-sales-mass-shootings-study/index.html)
 - [Daily Wire](http://www.dailywire.com/news/16005/what-did-californians-do-after-mass-shootings-they-joseph-curl)
-- [EurekaAlert!](https://www.eurekalert.org/pub_releases/2017-05/acop-lsi042517.php)
+- [EurekaAlert!](https://web.archive.org/web/20210518050947/https://eurekalert.org/pub_releases/2017-05/acop-lsi042517.php)
 - [Guns](http://www.guns.com/2017/05/03/mass-shootings-encourage-first-time-gun-owners-in-california-study-finds/)
 - [Healio](http://www.healio.com/internal-medicine/psychiatry/news/online/%7Bc8104d06-cd82-4423-a8b4-6422c4c63d71%7D/number-of-handgun-acquisitions-increase-after-mass-shootings)
 - [International Business Times](http://www.ibtimes.com/why-do-gun-sales-us-spike-after-mass-shootings-2607059)
