@@ -12,7 +12,7 @@ categories:
 And the winners are ... [Jeremy Howard and Lee C Baker](http://kaggle.com/team?team_id=1145).
 (See my [earlier post](https://robjhyndman.com/hyndsight/tfc1/) for information about the competition.)
 
-Jeremy describes his approach to seasonal time series in a [blog post on Kaggle.com](https://web.archive.org/web/20101210183622/http://kaggle.com/blog/2010/11/24/how-we-did-it-jeremy-howard-on-winning-the-tourism-forecasting-competitoin/). Lee described his approach to annual time series in an [earlier post](https://web.archive.org/web/20250817173252/https://www.kaggle.com/blog/2010/09/27/how-i-did-it-lee-baker-on-winning-tourism-forecasting-part-one/).
+Jeremy describes his approach to seasonal time series in a [blog post on Kaggle.com](https://web.archive.org/web/20101210183622/http://kaggle.com/blog/2010/11/24/how-we-did-it-jeremy-howard-on-winning-the-tourism-forecasting-competitoin/). Lee described his approach to annual time series in an [earlier post](https://web.archive.org/web/20101124140123/http://kaggle.com/blog/2010/09/27/how-i-did-it-lee-baker-on-winning-tourism-forecasting-part-one/).
 
 A few lessons that come out of this:
 
