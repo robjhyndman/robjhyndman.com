@@ -1,8 +1,19 @@
 <ul class="recent-updates">
   <% for (const item of items) { %>
+    <%
+      const path = item.path || "";
+      let icon = "bi-newspaper";
+      let category = "News";
+      if (path.includes("/publications/")) { icon = "bi-file-earmark-text"; category = "Publication"; }
+      else if (path.includes("/seminars/")) { icon = "bi-mic"; category = "Seminar"; }
+      else if (path.includes("/hyndsight/")) { icon = "bi-pencil-square"; category = "Blog post"; }
+      const href = item.path || item.href;
+    %>
     <li>
-      <a href="<%- item.path %>" class="recent-updates-title"><%- item.title %></a>
+      <i class="bi <%- icon %> recent-updates-icon" title="<%- category %>" aria-hidden="true"></i>
+      <a href="<%- href %>" class="recent-updates-title"><%- item.title %></a>
       <% if (item.date) { %> <span class="recent-updates-date">(<%- item.date %>)</span><% } %>
+      <span class="visually-hidden"><%- category %></span>
     </li>
     <% } %>
 </ul>

@@ -27,7 +27,7 @@ listing:
     exclude:
       exclude-from-recent: true
     sort: "date desc"
-    max-items: 3
+    max-items: 2
     template: "updates.ejs"
     sort-ui: false
     filter-ui: false
@@ -38,7 +38,7 @@ listing:
     exclude:
       exclude-from-recent: true
     sort: "date desc"
-    max-items: 3
+    max-items: 2
     template: "updates.ejs"
     sort-ui: false
     filter-ui: false
@@ -49,7 +49,7 @@ listing:
     exclude:
       exclude-from-recent: true
     sort: "date desc"
-    max-items: 3
+    max-items: 2
     template: "updates.ejs"
     sort-ui: false
     filter-ui: false
@@ -57,42 +57,29 @@ listing:
   - id: recent-news
     contents: news.yml
     sort: "date desc"
-    max-items: 3
-    template: "news-updates.ejs"
+    max-items: 2
+    template: "updates.ejs"
     field-types:
       date: date
     sort-ui: false
     filter-ui: false
 ---
 
-::: {.home-grid}
+::: {.home-books}
+[![](/img/fpp3_cover.jpg)](https://OTexts.org/fpp3/)
+[![](/img/fpppy_cover.jpg)](https://OTexts.org/fpppy/)
+[![](/expsmooth/expsmooth.jpg)](/expsmooth/)
+:::
 
 ::: {.home-card}
-### [Recent publications](/publications/) {.recent-heading}
+### Recent updates {.recent-heading}
 
 ::: {#recent-publications .frontpage-listing}
 :::
-:::
-
-::: {.home-card}
-### [Recent seminars](/seminars) {.recent-heading}
-
 ::: {#recent-seminars .frontpage-listing}
 :::
-:::
-
-::: {.home-card}
-### [Recent blog posts](/hyndsight) {.recent-heading}
-
 ::: {#recent-hyndsight .frontpage-listing}
 :::
-:::
-
-::: {.home-card}
-### [Recent news items](/news.qmd) {.recent-heading}
-
 ::: {#recent-news .frontpage-listing}
 :::
-:::
-
 :::

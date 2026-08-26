@@ -715,6 +715,11 @@ textarea {
   padding-bottom: 0 !important;
 }
 
+/* Space out each category group, since items within a group sit close together */
+.frontpage-listing + .frontpage-listing {
+  margin-top: 0.6rem;
+}
+
 /* Software package cards */
 .package-grid {
   display: grid;
@@ -968,10 +973,13 @@ textarea {
 /* Recent-items lists (homepage cards + news page) */
 .recent-news li,
 .recent-updates li {
-  margin: 0.5rem 0;
   padding: 2px 4px;
   border-radius: 4px;
   transition: background-color 0.15s ease;
+}
+
+.recent-news li {
+  margin: 0.5rem 0;
 }
 
 .recent-news li:hover,
@@ -979,10 +987,31 @@ textarea {
   background-color: rgba($theme-main, 0.06);
 }
 
-.recent-news li::marker,
-.recent-updates li::marker {
+.recent-news li::marker {
   color: $theme-main;
   font-weight: bold;
+}
+
+/* Homepage recent-updates: icon stands in for the bullet */
+.recent-updates {
+  margin: 0;
+  padding: 0;
+}
+
+.recent-updates li {
+  list-style: none;
+  position: relative;
+  padding-left: 1.4rem;
+  margin: 0.05rem 0;
+}
+
+.recent-updates-icon {
+  position: absolute;
+  left: 4px;
+  top: 0.3em;
+  color: $theme-main;
+  width: 1em;
+  text-align: center;
 }
 
 .recent-news-outlet,
@@ -991,19 +1020,40 @@ textarea {
   color: darken($theme-gray, 45%);
 }
 
-/* Homepage recent-items cards */
-.home-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+/* Homepage book covers */
+.home-books {
+  margin-bottom: 1.25rem;
+}
+
+.home-books p {
+  display: flex;
   gap: 1.25rem;
+  margin: 0;
 }
 
-@media (max-width: 767.98px) {
-  .home-grid {
-    grid-template-columns: 1fr;
-  }
+.home-books a {
+  flex: 1;
+  text-align: center;
 }
 
+.home-books img {
+  width: 100%;
+  aspect-ratio: 300 / 443;
+  object-fit: cover;
+  border-radius: 6px;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.home-books img:hover {
+  transform: scale(1.05) translateY(-3px);
+  box-shadow:
+    0 0 16px 1px rgba($theme-main, 0.25),
+    0 10px 20px rgba($theme-main, 0.2);
+}
+
+/* Homepage recent-items card */
 .home-card {
   @extend %card-base;
   padding: 1rem 1.25rem;
