@@ -329,15 +329,6 @@ div.quarto-about-trestles .quarto-title-meta {
 
 /* ---- About (trestles) tweaks ---- */
 
-/* Ensure the subtitle (your name/address block) is left aligned on ALL screen sizes.
-   The trestles template applies centering on narrow viewports; we override that here. */
-div.quarto-about-trestles .about-entity,
-div.quarto-about-trestles .about-entity .about-subtitle,
-div.quarto-about-trestles .about-entity p.subtitle,
-div.quarto-about-trestles .about-entity .subtitle {
-  text-align: left !important;
-}
-
 /* Name/title/institution block under the photo: same small, plain size for
    both the title and subtitle lines, no special colouring, with the name
    in bold and tight spacing between the two lines. */
@@ -369,9 +360,10 @@ div.quarto-about-trestles .about-entity #title-block-header p.subtitle {
 
 /* Size the photo/icon column to fit its own content (the photo's natural
    width) rather than a fraction of the page, so the card grid gets whatever
-   width is left over -- and keep it pinned to the left instead of centered. */
+   width is left over. Children (photo, title, subtitle, icons) stay
+   centered beneath each other within that column. */
 div.quarto-about-trestles .about-entity {
-  align-items: flex-start;
+  align-items: center;
   flex: 0 0 auto;
 }
 
@@ -387,6 +379,9 @@ div.quarto-about-trestles .about-entity .about-links {
 }
 
 div.quarto-about-trestles .about-entity .about-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   font-size: 1.667rem;
   column-gap: 0.2em;
