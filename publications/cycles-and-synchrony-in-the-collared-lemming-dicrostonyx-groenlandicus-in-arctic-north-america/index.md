@@ -1,5 +1,5 @@
 ---
-author: Martin Predavec, Charles Kreb,  Kajell Danell, Rob J Hyndman
+author: Martin Predavec, Charles Krebs, Kjell Danell, Rob J Hyndman
 Status: Published
 date: 2001-11-16 03:12:46+00:00
 details: <em>Oecologia</em> <b>126</b>, 216-224
