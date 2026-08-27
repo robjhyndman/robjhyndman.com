@@ -9,6 +9,5 @@ tags:
 - atmospheric science
 - epidemiology
 details: <em>Journal of Allergy and Clinical Immunology</em> <b>136</b>(4), 1118–1120.e2
-doi: 10.1016/j.jaci.2015.04.030
 bibkey: jaci2015
 ---

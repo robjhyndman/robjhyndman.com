@@ -8,7 +8,6 @@ tags:
 - data science
 - anomaly detection
 link: https://bridges.monash.edu/ndownloader/files/38152086
-doi: 10.1007/s10618-019-00661-z
 bibkey: normalizationoutliers
 ---
 

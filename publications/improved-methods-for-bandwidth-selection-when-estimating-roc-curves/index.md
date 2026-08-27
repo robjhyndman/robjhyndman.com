@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - nonparametric smoothing
 details: <em>Statistics and Probability Letters</em> <b>64</b> 181-189
-doi: 10.1016/S0169-2070%2801%2900143-1
 file: hall-hyndman.pdf
 bibkey: HH03
 ---

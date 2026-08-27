@@ -8,7 +8,6 @@ tags:
 - econometrics
 - electricity
 details: <em>Energy policy</em> <b>39</b>(6), 3709-3719
-doi: 10.1016/j.enpol.2011.03.080
 file: Elasticity2010.pdf
 bibkey: FH10b
 ---

@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - nonparametric smoothing
 details: <em>Biometrika</em> <b>91</b>(3), 743-750
-doi: 10.1093/biomet/91.3.743
 file: hhf.pdf
 bibkey: HHF04
 ---

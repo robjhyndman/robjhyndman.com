@@ -11,7 +11,6 @@ tags:
 - functional data
 - time series
 details: "<em>Journal of Epidemiology</em> <b>20</b>(2), 159-165"
-doi: 10.2188/jea.JE20090072
 file: brca_usew.pdf
 bibkey: EAGE+10
 ---

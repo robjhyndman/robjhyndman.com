@@ -11,7 +11,6 @@ tags:
 - time series
 details: <em>Australian and New Zealand Journal of Statistics</em> <b>51</b>(4), 415-432
 link: https://www2.gwu.edu/~forcpgm/2008-003.pdf
-doi: 10.1111/j.1467-842X.2009.00555.x
 bibkey: AHO09
 ---
 

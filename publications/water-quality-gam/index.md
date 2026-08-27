@@ -10,7 +10,6 @@ tags:
 - time series
 - environment
 arxiv: 2106.01719
-doi: 10.1371/journal.pone.0287640
 bibkey: watergam
 ---
 

@@ -5,7 +5,6 @@ author:  Rob J Hyndman
 file: Shmueli_Tafti_comment.pdf
 categories: Articles
 details: "<em>International Journal of Forecasting</em>, <b>39</b>(2), 558-560"
-doi: 10.1016/j.ijforecast.2022.09.007
 bibkey: causality2022
 ---
 

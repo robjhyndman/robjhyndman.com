@@ -10,7 +10,6 @@ tags:
 - gams
 - time series
 details: <em>Australian and New Zealand Journal of Statistics</em> <b>42</b>(2), 145-158
-doi: 10.1111/1467-842X.00115
 file: gam-rainfall.pdf
 bibkey: HG00
 ---

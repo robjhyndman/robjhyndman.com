@@ -13,7 +13,6 @@ tags:
 - state space models
 - time series
 file: ComplexSeasonality.pdf
-doi: 10.1198/jasa.2011.tm09771
 details: "<em>Journal of the American Statistical Association</em> <b>106</b>(496), 1513-1527"
 bibkey: DHS11
 ---

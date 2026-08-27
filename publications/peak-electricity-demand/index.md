@@ -11,7 +11,6 @@ tags:
 - gams
 - nonparametric smoothing
 details: "<em>IEEE Transactions on Power Systems</em> <b>25</b>(2), 1142-1153"
-doi: 10.1109/TPWRS.2009.2036017
 file: peak_electricity_demand.pdf
 bibkey: HF10
 ---

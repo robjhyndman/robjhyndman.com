@@ -9,7 +9,6 @@ tags:
   - time series
 arxiv: 2007.09577
 github: xqnwang/darima
-doi: 10.1016/j.ijforecast.2022.05.001
 bibkey: darima
 ---
 

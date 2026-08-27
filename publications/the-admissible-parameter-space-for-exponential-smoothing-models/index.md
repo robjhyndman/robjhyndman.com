@@ -10,7 +10,6 @@ tags:
 - state space models
 - time series
 details: <em>Annals of the Institute of Statistical Mathematics</em> <b>60</b>(2), 407-426
-doi: 10.1007/s10463-006-0109-x
 file: admissible.pdf
 bibkey: HAA08
 ---

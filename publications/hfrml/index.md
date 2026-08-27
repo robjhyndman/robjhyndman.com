@@ -9,7 +9,6 @@ tags:
 - forecasting
 - time series
 arxiv: 2006.02043
-doi: 10.1016/j.asoc.2021.107756
 bibkey: hfrml
 ---
 

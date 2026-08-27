@@ -9,7 +9,6 @@ tags:
 - R
 - spatial data
 link: https://github.com/jforbes14/eechidna-paper/raw/master/anzjs_elections.pdf
-doi: 10.1111/anzs.12292
 github: jforbes14/eechidna-paper
 bibkey: elections
 ---

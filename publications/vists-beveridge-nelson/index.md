@@ -10,7 +10,6 @@ tags:
 - state space models
 - time series
 details: <em>Economic modelling</em> <b>26</b>(5), 1067-1074
-doi: 10.1016/j.econmod.2009.04.004
 file: vists_bn.pdf
 bibkey: dSHS09
 ---

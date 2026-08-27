@@ -8,7 +8,6 @@ categories: Articles
 tags:
 - highest density regions
 details: "<em>Computational Statistics and Data Analysis</em> <b>51</b>(7), 3418-3432"
-doi: 10.1016/j.csda.2006.07.005
 file: ksh.pdf
 bibkey: KSH07
 ---

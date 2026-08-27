@@ -9,7 +9,6 @@ tags:
 - state space models
 - time series
 details: "<em>Statistical modelling</em> <b>10</b>(4), 353-374"
-doi: 10.1177/1471082X0901000401
 file: vists.pdf
 bibkey: VISTS10
 ---

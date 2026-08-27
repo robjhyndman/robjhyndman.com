@@ -7,7 +7,6 @@ tags:
 - data science
 - time series
 file: crude_oil_elm.pdf
-doi: 10.1016/j.ijforecast.2018.03.009
 details: <em>International Journal of Forecasting</em>, <b>34</b>(4), 665-677
 bibkey: crudeoil
 ---

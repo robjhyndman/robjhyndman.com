@@ -16,7 +16,6 @@ tags:
 - algorithm selection
 file: fforms.pdf
 github: thiyangt/fforms
-doi: 10.1002/for.2963
 bibkey: fforms
 ---
 

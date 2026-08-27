@@ -8,7 +8,6 @@ tags:
 - demography
 - nonparametric smoothing
 details: <em>Journal of Population Research</em> <b>21</b>(1), 95-98
-doi: 10.1007/BF03032212
 file: monotonic_splines.pdf
 bibkey: SHW04
 ---

@@ -7,7 +7,6 @@ details: <i>International J Operational Research</i>, <b>52</b>(1)
 tags:
 - time series
 arxiv: 2107.13462
-doi: 10.1504/IJOR.2022.10048281
 bibkey: mstl
 ---
 

@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - exponential smoothing
 - time series
-doi: 10.1016/j.ijforecast.2009.05.026
 details: <em>International Journal of Forecasting</em> <b>25</b>(3), 518-525
 file: monitoring_processes.pdf
 bibkey: OKSH09

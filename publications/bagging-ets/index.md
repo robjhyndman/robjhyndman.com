@@ -11,7 +11,6 @@ tags:
 - time series
 details: <em>International Journal of Forecasting</em> <b>32</b>(2), 303-312
 file: BaggedETSForIJF_rev1.pdf
-doi: 10.1016/j.ijforecast.2015.07.002
 bibkey: baggedETS
 ---
 

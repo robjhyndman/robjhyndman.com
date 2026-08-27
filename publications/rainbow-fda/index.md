@@ -9,7 +9,6 @@ tags:
 - graphics
 - highest density regions
 details: "<em>J Computational & Graphical Statistics</em> <b>19</b>(1), 29-45"
-doi: 10.1198/jcgs.2009.08158
 file: Rainbow5.pdf
 bibkey: HS10
 ---

@@ -10,7 +10,6 @@ tags:
   - graphics
 file: gravitas.pdf
 github: Sayani07/paper-gravitas
-doi: 10.1080/10618600.2021.1938588
 bibkey: gravitas
 ---
 

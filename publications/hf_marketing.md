@@ -4,7 +4,6 @@ date: "2024-04-14"
 author:  Carla Freitas Silveira Netto, Vinicius A Brei, Rob J Hyndman
 categories: Articles
 details: "<em>Applied Stochastic Models in Business and Industry</em>, 40(2), 462-482"
-doi: 10.1002/asmb.2823
 file: hf_marketing.pdf
 bibkey: hfmarketing
 ---

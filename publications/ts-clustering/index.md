@@ -10,7 +10,6 @@ tags:
 - neural networks
 - time series
 details:  <em>Data Mining and Knowledge Discovery</em> <b>13</b>(3), 335-364
-doi: 10.1007/s10618-005-0039-x
 file: ts-clustering.pdf
 bibkey: WSH06
 ---

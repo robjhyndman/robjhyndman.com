@@ -14,7 +14,6 @@ file: icdm2015.pdf
 aliases:
   - /publications/cikm2015
 details: "In: <em>Proceedings of the IEEE International Conference on Data Mining</em>. Atlantic City, NJ, USA. 14–17 November 2015"
-doi: 10.1109/ICDMW.2015.104
 bibkey: cikm2015
 ---
 

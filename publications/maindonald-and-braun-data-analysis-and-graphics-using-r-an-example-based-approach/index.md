@@ -9,7 +9,6 @@ tags:
 - R
 - teaching
 details: <em>Journal of Population Research</em> <b>22</b>(2), 206–208
-doi: 10.1007/BF03031829
 file: maindonald_braun.pdf
 bibkey: EH05a
 ---

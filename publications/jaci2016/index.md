@@ -6,7 +6,6 @@ title: Associations between outdoor fungal spores and childhood and adolescent a
 categories: Articles
 file: fungalspores_asthma.pdf
 details: <em>Journal of Allergy and Clinical Immunology</em>, <b>139</b>(4), 1140–1147.e4
-doi: 10.1016/j.jaci.2016.06.046
 bibkey: Tham2016
 ---
 

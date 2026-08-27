@@ -8,7 +8,6 @@ tags:
 - experimental design
 - optimization
 file: epic.pdf
-doi: 10.1007/978-3-319-09584-4_29
 details: "<em>Learning and Intelligent Optimization</em>,
 Lecture Notes in Computer Science, <b>8426</b>, 341-352"
 online: http://link.springer.com/chapter/10.1007/978-3-319-09584-4_29

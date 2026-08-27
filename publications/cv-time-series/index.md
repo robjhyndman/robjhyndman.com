@@ -10,7 +10,6 @@ tags:
 - time series
 file: cv-wp.pdf
 details: <em>Computational Statistics and Data Analysis</em>, <b>120</b>, 70-83
-doi: 10.1016/j.csda.2017.11.003
 bibkey: tscv
 ---
 

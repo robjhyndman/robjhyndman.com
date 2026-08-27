@@ -12,7 +12,6 @@ tags:
   - statistics
 link: https://bridges.monash.edu/ndownloader/files/38163618
 github: camroach87/1901-nlmets
-doi: 10.1002/for.2750
 bibkey: nlmesmartmetres
 ---
 

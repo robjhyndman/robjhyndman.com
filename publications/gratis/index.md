@@ -9,7 +9,6 @@ tags:
 - data science
 - time series
 arxiv: 1903.02787
-doi: 10.1002/sam.11461
 bibkey: tsgeneration
 ---
 

@@ -10,7 +10,6 @@ tags:
 - state space models
 - time series
 details: "<em>European Journal of Operational Research</em> <b>191</b>(1), 207–220"
-doi: 10.1016/j.ejor.2007.08.024
 file: multiseasonal.pdf
 bibkey: Gould08
 ---

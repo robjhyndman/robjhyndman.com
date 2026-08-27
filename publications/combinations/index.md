@@ -10,7 +10,6 @@ tags:
   - forecasting
 arxiv: 2205.04216v2
 github: xqnwang/ensembles-combinations-docs
-doi: 10.1016/j.ijforecast.2022.11.005
 bibkey: combinations
 ---
 

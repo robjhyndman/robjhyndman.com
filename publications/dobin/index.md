@@ -5,7 +5,6 @@ title: Dimension reduction for outlier detection using DOBIN
 categories: Articles
 details: <em>J Computational & Graphical Statistics</em>, <b>30</b>(1), 204-219
 file: dobin.pdf
-doi: 10.1080/10618600.2020.1807353
 tags:
   - data science
   - anomaly detection

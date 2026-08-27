@@ -7,7 +7,6 @@ title: Hospital characteristics, rather than surgical volume, predict length of 
 categories: Articles
 tags:
 - applied statistics
-doi: 10.1111/1753-6405.12932
 file: hospital_los.pdf
 bibkey: hospital-los
 ---

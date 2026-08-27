@@ -16,7 +16,6 @@ tags:
 - time series
 - economics
 link: https://bridges.monash.edu/ndownloader/files/38153121
-doi: 10.1007/978-3-030-31150-6_21
 github: PuwasalaG/Hierarchical-Book-Chapter
 bibkey: macrohts
 ---

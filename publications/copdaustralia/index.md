@@ -10,7 +10,6 @@ tags:
 - functional data
 - time series
 details: <em>BMC Medical Research Methodology</em> <b>12</b>:17
-doi: 10.1186/1471-2288-12-17
 file: copdaustralia.pdf
 bibkey: EUHSA12
 ---

@@ -8,7 +8,6 @@ tags:
 - forecasting
 - time series
 details: "<em>Neurocomputing</em> <b>72</b>, 2581–2594"
-doi: 10.1016/j.neucom.2008.10.017
 file: wsh.pdf
 bibkey: WSH09
 ---

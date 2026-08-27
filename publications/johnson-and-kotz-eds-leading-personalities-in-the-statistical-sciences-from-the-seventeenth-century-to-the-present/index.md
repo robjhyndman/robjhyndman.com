@@ -8,6 +8,5 @@ categories: Book reviews
 tags:
 - history
 file: br_jk.pdf
-doi: 10.1111/1467-842X.00041
 bibkey: BR98b
 ---

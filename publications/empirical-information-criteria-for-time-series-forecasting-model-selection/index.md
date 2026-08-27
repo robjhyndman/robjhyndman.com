@@ -8,7 +8,6 @@ tags:
 - forecasting
 - time series
 details: <em>Journal of Statistical Computation and Simulation</em> <b>75</b>(10), 831-840
-doi: 10.1080/00949650410001687208
 file: eic.pdf
 bibkey: BHK05
 ---

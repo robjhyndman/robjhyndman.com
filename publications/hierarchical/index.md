@@ -11,7 +11,6 @@ tags:
 - hierarchical time series
 details: <em>Computational Statistics and Data Analysis</em> <b>55</b>(9), 2579-2589
 file: Hierarchical6.pdf
-doi: 10.1016/j.csda.2011.03.006
 bibkey: hierarchical
 ---
 

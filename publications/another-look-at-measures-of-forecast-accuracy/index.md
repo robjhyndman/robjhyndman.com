@@ -11,7 +11,6 @@ tags:
 - forecasting
 - time series
 details: <em>International Journal of Forecasting</em> <b>22</b>(4), 679-688
-doi: 10.1016/j.ijforecast.2006.03.001
 file: mase.pdf
 bibkey: HK06
 ---

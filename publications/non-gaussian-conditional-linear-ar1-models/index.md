@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - time series
 details: <em>Australian and New Zealand Journal of Statistics</em> <b>42</b>(4), 479-495
-doi: 10.1111/1467-842X.00143
 file: clar1.pdf
 bibkey: GHTT00
 ---

@@ -4,7 +4,6 @@ author: David M Studdert, Yifan Zhang, Jonathan A Rodden, Rob J Hyndman, Garen J
 categories: Articles
 details: <em>Annals of Internal Medicine</em>, 166(10), 698-706
 date: 2017-05-02
-doi: 10.7326/M16-1574
 file: handguns.pdf
 bibkey: handguns
 ---

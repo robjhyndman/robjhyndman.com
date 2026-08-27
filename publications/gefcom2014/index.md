@@ -11,7 +11,6 @@ tags:
 - forecasting
 - probability
 details: <em>International Journal of Forecasting</em> <b>32</b>(3), 896–913
-doi: 10.1016/j.ijforecast.2016.02.001
 file: gefcom2014.pdf
 bibkey: gefcom2014
 ---

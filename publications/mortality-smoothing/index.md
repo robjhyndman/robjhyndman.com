@@ -8,7 +8,6 @@ tags:
 - demography
 - nonparametric smoothing
 file: twodimensionalsmoothing.pdf
-doi: 10.1002/sta4.199
 bibkey: bivarridges
 ---
 

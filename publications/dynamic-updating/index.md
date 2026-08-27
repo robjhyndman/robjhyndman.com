@@ -8,7 +8,6 @@ tags:
 - forecasting
 - functional data
 details: <em>Mathematics and Computers in Simulation</em> <b>81</b>, 1310-1324
-doi: 10.1016/j.matcom.2010.04.027
 file: dynamic_updating.pdf
 bibkey: SH11
 ---

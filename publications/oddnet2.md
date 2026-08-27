@@ -5,7 +5,6 @@ author:  Sevvandi Kandanaarachchi, Conrad Sanderson, Rob&nbsp;J&nbsp;Hyndman
 arxiv: 2410.05687
 categories: Conference proceedings
 details: "<em>2024 11th International Conference on Soft Computing & Machine Intelligence</em>"
-doi: 10.1109/ISCMI63661.2024.10851659
 bibkey: oddnet2
 ---
 

@@ -8,7 +8,6 @@ tags:
 - density estimation
 - nonparametric smoothing
 details:  <em>Journal of Nonparametric Statistics</em> <b>14</b>(3), 259-278
-doi: 10.1080/10485250212374
 file: hyndman-yao.pdf
 bibkey: HY02
 ---

@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - atmospheric science
 details: <em>Environmetrics</em> <b>19</b>(8), 818-835
-doi: 10.1002/env.905
 file: generation_temps.pdf
 bibkey: MBH08
 ---

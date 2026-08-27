@@ -8,7 +8,6 @@ tags:
 - graphics
 - time series
 details: <em>Australian and New Zealand Journal of Statistics</em> <b>42</b>(4), 463-477
-doi: 10.1111/1467-842X.00142
 file: fhv.pdf
 bibkey: FHV00
 ---

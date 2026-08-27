@@ -7,7 +7,6 @@ categories: Conference proceedings
 tags:
 - time series
 details: "<em>Lecture Notes in Computer Science</em>, Volume 3516, April 2005, Pages 792-795. Proceedings. Computational Science - ICCS 2005: 5th International Conference, Atlanta, GA, USA, May 22-25, 2005"
-doi: 10.1007/11428862_108
 file: wang2.pdf
 bibkey: WSH05
 ---

@@ -9,7 +9,6 @@ tags:
 - forecasting
 - demography
 file: uslongevity.pdf
-doi: 10.1016/j.insmatheco.2021.03.014
 bibkey: uslongevity
 ---
 

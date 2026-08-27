@@ -8,7 +8,6 @@ tags:
 - density estimation
 - nonparametric smoothing
 details: <em>Computational Statistics and Data Analysis</em> <b>36</b>(3), 279-298
-doi: 10.1016/S0167-9473%2800%2900046-3
 file: bandcde.pdf
 bibkey: BH01
 ---

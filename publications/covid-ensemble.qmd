@@ -5,7 +5,6 @@ author:  Robert Moss, Ruarai J Tobin, Mitchell O'Hara-Wild, Adeshina I Adekunle,
 link: https://www.medrxiv.org/content/10.1101/2025.09.10.25335544v1
 categories: Articles
 details: "<i>PLOS Computational Biology</i>, <b>22</b>(4): e1014199"
-doi: "10.1371/journal.pcbi.1014199"
 bibkey: covidensemble
 ---
 

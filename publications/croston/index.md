@@ -8,7 +8,6 @@ tags:
 - forecasting
 - time series
 details: <em>Journal of Forecasting</em> <b>24</b>, 389-402
-doi: 10.1002/for.963
 file: croston.pdf
 bibkey: SH05
 ---

@@ -8,7 +8,6 @@ tags:
 - data science
 - time series
 - anomaly detection
-doi: 10.1371/journal.pone.0236331
 link: https://github.com/sevvandi/eventstream_paper/raw/master/manuscript.pdf
 github: sevvandi/eventstream_paper
 bibkey: earlyclassification

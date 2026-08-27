@@ -11,7 +11,6 @@ tags:
 - state space models
 - time series
 details: <em>International Journal of Forecasting</em> <b>18</b>(3), 439-454
-doi: 10.1016/S0169-2070%2801%2900110-8
 file: hksg.pdf
 bibkey: HKSG02
 ---

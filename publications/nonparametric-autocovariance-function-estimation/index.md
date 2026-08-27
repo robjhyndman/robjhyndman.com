@@ -8,7 +8,6 @@ categories: Articles
 tags:
 - nonparametric smoothing
 - time series
-doi: 10.1111/j.1467-842X.1997.tb00694.x
 file: npacvf.pdf
 bibkey: HW97
 ---

@@ -4,7 +4,6 @@ author: Stephanie Clark, Rob J Hyndman, Dan Pagendam, Louise M Ryan
 date: 2020-11-02
 categories: Articles
 details: <em>International Statistical Review</em>, <b>88</b>(S1), S179-S204
-doi: 10.1111/insr.12432
 arxiv: 2010.15997
 tags:
   - data science

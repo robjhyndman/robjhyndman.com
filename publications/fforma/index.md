@@ -4,7 +4,6 @@ date: 2020-01-03
 title: "FFORMA: Feature-based Forecast Model Averaging"
 categories: Articles
 details: <em>International Journal of Forecasting</em>, <b>36</b>(1), 86-92
-doi: 10.1016/j.ijforecast.2019.02.011
 tags:
 - data science
 - time series

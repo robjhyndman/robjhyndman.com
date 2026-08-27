@@ -11,7 +11,6 @@ tags:
 - forecasting
 - time series
 file: ausmacrofcastR2.pdf
-doi: 10.1016/j.ijforecast.2018.12.002
 bibkey: ausmacrofcast
 ---
 

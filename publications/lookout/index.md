@@ -9,7 +9,6 @@ tags:
 - anomaly detection
 link: https://github.com/sevvandi/Paper-lookout/raw/master/lookout/lookout_wp.pdf
 github: sevvandi/Paper-lookout
-doi: 10.1080/10618600.2021.2000425
 bibkey: lookout
 ---
 

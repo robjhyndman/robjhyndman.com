@@ -9,7 +9,6 @@ tags:
 - demography
 - epidemiology
 details: <em>Environmental Health</em> <b>15</b>:107
-doi: 10.1186/s12940-016-0193-1
 file: temperature_mortality.pdf
 bibkey: pearce2016exploring
 ---

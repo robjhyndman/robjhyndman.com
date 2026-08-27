@@ -12,7 +12,6 @@ tags:
 - time series
 details: "<em>Cancer Epidemiology</em> <b>34</b>(5), 542-549"
 file: brca_bw.pdf
-doi: 10.1016/j.canep.2010.05.001
 bibkey: YHE10
 ---
 

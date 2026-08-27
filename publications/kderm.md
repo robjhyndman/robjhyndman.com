@@ -10,7 +10,6 @@ tags:
 - manifold learning
 link: https://raw.githubusercontent.com/ffancheng/kderm/master/jcgs/kderm_jcgs.pdf
 github: ffancheng/kderm
-doi: 10.1080/10618600.2024.2415543
 bibkey: kderm
 ---
 

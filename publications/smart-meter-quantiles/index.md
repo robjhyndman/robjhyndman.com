@@ -12,7 +12,6 @@ tags:
 - forecasting
 details: <em>IEEE Transactions on Smart Grid</em> <b>7</b>(5), 2448-2455
 file: smart-meter-quantiles.pdf
-doi: 10.1109/TSG.2016.2527820
 bibkey: smart-meter-quantiles
 ---
 

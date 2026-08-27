@@ -10,7 +10,6 @@ tags:
 - nonparametric smoothing
 - time series
 details: <em>Australian and New Zealand Journal of Statistics</em> <b>47</b>(1), 87-99
-doi: 10.1111/j.1467-842X.2005.00374.x
 file: splinefcast.pdf
 bibkey: HKPB05
 ---

@@ -9,7 +9,6 @@ tags:
   - epidemiology
   - experimental design
 details: <em>Journal of Biometrics and Biostatistics</em>, S7-018
-doi: 10.4172/2155-6180.S7-018
 link: http://arrow.latrobe.edu.au:8080/vital/access/services/Download/latrobe:19876/SOURCE01
 bibkey: mapcah12
 ---

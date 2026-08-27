@@ -9,7 +9,6 @@ tags:
 - functional data
 - seasonality
 file: sfar_monashwp.pdf
-doi: 10.1111/jtsa.12608
 bibkey: sfar
 ---
 

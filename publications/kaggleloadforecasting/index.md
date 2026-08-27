@@ -8,7 +8,6 @@ tags:
 - boosting
 - electricity
 - forecasting
-doi: 10.1016/j.ijforecast.2013.07.005
 details: <em>International Journal of Forecasting</em> <b>30</b>(2), 382–394
 file: kaggle-competition.pdf
 bibkey: gefcom

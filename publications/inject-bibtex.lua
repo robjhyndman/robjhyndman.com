@@ -75,6 +75,39 @@ local function get_bib_entries()
   return bib_cache
 end
 
+-- Pulls a single field's value out of a raw bib entry, matching balanced
+-- braces so values with nested braces are captured whole.
+local function get_field(raw, field)
+  local s, e = raw:find("%f[%a]" .. field .. "%f[%A]%s*=%s*")
+  if not s then return nil end
+  local pos = e + 1
+  if raw:sub(pos, pos) == "{" then
+    local depth = 0
+    local start = pos
+    local n = #raw
+    local j = pos
+    while j <= n do
+      local c = raw:sub(j, j)
+      if c == "{" then
+        depth = depth + 1
+      elseif c == "}" then
+        depth = depth - 1
+        if depth == 0 then j = j + 1; break end
+      end
+      j = j + 1
+    end
+    return raw:sub(start + 1, j - 2)
+  end
+  local vs, ve = raw:find("[^,\n}]+", pos)
+  return vs and raw:sub(vs, ve) or nil
+end
+
+-- title/author can't safely be generated this way: Quarto resolves the
+-- browser-tab <title> (pagetitle) and the "Authors" byline (by-author) from
+-- the raw YAML before Pandoc's Lua filters run, so setting meta.title /
+-- meta.author here has no effect on either. doi has no such special
+-- handling -- the custom publication.html template just reads $doi$
+-- directly -- so it's the one field this filter can safely fill in.
 function Meta(meta)
   if not meta.bibkey then
     return meta
@@ -86,5 +119,11 @@ function Meta(meta)
     return meta
   end
   meta.bibtex = pandoc.MetaBlocks({ pandoc.CodeBlock(raw, { class = "bibtex" }) })
+  if not meta.doi then
+    local doi = get_field(raw, "doi")
+    if doi then
+      meta.doi = pandoc.MetaString((doi:gsub("%s+", "")))
+    end
+  end
   return meta
 end

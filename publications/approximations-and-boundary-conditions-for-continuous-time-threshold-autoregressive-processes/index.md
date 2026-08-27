@@ -10,7 +10,6 @@ tags:
 - time series
 jstor: 3215333
 file: approx_ctar.pdf
-doi: 10.2307/3215333
 bibkey: Hyndman94
 ---
 

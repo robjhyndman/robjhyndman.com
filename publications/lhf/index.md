@@ -9,7 +9,6 @@ tags:
 - forecasting
 - time series
 file: lhf.pdf
-doi: 10.1080/10618600.2021.1939038
 bibkey: lhf
 ---
 

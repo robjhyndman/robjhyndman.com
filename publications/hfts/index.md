@@ -11,7 +11,6 @@ tags:
 - functional data
 - hierarchical time series
 details: <em>J Computational & Graphical Statistics</em>, <b>26</b>(2), 330-343
-doi: 10.1080/10618600.2016.1237877
 link: https://www.monash.edu/business/ebs/research/publications/ebs/wp04-16.pdf
 bibkey: hfts
 ---

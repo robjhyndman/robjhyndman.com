@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - time series
 details: <em>Journal of the Operational Research Society</em> <b>57</b>, 1256-1257
-doi: 10.1057/palgrave.jors.2602211
 file: SBC-categorization.pdf
 bibkey: KH06
 ---

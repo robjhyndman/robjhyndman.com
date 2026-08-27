@@ -9,7 +9,6 @@ tags:
 - highest density regions
 details: <em>Computational Statistics and Data Analysis</em> <b>55</b>(8), 2477-2489
 file: longrun.pdf
-doi: 10.1016/j.csda.2011.03.003
 bibkey: longrun
 ---
 

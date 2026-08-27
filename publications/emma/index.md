@@ -1,5 +1,5 @@
 ---
-author: Davide Carta, Laura Villanova, Stefano Costacurta, Alessandro Patelli, Irene Poli, Simone Vezzu, Paolo Scopece, Fabio Lisi, Kate Smith&#8209;Miles, Rob J Hyndman, Anita J Hill, Paolo Falcaro
+author: Davide Carta, Laura Villanova, Stefano Costacurta, Alessandro Patelli, Irene Poli, Simone Vezzù, Paolo Scopece, Fabio Lisi, Kate Smith&#8209;Miles, Rob J Hyndman, Anita J Hill, Paolo Falcaro
 Status: Published
 date: 2011-07-14 09:24:57+00:00
 title: Method for optimizing coating properties based on an evolutionary algorithm approach
@@ -9,7 +9,6 @@ tags:
 - experimental design
 - optimization
 details: <em>Analytical Chemistry</em> <b>83</b>(16), 6373–6380
-doi: 10.1021/ac201337e
 file: emma.pdf
 bibkey: Carta2011
 ---

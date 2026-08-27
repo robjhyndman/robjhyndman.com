@@ -9,7 +9,6 @@ tags:
 - forecasting
 - functional data
 details: "<em>Computational Statistics & Data Analysis</em> <b>51</b>, 4942-4956"
-doi: 10.1016/j.csda.2006.07.028
 file: funcforecasts.pdf
 bibkey: HU07
 ---

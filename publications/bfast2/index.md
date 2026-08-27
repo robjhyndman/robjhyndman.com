@@ -10,7 +10,6 @@ tags:
 - time series
 details: "<em>Remote Sensing of Environment</em>, <b>114</b>(12), 2970-2980"
 file: SeasonalBreakDetection_revised_4x00.pdf
-doi: 10.1016/j.rse.2010.08.003
 bibkey: VHZC10
 ---
 

@@ -8,7 +8,6 @@ categories: Articles
 tags:
 - optometry
 details: <em>Optometry and Vision Science</em> <b>80</b>(6), 431-436
-doi: 10.1097/00006324-200311000-00006
 bibkey: RLH03
 ---
 

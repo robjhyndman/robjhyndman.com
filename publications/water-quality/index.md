@@ -9,7 +9,6 @@ tags:
 - time series
 - environment
 arxiv: 1810.12499
-doi: 10.1371/journal.pone.0215503
 bibkey: Water3
 ---
 

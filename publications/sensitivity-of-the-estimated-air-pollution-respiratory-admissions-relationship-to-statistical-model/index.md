@@ -9,7 +9,6 @@ tags:
 - epidemiology
 - gams
 details: <em>International Journal of Environmental Health Research</em> <b>15</b>(6), 437-448
-doi: 10.1080/09603120500289192
 file: eh05.pdf
 bibkey: EH05
 ---

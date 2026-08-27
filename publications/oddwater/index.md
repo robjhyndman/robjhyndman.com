@@ -9,7 +9,6 @@ tags:
 - anomaly detection
 - time series
 link: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019WR024906
-doi: 10.1029/2019WR024906
 bibkey: oddwater
 ---
 

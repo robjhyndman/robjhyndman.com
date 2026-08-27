@@ -8,7 +8,6 @@ tags:
 - forecasting
 - time series
 file: kaggle.pdf
-doi: 10.1016/j.ijforecast.2011.03.002
 details: <em>International Journal of Forecasting</em> <b>27</b>(3), 845-849
 bibkey: AH11
 ---

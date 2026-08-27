@@ -7,7 +7,6 @@ title: Cycles and synchrony in the Collared Lemming (Dicrostonyx groenlandicus) 
 categories: Articles
 tags:
 - ecology
-doi: 10.1007/s004420000516
 file: lemmings.pdf
 bibkey: lemmings
 ---

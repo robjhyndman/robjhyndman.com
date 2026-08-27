@@ -9,7 +9,6 @@ tags:
   - time series
   - forecasting
 link: https://bridges.monash.edu/ndownloader/files/38163630
-doi: 10.1016/j.ijforecast.2021.03.004
 github: pmontman/paper-global-forec-princip
 bibkey: globalforecasting
 ---

@@ -7,7 +7,6 @@ arxiv: 2303.17277
 link: https://github.com/danigiro/ctprob/raw/main/paper/CTprob.pdf
 categories: Articles
 details: "<em>International Journal of Forecasting</em>, 40(3), 1134-1151"
-doi: 10.1016/j.ijforecast.2023.10.003
 aliases:
   - /ctprob
 bibkey: ctprob

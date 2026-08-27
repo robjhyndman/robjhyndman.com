@@ -13,7 +13,6 @@ tags:
 - time series
 link: https://github.com/robjhyndman/STR_paper/raw/main/str_ijds.pdf
 github: robjhyndman/STR_paper
-doi: 10.1287/ijds.2021.0004
 bibkey: str
 ---
 

@@ -6,7 +6,6 @@ file: dow_hts.pdf
 categories: Articles
 details: "<em>Quantitative Finance</em>, <b>24</b>(11), 1641-1667"
 github: raffmattera/stockprices_reco
-doi: 10.1080/14697688.2024.2412687
 bibkey: dowhts
 ---
 

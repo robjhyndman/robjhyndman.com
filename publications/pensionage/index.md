@@ -10,7 +10,6 @@ tags:
 - functional data
 link: https://github.com/robjhyndman/PensionAge/raw/master/PensionAge_wp.pdf
 github: robjhyndman/PensionAge
-doi: 10.1111/anzs.12330
 bibkey: pension
 ---
 

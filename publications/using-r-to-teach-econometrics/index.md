@@ -10,7 +10,6 @@ tags:
 - software
 - teaching
 details: <em>Journal of Applied Econometrics</em> <b>17</b>(2), 149-174
-doi: 10.1002/jae.657
 file: racine-hyndman.pdf
 bibkey: RH02
 ---

@@ -9,7 +9,6 @@ tags:
 - gams
 details: <em>Atmospheric Environment</em> <b>45</b>(6), 1328-1336
 file: local-gams.pdf
-doi: 10.1016/j.atmosenv.2010.11.051
 bibkey: Pearce10b
 ---
 

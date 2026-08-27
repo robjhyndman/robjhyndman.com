@@ -10,7 +10,6 @@ tags:
   - tourism
   - forecasting
 link: https://bridges.monash.edu/ndownloader/files/38164284
-doi: 10.1177/00472875211059240
 bibkey: covidtourism
 ---
 

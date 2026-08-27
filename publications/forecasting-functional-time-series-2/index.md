@@ -9,7 +9,6 @@ tags:
 - functional data
 - time series
 details: <em>Journal of the Korean Statistical Society</em> <b>38</b>(3), 199-221. (With discussion)
-doi: 10.1016/j.jkss.2009.06.002
 link: https://link.springer.com/content/pdf/10.1016/j.jkss.2009.06.002.pdf
 bibkey: HS09
 ---

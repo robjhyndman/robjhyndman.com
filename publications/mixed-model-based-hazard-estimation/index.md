@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - nonparametric smoothing
 details: <em>J Computational & Graphical Statistics</em> <b>11</b>(4), 784-798
-doi: 10.1198/106186002862
 file: mixedhazard.pdf
 bibkey: CHW02
 ---

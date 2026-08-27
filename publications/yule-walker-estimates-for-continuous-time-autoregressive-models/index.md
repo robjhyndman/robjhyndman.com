@@ -8,7 +8,6 @@ status: Published
 categories: Articles
 tags:
 - time series
-doi: 10.1111/j.1467-9892.1993.tb00145.x
 file: YW.pdf
 bibkey: YW93
 ---

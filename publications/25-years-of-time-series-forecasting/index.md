@@ -8,7 +8,6 @@ tags:
 - forecasting
 - time series
 details: <em>International Journal of Forecasting</em> <b>22</b>(3), 443-473
-doi: 10.1016/j.ijforecast.2006.01.001
 file: 25years_forecasting.pdf
 bibkey: ijf25
 ---

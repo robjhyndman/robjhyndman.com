@@ -9,7 +9,6 @@ tags:
 - forecasting
 - macroeconomics
 - time series
-doi: 10.1016/j.ejor.2020.09.046
 link: https://researchmgt.monash.edu/ws/portalfiles/portal/336582766/324412937_oa.pdf
 github: florian-eckert/hierarch_bayes
 bibkey: swissexports

@@ -11,7 +11,6 @@ tags:
 - nonparametric smoothing
 details: <em>IEEE Transactions on Power Systems</em> <b>27</b>(1), 134-141
 file: 2010STLF-FinalR1.pdf
-doi: 10.1109/TPWRS.2011.2162082
 bibkey: FH11
 ---
 

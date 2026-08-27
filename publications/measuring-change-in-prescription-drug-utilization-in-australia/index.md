@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - epidemiology
 details: <em>Pharmacoepidemiology & Drug Safety</em> <b>15</b>, 477-484
-doi: 10.1002/pds.1247
 file: nps.pdf
 bibkey: NPS06
 ---

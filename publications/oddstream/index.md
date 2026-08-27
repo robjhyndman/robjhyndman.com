@@ -4,7 +4,6 @@ date: 2020-04-19
 title: "Anomaly detection in streaming nonstationary temporal data"
 categories: Articles
 details: <em>J Computational & Graphical Statistics</em>, <b>20</b>(1), 13-27
-doi: 10.1080/10618600.2019.1617160
 tags:
 - data science
 - anomaly detection

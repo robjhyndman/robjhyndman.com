@@ -8,7 +8,6 @@ tags:
 - data science
 - time series
 - environment
-doi: 10.3390/ijerph182312803
 file: reconstructing_water.pdf
 bibkey: reconstructingwater
 ---

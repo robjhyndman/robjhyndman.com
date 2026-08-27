@@ -7,7 +7,6 @@ details: "<em>International J Forecasting</em>, <b>39</b>(3), 1424-1447"
 tags:
 - time series
 arxiv: 2111.07001
-doi: 10.1016/j.ijforecast.2022.06.006
 bibkey: lomef
 ---
 

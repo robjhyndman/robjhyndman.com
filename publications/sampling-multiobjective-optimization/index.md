@@ -11,7 +11,6 @@ tags:
 details: "In <em>Advances in Stochastic and Deterministic Global Optimization</em>, ed. P.M. Pardalos, A. Zhigljavsky, J. Žilinskas. Springer, pp. 273–296"
 amazon: 3319299735
 file: sampling-methods-costly.pdf
-doi: 10.1007/978-3-319-29975-4_15
 bibkey: sampling-multiobjective-optimization
 ---
 

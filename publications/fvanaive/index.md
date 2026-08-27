@@ -5,7 +5,6 @@ status: Published
 categories: Articles
 details: <em>Journal of the Operational Research Society</em>, <b>68</b>(9), 1082–1084
 date: 2017-03-28 08:10:47+00:00
-doi: 10.1057/s41274-017-0218-3
 link: http://rdcu.be/qqNQ
 tag:
 - forecasting

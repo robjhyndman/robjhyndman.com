@@ -9,7 +9,6 @@ tags:
 - forecasting
 - nonparametric smoothing
 - time series
-doi: 10.1016/S0167-9473%2898%2900034-6
 file: smooth_nongauss.pdf
 bibkey: GH98
 ---

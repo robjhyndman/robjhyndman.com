@@ -9,7 +9,6 @@ tags:
 - forecasting
 - time series
 details: <em>European Journal of Operational Research</em> <b>158</b>(2) 444-455
-doi: 10.1016/S0377-2217%2803%2900360-6
 file: skho.pdf
 bibkey: SKHO04
 ---

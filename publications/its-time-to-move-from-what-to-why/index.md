@@ -8,7 +8,6 @@ tags:
 - forecasting
 - time series
 details: <em>International Journal of Forecasting</em> <b>17</b>(4), 567-570
-doi: 10.1016/S0169-2070%2801%2900119-4
 file: why.pdf
 bibkey: Hyndman01
 ---

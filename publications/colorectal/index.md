@@ -11,7 +11,6 @@ title: Predicting the whole distribution with methods for depth data analysis de
 categories: Conference proceedings
 tags:
   - applied statistics
-doi: 10.1007/978-981-15-1960-4_12
 file: colorectal.pdf
 bibkey: colorectal
 ---

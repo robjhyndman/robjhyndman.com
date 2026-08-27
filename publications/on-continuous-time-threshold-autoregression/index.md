@@ -6,7 +6,6 @@ title: On continuous-time threshold autoregression
 status: Published
 categories: Articles
 details: <em>International Journal of Forecasting</em>, <b>18</b>(3), 439-454
-doi: 10.1016/0169-2070%2892%2990116-Q
 file: ctar2.pdf
 bibkey: BH92
 ---
