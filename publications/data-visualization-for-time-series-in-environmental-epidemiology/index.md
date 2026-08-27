@@ -2,7 +2,7 @@
 author: Bircan Erbas, Rob J Hyndman
 Status: Published
 date: 2001-08-16 03:09:46+00:00
-title: Data visualization for time series in environmental epidemiology
+title: Data visualisation for time series in environmental epidemiology
 categories: Articles
 tags:
 - atmospheric science

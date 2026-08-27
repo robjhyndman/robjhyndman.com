@@ -1,7 +1,7 @@
 ---
 author: Fan Cheng, Rob J Hyndman, Anastasios Panagiotelis
 date: 2021-02-15
-title: "Computationally Efficient Learning of Statistical Manifolds"
+title: "Computationally efficient learning of statistical manifolds"
 categories: Working papers
 tags:
 - data science

@@ -2,7 +2,7 @@
 author: John L Pearce, Jason Beringer, Neville Nicholls, Rob J Hyndman, Nigel J Tapper
 Status: Published
 date: 2011-01-01 05:46:30+00:00
-title: Quantifying the influence of local meteorology on air quality using generalized additive modelling
+title: Quantifying the influence of local meteorology on air quality using generalized additive models
 categories: Articles
 tags:
 - atmospheric science

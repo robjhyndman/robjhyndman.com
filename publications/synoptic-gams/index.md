@@ -2,8 +2,7 @@
 author: John L Pearce, Jason Beringer, Neville Nicholls, Rob J Hyndman, Petteri Uotila, Nigel J Tapper
 Status: Published
 date: 2011-07-16 06:50:54+00:00
-title: Investigating the influence of synoptic-scale circulation on air quality using
-  self-organizing maps and generalized additive modelling
+title: Investigating the influence of synoptic-scale meteorology on air quality using self-organizing maps and generalized additive modelling
 doi: 10.1016/j.atmosenv.2010.09.032
 categories: Articles
 tags:

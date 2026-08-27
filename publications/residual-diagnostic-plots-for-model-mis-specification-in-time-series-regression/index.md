@@ -2,7 +2,7 @@
 author: Richard Fraccaro, Rob J Hyndman, Alan Veevers
 Status: Published
 date: 2000-11-16 03:01:48+00:00
-title: Residual diagnostic plots for model mis-specification in time series regression
+title: Residual diagnostic plots for checking for model mis-specification in time series regression
 categories: Articles
 tags:
 - graphics

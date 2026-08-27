@@ -1,5 +1,5 @@
 ---
-title: Trends in Indigenous mortality and life expectancy 2001-2015
+title: Trends in indigenous mortality and life expectancy 2001–2015
 author: Tetteh Dugbaza, Fadwa Al-Yaman, Tracy Dixon, Richard Solon, Ching Choi, Rob Hyndman, Len Smith
 status: Published
 categories: Miscellaneous

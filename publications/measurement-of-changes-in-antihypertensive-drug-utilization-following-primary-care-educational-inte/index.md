@@ -2,8 +2,7 @@
 author: Fiona E Horn, John A Mandryk, Judith M Mackson, Sonia E Wutzke, Lynn M Weekes, Rob J Hyndman
 Status: Published
 date: 2007-07-16 05:20:33+00:00
-title: Measurement of changes in antihypertensive drug utilization following primary
-  care educational interventions
+title: Measurement of changes in antihypertensive drug utilisation following primary care educational interventions
 categories: Articles
 tags:
 - epidemiology
