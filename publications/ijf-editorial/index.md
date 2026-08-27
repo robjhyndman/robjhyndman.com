@@ -5,7 +5,6 @@ title: Editorial
 categories: Editorials
 tags:
 - forecasting
-details: <em>International Journal of Forecasting</em> <b>21</b>(1), 1
 file: ijf_editorial_2005.pdf
 bibkey: IJFeditorial05
 ---

@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - econometrics
 - electricity
-details: <em>Energy policy</em> <b>39</b>(6), 3709-3719
 file: Elasticity2010.pdf
 bibkey: FH10b
 ---

@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - atmospheric science
 - gams
-details: <em>Atmospheric Environment</em> <b>45</b>(6), 1328-1336
 file: local-gams.pdf
 bibkey: Pearce10b
 ---

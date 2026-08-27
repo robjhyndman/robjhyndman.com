@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - density estimation
 - nonparametric smoothing
-details: <em>J. Fuzhou Univ. Nat. Sci. Ed.</em> <b>34</b>(6), 794–797. (Chinese)
 link: https://caod.oriprobe.com/articles/11186305/Projection_pursuit_estimator_for_multivariate_cond.htm
 bibkey: YH06
 ---

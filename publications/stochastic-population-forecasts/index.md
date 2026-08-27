@@ -9,7 +9,6 @@ tags:
 - demography
 - functional data
 - time series
-details: <em>International Journal of Forecasting</em> <b>24</b>(3), 323-342
 file: popfda.pdf
 bibkey: HB08
 ---

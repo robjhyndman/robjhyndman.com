@@ -3,7 +3,6 @@ author: Rob J Hyndman, Yijun Zeng, Han Lin Shang
 date: 2021-03-26
 title: "Forecasting the old-age dependency ratio to determine a sustainable pension age"
 categories: Articles
-details: <em>Australian & New Zealand Journal of Statistics</em>, <b>63</b>(2), 241-256
 tags:
 - R
 - demography

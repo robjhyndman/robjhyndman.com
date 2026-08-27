@@ -9,7 +9,6 @@ tags:
 - exponential smoothing
 - state space models
 - time series
-details: <em>Economic modelling</em> <b>26</b>(5), 1067-1074
 file: vists_bn.pdf
 bibkey: dSHS09
 ---

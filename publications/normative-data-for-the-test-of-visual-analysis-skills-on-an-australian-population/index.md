@@ -7,7 +7,6 @@ title: Normative data for the Rosner test of visual analysis skills on an Austra
 categories: Articles
 tags:
 - optometry
-details: <em>Optometry and Vision Science</em> <b>80</b>(6), 431-436
 bibkey: RLH03
 ---
 

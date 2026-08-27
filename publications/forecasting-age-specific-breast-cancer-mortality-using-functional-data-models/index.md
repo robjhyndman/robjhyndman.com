@@ -8,7 +8,6 @@ tags:
 - epidemiology
 - forecasting
 - functional data
-details: <em>Statistics in Medicine</em> <b>26</b>(2), 458-470
 file: ehg07.pdf
 bibkey: EHG07
 ---

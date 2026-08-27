@@ -3,7 +3,6 @@ title: "Probabilistic forecasts using expert judgment: the road to recovery from
 author: George Athanasopoulos, Rob J Hyndman, Nikolaos Kourentzes, Mitchell O'Hara&#8209;Wild
 date: 2023-01-01
 categories: Articles
-details: "<em>Journal of Travel Research</em>, <b>62</b>(1), 233-258"
 tags:
   - data science
   - time series

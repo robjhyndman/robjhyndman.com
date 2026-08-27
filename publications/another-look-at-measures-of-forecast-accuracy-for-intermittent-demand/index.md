@@ -8,7 +8,6 @@ tags:
 - accuracy
 - forecasting
 - time series
-details: "<em>Foresight: the International Journal of Applied Forecasting</em> <b>4</b>, 43-46"
 file: foresight.pdf
 bibkey: Hyndman06
 ---

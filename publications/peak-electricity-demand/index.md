@@ -10,7 +10,6 @@ tags:
 - forecasting
 - gams
 - nonparametric smoothing
-details: "<em>IEEE Transactions on Power Systems</em> <b>25</b>(2), 1142-1153"
 file: peak_electricity_demand.pdf
 bibkey: HF10
 ---

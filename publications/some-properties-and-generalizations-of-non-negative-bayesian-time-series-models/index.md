@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - forecasting
 - time series
-details: "<em>Journal of the Royal Statistical Society Series B</em> <b>59</b>, 615-626"
 file: nonneg-bayesian.pdf
 bibkey: GHH97
 ---

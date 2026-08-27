@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - forecasting
 - time series
-details: "<em>Foresight: the International Journal of Applied Forecasting</em> <b>6</b>, 12-15"
 file: shortseasonal.pdf
 bibkey: shortseasonal
 ---

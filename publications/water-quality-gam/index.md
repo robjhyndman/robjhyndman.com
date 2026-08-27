@@ -4,7 +4,6 @@ date: 2023-06-13
 title: Understanding links between water-quality variables and nitrate concentration in freshwater streams using high-frequency sensor data
 categories: Articles
 github: Claire-K/nitrate_links
-details: "<em>PLoS ONE</em>, 18(6): e0287640"
 tags:
 - data science
 - time series

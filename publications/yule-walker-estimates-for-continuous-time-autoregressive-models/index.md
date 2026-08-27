@@ -3,7 +3,6 @@ author: Rob J Hyndman
 Status: Published
 date: 1993-07-16 02:06:56+00:00
 title: Yule-Walker estimates for continuous-time autoregressive models
-details: <em>Journal of Time Series Analysis</em> <b>14</b>, 281-296
 status: Published
 categories: Articles
 tags:

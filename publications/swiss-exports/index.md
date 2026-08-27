@@ -3,7 +3,6 @@ author: Florian Eckert, Rob J Hyndman, Anastasios Panagiotelis
 date: 2021-01-01
 title: "Forecasting Swiss exports using Bayesian forecast reconciliation"
 categories: Articles
-details: <em>European Journal of Operational Research</em>, <b>291</b>(2), 693-710
 tags:
 - hierarchical forecasting
 - forecasting

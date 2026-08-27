@@ -9,7 +9,6 @@ tags:
 - forecasting
 - time series
 - tourism
-details: <em>Tourism Management</em> <b>29</b>(1), 19-31
 file: tourism.pdf
 bibkey: austourism
 ---

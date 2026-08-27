@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - atmospheric science
 - epidemiology
-details: <em>Journal of Epidemiology and Biostatistics</em> <b>6</b>(6), 433-443
 file: EH01.pdf
 bibkey: EH01
 ---

@@ -2,7 +2,6 @@
 author: Shanika L Wickramasuriya, George Athanasopoulos, Rob J Hyndman
 Status: Published
 date: 2019-06-14
-details: "<em>J. American Statistical Association</em>, <b>114</b>(526), 804-819"
 aliases:
   - /working-papers/mint
 title: Optimal forecast reconciliation for hierarchical and grouped time series through trace minimization

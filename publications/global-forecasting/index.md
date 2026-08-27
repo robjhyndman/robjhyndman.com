@@ -3,7 +3,6 @@ title: "Principles and algorithms for forecasting groups of time series: localit
 author: Pablo Montero-Manso, Rob J Hyndman
 date: 2021-05-10
 categories: Articles
-details: "<em>International J Forecasting</em>, <b>37</b>(4), 1632-1653"
 tags:
   - data science
   - time series

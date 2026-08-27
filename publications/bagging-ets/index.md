@@ -9,7 +9,6 @@ tags:
 - forecasting
 - seasonality
 - time series
-details: <em>International Journal of Forecasting</em> <b>32</b>(2), 303-312
 file: BaggedETSForIJF_rev1.pdf
 bibkey: baggedETS
 ---

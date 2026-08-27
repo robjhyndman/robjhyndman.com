@@ -10,7 +10,6 @@ tags:
 - data science
 - electricity
 - forecasting
-details: <em>IEEE Transactions on Smart Grid</em> <b>7</b>(5), 2448-2455
 file: smart-meter-quantiles.pdf
 bibkey: smart-meter-quantiles
 ---

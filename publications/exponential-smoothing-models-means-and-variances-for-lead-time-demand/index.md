@@ -8,7 +8,6 @@ tags:
 - exponential smoothing
 - forecasting
 - time series
-details: <em>European Journal of Operational Research</em> <b>158</b>(2) 444-455
 file: skho.pdf
 bibkey: SKHO04
 ---

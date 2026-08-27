@@ -6,7 +6,6 @@ categories: Editorials
 tags:
 - forecasting
 - reproducibility
-details: "<em>International Journal of Forecasting</em> <b>26</b>(1), pp.2-3"
 file: replication.pdf
 bibkey: IJFeditorial10a
 ---

@@ -3,7 +3,6 @@ author: Souhaib Ben Taieb, James W Taylor, Rob J Hyndman
 date: 2021-01-01
 title: Hierarchical probabilistic forecasting of electricity demand with smart meter data
 categories: Articles
-details: <em>J American Statistical Association</em>, <b>116</b>(533), 27-43
 tags:
 - data science
 - density estimation

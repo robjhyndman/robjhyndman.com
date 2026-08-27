@@ -8,6 +8,5 @@ file: rhinovirus_pollen.pdf
 tags:
 - atmospheric science
 - epidemiology
-details: <em>Journal of Allergy and Clinical Immunology</em> <b>136</b>(4), 1118–1120.e2
 bibkey: jaci2015
 ---

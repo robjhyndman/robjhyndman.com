@@ -6,7 +6,6 @@ title: Measurement of changes in antihypertensive drug utilisation following pri
 categories: Articles
 tags:
 - epidemiology
-details: <em>Pharmacoepidemiology & Drug Safety</em> <b>16</b>(3), 297-308
 file: nps2.pdf
 bibkey: NPS07
 ---

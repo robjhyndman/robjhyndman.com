@@ -3,7 +3,6 @@ author: Catherine Leigh, Sevvandi Kandanaarachchi, James M McGree, Rob J Hyndman
 date: 2019-08-23
 title: Predicting sediment and nutrient concentrations from high-frequency water-quality data
 categories: Articles
-details: "<em>PLoS ONE</em>, <b>14</b>(8): e0215503"
 tags:
 - data science
 - time series

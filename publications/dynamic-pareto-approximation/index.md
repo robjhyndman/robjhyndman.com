@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - data science
 - optimization
-details: <em>Journal of Global Optimization</em>,  <b>67</b>(1), 263–282
 file: dynamic-algorithm-selection.pdf
 bibkey: dynamicpareto
 ---

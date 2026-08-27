@@ -3,7 +3,6 @@ title: A note on upper bounds for forecast-value-added relative to naïve foreca
 author: Paul Goodwin, Fotios Petropoulos, Rob J Hyndman
 status: Published
 categories: Articles
-details: <em>Journal of the Operational Research Society</em>, <b>68</b>(9), 1082–1084
 date: 2017-03-28 08:10:47+00:00
 link: http://rdcu.be/qqNQ
 tag:

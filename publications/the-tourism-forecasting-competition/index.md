@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - forecasting
 - tourism
-details: "<em>International Journal of Forecasting</em> <b>27</b>(3), 822-844"
 file: forecompijf.pdf
 bibkey: AHSW11
 ---

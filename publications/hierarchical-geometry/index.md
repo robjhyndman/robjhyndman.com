@@ -10,7 +10,6 @@ tags:
 - optimization
 - time series
 link: https://bridges.monash.edu/ndownloader/files/38163552
-details: "<em>International J Forecasting</em>, <b>37</b>(1), 343-359"
 bibkey: htsgeometry
 ---
 

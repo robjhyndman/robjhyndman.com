@@ -6,7 +6,6 @@ categories: Articles
 tags:
 - R
 link: "https://journal.r-project.org/news/RJ-2011-1-Hyndman/"
-details: "<em>The R Journal</em>, <b>3</b>(1), 69–71"
 bibkey: usertalk11
 ---
 

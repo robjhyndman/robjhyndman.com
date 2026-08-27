@@ -6,7 +6,6 @@ title: Nonparametric confidence intervals for receiver operating characteristic 
 categories: Articles
 tags:
 - nonparametric smoothing
-details: <em>Biometrika</em> <b>91</b>(3), 743-750
 file: hhf.pdf
 bibkey: HHF04
 ---

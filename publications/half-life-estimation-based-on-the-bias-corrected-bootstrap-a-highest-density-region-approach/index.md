@@ -7,7 +7,6 @@ title: 'Half-life estimation based on the bias-corrected bootstrap: a highest de
 categories: Articles
 tags:
 - highest density regions
-details: "<em>Computational Statistics and Data Analysis</em> <b>51</b>(7), 3418-3432"
 file: ksh.pdf
 bibkey: KSH07
 ---

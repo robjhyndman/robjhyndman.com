@@ -3,7 +3,6 @@ author: Anastasios Panagiotelis, Puwasala Gamakumara, George Athanasopoulos and 
 date: 2023-04-16
 title: "Probabilistic forecast reconciliation: properties, evaluation and score optimisation"
 categories: Articles
-details: "<em>European J Operational Research</em>, <b>306</b>(2), 693-706"
 tags:
 - scoring rules
 - probabilistic forecasting

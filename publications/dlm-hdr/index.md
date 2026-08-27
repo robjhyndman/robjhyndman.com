@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - density estimation
 - highest density regions
-details: <em>Computational Statistics and Data Analysis</em> <b>55</b>(8), 2477-2489
 file: longrun.pdf
 bibkey: longrun
 ---

@@ -3,7 +3,6 @@ author: Rob J Hyndman and Yanan Fan
 Status: Published
 date: 1996-11-16 02:45:26+00:00
 title: Sample quantiles in statistical packages
-details: "<em>American Statistician</em> <b>50</b> 361-365"
 status: Published
 categories: Articles
 tag:

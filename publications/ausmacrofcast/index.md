@@ -4,7 +4,6 @@ Status: Published
 date: 2019-01-01
 title: Macroeconomic forecasting for Australia using a large number of predictors
 categories: Articles
-details: <em>International Journal of Forecasting</em>, <b>35</b>(2), 616-633
 tags:
 - data science
 - econometrics

@@ -3,7 +3,6 @@ author: Shanika L Wickramasuriya, Berwin A Turlach, Rob J Hyndman
 date: 2020-04-08
 title: Optimal non-negative forecast reconciliation
 categories: Articles
-details: "<em>Statistics & Computing</em>, <b>30</b>(5), 1167-1182"
 tags:
 - accuracy
 - arima models

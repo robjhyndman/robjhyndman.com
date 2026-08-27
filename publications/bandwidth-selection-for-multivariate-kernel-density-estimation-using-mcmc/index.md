@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - density estimation
 - nonparametric smoothing
-details: <em>Computational Statistics & Data Analysis</em> <b>50</b>(11), 3009-3031
 file: zkh06.pdf
 bibkey: ZKH06
 ---

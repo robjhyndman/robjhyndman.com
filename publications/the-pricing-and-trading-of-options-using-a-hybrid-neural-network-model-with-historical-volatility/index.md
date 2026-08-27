@@ -4,7 +4,6 @@ Status: Published
 date: 1997-01-16 02:56:45+00:00
 title: The pricing and trading of options using a hybrid neural network model with historical volatility
 categories: Articles
-details: "<em>NeuroVe$t Journal</em> <b>5</b>(1), 27-41"
 tags:
 - econometrics
 - neural networks

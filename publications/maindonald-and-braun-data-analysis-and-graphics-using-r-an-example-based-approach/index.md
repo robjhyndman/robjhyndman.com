@@ -8,7 +8,6 @@ tags:
 - graphics
 - R
 - teaching
-details: <em>Journal of Population Research</em> <b>22</b>(2), 206–208
 file: maindonald_braun.pdf
 bibkey: EH05a
 ---

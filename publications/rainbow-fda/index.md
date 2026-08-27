@@ -8,7 +8,6 @@ tags:
 - functional data
 - graphics
 - highest density regions
-details: "<em>J Computational & Graphical Statistics</em> <b>19</b>(1), 29-45"
 file: Rainbow5.pdf
 bibkey: HS10
 ---

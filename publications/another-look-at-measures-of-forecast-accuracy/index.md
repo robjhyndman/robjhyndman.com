@@ -10,7 +10,6 @@ tags:
 - accuracy
 - forecasting
 - time series
-details: <em>International Journal of Forecasting</em> <b>22</b>(4), 679-688
 file: mase.pdf
 bibkey: HK06
 ---

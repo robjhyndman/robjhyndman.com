@@ -7,8 +7,6 @@ categories: Articles
 tags:
   - forecasting
   - hierarchical time series
-details: <em>Foresight</em> (Fall, 2014).
-  pp.42-48
 file: Foresight-hts-final.pdf
 bibkey: foresight14
 ---

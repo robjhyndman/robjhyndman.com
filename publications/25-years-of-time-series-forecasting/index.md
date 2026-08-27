@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - forecasting
 - time series
-details: <em>International Journal of Forecasting</em> <b>22</b>(3), 443-473
 file: 25years_forecasting.pdf
 bibkey: ijf25
 ---

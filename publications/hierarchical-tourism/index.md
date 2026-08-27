@@ -8,7 +8,6 @@ tags:
 - forecasting
 - hierarchical time series
 - tourism
-details: <em>International Journal of Forecasting</em> <b>25</b>(1), 146-166
 file: hierarchical_tourism.pdf
 bibkey: hiertourism
 ---

@@ -9,7 +9,6 @@ tags:
 - forecasting
 - gams
 - nonparametric smoothing
-details: <em>IEEE Transactions on Power Systems</em> <b>27</b>(1), 134-141
 file: 2010STLF-FinalR1.pdf
 bibkey: FH11
 ---

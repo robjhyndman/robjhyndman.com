@@ -9,7 +9,6 @@ tags:
 - atmospheric science
 - gams
 - time series
-details: <em>Australian and New Zealand Journal of Statistics</em> <b>42</b>(2), 145-158
 file: gam-rainfall.pdf
 bibkey: HG00
 ---

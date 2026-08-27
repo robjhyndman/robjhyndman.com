@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - graphics
 - time series
-details: <em>Australian and New Zealand Journal of Statistics</em> <b>42</b>(4), 463-477
 file: fhv.pdf
 bibkey: FHV00
 ---

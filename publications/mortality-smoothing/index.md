@@ -3,7 +3,6 @@ author: Alexander Dokumentov, Rob J Hyndman, Leonie Tickle
 date: 2018-07-06
 title: Bivariate smoothing of mortality surfaces with cohort and period ridges
 categories: Articles
-details: "<em>Stat</em>, <b>7</b>: e199"
 tags:
 - demography
 - nonparametric smoothing

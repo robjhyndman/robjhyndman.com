@@ -8,7 +8,6 @@ tags:
 - demography
 - functional data
 - time series
-details: <em>Demography</em> <b>50</b>(1), 261-283
 file: ratio_revision.pdf
 bibkey: HBY13
 ---

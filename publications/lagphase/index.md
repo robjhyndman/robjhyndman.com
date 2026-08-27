@@ -8,7 +8,6 @@ aliases:
 categories: Articles
 tags:
   - ecology
-details: <em>Biological Invasions</em> <b>17</b>(12), 3371-3381
 file: lagphase.pdf
 bibkey: lagphase
 ---

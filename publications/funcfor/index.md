@@ -8,7 +8,6 @@ tags:
 - demography
 - forecasting
 - functional data
-details: "<em>Computational Statistics & Data Analysis</em> <b>51</b>, 4942-4956"
 file: funcforecasts.pdf
 bibkey: HU07
 ---

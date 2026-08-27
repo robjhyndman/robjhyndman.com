@@ -9,7 +9,6 @@ tags:
 - forecasting
 - state space models
 - time series
-details: <em>Australian and New Zealand Journal of Statistics</em> <b>51</b>(4), 415-432
 link: https://www2.gwu.edu/~forcpgm/2008-003.pdf
 bibkey: AHO09
 ---

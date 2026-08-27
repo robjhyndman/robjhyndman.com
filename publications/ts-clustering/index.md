@@ -9,7 +9,6 @@ categories: Articles
 tags:
 - neural networks
 - time series
-details:  <em>Data Mining and Knowledge Discovery</em> <b>13</b>(3), 335-364
 file: ts-clustering.pdf
 bibkey: WSH06
 ---

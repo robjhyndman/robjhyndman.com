@@ -8,7 +8,6 @@ tags:
 - forecasting
 - graphics
 - time series
-details: <em>Electronic J Statistics</em> <b>9</b>, 792-796
 file: MPcomments.pdf
 bibkey: acfplots14
 ---

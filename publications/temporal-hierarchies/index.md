@@ -9,7 +9,6 @@ tags:
 - hierarchical time series
 - seasonality
 - time series
-details: <em>European Journal of Operational Research</em>, <b>262</b>(1) 60–74
 file: temporalhierarchies.pdf
 bibkey: temporal-hierarchies
 ---

@@ -9,7 +9,6 @@ tags:
 - demography
 - functional data
 - time series
-details: <em>Demographic Research</em> <b>15</b>(9), 289-310
 link: http://www.demographic-research.org/volumes/vol15/9/
 bibkey: LCcomparison
 ---

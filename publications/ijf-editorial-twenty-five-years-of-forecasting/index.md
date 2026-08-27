@@ -5,7 +5,6 @@ title: 'Twenty-five years of forecasting'
 categories: Editorials
 tags:
 - forecasting
-details: <em>International Journal of Forecasting</em>, <b>22</b>(3), 413-414
 file: 25years_ijf.pdf
 bibkey: IJFeditorial06
 ---

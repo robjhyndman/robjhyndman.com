@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - forecasting
 - time series
-details: <em>Journal of Forecasting</em> <b>24</b>, 389-402
 file: croston.pdf
 bibkey: SH05
 ---

@@ -8,7 +8,6 @@ tags:
   - time series
   - graphics
   - energy
-details: <em>IEEE Power and Energy Magazine</em>, <b>16</b>(3), 18-25
 file: visualizing-big-energy-data.pdf
 bibkey: vizenergy
 ---

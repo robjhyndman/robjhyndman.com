@@ -3,7 +3,6 @@ author: Catherine Leigh, Omar Alsibai, Rob J Hyndman, Sevvandi Kandanaarachchi, 
 date: 2019-02-06
 title: A framework for automated anomaly detection in high frequency water-quality data from in situ sensors
 categories: Articles
-details: <em>Science of the Total Environment</em>, <b>664</b>, 885-898
 tags:
 - data science
 - time series

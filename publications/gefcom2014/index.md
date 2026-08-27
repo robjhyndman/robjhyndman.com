@@ -10,7 +10,6 @@ tags:
 - electricity
 - forecasting
 - probability
-details: <em>International Journal of Forecasting</em> <b>32</b>(3), 896–913
 file: gefcom2014.pdf
 bibkey: gefcom2014
 ---

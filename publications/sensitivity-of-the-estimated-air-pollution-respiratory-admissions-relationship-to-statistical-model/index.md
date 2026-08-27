@@ -8,7 +8,6 @@ tags:
 - atmospheric science
 - epidemiology
 - gams
-details: <em>International Journal of Environmental Health Research</em> <b>15</b>(6), 437-448
 file: eh05.pdf
 bibkey: EH05
 ---

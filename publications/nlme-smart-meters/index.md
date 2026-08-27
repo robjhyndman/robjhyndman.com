@@ -3,7 +3,6 @@ title: "Non-linear mixed-effects models for time series forecasting of smart met
 author: Cameron Roach, Rob J Hyndman, Souhaib Ben Taieb
 date: 2021-01-01
 categories: Articles
-details: <em>Journal of Forecasting</em>, <b>40</b>(6), 1118-1130
 tags:
   - data science
   - time series

@@ -9,7 +9,6 @@ tags:
 - R
 - software
 online: https://foresight.forecasters.org/product/foresight-issue-17/
-details: "<em>Foresight: the International Journal of Applied Forecasting</em> <b>17</b>, 19-24"
 file: foresight_R.pdf
 bibkey: KH10
 ---

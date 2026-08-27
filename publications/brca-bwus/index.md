@@ -10,7 +10,6 @@ tags:
 - epidemiology
 - functional data
 - time series
-details: "<em>Cancer Epidemiology</em> <b>34</b>(5), 542-549"
 file: brca_bw.pdf
 bibkey: YHE10
 ---

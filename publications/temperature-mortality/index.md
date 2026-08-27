@@ -8,7 +8,6 @@ tags:
 - atmospheric science
 - demography
 - epidemiology
-details: <em>Environmental Health</em> <b>15</b>:107
 file: temperature_mortality.pdf
 bibkey: pearce2016exploring
 ---

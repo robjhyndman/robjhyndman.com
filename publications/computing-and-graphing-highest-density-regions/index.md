@@ -3,7 +3,6 @@ author: Rob J Hyndman
 Status: Published
 date: 1996-07-16 02:38:57+00:00
 title: Computing and graphing highest density regions
-details: "<em>American Statistician</em>, <b>50</b>, 120-126"
 status: Published
 categories: Articles
 aliases:

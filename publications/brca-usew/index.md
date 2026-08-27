@@ -10,7 +10,6 @@ tags:
 - epidemiology
 - functional data
 - time series
-details: "<em>Journal of Epidemiology</em> <b>20</b>(2), 159-165"
 file: brca_usew.pdf
 bibkey: EAGE+10
 ---

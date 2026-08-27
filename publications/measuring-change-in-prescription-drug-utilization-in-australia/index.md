@@ -6,7 +6,6 @@ title: Measuring change in prescription drug utilization in Australia
 categories: Articles
 tags:
 - epidemiology
-details: <em>Pharmacoepidemiology & Drug Safety</em> <b>15</b>, 477-484
 file: nps.pdf
 bibkey: NPS06
 ---

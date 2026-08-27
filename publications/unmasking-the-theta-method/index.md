@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - exponential smoothing
 - forecasting
-details: <em>International Journal of Forecasting</em> <b>19</b>, 287-290
 file: Theta.pdf
 bibkey: HB03
 ---

@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - atmospheric science
 - epidemiology
-details: <em>Clinical and Experimental Allergy</em> <b>37</b>(11), 1641-1647
 file: pollen.pdf
 bibkey: pollen07
 ---

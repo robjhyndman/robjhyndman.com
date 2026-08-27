@@ -9,7 +9,6 @@ tags:
 - neural networks
 - time series
 file: cv-wp.pdf
-details: <em>Computational Statistics and Data Analysis</em>, <b>120</b>, 70-83
 bibkey: tscv
 ---
 

@@ -6,7 +6,6 @@ title: Mixed model-based hazard estimation
 categories: Articles
 tags:
 - nonparametric smoothing
-details: <em>J Computational & Graphical Statistics</em> <b>11</b>(4), 784-798
 file: mixedhazard.pdf
 bibkey: CHW02
 ---

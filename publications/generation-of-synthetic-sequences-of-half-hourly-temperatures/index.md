@@ -6,7 +6,6 @@ title: Generation of synthetic sequences of half-hourly temperature
 categories: Articles
 tags:
 - atmospheric science
-details: <em>Environmetrics</em> <b>19</b>(8), 818-835
 file: generation_temps.pdf
 bibkey: MBH08
 ---

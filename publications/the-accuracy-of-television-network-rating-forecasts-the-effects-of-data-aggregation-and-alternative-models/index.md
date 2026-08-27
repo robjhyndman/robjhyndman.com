@@ -8,7 +8,6 @@ categories: Articles
 tags:
 - forecasting
 - neural networks
-details: <em>Model Assisted Statistics and Applications</em> <b>1</b>(3), 147-155
 link: http://content.iospress.com/articles/model-assisted-statistics-and-applications/mas00022
 bibkey: MH06
 ---

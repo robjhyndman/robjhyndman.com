@@ -8,7 +8,6 @@ tags:
 - remote sensing
 - seasonality
 - time series
-details: "<em>Remote Sensing of Environment</em> <b>114</b>(1), 106-115"
 file: bfast1.pdf
 bibkey: VHNC10
 ---

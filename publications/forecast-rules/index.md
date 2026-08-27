@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - forecasting
 - time series
-details: "<em>Neurocomputing</em> <b>72</b>, 2581–2594"
 file: wsh.pdf
 bibkey: WSH09
 ---

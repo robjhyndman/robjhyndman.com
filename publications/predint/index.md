@@ -11,7 +11,6 @@ tags:
 - forecasting
 - state space models
 - time series
-details: <em>Journal of Forecasting</em> <b>24</b>(1), 17-37
 file: predint.pdf
 bibkey: HKOS05
 ---

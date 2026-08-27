@@ -5,7 +5,6 @@ title: Changing of the guard
 categories: Editorials
 tags:
 - forecasting
-details: "<em>International Journal of Forecasting</em> <b>26</b>(1), p1"
 file: changing_of_the_guard.pdf
 bibkey: IJFeditorial10b
 ---

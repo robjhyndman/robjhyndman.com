@@ -3,7 +3,6 @@ author: Rob J Hyndman, David Bashtannyk, Gary K Grunwald
 Status: Published
 date: 1996-07-16 02:43:49+00:00
 title: Estimating and visualizing conditional densities
-details: "<em>J Computational & Graphical Statistics</em>, <b>5</b>, 315-336"
 status: Published
 categories: Articles
 tag:

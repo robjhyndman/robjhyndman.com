@@ -3,7 +3,6 @@ author: Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith&#8209;Miles, Sevvand
 date: 2020-04-19
 title: "Anomaly detection in streaming nonstationary temporal data"
 categories: Articles
-details: <em>J Computational & Graphical Statistics</em>, <b>20</b>(1), 13-27
 tags:
 - data science
 - anomaly detection

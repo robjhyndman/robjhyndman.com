@@ -6,7 +6,6 @@ title: A note on the categorization of demand patterns
 categories: Articles
 tags:
 - time series
-details: <em>Journal of the Operational Research Society</em> <b>57</b>, 1256-1257
 file: SBC-categorization.pdf
 bibkey: KH06
 ---

@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - forecasting
 - time series
-details: <em>Journal of Statistical Computation and Simulation</em> <b>75</b>(10), 831-840
 file: eic.pdf
 bibkey: BHK05
 ---

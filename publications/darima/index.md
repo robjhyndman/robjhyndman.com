@@ -3,7 +3,6 @@ title: "Distributed ARIMA Models for Ultra-long Time Series"
 author: Xiaoqian Wang, Yanfei Kang, Rob J Hyndman, Feng Li
 date: 2023-06-21
 categories: Articles
-details: <i>International J Forecasting</i>, <b>39</b>(3), 1163-1184
 tags:
   - data science
   - time series

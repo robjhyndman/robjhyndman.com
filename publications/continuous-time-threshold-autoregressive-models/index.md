@@ -4,7 +4,6 @@ date: 1991-02-16
 online: https://www3.stat.sinica.edu.tw/statistica/j1n2/j1n26/j1n26.htm
 title: Continuous time threshold autoregressive models
 categories: Articles
-details: "<em>Statistica Sinica</em> <b>1</b>, 401-410"
 tag:
 - time series
 file: ctar.pdf

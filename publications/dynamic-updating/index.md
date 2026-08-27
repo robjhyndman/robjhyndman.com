@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - forecasting
 - functional data
-details: <em>Mathematics and Computers in Simulation</em> <b>81</b>, 1310-1324
 file: dynamic_updating.pdf
 bibkey: SH11
 ---

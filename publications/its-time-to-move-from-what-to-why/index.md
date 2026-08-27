@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - forecasting
 - time series
-details: <em>International Journal of Forecasting</em> <b>17</b>(4), 567-570
 file: why.pdf
 bibkey: Hyndman01
 ---

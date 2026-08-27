@@ -9,7 +9,6 @@ tags:
 - forecasting
 - state space models
 - time series
-details: <em>Annals of the Institute of Statistical Mathematics</em> <b>60</b>(2), 407-426
 file: admissible.pdf
 bibkey: HAA08
 ---

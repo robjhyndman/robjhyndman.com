@@ -8,7 +8,6 @@ tags:
 - remote sensing
 - seasonality
 - time series
-details: "<em>Remote Sensing of Environment</em>, <b>114</b>(12), 2970-2980"
 file: SeasonalBreakDetection_revised_4x00.pdf
 bibkey: VHZC10
 ---

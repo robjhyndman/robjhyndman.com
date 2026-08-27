@@ -9,7 +9,6 @@ tags:
 - forecasting
 - state space models
 - time series
-details: "<em>European Journal of Operational Research</em> <b>191</b>(1), 207–220"
 file: multiseasonal.pdf
 bibkey: Gould08
 ---

@@ -8,7 +8,6 @@ tags:
 - demography
 - functional data
 - time series
-details: <em>Demographic Research</em> <b>25</b>(5), 173-214
 file: mortality_forecast_comparison.pdf
 bibkey: SBH11
 ---

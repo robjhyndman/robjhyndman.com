@@ -8,7 +8,6 @@ tags:
 - chemistry
 - experimental design
 - optimization
-details: <em>Analytical Chemistry</em> <b>83</b>(16), 6373–6380
 file: emma.pdf
 bibkey: Carta2011
 ---

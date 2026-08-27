@@ -7,7 +7,6 @@ categories: Articles
 tags:
 - seasonality
 - time series
-details: <em>International Journal of Forecasting</em> <b>20</b>(4), 561-563
 file: trend_seasonality.pdf
 bibkey: Hyndman04
 ---

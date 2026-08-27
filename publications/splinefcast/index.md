@@ -9,7 +9,6 @@ tags:
 - forecasting
 - nonparametric smoothing
 - time series
-details: <em>Australian and New Zealand Journal of Statistics</em> <b>47</b>(1), 87-99
 file: splinefcast.pdf
 bibkey: HKPB05
 ---

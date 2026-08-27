@@ -7,7 +7,6 @@ tags:
 - forecasting
 - review
 link: /papers/forecasting_state_of_the_art.pdf
-details: <em>International Journal of Forecasting</em>, <b>36</b>(1), 15-28
 bibkey: forecastingsofa
 ---
 

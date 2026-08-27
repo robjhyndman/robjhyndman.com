@@ -6,7 +6,6 @@ title: Non-Gaussian conditional linear AR(1) models
 categories: Articles
 tags:
 - time series
-details: <em>Australian and New Zealand Journal of Statistics</em> <b>42</b>(4), 479-495
 file: clar1.pdf
 bibkey: GHTT00
 ---

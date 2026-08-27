@@ -13,7 +13,6 @@ tags:
 - graphics
 - seasonality
 - time series
-details: <em>International Journal of Forecasting</em> <b>33</b>(2), 345-358
 link: https://www.monash.edu/business/ebs/research/publications/ebs/wp10-16.pdf
 bibkey: m3pca
 ---

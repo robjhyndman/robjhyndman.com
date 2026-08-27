@@ -10,7 +10,6 @@ categories: Articles
 tags:
 - forecasting
 - hierarchical time series
-details: <em>Computational Statistics and Data Analysis</em> <b>97</b>, 16-32
 file: hgts7.pdf
 bibkey: fasthts
 ---
