@@ -6,6 +6,7 @@ arxiv: 2210.07407
 categories: Working papers
 aliases:
   - /publications/oddnet/
+bibkey: oddnet
 ---
 
 Detecting anomalies from a series of temporal networks has many applications, including road accidents in transport networks and suspicious events in social networks. While there are many methods for network anomaly detection, statistical methods are under utilised in this space even though they have a long history and proven capability in handling temporal dependencies. In this paper, we introduce *oddnet*, a feature-based network anomaly detection method that uses time series methods to model temporal dependencies. We demonstrate the effectiveness of oddnet on synthetic and real-world datasets.

@@ -1,10 +1,8 @@
 ---
 author: Rob J Hyndman
 date: 2005-07-16 00:42:29+00:00
-slug: maindonald-and-braun-data-analysis-and-graphics-using-r-an-example-based-approach
 title: 'Book Review of "Data Analysis and Graphics Using R:
   An Example-based Approach" (Maindonald and Braun, 2003)'
-wordpress_id: 289
 categories: Book reviews
 tags:
 - graphics
@@ -13,4 +11,5 @@ tags:
 details: <em>Journal of Population Research</em> <b>22</b>(2), 206–208
 doi: 10.1007/BF03031829
 file: maindonald_braun.pdf
+bibkey: EH05a
 ---

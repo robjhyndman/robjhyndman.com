@@ -904,6 +904,31 @@ textarea {
   margin-bottom: 0;
 }
 
+/* Publication page "Cite" / BibTeX section */
+.citation {
+  @extend %card-base;
+  padding: 0.75rem 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.citation summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: $theme-main;
+}
+
+.citation pre {
+  margin: 0.75rem 0 0.25rem 0;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.citation pre code {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
 /* Research team bio lists */
 .team-list li {
   margin: 0.2rem 0;

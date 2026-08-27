@@ -5,12 +5,12 @@ status: Published
 categories: Articles
 details: <em>Journal of the Operational Research Society</em>, <b>68</b>(9), 1082–1084
 date: 2017-03-28 08:10:47+00:00
-slug: fvanaive
 doi: 10.1057/s41274-017-0218-3
 link: http://rdcu.be/qqNQ
 tag:
 - forecasting
 - time series
+bibkey: fvanaive
 ---
 
 In forecast value added analysis, the accuracy of relatively sophisticated forecasting methods is compared to that of naïve 1 forecasts to see whether the extra costs and effort of implementing them are justified. In this note, we derive a ratio that indicates the upper bound of a forecasting method’s accuracy relative to naïve 1 forecasts when the mean squared error is used to measure one-period-ahead accuracy. The ratio is applicable when a series is stationary or when its first differences are stationary. Formulae for the ratio are presented for several exemplar time series processes.

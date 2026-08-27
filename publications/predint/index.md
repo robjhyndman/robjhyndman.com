@@ -14,6 +14,7 @@ tags:
 details: <em>Journal of Forecasting</em> <b>24</b>(1), 17-37
 doi: 10.1002/for.938
 file: predint.pdf
+bibkey: HKOS05
 ---
 
 Three general classes of state space models are presented, based upon the single source of error formulation. The first class is the standard linear state space model with homoscedastic errors, the second retains the linear structure but incorporates a dynamic form of heteroscedasticity, and the third allows for non-linear structure in the observation equation as well as heteroscedasticity. These three classes provide stochastic models for a wide variety of exponential smoothing methods. We then use these three classes to provide exact analytic (matrix) expressions for forecast error variances that can be used to construct prediction intervals one or multiple steps ahead. These formulas are then specialized to non-matrix formulas for fifteen state space models that underlie nine exponential smoothing methods, including all the widely used methods. In cases where an ARIMA model also underlies an exponential smoothing method, there is an equivalent state space model with the same variance expression. We also discuss relationships between these new ideas and previous suggestions for finding forecast error variances and prediction intervals for the exponential smoothing methods. Simpler approximations are developed for the more complex schemes and their validity examined. The paper concludes with a numerical example using a non-linear model.

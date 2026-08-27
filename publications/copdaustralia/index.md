@@ -2,9 +2,7 @@
 author: Bircan Erbas, Md Shahid Ullah, Md Rob J Hyndman, Michelle Scollo, Michael Abramson
 Status: Published
 date: 2012-01-29 23:16:19+00:00
-slug: copdaustralia
 title: 'Forecasts of COPD mortality in Australia: 2006-2025'
-wordpress_id: 1916
 categories: Articles
 tags:
 - demography
@@ -14,6 +12,7 @@ tags:
 details: <em>BMC Medical Research Methodology</em> <b>12</b>:17
 doi: 10.1186/1471-2288-12-17
 file: copdaustralia.pdf
+bibkey: EUHSA12
 ---
 
 **Background:** Chronic Obstructive Pulmonary Disease (COPD) is currently the fifth leading cause of death in Australia, and there are marked differences in mortality trends between men and women. In this study, we have sought to model and forecast age related changes in COPD mortality over time for men and women separately over the period 2006–2025.

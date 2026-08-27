@@ -1,7 +1,6 @@
 ---
 author: Earo Wang, Dianne Cook, Rob J Hyndman
 date: 2020-01-07
-slug: calendar-vis
 title: Calendar-based graphics for visualizing people's daily schedules
 categories: Articles
 details: <em>J Computational & Graphical Statistics</em>, <b>29</b>(3), 490-502
@@ -11,6 +10,7 @@ tags:
 - graphics
 file: calendar-vis.pdf
 doi: 10.1080/10618600.2020.1715226
+bibkey: calendarviz
 ---
 
 ![](/img/calendar-vis.png)

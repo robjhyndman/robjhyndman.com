@@ -8,4 +8,5 @@ tags:
 file: fr_editorial.pdf
 details: "<em>International Journal of Forecasting</em>, <b>40</b>(2), 427-429"
 doi: 10.1016/j.ijforecast.2024.01.003
+bibkey: freditorial
 ---

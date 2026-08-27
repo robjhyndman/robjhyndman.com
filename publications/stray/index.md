@@ -1,7 +1,6 @@
 ---
 author: Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith&#8209;Miles,
 date: 2021-01-01
-slug: stray
 title: "Anomaly detection in high-dimensional data"
 categories: Articles
 details: <em>J Computational & Graphical Statistics</em>, <b>30</b>(2), 360-374
@@ -11,6 +10,7 @@ tags:
   - data science
   - anomaly detection
   - time series
+bibkey: stray
 ---
 
 The HDoutliers algorithm is a powerful unsupervised algorithm for detecting anomalies in high-dimensional data, with a strong theoretical foundation.

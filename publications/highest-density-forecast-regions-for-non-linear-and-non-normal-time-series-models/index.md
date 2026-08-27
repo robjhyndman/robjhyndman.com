@@ -2,7 +2,6 @@
 author: Rob J Hyndman
 Status: Published
 date: 1995-07-16 02:12:27+00:00
-slug: highest-density-forecast-regions-for-non-linear-and-non-normal-time-series-models
 title: Highest density forecast regions for non-linear and non-normal time series models
 doi: 10.1002/for.3980140503
 details: <em>Journal of Forecasting</em> <b>14</b>, 431-441
@@ -12,6 +11,7 @@ tag:
 - density estimation
 - highest density regions
 file: hdrf.pdf
+bibkey: HDRF95
 ---
 
 Many modern time series methods, such as those involving non-linear models or non-normal data, frequently lead to forecast densities which are asymmetric or multi-modal. The problem of obtaining forecast regions in such cases is discussed and it is proposed that highest density forecast regions be used. A graphical method for presenting the results is discussed.

@@ -9,3 +9,6 @@ format:
 
 sidebar: false
 author-title: Authors
+
+filters:
+  - inject-bibtex.lua

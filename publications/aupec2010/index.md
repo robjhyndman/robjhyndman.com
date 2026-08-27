@@ -2,9 +2,7 @@
 author: Shu Fan, Rob J Hyndman
 Status: Published
 date: 2010-07-21 09:15:13+00:00
-slug: aupec2010
 title: Short-term load forecasting based on a semi-parametric additive model
-wordpress_id: 1303
 categories: Conference proceedings
 tags:
 - electricity
@@ -12,6 +10,7 @@ tags:
 - gams
 - nonparametric smoothing
 details: "<em>20th Australasian Universities Power Engineering Conference</em>, 5-8 December 2010, University of Canterbury, Christchurch, New Zealand"
+bibkey: FH10
 ---
 
 Short-term load forecasting is an essential instrument in power system planning, operation and control. Many operating decisions are based on load forecasts, such as dispatch scheduling of generating capacity, reliability analysis, and maintenance planning for the generators. Overestimation of electricity demand will cause a conservative operation, which leads to the start-up of too many units or excessive energy purchase, thereby supplying an unnecessary level of reserve. On the contrary, underestimation may result in a risky operation, with insufficient preparation of spinning reserve, causing the system to operate in a vulnerable region to the disturbance.

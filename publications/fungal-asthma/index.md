@@ -1,7 +1,6 @@
 ---
 author: Rachel Tham, Shyamali Dharmage, Philip Taylor, Ed Newbigin, Mimi LK Tang, Don Vicendese, Rob J Hyndman, Michael J Abramson and Bircan Erbas
 date: 2014-09-01
-slug: fungal-asthma
 title: Outdoor fungal spores are associated with child asthma hospitalisations - a
   case-crossover study
 categories: Articles
@@ -9,6 +8,7 @@ tags:
 - epidemiology
 details: <em>European Respiratory Journal</em> <b>44</b>(Suppl 58)
 online: https://publications.ersnet.org/content/erj/44/suppl58/2919
+bibkey: fungal14
 ---
 
 **Introduction**<br>

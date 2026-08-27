@@ -2,10 +2,8 @@
 author: Bircan Erbas, Rob J Hyndman
 Status: Published
 date: 2005-12-16 03:49:12+00:00
-slug: sensitivity-of-the-estimated-air-pollution-respiratory-admissions-relationship-to-statistical-model
 title: Sensitivity of the estimated air pollution-respiratory admissions relationship
   to statistical model
-wordpress_id: 433
 categories: Articles
 tags:
 - atmospheric science
@@ -14,6 +12,7 @@ tags:
 details: <em>International Journal of Environmental Health Research</em> <b>15</b>(6), 437-448
 doi: 10.1080/09603120500289192
 file: eh05.pdf
+bibkey: EH05
 ---
 
 **Abstract:**

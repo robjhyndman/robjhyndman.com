@@ -2,7 +2,6 @@
 author: Rob J Hyndman, Anne B Koehler
 Status: Published
 date: 2006-11-16 04:44:28+00:00
-slug: another-look-at-measures-of-forecast-accuracy
 title: Another look at measures of forecast accuracy
 categories: Articles
 aliases:
@@ -14,6 +13,7 @@ tags:
 details: <em>International Journal of Forecasting</em> <b>22</b>(4), 679-688
 doi: 10.1016/j.ijforecast.2006.03.001
 file: mase.pdf
+bibkey: HK06
 ---
 
 We discuss and compare measures of accuracy of univariate time series forecasts. The methods used in the M-competition and the M3-competition, and many of the measures recommended by previous authors on this topic, are found to be degenerate in commonly occurring situations. Instead, we propose that the mean absolute scaled error become the standard measure for comparing forecast accuracy across multiple time series.

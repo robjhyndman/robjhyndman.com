@@ -2,7 +2,6 @@
 author: Stephan Kolassa, Rob J Hyndman
 Status: Published
 date: 2010-11-20 12:15:30+00:00
-slug: r-foresight
 title: Free open-source forecasting using R
 categories: Articles
 tags:
@@ -12,6 +11,7 @@ tags:
 online: https://foresight.forecasters.org/product/foresight-issue-17/
 details: "<em>Foresight: the International Journal of Applied Forecasting</em> <b>17</b>, 19-24"
 file: foresight_R.pdf
+bibkey: KH10
 ---
 
 ## Summary

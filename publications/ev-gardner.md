@@ -9,4 +9,5 @@ doi: 10.1016/j.ijforecast.2023.10.006
 tags:
 - forecasting
 - obituaries
+bibkey: Gardner23
 ---

@@ -2,7 +2,6 @@
 author: Rob J Hyndman
 Status: Published
 date: 1992-12-17 00:19:33+00:00
-slug: phd
 title: Continuous-time threshold autoregressive modelling
 status: Published
 categories: PhD thesis
@@ -11,6 +10,7 @@ details: "PhD thesis, The University of Melbourne"
 tag:
 - highest density regions
 - time series
+bibkey: phd
 ---
 
 This thesis considers continuous time autoregressive processes defined by stochastic differential equations and develops some methods for modelling time series data by such processes.

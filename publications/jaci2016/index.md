@@ -2,12 +2,12 @@
 author: Rachel Tham, Don Vicendese, Shyamali C Dharmage, Rob J Hyndman, Ed Newbigin, Emma Lewis, Molly O'Sullivan, Adrian J Lowe, Philip Taylor, Philip Bardin, Mimi L Tang, Michael J Abramson, Bircan Erbas.
 Status: Published
 date: 2017-01-31 22:43:18+00:00
-slug: jaci2016
 title: Associations between outdoor fungal spores and childhood and adolescent asthma hospitalisations
 categories: Articles
 file: fungalspores_asthma.pdf
 details: <em>Journal of Allergy and Clinical Immunology</em>, <b>139</b>(4), 1140–1147.e4
 doi: 10.1016/j.jaci.2016.06.046
+bibkey: Tham2016
 ---
 
 **Background:** Childhood asthma is a significant public health problem and severe exacerbation can result in diminished quality of life and hospitalisation.

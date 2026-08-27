@@ -2,9 +2,7 @@
 author: Rob J Hyndman, Han Lin Shang
 Status: Published
 date: 2010-02-28 23:17:40+00:00
-slug: rainbow-fda
 title: Rainbow plots, bagplots and boxplots for functional data
-wordpress_id: 526
 categories: Articles
 tags:
 - functional data
@@ -13,6 +11,7 @@ tags:
 details: "<em>J Computational & Graphical Statistics</em> <b>19</b>(1), 29-45"
 doi: 10.1198/jcgs.2009.08158
 file: Rainbow5.pdf
+bibkey: HS10
 ---
 
 We propose new tools for visualizing large numbers of functional data in the form of smooth curves or surfaces. The proposed tools include functional versions of the bagplot and boxplot, and make use of the first two robust principal component scores, Tukey's data depth and highest density regions.

@@ -2,7 +2,6 @@
 author: Rob J Hyndman
 Status: Published
 date: 2006-09-16 04:29:45+00:00
-slug: another-look-at-measures-of-forecast-accuracy-for-intermittent-demand
 title: Another look at measures of forecast accuracy for intermittent demand
 categories: Articles
 tags:
@@ -11,6 +10,7 @@ tags:
 - time series
 details: "<em>Foresight: the International Journal of Applied Forecasting</em> <b>4</b>, 43-46"
 file: foresight.pdf
+bibkey: Hyndman06
 ---
 
 Some of the proposed measures of forecast accuracy for intermittent demand can give infinite or undefined values. This makes them unsuitable for general use. I summarize the various measures and demonstrate what can go wrong. Then I describe a new measure (the mean absolute scaled error) which does not have these flaws. I believe it should become the standard measure for comparing forecast accuracy for multiple intermittent-demand series.

@@ -2,7 +2,6 @@
 author: Alexander Severinsen, Rob J Hyndman
 Status: Published
 date: 2019-06-08
-slug: energy-savings
 title: Quantification of energy savings from energy conservation measures in buildings using machine learning
 categories: Conference proceedings
 tags:
@@ -12,6 +11,7 @@ tags:
 - machine learning
 link: https://pdfs.semanticscholar.org/90d4/ba536df00c313eba3a3f63739dc50842ff0e.pdf
 details: "In: <em>ECEEE Summer Study Proceedings</em>. Presqu'île de Giens, France. 3-8 June 2019"
+bibkey: energy-savings
 ---
 
 This paper demonstrates how machine learning is used to measure energy savings from energy conservation measures (ECMs); in particular ECMs with a low expected saving.

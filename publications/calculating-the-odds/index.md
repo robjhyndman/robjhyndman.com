@@ -2,7 +2,6 @@
 author: Rob J Hyndman
 Status: Published
 date: 1987-09-15 09:25:28+00:00
-slug: calculating-the-odds
 title: Calculating the odds
 status: Published
 categories: Conference proceedings
@@ -10,4 +9,5 @@ details: "In <em>Faces of gambling</em>, Proceedings of the second national conf
 tag:
 - probability
 file: faces.pdf
+bibkey: NAGS86
 ---

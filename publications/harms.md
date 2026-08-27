@@ -4,6 +4,7 @@ date: "2026-07-29"
 author: Bahman Rostami-Tabar, Travis Greene, Galit Shmueli, Rob&nbsp;J&nbsp;Hyndman
 arxiv: 2411.16531
 categories: Working papers
+bibkey: harms
 ---
 
 Data-driven organizations around the world routinely use forecasting methods to improve their planning and decision-making capabilities.

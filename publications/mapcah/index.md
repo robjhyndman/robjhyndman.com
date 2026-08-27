@@ -2,7 +2,6 @@
 author: Bircan Erbas, SC Dharmage, M O’Sullivan, Md Akram, Ed Newbigin, P Taylor, Don Vicendese, Rob J Hyndman, ML Tang, Michael J Abramson
 Status: Published
 date: 2012-06-25 02:26:42+00:00
-slug: mapcah
 title: 'A case-crossover design to examine the role of aeroallergens and respiratory viruses on childhood asthma exacerbations requiring hospitalisation: The MAPCAH study'
 categories: Articles
 tags:
@@ -12,6 +11,7 @@ tags:
 details: <em>Journal of Biometrics and Biostatistics</em>, S7-018
 doi: 10.4172/2155-6180.S7-018
 link: http://arrow.latrobe.edu.au:8080/vital/access/services/Download/latrobe:19876/SOURCE01
+bibkey: mapcah12
 ---
 
 **Background:** Few case-control studies of time dependent environmental exposures and respiratory outcomes have been performed. Small sample sizes pose modeling challenges for estimating interactions. In contrast, case cross-over studies are well suited where control selection and responses are low, time consuming and costly.

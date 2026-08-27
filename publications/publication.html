@@ -39,6 +39,15 @@ $endif$
 
 $body$
 
+$if(bibtex)$
+<section class="citation">
+  <details>
+    <summary>Cite</summary>
+    $bibtex$
+  </details>
+</section>
+$endif$
+
 $for(include-after)$
 $include-after$
 $endfor$

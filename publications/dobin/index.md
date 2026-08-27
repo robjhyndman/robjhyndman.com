@@ -1,7 +1,6 @@
 ---
 author: Sevvandi Kandanaarachchi, Rob J Hyndman
 date: 2021-03-26
-slug: dobin
 title: Dimension reduction for outlier detection using DOBIN
 categories: Articles
 details: <em>J Computational & Graphical Statistics</em>, <b>30</b>(1), 204-219
@@ -12,6 +11,7 @@ tags:
   - anomaly detection
   - dimension reduction
 github: sevvandi/Outlier-Basis
+bibkey: dobin
 ---
 
 This paper introduces DOBIN, a new approach to select a set of basis vectors tailored for outlier detection.

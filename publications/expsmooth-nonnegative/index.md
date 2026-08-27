@@ -2,7 +2,6 @@
 author: Md Akram, Rob J Hyndman, J Keith Ord
 Status: Published
 date: 2009-11-25 23:06:04+00:00
-slug: expsmooth-nonnegative
 title: Exponential smoothing and non-negative data
 categories: Articles
 tags:
@@ -13,6 +12,7 @@ tags:
 details: <em>Australian and New Zealand Journal of Statistics</em> <b>51</b>(4), 415-432
 link: https://www2.gwu.edu/~forcpgm/2008-003.pdf
 doi: 10.1111/j.1467-842X.2009.00555.x
+bibkey: AHO09
 ---
 
 The most common forecasting methods in business are based on exponential smoothing and the most common time series in business are inherently non-negative. Therefore it is of interest to consider the properties of the potential stochastic models underlying exponential smoothing when applied to non-negative data. We explore exponential smoothing state space models for non-negative data under various assumptions about the innovations, or error, process.

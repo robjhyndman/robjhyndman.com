@@ -2,9 +2,7 @@
 author: Rob J Hyndman, George Athanasopoulos
 Status: Published
 date: 2014-10-20 22:00:53+00:00
-slug: foresight-hts
 title: Optimally reconciling forecasts in a hierarchy
-wordpress_id: 2441
 categories: Articles
 tags:
   - forecasting
@@ -12,6 +10,7 @@ tags:
 details: <em>Foresight</em> (Fall, 2014).
   pp.42-48
 file: Foresight-hts-final.pdf
+bibkey: foresight14
 ---
 
 This is an introduction to our approach to forecast reconciliation without using any matrices.

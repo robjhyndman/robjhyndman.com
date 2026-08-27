@@ -2,7 +2,6 @@
 author: Rob J Hyndman, Roman A. Ahmed, George Athanasopoulos, Han L Shang
 Status: Published
 date: 2011-03-15 23:52:31+00:00
-slug: hierarchical
 title: Optimal combination forecasts for hierarchical time series
 categories: Articles
 aliases:
@@ -13,6 +12,7 @@ tags:
 details: <em>Computational Statistics and Data Analysis</em> <b>55</b>(9), 2579-2589
 file: Hierarchical6.pdf
 doi: 10.1016/j.csda.2011.03.006
+bibkey: hierarchical
 ---
 
 In many applications, there are multiple time series that are hierarchically organized and can be aggregated at several different levels in groups based on products, geography or some other features. We call these "hierarchical time series''. They are commonly forecast using either a "bottom-up'' or a "top-down'' method.

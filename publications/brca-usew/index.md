@@ -2,10 +2,8 @@
 author: Bircan Erbas, Muhammad Akram, Dorota M Gertig, Dallas English, John L Hopper, Anne M Kavanagh, Rob J Hyndman
 Status: Published
 date: 2010-02-05 23:14:26+00:00
-slug: brca-usew
 title: Using functional data analysis models to estimate future time trends of age-specific
   breast cancer mortality for the United States and England-Wales
-wordpress_id: 724
 categories: Articles
 tags:
 - demography
@@ -15,6 +13,7 @@ tags:
 details: "<em>Journal of Epidemiology</em> <b>20</b>(2), 159-165"
 doi: 10.2188/jea.JE20090072
 file: brca_usew.pdf
+bibkey: EAGE+10
 ---
 
 **Background:** Mortality/incidence predictions are used for planning public health resources and need to accurately reflect age-related changes through time. We present a new forecasting model to estimate future trends in age-related breast cancer mortality for the United States and England-Wales.

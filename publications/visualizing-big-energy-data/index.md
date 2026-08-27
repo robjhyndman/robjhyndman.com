@@ -1,7 +1,6 @@
 ---
 author: Rob J Hyndman, Xueqin Lin, Pierre Pinson
 date: 2018-02-01
-slug: visualizing-big-energy-data
 title: Visualizing big energy data
 categories: Articles
 tags:
@@ -12,6 +11,7 @@ tags:
 doi: 10.1109/MPE.2018.2801441
 details: <em>IEEE Power and Energy Magazine</em>, <b>16</b>(3), 18-25
 file: visualizing-big-energy-data.pdf
+bibkey: vizenergy
 ---
 
 ![](/img/laplacian.png)

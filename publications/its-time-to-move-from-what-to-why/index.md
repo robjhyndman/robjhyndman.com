@@ -2,7 +2,6 @@
 author: Rob J Hyndman
 Status: Published
 date: 2001-10-16 03:11:30+00:00
-slug: its-time-to-move-from-what-to-why
 title: It's time to move from 'what' to 'why'
 categories: Articles
 tags:
@@ -11,6 +10,7 @@ tags:
 details: <em>International Journal of Forecasting</em> <b>17</b>(4), 567-570
 doi: 10.1016/S0169-2070%2801%2900119-4
 file: why.pdf
+bibkey: Hyndman01
 ---
 
 (Invited commentary on M3 competition.)

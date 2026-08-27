@@ -2,7 +2,6 @@
 author: John A Mandryk, Judith M Mackson, Fiona E Horn, Sonia E Wutzke, Caro-Anne Badcock, Rob J Hyndman, Lynn M Weekes
 Status: Published
 date: 2006-05-16 04:57:29+00:00
-slug: measuring-change-in-prescription-drug-utilization-in-australia
 title: Measuring change in prescription drug utilization in Australia
 categories: Articles
 tags:
@@ -10,6 +9,7 @@ tags:
 details: <em>Pharmacoepidemiology & Drug Safety</em> <b>15</b>, 477-484
 doi: 10.1002/pds.1247
 file: nps.pdf
+bibkey: NPS06
 ---
 
 **Purpose**: The National Prescribing Service Ltd (NPS) aims to improve prescribing and use of medicines consistent with evidence-based best practice. This study compares two statistical methods used to determine whether multiple educational interventions influenced antibiotic prescribing in Australia.

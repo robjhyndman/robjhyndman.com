@@ -2,9 +2,7 @@
 author: Han Lin Shang, Rob J Hyndman
 Status: Published
 date: 2011-02-17 01:12:08+00:00
-slug: dynamic-updating
 title: Nonparametric time series forecasting with dynamic updating
-wordpress_id: 921
 categories: Articles
 tags:
 - forecasting
@@ -12,6 +10,7 @@ tags:
 details: <em>Mathematics and Computers in Simulation</em> <b>81</b>, 1310-1324
 doi: 10.1016/j.matcom.2010.04.027
 file: dynamic_updating.pdf
+bibkey: SH11
 ---
 
 **Abstract**

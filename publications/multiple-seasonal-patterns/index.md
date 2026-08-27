@@ -2,9 +2,7 @@
 author: Phillip G Gould, Anne B Koehler, J Keith Ord, Ralph D Snyder, Rob J Hyndman, Farshid Vahid-Araghi
 Status: Published
 date: 2008-11-16 05:26:38+00:00
-slug: multiple-seasonal-patterns
 title: Forecasting time series with multiple seasonal patterns
-wordpress_id: 497
 categories: Articles
 tags:
 - exponential smoothing
@@ -14,6 +12,7 @@ tags:
 details: "<em>European Journal of Operational Research</em> <b>191</b>(1), 207–220"
 doi: 10.1016/j.ejor.2007.08.024
 file: multiseasonal.pdf
+bibkey: Gould08
 ---
 
 A new approach is proposed for forecasting a time series with multiple seasonal patterns. A state space model is developed for the series using the innovation approach which enables us to develop explicit models for both additive and multiplicative seasonality. Parameter estimates may be obtained using methods from exponential smoothing. The proposed model is used to examine hourly and daily patterns in hourly data for both utility loads and traffic flows. Our formulation provides a model for several existing seasonal methods and also provides new options, which result in superior forecasting performance over a range of prediction horizons. In particular, seasonal components can be updated more frequently than once during a seasonal cycle. The approach is likely to be useful in a wide range of applications involving both high and low frequency data, and it handles missing values in a straightforward manner.

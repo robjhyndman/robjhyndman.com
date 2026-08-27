@@ -1,7 +1,6 @@
 ---
 author: Pablo Montero-Manso, George Athanasopoulos, Rob J Hyndman, Thiyanga S Talagala
 date: 2020-01-03
-slug: fforma
 title: "FFORMA: Feature-based Forecast Model Averaging"
 categories: Articles
 details: <em>International Journal of Forecasting</em>, <b>36</b>(1), 86-92
@@ -12,6 +11,7 @@ tags:
 - forecasting
 file: fforma.pdf
 github: robjhyndman/fforma-paper
+bibkey: fforma
 ---
 
 We propose an automated method for obtaining weighted forecast combinations using time series features. The proposed approach involves two phases. First, we use a collection of time series to train a meta-model to assign weights to various possible forecasting methods with the goal of minimizing the average forecasting loss obtained from a weighted forecast combination. The inputs to the meta-model are features extracted from each series. In the second phase, we forecast new series using a weighted forecast combination where the weights are obtained from our previously trained meta-model. Our method outperforms a simple forecast combination, and outperforms all of the most popular individual methods in the time series forecasting literature. The approach achieved second position in the M4 competition.

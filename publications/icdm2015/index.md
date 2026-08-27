@@ -2,7 +2,6 @@
 author: Rob J Hyndman, Earo Wang, Nikolay Laptev
 Status: Published
 date: 2015-06-01 02:08:36+00:00
-slug: icdm2015
 title: Large-scale unusual time series detection
 categories: Conference proceedings
 tags:
@@ -16,6 +15,7 @@ aliases:
   - /publications/cikm2015
 details: "In: <em>Proceedings of the IEEE International Conference on Data Mining</em>. Atlantic City, NJ, USA. 14–17 November 2015"
 doi: 10.1109/ICDMW.2015.104
+bibkey: cikm2015
 ---
 
 It is becoming increasingly common for organizations to collect very large amounts of data over time, and to need to detect unusual or anomalous time series. For example, Yahoo has banks of mail servers that are monitored over time. Many measurements on server performance are collected every hour for each of thousands of servers. We wish to identify servers that are behaving unusually.

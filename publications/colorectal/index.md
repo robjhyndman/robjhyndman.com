@@ -2,7 +2,6 @@
 author: D Vicendese, L Te Marvelde, PD McNair, K Whitfield, DR English, S Ben Taieb, RJ Hyndman, R Thomas
 Status: Published
 date: 2019-12-08
-slug: colorectal
 details: >-
   <em>Statistics and Data Science</em>, RSSDS 2019 (ed.
   Nguyen H).
@@ -14,6 +13,7 @@ tags:
   - applied statistics
 doi: 10.1007/978-981-15-1960-4_12
 file: colorectal.pdf
+bibkey: colorectal
 ---
 
 We demonstrate the utility of predicting the whole distribution of an outcome rather than a marginal change.
