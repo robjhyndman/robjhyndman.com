@@ -259,13 +259,16 @@ $badge-colors: (
   display: none;
 }
 
-/* The trestles about-page template always emits an empty .quarto-title-meta
-   (whitespace-only, so :empty above doesn't catch it) — hide it explicitly
-   so it doesn't show as a stray box above the social icon row. Quarto's own
+/* Quarto always emits a .quarto-title-meta div in the title block, even on
+   pages with no author/date/category metadata (e.g. research-team/index.qmd).
+   It ends up whitespace-only, not truly :empty, so it renders as a bare
+   bordered/background box (a stray grey line) above the page content.
+   :has(*) distinguishes that from meta divs with real child elements
+   (date/author/category), which must stay visible. Quarto's own
    #title-block-header.quarto-title-block.default .quarto-title-meta rule
    sets display:grid with ID-level specificity, so this needs !important to
    win. */
-div.quarto-about-trestles .quarto-title-meta {
+#title-block-header.quarto-title-block.default .quarto-title-meta:not(:has(*)) {
   display: none !important;
 }
 
