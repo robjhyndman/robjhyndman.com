@@ -1,8 +1,8 @@
--- Looks up the page's `bibkey` in the repo-root rjhpubs.bib (fetched fresh
--- from robjhyndman/CV by fetch_bib.R before every build) and injects the raw
--- BibTeX entry as a `bibtex` metadata field, rendered by the "Cite" section
--- in publication.html. Keeps the bib file the single source of truth instead
--- of typing the citation out a second time.
+-- Looks up the page's `bibkey` in ~/git/CV/rjhpubs.bib (the CV repo's copy,
+-- read directly -- this only ever runs on a machine that has that checkout)
+-- and injects the raw BibTeX entry as a `bibtex` metadata field, rendered by
+-- the "Cite" section in publication.html. Keeps the bib file the single
+-- source of truth instead of typing the citation out a second time.
 --
 -- details/doi used to be filled in here too, computed from the same bib
 -- entry -- but Quarto's `listing:` feature (which builds publications/
@@ -45,6 +45,15 @@ local function trim_to_balanced_entry(raw)
   return raw -- unbalanced; fall back to the untrimmed chunk
 end
 
+-- rjhpubs.bib uses a couple of non-standard entry types ("report" instead
+-- of the standard "techreport"; "review" -- a type this site invented for
+-- book reviews -- instead of "article"). The source .bib is shared with the
+-- CV repo, which relies on those types, so it can't change; this just
+-- rewrites the type on the copy shown in the page's "Cite" block, so a
+-- reader copy-pasting it into their own reference manager gets a type it
+-- recognises.
+local DISPLAY_TYPE_ALIASES = { report = "techreport", review = "article" }
+
 -- Splits the .bib file into entries keyed by citation key. Entries are
 -- first taken verbatim from "@type{key," up to (but not including) the
 -- next line that starts with "@", so nested braces inside field values
@@ -67,6 +76,11 @@ local function parse_bib(text)
       table.insert(chunk, lines[j])
     end
     local raw = trim_to_balanced_entry(table.concat(chunk, "\n"):gsub("%s+$", ""))
+    local etype = chunk[1]:match("^@(%a+)")
+    local alias = etype and DISPLAY_TYPE_ALIASES[etype:lower()]
+    if alias then
+      raw = raw:gsub("^@%a+", "@" .. alias, 1)
+    end
     local key = chunk[1]:match("^@%a+%s*{%s*([^,]+),")
     if key then
       entries[(key:gsub("%s+$", ""))] = raw
@@ -77,8 +91,9 @@ end
 
 local function get_bib_entries()
   if bib_cache == nil then
-    local path = quarto.project.directory .. "/rjhpubs.bib"
-    local text = read_file(path)
+    local home = os.getenv("HOME")
+    local path = home and (home .. "/git/CV/rjhpubs.bib")
+    local text = path and read_file(path)
     bib_cache = text and parse_bib(text) or {}
   end
   return bib_cache

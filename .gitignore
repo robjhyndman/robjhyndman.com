@@ -17,6 +17,3 @@ packages.rds
 
 **/*.quarto_ipynb
 .history
-
-# fetched fresh from robjhyndman/CV by fetch_bib.R on each build
-/rjhpubs.bib

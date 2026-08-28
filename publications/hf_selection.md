@@ -6,7 +6,7 @@ link: https://github.com/xqnwang/hfs/raw/main/paper/hf_selection.pdf
 categories: Articles
 github: xqnwang/hfs
 bibkey: hfselection
-details: "<em>European J Operational Research</em> <b>323</b>, 455–470"
+details: "<em>European J Operational Research</em> <b>323</b>(2), 455–470"
 doi: 10.1016/j.ejor.2024.12.004
 ---
 

@@ -1,9 +1,11 @@
 # Writes `title`, `author`, `details` and `doi` into each publication's
 # front matter from its rjhpubs.bib entry.
 #
-# rjhpubs.bib is the single source of truth: every field this script writes
-# is unconditionally regenerated from the bib and overwrites whatever was
-# already in the file.
+# ~/git/CV/rjhpubs.bib (the CV repo's copy) is the single source of truth:
+# every field this script writes is unconditionally regenerated from it and
+# overwrites whatever was already in the file. Read directly from there
+# rather than a fetched/cached local copy -- this only ever runs on a
+# machine that has that checkout.
 #
 # Every bibkey in rjhpubs.bib is expected to map to exactly one publication
 # file. If a publication file with that bibkey doesn't exist yet, one is
@@ -12,9 +14,18 @@
 # (books and sub-projects with their own dedicated page elsewhere on the site).
 #
 # Usage: Rscript sync_bib_fields.R (run by `make preview` / `make build`,
-# after fetch_bib.R and before quarto render/preview)
+# before quarto render/preview)
 
 library(stringr)
+
+CV_BIB_PATH <- path.expand("~/git/CV/rjhpubs.bib")
+if (!file.exists(CV_BIB_PATH)) {
+  message(
+    "sync_bib_fields: ", CV_BIB_PATH,
+    " not found -- skipping sync."
+  )
+  quit(save = "no", status = 0)
+}
 
 # bibkeys that intentionally have no publications/ page: books and
 # sub-projects with a dedicated page elsewhere on the site.
@@ -392,7 +403,7 @@ create_file <- function(key, e) {
 
 # ---- run over every bib entry -------------------------------------------
 
-bib <- parse_bib("rjhpubs.bib")
+bib <- parse_bib(CV_BIB_PATH)
 
 files <- unique(c(
   Sys.glob("publications/*/index.md"),

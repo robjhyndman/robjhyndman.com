@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman, Kelly Vanh Nguyen
+author: Rob J Hyndman, Khuyen Vanh Nguyen
 date: 2026-02-22
 title: "Forecasting the age structure of the scientific workforce in Australia"
 categories: Articles
