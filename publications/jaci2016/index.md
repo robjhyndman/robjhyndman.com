@@ -6,6 +6,8 @@ title: Associations between outdoor fungal spores and childhood and adolescent a
 categories: Articles
 file: fungalspores_asthma.pdf
 bibkey: Tham2016
+details: "<em>J Allergy and Clinical Immunology</em> <b>139</b>(4), 1140–1147.e4"
+doi: 10.1016/j.jaci.2016.06.046
 ---
 
 **Background:** Childhood asthma is a significant public health problem and severe exacerbation can result in diminished quality of life and hospitalisation.

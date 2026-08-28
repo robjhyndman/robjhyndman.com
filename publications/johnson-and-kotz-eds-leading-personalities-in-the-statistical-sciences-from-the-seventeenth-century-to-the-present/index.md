@@ -8,4 +8,6 @@ tags:
 - history
 file: br_jk.pdf
 bibkey: BR98b
+details: "<em>Australian & New Zealand J Statistics</em> <b>40</b>(3), 382–383"
+doi: 10.1111/1467-842X.00041
 ---

@@ -10,6 +10,8 @@ tags:
 - time series
 file: mortality_forecast_comparison.pdf
 bibkey: SBH11
+details: "<em>Demographic Research</em> <b>25</b>, 173–214"
+doi: 10.4054/DemRes.2011.25.5
 ---
 
 **Abstract:**

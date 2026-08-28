@@ -14,6 +14,7 @@ tags:
   - time series
 link: http://www.jstatsoft.org/v27/i03
 bibkey: HK08
+details: "<em>J Statistical Software</em> <b>27</b>(3), 1–22"
 ---
 
 Automatic forecasts of large numbers of univariate time series are often needed in business and other contexts.

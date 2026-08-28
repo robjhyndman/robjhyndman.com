@@ -9,6 +9,8 @@ tags:
 - time series
 file: trend_seasonality.pdf
 bibkey: Hyndman04
+details: "<em>International J Forecasting</em> <b>20</b>(4), 561–563"
+doi: 10.1016/j.ijforecast.2004.03.005
 ---
 
 A contribution to the discussion of Miller and Williams (2004).

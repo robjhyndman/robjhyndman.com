@@ -8,4 +8,6 @@ tags:
 - writing
 file: br_krantz_higham.pdf
 bibkey: BR99b
+details: "<em>Australian & New Zealand J Statistics</em> <b>41</b>(2), 252–253"
+doi: 10.1111/1467-842X.00078
 ---

@@ -7,4 +7,6 @@ tags:
 - forecasting
 file: 25years_ijf.pdf
 bibkey: IJFeditorial06
+details: "<em>International J Forecasting</em> <b>22</b>(3), 413–414"
+doi: 10.1016/j.ijforecast.2006.06.001
 ---

@@ -11,6 +11,8 @@ tags:
 - hierarchical time series
 file: Hierarchical6.pdf
 bibkey: hierarchical
+details: "<em>Computational Statistics & Data Analysis</em> <b>55</b>(9), 2579–2589"
+doi: 10.1016/j.csda.2011.03.006
 ---
 
 In many applications, there are multiple time series that are hierarchically organized and can be aggregated at several different levels in groups based on products, geography or some other features. We call these "hierarchical time series''. They are commonly forecast using either a "bottom-up'' or a "top-down'' method.

@@ -7,7 +7,7 @@ categories: Book chapters
 tags:
 - accuracy
 - forecasting
-details: 'Chapter 3.4, pages 204-211, in "Business Forecasting: Practical Problems and Solutions", John Wiley & Sons'
 amazon: 111922456X
 bibkey: saschapter2
+details: "<em>Business Forecasting: Practical Problems and Solutions</em>, eds. Michael Gilliland, Len Tashman and Udo Sglavo, Chapter 3.8, pp. 204–211. John Wiley & Sons"
 ---

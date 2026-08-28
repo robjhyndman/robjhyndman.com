@@ -7,10 +7,10 @@ categories: Book chapters
 tags:
 - forecasting
 - time series
-details: "Contribution to the <em>International Encyclopedia of Statistical Science</em>, ed. Miodrag Lovric, Springer. pp.866-869"
 online: http://www.springer.com/gp/book/9783642048975
 file: movingaverage.pdf
 bibkey: IESS10a
+details: "<em>International Encyclopedia of Statistical Science</em>, ed. Miodrag Lovric, pp. 866–869. Springer"
 ---
 
 [Updated entry for 2nd edition](/publications/iess1b.md), 2025.

@@ -9,6 +9,8 @@ tags:
 - time series
 file: croston.pdf
 bibkey: SH05
+details: "<em>J Forecasting</em> <b>24</b>(6), 389–402"
+doi: 10.1002/for.963
 ---
 
 Intermittent demand commonly occurs with inventory data, with many time periods having no demand and small demand in the other periods. Croston's method is a widely used procedure for intermittent demand forecasting. However, it is an ad~hoc method with no properly formulated underlying stochastic model. In this paper, we explore possible models underlying Croston's method and three related methods, and we show that any underlying model will be inconsistent with the properties of intermittent demand data. However, we find that the point forecasts and prediction intervals based on such underlying models may still be useful.

@@ -12,6 +12,8 @@ tags:
 - time series
 file: mase.pdf
 bibkey: HK06
+details: "<em>International J Forecasting</em> <b>22</b>(4), 679–688"
+doi: 10.1016/j.ijforecast.2006.03.001
 ---
 
 We discuss and compare measures of accuracy of univariate time series forecasts. The methods used in the M-competition and the M3-competition, and many of the measures recommended by previous authors on this topic, are found to be degenerate in commonly occurring situations. Instead, we propose that the mean absolute scaled error become the standard measure for comparing forecast accuracy across multiple time series.

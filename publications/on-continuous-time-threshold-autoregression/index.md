@@ -7,6 +7,8 @@ status: Published
 categories: Articles
 file: ctar2.pdf
 bibkey: BH92
+details: "<em>International J Forecasting</em> <b>8</b>(2), 157–173"
+doi: 10.1016/0169-2070%2892%2990116-Q
 ---
 
 The use of non-linear models in time series analysis has expanded rapidly in the last ten years, with the development of several useful classes of discrete-time non-linear models.

@@ -10,6 +10,8 @@ tags:
 - highest density regions
 file: Rainbow5.pdf
 bibkey: HS10
+details: "<em>J Computational & Graphical Statistics</em> <b>19</b>(1), 29–45"
+doi: 10.1198/jcgs.2009.08158
 ---
 
 We propose new tools for visualizing large numbers of functional data in the form of smooth curves or surfaces. The proposed tools include functional versions of the bagplot and boxplot, and make use of the first two robust principal component scores, Tukey's data depth and highest density regions.

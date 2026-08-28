@@ -10,4 +10,5 @@ tag:
 - nonparametric smoothing
 file: br_ks.pdf
 bibkey: BR96
+details: "<em>J Applied Statistics</em> <b>23</b>, 677–678"
 ---

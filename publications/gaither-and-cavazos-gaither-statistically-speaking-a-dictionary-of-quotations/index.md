@@ -9,4 +9,6 @@ tags:
 - writing
 file: br_gc.pdf
 bibkey: BR99a
+details: "<em>Australian & New Zealand J Statistics</em> <b>41</b>(3), 380–382"
+doi: 10.1111/1467-842X.00090
 ---

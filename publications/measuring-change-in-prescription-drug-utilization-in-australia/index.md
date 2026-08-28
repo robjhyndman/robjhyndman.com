@@ -8,6 +8,8 @@ tags:
 - epidemiology
 file: nps.pdf
 bibkey: NPS06
+details: "<em>Pharmacoepidemiology and Drug Safety</em> <b>15</b>(7), 477–484"
+doi: 10.1002/pds.1247
 ---
 
 **Purpose**: The National Prescribing Service Ltd (NPS) aims to improve prescribing and use of medicines consistent with evidence-based best practice. This study compares two statistical methods used to determine whether multiple educational interventions influenced antibiotic prescribing in Australia.

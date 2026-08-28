@@ -7,10 +7,10 @@ categories: Book chapters
 tags:
 - forecasting
 - time series
-details: "Contribution to the <em>International Encyclopedia of Statistical Science</em>, ed. Miodrag Lovric, Springer. pp.185-187"
 online: http://www.springer.com/gp/book/9783642048975
 file: businessforecasting.pdf
 bibkey: IESS10c
+details: "<em>International Encyclopedia of Statistical Science</em>, ed. Miodrag Lovric, pp. 185–187. Springer"
 ---
 
 [Updated entry for 2nd edition](/publications/iess2b.md), 2025.

@@ -8,6 +8,8 @@ tags:
 - applied statistics
 file: hospital_los.pdf
 bibkey: hospital-los
+details: "<em>Australian and New Zealand J Public Health</em> <b>44</b>(1), 73–82"
+doi: 10.1111/1753-6405.12932
 ---
 
 ### Objective

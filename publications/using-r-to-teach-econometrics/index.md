@@ -11,6 +11,8 @@ tags:
   - teaching
 file: racine-hyndman.pdf
 bibkey: RH02
+details: "<em>J Applied Econometrics</em> <b>17</b>(2), 175–189"
+doi: 10.1002/jae.657
 ---
 
 R, an open-source programming environment for data analysis and graphics, has in only a decade grown to become a de-facto standard for statistical analysis against which many popular commercial programs may be measured.

@@ -9,6 +9,7 @@ tags:
 - neural networks
 - volatility
 bibkey: LFSH97
+details: "<em>NeuroVe$t Journal</em> <b>5</b>, 27–41"
 ---
 
 (Later known as _Journal of Computational Intelligence in Finance_)

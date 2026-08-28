@@ -1,10 +1,17 @@
 # Compares title/author on each publication's page against its entry in
 # rjhpubs.bib and prints any that disagree. Run this after editing either
-# file to catch drift before it goes live -- title, author and doi are meant
-# to stay in sync with the bib (doi is now generated straight from the bib by
-# publications/inject-bibtex.lua, so it can't drift; title and author can't
-# be generated the same way -- see that file for why -- so this script is
-# the fallback that at least flags it when they do).
+# file to catch drift before it goes live -- title, author, doi and details
+# are all meant to stay in sync with the bib. doi and details are written
+# into each page's front matter by sync_bib_fields.R whenever missing (and
+# only when missing, since a handful of them are deliberately overridden --
+# see TITLE_EXCEPTIONS below), so they can only go stale if the bib changes
+# without that script being rerun. title and author can't be auto-filled the
+# same unconditional way: unlike doi/details, which always have exactly one
+# correct value, a title or author sometimes has a deliberate, permanent
+# override (a book review's title built from the reviewed book's own
+# details, an author's name spelled out vs. compact initials) that blind
+# generation would silently clobber -- so this script is the fallback that
+# at least flags it when the two drift apart instead of trying to fix it.
 #
 # Usage: Rscript check_bib_sync.R
 

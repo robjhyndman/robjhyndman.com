@@ -11,6 +11,8 @@ tags:
 - nonparametric smoothing
 file: 2010STLF-FinalR1.pdf
 bibkey: FH11
+details: "<em>IEEE Transactions on Power Systems</em> <b>27</b>(1), 134–141"
+doi: 10.1109/TPWRS.2011.2162082
 ---
 
 Short-term load forecasting is an essential instrument in power system planning, operation and control. Many operating decisions are based on load forecasts, such as dispatch scheduling of generating capacity, reliability analysis, and maintenance planning for the generators. Overestimation of electricity demand will cause a conservative operation, which leads to the start-up of too many units or excessive energy purchase, thereby supplying an unnecessary level of reserve. On the contrary, underestimation may result in a risky operation, with insufficient preparation of spinning reserve, causing the system to operate in a vulnerable region to the disturbance.

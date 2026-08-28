@@ -2,17 +2,14 @@
 author: D Vicendese, L Te Marvelde, PD McNair, K Whitfield, DR English, S Ben Taieb, RJ Hyndman, R Thomas
 Status: Published
 date: 2019-12-08
-details: >-
-  <em>Statistics and Data Science</em>, RSSDS 2019 (ed.
-  Nguyen H).
-  Communications in Computer and Information Science <b>1150</b>, pp 162-182.
-  Springer, Singapore
 title: Predicting the whole distribution with methods for depth data analysis demonstrated on a colorectal cancer treatment study
 categories: Conference proceedings
 tags:
   - applied statistics
 file: colorectal.pdf
 bibkey: colorectal
+details: "<em>Statistics and Data Science</em>, ed. H Nguyen, pp. 162–182. Springer, Singapore"
+doi: 10.1007/978-981-15-1960-4_12
 ---
 
 We demonstrate the utility of predicting the whole distribution of an outcome rather than a marginal change.

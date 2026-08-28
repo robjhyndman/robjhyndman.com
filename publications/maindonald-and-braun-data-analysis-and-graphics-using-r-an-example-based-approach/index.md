@@ -10,4 +10,6 @@ tags:
 - teaching
 file: maindonald_braun.pdf
 bibkey: EH05a
+details: "<em>J Population Research</em> <b>22</b>(2), 206–208"
+doi: 10.1007/BF03031829
 ---

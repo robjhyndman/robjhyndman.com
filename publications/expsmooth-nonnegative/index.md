@@ -11,6 +11,8 @@ tags:
 - time series
 link: https://www2.gwu.edu/~forcpgm/2008-003.pdf
 bibkey: AHO09
+details: "<em>Australian & New Zealand J Statistics</em> <b>51</b>(4), 415–432"
+doi: 10.1111/j.1467-842X.2009.00555.x
 ---
 
 The most common forecasting methods in business are based on exponential smoothing and the most common time series in business are inherently non-negative. Therefore it is of interest to consider the properties of the potential stochastic models underlying exponential smoothing when applied to non-negative data. We explore exponential smoothing state space models for non-negative data under various assumptions about the innovations, or error, process.

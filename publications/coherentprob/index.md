@@ -11,6 +11,8 @@ tags:
 link: https://github.com/PuwasalaG/Probabilistic-Forecast-Reconciliation/raw/master/Paper_EJOR_R1_submitted_latex/ProbabilisticReconciliationR1.pdf
 github: PuwasalaG/Probabilistic-Forecast-Reconciliation
 bibkey: coherentprob
+details: "<em>European J Operational Research</em> <b>306</b>(2), 693–706"
+doi: 10.1016/j.ejor.2022.07.040
 ---
 
 ![](/img/featured.jpg)

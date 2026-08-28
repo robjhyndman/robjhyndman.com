@@ -11,6 +11,8 @@ tags:
 - time series
 file: copdaustralia.pdf
 bibkey: EUHSA12
+details: "<em>BMC Medical Research Methodology</em> <b>12</b>(1), 17"
+doi: 10.1186/1471-2288-12-17
 ---
 
 **Background:** Chronic Obstructive Pulmonary Disease (COPD) is currently the fifth leading cause of death in Australia, and there are marked differences in mortality trends between men and women. In this study, we have sought to model and forecast age related changes in COPD mortality over time for men and women separately over the period 2006–2025.

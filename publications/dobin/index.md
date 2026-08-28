@@ -10,6 +10,8 @@ tags:
   - dimension reduction
 github: sevvandi/Outlier-Basis
 bibkey: dobin
+details: "<em>J Computational & Graphical Statistics</em> <b>30</b>(1), 204–219"
+doi: 10.1080/10618600.2020.1807353
 ---
 
 This paper introduces DOBIN, a new approach to select a set of basis vectors tailored for outlier detection.

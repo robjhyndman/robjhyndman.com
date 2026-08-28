@@ -6,10 +6,10 @@ title: Prospective life tables
 categories: Book chapters
 tags:
 - demography
-details: Chapter 8, pages 323-348, <em>Computational Actuarial Science with R</em>, Chapman and Hall/CRC. edited by Arthur Charpentier
 file: prospect.pdf
 amazon: 1466592591
 bibkey: BHT14
+details: "<em>Computational Actuarial Science with R</em>, ed. Arthur Charpentier, Chapter 8, pp. 323–348. Chapman & Hall/CRC"
 ---
 
 [R Code](code.ch8.final.R)

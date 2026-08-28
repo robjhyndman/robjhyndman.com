@@ -3,7 +3,6 @@ author: Rakshitha Godahewa, Christoph Bergmeir, Geoffrey I Webb, Rob J Hyndman, 
 date: 2021-10-12
 title: "Monash Time Series Forecasting Archive"
 categories: Conference proceedings
-details: "<em>NeurIPS 2021 Datasets and Benchmarks</em>"
 tags:
 - data science
 - forecasting
@@ -13,6 +12,7 @@ link: https://neurips.cc/virtual/2021/29865
 github: rakshitha123/TSForecasting
 online: http://forecastingdata.org/
 bibkey: monashforecastingdata
+details: "<em>Proceedings of the 35th Conference on Neural Information Processing Systems (NeurIPS 2021) Track on Datasets and Benchmarks</em>"
 ---
 
 Many businesses nowadays rely on large quantities of time series data making time series forecasting an important research area. Global forecasting models and multivariate models that are trained across sets of time series have shown huge potential in providing accurate forecasts compared with the traditional univariate forecasting models that work on isolated series. However, there are currently no comprehensive time series forecasting archives that contain datasets of time series from similar sources available for researchers to evaluate the performance of new global or multivariate forecasting algorithms over varied datasets. In this paper, we present such a comprehensive forecasting archive containing 25 publicly available time series datasets from varied domains, with different characteristics in terms of frequency, series lengths, and inclusion of missing values. We also characterise the datasets, and identify similarities and differences among them, by conducting a feature analysis. Furthermore, we present the performance of a set of standard baseline forecasting methods over all datasets across ten error metrics, for the benefit of researchers using the archive to benchmark their forecasting algorithms.

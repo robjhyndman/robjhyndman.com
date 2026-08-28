@@ -10,6 +10,8 @@ tag:
 - highest density regions
 file: hdrf.pdf
 bibkey: HDRF95
+details: "<em>J Forecasting</em> <b>14</b>(5), 431–441"
+doi: 10.1002/for.3980140503
 ---
 
 Many modern time series methods, such as those involving non-linear models or non-normal data, frequently lead to forecast densities which are asymmetric or multi-modal. The problem of obtaining forecast regions in such cases is discussed and it is proposed that highest density forecast regions be used. A graphical method for presenting the results is discussed.

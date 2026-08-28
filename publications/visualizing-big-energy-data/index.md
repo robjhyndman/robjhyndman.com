@@ -10,6 +10,8 @@ tags:
   - energy
 file: visualizing-big-energy-data.pdf
 bibkey: vizenergy
+details: "<em>IEEE Power and Energy Magazine</em> <b>16</b>(3), 18–25"
+doi: 10.1109/MPE.2018.2801441
 ---
 
 ![](/img/laplacian.png)

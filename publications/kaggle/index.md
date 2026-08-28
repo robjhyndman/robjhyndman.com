@@ -9,6 +9,8 @@ tags:
 - time series
 file: kaggle.pdf
 bibkey: AH11
+details: "<em>International J Forecasting</em> <b>27</b>(3), 845–849"
+doi: 10.1016/j.ijforecast.2011.03.002
 ---
 
 In this paper we challenge the traditional design used for forecasting competitions. We implement an online competition with a public leaderboard that provides instant feedback to competitors who are allowed to revise and resubmit forecasts. The results show that feedback significantly improves forecasting accuracy.<!-- more -->

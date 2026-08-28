@@ -8,4 +8,6 @@ tags:
 - reproducibility
 file: replication.pdf
 bibkey: IJFeditorial10a
+details: "<em>International J Forecasting</em> <b>26</b>(1), 2–3"
+doi: 10.1016/j.ijforecast.2009.12.003
 ---

@@ -6,10 +6,11 @@ github: daniGiro/ctprob
 arxiv: 2303.17277
 link: https://github.com/danigiro/ctprob/raw/main/paper/CTprob.pdf
 categories: Articles
-details: "<em>International Journal of Forecasting</em>, 40(3), 1134-1151"
 aliases:
   - /ctprob
 bibkey: ctprob
+details: "<em>International J Forecasting</em> <b>40</b>(3), 1134–1151"
+doi: 10.1016/j.ijforecast.2023.10.003
 ---
 
 Forecast reconciliation is a post-forecasting process that involves transforming a set of incoherent forecasts into coherent forecasts which satisfy a given set of linear constraints for a multivariate time series. In this paper we extend the current state-of-the-art cross-sectional probabilistic forecast reconciliation approach to encompass a cross-temporal framework, where temporal constraints are also applied. Our proposed methodology employs both parametric Gaussian and non-parametric bootstrap approaches to draw samples from an incoherent cross-temporal distribution.

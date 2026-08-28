@@ -10,6 +10,7 @@ tags:
 - time series
 file: foresight.pdf
 bibkey: Hyndman06
+details: "<em>Foresight: the International J Applied Forecasting</em> <b>4</b>, 43–46"
 ---
 
 Some of the proposed measures of forecast accuracy for intermittent demand can give infinite or undefined values. This makes them unsuitable for general use. I summarize the various measures and demonstrate what can go wrong. Then I describe a new measure (the mean absolute scaled error) which does not have these flaws. I believe it should become the standard measure for comparing forecast accuracy for multiple intermittent-demand series.

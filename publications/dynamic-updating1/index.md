@@ -8,8 +8,8 @@ tags:
 - functional data
 - nonparametric smoothing
 - time series
-details: "In: 18th World IMAS/MODSIM Congress. July. Cairns, Australia. 13-17 July 2009"
 file: shang.pdf
 online: https://mssanz.org.au/modsim09/D11/shang.pdf
 bibkey: SH09
+details: "<em>18th World IMAS/MODSIM Congress</em>, Cairns, Australia. 13-17 July 2009."
 ---

@@ -11,6 +11,7 @@ tags:
 online: https://foresight.forecasters.org/product/foresight-issue-17/
 file: foresight_R.pdf
 bibkey: KH10
+details: "<em>Foresight: the International J Applied Forecasting</em> <b>17</b>, 19–24"
 ---
 
 ## Summary

@@ -10,6 +10,8 @@ tags:
   - experimental design
 link: http://arrow.latrobe.edu.au:8080/vital/access/services/Download/latrobe:19876/SOURCE01
 bibkey: mapcah12
+details: "<em>J Biometrics & Biostatistics</em> <b>S7</b>(018)"
+doi: 10.4172/2155-6180.S7-018
 ---
 
 **Background:** Few case-control studies of time dependent environmental exposures and respiratory outcomes have been performed.

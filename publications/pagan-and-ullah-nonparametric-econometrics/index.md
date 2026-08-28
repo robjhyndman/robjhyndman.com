@@ -9,4 +9,5 @@ tags:
 - nonparametric smoothing
 file: np_br.pdf
 bibkey: BR00
+details: "<em>The Economic Record</em> <b>76</b>, 309–311"
 ---

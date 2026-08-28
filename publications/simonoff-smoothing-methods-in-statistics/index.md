@@ -8,4 +8,6 @@ tags:
 - nonparametric smoothing
 file: br_simonoff.pdf
 bibkey: BR98a
+details: "<em>Australian & New Zealand J Statistics</em> <b>40</b>(2), 251–252"
+doi: 10.1111/1467-842X.00028
 ---

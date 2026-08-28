@@ -5,7 +5,6 @@ date: 2020-01-06
 title: Hierarchical forecasting
 categories: Book chapters
 amazon: 303031149X
-details: <em>Macroeconomic forecasting in the era of big data</em>, ed. P. Fuleky, Springer, Chapter 21, pp.689-719
 tags:
 - accuracy
 - arima models
@@ -18,6 +17,8 @@ tags:
 link: https://bridges.monash.edu/ndownloader/files/38153121
 github: PuwasalaG/Hierarchical-Book-Chapter
 bibkey: macrohts
+details: "<em>Macroeconomic forecasting in the era of big data</em>, ed. P. Fuleky, Chapter 21, pp. 689–719. Springer"
+doi: 10.1007/978-3-030-31150-6_21
 ---
 
 Accurate forecasts of macroeconomic variables are crucial inputs into the decisions of economic agents and policy makers. Exploiting inherent aggregation structures of such variables, we apply forecast reconciliation methods to generate forecasts that are coherent with the aggregation constraints. We generate both point and probabilistic forecasts for the first time in the macroeconomic setting. Using Australian GDP we show that forecast reconciliation not only returns coherent forecasts but also improves the overall forecast accuracy in both point and probabilistic frameworks.

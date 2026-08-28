@@ -9,6 +9,8 @@ tags:
 - functional data
 file: dynamic_updating.pdf
 bibkey: SH11
+details: "<em>Mathematics and Computers in Simulation</em> <b>81</b>(7), 1310–1324"
+doi: 10.1016/j.matcom.2010.04.027
 ---
 
 **Abstract**

@@ -4,10 +4,10 @@ Status: Published
 date: 1995-07-15 02:21:48+00:00
 file: itir.pdf
 title: "Information technology in research"
-details: "Chapter in <em>Health informatics: an overview</em>, (ed. Hovenga, Kidd, Cesnik)"
 status: Published
 categories: Book chapters
 tag:
 - software
 bibkey: AGH95
+details: "<em>Health informatics: an overview</em>, eds. E Hovenga, M Kidd and B Cesnik, Chapter 29, pp. 349–361. Churchill Livingstone"
 ---

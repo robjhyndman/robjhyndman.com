@@ -8,4 +8,6 @@ tags:
 - teaching
 file: br_ws.pdf
 bibkey: BR99c
+details: "<em>Australian & New Zealand J Statistics</em> <b>41</b>(4), 493–495"
+doi: 10.1111/1467-842X.00101
 ---

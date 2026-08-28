@@ -10,6 +10,8 @@ tags:
 link: https://bridges.monash.edu/ndownloader/files/38163630
 github: pmontman/paper-global-forec-princip
 bibkey: globalforecasting
+details: "<em>International J Forecasting</em> <b>37</b>(4), 1632–1653"
+doi: 10.1016/j.ijforecast.2021.03.004
 ---
 
 Forecasting of groups of time series (e.g. demand for multiple products offered by a retailer, server loads within a data center or the number of completed ride shares in zones within a city) can be approached locally, by considering each time series as a separate regression task and fitting a function to each, or globally,

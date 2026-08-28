@@ -5,6 +5,8 @@ categories: Articles
 date: 2017-05-02
 file: handguns.pdf
 bibkey: handguns
+details: "<em>Annals of Internal Medicine</em> <b>166</b>(10), 698–706"
+doi: 10.7326/M16-1574
 ---
 
 ### Background

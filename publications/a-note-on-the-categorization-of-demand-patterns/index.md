@@ -8,6 +8,8 @@ tags:
 - time series
 file: SBC-categorization.pdf
 bibkey: KH06
+details: "<em>J Operational Research Society</em> <b>57</b>(10), 1256–1257"
+doi: 10.1057/palgrave.jors.2602211
 ---
 
 We revisit the problem of categorizing demand patterns in order to select the best forecasting method. We improve the categorization scheme of Syntetos, Boylan and Croston (2004) by deriving an exact result for the boundary between type and giving a simple approximation to the boundary that is better than that previously published.

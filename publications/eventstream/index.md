@@ -10,6 +10,8 @@ tags:
 link: https://github.com/sevvandi/eventstream_paper/raw/master/manuscript.pdf
 github: sevvandi/eventstream_paper
 bibkey: earlyclassification
+details: "<em>PLoS ONE</em> <b>15</b>(8), e0236331"
+doi: 10.1371/journal.pone.0236331
 ---
 
 This paper investigates early event classification in spatio-temporal data streams, where events need to be classified using partial information, i.e. while the event is still ongoing. The framework incorporates two early event classification algorithms with different strengths as well as an event extraction algorithm. We apply this framework to synthetic and real world problems and demonstrate its reliability and broad applicability. The algorithms and data are

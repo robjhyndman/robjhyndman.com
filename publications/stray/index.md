@@ -9,6 +9,8 @@ tags:
   - anomaly detection
   - time series
 bibkey: stray
+details: "<em>J Computational & Graphical Statistics</em> <b>30</b>(2), 360–374"
+doi: 10.1080/10618600.2020.1807997
 ---
 
 The HDoutliers algorithm is a powerful unsupervised algorithm for detecting anomalies in high-dimensional data, with a strong theoretical foundation.

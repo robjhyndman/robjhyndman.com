@@ -9,6 +9,7 @@ tags:
   - hierarchical time series
 file: Foresight-hts-final.pdf
 bibkey: foresight14
+details: "<em>Foresight</em> <b>Fall 2014</b>, 42–48"
 ---
 
 This is an introduction to our approach to forecast reconciliation without using any matrices.

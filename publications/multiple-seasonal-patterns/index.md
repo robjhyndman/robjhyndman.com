@@ -11,6 +11,8 @@ tags:
 - time series
 file: multiseasonal.pdf
 bibkey: Gould08
+details: "<em>European J Operational Research</em> <b>191</b>(1), 205–220"
+doi: 10.1016/j.ejor.2007.08.024
 ---
 
 A new approach is proposed for forecasting a time series with multiple seasonal patterns. A state space model is developed for the series using the innovation approach which enables us to develop explicit models for both additive and multiplicative seasonality. Parameter estimates may be obtained using methods from exponential smoothing. The proposed model is used to examine hourly and daily patterns in hourly data for both utility loads and traffic flows. Our formulation provides a model for several existing seasonal methods and also provides new options, which result in superior forecasting performance over a range of prediction horizons. In particular, seasonal components can be updated more frequently than once during a seasonal cycle. The approach is likely to be useful in a wide range of applications involving both high and low frequency data, and it handles missing values in a straightforward manner.

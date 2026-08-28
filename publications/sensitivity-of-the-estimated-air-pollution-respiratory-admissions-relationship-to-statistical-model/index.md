@@ -10,6 +10,8 @@ tags:
 - gams
 file: eh05.pdf
 bibkey: EH05
+details: "<em>International J Environmental Health Research</em> <b>15</b>(6), 437–448"
+doi: 10.1080/09603120500289192
 ---
 
 **Abstract:**

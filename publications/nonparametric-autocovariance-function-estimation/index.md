@@ -9,6 +9,8 @@ tags:
   - time series
 file: npacvf.pdf
 bibkey: HW97
+details: "<em>The Australian J Statistics</em> <b>39</b>(3), 313–324"
+doi: 10.1111/j.1467-842X.1997.tb00694.x
 ---
 
 Nonparametric estimators of autocovariance functions for non-stationary time series are developed.

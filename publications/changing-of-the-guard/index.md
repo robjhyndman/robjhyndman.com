@@ -7,4 +7,6 @@ tags:
 - forecasting
 file: changing_of_the_guard.pdf
 bibkey: IJFeditorial10b
+details: "<em>International J Forecasting</em> <b>26</b>(1), 1"
+doi: 10.1016/j.ijforecast.2009.12.002
 ---

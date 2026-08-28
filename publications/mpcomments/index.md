@@ -10,4 +10,6 @@ tags:
 - time series
 file: MPcomments.pdf
 bibkey: acfplots14
+details: "<em>Electronic J. Statistics</em> <b>9</b>(1), 792–796"
+doi: 10.1214/14-EJS953
 ---

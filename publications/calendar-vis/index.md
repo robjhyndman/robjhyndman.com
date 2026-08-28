@@ -9,6 +9,8 @@ tags:
 - graphics
 file: calendar-vis.pdf
 bibkey: calendarviz
+details: "<em>J Computational & Graphical Statistics</em> <b>29</b>(3), 490–502"
+doi: 10.1080/10618600.2020.1715226
 ---
 
 ![](/img/calendar-vis.png)

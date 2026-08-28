@@ -8,6 +8,8 @@ tags:
 - epidemiology
 online: https://publications.ersnet.org/content/erj/44/suppl58/2919
 bibkey: fungal14
+details: "<em>European Respiratory Journal</em> <b>44</b>(Suppl 58)"
+doi: 10.1183/13993003/erj.44.Suppl_58.2919
 ---
 
 **Introduction**<br>
