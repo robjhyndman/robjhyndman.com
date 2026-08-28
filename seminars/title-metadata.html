@@ -1,4 +1,4 @@
-<div class="quarto-title-meta">
+<div class="quarto-title-meta$if(github)$ quarto-title-meta-3col$endif$">
 
   $if(date)$
   <div>
@@ -17,6 +17,15 @@
     </div>
   </div>
   $endif$
+
+  $if(github)$
+  <div>
+    <div class="quarto-title-meta-heading">Code</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date"><a href="http://github.com/$github$" class="badge badge badge-green"><i class="bi bi-github"></i></a></p>
+    </div>
+  </div>
+  $endif$
 </div>
 
 $if(abstract)$
@@ -28,6 +37,4 @@ $if(abstract)$
 </div>
 $endif$
 
-$if(github)$<a href="http://github.com/$github$" class="badge badge badge-green"><i class="bi bi-github"></i></a>
-$endif$
 <p>&nbsp;</p>
