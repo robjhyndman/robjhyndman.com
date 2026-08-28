@@ -1,5 +1,5 @@
 ---
-author: Len Smith, Rob J Hyndman, Simon N Wood
+author: Len Smith, Rob J Hyndman, Simon N Wood
 Status: Published
 date: 2004-01-16 03:40:50+00:00
 title: 'Spline interpolation for demographic variables: the monotonicity problem'

@@ -1,5 +1,5 @@
 ---
-author: Alexander Dokumentov, Rob J Hyndman
+author: Alexander Dokumentov, Rob J Hyndman
 date: 2014-06-05 03:53:48+00:00
 title: Low-dimensional decomposition, smoothing and forecasting of sparse functional data
 categories: Working papers

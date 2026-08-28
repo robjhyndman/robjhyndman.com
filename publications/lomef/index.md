@@ -1,5 +1,5 @@
 ---
-author: Dilini Rajapaksha, Christoph Bergmeir, Rob J Hyndman
+author: Dilini Rajapaksha, Christoph Bergmeir, Rob J Hyndman
 date: 2023-07-01
 title: "LoMEF: A Framework to Produce Local Explanations for Global Model Time Series Forecasts"
 categories: Articles

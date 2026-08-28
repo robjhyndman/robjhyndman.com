@@ -1,6 +1,6 @@
 ---
 title: "Non-linear mixed-effects models for time series forecasting of smart meter demand"
-author: Cameron Roach, Rob J Hyndman, Souhaib Ben Taieb
+author: Cameron Roach, Rob J Hyndman, Souhaib Ben Taieb
 date: 2021-01-01
 categories: Articles
 tags:

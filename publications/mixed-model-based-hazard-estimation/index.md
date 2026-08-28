@@ -1,5 +1,5 @@
 ---
-author: Tianxi Cai, Rob J Hyndman, Matthew P Wand
+author: Tianxi Cai, Rob J Hyndman, Matthew P Wand
 Status: Published
 date: 2002-11-16 03:18:37+00:00
 title: Mixed model-based hazard estimation

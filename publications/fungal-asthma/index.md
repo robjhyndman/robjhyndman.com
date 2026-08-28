@@ -1,5 +1,5 @@
 ---
-author: Rachel Tham, Shyamali Dharmage, Philip Taylor, Ed Newbigin, Mimi L. K. Tang, Don Vicendese, Rob J. Hyndman, Michael J. Abramson, Bircan Erbas
+author: Rachel Tham, Shyamali Dharmage, Philip Taylor, Ed Newbigin, Mimi L. K. Tang, Don Vicendese, Rob J. Hyndman, Michael J. Abramson, Bircan Erbas
 date: 2014-09-01
 title: Outdoor fungal spores are associated with child asthma hospitalisations - a
   case-crossover study

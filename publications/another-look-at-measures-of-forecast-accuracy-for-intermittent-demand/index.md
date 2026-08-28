@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman
+author: Rob J Hyndman
 Status: Published
 date: 2006-09-16 04:29:45+00:00
 title: Another look at forecast-accuracy metrics for intermittent demand

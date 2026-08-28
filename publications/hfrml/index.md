@@ -1,5 +1,5 @@
 ---
-author: Evangelos Spiliotis, Mahdi Abolghasemi, Rob J Hyndman, Fotios Petropoulos, Vassilios Assimakopoulos
+author: Evangelos Spiliotis, Mahdi Abolghasemi, Rob J Hyndman, Fotios Petropoulos, Vassilios Assimakopoulos
 date: 2021-07-25
 title: "Hierarchical forecast reconciliation with machine learning"
 categories: Articles

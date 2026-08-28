@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman, Mohsen B Mesgaran, Roger D Cousens
+author: Rob J Hyndman, Mohsen B Mesgaran, Roger D Cousens
 Status: Published
 date: 2015-08-07 04:00:48+00:00
 title: Statistical issues with using herbarium data for the estimation of invasion lag-phases

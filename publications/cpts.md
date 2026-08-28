@@ -1,7 +1,7 @@
 ---
 title: "Online conformal inference for multi-step time series forecasting"
 date: "2024-10-18"
-author: Xiaoqian Wang, Rob J Hyndman
+author: Xiaoqian Wang, Rob J Hyndman
 github: xqnwang/cpts
 link: https://github.com/xqnwang/cpts/raw/main/paper/cpts.pdf
 arxiv: 2410.13115

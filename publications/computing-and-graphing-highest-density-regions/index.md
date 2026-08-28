@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman
+author: Rob J Hyndman
 Status: Published
 date: 1996-07-16 02:38:57+00:00
 title: Computing and graphing highest density regions

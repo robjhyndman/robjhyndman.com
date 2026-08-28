@@ -1,7 +1,7 @@
 ---
 title: "Forecasting system’s accuracy: a framework for the comparison of different structures"
 date: "2024-04-14"
-author: Carla Freitas Silveira Netto, Vinicius A Brei, Rob J Hyndman
+author: Carla Freitas Silveira Netto, Vinicius A Brei, Rob J Hyndman
 categories: Articles
 file: hf_marketing.pdf
 bibkey: hfmarketing

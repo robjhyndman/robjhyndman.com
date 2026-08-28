@@ -1,7 +1,7 @@
 ---
 title: "Forecast reconciliation: a review"
 date: "2024-04-01"
-author: George Athanasopoulos, Rob J Hyndman, Nikolaos Kourentzes, Anastasios Panagiotelis
+author: George Athanasopoulos, Rob J Hyndman, Nikolaos Kourentzes, Anastasios Panagiotelis
 file: hf_review.pdf
 aliases:
   - /frreview

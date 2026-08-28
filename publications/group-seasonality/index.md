@@ -1,5 +1,5 @@
 ---
-author: Pim Ouwehand, Rob J Hyndman, Ton G de Kok, Karel H van Donselaar
+author: Pim Ouwehand, Rob J Hyndman, Ton G de Kok, Karel H van Donselaar
 date: 2007-05-29 01:54:59+00:00
 title: A state space model for exponential smoothing with group seasonality
 categories: Working papers

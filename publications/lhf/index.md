@@ -1,5 +1,5 @@
 ---
-author: Mahsa Ashouri, Rob J Hyndman, Galit Shmueli
+author: Mahsa Ashouri, Rob J Hyndman, Galit Shmueli
 date: 2022-03-01
 title: "Fast forecast reconciliation using linear models"
 categories: Articles

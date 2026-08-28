@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman
+author: Rob J Hyndman
 date: 2025-06-19
 title: Moving averages
 categories: Book chapters

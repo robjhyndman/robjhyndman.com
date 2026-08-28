@@ -1,5 +1,5 @@
 ---
-author: Han Lin Shang, Rob J Hyndman
+author: Han Lin Shang, Rob J Hyndman
 Status: Published
 date: 2011-02-17 01:12:08+00:00
 title: Nonparametric time series forecasting with dynamic updating

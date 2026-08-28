@@ -1,7 +1,7 @@
 ---
 title: "Optimal forecast reconciliation with time series selection"
 date: "2025-01-01"
-author: Xiaoqian Wang, Rob J Hyndman, Shanika L Wickramasuriya
+author: Xiaoqian Wang, Rob J Hyndman, Shanika L Wickramasuriya
 link: https://github.com/xqnwang/hfs/raw/main/paper/hf_selection.pdf
 categories: Articles
 github: xqnwang/hfs

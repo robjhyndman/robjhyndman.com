@@ -1,5 +1,5 @@
 ---
-author: George Athanasopoulos, Rob J Hyndman
+author: George Athanasopoulos, Rob J Hyndman
 Status: Published
 date: 2011-02-09 05:00:32+00:00
 title: The value of feedback in forecasting competitions

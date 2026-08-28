@@ -1,7 +1,7 @@
 ---
 title: "Ensemble forecasts of COVID-19 activity to support Australia's pandemic response: 2020-22"
 date: "2026-04-22"
-author: Robert Moss, Ruarai J Tobin, Mitchell O'Hara-Wild, Adeshina I Adekunle, Dennis Liu, Tobin South, Dylan J Morris, Gerard E Ryan, Tianxiao Hao, Aarathy Babu, Katharine L Senior, James G Wood, Nick Golding, Joshua V Ross, Peter Dawson, Rob J Hyndman, David J Price, James M McCaw, Freya M Shearer
+author: Robert Moss, Ruarai J Tobin, Mitchell O'Hara-Wild, Adeshina I Adekunle, Dennis Liu, Tobin South, Dylan J Morris, Gerard E Ryan, Tianxiao Hao, Aarathy Babu, Katharine L Senior, James G Wood, Nick Golding, Joshua V Ross, Peter Dawson, Rob J Hyndman, David J Price, James M McCaw, Freya M Shearer
 link: https://www.medrxiv.org/content/10.1101/2025.09.10.25335544v1
 categories: Articles
 bibkey: covidensemble

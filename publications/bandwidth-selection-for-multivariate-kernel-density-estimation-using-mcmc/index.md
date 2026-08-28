@@ -1,5 +1,5 @@
 ---
-author: Xibin Zhang, Maxwell L King, Rob J Hyndman
+author: Xibin Zhang, Maxwell L King, Rob J Hyndman
 Status: Published
 date: 2006-07-20 06:19:21+00:00
 title: A Bayesian approach to bandwidth selection for multivariate kernel density estimation

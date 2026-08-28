@@ -1,5 +1,5 @@
 ---
-author: Michael Hirsch, Dianne Cook, Paul Lajbcygier, Rob J Hyndman
+author: Michael Hirsch, Dianne Cook, Paul Lajbcygier, Rob J Hyndman
 date: 2019-04-22
 title: Revealing high-frequency trading provision of liquidity with visualization
 categories: Conference proceedings

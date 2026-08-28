@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman
+author: Rob J Hyndman
 Status: Published
 date: 2002-07-15 03:02:38+00:00
 title: Box-Jenkins modelling

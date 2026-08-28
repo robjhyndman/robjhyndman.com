@@ -1,5 +1,5 @@
 ---
-author: Earo Wang, Dianne Cook, Rob J Hyndman
+author: Earo Wang, Dianne Cook, Rob J Hyndman
 date: 2020-01-07
 title: Calendar-based graphics for visualizing people's daily schedules
 categories: Articles

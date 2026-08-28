@@ -1,5 +1,5 @@
 ---
-author: George Athanasopoulos, Rob J Hyndman, Nikolaos Kourentzes, Fotios Petropoulos
+author: George Athanasopoulos, Rob J Hyndman, Nikolaos Kourentzes, Fotios Petropoulos
 Status: Published
 date: 2017-05-13
 title: Forecasting with temporal hierarchies

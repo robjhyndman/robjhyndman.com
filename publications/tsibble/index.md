@@ -1,6 +1,6 @@
 ---
 title: "A new tidy data structure to support exploration and modeling of temporal data"
-author: Earo Wang, Di Cook, Rob J Hyndman
+author: Earo Wang, Di Cook, Rob J Hyndman
 date: 2020-01-04
 categories: Articles
 tags:

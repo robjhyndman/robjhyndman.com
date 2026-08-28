@@ -1,7 +1,7 @@
 ---
 title: "Anomaly detection in dynamic networks"
 date: "2022-10-14"
-author: Sevvandi Kandanaarachchi, Rob J Hyndman
+author: Sevvandi Kandanaarachchi, Rob J Hyndman
 arxiv: 2210.07407
 categories: Working papers
 aliases:

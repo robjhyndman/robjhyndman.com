@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman, Anne B Koehler
+author: Rob J Hyndman, Anne B Koehler
 Status: Published
 date: 2006-11-16 04:44:28+00:00
 title: Another look at measures of forecast accuracy

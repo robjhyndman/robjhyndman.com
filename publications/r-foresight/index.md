@@ -1,5 +1,5 @@
 ---
-author: Stephan Kolassa, Rob J Hyndman
+author: Stephan Kolassa, Rob J Hyndman
 Status: Published
 date: 2010-11-20 12:15:30+00:00
 title: Free open-source forecasting using R

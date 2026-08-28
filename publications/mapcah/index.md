@@ -1,5 +1,5 @@
 ---
-author: Bircan Erbas, Shyamali C Dharmage, Molly O'Sullivan, Muhammad Akram, Ed Newbigin, Philip Taylor, Don Vicendese, Rob J Hyndman, Philip Bardin, Mimi L Tang, Michael J Abramson
+author: Bircan Erbas, Shyamali C Dharmage, Molly O'Sullivan, Muhammad Akram, Ed Newbigin, Philip Taylor, Don Vicendese, Rob J Hyndman, Philip Bardin, Mimi L Tang, Michael J Abramson
 Status: Published
 date: 2012-06-25 02:26:42+00:00
 title: "A case-crossover design to examine the role of aeroallergens and respiratory viruses on childhood asthma exacerbations requiring hospitalization: The MAPCAH study"

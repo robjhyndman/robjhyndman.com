@@ -1,5 +1,5 @@
 ---
-author: Jan G de Gooijer, Rob J Hyndman
+author: Jan G de Gooijer, Rob J Hyndman
 Status: Published
 date: 2006-07-16 04:27:50+00:00
 title: 25 years of time series forecasting

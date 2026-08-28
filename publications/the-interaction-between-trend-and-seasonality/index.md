@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman
+author: Rob J Hyndman
 Status: Published
 date: 2004-10-16 03:36:14+00:00
 title: The interaction between trend and seasonality

@@ -1,5 +1,5 @@
 ---
-author: Azhong Ye, Rob J Hyndman
+author: Azhong Ye, Rob J Hyndman
 Status: Published
 date: 2006-09-17 02:42:27+00:00
 title: Projection pursuit estimator for multivariate conditional densities

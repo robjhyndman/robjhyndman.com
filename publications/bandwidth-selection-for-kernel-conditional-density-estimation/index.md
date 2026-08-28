@@ -1,5 +1,5 @@
 ---
-author: David M Bashtannyk, Rob J Hyndman
+author: David M Bashtannyk, Rob J Hyndman
 Status: Published
 date: 2001-06-16 03:08:35+00:00
 title: Bandwidth selection for kernel conditional density estimation

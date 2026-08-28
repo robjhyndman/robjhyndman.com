@@ -111,7 +111,7 @@ format_authors <- function(raw) {
     p <- str_trim(p)
     m <- str_match(p, "^([^,]+),\\s*(.+)$")
     if (!is.na(m[1, 1])) p <- paste(m[1, 3], m[1, 2])
-    p
+    gsub(" ", "\u00a0", p) # non-breaking within a name; ", " between authors stays breakable
   }, character(1), USE.NAMES = FALSE)
   paste(names, collapse = ", ")
 }

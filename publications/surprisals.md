@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman, David T Frazier
+author: Rob J Hyndman, David T Frazier
 date: 2026-03-10
 title: "Anomaly detection using surprisals"
 categories: Working papers

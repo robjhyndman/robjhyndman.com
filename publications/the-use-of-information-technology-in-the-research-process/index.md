@@ -1,5 +1,5 @@
 ---
-author: Rita L Axford, Gary K Grunwald, Rob J Hyndman
+author: Rita L Axford, Gary K Grunwald, Rob J Hyndman
 Status: Published
 date: 1995-07-15 02:21:48+00:00
 file: itir.pdf

@@ -1,7 +1,7 @@
 ---
 title: "Forecasting interrupted time series"
 date: "2024-08-19"
-author: Rob J Hyndman, Bahman Rostami-Tabar
+author: Rob J Hyndman, Bahman Rostami-Tabar
 link: https://raw.githubusercontent.com/bahmanrostamitabar/forecasting_interrupted_time_series/main/fits.pdf
 categories: Articles
 github: bahmanrostamitabar/forecasting_interrupted_time_series

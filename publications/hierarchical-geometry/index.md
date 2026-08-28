@@ -1,5 +1,5 @@
 ---
-author: Anastasios Panagiotelis, Puwasala Gamakumara, George Athanasopoulos, Rob J Hyndman
+author: Anastasios Panagiotelis, Puwasala Gamakumara, George Athanasopoulos, Rob J Hyndman
 date: 2021-01-20
 title: "Forecast reconciliation: A geometric view with new insights on bias correction"
 categories: Articles

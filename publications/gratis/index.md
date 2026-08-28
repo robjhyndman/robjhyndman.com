@@ -1,5 +1,5 @@
 ---
-author: Yanfei Kang, Rob J Hyndman, Feng Li
+author: Yanfei Kang, Rob J Hyndman, Feng Li
 alias: publications/tsgeneration
 title: "GRATIS: GeneRAting TIme Series with diverse and controllable characteristics"
 categories: Articles

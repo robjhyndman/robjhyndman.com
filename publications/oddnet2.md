@@ -1,7 +1,7 @@
 ---
 title: "Extreme value modelling of feature residuals for anomaly detection in dynamic graphs"
 date: "2024-11-22"
-author: Sevvandi Kandanaarachchi, Conrad Sanderson, Rob J Hyndman
+author: Sevvandi Kandanaarachchi, Conrad Sanderson, Rob J Hyndman
 arxiv: 2410.05687
 categories: Conference proceedings
 bibkey: oddnet2

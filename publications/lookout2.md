@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman, Sevvandi Kandanaarachchi, Katharine Turner
+author: Rob J Hyndman, Sevvandi Kandanaarachchi, Katharine Turner
 date: 2026-03-24
 title: "When lookout sees crackle: Anomaly detection via kernel density estimation"
 categories: Working papers

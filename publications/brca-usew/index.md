@@ -1,5 +1,5 @@
 ---
-author: Bircan Erbas, Muhammad Akram, Dorota M Gertig, Dallas English, John L Hopper, Anne M Kavanagh, Rob J Hyndman
+author: Bircan Erbas, Muhammad Akram, Dorota M Gertig, Dallas English, John L Hopper, Anne M Kavanagh, Rob J Hyndman
 Status: Published
 date: 2010-02-05 23:14:26+00:00
 title: Using functional data analysis models to estimate future time trends of age-specific

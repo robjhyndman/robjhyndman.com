@@ -1,5 +1,5 @@
 ---
-author: Thiyanga S Talagala, Rob J Hyndman, George Athanasopoulos
+author: Thiyanga S Talagala, Rob J Hyndman, George Athanasopoulos
 date: 2023-02-09
 title: Meta-learning how to forecast time series
 categories: Articles

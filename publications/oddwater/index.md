@@ -1,5 +1,5 @@
 ---
-author: Priyanga Dilini Talagala, Rob J Hyndman, Catherine Leigh, Kerrie Mengersen, Kate Smith-Miles
+author: Priyanga Dilini Talagala, Rob J Hyndman, Catherine Leigh, Kerrie Mengersen, Kate Smith-Miles
 date: 2019-09-17
 title: "A feature-based procedure for detecting technical outliers in water-quality data from in situ sensors"
 categories: Articles

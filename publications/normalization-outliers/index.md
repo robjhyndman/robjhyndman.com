@@ -1,5 +1,5 @@
 ---
-author: Sevvandi Kandanaarachchi, Mario Andres Muñoz, Rob J Hyndman, Kate Smith-Miles
+author: Sevvandi Kandanaarachchi, Mario Andres Muñoz, Rob J Hyndman, Kate Smith-Miles
 date: 2020-02-27
 title: "On normalization and algorithm selection for unsupervised outlier detection"
 categories: Articles

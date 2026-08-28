@@ -1,6 +1,6 @@
 ---
 title: A note on upper bounds for forecast-value-added relative to naïve forecasts
-author: Paul Goodwin, Fotios Petropoulos, Rob J Hyndman
+author: Paul Goodwin, Fotios Petropoulos, Rob J Hyndman
 status: Published
 categories: Articles
 date: 2017-03-28 08:10:47+00:00

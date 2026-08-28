@@ -1,5 +1,5 @@
 ---
-author: Han Lin Shang, Rob J Hyndman
+author: Han Lin Shang, Rob J Hyndman
 date: 2017-04-25
 aliases:
   - /publications/grouped-functional-time-series-forecasting-an-application-to-age-specific-mortality-rates

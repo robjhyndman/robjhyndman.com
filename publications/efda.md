@@ -1,7 +1,7 @@
 ---
 title: "Comments on: Exploratory functional data analysis"
 date: "2025-01-08"
-author: Rob J Hyndman
+author: Rob J Hyndman
 link: https://github.com/robjhyndman/EFDA/raw/main/EFDA_comments.pdf
 categories: Articles
 bibkey: efda

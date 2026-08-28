@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman, Farah Yasmeen
+author: Rob J Hyndman, Farah Yasmeen
 Status: Published
 date: 2014-05-24 01:31:22+00:00
 title: Common functional principal component models for mortality forecasting

@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman
+author: Rob J Hyndman
 Status: Published
 date: 2015-04-03 16:43:58+00:00
 title: Discussion of “High-dimensional autocovariance matrices and optimal linear prediction”

@@ -1,7 +1,7 @@
 ---
 title: "Forecasting COVID-19 activity in Australia to support pandemic response: May to October 2020"
 date: "2023-05-19"
-author: Robert Moss, David J. Price, Nick Golding, Peter Dawson, Jodie McVernon, Rob J. Hyndman, Freya M. Shearer, James M. McCaw
+author: Robert Moss, David J. Price, Nick Golding, Peter Dawson, Jodie McVernon, Rob J. Hyndman, Freya M. Shearer, James M. McCaw
 link: https://www.medrxiv.org/content/10.1101/2022.08.04.22278391v1.full.pdf
 categories: Articles
 bibkey: covid2020

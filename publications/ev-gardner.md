@@ -1,5 +1,5 @@
 ---
-author: Robert Fildes, Rob J Hyndman
+author: Robert Fildes, Rob J Hyndman
 date: 2024-01-01
 title: "Obituary: Everette S Gardner Jr"
 categories: Miscellaneous

@@ -1,5 +1,5 @@
 ---
-author: Don Vicendese, L Te Marvelde, P D McNair, K Whitfield, D R English, Souhaib Ben Taieb, Rob J Hyndman, R Thomas
+author: Don Vicendese, L Te Marvelde, P D McNair, K Whitfield, D R English, Souhaib Ben Taieb, Rob J Hyndman, R Thomas
 Status: Published
 date: 2019-12-08
 title: Predicting the whole distribution with methods for depth data analysis demonstrated on a colorectal cancer treatment study

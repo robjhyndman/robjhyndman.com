@@ -1,7 +1,7 @@
 ---
 title: "Multivariate reconciliation for hierarchical time series"
 date: "2026-05-18"
-author: Ana Caroline Pinheiro, Rodrigo de Souza Bulhões, Rob J Hyndman, Paulo Canas Rodrigues
+author: Ana Caroline Pinheiro, Rodrigo de Souza Bulhões, Rob J Hyndman, Paulo Canas Rodrigues
 arxiv: "2605.17920"
 github: robjhyndman/mvhts
 link: https://github.com/robjhyndman/mvhts/raw/main/multivariate-reconciliation.pdf

@@ -1,5 +1,5 @@
 ---
-author: Sevvandi Kandanaarachchi, Rob J Hyndman, Kate Smith-Miles
+author: Sevvandi Kandanaarachchi, Rob J Hyndman, Kate Smith-Miles
 date: 2020-07-11
 title: "Early classification of spatio-temporal events using partial information"
 categories: Articles

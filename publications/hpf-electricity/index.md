@@ -1,5 +1,5 @@
 ---
-author: Souhaib Ben Taieb, James W Taylor, Rob J Hyndman
+author: Souhaib Ben Taieb, James W Taylor, Rob J Hyndman
 date: 2021-01-01
 title: Hierarchical probabilistic forecasting of electricity demand with smart meter data
 categories: Articles

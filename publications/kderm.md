@@ -1,5 +1,5 @@
 ---
-author: Fan Cheng, Rob J Hyndman, Anastasios Panagiotelis
+author: Fan Cheng, Rob J Hyndman, Anastasios Panagiotelis
 date: 2025-09-01
 title: "Distortion corrected kernel density estimator on Riemannian manifolds"
 categories: Articles

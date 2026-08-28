@@ -1,5 +1,5 @@
 ---
-author: Jae H Kim, Param Silvapulle, Rob J Hyndman
+author: Jae H Kim, Param Silvapulle, Rob J Hyndman
 Status: Published
 date: 2007-04-01 06:23:20+00:00
 title: 'Half-life estimation based on the bias-corrected bootstrap: a highest density

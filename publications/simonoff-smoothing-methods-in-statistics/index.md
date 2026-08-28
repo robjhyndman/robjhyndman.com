@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman
+author: Rob J Hyndman
 Status: Published
 date: 1998-07-15 08:36:15+00:00
 title: Book Review of "Smoothing methods in Statistics" (Simonoff, 1996)

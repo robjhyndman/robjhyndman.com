@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman
+author: Rob J Hyndman
 Status: Published
 date: 2002-07-15 02:25:09+00:00
 title: ARIMA processes

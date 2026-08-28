@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman, Dianne Cook
+author: Rob J Hyndman, Dianne Cook
 date: 2019-05-17
 title: "You are what you vote: the social and demographic factors that influence your vote"
 categories: Miscellaneous

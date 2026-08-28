@@ -1,5 +1,5 @@
 ---
-author: Claire Kermorvant, Benoit Liquet, Guy Litt, Jeremy B Jones, Kerrie Mengersen, Erin E Peterson, Rob J Hyndman, Catherine Leigh
+author: Claire Kermorvant, Benoit Liquet, Guy Litt, Jeremy B Jones, Kerrie Mengersen, Erin E Peterson, Rob J Hyndman, Catherine Leigh
 date: 2021-12-03
 title: Reconstructing missing and anomalous data collected from high-frequency in-situ sensors in fresh waters
 categories: Articles

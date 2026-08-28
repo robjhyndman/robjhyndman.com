@@ -1,6 +1,6 @@
 ---
 title: "Forecast combinations: an over 50-year review"
-author: Xiaoqian Wang, Rob J Hyndman, Feng Li, Yanfei Kang
+author: Xiaoqian Wang, Rob J Hyndman, Feng Li, Yanfei Kang
 date: 2023-10-01
 categories: Articles
 tags:

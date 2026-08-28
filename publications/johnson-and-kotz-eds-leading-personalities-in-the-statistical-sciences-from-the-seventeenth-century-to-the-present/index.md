@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman
+author: Rob J Hyndman
 Status: Published
 date: 1998-07-15 08:35:09+00:00
 title: 'Book review of "Leading personalities in the Statistical Sciences: from the seventeenth century to the present" (Johnson and Kotz, 1998)'

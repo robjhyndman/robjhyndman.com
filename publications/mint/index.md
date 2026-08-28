@@ -1,5 +1,5 @@
 ---
-author: Shanika L Wickramasuriya, George Athanasopoulos, Rob J Hyndman
+author: Shanika L Wickramasuriya, George Athanasopoulos, Rob J Hyndman
 Status: Published
 date: 2019-06-14
 aliases:

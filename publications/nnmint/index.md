@@ -1,5 +1,5 @@
 ---
-author: Shanika L Wickramasuriya, Berwin A Turlach, Rob J Hyndman
+author: Shanika L Wickramasuriya, Berwin A Turlach, Rob J Hyndman
 date: 2020-04-08
 title: Optimal non-negative forecast reconciliation
 categories: Articles

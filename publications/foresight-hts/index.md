@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman, George Athanasopoulos
+author: Rob J Hyndman, George Athanasopoulos
 Status: Published
 date: 2014-10-20 22:00:53+00:00
 title: Optimally reconciling forecasts in a hierarchy

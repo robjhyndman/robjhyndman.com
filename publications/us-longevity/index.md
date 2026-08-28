@@ -1,5 +1,5 @@
 ---
-author: Han Li, Rob J Hyndman
+author: Han Li, Rob J Hyndman
 date: 2021-02-13
 title: "Assessing mortality inequality in the US: What can be said about the future?"
 categories: Articles

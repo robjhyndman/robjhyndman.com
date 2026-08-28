@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman
+author: Rob J Hyndman
 date: 2020-01-01
 title: A brief history of forecasting competitions
 categories: Articles

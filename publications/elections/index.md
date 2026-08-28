@@ -1,5 +1,5 @@
 ---
-author: Jeremy Forbes, Dianne Cook, Rob J Hyndman
+author: Jeremy Forbes, Dianne Cook, Rob J Hyndman
 date: 2020-07-14
 title: "Spatial modelling of the two-party preferred vote in Australian federal elections: 2001–2016"
 categories: Articles

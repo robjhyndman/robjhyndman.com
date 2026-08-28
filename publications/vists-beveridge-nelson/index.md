@@ -1,5 +1,5 @@
 ---
-author: Ashton de Silva, Rob J Hyndman, Ralph D Snyder
+author: Ashton de Silva, Rob J Hyndman, Ralph D Snyder
 Status: Published
 date: 2009-01-01 23:09:55+00:00
 title: A multivariate innovations state space Beveridge-Nelson decomposition

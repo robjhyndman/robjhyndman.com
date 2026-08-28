@@ -1,5 +1,5 @@
 ---
-author: Insha Ullah, Kerrie Mengersen, Rob J Hyndman, James McGree
+author: Insha Ullah, Kerrie Mengersen, Rob J Hyndman, James McGree
 date: 2019-03-09
 title: Detection of cybersecurity attacks through analysis of web browsing activities using principal component analysis
 categories: Working papers

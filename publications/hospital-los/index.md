@@ -1,5 +1,5 @@
 ---
-author: Don Vicendese, L Te Marvelde, P D McNair, K Whitfield, D R English, Souhaib Ben Taieb, Rob J Hyndman, R Thomas
+author: Don Vicendese, L Te Marvelde, P D McNair, K Whitfield, D R English, Souhaib Ben Taieb, Rob J Hyndman, R Thomas
 Status: Published
 date: 2020-02-01
 title: Hospital characteristics, rather than surgical volume, predict length of stay following colorectal cancer surgery

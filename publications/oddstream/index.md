@@ -1,5 +1,5 @@
 ---
-author: Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith-Miles, Sevvandi Kandanaarachchi, Mario Andres Muñoz
+author: Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith-Miles, Sevvandi Kandanaarachchi, Mario Andres Muñoz
 date: 2020-04-19
 title: "Anomaly detection in streaming nonstationary temporal data"
 categories: Articles

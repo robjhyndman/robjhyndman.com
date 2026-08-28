@@ -1,5 +1,5 @@
 ---
-author: J Keith Ord, Ralph D Snyder, Anne B Koehler, Rob J Hyndman, Mark Leeds
+author: J Keith Ord, Ralph D Snyder, Anne B Koehler, Rob J Hyndman, Mark Leeds
 date: 2005-04-02 01:48:57+00:00
 title: 'Time series forecasting: the case for the single source of error state space approach'
 categories: Working papers

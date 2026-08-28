@@ -1,6 +1,6 @@
 ---
 title: Functional data analysis for peak shape forecasting
-author: Shreyashi Shukla, Tao Hong, Rob J Hyndman
+author: Shreyashi Shukla, Tao Hong, Rob J Hyndman
 date: 2024-11-16
 categories: Working papers
 tags:

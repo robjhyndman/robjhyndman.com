@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman, Xueqin A Lin, Pierre Pinson
+author: Rob J Hyndman, Xueqin A Lin, Pierre Pinson
 date: 2018-02-01
 title: "Visualizing big energy data: solutions for this crucial component of data analysis"
 categories: Articles

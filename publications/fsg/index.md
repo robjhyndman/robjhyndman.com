@@ -1,5 +1,5 @@
 ---
-author: Bahman Rostami-Tabar, Mohammad M Ali, Tao Hong, Rob J Hyndman, Michael D Porter, Aris Syntetos
+author: Bahman Rostami-Tabar, Mohammad M Ali, Tao Hong, Rob J Hyndman, Michael D Porter, Aris Syntetos
 date: 2022-07-01
 title: "Forecasting for Social Good"
 categories: Articles

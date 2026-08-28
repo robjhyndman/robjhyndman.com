@@ -1,5 +1,5 @@
 ---
-author: Hansika Hewamalage, Pablo Montero-Manso, Christoph Bergmeir, Rob J Hyndman
+author: Hansika Hewamalage, Pablo Montero-Manso, Christoph Bergmeir, Rob J Hyndman
 date: 2021-08-10
 title: "A Look at the Evaluation Setup of the M5 Forecasting Competition"
 categories: Working papers

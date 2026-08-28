@@ -1,5 +1,5 @@
 ---
-author: Alysha M De Livera, Rob J Hyndman, Ralph D Snyder
+author: Alysha M De Livera, Rob J Hyndman, Ralph D Snyder
 Status: Published
 date: 2011-12-31 02:38:49+00:00
 title: Forecasting time series with complex seasonal patterns using exponential smoothing

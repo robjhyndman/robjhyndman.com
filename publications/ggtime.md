@@ -1,7 +1,7 @@
 ---
 title: "ggtime: A grammar of temporal graphics"
 date: "2025-10-30"
-author: Cynthia A Huang, Mitchell O'Hara-Wild, Rob J Hyndman, Matthew Kay
+author: Cynthia A Huang, Mitchell O'Hara-Wild, Rob J Hyndman, Matthew Kay
 arxiv: 2510.25656
 categories: Working papers
 bibkey: ggtime

@@ -1,5 +1,5 @@
 ---
-author: Christoph Bergmeir, Rob J Hyndman, Bonsoo Koo
+author: Christoph Bergmeir, Rob J Hyndman, Bonsoo Koo
 date: 2018-01-01
 title: A note on the validity of cross-validation for evaluating autoregressive time series prediction
 categories: Articles

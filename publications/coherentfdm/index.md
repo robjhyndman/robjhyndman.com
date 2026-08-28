@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman, Heather Booth, Farah Yasmeen
+author: Rob J Hyndman, Heather Booth, Farah Yasmeen
 Status: Published
 date: 2013-02-01 07:31:52+00:00
 title: 'Coherent mortality forecasting: the product-ratio method with functional time series models'

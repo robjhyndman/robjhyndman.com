@@ -1,5 +1,5 @@
 ---
-author: Bircan Erbas, Rob J Hyndman
+author: Bircan Erbas, Rob J Hyndman
 date: 2000-08-09 01:46:58+00:00
 title: Seasonal adjustment methods for the analysis of respiratory disease in environmental
   epidemiology

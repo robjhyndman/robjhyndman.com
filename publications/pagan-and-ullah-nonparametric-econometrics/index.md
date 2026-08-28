@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman
+author: Rob J Hyndman
 Status: Published
 date: 2000-07-16 00:40:00+00:00
 title: Book review of "Nonparametric econometrics" (Pagan and Ullah, 1999)
