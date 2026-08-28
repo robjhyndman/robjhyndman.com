@@ -2,7 +2,7 @@
 author: Rob J Hyndman, Han Lin Shang
 Status: Published
 date: 2009-07-23 23:12:47+00:00
-title: Forecasting functional time series
+title: "Forecasting functional time series"
 categories: Articles
 tags:
 - demography

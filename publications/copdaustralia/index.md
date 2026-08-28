@@ -2,7 +2,7 @@
 author: Bircan Erbas, Shahid Ullah, Rob J Hyndman, Michelle Scollo, Michael J Abramson
 Status: Published
 date: 2012-01-29 23:16:19+00:00
-title: 'Forecasts of COPD mortality in Australia: 2006-2025'
+title: "Forecasts of COPD mortality in Australia: 2006-2025"
 categories: Articles
 tags:
 - demography

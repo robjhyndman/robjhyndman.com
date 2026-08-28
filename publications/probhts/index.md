@@ -1,7 +1,7 @@
 ---
 author: Souhaib Ben Taieb, James W Taylor, Rob J Hyndman
 date: 2017-06-02
-title: Coherent probabilistic forecasts for hierarchical time series
+title: "Coherent probabilistic forecasts for hierarchical time series"
 categories: Conference proceedings
 tags:
 - data science

@@ -2,7 +2,7 @@
 author: Rob J Hyndman
 Status: Published
 date: 2015-12-31 00:37:54+00:00
-title: Measuring forecast accuracy
+title: "Measuring forecast accuracy"
 categories: Book chapters
 tags:
 - accuracy

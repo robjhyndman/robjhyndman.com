@@ -2,7 +2,7 @@
 author: Rob J Hyndman, Han Lin Shang
 Status: Published
 date: 2010-02-28 23:17:40+00:00
-title: Rainbow plots, bagplots and boxplots for functional data
+title: "Rainbow plots, bagplots and boxplots for functional data"
 categories: Articles
 tags:
 - functional data

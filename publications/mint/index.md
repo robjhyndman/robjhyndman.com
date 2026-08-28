@@ -4,7 +4,7 @@ Status: Published
 date: 2019-06-14
 aliases:
   - /working-papers/mint
-title: Optimal forecast reconciliation for hierarchical and grouped time series through trace minimization
+title: "Optimal forecast reconciliation for hierarchical and grouped time series through trace minimization"
 categories: Articles
 tags:
 - accuracy

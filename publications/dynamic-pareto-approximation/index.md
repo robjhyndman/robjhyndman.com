@@ -2,7 +2,7 @@
 author: Ingrida Steponavičė, Rob J Hyndman, Kate Smith-Miles, Laura Villanova
 Status: Published
 date: 2017-01-18 20:35:24+00:00
-title: Dynamic Algorithm Selection for Pareto Optimal Set Approximation
+title: "Dynamic Algorithm Selection for Pareto Optimal Set Approximation"
 categories: Articles
 tags:
 - data science

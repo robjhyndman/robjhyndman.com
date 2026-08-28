@@ -2,7 +2,7 @@
 author: Rob J Hyndman, Han Lin Shang
 Status: Published
 date: 2008-05-15 03:10:52+00:00
-title: Bagplots, boxplots and outlier detection for functional data
+title: "Bagplots, boxplots and outlier detection for functional data"
 categories: Book chapters
 tags:
 - functional data

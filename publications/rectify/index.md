@@ -1,7 +1,7 @@
 ---
 author: Souhaib Ben Taieb, Rob J Hyndman
 date: 2012-09-01 20:11:33+00:00
-title: 'Recursive and direct multi-step forecasting: the best of both worlds'
+title: "Recursive and direct multi-step forecasting: the best of both worlds"
 categories: Working papers
 tags:
 - forecasting

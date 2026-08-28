@@ -2,7 +2,7 @@
 author: George Athanasopoulos, Puwasala Gamakumara, Anastasios Panagiotelis, Rob J Hyndman, Mohamed Affan
 Status: Published
 date: 2020-01-06
-title: Hierarchical forecasting
+title: "Hierarchical forecasting"
 categories: Book chapters
 amazon: 303031149X
 tags:

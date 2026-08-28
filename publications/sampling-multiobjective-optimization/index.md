@@ -2,7 +2,7 @@
 author: Ingrida Steponavičė, Mojdeh Shirazi-Manesh, Rob J. Hyndman, Kate Smith-Miles, Laura Villanova
 Status: Published
 date: 2016-02-28 21:08:16+00:00
-title: On sampling methods for costly multi-objective black-box optimization
+title: "On sampling methods for costly multi-objective black-box optimization"
 categories: Book chapters
 tags:
 - data science

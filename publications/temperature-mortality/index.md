@@ -2,7 +2,7 @@
 author: John L Pearce, Madison Hyer, Rob J Hyndman, Margaret Loughnan, Martine Dennekamp, Neville Nicholls
 Status: Published
 date: 2016-12-07 00:54:33+00:00
-title: 'Exploring the influence of short-term temperature patterns on temperature-related mortality: a case-study of Melbourne, Australia'
+title: "Exploring the influence of short-term temperature patterns on temperature-related mortality: a case-study of Melbourne, Australia"
 categories: Articles
 tags:
 - atmospheric science

@@ -2,7 +2,7 @@
 author: Souhaib Ben Taieb, Rob J Hyndman
 Status: Published
 date: 2014-04-01 04:40:12+00:00
-title: A gradient boosting approach to the Kaggle load forecasting competition
+title: "A gradient boosting approach to the Kaggle load forecasting competition"
 categories: Articles
 tags:
 - boosting

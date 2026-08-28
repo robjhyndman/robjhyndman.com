@@ -2,7 +2,7 @@
 author: Rob J Hyndman, Earo Wang, Nikolay Laptev
 Status: Published
 date: 2015-06-01 02:08:36+00:00
-title: Large-scale unusual time series detection
+title: "Large-scale unusual time series detection"
 categories: Conference proceedings
 tags:
 - highest density regions

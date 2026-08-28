@@ -2,7 +2,7 @@
 author: George Athanasopoulos, Rob J Hyndman, Haiyan Song, Doris C Wu
 Status: Published
 date: 2011-01-01 22:00:04+00:00
-title: The tourism forecasting competition
+title: "The tourism forecasting competition"
 categories: Articles
 tags:
 - forecasting

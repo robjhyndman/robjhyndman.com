@@ -2,7 +2,7 @@
 author: Rob J Hyndman
 Status: Published
 date: 1995-07-16 02:12:27+00:00
-title: Highest-density forecast regions for nonlinear and non-normal time series models
+title: "Highest-density forecast regions for nonlinear and non-normal time series models"
 status: Published
 categories: Articles
 tag:

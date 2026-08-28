@@ -2,7 +2,7 @@
 author: Timur Behlul, Anastasios Panagiotelis, George Athanasopoulos, Rob J Hyndman, Farshid Vahid
 Status: Published
 date: 2017-02-14 05:26:17+00:00
-title: 'The Australian Macro Database: An online resource for macroeconomic research in Australia'
+title: "The Australian Macro Database: An online resource for macroeconomic research in Australia"
 categories: Working papers
 tags:
 - data science

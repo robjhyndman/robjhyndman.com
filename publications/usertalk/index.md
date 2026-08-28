@@ -1,7 +1,7 @@
 ---
 author: Rob J Hyndman
 date: 2011-06-22 03:41:53+00:00
-title: Giving a useR! talk
+title: "Giving a useR! talk"
 categories: Articles
 tags:
 - R

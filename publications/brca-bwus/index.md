@@ -2,8 +2,7 @@
 author: Farah Yasmeen, Rob J Hyndman, Bircan Erbas
 Status: Published
 date: 2010-05-06 01:14:25+00:00
-title: Forecasting age-related changes in breast cancer mortality among white and
-  black US women
+title: "Forecasting age-related changes in breast cancer mortality among white and black US women"
 categories: Articles
 tags:
 - demography

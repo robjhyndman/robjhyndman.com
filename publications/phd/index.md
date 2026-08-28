@@ -2,7 +2,7 @@
 author: Rob J Hyndman
 Status: Published
 date: 1992-12-17 00:19:33+00:00
-title: Continuous-time threshold autoregressive modelling
+title: "Continuous-time threshold autoregressive modelling"
 status: Published
 categories: PhD thesis
 file: PhDThesis.pdf

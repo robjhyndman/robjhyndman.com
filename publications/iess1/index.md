@@ -2,7 +2,7 @@
 author: Rob J Hyndman
 Status: Published
 date: 2010-01-01 04:30:50+00:00
-title: Moving averages
+title: "Moving averages"
 categories: Book chapters
 tags:
 - forecasting

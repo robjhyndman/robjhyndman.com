@@ -2,7 +2,7 @@
 author: J K Ord, Anne B Koehler, Ralph D Snyder, Rob J Hyndman
 Status: Published
 date: 2009-07-05 23:14:33+00:00
-title: Monitoring processes with changing variances
+title: "Monitoring processes with changing variances"
 categories: Articles
 tags:
 - exponential smoothing

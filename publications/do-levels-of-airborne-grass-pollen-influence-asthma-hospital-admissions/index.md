@@ -2,7 +2,7 @@
 author: Bircan Erbas, Jiun-Horng Chang, Shyamali C Dharmage, Eng Kok Ong, Rob J Hyndman, Ed Newbigin, Michael J Abramson
 Status: Published
 date: 2007-06-29 05:27:19+00:00
-title: Do levels of airborne grass pollen influence asthma hospital admissions?
+title: "Do levels of airborne grass pollen influence asthma hospital admissions?"
 categories: Articles
 tags:
 - atmospheric science

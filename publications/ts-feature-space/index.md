@@ -2,7 +2,7 @@
 author: Yanfei Kang, Rob J Hyndman, Kate Smith-Miles
 Status: Published
 date: 2017-01-12 21:16:41+00:00
-title: Visualising forecasting algorithm performance using time series instance spaces
+title: "Visualising forecasting algorithm performance using time series instance spaces"
 categories: Articles
 tags:
 - accuracy

@@ -1,29 +1,37 @@
-# Writes `details`, `doi` and `author` into each publication's front matter
-# from its rjhpubs.bib entry. This has to happen by editing the actual file,
-# before Quarto ever runs, because Quarto's `listing:` feature (which builds
-# publications/index.qmd) reads each file's raw YAML front matter directly
-# -- it doesn't run computations, execute code, or apply Lua filters, so a
-# field that only ever existed as a value computed at render time would
-# never reach the listing page, and Quarto resolves the browser-tab <title>
-# and "Authors" byline from the raw front-matter YAML before any Lua filter
-# gets a chance to touch it either way.
+# Writes `title`, `author`, `details` and `doi` into each publication's
+# front matter from its rjhpubs.bib entry. This has to happen by editing the
+# actual file, before Quarto ever runs, because Quarto's `listing:` feature
+# (which builds publications/index.qmd) reads each file's raw YAML front
+# matter directly -- it doesn't run computations, execute code, or apply Lua
+# filters, so a field that only ever existed as a value computed at render
+# time would never reach the listing page, and Quarto resolves the
+# browser-tab <title> and "Authors" byline from the raw front-matter YAML
+# before any Lua filter gets a chance to touch it either way.
 #
-# details/doi are only ever filled in when missing, never overwritten, since
-# a file with neither is the normal state for a working paper (see
-# title-metadata.html's "Working paper" fallback). author is different: it's
-# always present already, and always meant to match the bib exactly (unlike
-# title, which sometimes has a deliberate, permanent override -- see
-# TITLE_EXCEPTIONS in check_bib_sync.R), so author is unconditionally
-# regenerated from the bib every run, overwriting whatever was there.
+# rjhpubs.bib is the single source of truth: every field this script writes
+# is unconditionally regenerated from the bib and overwrites whatever was
+# already in the file, even a deliberately hand-edited value (this includes
+# the handful of book-review titles that check_bib_sync.R's TITLE_EXCEPTIONS
+# used to let drift on purpose -- that list only governs what check_bib_sync
+# flags, it no longer describes what this script leaves alone). A field is
+# only left untouched when the bib entry itself doesn't have the underlying
+# raw field (e.g. a working paper with no `doi` yet) -- this script never
+# invents a value that isn't in the bib.
 #
-# rjhpubs.bib stays the source of truth throughout: this script never
-# invents anything not already in the bib entry, and running it again after
-# a bib update just re-syncs whatever changed.
+# Every bibkey in rjhpubs.bib is expected to map to exactly one publication
+# file. If a publication file with that bibkey doesn't exist yet, one is
+# created with whatever fields the bib entry provides. EXCLUDE_KEYS below
+# lists bibkeys that deliberately have no publications/ page (books and
+# sub-projects with their own dedicated page elsewhere on the site).
 #
 # Usage: Rscript sync_bib_fields.R (run by `make preview` / `make build`,
 # after fetch_bib.R and before quarto render/preview)
 
 library(stringr)
+
+# bibkeys that intentionally have no publications/ page: books and
+# sub-projects with a dedicated page elsewhere on the site.
+EXCLUDE_KEYS <- c("expsmooth08", "fpp3", "fpppy", "ITSM91", "ITSM94", "MWH3", "unbelievable")
 
 # ---- bib parsing (same approach as check_bib_sync.R) -------------------
 
@@ -88,9 +96,11 @@ parse_bib <- function(path) {
   entries
 }
 
-# ---- details formatting (mirrors publications/inject-bibtex.lua) -------
+# ---- field formatting (mirrors publications/inject-bibtex.lua) ---------
 
 unescape_latex <- function(s) {
+  s <- gsub("``", '"', s, fixed = TRUE) # LaTeX open/close double-quote -> straight quote
+  s <- gsub("''", '"', s, fixed = TRUE)
   s <- gsub("\\\\&", "&", s)
   s <- gsub("\\\\\\$", "$", s)
   s <- gsub("\\\\[a-zA-Z]+\\s*\\{([^}]*)\\}", "\\1", s)
@@ -114,6 +124,16 @@ format_authors <- function(raw) {
     gsub(" ", "\u00a0", p) # non-breaking within a name; ", " between authors stays breakable
   }, character(1), USE.NAMES = FALSE)
   paste(names, collapse = ", ")
+}
+
+# Bib titles use LaTeX "--" for an en-dash (e.g. a year range) and wrap
+# words in extra braces purely to protect capitalisation (e.g. "{COVID-19}",
+# "{Australia}") -- unescape_latex already strips those braces, this just
+# also turns the literal double-hyphen into a real en-dash.
+format_title <- function(raw) {
+  s <- unescape_latex(raw)
+  s <- gsub("--", "\u2013", s, fixed = TRUE)
+  str_squish(s)
 }
 
 format_pages <- function(pages) gsub("(\\d)-{1,2}(\\d)", "\\1\u2013\\2", pages)
@@ -164,6 +184,25 @@ build_details <- function(e) {
   else NULL
 }
 
+# Best-effort mapping from a BibTeX entry type to this site's `categories`
+# values, used only when creating a brand-new publication file -- a few
+# existing files deliberately recategorise a plain @article as "Editorials"
+# or "Miscellaneous", which can't be inferred from the bib alone, so this is
+# just a reasonable starting point the author can hand-adjust afterwards.
+category_for_type <- function(type) {
+  switch(type,
+    article = "Articles",
+    review = "Book reviews",
+    inbook = ,
+    incollection = "Book chapters",
+    inproceedings = "Conference proceedings",
+    phdthesis = "PhD thesis",
+    techreport = ,
+    unpublished = "Working papers",
+    "Miscellaneous"
+  )
+}
+
 # ---- YAML front-matter editing ------------------------------------------
 
 # Always double-quotes: generated text can contain a ": " sequence (e.g. a
@@ -175,7 +214,7 @@ yaml_quote <- function(value) {
   paste0('"', value, '"')
 }
 
-# Reads bibkey/details/doi out of the front matter without a full YAML
+# Reads a simple "field: value" out of the front matter without a full YAML
 # parse, so this never trips over the free-form HTML in `details`.
 read_simple_field <- function(fm_lines, field) {
   m <- str_match(fm_lines, paste0("^", field, ":\\s*(.*)$"))
@@ -210,50 +249,53 @@ locate_field <- function(lines, fm_start, fm_end, field) {
         j <- j + 1
       }
     }
+  } else {
+    # Unquoted plain scalar: YAML folds a long value onto indented
+    # continuation lines (e.g. a long title with no surrounding quotes).
+    j <- idx + 1
+    while (j <= fm_end - 1 && grepl("^[[:space:]]", lines[j])) {
+      end <- j
+      j <- j + 1
+    }
   }
   list(start = idx, end = end)
 }
 
-sync_file <- function(path, bib) {
+# The bib-derived value for each front-matter field this script owns, or
+# NULL when the bib entry doesn't have the underlying raw field -- NULL
+# means "leave whatever's in the file alone", never "blank it out".
+bib_field_values <- function(e) {
+  details <- build_details(e)
+  list(
+    title = if (!is.null(e$title)) yaml_quote(format_title(e$title)) else NULL,
+    author = if (!is.null(e$author)) format_authors(e$author) else NULL,
+    details = if (!is.null(details)) yaml_quote(details) else NULL,
+    doi = if (!is.null(e$doi)) str_trim(e$doi) else NULL
+  )
+}
+
+# Overwrites an existing publication file's front matter with every
+# bib-derived field the entry provides. Returns TRUE if the file changed.
+sync_file <- function(path, e) {
   lines <- readLines(path, warn = FALSE, encoding = "UTF-8")
   dashes <- which(lines == "---")
   if (length(dashes) < 2) return(FALSE)
-  fm_lines <- lines[(dashes[1] + 1):(dashes[2] - 1)]
-
-  bibkey <- read_simple_field(fm_lines, "bibkey")
-  if (is.null(bibkey)) return(FALSE)
-  e <- bib[[bibkey]]
-  if (is.null(e)) return(FALSE)
 
   changed <- FALSE
-
-  # author: unconditionally regenerated (see header comment for why).
-  if (!is.null(e$author)) {
-    generated_author <- paste0("author: ", format_authors(e$author))
-    span <- locate_field(lines, dashes[1], dashes[2], "author")
+  values <- bib_field_values(e)
+  for (field in names(values)) {
+    value <- values[[field]]
+    if (is.null(value)) next
+    dashes <- which(lines == "---") # re-find: an earlier field's edit may have shifted line numbers
+    generated_line <- paste0(field, ": ", value)
+    span <- locate_field(lines, dashes[1], dashes[2], field)
     if (is.null(span)) {
-      lines <- append(lines, generated_author, after = dashes[2] - 1)
+      lines <- append(lines, generated_line, after = dashes[2] - 1)
       changed <- TRUE
-    } else if (!(span$start == span$end && lines[span$start] == generated_author)) {
-      lines <- append(lines[-(span$start:span$end)], generated_author, after = span$start - 1)
+    } else if (!(span$start == span$end && lines[span$start] == generated_line)) {
+      lines <- append(lines[-(span$start:span$end)], generated_line, after = span$start - 1)
       changed <- TRUE
     }
-  }
-
-  # details/doi: only filled in when the file doesn't already set them.
-  dashes <- which(lines == "---") # re-find: the author edit may have shifted line numbers
-  fm_lines <- lines[(dashes[1] + 1):(dashes[2] - 1)]
-  new_lines <- character(0)
-  if (is.null(read_simple_field(fm_lines, "details"))) {
-    details <- build_details(e)
-    if (!is.null(details)) new_lines <- c(new_lines, paste0("details: ", yaml_quote(details)))
-  }
-  if (is.null(read_simple_field(fm_lines, "doi")) && !is.null(e$doi)) {
-    new_lines <- c(new_lines, paste0("doi: ", str_trim(e$doi)))
-  }
-  if (length(new_lines) > 0) {
-    lines <- append(lines, new_lines, after = dashes[2] - 1)
-    changed <- TRUE
   }
 
   if (!changed) return(FALSE)
@@ -261,19 +303,95 @@ sync_file <- function(path, bib) {
   TRUE
 }
 
-# ---- run over every publication -----------------------------------------
+slugify <- function(title) {
+  s <- tolower(unescape_latex(title))
+  s <- gsub("[^a-z0-9]+", "-", s)
+  gsub("^-+|-+$", "", s)
+}
+
+# Creates a brand-new publications/<slug>.md for a bib entry that has no
+# matching file yet, with whatever fields the entry provides. Matches the
+# flat "publications/<slug>.md" layout used by the site's most recent
+# publications (rather than the older publications/<slug>/index.md form).
+create_file <- function(key, e) {
+  title <- if (!is.null(e$title)) format_title(e$title) else key
+  slug <- slugify(title)
+  path <- file.path("publications", paste0(slug, ".md"))
+  if (file.exists(path)) path <- file.path("publications", paste0(slug, "-", tolower(key), ".md"))
+
+  values <- bib_field_values(e)
+  fm <- c("---", paste0("bibkey: ", key))
+  if (!is.null(values$author)) fm <- c(fm, paste0("author: ", values$author))
+  if (!is.null(values$title)) fm <- c(fm, paste0("title: ", values$title))
+  if (!is.null(e$year)) fm <- c(fm, paste0("date: ", str_trim(e$year), "-01-01"))
+  fm <- c(fm, paste0("categories: ", category_for_type(e$.type)))
+  if (!is.null(values$details)) fm <- c(fm, paste0("details: ", values$details))
+  if (!is.null(values$doi)) fm <- c(fm, paste0("doi: ", values$doi))
+  fm <- c(fm, "---", "")
+
+  writeLines(fm, path, useBytes = TRUE)
+  path
+}
+
+# ---- run over every bib entry -------------------------------------------
 
 bib <- parse_bib("rjhpubs.bib")
+
 files <- unique(c(
   Sys.glob("publications/*/index.md"), Sys.glob("publications/*/index.qmd"),
   Sys.glob("publications/*.md"), Sys.glob("publications/*.qmd")
 ))
 files <- files[!grepl("_metadata", files)]
 
-changed <- files[vapply(files, sync_file, logical(1), bib = bib)]
-if (length(changed) == 0) {
-  cat("sync_bib_fields: nothing to sync --", length(files), "publications already match rjhpubs.bib.\n")
-} else {
-  cat("sync_bib_fields: synced author/details/doi for", length(changed), "publication(s):\n")
-  cat(paste(" -", changed), sep = "\n")
+# Map every publication file's bibkey -> path, so each bib entry can find
+# its one matching file (or learn it needs to be created). Flags a bibkey
+# claimed by more than one file, and a file whose bibkey isn't in the bib
+# at all, as warnings -- both indicate the 1:1 mapping is broken and need a
+# person to sort out, so this script doesn't try to guess which file wins.
+key_to_path <- list()
+problems <- character(0)
+for (f in files) {
+  lines <- readLines(f, warn = FALSE, encoding = "UTF-8")
+  dashes <- which(lines == "---")
+  if (length(dashes) < 2) next
+  fm_lines <- lines[(dashes[1] + 1):(dashes[2] - 1)]
+  bibkey <- read_simple_field(fm_lines, "bibkey")
+  if (is.null(bibkey)) next
+  if (!is.null(key_to_path[[bibkey]])) {
+    problems <- c(problems, sprintf("duplicate bibkey '%s': %s and %s", bibkey, key_to_path[[bibkey]], f))
+    next
+  }
+  key_to_path[[bibkey]] <- f
+  if (is.null(bib[[bibkey]])) {
+    problems <- c(problems, sprintf("%s has bibkey '%s', which is not in rjhpubs.bib", f, bibkey))
+  }
+}
+
+updated <- character(0)
+created <- character(0)
+for (key in names(bib)) {
+  if (key %in% EXCLUDE_KEYS) next
+  e <- bib[[key]]
+  path <- key_to_path[[key]]
+  if (is.null(path)) {
+    created <- c(created, create_file(key, e))
+  } else if (sync_file(path, e)) {
+    updated <- c(updated, path)
+  }
+}
+
+if (length(problems) > 0) {
+  cat("sync_bib_fields:", length(problems), "problem(s) found:\n")
+  cat(paste(" -", problems), sep = "\n")
+}
+if (length(created) > 0) {
+  cat("sync_bib_fields: created", length(created), "new publication(s):\n")
+  cat(paste(" -", created), sep = "\n")
+}
+if (length(updated) > 0) {
+  cat("sync_bib_fields: synced", length(updated), "publication(s):\n")
+  cat(paste(" -", updated), sep = "\n")
+}
+if (length(problems) == 0 && length(created) == 0 && length(updated) == 0) {
+  cat("sync_bib_fields: nothing to sync --", length(bib) - length(EXCLUDE_KEYS), "bib entries already match their publication.\n")
 }

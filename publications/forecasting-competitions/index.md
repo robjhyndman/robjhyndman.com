@@ -1,7 +1,7 @@
 ---
 author: Rob J Hyndman
 date: 2020-01-01
-title: A brief history of forecasting competitions
+title: "A brief history of forecasting competitions"
 categories: Articles
 tags:
 - time series

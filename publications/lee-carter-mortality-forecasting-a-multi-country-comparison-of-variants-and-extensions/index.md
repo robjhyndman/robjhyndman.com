@@ -2,8 +2,7 @@
 author: Heather Booth, Rob J Hyndman, Leonie Tickle, Piet de Jong
 Status: Published
 date: 2006-10-20 04:24:21+00:00
-title: 'Lee-Carter mortality forecasting: a multi-country comparison of variants and
-  extensions'
+title: "Lee-Carter mortality forecasting: a multi-country comparison of variants and extensions"
 categories: Articles
 tags:
 - demography

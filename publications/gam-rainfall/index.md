@@ -2,8 +2,7 @@
 author: Rob J Hyndman, Gary K Grunwald
 Status: Published
 date: 2000-05-16 03:06:43+00:00
-title: Generalized additive modelling of mixed distribution Markov models with application
-  to Melbourne's rainfall
+title: "Generalized additive modelling of mixed distribution Markov models with application to Melbourne's rainfall"
 categories: Articles
 tags:
 - atmospheric science

@@ -2,7 +2,7 @@
 author: Heather Booth, Rob J Hyndman, Leonie Tickle
 Status: Published
 date: 2014-01-01 01:00:04+00:00
-title: Prospective life tables
+title: "Prospective life tables"
 categories: Book chapters
 tags:
 - demography

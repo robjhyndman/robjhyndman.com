@@ -2,7 +2,7 @@
 author: Shu Fan, Rob J Hyndman
 Status: Published
 date: 2012-02-01 06:37:48+00:00
-title: Short-term load forecasting based on a semi-parametric additive model
+title: "Short-term load forecasting based on a semi-parametric additive model"
 categories: Articles
 tags:
 - electricity

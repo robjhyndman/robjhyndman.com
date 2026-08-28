@@ -1,7 +1,7 @@
 ---
 author: Laura Villanova, Rob J Hyndman, Kate Smith-Miles, Irene Poli
 date: 2013-10-31 12:27:07+00:00
-title: 'Nonparametric and semiparametric response surface methodology: a review of designs, models and optimization techniques'
+title: "Nonparametric and semiparametric response surface methodology: a review of designs, models and optimization techniques"
 categories: Working papers
 tags:
 - experimental design

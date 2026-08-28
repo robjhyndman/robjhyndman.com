@@ -2,7 +2,7 @@
 author: Rob J Hyndman
 Status: Published
 date: 2015-12-31 00:37:54+00:00
-title: Another look at forecast-accuracy metrics for intermittent demand
+title: "Another look at forecast-accuracy metrics for intermittent demand"
 categories: Book chapters
 tags:
 - accuracy

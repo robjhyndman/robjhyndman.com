@@ -2,7 +2,7 @@
 author: Han Lin Shang, Heather Booth, Rob J Hyndman
 Status: Published
 date: 2011-07-14 23:19:38+00:00
-title: 'Point and interval forecasts of mortality rates and life expectancy: a comparison of ten principal component methods'
+title: "Point and interval forecasts of mortality rates and life expectancy: a comparison of ten principal component methods"
 categories: Articles
 tags:
 - demography

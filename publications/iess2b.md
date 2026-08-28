@@ -1,7 +1,7 @@
 ---
 author: Rob J Hyndman
 date: 2025-06-19
-title: Business forecasting methods
+title: "Business forecasting methods"
 categories: Book chapters
 tags:
 - forecasting

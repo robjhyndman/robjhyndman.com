@@ -2,7 +2,7 @@
 author: Han Lin Shang, Rob J Hyndman
 Status: Published
 date: 2009-07-12 23:46:32+00:00
-title: Nonparametric time series forecasting with dynamic updating
+title: "Nonparametric time series forecasting with dynamic updating"
 categories: Conference proceedings
 tags:
 - functional data

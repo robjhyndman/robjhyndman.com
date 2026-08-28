@@ -4,7 +4,7 @@ Status: Published
 date: 2006-05-16 05:52:34+00:00
 aliases:
   - /publications/characteristic-based-clustering-for-time-series-data
-title: Characteristic-based clustering for time series data
+title: "Characteristic-based clustering for time series data"
 categories: Articles
 tags:
 - neural networks

@@ -1,7 +1,7 @@
 ---
 author: Rob J Hyndman
 date: 2010-01-01 03:51:39+00:00
-title: Changing of the guard
+title: "Changing of the guard"
 categories: Editorials
 tags:
 - forecasting

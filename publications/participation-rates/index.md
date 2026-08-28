@@ -2,8 +2,7 @@
 author: Thomas Url, Rob J Hyndman, Alexander Dokumentov
 Status: Published
 date: 2016-01-24 06:33:23+00:00
-title: Long-term forecasts of age-specific participation rates with functional data
-  models
+title: "Long-term forecasts of age-specific participation rates with functional data models"
 categories: Working papers
 tags:
 - demography

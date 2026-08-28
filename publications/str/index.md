@@ -1,7 +1,7 @@
 ---
 author: Alexander Dokumentov, Rob J Hyndman
 date: 2022-04-03
-title: 'STR: seasonal-trend decomposition using regression'
+title: "STR: seasonal-trend decomposition using regression"
 categories: Articles
 tags:
 - electricity

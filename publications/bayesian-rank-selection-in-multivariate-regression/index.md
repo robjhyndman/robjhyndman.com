@@ -2,7 +2,7 @@
 author: Bin Jiang, Anastasios Panagiotelis, George Athanasopoulos, Rob J Hyndman, Farshid Vahid
 Status: Published
 date: 2016-01-30 00:58:44+00:00
-title: Bayesian rank selection in multivariate regression
+title: "Bayesian rank selection in multivariate regression"
 categories: Working papers
 tags:
 - arima models

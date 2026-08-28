@@ -2,7 +2,7 @@
 author: Peter J Brockwell, Rob J Hyndman, Gary K Grunwald
 date: 1991-02-16
 online: https://www3.stat.sinica.edu.tw/statistica/j1n2/j1n26/j1n26.htm
-title: Continuous time threshold autoregressive models
+title: "Continuous time threshold autoregressive models"
 categories: Articles
 tag:
 - time series

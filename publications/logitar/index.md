@@ -2,7 +2,7 @@
 author: Rob J Hyndman
 Status: Published
 date: 1999-07-07 00:49:30+00:00
-title: Nonparametric additive regression models for binary time series
+title: "Nonparametric additive regression models for binary time series"
 categories: Conference proceedings
 tags:
 - gams

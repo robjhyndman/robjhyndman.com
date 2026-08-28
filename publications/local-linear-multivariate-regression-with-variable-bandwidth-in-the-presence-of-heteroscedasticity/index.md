@@ -1,8 +1,7 @@
 ---
 author: Azhong Ye, Rob J Hyndman, Zinai Li
 date: 2006-05-01 01:50:39+00:00
-title: Local linear multivariate regression with variable bandwidth in the presence
-  of heteroscedasticity
+title: "Local linear multivariate regression with variable bandwidth in the presence of heteroscedasticity"
 categories: Working papers
 tags:
 - nonparametric smoothing

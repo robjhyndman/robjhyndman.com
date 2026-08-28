@@ -2,7 +2,7 @@
 author: Alexander Severinsen, Rob J Hyndman
 Status: Published
 date: 2019-06-08
-title: Quantification of energy savings from energy conservation measures in buildings using machine learning
+title: "Quantification of energy savings from energy conservation measures in buildings using machine learning"
 categories: Conference proceedings
 tags:
   - energy

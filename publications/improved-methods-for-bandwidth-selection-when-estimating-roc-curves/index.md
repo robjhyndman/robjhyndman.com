@@ -2,7 +2,7 @@
 author: Peter G Hall, Rob J Hyndman
 Status: Published
 date: 2003-02-16 03:28:09+00:00
-title: Improved methods for bandwidth selection when estimating ROC curves
+title: "Improved methods for bandwidth selection when estimating ROC curves"
 categories: Articles
 tags:
 - nonparametric smoothing

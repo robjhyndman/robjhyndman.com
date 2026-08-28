@@ -1,7 +1,7 @@
 ---
 author: Rob J Hyndman, Shu Fan
 date: 2015-05-28
-title: Monash Electricity Forecasting Model
+title: "Monash Electricity Forecasting Model"
 categories: Miscellaneous
 tags:
 - electricity

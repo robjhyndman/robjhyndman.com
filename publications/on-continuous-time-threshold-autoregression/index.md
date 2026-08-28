@@ -2,7 +2,7 @@
 author: Peter J Brockwell, Rob J Hyndman
 Status: Published
 date: 1992-07-16 02:04:56+00:00
-title: On continuous-time threshold autoregression
+title: "On continuous-time threshold autoregression"
 status: Published
 categories: Articles
 file: ctar2.pdf

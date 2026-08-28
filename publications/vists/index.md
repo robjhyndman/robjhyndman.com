@@ -2,7 +2,7 @@
 author: Ashton de Silva, Rob J Hyndman, Ralph D Snyder
 Status: Published
 date: 2010-11-15 23:11:21+00:00
-title: 'The vector innovations structural time series framework: a simple approach to multivariate forecasting'
+title: "The vector innovations structural time series framework: a simple approach to multivariate forecasting"
 categories: Articles
 tags:
 - exponential smoothing

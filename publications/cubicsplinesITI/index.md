@@ -1,7 +1,7 @@
 ---
 author: Ken J Harrison, Rob J Hyndman
 date: 2015-05-19
-title: Modelling the participation function with a one-parameter family of cubic splines
+title: "Modelling the participation function with a one-parameter family of cubic splines"
 categories: Miscellaneous
 tags:
 - splines

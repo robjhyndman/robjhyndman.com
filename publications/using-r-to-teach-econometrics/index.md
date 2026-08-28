@@ -2,7 +2,7 @@
 author: Jeffrey Scott Racine, Rob J Hyndman
 Status: Published
 date: 2002-03-16 03:25:42+00:00
-title: Using R to teach econometrics
+title: "Using R to teach econometrics"
 categories: Articles
 tags:
   - econometrics

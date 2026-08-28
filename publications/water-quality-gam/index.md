@@ -1,7 +1,7 @@
 ---
 author: Claire Kermorvant, Benoit Liquet, Guy Litt, Kerrie Mengersen, Erin Peterson, Rob J Hyndman, Jeremy B. Jones, Catherine Leigh
 date: 2023-06-13
-title: Understanding links between water-quality variables and nitrate concentration in freshwater streams using high-frequency sensor data
+title: "Understanding links between water-quality variables and nitrate concentration in freshwater streams using high-frequency sensor data"
 categories: Articles
 github: Claire-K/nitrate_links
 tags:

@@ -2,7 +2,7 @@
 author: Jan Verbesselt, Rob J Hyndman, Achim Zeileis, Darius Culvenor
 Status: Published
 date: 2010-08-17 08:05:10+00:00
-title: Phenological change detection while accounting for abrupt and gradual trends in satellite image time series
+title: "Phenological change detection while accounting for abrupt and gradual trends in satellite image time series"
 categories: Articles
 tags:
 - remote sensing

@@ -2,7 +2,7 @@
 author: Rob J Hyndman
 Status: Published
 date: 2002-07-15 03:02:38+00:00
-title: Box-Jenkins modelling
+title: "Box-Jenkins modelling"
 categories: Book chapters
 amazon: "1861525427"
 file: BoxJenkins.pdf

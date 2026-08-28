@@ -2,7 +2,7 @@
 author: Rob J Hyndman
 Status: Published
 date: 1995-07-05 01:39:20+00:00
-title: The problem with Sturges' rule for constructing histograms
+title: "The problem with Sturges' rule for constructing histograms"
 categories: Working papers
 file: sturges.pdf
 tag:

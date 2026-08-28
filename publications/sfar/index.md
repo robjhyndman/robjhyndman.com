@@ -1,7 +1,7 @@
 ---
 author: Atefeh Zamani, Hossein Haghbin, Maryam Hashemi, Rob J Hyndman
 date: 2022-03-01
-title: Seasonal functional autoregressive models
+title: "Seasonal functional autoregressive models"
 categories: Articles
 tags:
 - time series

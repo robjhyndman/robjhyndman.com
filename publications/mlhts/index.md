@@ -1,7 +1,7 @@
 ---
 author: Mahdi Abolghasemi, Rob J Hyndman, Garth Tarr, Christoph Bergmeir
 date: 2019-12-08
-title: Machine learning applications in time series hierarchical forecasting
+title: "Machine learning applications in time series hierarchical forecasting"
 categories: Working papers
 arxiv: "1912.00370"
 tags:

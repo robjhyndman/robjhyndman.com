@@ -2,7 +2,7 @@
 author: Han Lin Shang, Rob J Hyndman
 Status: Published
 date: 2010-08-03 08:33:10+00:00
-title: Exploratory graphics for functional data
+title: "Exploratory graphics for functional data"
 categories: Conference proceedings
 tags:
 - functional data

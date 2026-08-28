@@ -2,7 +2,7 @@
 author: Shu Fan, Rob J Hyndman
 Status: Published
 date: 2011-03-31 00:56:31+00:00
-title: The price elasticity of electricity demand in South Australia
+title: "The price elasticity of electricity demand in South Australia"
 categories: Articles
 tags:
 - econometrics

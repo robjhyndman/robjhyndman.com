@@ -2,7 +2,7 @@
 author: Muhammad Akram, Rob J Hyndman, J K Ord
 Status: Published
 date: 2009-11-25 23:06:04+00:00
-title: Exponential smoothing and non-negative data
+title: "Exponential smoothing and non-negative data"
 categories: Articles
 tags:
 - exponential smoothing

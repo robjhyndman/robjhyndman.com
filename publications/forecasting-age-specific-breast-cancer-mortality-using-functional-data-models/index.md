@@ -2,7 +2,7 @@
 author: Bircan Erbas, Rob J Hyndman, Dorota M Gertig
 Status: Published
 date: 2007-02-16 05:24:01+00:00
-title: Forecasting age-specific breast cancer mortality using functional data models
+title: "Forecasting age-specific breast cancer mortality using functional data models"
 categories: Articles
 tags:
 - epidemiology

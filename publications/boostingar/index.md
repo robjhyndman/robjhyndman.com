@@ -1,7 +1,7 @@
 ---
 author: Souhaib Ben Taieb, Rob J Hyndman
 date: 2014-01-09 23:00:22+00:00
-title: Boosting multi-step autoregressive forecasts
+title: "Boosting multi-step autoregressive forecasts"
 categories: Conference proceedings
 tags:
 - boosting

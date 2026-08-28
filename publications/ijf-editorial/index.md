@@ -1,7 +1,7 @@
 ---
 author: Rob J Hyndman
 date: 2005-01-15 08:30:17+00:00
-title: Editorial
+title: "Editorial"
 categories: Editorials
 tags:
 - forecasting
