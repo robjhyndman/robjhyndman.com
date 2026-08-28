@@ -6,29 +6,34 @@ categories:
   - forecasting
   - anomalies
   - hts
-bibliography: [../rjhpubs.bib,theta.bib]
+bibliography: [/home/hyndman/git/CV/rjhpubs.bib, theta.bib]
 csl: ../files/apa-single-spaced.csl
 image: /img/python.png
-description: Regular readers will know that I develop statistical models and algorithms, and I write R implementations of them. I'm often asked if there are also Python implementations available. There are.
+description: Regular readers will know that I develop statistical models and algorithms, and I write R implementations of them.
+  I'm often asked if there are also Python implementations available.
+  There are.
 ---
 
-##  Nixtla
+## Nixtla
 
-The best Python implementations for my time series methods are available from [Nixtla](https://github.com/nixtla). Here are some of their packages related to my work, all compatible with [`scikit-learn`](http://scikit-learn.org/).
+The best Python implementations for my time series methods are available from [Nixtla](https://github.com/nixtla).
+Here are some of their packages related to my work, all compatible with [`scikit-learn`](http://scikit-learn.org/).
 
- * [**statsforecast**](https://nixtla.github.io/statsforecast/): Automatic ARIMA and ETS forecasting [@HK08;@HKSG02].
- * [**hierarchicalforecast**](https://nixtla.github.io/hierarchicalforecast/): Hierarchical forecasting [@hierarchical;@mint].
- * [**tsfeatures**](https://github.com/Nixtla/tsfeatures): Time series features [@m3pca;@fforms;@fforma].
+- [**statsforecast**](https://nixtla.github.io/statsforecast/): Automatic ARIMA and ETS forecasting [@HK08;@HKSG02].
+- [**hierarchicalforecast**](https://nixtla.github.io/hierarchicalforecast/): Hierarchical forecasting [@hierarchical;@mint].
+- [**tsfeatures**](https://github.com/Nixtla/tsfeatures): Time series features [@m3pca;@fforms;@fforma].
 
 They have also produced a lot of other great time series tools that are fast (optimized using [`numba`](https://numba.pydata.org)) and perform well compared to various alternatives.
 
 ## GluonTS
 
-[GluonTS](https://ts.gluon.ai/) from Amazon is excellent and provides lots of probabilistic time series forecasting models, with wrappers to some of my R code, and statsforecast from Nixtla.  The other models in GluonTS are also well worth exploring.
+[GluonTS](https://ts.gluon.ai/) from Amazon is excellent and provides lots of probabilistic time series forecasting models, with wrappers to some of my R code, and statsforecast from Nixtla.
+The other models in GluonTS are also well worth exploring.
 
 ## Merlion
 
-[Merlion](https://github.com/salesforce/Merlion) from Salesforce is another interesting python library which includes both my automatic ARIMA and automatic ETS algorithms, along with other forecasting methods. It also has some anomaly detection methods for time series.
+[Merlion](https://github.com/salesforce/Merlion) from Salesforce is another interesting python library which includes both my automatic ARIMA and automatic ETS algorithms, along with other forecasting methods.
+It also has some anomaly detection methods for time series.
 
 ## pmdarima
 
@@ -38,31 +43,32 @@ The first attempt to port my [`auto.arima()`](https://pkg.robjhyndman.com/foreca
 
 [sktime](https://www.sktime.net) has the most complete set of time series methods for Python including
 
- * [**AutoARIMA**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.statsforecast.StatsForecastAutoARIMA.html): [@HK08];
- * [**ETS**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.ets.AutoETS.html): [@HKSG02];
- * [**BATS**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.bats.BATS.html)/[**TBATS**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.tbats.TBATS.html): [@DHS11];
- * [**Theta**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.theta.ThetaForecaster.html): [@theta;@HB03];
- * [**STLForecaster**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.trend.STLForecaster.html): [@mstl];
- * [**Croston**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.croston.Croston.html): [@SH05];
- * [**Bagged-ETS**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.compose.BaggingForecaster.html): [@baggedETS];
+- [**AutoARIMA**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.statsforecast.StatsForecastAutoARIMA.html): [@HK08];
+- [**ETS**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.ets.AutoETS.html): [@HKSG02];
+- [**BATS**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.bats.BATS.html)/[**TBATS**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.tbats.TBATS.html): [@DHS11];
+- [**Theta**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.theta.ThetaForecaster.html): [@theta;@HB03];
+- [**STLForecaster**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.trend.STLForecaster.html): [@mstl];
+- [**Croston**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.croston.Croston.html): [@SH05];
+- [**Bagged-ETS**](https://sktime-backup.readthedocs.io/en/stable/api_reference/auto_generated/sktime.forecasting.compose.BaggingForecaster.html): [@baggedETS];
 
- and more. These are also compatible with [`scikit-learn`](http://scikit-learn.org/).
+and more.
+These are also compatible with [`scikit-learn`](http://scikit-learn.org/).
 
 Recently, [Kate Buchhorn](https://katiebuc.github.io/gsoc/) has ported some of my anomaly detection algorithms to Python and made them available in [sktime](https://www.sktime.net) including:
 
- * [**STRAY**](https://github.com/sktime/sktime/pull/3338/files): High-dimensional anomaly detection [@stray].
- * [**DOBIN**](https://github.com/sktime/sktime/pull/3373/files): Dimension reduction for anomaly detection [@dobin].
+- [**STRAY**](https://github.com/sktime/sktime/pull/3338/files): High-dimensional anomaly detection [@stray].
+- [**DOBIN**](https://github.com/sktime/sktime/pull/3373/files): Dimension reduction for anomaly detection [@dobin].
 
 ## statsmodels
 
 The [statsmodels](https://www.statsmodels.org) collection includes a few functions based on my work:
 
-* [**ETS**](https://www.statsmodels.org/stable/examples/notebooks/generated/ets.html): [@HKSG02];
-* [**Theta**](https://www.statsmodels.org/stable/examples/notebooks/generated/theta-model.html): [@theta;@HB03];
-* [**MSTL**](https://www.statsmodels.org/dev/generated/statsmodels.tsa.seasonal.MSTL.html): [@mstl];
-* [**functional boxplot**](https://www.statsmodels.org/dev/generated/statsmodels.graphics.functional.hdrboxplot.html): [@HS10];
-* [**functional HDR boxplot**](https://www.statsmodels.org/dev/generated/statsmodels.graphics.functional.hdrboxplot.html): [@HS10];
-* [**rainbowplot**](https://www.statsmodels.org/dev/generated/statsmodels.graphics.functional.rainbowplot.html): [@HS10].
+- [**ETS**](https://www.statsmodels.org/stable/examples/notebooks/generated/ets.html): [@HKSG02];
+- [**Theta**](https://www.statsmodels.org/stable/examples/notebooks/generated/theta-model.html): [@theta;@HB03];
+- [**MSTL**](https://www.statsmodels.org/dev/generated/statsmodels.tsa.seasonal.MSTL.html): [@mstl];
+- [**functional boxplot**](https://www.statsmodels.org/dev/generated/statsmodels.graphics.functional.hdrboxplot.html): [@HS10];
+- [**functional HDR boxplot**](https://www.statsmodels.org/dev/generated/statsmodels.graphics.functional.hdrboxplot.html): [@HS10];
+- [**rainbowplot**](https://www.statsmodels.org/dev/generated/statsmodels.graphics.functional.rainbowplot.html): [@HS10].
 
 ## pyhts
 
@@ -70,4 +76,5 @@ The [statsmodels](https://www.statsmodels.org) collection includes a few functio
 
 ## Darts
 
-[Darts](https://unit8co.github.io/darts/) is a Python library for wrangling and forecasting time series. It includes wrappers for ETS, ARIMA and other models from [`statsforecast`](https://nixtla.github.io/statsforecast/) and [`pmdarima`](https://alkaline-ml.com/pmdarima/), and some [reconciliation functionality](https://unit8co.github.io/darts/examples/16-hierarchical-reconciliation.html).
+[Darts](https://unit8co.github.io/darts/) is a Python library for wrangling and forecasting time series.
+It includes wrappers for ETS, ARIMA and other models from [`statsforecast`](https://nixtla.github.io/statsforecast/) and [`pmdarima`](https://alkaline-ml.com/pmdarima/), and some [reconciliation functionality](https://unit8co.github.io/darts/examples/16-hierarchical-reconciliation.html).
