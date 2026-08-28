@@ -6,14 +6,12 @@ preview:
 	Rscript update_podcast_date.R
 	Rscript fetch_bib.R
 	Rscript sync_bib_fields.R
-	Rscript check_bib_sync.R
 	quarto preview
 
 build:
 	Rscript update_podcast_date.R
 	Rscript fetch_bib.R
 	Rscript sync_bib_fields.R
-	Rscript check_bib_sync.R
 	quarto render
 	quarto render unbelievable
 	quarto render prato2023
