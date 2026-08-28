@@ -1,5 +1,5 @@
 ---
-author: Gary K Grunwald, Rob J Hyndman, Leanna Tedesco
+author: Gary K Grunwald, Rob J Hyndman, Leanna M Tedesco
 Status: Published
 date: 1996-06-16 01:44:26+00:00
 title: A unified view of linear AR(1) models

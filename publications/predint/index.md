@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman, Anne B Koehler, J Keith Ord, Ralph D Snyder
+author: Rob J Hyndman, Anne B Koehler, J K Ord, Ralph D Snyder
 Status: Published
 date: 2005-01-16 03:53:26+00:00
 alias:

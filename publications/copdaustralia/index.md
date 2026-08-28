@@ -1,5 +1,5 @@
 ---
-author: Bircan Erbas, Md Shahid Ullah, Md Rob J Hyndman, Michelle Scollo, Michael Abramson
+author: Bircan Erbas, Shahid Ullah, Rob J Hyndman, Michelle Scollo, Michael J Abramson
 Status: Published
 date: 2012-01-29 23:16:19+00:00
 title: 'Forecasts of COPD mortality in Australia: 2006-2025'

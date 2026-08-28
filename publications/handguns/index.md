@@ -1,6 +1,6 @@
 ---
 title: Handgun acquisitions in California after two mass shootings
-author: David M Studdert, Yifan Zhang, Jonathan A Rodden, Rob J Hyndman, Garen J Wintemute
+author: D M Studdert, Y Zhang, J A Rodden, R J Hyndman, G J Wintemute
 categories: Articles
 date: 2017-05-02
 file: handguns.pdf

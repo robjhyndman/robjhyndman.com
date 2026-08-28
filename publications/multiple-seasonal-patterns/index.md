@@ -1,5 +1,5 @@
 ---
-author: Phillip G Gould, Anne B Koehler, J Keith Ord, Ralph D Snyder, Rob J Hyndman, Farshid Vahid-Araghi
+author: Phillip G Gould, Anne B Koehler, Farshid Vahid-Araghi, Ralph D Snyder, J Keith Ord, Rob J Hyndman
 Status: Published
 date: 2008-11-16 05:26:38+00:00
 title: Forecasting time series with multiple seasonal patterns

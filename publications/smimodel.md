@@ -1,7 +1,7 @@
 ---
 title: "Sparse Multiple Index Models for High-dimensional Nonparametric Forecasting"
 date: "2024-08-13"
-author:  Nuwani K Palihawadana, Rob J Hyndman, Xiaoqian Wang
+author: Nuwani K Palihawadana, Rob J Hyndman, Xiaoqian Wang
 github: nuwani-palihawadana/smimodel_paper
 link: https://www.monash.edu/business/ebs/research/publications/ebs/2024/wp16-2024.pdf
 categories: Working papers

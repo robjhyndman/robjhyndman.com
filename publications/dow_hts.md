@@ -1,7 +1,7 @@
 ---
 title: "Improving out-of-sample forecasts of stock price indexes with forecast reconciliation and clustering"
 date: "2024-09-20"
-author: Raffaele Mattera, George Athanasopoulos, Rob&nbsp;J&nbsp;Hyndman
+author: Raffaele Mattera, George Athanasopoulos, Rob J Hyndman
 file: dow_hts.pdf
 categories: Articles
 github: raffmattera/stockprices_reco

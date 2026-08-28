@@ -1,7 +1,7 @@
 ---
 title: "Forecast Linear Augmented Projection (FLAP): A free lunch to reduce forecast error variance"
 date: "2024-07-03"
-author:  Yangzhuoran Fin Yang, George Athanasopoulos, Rob J Hyndman, Anastasios Panagiotelis
+author: Yangzhuoran Fin Yang, George Athanasopoulos, Rob J Hyndman, Anastasios Panagiotelis
 github: FinYang/paper-forecast-projection
 arxiv: 2407.01868
 link: https://github.com/FinYang/paper-forecast-projection/raw/main/flap.pdf

@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman, Roman A. Ahmed, George Athanasopoulos, Han L Shang
+author: Rob J Hyndman, Roman A Ahmed, George Athanasopoulos, Han Lin Shang
 Status: Published
 date: 2011-03-15 23:52:31+00:00
 title: Optimal combination forecasts for hierarchical time series

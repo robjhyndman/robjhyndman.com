@@ -1,5 +1,5 @@
 ---
-author: Ralph D. Snyder, Anne B. Koehler, Rob J Hyndman, J. Keith Ord
+author: Ralph D Snyder, Anne B Koehler, Rob J Hyndman, J Keith Ord
 Status: Published
 date: 2004-05-16 03:42:22+00:00
 title: 'Exponential smoothing models: means and variances for lead-time demand'

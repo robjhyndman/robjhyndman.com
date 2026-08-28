@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman and Yanan Fan
+author: Rob J Hyndman, Yanan Fan
 Status: Published
 date: 1996-11-16 02:45:26+00:00
 title: Sample quantiles in statistical packages

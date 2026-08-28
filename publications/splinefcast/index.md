@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman, Maxwell L King, Ivet Pitrun, Baki Billah
+author: Rob J Hyndman, Maxwell L King, Ivet Pitrun, Md Baki Billah
 Status: Published
 date: 2005-01-16 03:52:09+00:00
 title: Local linear forecasts using cubic smoothing splines

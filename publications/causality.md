@@ -1,7 +1,7 @@
 ---
 title: "Forecasting, causality and feedback"
 date: "2023-04-01"
-author:  Rob J Hyndman
+author: Rob J Hyndman
 file: Shmueli_Tafti_comment.pdf
 categories: Articles
 bibkey: causality2022

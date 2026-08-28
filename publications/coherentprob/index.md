@@ -1,5 +1,5 @@
 ---
-author: Anastasios Panagiotelis, Puwasala Gamakumara, George Athanasopoulos and Rob J Hyndman
+author: Anastasios Panagiotelis, Puwasala Gamakumara, George Athanasopoulos, Rob J Hyndman
 date: 2023-04-16
 title: "Probabilistic forecast reconciliation: properties, evaluation and score optimisation"
 categories: Articles

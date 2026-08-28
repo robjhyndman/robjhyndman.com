@@ -1,5 +1,5 @@
 ---
-author: Souhaib Ben Taieb, Raphael Huser, Rob J Hyndman and Marc G Genton
+author: Souhaib Ben Taieb, Raphael Huser, Rob J Hyndman, Marc G Genton
 Status: Published
 date: 2016-02-04 04:19:37+00:00
 title: Forecasting uncertainty in electricity smart meter data by boosting additive

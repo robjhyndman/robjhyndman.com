@@ -1,5 +1,5 @@
 ---
-author: Rob J Hyndman, Md Shahid Ullah
+author: Rob J Hyndman, Shahid Ullah
 Status: Published
 date: 2005-04-16 01:35:20+00:00
 title: 'Robust forecasting of mortality and fertility rates: a functional data approach'

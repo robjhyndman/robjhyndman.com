@@ -1,5 +1,5 @@
 ---
-author: George Athanasopoulos, Rob&nbsp;J&nbsp;Hyndman, Nikolaos&nbsp;Kourentzes, Anastasios&nbsp;Panagiotelis
+author: George Athanasopoulos, Rob J Hyndman, Nikolaos Kourentzes, Anastasios Panagiotelis
 date: 2024-04-01
 title: "Editorial: Innovations in Hierarchical Forecasting"
 categories: Editorials

@@ -1,5 +1,5 @@
 ---
-author: Andrey V Kostenko and Rob J Hyndman
+author: Andrey Kostenko, Rob J Hyndman
 date: 2008-11-05 01:57:51+00:00
 title: Forecasting without significance tests?
 categories: Working papers

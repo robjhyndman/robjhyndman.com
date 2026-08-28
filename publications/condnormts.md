@@ -1,7 +1,7 @@
 ---
 title: "Conditional normalization in time series analysis"
 date: "2023-05-26"
-author:  Puwasala Gamakumara, Edgar Santos-Fernandez, Priyanga Dilini Talagala, Rob J Hyndman, Kerrie Mengersen, Catherine Leigh
+author: Puwasala Gamakumara, Edgar Santos-Fernandez, Priyanga Dilini Talagala, Rob J Hyndman, Kerrie Mengersen, Catherine Leigh
 arxiv: 2305.12651
 categories: Working papers
 bibkey: condnormts

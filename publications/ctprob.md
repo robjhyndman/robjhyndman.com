@@ -1,7 +1,7 @@
 ---
 title: "Cross-temporal probabilistic forecast reconciliation: Methodological and practical issues"
 date: "2024-07-01"
-author:  Daniele Girolimetto, George Athanasopoulos, Tommaso Di Fonzo, Rob J Hyndman
+author: Daniele Girolimetto, George Athanasopoulos, Tommaso Di Fonzo, Rob J Hyndman
 github: daniGiro/ctprob
 arxiv: 2303.17277
 link: https://github.com/danigiro/ctprob/raw/main/paper/CTprob.pdf

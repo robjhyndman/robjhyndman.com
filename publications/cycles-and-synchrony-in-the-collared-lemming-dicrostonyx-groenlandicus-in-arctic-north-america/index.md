@@ -1,5 +1,5 @@
 ---
-author: Martin Predavec, Charles Krebs, Kjell Danell, Rob J Hyndman
+author: Martin Predavec, Charles J Krebs, Kjell Danell, Rob J Hyndman
 Status: Published
 date: 2001-11-16 03:12:46+00:00
 title: Cycles and synchrony in the Collared Lemming (Dicrostonyx groenlandicus) in Arctic North America
