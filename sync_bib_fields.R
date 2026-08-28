@@ -362,17 +362,15 @@ slugify <- function(title) {
   gsub("^-+|-+$", "", s)
 }
 
-# Creates a brand-new publications/<slug>.md for a bib entry that has no
+# Creates a brand-new publications/<bibkey>.md for a bib entry that has no
 # matching file yet, with whatever fields the entry provides. Matches the
 # flat "publications/<slug>.md" layout used by the site's most recent
 # publications (rather than the older publications/<slug>/index.md form).
+# The slug is the bibkey itself, not the title -- titles are long and make
+# for unwieldy filenames.
 create_file <- function(key, e) {
-  title <- if (!is.null(e$title)) format_title(e$title) else key
-  slug <- slugify(title)
+  slug <- slugify(key)
   path <- file.path("publications", paste0(slug, ".md"))
-  if (file.exists(path)) {
-    path <- file.path("publications", paste0(slug, "-", tolower(key), ".md"))
-  }
 
   values <- bib_field_values(e)
   fm <- c("---", paste0("bibkey: ", key))
