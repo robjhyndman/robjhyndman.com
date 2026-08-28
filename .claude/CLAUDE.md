@@ -9,13 +9,15 @@ This is the source for [robjhyndman.com](https://robjhyndman.com), a personal ac
 ## Commands
 
 ```bash
-make preview    # Local dev server (quarto preview)
-make build      # Full site build including unbelievable/ and prato2023/ sub-projects
-make deploy     # Build + rsync to remote server (requires SSH access)
+make preview    # Rscript update_podcast_date.R + sync_bib_fields.R, then quarto preview
+make build      # Same pre-steps, then quarto render (main site + unbelievable/ + prato2023/)
+make deploy     # Build + make_xml.R + rsync to remote server (requires SSH access)
 make clean      # Delete _site/
 ```
 
 The main site excludes `unbelievable/` and `prato2023/` from the default render — they are built separately via `make build`.
+
+`update_podcast_date.R` bumps `hyndsight/podcasts/index.qmd`'s `date` when `podcasts.qmd` has a newer episode. `sync_bib_fields.R` regenerates publication front matter from the bib file — see below.
 
 ## Content architecture
 
@@ -42,17 +44,19 @@ categories:
 
 **Publications** (`publications/`):
 ```yaml
+bibkey: someKey2024        # must match an entry in ~/git/CV/rjhpubs.bib
 author: Author Names
-Status: Published
-date: YYYY-MM-DD
-slug: paper-slug
 title: Paper Title
-categories: Articles   # or: Book chapters, Working papers, etc.
-tags: [forecasting, time series]
+date: YYYY-MM-DD
+categories: Articles        # or: Book chapters, Working papers, etc.
 details: '<em>Journal Name</em> <b>volume</b>(issue), pages'
 doi: 10.xxxx/xxxxx
-file: paper.pdf        # optional, place file in same directory
+file: paper.pdf              # optional, place file in same directory
 ```
+
+Files live either flat as `publications/<slug>.md` (current convention for new entries) or as `publications/<slug>/index.md` (older layout, still present for existing entries).
+
+`author`, `title`, `details`, and `doi` are **generated, not hand-edited**: `sync_bib_fields.R` (run by `make preview`/`make build`) reads `~/git/CV/rjhpubs.bib` — the CV repo's checkout, the single source of truth — and overwrites those fields from the entry matching `bibkey`. It also creates a new `publications/<slug>.md` for any bib entry with no matching file yet (skipping bibkeys listed in `EXCLUDE_KEYS`, e.g. books with their own dedicated page). Edit the bib entry in the CV repo, not the front matter here, to change these fields. A separate Lua filter, `publications/inject-bibtex.lua`, injects the raw BibTeX entry into the page for the "Cite" section at render time — it reads the same bib file but doesn't touch front matter.
 
 **Seminars** (`seminars/`):
 ```yaml
@@ -88,7 +92,7 @@ After `quarto render`, run `Rscript make_xml.R` (done automatically by `make dep
 
 ## Styling
 
-Custom CSS/SCSS is in `rjh.scss`. The base theme is `tango` (Quarto built-in). Custom HTML templates for sections live alongside content (e.g., `hyndsight/hyndsight.html`, `publications/publication.html`).
+The site supports light and dark mode (Quarto's `theme.light`/`theme.dark` in `_quarto.yml`): light uses the `tango` base theme plus `rjh.scss`; dark uses `rjh-dark.scss`. Custom HTML templates for sections live alongside content (e.g., `hyndsight/hyndsight.html`, `publications/publication.html`). The site follows a consistent card/badge/pill visual language across listing pages (homepage, hyndsight, publications, software, seminars) — check existing patterns in `rjh.scss` before introducing new component styles.
 
 ## Extensions used
 
