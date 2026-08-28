@@ -1,0 +1,16 @@
+---
+title: "CV"
+pagetitle: "Rob J Hyndman - CV"
+toc: false
+page-layout: full
+include-in-header:
+  text: |
+    <style>
+      #quarto-header, #title-block-header, footer.footer { display: none !important; }
+      body { padding: 0 !important; margin: 0 !important; overflow: hidden !important; }
+    </style>
+---
+
+::: {.cv-embed}
+<iframe src="https://cdn.jsdelivr.net/gh/robjhyndman/CV@main/RobHyndmanCV.pdf" title="Rob J Hyndman CV"></iframe>
+:::

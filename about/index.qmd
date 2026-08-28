@@ -5,7 +5,7 @@ title: "About me"
 ::: {.columns}
 ::::: {.column width="30%"}
 <div class="badge-stack">
-[{{< fa file-pdf >}} Curriculum Vitae](https://cdn.jsdelivr.net/gh/robjhyndman/CV@main/RobHyndmanCV.pdf){.badge .badge-large}\
+[{{< fa file-pdf >}} Curriculum Vitae](/CV){.badge .badge-large}\
 [{{< fa brands github >}} GitHub](https://github.com/robjhyndman){.badge .badge-large}\
 [{{< fa brands wikipedia-w >}} Wikipedia](http://en.wikipedia.org/wiki/Rob_J._Hyndman){.badge .badge-large}
 </div>

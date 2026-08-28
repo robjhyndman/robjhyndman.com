@@ -13,7 +13,7 @@ about:
     - text: "{{< fa brands github >}}"
       href: https://github.com/robjhyndman
     - text: "{{< ai cv >}}"
-      href: https://cdn.jsdelivr.net/gh/robjhyndman/CV@main/RobHyndmanCV.pdf
+      href: /CV
     - text: "{{< fa envelope >}}"
       href: mailto:Rob.Hyndman@monash.edu
 
