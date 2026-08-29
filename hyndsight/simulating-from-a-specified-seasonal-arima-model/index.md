@@ -4,23 +4,22 @@ link: https://robjhyndman.com/hyndsight/simulating-from-a-specified-seasonal-ari
 slug: simulating-from-a-specified-seasonal-arima-model
 title: Simulating from a specified seasonal ARIMA model
 categories:
-- fpp
-- R
-- time series
+  - fpp
+  - R
+  - time series
 ---
 
 From my email today
 
->You use an illustration of a seasonal arima model:
+> You use an illustration of a seasonal arima model:<br> <br> ARIMA(1,1,1)(1,1,1)4<br> <br> I would like to simulate data from this process then fit a model... but I am unable to find any information as to how this can be conducted... if I set `phi1`, `Phi1`, `theta1`, and `Theta1` it would be reassuring that for large n the parameters returned by `Arima(foo,order=c(1,1,1),seasonal=c(1,1,1))` are in agreement...
 
->ARIMA(1,1,1)(1,1,1)4
+### My answer:
 
->I would like to simulate data from this process then fit a model… but I am unable to find any information as to how this can be conducted… if I set phi1, Phi1, theta1, and Theta1 it would be reassuring that for large n the parameters returned by `Arima(foo,order=c(1,1,1),seasonal=c(1,1,1))` are in agreement…
-
-
-#### My answer:
-
-Unfortunately `arima.sim()` won't handle seasonal ARIMA models. I wrote `simulate.Arima()` to handle them, but it is designed to simulate from a fitted model rather than a specified model. However, you can use the following code to do it. It first "estimates" an ARIMA model with specified coefficients. Then simulates from it.
+Unfortunately `arima.sim()` won't handle seasonal ARIMA models.
+I wrote `simulate.Arima()` to handle them, but it is designed to simulate from a fitted model rather than a specified model.
+However, you can use the following code to do it.
+It first "estimates" an ARIMA model with specified coefficients.
+Then simulates from it.
 
 ```r
     library(forecast)

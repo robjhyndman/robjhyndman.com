@@ -7,7 +7,7 @@ slug: english-academic-writing
 title: English academic writing
 file: Fuzhou.pdf
 tags:
-- writing
+  - writing
 ---
 
-#### Presentation to College of Management, University of Fuzhou, China. 25 June 2009.
+### Presentation to College of Management, University of Fuzhou, China. 25 June 2009.

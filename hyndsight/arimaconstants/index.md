@@ -29,9 +29,9 @@ Thus, the inclusion of a constant in a non-stationary ARIMA model is equivalent 
 (If the constant is omitted, the forecast function includes a polynomial trend of order $d - 1$.)
 When $d = 0$, we have the special case that $\mu$ is the mean of $y_t$.
 
-### Including constants in ARIMA models using R
+## Including constants in ARIMA models using R
 
-#### arima()
+### arima()
 
 By default, the `arima()` command in R sets $c = \mu = 0$ when $d > 0$ and provides an estimate of $\mu$ when $d = 0$.
 The parameter $\mu$ is called the "intercept" in the R output.
@@ -40,7 +40,7 @@ It will be close to the sample mean of the time series, but usually not identica
 The `arima()` command has an argument `include.mean` which only has an effect when $d = 0$ and is `TRUE` by default.
 Setting `include.mean=FALSE` will force $\mu = 0$.
 
-#### Arima()
+### Arima()
 
 The `Arima()` command from the forecast package provides more flexibility on the inclusion of a constant.
 It has an argument `include.mean` which has identical functionality to the corresponding argument for `arima()`.
@@ -59,13 +59,13 @@ $$
 $$
 In this case, the R output will label $a$ as the "intercept" and $b$ as the "drift" coefficient.
 
-#### auto.arima()
+### auto.arima()
 
 The `auto.arima()` function automates the inclusion of a constant.
 By default, for $d = 0$ or $d = 1$, a constant will be included if it improves the AIC value; for $d > 1$ the constant is always omitted.
 If `allowdrift=FALSE` is specified, then the constant is only allowed when $d = 0$.
 
-### Eventual forecast functions
+## Eventual forecast functions
 
 The eventual forecast function (EFF) is the limit of $\hat{y}_{t+h|t}$ as a function of the forecast horizon $h$ as $h \rightarrow \infty$.
 
@@ -83,6 +83,6 @@ The constant $c$ has an important effect on the long-term forecasts obtained fro
 
 - If $c \ne 0$ and $d = 2$, the EFF will follow a quadratic trend.
 
-### Seasonal ARIMA models
+## Seasonal ARIMA models
 
 If a seasonal model is used, all of the above will hold with $d$ replaced by $d + D$ where $D$ is the order of seasonal differencing and $d$ is the order of non-seasonal differencing.

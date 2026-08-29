@@ -7,7 +7,7 @@ slug: statistical-support-for-hdr-students
 title: Statistical support for HDR students
 file: ddogs.pdf
 tags:
-- teaching
+  - teaching
 ---
 
-#### Presentation to a meeting of Australian Deans and Directors of Graduate Studies, 1 May 2009.
+### Presentation to a meeting of Australian Deans and Directors of Graduate Studies, 1 May 2009.

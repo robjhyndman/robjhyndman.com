@@ -4,15 +4,18 @@ link: https://robjhyndman.com/hyndsight/arma-roots/
 slug: arma-roots
 title: Plotting the characteristic roots for ARIMA models
 categories:
-- computing
-- forecasting
-- R
-- statistics
+  - computing
+  - forecasting
+  - R
+  - statistics
 ---
 
-When modelling data with ARIMA models, it is sometimes useful to plot the inverse characteristic roots. The following functions will compute and plot the inverse roots for any fitted ARIMA model (including seasonal models).<!-- more -->
+When modelling data with ARIMA models, it is sometimes useful to plot the inverse characteristic roots.
+The following functions will compute and plot the inverse roots for any fitted ARIMA model (including seasonal models).<!-- more -->
 
-```{r, cache=TRUE}
+```{r}
+#| cache: true
+
 # Compute AR roots
 arroots <- function(object) {
   if (!("Arima" %in% class(object)) &
@@ -97,22 +100,33 @@ plot.armaroots <- function(
 }
 ```
 
-The `arroots` function will return the autoregressive roots from the AR characteristic polynomial while the `maroots` function will return the moving average roots from the MA characteristic polynomial. Both functions take an `Arima` object as their only argument. If a seasonal ARIMA model is passed, the roots from both polynomials are computed in each case.
+The `arroots` function will return the autoregressive roots from the AR characteristic polynomial while the `maroots` function will return the moving average roots from the MA characteristic polynomial.
+Both functions take an `Arima` object as their only argument.
+If a seasonal ARIMA model is passed, the roots from both polynomials are computed in each case.
 
-The `plot.armaroots` function will plot the inverse of the roots on the complex unit circle. A causal invertible model should have all the roots outside the unit circle. Equivalently, the inverse roots should lie inside the unit circle.
+The `plot.armaroots` function will plot the inverse of the roots on the complex unit circle.
+A causal invertible model should have all the roots outside the unit circle.
+Equivalently, the inverse roots should lie inside the unit circle.
 
 Here are a couple of examples demonstrating their use.
 
 A simple example with three AR roots:
 
-```{r, message=FALSE, cache=TRUE}
+```{r}
+#| message: false
+#| cache: true
+
 library(forecast)
 plot(arroots(Arima(WWWusage, c(3, 1, 0))))
 ```
 
-A more complicated example with ten AR roots and four MA roots. (This is not actually the best model for these data.)
+A more complicated example with ten AR roots and four MA roots.
+(This is not actually the best model for these data.)
 
-```{r, message=FALSE, cache=TRUE}
+```{r}
+#| message: false
+#| cache: true
+
 library(forecast)
 fit <- Arima(woolyrnq, order = c(2, 0, 0), seasonal = c(2, 1, 1))
 par(mfrow = c(1, 2))
@@ -122,13 +136,18 @@ plot(maroots(fit), main = "Inverse MA roots")
 
 Finally, here is an example where two inverse roots lie outside the unit circle (shown in red).
 
-```{r, message=FALSE, cache=TRUE}
+```{r}
+#| message: false
+#| cache: true
+
 library(fma)
 plot(arroots(ar.ols(jcars)))
 ```
 
-Note that the `Arima` function will never return a model with inverse roots outside the unit circle. The `auto.arima` function is even stricter and will not select a model with roots close to the unit circle either, as such models are unlikely to be good for forecasting.
+Note that the `Arima` function will never return a model with inverse roots outside the unit circle.
+The `auto.arima` function is even stricter and will not select a model with roots close to the unit circle either, as such models are unlikely to be good for forecasting.
 
-#### Update (23 March 2015)
+### Update (23 March 2015)
 
-I've now added these functions to the [`forecast` package on github](https://github.com/robjhyndman/forecast). Check `plot.Arima`.
+I've now added these functions to the [`forecast` package on github](https://github.com/robjhyndman/forecast).
+Check `plot.Arima`.

@@ -7,26 +7,32 @@ aliases:
   - /papers/complex-seasonality/
 categories: Articles
 tags:
-- exponential smoothing
-- forecasting
-- seasonality
-- state space models
-- time series
+  - exponential smoothing
+  - forecasting
+  - seasonality
+  - state space models
+  - time series
 file: ComplexSeasonality.pdf
 bibkey: DHS11
 details: "<em>J American Statistical Association</em> <b>106</b>(496), 1513–1527"
 doi: 10.1198/jasa.2011.tm09771
 ---
 
-A new innovations state space modeling framework, incorporating Box-Cox transformations, Fourier series with time varying coefficients and ARMA error correction, is introduced for forecasting complex seasonal time series that cannot be handled using existing forecasting models. Such complex time series include time series with multiple seasonal periods, high frequency seasonality, non-integer seasonality and dual-calendar effects. Our new modelling framework provides an alternative to existing exponential smoothing models, and is shown to have many advantages. The methods for initialization and estimation, including likelihood evaluation, are presented, and analytical expressions for point forecasts and interval predictions under the assumption of Gaussian errors are derived, leading to a simple, comprehensible approach to forecasting complex seasonal time series. Our trigonometric formulation is also presented as a means of decomposing complex seasonal time series, which cannot be decomposed using any of the existing decomposition methods. The approach is useful in a broad range of applications, and we illustrate its versatility in three empirical studies where it demonstrates excellent forecasting performance over a range of prediction horizons. In addition, we show that our trigonometric decomposition leads to the identification and extraction of seasonal components, which are otherwise not apparent in the time series plot itself.
+A new innovations state space modeling framework, incorporating Box-Cox transformations, Fourier series with time varying coefficients and ARMA error correction, is introduced for forecasting complex seasonal time series that cannot be handled using existing forecasting models.
+Such complex time series include time series with multiple seasonal periods, high frequency seasonality, non-integer seasonality and dual-calendar effects.
+Our new modelling framework provides an alternative to existing exponential smoothing models, and is shown to have many advantages.
+The methods for initialization and estimation, including likelihood evaluation, are presented, and analytical expressions for point forecasts and interval predictions under the assumption of Gaussian errors are derived, leading to a simple, comprehensible approach to forecasting complex seasonal time series.
+Our trigonometric formulation is also presented as a means of decomposing complex seasonal time series, which cannot be decomposed using any of the existing decomposition methods.
+The approach is useful in a broad range of applications, and we illustrate its versatility in three empirical studies where it demonstrates excellent forecasting performance over a range of prediction horizons.
+In addition, we show that our trigonometric decomposition leads to the identification and extraction of seasonal components, which are otherwise not apparent in the time series plot itself.
 
 **Keywords:** exponential smoothing, Fourier series, prediction intervals, seasonality, state space models, time series decomposition.
 
-#### Data
+### Data
 
-  * [Call center data](/data/callcenter.txt)
-  * [Gasoline data](/data/gasoline.csv)
-  * [Turkish electricity data](/data/turkey_elec.csv)
+- [Call center data](/data/callcenter.txt)
+- [Gasoline data](/data/gasoline.csv)
+- [Turkish electricity data](/data/turkey_elec.csv)
 
 To read the data into R:
 
@@ -52,7 +58,9 @@ To read the data into R:
     telec <- msts(telec, start=2000, seasonal.periods = c(7,354.37,365.25))
 ```
 
-#### Errata
+### Errata
 
-  * p.1516. In (4c), replace $s_{j,t-1}$ by $s_{j,t-1}^{(i)}$.
-  * p.1517. $\boldsymbol{\theta}=(\theta_1,\theta_2,\dots,\theta_q)$.
+- p.1516.
+  In (4c), replace $s_{j,t-1}$ by $s_{j,t-1}^{(i)}$.
+- p.1517.
+  $\boldsymbol{\theta} = (\theta_1,\theta_2,\dots,\theta_q)$.

@@ -12,11 +12,10 @@ categories:
 description: "I first wrote this post in 26 November 2011. Since then, some services have been discontinued, and new ones started. So I've updated it to reflect current offerings. "
 ---
 
-A researcher portal is a website that attempts to list all the publications of a given researcher, and calculate citation statistics, etc.
-Every researcher wants their work read and cited, so these websites can be useful tools for getting your work noticed.
+A researcher portal is a website that attempts to list all the publications of a given researcher, and calculate citation statistics, etc. Every researcher wants their work read and cited, so these websites can be useful tools for getting your work noticed.
 Conversely, they can be a good way to find new work by researchers in your field.
 
-#### Google Scholar Citations
+### Google Scholar Citations
 
 [Google Scholar](http://scholar.google.com) itself is an incredible resource covering journal articles, working papers, books, and almost everything else a scholar might cite.
 Google Scholar Citations uses Google Scholar data to provide information about all the outputs from a researcher.
@@ -32,7 +31,7 @@ To set up your profile, go to [scholar.google.com/citations](http://scholar.goog
 You may have to do some editing of the results to merge versions of the same publication, or to correct some errors in the database.
 I wish Google would use the information provided by these edits to correct their Google Scholar database.
 
-#### Semantic Scholar
+### Semantic Scholar
 
 An alternative to Google Scholar is [Semantic Scholar](http://semanticscholar.org).
 The coverage is not quite as broad as Google Scholar -- it misses working papers unless they are on arXiv.
@@ -40,12 +39,11 @@ On the other hand, there are some useful tools, including AI-generated summaries
 It is also easy to follow cited papers, and citing papers, along the citation tree.
 Related papers are also identified, so it is possible to explore further afield than just direct citations.
 You can follow individual authors, and set up alerts for new citations of specific papers.
-Citations are classified as "highly influential", "background", "methods", "results", etc., so you can easily filter papers that have had a big impact, those that apply new methods, etc.
-One interesting difference is that Semantic Scholar automatically creates personal author pages for each author, without needing each researcher to set them up.
+Citations are classified as "highly influential", "background", "methods", "results", etc., so you can easily filter papers that have had a big impact, those that apply new methods, etc. One interesting difference is that Semantic Scholar automatically creates personal author pages for each author, without needing each researcher to set them up.
 Mine is [here](https://www.semanticscholar.org/author/Rob-J-Hyndman/145211352).
 My h-index on Semantic Scholar is 75, compared to 92 on Google Scholar, reflecting the broader coverage of Google Scholar.
 
-#### All the rest
+### All the rest
 
 There are several other sites attempting to provide similar services, but none of them come close to Google Scholar or Semantic Scholar in useful features and usability.
 I've set up profiles on all of them, just to see how they work.
@@ -63,7 +61,7 @@ I've set up profiles on all of them, just to see how they work.
   I had to block all the emails I was receiving from this site.
   Not interested.
 
-#### Recommendations
+### Recommendations
 
 1. Ignore the emails from ResearcherID, ResearchGate, Academia.edu, etc. Just hit delete and block them.
 

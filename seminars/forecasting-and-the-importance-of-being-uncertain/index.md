@@ -7,7 +7,7 @@ slug: forecasting-and-the-importance-of-being-uncertain
 title: Forecasting and the importance of being uncertain
 file: IIMC08.pdf
 tags:
-- forecasting
+  - forecasting
 ---
 
-#### Indian Institute of Management Calcutta. Melbourne, 18 July 2008.
+### Indian Institute of Management Calcutta. Melbourne, 18 July 2008.
