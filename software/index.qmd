@@ -22,13 +22,15 @@ h1 {
 }
 ```
 
-[Repository Dashboard](https://pkg.robjhyndman.com/gh-dashboard/){.badge .badge-large} [R Universe](https://robjhyndman.r-universe.dev/){.badge .badge-large}
+# Software
 
-# CRAN task views
+## CRAN task views
 
 [Time Series](https://cran.r-project.org/view=TimeSeries){.badge .badge-large} [Anomaly Detection](https://cran.r-project.org/view=AnomalyDetection){.badge .badge-large}
 
-# Selected R packages
+## Selected R packages
+
+[Repository Dashboard](https://pkg.robjhyndman.com/gh-dashboard/){.badge .badge-large} [R Universe](https://robjhyndman.r-universe.dev/){.badge .badge-large}
 
 ```{r}
 #| label: r_packages
@@ -48,9 +50,9 @@ for (i in seq_along(sections)) {
 }
 ```
 
-# Quarto extensions
+## Quarto extensions
 
-## Monash University templates
+### Monash University templates
 
 ```{r}
 #| label: quarto_extensions
@@ -74,7 +76,7 @@ for (i in seq_len(nrow(extensions))) {
 }
 ```
 
-## Other templates
+### Other templates
 
 ```{r}
 #| label: other_extensions

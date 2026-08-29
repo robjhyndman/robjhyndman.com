@@ -38,7 +38,7 @@ create_generic_sticker <- function(name) {
 
 package_table <- function(packages) {
   z <- packages
-  out <- paste0("## ", z$section[1], "\n\n")
+  out <- paste0("### ", z$section[1], "\n\n")
   out <- paste0(out, "<div class='package-grid'>")
   for (i in seq(NROW(z))) {
     # Create title with extras
@@ -184,9 +184,7 @@ rjh_packages <- function() {
   } else {
     # Create new packages tibble
     # Github repos
-    github <- read.table(
-      "https://raw.githubusercontent.com/robjhyndman/CV/master/github_r_repos.txt"
-    )$V1
+    github <- read.table("~/git/CV/github_r_repos.txt")$V1
     # Combine CRAN and github repos
     cran_github <- pkgmeta::get_meta(
       cran_author = "Hyndman",
@@ -598,7 +596,7 @@ quarto_extension <- function(repo, description) {
     img,
     "' class='template-card-img' alt='",
     section,
-    " example'></a>\n<div class='template-card-body'>\n\n### [",
+    " example'></a>\n<div class='template-card-body'>\n\n#### [",
     section,
     "](",
     repo_url,
