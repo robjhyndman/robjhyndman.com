@@ -4,27 +4,30 @@ link: https://robjhyndman.com/hyndsight/olympics/
 slug: olympics
 title: Forecasting the Olympics
 categories:
-- forecasting
-- R
-- statistics
+  - forecasting
+  - R
+  - statistics
 ---
 
-Forecasting sporting events is a growing research area. The _International Journal of Forecasting_ even had a [special issue on sports forecasting](http://www.sciencedirect.com/science/journal/01692070/26/3) a couple of years ago.
+Forecasting sporting events is a growing research area.
+The *International Journal of Forecasting* even had a [special issue on sports forecasting](http://www.sciencedirect.com/science/journal/01692070/26/3) a couple of years ago.
 
 The London 2012 Olympics has attracted a few forecasters trying to predict medal counts, world records, etc. Here are some of the articles I've seen.
 
-  1. [Which Olympic records get shattered?](http://www.nytimes.com/2012/07/29/sunday-review/why-olympic-records-are-broken-or-not.html), Nate Silver, _New York Times_.
-  2. [Statisticians predict the number of Olympic records that will fall at London 2012](http://www.technologyreview.com/view/428664/statisticians-predict-the-number-of-olympic/), Physics arXiv blog.
-  3. [London Olympics and a prediction for the 100m final](http://lamages.blogspot.com.au/2012/07/london-olympics-and-prediction-for-100m.html), Markus Gesmann.
-  4. [Overcoming the doping legacy. Can London’s winners outperform the drugs of 1988?](http://onlinelibrary.wiley.com/doi/10.1111/j.1740-9713.2012.00551.x/pdf), Ray Stefani, California State University.
-  5. [Predicting the London Olympics Medal Count](http://www.discoverycorpsinc.com/predicting-the-olympic-medal-c/), Dan Graettinger, Discovery Corps.
-  6. [Modelling Olympic performance](http://www.pwc.co.uk/en_UK/uk/assets/pdf/olympic-medals-2012.pdf), PwC.
-  7. [The Olympics and Economics](http://www.goldmansachs.com/our-thinking/archive/archive-pdfs/olympics-and-economics-.pdf), José Ursúa and Kamakshya Trivedi from Goldman Sachs.
-  8. [Who will win the 2012 London Olympics?](https://web.archive.org/web/20121120144510/http://emilywilliams.webs.com:80/apps/documents/), Emily Williams, London Business School.
-  9. [Olympic Predictions](http://faculty1.coloradocollege.edu/~djohnson/Olympics.html), Daniel Johnson, Colorado College.
-  10. [FT consensus forecasts](http://blogs.ft.com/ftdata/2012/07/26/olympic-medal-table-predictions-london-2012/) (combining the previous four predictions for medals), Martin Stabe.
+1. [Which Olympic records get shattered?](http://www.nytimes.com/2012/07/29/sunday-review/why-olympic-records-are-broken-or-not.html), Nate Silver, *New York Times*.
+2. [Statisticians predict the number of Olympic records that will fall at London 2012](https://www.technologyreview.com/2012/07/31/255526/statisticians-predict-the-number-of-olympic-records-that-will-fall-at-london-2012/), Physics arXiv blog.
+3. [London Olympics and a prediction for the 100m final](http://lamages.blogspot.com.au/2012/07/london-olympics-and-prediction-for-100m.html), Markus Gesmann.
+4. [Overcoming the doping legacy. Can London’s winners outperform the drugs of 1988?](http://onlinelibrary.wiley.com/doi/10.1111/j.1740-9713.2012.00551.x/pdf), Ray Stefani, California State University.
+5. [Predicting the London Olympics Medal Count](http://www.discoverycorpsinc.com/predicting-the-olympic-medal-c/), Dan Graettinger, Discovery Corps.
+6. [Modelling Olympic performance](https://www.pwc.com/mu/en/pressroom/assets/2012_olympic_medals_release_final.pdf), PwC.
+7. [The Olympics and Economics](http://www.goldmansachs.com/our-thinking/archive/archive-pdfs/olympics-and-economics-.pdf), José Ursúa and Kamakshya Trivedi from Goldman Sachs.
+8. [Who will win the 2012 London Olympics?](https://web.archive.org/web/20121120144510/http://emilywilliams.webs.com:80/apps/documents/), Emily Williams, London Business School.
+9. [Olympic Predictions](http://faculty1.coloradocollege.edu/~djohnson/Olympics.html), Daniel Johnson, Colorado College.
+10. [FT consensus forecasts](http://blogs.ft.com/ftdata/2012/07/26/olympic-medal-table-predictions-london-2012/) (combining the previous four predictions for medals), Martin Stabe.
 
-I'm not sure how many of these people are going to do a follow-up forecast evaluation. I hope they do!  No-one should attempt to produce forecasts without also reviewing the results once the data are available to see how they did.
+I'm not sure how many of these people are going to do a follow-up forecast evaluation.
+I hope they do!
+ No-one should attempt to produce forecasts without also reviewing the results once the data are available to see how they did.
 
 The FT consensus forecasts are being [tracked against actual medal counts](http://www.ft.com/cms/s/0/16dd8e48-d7fc-11e1-80a8-00144feabdc0.html), although you will need to register (for free) to be able to see it.
 
