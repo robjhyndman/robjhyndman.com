@@ -125,8 +125,9 @@ I am a fellow of the following organizations:
 
 ## Conference organization
 
-- Chair, [IIF Workshop on Forecast Reconciliation](/prato2023/index.qmd) [(2023)]{.year-tag}
-- Organizing committee, UserR! [(2018)]{.year-tag}
+- Chair, [IIF Workshop on Forecast Reconciliation](/prato2023/) [(2023)]{.year-tag}
+- Organizing committee, UserR!
+  [(2018)]{.year-tag}
 - Organizing committee, Shonan high-dimensional time series workshop [(2018)]{.year-tag}
 - General Chair, International Symposium on Forecasting [(2017)]{.year-tag}
 - Program Chair, International Symposium on Forecasting [(2012)]{.year-tag}
