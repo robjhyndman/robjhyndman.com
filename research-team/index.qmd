@@ -55,7 +55,7 @@ If you're interested in a PhD at Monash University with a different supervisor, 
 1. **[Roman Ahmed](https://www.linkedin.com/in/romanahmed)**.
    [*Forecasting hierarchical time series*](https://bridges.monash.edu/articles/thesis/Forecasting_hierarchical_time_series/14956233).
    (Ph.D., graduated 2010).
-   Now Analytics Manager at Optus.
+   Now Senior Manager Analytics at Optus.
 2. **[Muhammad Akram](https://orcid.org/0000-0003-1073-3614)**.
    [*Stability properties of state space models for exponential smoothing*](https://bridges.monash.edu/articles/thesis/Stability_properties_of_state_space_models_for_exponential_smoothing/14873391), (Ph.D., graduated 2005).
    Now a Biostatistician at the Hudson Institute of Medical Research.
@@ -64,14 +64,14 @@ If you're interested in a PhD at Monash University with a different supervisor, 
    Now a Senior Lecturer at University of Jaffna, Sri Lanka.
 4. **[David Bashtannyk](https://www.linkedin.com/in/david-bashtannyk-53b30796)**.
    [*Kernel conditional density estimation*](https://bridges.monash.edu/articles/thesis/Kernel_conditional_density_estimation/14873652), (Ph.D., graduated 2001).
-   Now Senior Manager Valuations Risk at ANZ Bank.
+   Now retired.
 5. **[Souhaib Ben Taieb](http://souhaib-bentaieb.com/)**, *[Machine-learning strategies for multi-step time series forecasting](https://souhaib-bentaieb.com/papers/2014_phd.pdf)* (PhD, graduated 2014).
    Winner of a Solvay Award for his PhD thesis.
    Now Associate Professor at Mohamed bin Zayed University of Artificial Intelligence in Abu Dhabi, UAE.
    [{{< fa brands github >}}](https://github.com/bsouhaib/){.badge .badge-small .badge-green}
 6. **[Fan Cheng](https://www.linkedin.com/in/fan-cheng)**.
    *Manifold learning on empirical probability distributions* (PhD, graduated 2023).
-   Now a Senior Research Officer, NSW Bureau of Crime Statistics and Research.
+   Now a Senior Analyst, NSW Department of Communities & Justice.
    [{{< fa brands github >}}](https://github.com/ffancheng){.badge .badge-small .badge-green}
 7. **[Ashton de Silva](https://academics.rmit.edu.au/ashton-desilva)**.
    [*The vector innovations structural time series framework*](https://bridges.monash.edu/articles/thesis/The_vector_innovations_structural_time_series_framework/14874258).
@@ -87,7 +87,7 @@ If you're interested in a PhD at Monash University with a different supervisor, 
     Now Forecasting and analytics lead at Energy Australia.
     [{{< fa brands github >}}](https://github.com/PuwasalaG){.badge .badge-small .badge-green}
 11. **[Daniele Girolimetto](https://danigiro.github.io)** *Forecast reconciliation: methodological issues and applications* (PhD, graduated 2024).
-    Now a Research Fellow at the University of Padova.
+    Now an Assistant Professor at the University of Padova.
     [{{< fa brands github >}}](https://github.com/danigiro){.badge .badge-small .badge-green}
 12. **[Sayani Gupta](https://au.linkedin.com/in/sayanigupta)**.
     [*Visualization and analysis of probability distributions of large temporal data*](https://bridges.monash.edu/articles/thesis/Visualization_and_analysis_of_probability_distributions_of_large_temporal_data/19304453) (PhD, graduated 2022).
@@ -111,7 +111,7 @@ If you're interested in a PhD at Monash University with a different supervisor, 
 17. **[Andrey Kostenko](https://www.linkedin.com/in/akoste01/)**.
     [*Statistical issues in modelling and forecasting sequential count data*](https://bridges.monash.edu/articles/thesis/Statistical_issues_in_modelling_and_forecasting_sequential_count_data/4628290).
     (Ph.D., graduated 2013).
-    Now a Data Science Solutions Architect.
+    Now a Senior AI & Data Engineer, DuluxGroup, Australia.
 18. **Hugh O'Reilly**.
     *[A comparison of trading strategies for share price index futures](https://bridges.monash.edu/articles/thesis/A_comparison_of_trading_strategies_for_share_price_index_futures/19548238)*.
     (M.Com., graduated 2004).
@@ -122,6 +122,7 @@ If you're interested in a PhD at Monash University with a different supervisor, 
 20. **[Nuwani Palihawadana](https://nuwanipalihawadana.netlify.app/)**.
     *Optimal predictor selection for high-dimensional nonparametric forecasting* (PhD, graduated 2025).
     [{{< fa brands github >}}](https://github.com/nuwani-palihawadana){.badge .badge-small .badge-green}
+    Now a Teaching Associate at Monash University, Australia.
 21. **Ivet Pitrun**.
     *[A smoothing spline approach to nonlinear inference for time series](https://bridges.monash.edu/articles/thesis/A_smoothing_spline_approach_to_nonlinear_inference_for_time_series/5466688)*, (Ph.D., graduated 2002).
     Now a teacher at [Monash College](http://www.monash.edu/monashcollege).
@@ -138,7 +139,7 @@ If you're interested in a PhD at Monash University with a different supervisor, 
 24. **[Thilaksha Silva](https://www.linkedin.com/in/thilakshasilva/)**.
     *[Estimating and forecasting a time series of densities using a functional data approach](https://bridges.monash.edu/articles/thesis/Estimating_and_forecasting_a_time_series_of_densities_using_a_functional_data_approach/4679500)*.
     (PhD, graduated 2015).
-    Now a Senior Data Scientist at CitiPower and Powercor.
+    Now a Senior Data Scientist at CitiPower, Powercor and United Energy.
 25. **Leanna Tedesco**.
     *Non-Gaussian first order autoregressive time series models*.
     (M.Sc., Uni of Melbourne, graduated 1995).
@@ -170,11 +171,11 @@ If you're interested in a PhD at Monash University with a different supervisor, 
     Now Partner -- Strategy Advisory -- AI & Data, Infosys.
 33. **[Shanika Wickramasuriya](https://research.monash.edu/en/persons/shanika-wickramasuriya)**.
     [*Optimal forecasts for hierarchical and grouped time series*](https://bridges.monash.edu/articles/thesis/Optimal_forecasts_for_hierarchical_and_grouped_time_series/5032136), (PhD, graduated 2017).
-    Now a Lecturer at Monash University.
+    Now a Senior Lecturer at Monash University.
     [{{< fa brands github >}}](https://github.com/ShanikaLW){.badge .badge-small .badge-green}
 34. **[Fin Yang](https://yangzhuoranyang.com/)**.
     *Component-Based Methods in Multivariate and Hierarchical Time Series Forecasting* (PhD, graduated 2025).
-    Now a research fellow at Maastricht University.
+    Now an Assistant Professor at Maastricht University, Netherlands.
     [{{< fa brands github >}}](https://github.com/finyang/){.badge .badge-small .badge-green}
 35. **[Farah Yasmeen](https://www.researchgate.net/profile/Farah_Yasmeen)**.
     *[Functional linear models for mortality forecasting](https://bridges.monash.edu/articles/thesis/Functional_linear_models_for_mortality_forecasting/5044465)*.
