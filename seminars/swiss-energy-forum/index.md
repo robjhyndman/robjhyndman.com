@@ -12,7 +12,7 @@ tags:
   - forecasting
 ---
 
-I am giving a two-part seminar at the [Energy Forum, Valais/Wallis, Switzerland, on 17 June 2014](http://www.energyforum-vs.ch/?id=127).
+I am giving a two-part seminar at the [Energy Forum, Valais/Wallis, Switzerland, on 17 June 2014](https://web.archive.org/web/20140829144641/http://www.energyforum-vs.ch/?id=127).
 
 **Abstract:** Electricity demand forecasting plays an important role in short-term load allocation and long-term planning for future generation facilities and transmission augmentation.
 It is a challenging problem because of the different uncertainties including underlying population growth, changing technology, economic conditions, prevailing weather conditions (and the timing of those conditions), as well as the general randomness inherent in individual usage.

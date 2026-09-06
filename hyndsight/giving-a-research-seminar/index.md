@@ -44,7 +44,7 @@ In particular, beginning with a motivating example is **much** better than setti
 - Go through all your slides again and check that the titles are emphasizing the right thing.
   Fix them where necessary.
 - Go through all your slides again just to make sure you can't see anything that could be improved.
-- Read Jonathan Shewchuk's advice on [giving an academic talk](http://www.cs.berkeley.edu/~jrs/speaking.html).
+- Read Jonathan Shewchuk's advice on [giving an academic talk](https://www.ljll.fr/~frey/papers/divers/Shewchuck%20J.,%20Giving%20an%20Academic%20Talk.pdf).
 - Practise.
   Out loud.
   Standing up.
