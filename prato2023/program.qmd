@@ -8,7 +8,7 @@ title: Program
 
 ## 6 September
 
-* **5.30pm**: *Welcome reception* (Terrace, Monash University Prato Centre)
+- **5.30pm**: *Welcome reception* (Terrace, Monash University Prato Centre)
 
 ## 7 September
 
@@ -16,52 +16,47 @@ title: Program
 
 ### Session 1
 
-* Chair: **Casey Lichtendahl**
+- Chair: **Casey Lichtendahl**
 
-* **8.45am**: **Rob Hyndman**. Welcome and introduction
+- **8.45am**: **Rob Hyndman**.
+  Welcome and introduction
 
-* **9.00am**: [**Giorgio Corani**, “Probabilistic reconciliation by conditioning”](corani.md)<br>
-Discussant: [**Anastasios Panagiotelis**](https://anastasiospanagiotelis.netlify.app)
+- **9.00am**: [**Giorgio Corani**, “Probabilistic reconciliation by conditioning”](corani.md)<br> Discussant: [**Anastasios Panagiotelis**](https://anastasiospanagiotelis.netlify.app)
 
-* **9.45am**: [**Bohan Zhang**, “Discrete Forecast Reconciliation”](bohanzhang.md)<br>
-Discussant: [**Ross Hollyman**](https://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=ross_hollyman)
+- **9.45am**: [**Bohan Zhang**, “Discrete Forecast Reconciliation”](bohanzhang.md)<br> Discussant: [**Ross Hollyman**](https://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=ross_hollyman)
 
 **10.30am**: *Morning tea*
 
 ### Session 2
 
-* Chair: **Mariangela Guidolin**
+- Chair: **Mariangela Guidolin**
 
-* **11.00am**: [**Jing Hu**, "Reliable Predictions for Hierarchical Time Series"](jinghu.md)<br>
-Discussant: [**Christoph Bergmeir**](https://cbergmeir.com)
+- **11.00am**: [**Jing Hu**, "Reliable Predictions for Hierarchical Time Series"](jinghu.md)<br> Discussant: [**Christoph Bergmeir**](https://cbergmeir.com)
 
-* **11.45am**: [**Azul Garza**, "Conformal prediction as an alternative for uncertainty quantification in probabilistic hierarchical reconciliation"](garza.md)<br>
-Discussant: [**Mitchell O'Hara-Wild**](https://mitchelloharawild.com)
+- **11.45am**: [**Azul Garza**, "Conformal prediction as an alternative for uncertainty quantification in probabilistic hierarchical reconciliation"](garza.md)<br> Discussant: [**Mitchell O'Hara-Wild**](https://mitchelloharawild.com)
 
 **12.30pm**: *Lunch*
 
 ### Session 3
 
-* Chair: **Bahman Rostami-Tabar**
+- Chair: **Bahman Rostami-Tabar**
 
-* **1.30pm**: [**Julien Leprince**, "Forecasting hierarchies with coherency-learning"](leprince.md)<br>
-Discussant: [**Margaux Brégère**](https://margauxbregere.github.io)
+- **1.30pm**: [**Julien Leprince**, "Forecasting hierarchies with coherency-learning"](leprince.md)<br> Discussant: [**Margaux Brégère**](https://margauxbregere.github.io)
 
-* **2.15pm**: [**Xiaoqian Wang**, "Forecast reconciliation with subset selection"](xiaoqian.md)<br>
-Discussant: [**Ross Hollyman**](https://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=ross_hollyman)
+- **2.15pm**: [**Xiaoqian Wang**, "Forecast reconciliation with subset selection"](xiaoqian.md)<br> Discussant: [**Ross Hollyman**](https://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=ross_hollyman)
 
 **3.00pm**: *Afternoon tea*
 
-###  Session 4
+### Session 4
 
-* Chair: **Anastasios Panagiotelis**
+- Chair: **Anastasios Panagiotelis**
 
-* **3.30pm**: Short talks and open problems
+- **3.30pm**: Short talks and open problems
 
-  * Dario Azzimonti: [On the uncertainty of reconciliation weights](https://robjhyndman.com/files/prato/Azzimonti.pdf)
-  * Lorenzo Zambon: [Probabilistic reconciliation: projection vs conditioning](https://robjhyndman.com/files/prato/Zambon_projection_vs_conditioning.pdf)
-  * Christoph Bergmeir: [Hierarchical summary forecasting](https://robjhyndman.com/files/prato/bergmeir2023SummaryForecasting.pdf)
-  * Margaux Brégère: [On possible links between hierarchical forecasting and interpretable machine learning](https://robjhyndman.com/files/prato/ForecasteReconcialiation_OpenProb_09_23.pdf)
+  - Dario Azzimonti: [On the uncertainty of reconciliation weights](https://robjhyndman.com/files/prato/Azzimonti.pdf)
+  - Lorenzo Zambon: [Probabilistic reconciliation: projection vs conditioning](https://robjhyndman.com/files/prato/Zambon_projection_vs_conditioning.pdf)
+  - Christoph Bergmeir: [Hierarchical summary forecasting](https://robjhyndman.com/files/prato/bergmeir2023SummaryForecasting.pdf)
+  - Margaux Brégère: [On possible links between hierarchical forecasting and interpretable machine learning](https://robjhyndman.com/files/prato/ForecasteReconcialiation_OpenProb_09_23.pdf)
 
 **7.30pm**: *Workshop dinner*, [Il Dek](https://dekitalianbistrot.com/en/dek-prato-2/), [Piazza delle Carceri 1/2, Prato](https://goo.gl/maps/ZLT48fjjcB77qs3VA)
 
@@ -71,50 +66,43 @@ Discussant: [**Ross Hollyman**](https://business-school.exeter.ac.uk/about/peopl
 
 ### Session 5
 
-* Chair: **Ross Hollyman**
+- Chair: **Ross Hollyman**
 
-* **9.00am**: [**Adèle Gouttes** and **Stefan Birr**, "Hierarchical forecasts: a case study from pricing in e-commerce"](gouttes.md)<br>
-Discussant: [**Zeynep Erkin Baz**](https://www.linkedin.com/in/zeynep-erkin-baz-51198a21)
+- **9.00am**: [**Adèle Gouttes** and **Stefan Birr**, "Hierarchical forecasts: a case study from pricing in e-commerce"](gouttes.md)<br> Discussant: [**Zeynep Erkin Baz**](https://www.linkedin.com/in/zeynep-erkin-baz-51198a21)
 
-* **9.45am**: [**Raffaele Mattera**, "Forecast reconciliation with clustering structure: application to stock prices"](mattera.md)<br>
-Discussant: [**Tommaso Di Fonzo**](https://homes.stat.unipd.it/tommasodifonzo/)
+- **9.45am**: [**Raffaele Mattera**, "Forecast reconciliation with clustering structure: application to stock prices"](mattera.md)<br> Discussant: [**Tommaso Di Fonzo**](https://homes.stat.unipd.it/tommasodifonzo/)
 
 **10.30am**: *Morning tea*
 
 ### Session 6
 
-* Chair: **Tim Januschowski**
+- Chair: **Tim Januschowski**
 
-* **11.00am**: [**Jan Møller**, “Likelihood-based inference in temporal hierarchies”](moeller.md)<br>
-Discussant: [**Dario Azzimonti**](https://sites.google.com/view/darioazzimonti/home)
+- **11.00am**: [**Jan Møller**, “Likelihood-based inference in temporal hierarchies”](moeller.md)<br> Discussant: [**Dario Azzimonti**](https://sites.google.com/view/darioazzimonti/home)
 
-* **11.45am**: [**Syama Rangapuram**, “Coherent probabilistic forecasting of temporal hierarchies”](rangapuram.md)<br>
-Discussant: [**Bahman Rostami-Tabar**](https://bahmanrostamitabar.github.io/)
+- **11.45am**: [**Syama Rangapuram**, “Coherent probabilistic forecasting of temporal hierarchies”](rangapuram.md)<br> Discussant: [**Bahman Rostami-Tabar**](https://bahmanrostamitabar.github.io/)
 
 **12.30pm**: *Lunch*
 
 ### Session 7
 
-* Chair: **Kin Gutierrez Olivares**
+- Chair: **Kin Gutierrez Olivares**
 
-* **1.30pm**: [**Daniele Girolimetto**, “Cross-temporal probabilistic reconciliation forecast”](girolimetto.md)<br>
-Discussant: [**Casey Lichtendahl**](https://www.linkedin.com/in/casey-lichtendahl-7a2688102)
+- **1.30pm**: [**Daniele Girolimetto**, “Cross-temporal probabilistic reconciliation forecast”](girolimetto.md)<br> Discussant: [**Casey Lichtendahl**](https://www.linkedin.com/in/casey-lichtendahl-7a2688102)
 
-* **2.15pm**: [**Anastasios Panagiotelis**, “Forecast reconciliation for quantiles using bilevel optimisation”](tas.md)<br>
-Discussant: [**Lorenzo Zambon**](https://scholar.google.com/citations?user=vfdwxl8AAAAJ&hl=it)
+- **2.15pm**: [**Anastasios Panagiotelis**, “Forecast reconciliation for quantiles using bilevel optimisation”](tas.md)<br> Discussant: [**Lorenzo Zambon**](https://scholar.google.com/citations?user=ccPkhw8AAAAJ)
 
 **3.00pm**: *Afternoon tea*
 
 ### Session 8
 
-* Chair: **Rob Hyndman**
+- Chair: **Rob Hyndman**
 
-* **3.30pm**: Short talks and open problems
+- **3.30pm**: Short talks and open problems
 
-  * Raffaele Mattera: [The relationship between clustering and reconciliation](https://robjhyndman.com/files/prato/OpenProblems_Mattera.pdf)
-  * Mitchell O'Hara-Wild: [Reconciliation of structured time series forecasts with graphs](https://slides.mitchelloharawild.com/prato2023/)
-  * Casey Lichtendahl: Data augmentation in hierarchical forecasting
-  * Kin Gutierrez Olivares: [Probabilistic Coherent Forecasting with Deep Poisson Mixture Networks (DPMN)](kin.md)
-
+  - Raffaele Mattera: [The relationship between clustering and reconciliation](https://robjhyndman.com/files/prato/OpenProblems_Mattera.pdf)
+  - Mitchell O'Hara-Wild: [Reconciliation of structured time series forecasts with graphs](https://slides.mitchelloharawild.com/prato2023/)
+  - Casey Lichtendahl: Data augmentation in hierarchical forecasting
+  - Kin Gutierrez Olivares: [Probabilistic Coherent Forecasting with Deep Poisson Mixture Networks (DPMN)](kin.md)
 
 **5.00pm**: *Workshop close*

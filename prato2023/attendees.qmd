@@ -22,6 +22,7 @@ title: Attendees
 #| output: asis
 #| message: false
 #| echo: false
+
 suppressMessages(library(tidyverse))
 people <- tribble(
   ~Name, ~Affiliation, ~Country, ~Image, ~Link,
@@ -40,7 +41,7 @@ people <- tribble(
   "Jing Hu", "Intuit", "USA", "jing.png", "https://www.linkedin.com/in/hujing",
   "Julien Leprince", "Technical University Eindhoven", "Netherlands", "leprince.png", "https://scholar.google.com/citations?user=KDlduPEAAAAJ&hl=en",
   "Kin Gutierrez Olivares", "Amazon", "New York", "kin.png", "https://www.linkedin.com/in/kin-g-olivares-865377119",
-  "Lorenzo Zambon", "IDSIA", "Switzerland", "lorenzo.png", "https://scholar.google.com/citations?user=vfdwxl8AAAAJ",
+  "Lorenzo Zambon", "IDSIA", "Switzerland", "lorenzo.png", "https://scholar.google.com/citations?user=ccPkhw8AAAAJ",
   "Margaux Brégère", "Sorbonne University", "France", "margaux.png", "https://margauxbregere.github.io",
   "Mariangela Guidolin", "University of Padova", "Italy", "mariangela.png", "https://homes.stat.unipd.it/mariangelaguidolin/en/home-2/",
   # "Max Mergenthaler", "Nixtla", "Mexico", "max.png", "https://github.com/mergenthaler",
