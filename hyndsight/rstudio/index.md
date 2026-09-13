@@ -10,7 +10,7 @@ categories:
 
 For many years I used [RWinEdt](http://cran.r-project.org/web/packages/RWinEdt/) as my text editor for R code, but when [WinEdt 6.0](http://winedt.com/) came out, RWinEdt stopped working.
 So I've been looking for something to replace it.
-I've tried [Tinn-R](http://nbcgib.uesc.br/lec/software/editores/tinn-r/en), [NppToR](http://sourceforge.net/projects/npptor/), [Eclipse](http://www.eclipse.org/) with [StatET](https://web.archive.org/web/20120227074719/http://www.walware.de/goto/statet) and a couple of other editors, but nothing was quite right.
+I've tried [Tinn-R](https://web.archive.org/web/20220529082259/https://tinn-r.org/en/), [NppToR](http://sourceforge.net/projects/npptor/), [Eclipse](http://www.eclipse.org/) with [StatET](https://web.archive.org/web/20120227074719/http://www.walware.de/goto/statet) and a couple of other editors, but nothing was quite right.
 
 Then yesterday, out of the blue, [RStudio](http://rstudio.org) was announced and it looks fantastic!
 A screenshot is given below.
