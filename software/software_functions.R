@@ -453,7 +453,8 @@ rjh_packages <- function() {
             "rmarkdown",
             "robets",
             "smoothAPC",
-            "fpp"
+            "fpp",
+            "icons"
           )
       )
     # Fix URL of weird
