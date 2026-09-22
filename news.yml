@@ -212,6 +212,11 @@
   outlet: "The New Daily"
   date: 2019-05-06
 
+- title: "Forecasting - solving problems linked to future uncertainties"
+  href: "https://www.monash.edu/energy-institute/people/featured-profiles/professor-rob-hyndman"
+  outlet: "Monash Energy Institute"
+  date: 2019-05-05
+
 - title: "Announcing the winners of the Facebook Statistics for Improving Insights and Decisions research awards"
   href: "https://research.facebook.com/blog/2019/1/announcing-the-winners-of-the-statistics-for-improving-insights-and-decisions-research-awards/"
   outlet: "Facebook Research"
