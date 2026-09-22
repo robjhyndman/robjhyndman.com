@@ -2,18 +2,19 @@
   <% for (const item of items) { %>
     <%
       const path = item.path || "";
-      let icon = "bi-newspaper";
       let category = "News";
-      if (path.includes("/publications/")) { icon = "bi-file-earmark-text"; category = "Publication"; }
-      else if (path.includes("/seminars/")) { icon = "bi-mic"; category = "Seminar"; }
-      else if (path.includes("/hyndsight/")) { icon = "bi-pencil-square"; category = "Blog post"; }
+      let colour = "grey";
+      let section = "/news.html";
+      let sectionTitle = "All news";
+      if (path.includes("/publications/")) { category = "Paper"; colour = "blue"; section = "/publications/"; sectionTitle = "All publications"; }
+      else if (path.includes("/seminars/")) { category = "Talk"; colour = "red"; section = "/seminars/"; sectionTitle = "All seminars"; }
+      else if (path.includes("/hyndsight/")) { category = "Blog"; colour = "green"; section = "/hyndsight/"; sectionTitle = "All blog posts"; }
       const href = item.path || item.href;
     %>
-    <li>
-      <i class="bi <%- icon %> recent-updates-icon" title="<%- category %>" aria-hidden="true"></i>
+    <li <%= metadataAttrs(item) %>>
+      <a href="<%- section %>" class="badge badge-small badge-<%- colour %> recent-updates-pill" title="<%- sectionTitle %>"><%- category %></a>
       <a href="<%- href %>" class="recent-updates-title"><%- item.title %></a>
       <% if (item.date) { %> <span class="recent-updates-date">(<%- item.date %>)</span><% } %>
-      <span class="visually-hidden"><%- category %></span>
     </li>
     <% } %>
 </ul>

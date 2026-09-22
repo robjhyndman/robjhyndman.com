@@ -83,3 +83,18 @@ listing:
 ::: {#recent-news .frontpage-listing}
 :::
 :::
+
+```{=html}
+<script>
+  // Merge the four "Recent updates" listings into one list sorted by date
+  document.addEventListener("DOMContentLoaded", () => {
+    const lists = [...document.querySelectorAll(".home-card .recent-updates")];
+    if (lists.length < 2) return;
+    const items = lists.flatMap(ul => [...ul.children]);
+    items.sort((a, b) =>
+      Number(b.dataset.listingDateSort || 0) - Number(a.dataset.listingDateSort || 0));
+    items.forEach(li => lists[0].appendChild(li));
+    lists.slice(1).forEach(ul => ul.closest(".frontpage-listing").remove());
+  });
+</script>
+```

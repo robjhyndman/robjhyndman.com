@@ -1040,7 +1040,7 @@ textarea {
   font-weight: bold;
 }
 
-/* Homepage recent-updates: icon stands in for the bullet */
+/* Homepage recent-updates: a type pill stands in for the bullet */
 .recent-updates {
   margin: 0;
   padding: 0;
@@ -1049,17 +1049,23 @@ textarea {
 .recent-updates li {
   list-style: none;
   position: relative;
-  padding-left: 1.4rem;
+  padding-left: 4.2rem;
   margin: 0.05rem 0;
 }
 
-.recent-updates-icon {
+.recent-updates-pill {
   position: absolute;
   left: 4px;
-  top: 0.3em;
-  color: $theme-main;
-  width: 1em;
-  text-align: center;
+  top: 0.35em;
+  width: 3.4rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@each $name in ("blue", "red", "green", "grey") {
+  .recent-updates-pill.badge-#{$name} {
+    background: rgba(map-get($badge-colors, $name), 0.25);
+  }
 }
 
 .recent-news-outlet,
