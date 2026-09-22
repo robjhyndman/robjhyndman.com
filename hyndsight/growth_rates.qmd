@@ -1,6 +1,7 @@
 ---
 title: Monthly, quarterly and annual growth rates
 date: 2026-07-28
+image: growth_rates_files/figure-html/fig-window-1.png
 categories:
   - time series
 description: "I received the following question by email:"
@@ -33,6 +34,41 @@ $$
   G_t > G_{t - 1} \iff g_t > g_{t - 12}.
 $$
 In other words, the year-over-year rate rises when the current monthly change exceeds the change 12 months ago, and falls when the reverse holds.
+@fig-window shows why: moving from $G_{t-1}$ to $G_t$, the 12-month window drops $g_{t-12}$ and adds $g_t$, while the other 11 months are common to both.
+
+```{r}
+#| label: fig-window
+#| echo: false
+#| fig-width: 8
+#| fig-height: 3
+#| fig-cap: "The 12-month windows of monthly growth rates used to compute $G_{t-1}$ and $G_t$."
+library(ggplot2)
+cells <- rbind(
+  data.frame(x = -12:-1, y = 2, role = c("leaves", rep("shared", 11))),
+  data.frame(x = -11:0, y = 1, role = c(rep("shared", 11), "enters"))
+)
+cells$label <- ifelse(cells$role == "leaves", "g[t-12]",
+  ifelse(cells$role == "enters", "g[t]", ""))
+ggplot(cells, aes(x, y)) +
+  geom_tile(aes(fill = role), width = 0.92, height = 0.8, colour = NA) +
+  geom_text(aes(label = label), parse = TRUE, colour = "white", size = 4.5) +
+  annotate("text", x = -12.8, y = 2:1, hjust = 1, size = 5, parse = TRUE,
+    label = c("G[t-1]", "G[t]")) +
+  annotate("text", x = c(-12, 0), y = c(1.4, 1.6), size = 4, fontface = "italic",
+    colour = c("#f49b02", "#234460"), label = c("leaves", "enters")) +
+  scale_fill_manual(values = c(leaves = "#f49b02", enters = "#234460", shared = "#c9d6e3")) +
+  scale_x_continuous(breaks = -12:0, labels = c(paste0("t-", 12:1), "t"),
+    limits = c(-14, 0.5)) +
+  labs(title = expression(G[t] > G[t-1] ~~ "if and only if" ~~ g[t] > g[t-12])) +
+  theme_void(base_size = 14) +
+  theme(
+    legend.position = "none",
+    axis.text.x = element_text(margin = margin(t = 4)),
+    plot.title = element_text(hjust = 0.5, margin = margin(b = 8)),
+    plot.margin = margin(10, 10, 10, 10),
+    plot.background = element_rect(fill = "white", colour = NA)
+  )
+```
 
 For example, annual inflation peaks when the monthly rates entering the 12-month window fall below the rates dropping out of it.
 Because year-over-year growth is effectively a 12-month trailing window of monthly growth, month-to-month growth tends to lead year-over-year growth by about half the window length: the *centre lag* of an equally-weighted $k$-period trailing window is $(k - 1)/2$ periods, or 5.5 months when $k = 12$.

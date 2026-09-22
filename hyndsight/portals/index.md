@@ -3,6 +3,7 @@ date: 2026-08-03
 link: https://robjhyndman.com/hyndsight/portals/
 slug: portals
 title: Researcher portals
+image: /img/thumbs/scholar_profile.jpg
 categories:
   - computing
   - journals
@@ -24,6 +25,8 @@ Some examples are [Andrew Gelman](http://scholar.google.com.au/citations?user=SE
 It provides a way of listing your publications, tracking citations to your publications, computing citation metrics, etc. There is very little work in setting up a profile.
 When I did it, Google had automatically identified all my publications, and it even listed one paper I had forgotten I had written!
 
+![My Google Scholar profile (September 2026).](google_scholar.jpg)
+
 To see the profile of an existing researcher, just search for their name on Google Scholar.
 If they have made their profile public, it will appear at the top of the search results.
 
@@ -42,6 +45,8 @@ You can follow individual authors, and set up alerts for new citations of specif
 Citations are classified as "highly influential", "background", "methods", "results", etc., so you can easily filter papers that have had a big impact, those that apply new methods, etc. One interesting difference is that Semantic Scholar automatically creates personal author pages for each author, without needing each researcher to set them up.
 Mine is [here](https://www.semanticscholar.org/author/Rob-J-Hyndman/145211352).
 My h-index on Semantic Scholar is 75, compared to 92 on Google Scholar, reflecting the broader coverage of Google Scholar.
+
+![My Semantic Scholar author page (September 2026).](semantic_scholar.jpg)
 
 ### All the rest
 
