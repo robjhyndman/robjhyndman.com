@@ -3,6 +3,7 @@ date: 2014-03-06 01:29:06+00:00
 link: https://robjhyndman.com/hyndsight/highlighting-the-web/
 slug: highlighting-the-web
 title: Highlighting the web
+image: /img/thumbs/Screenshot-from-2014-03-06-115733.jpg
 categories:
 - computing
 - fpp

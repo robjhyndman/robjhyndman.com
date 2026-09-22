@@ -8,7 +8,7 @@ categories:
 - statistics
 - R
 - tidyverts
-image: index_files/figure-html/autoplot-1.png
+image: /img/thumbs/feasts.jpg
 ---
 
 ```{r setup, include=FALSE}

@@ -10,7 +10,7 @@ categories:
 - tidyverts
 - anomalies
 - data science
-image: index_files/figure-html/features-plot-1.png
+image: /img/thumbs/fbtsa.jpg
 ---
 
 ```{r setup, include=FALSE}

@@ -8,7 +8,7 @@ categories:
   - time series
   - statistics
   - demography
-image: index_files/figure-html/england2-1.png
+image: /img/thumbs/seasonal-mortality-rates.jpg
 ---
 
 ```{r setup, include=FALSE}

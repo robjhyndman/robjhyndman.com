@@ -4,7 +4,7 @@ slug: job-advertisements
 title: Job advertisements
 categories:
   - jobs
-image: /img/ssa_jobs.png
+image: /img/thumbs/ssa_jobs.jpg
 ---
 
 Employers often contact me asking how to find a good statistician, econometrician or forecaster for their organization.

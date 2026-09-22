@@ -2,6 +2,7 @@
 date: 2017-02-15 10:06:20+00:00
 slug: isf-social
 title: "Forecasters: bring your family to Cairns"
+image: /img/thumbs/Tourism-Tropical-North-Queensland-Yt4F3cBPA775Dwi.resized.jpg
 categories:
   - conferences
   - forecasting

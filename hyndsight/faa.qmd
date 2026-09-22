@@ -5,7 +5,7 @@ categories:
   - forecasting
   - anomalies
   - AAS
-image: /img/faa_video.png
+image: /img/thumbs/faa_video.jpg
 description: The Australian Academy of Science has put out a new video about my work.
 ---
 

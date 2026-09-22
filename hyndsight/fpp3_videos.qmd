@@ -7,7 +7,7 @@ categories:
   - fpp
   - otexts
   - video
-image: /img/fpp3videos.jpg
+image: /img/thumbs/fpp3videos.jpg
 description: "Over the past 6 months, George Athanasopoulos and I have added videos to most sections of the 3rd edition of our textbook *Forecasting: principles and practice*."
 fig-height: 3
 fig-width: 8

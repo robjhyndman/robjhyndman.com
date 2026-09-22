@@ -2,6 +2,7 @@
 date: 2018-08-06
 slug: natsciweek2018
 title: "National Science Week Melbourne Mathematics Activities"
+image: /img/thumbs/PolsterLecture2018.jpg
 categories:
   - seminars
   - acems

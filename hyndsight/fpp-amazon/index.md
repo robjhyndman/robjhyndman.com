@@ -3,6 +3,7 @@ date: 2014-04-09 00:15:44+00:00
 link: https://robjhyndman.com/hyndsight/fpp-amazon/
 slug: fpp-amazon
 title: My forecasting book now on Amazon
+image: /img/thumbs/fppcover.jpg
 categories:
   - forecasting
   - fpp

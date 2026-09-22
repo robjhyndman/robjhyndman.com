@@ -3,6 +3,7 @@ date: 2014-03-18 06:17:44+00:00
 link: https://robjhyndman.com/hyndsight/fpp-cover/
 slug: fpp-cover
 title: Cover of my forecasting textbook
+image: /img/thumbs/fppcover.jpg
 categories:
 - forecasting
 - fpp

@@ -4,7 +4,7 @@ date: "2022-09-09"
 categories:
   - forecasting
   - R
-image: /img/forecasting_workshop.jpeg
+image: /img/thumbs/forecasting_workshop.jpg
 description: In most recent years, I've run a 2-3 day workshop, held in various locations around the world. The one this year will be in Canberra on 9-10 November, and will be taught jointly with [Associate Professor Bahman Rostami-Tabar](https://bahmanrostamitabar.github.io/). [Details are here](https://statsoc.org.au/event-4945700).
 ---
 

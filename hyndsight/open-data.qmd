@@ -3,7 +3,7 @@ title: We need more open data in Australia
 date: 2022-12-13
 categories:
   - data
-image: /img/isi_webinar.png
+image: /img/thumbs/isi_webinar.jpg
 description: "*I made the following comments in an ISI webinar today on Statistical and Data Science Issues in Australasia.*"
 ---
 

@@ -3,6 +3,7 @@ date: 2014-10-10 07:06:04+00:00
 link: https://robjhyndman.com/hyndsight/abs-seasonal-adjustment-2/
 slug: abs-seasonal-adjustment-2
 title: Explaining the ABS unemployment fluctuations
+image: /img/thumbs/abs-seasonal-adjustment-2.jpg
 categories:
 - jobs
 - seasonality

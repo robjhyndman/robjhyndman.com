@@ -2,6 +2,7 @@
 date: 2021-06-18
 title: "Useful extensions for online books"
 slug: fpp-extensions
+image: /img/thumbs/opendyslexic.jpg
 categories:
   - publishing
   - writing

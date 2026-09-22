@@ -3,6 +3,7 @@ date: 2016-06-03 02:56:36+00:00
 link: https://robjhyndman.com/hyndsight/isea2017/
 slug: isea2017
 title: 2017 International Symposium on Energy Analytics
+image: /img/thumbs/snorkellers-on-great-barrier-reef.jpg
 categories:
 - conferences
 - energy

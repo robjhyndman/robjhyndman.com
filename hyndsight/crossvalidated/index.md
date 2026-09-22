@@ -3,6 +3,7 @@ date: 2010-11-04 23:45:25+00:00
 link: https://robjhyndman.com/hyndsight/crossvalidated/
 slug: crossvalidated
 title: CrossValidated launched!
+image: /img/thumbs/crossvalidated-1024x707.jpg
 categories:
 - computing
 - R

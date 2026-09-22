@@ -3,6 +3,7 @@ date: 2011-03-01 05:09:27+00:00
 link: https://robjhyndman.com/hyndsight/rstudio/
 slug: rstudio
 title: 'RStudio: just what I''ve been looking for'
+image: /img/thumbs/rstudio-windows.jpg
 categories:
   - computing
   - R

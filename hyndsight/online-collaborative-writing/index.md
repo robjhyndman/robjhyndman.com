@@ -3,6 +3,7 @@ date: 2014-01-28 02:18:13+00:00
 link: https://robjhyndman.com/hyndsight/online-collaborative-writing/
 slug: online-collaborative-writing
 title: Online collaborative writing
+image: /img/thumbs/Screenshot-from-2014-01-28-122030.jpg
 categories:
 - LaTeX
 - productivity

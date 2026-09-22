@@ -6,7 +6,7 @@ categories:
   - rmarkdown
   - Monash University
   - reproducible research
-image: /img/monash_letter_template.png
+image: /img/thumbs/monash_letter_template.jpg
 description: "I've created some quarto templates with Monash University branding."
 ---
 

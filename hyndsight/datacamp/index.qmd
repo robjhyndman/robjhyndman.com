@@ -2,6 +2,7 @@
 date: 2017-06-01
 slug: datacamp
 title: "My new DataCamp course: Forecasting Using R"
+image: /img/thumbs/Datacamp.jpg
 categories:
 - forecasting
 - R

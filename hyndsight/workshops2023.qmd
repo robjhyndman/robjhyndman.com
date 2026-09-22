@@ -6,7 +6,7 @@ categories:
   - R
   - conferences
   - teaching
-image: /img/tidyverts.png
+image: /img/thumbs/tidyverts.png
 description: I'm giving a 2-day workshop on "Tidy Time Series and Forecasting in R", first at the New York R Conference in July, and then at the Posit Conference in Chicago in September.
 ---
 

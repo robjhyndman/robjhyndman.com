@@ -7,7 +7,7 @@ categories:
   - statistics
   - epidemiology
   - demography
-image: index_files/figure-html/weekly-1.png
+image: /img/thumbs/excess-deaths.jpg
 ---
 
 ```{r}

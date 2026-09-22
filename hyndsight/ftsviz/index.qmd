@@ -2,6 +2,7 @@
 date: 2018-12-12
 slug: ftsviz
 title: "Using ggplot2 for functional time series"
+image: /img/thumbs/ftsviz.jpg
 categories:
   - time series
   - R

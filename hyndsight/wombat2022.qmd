@@ -1,6 +1,7 @@
 ---
 title: "WOMBAT 2022"
 date: 2022-09-20
+image: /img/thumbs/amanda_cox.jpg
 categories:
 - conferences
 - data science

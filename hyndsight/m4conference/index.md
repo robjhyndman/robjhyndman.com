@@ -8,7 +8,7 @@ categories:
   - reproducible research
   - time series
   - conferences
-image: /img/m4.png
+image: /img/thumbs/m4.jpg
 ---
 
 Following the highly successful [M4 Forecasting Competition](https://mofc.unic.ac.cy/m4/), there will be a conference held on 10-11 December at Tribeca Rooftop, New York, to discuss the results.

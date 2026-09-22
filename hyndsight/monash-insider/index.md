@@ -3,6 +3,7 @@ date: 2016-03-09 07:06:16+00:00
 link: https://robjhyndman.com/hyndsight/monash-insider/
 slug: monash-insider
 title: Monash Business Analytics Team Profile
+image: /img/thumbs/numbat.jpg
 categories:
 - data science
 - Monash University

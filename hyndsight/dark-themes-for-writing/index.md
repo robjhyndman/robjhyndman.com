@@ -3,6 +3,7 @@ date: 2015-03-18 04:55:11+00:00
 link: https://robjhyndman.com/hyndsight/dark-themes-for-writing/
 slug: dark-themes-for-writing
 title: Dark themes for writing
+image: /img/thumbs/Screenshot-from-2015-03-18-130450.jpg
 categories:
 - computing
 - LaTeX

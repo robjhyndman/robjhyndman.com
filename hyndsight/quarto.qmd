@@ -4,7 +4,7 @@ title: "Migrating to Quarto"
 categories:
   - computing
   - quarto
-image: /img/quarto_site.png
+image: /img/thumbs/quarto_site.jpg
 description: This website is now managed using [Quarto](https://quarto.org). It ran using blogdown for the last six years, and [various other platforms before that](/hyndsight/blogdown). But Quarto had a few advantages, and I wanted to learn how to do it, so here we are.
 ---
 

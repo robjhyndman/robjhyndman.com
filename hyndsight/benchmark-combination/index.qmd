@@ -2,6 +2,7 @@
 date: 2018-06-24
 slug: benchmark-combination
 title: "A forecast ensemble benchmark"
+image: /img/thumbs/benchmark-combination.jpg
 categories:
   - forecasting
   - time series

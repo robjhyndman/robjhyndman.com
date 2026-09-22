@@ -6,7 +6,7 @@ categories:
   - time series
   - statistics
   - epidemiology
-image: index_files/figure-html/ft2-1.png
+image: /img/thumbs/logratios-covid19.jpg
 ---
 
 ```{r setup, include=FALSE}

@@ -6,7 +6,7 @@ categories:
   - R
   - forecasting
   - data science
-image: index_files/figure-html/unnamed-chunk-2-1.png
+image: /img/thumbs/simulatingtbats.jpg
 ---
 
 ```{r setup, include=FALSE}

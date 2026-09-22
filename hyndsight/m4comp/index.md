@@ -7,7 +7,7 @@ categories:
   - R
   - reproducible research
   - time series
-image: /img/m4.png
+image: /img/thumbs/m4.jpg
 ---
 
 The ["M" competitions](https://en.wikipedia.org/wiki/Makridakis_Competitions) organized by Spyros Makridakis have had an enormous influence on the field of forecasting. They focused attention on what models produced good forecasts, rather than on the mathematical properties of those models. For that, Spyros deserves congratulations for changing the landscape of forecasting research through this series of competitions.

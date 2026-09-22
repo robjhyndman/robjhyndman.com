@@ -3,6 +3,7 @@ date: 2015-10-07 06:09:16+00:00
 link: https://robjhyndman.com/hyndsight/stanford-seminar/
 slug: stanford-seminar
 title: Stanford seminar
+image: /img/thumbs/20151006_131759-1024x818.jpg
 categories:
 - forecasting
 - hts

@@ -7,7 +7,7 @@ categories:
   - R
   - reproducible research
   - time series
-image: /img/m4.png
+image: /img/thumbs/m4.jpg
 ---
 
 The [official guidelines](https://web.archive.org/web/20240414064731/https://www.unic.ac.cy/test/wp-content/uploads/sites/2/2018/09/M4-Competitors-Guide.pdf) for the M4 competition have now been published, and there have been several developments since my last post on this.
