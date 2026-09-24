@@ -4,7 +4,7 @@ date: 2023-09-27
 categories:
   - forecasting
   - time series
-image: https://otexts.com/fpp3/fpp_files/figure-html/cv1-1.png
+image: /files/cv1-1.png
 description: "When using a training/test split, or time-series cross-validation, are you choosing a specific model or a model class?"
 code-fold: true
 fig-height: 3

@@ -5,11 +5,11 @@ categories:
   - forecasting
   - Python
   - teaching
-image: "https://otexts.com/fpppy/figs/fpppy_front_cover.jpg"
+image: "/img/thumbs/fpppy_front_cover.jpg"
 description: 'The Python edition of "Forecasting: Principles and Practice" is now [available in print](https://otexts.com/fpppy/print-version.html).'
 ---
 
-<a href="https://otexts.com/fpppy/print-version.html"><img src = "https://otexts.com/fpppy/figs/fpppy_front_cover.jpg" alt = "FPPPY front cover" style = "width: 300px; float: right; margin-left: 20px; margin-bottom: 20px;"></a>
+<a href="https://otexts.com/fpppy/print-version.html"><img src = "/img/thumbs/fpppy_front_cover.jpg" alt = "FPPPY front cover" style = "width: 300px; float: right; margin-left: 20px; margin-bottom: 20px;"></a>
 
 About a year ago, we did a soft launch of the online edition of ["Forecasting: Principles and Practice, the Pythonic Way" (FPPPY)](https://OTexts.com/fpppy/). In this latest edition of the FPP book, George Athanasopoulos and I are joined by four additional co-authors: Azul Garza, Cristian Challu, Max Mergenthaler and Kin Olivares. [Our new co-authors](https://otexts.com/fpppy/authors.html) are Python and forecasting experts, and have all been involved in developing the open-source [Nixtla software](https://github.com/Nixtla/) that is used throughout the book.
 

@@ -4,7 +4,7 @@ date: 2026-08-25
 categories:
   - forecasting
 bibliography: [foundation.bib]
-image: https://otexts.com/fpp3/fpp_files/figure-html/cv1-1.png
+image: /files/cv1-1.png
 csl: ../files/apa-single-spaced.csl
 description: >-
   *I was emailed by a journalist writing an article about time series foundation models.*

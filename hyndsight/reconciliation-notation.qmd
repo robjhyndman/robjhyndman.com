@@ -5,7 +5,7 @@ date: 2022-10-06
 categories:
   - forecasting
   - hts
-image: https://otexts.com/fpp3/figs/hts.png
+image: /img/thumbs/hts.png
 description: The various papers on forecast reconcilation written over the last 13 years have not used a consistent notation. We have revised our notation as we have slowly come to understand the problem better. This is common in a new area, but it makes it tricky to read the literature as you need to figure out how the notation of each paper maps to what you've already read.
 ---
 

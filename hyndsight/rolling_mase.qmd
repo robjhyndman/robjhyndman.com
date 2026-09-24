@@ -4,7 +4,7 @@ date: 2026-01-20
 categories:
   - forecasting
 bibliography: [wape.bib]
-image: https://otexts.com/fpp3/fpp_files/figure-html/cv1-1.png
+image: /files/cv1-1.png
 csl: ../files/apa-single-spaced.csl
 description: When we compute a MASE or RMSSE using a rolling origin, should the scaling factor be recalculated every time?
 ---
