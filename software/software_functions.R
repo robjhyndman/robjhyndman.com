@@ -2,12 +2,8 @@
 generic_stickers <- function(packages) {
   # Check if the stickers already exist
   existing <- fs::dir_ls(here::here("software/stickers/"), glob = "*.png") |>
-    str_split("/") |>
-    lapply(tail, n = 1) |>
-    unlist() |>
-    str_split("\\.") |>
-    lapply(head, n = 1) |>
-    unlist()
+    fs::path_file() |>
+    fs::path_ext_remove()
   packages <- packages[!(packages %in% existing)]
   for (name in packages) {
     create_generic_sticker(name)
@@ -281,6 +277,25 @@ rjh_packages <- function() {
     )
     packages <- cran_github |> left_join(hex_stickers, by = "package")
 
+    # Exclude packages I haven't had much to do with or are outdated or archived
+    # (before generating stickers, so none are created for excluded packages)
+    packages <- packages |>
+      filter(
+        !package %in%
+          c(
+            "anomalous",
+            "bayesforecast",
+            "DescTools",
+            "fracdiff",
+            "nortsTest",
+            "rmarkdown",
+            "robets",
+            "smoothAPC",
+            "fpp",
+            "icons"
+          )
+      )
+
     # Create generic hex stickers where they don't exist
     packages |>
       filter(is.na(hex)) |>
@@ -440,23 +455,6 @@ rjh_packages <- function() {
       left_join(extended_titles, by = "package") |>
       mutate(title = if_else(is.na(alt_title), title, alt_title))
 
-    # Exclude packages I haven't had much to do with or are outdated or archived
-    packages <- packages |>
-      filter(
-        !package %in%
-          c(
-            "anomalous",
-            "bayesforecast",
-            "DescTools",
-            "fracdiff",
-            "nortsTest",
-            "rmarkdown",
-            "robets",
-            "smoothAPC",
-            "fpp",
-            "icons"
-          )
-      )
     # Fix URL of weird
     packages <- packages |>
       mutate(
