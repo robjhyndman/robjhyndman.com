@@ -1,5 +1,7 @@
 # Writes `title`, `author`, `details` and `doi` into each publication's
-# front matter from its rjhpubs.bib entry.
+# front matter from its rjhpubs.bib entry, and regenerates `categories` when
+# it no longer matches the entry's type (e.g. a @techreport that has since
+# become an @article).
 #
 # ~/git/CV/rjhpubs.bib (the CV repo's copy) is the single source of truth:
 # every field this script writes is unconditionally regenerated from it and
@@ -254,6 +256,20 @@ category_for_type <- function(type) {
   )
 }
 
+# Whether an existing file's `categories` is still consistent with its bib
+# type. Mostly that means it equals category_for_type(), but an @article
+# may also have been deliberately recategorised as "Editorials" or
+# "Miscellaneous" by hand, and that choice is kept. Anything else means the
+# bib type has changed (e.g. a @techreport working paper now published as
+# an @article), so the category is regenerated.
+category_matches_type <- function(category, type) {
+  allowed <- category_for_type(type)
+  if (identical(type, "article")) {
+    allowed <- c(allowed, "Editorials", "Miscellaneous")
+  }
+  category %in% allowed
+}
+
 # ---- YAML front-matter editing ------------------------------------------
 
 # Always double-quotes: generated text can contain a ": " sequence (e.g. a
@@ -326,6 +342,16 @@ sync_file <- function(path, lines, e) {
 
   changed <- FALSE
   values <- bib_field_values(e)
+  current_category <- read_simple_field(
+    lines[(dashes[1] + 1):(dashes[2] - 1)],
+    "categories"
+  )
+  if (
+    is.null(current_category) ||
+      !category_matches_type(current_category, e$.type)
+  ) {
+    values$categories <- category_for_type(e$.type)
+  }
   for (field in names(values)) {
     value <- values[[field]]
     if (is.null(value)) {
