@@ -5,21 +5,27 @@ date: 2015-06-01 02:08:36+00:00
 title: "Large-scale unusual time series detection"
 categories: Conference proceedings
 tags:
-- highest density regions
-- R
-- seasonality
-- software
-- time series
+  - highest density regions
+  - R
+  - seasonality
+  - software
+  - time series
 file: icdm2015.pdf
 aliases:
   - /publications/cikm2015
-bibkey: cikm2015
-details: "<em>Proceedings of the IEEE International Conference on Data Mining</em>, pp. 1616–1619. Atlantic City, NJ, USA. 14--17 November 2015"
+bibkey: icdm2015
+details: "<em>Proceedings of the IEEE International Conference on Data Mining Workshop (ICDMW)</em>, pp. 1616–1619, Atlantic City, NJ, USA. 14--17 November 2015"
 doi: 10.1109/ICDMW.2015.104
 ---
 
-It is becoming increasingly common for organizations to collect very large amounts of data over time, and to need to detect unusual or anomalous time series. For example, Yahoo has banks of mail servers that are monitored over time. Many measurements on server performance are collected every hour for each of thousands of servers. We wish to identify servers that are behaving unusually.
+It is becoming increasingly common for organizations to collect very large amounts of data over time, and to need to detect unusual or anomalous time series.
+For example, Yahoo has banks of mail servers that are monitored over time.
+Many measurements on server performance are collected every hour for each of thousands of servers.
+We wish to identify servers that are behaving unusually.
 
-We compute a vector of features on each time series, measuring characteristics of the series. The features may include lag correlation, strength of seasonality, spectral entropy, etc. Then we use a principal component decomposition on the features, and use various bivariate outlier detection methods applied to the first two principal components. This enables the most unusual series, based on their feature vectors, to be identified. The bivariate outlier detection methods used are based on highest density regions and $\alpha$-hulls.
+We compute a vector of features on each time series, measuring characteristics of the series.
+The features may include lag correlation, strength of seasonality, spectral entropy, etc. Then we use a principal component decomposition on the features, and use various bivariate outlier detection methods applied to the first two principal components.
+This enables the most unusual series, based on their feature vectors, to be identified.
+The bivariate outlier detection methods used are based on highest density regions and $\alpha$-hulls.
 
 [Associated R package](http://github.com/robjhyndman/anomalous)
