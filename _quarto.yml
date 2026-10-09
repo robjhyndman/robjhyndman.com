@@ -1,5 +1,9 @@
 project:
   type: website
+  pre-render:
+    - update_podcast_date.R
+    - sync_bib_fields.R
+    - software/update_package_meta.R
   render:
     - "*.qmd"
     - "*.md"

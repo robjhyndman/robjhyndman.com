@@ -15,8 +15,18 @@
 # EXCLUDE_KEYS below lists bibkeys that deliberately have no publications/ page
 # (books and sub-projects with their own dedicated page elsewhere on the site).
 #
-# Usage: Rscript sync_bib_fields.R (run by `make preview` / `make build`,
-# before quarto render/preview)
+# Usage: Rscript sync_bib_fields.R (also run by Quarto as a pre-render
+# script; see _quarto.yml)
+
+# Run as a Quarto pre-render script: skip partial renders (single files, and
+# re-renders during preview) so this only runs for full renders and preview
+# start-up. Still runs when called directly with Rscript.
+if (
+  Sys.getenv("QUARTO_PROJECT_INPUT_FILES") != "" &&
+    Sys.getenv("QUARTO_PROJECT_RENDER_ALL") != "1"
+) {
+  quit(save = "no")
+}
 
 library(stringr)
 

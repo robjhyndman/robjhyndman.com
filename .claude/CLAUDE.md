@@ -9,15 +9,15 @@ This is the source for [robjhyndman.com](https://robjhyndman.com), a personal ac
 ## Commands
 
 ```bash
-make preview    # Rscript update_podcast_date.R + sync_bib_fields.R, then quarto preview
-make build      # Same pre-steps, then quarto render (main site + unbelievable/ + prato2023/)
+make preview    # quarto preview
+make build      # quarto render (main site + unbelievable/ + prato2023/)
 make deploy     # Build + make_xml.R + rsync to remote server (requires SSH access)
 make clean      # Delete _site/
 ```
 
 The main site excludes `unbelievable/` and `prato2023/` from the default render — they are built separately via `make build`.
 
-`update_podcast_date.R` bumps `hyndsight/podcasts/index.qmd`'s `date` when `podcasts.qmd` has a newer episode. `sync_bib_fields.R` regenerates publication front matter from the bib file — see below.
+Three pre-render scripts are listed under `project: pre-render:` in `_quarto.yml`, so Quarto runs them before a full render and at preview start-up (each skips partial renders, e.g. `quarto render file.qmd` or preview re-renders on save). `update_podcast_date.R` bumps `hyndsight/podcasts/index.qmd`'s `date` when `podcasts.qmd` has a newer episode. `sync_bib_fields.R` regenerates publication front matter from the bib file — see below. `software/update_package_meta.R` refreshes `software/package_meta.rds` (CRAN/GitHub metadata and download counts, via `package_meta()` in `software/software_functions.R`) when it is 30+ days old.
 
 ## Content architecture
 
@@ -56,7 +56,7 @@ file: paper.pdf              # optional, place file in same directory
 
 Files live either flat as `publications/<slug>.md` (current convention for new entries) or as `publications/<slug>/index.md` (older layout, still present for existing entries).
 
-`author`, `title`, `details`, and `doi` are **generated, not hand-edited**: `sync_bib_fields.R` (run by `make preview`/`make build`) reads `~/git/CV/rjhpubs.bib` — the CV repo's checkout, the single source of truth — and overwrites those fields from the entry matching `bibkey`. It also creates a new `publications/<slug>.md` for any bib entry with no matching file yet (skipping bibkeys listed in `EXCLUDE_KEYS`, e.g. books with their own dedicated page). Edit the bib entry in the CV repo, not the front matter here, to change these fields. `categories` is also regenerated (from the bib entry type) when it contradicts that type, e.g. `Working papers` on what is now an `@article`; a hand-set `Editorials` or `Miscellaneous` on an `@article` is kept. A separate Lua filter, `publications/inject-bibtex.lua`, injects the raw BibTeX entry into the page for the "Cite" section at render time — it reads the same bib file but doesn't touch front matter.
+`author`, `title`, `details`, and `doi` are **generated, not hand-edited**: `sync_bib_fields.R` (a pre-render script) reads `~/git/CV/rjhpubs.bib` — the CV repo's checkout, the single source of truth — and overwrites those fields from the entry matching `bibkey`. It also creates a new `publications/<slug>.md` for any bib entry with no matching file yet (skipping bibkeys listed in `EXCLUDE_KEYS`, e.g. books with their own dedicated page). Edit the bib entry in the CV repo, not the front matter here, to change these fields. `categories` is also regenerated (from the bib entry type) when it contradicts that type, e.g. `Working papers` on what is now an `@article`; a hand-set `Editorials` or `Miscellaneous` on an `@article` is kept. A separate Lua filter, `publications/inject-bibtex.lua`, injects the raw BibTeX entry into the page for the "Cite" section at render time — it reads the same bib file but doesn't touch front matter.
 
 **Seminars** (`seminars/`):
 ```yaml

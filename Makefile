@@ -2,14 +2,14 @@
 
 default: preview
 
+.PHONY: preview build deploy clean
+
+# Pre-render scripts (podcast date, bib sync, package metadata) are run by
+# Quarto itself; see project: pre-render: in _quarto.yml
 preview:
-	Rscript update_podcast_date.R
-	Rscript sync_bib_fields.R
 	quarto preview
 
 build:
-	Rscript update_podcast_date.R
-	Rscript sync_bib_fields.R
 	quarto render
 	quarto render unbelievable
 	quarto render prato2023
