@@ -166,392 +166,397 @@ add_section <- function(packages, section_name, include) {
   bind_rows(out, inc)
 }
 
+# Metadata (incl. downloads) for CRAN and Github packages.
+# The query is slow, so the result is cached in software/package_meta.rds
+# and only refreshed when older than max_age days (or when refresh = TRUE).
+package_meta <- function(max_age = 30, refresh = FALSE) {
+  cache <- here::here("software/package_meta.rds")
+  if (!refresh && fs::file_exists(cache)) {
+    age <- Sys.Date() - anytime::anydate(fs::file_info(cache)$modification_time)
+    if (age < max_age) {
+      return(readRDS(cache))
+    }
+  }
+  # Github repos
+  github <- read.table("~/git/CV/github_r_repos.txt")$V1
+  # Combine CRAN and github repos
+  meta <- pkgmeta::get_meta(
+    cran_author = "Hyndman",
+    include_downloads = TRUE,
+    start = as.character(lubridate::ymd(Sys.Date() - 91)),
+    github_repos = github
+  ) |>
+    # Average monthly downloads in last 3 months
+    mutate(downloads = downloads / 3)
+  saveRDS(meta, file = cache)
+  meta
+}
+
+# Packages tibble with hex stickers, references and sections added
 rjh_packages <- function() {
-  # Get most recent packages file
-  if (fs::file_exists(here::here("software/packages.rds"))) {
-    packages <- readRDS(here::here("software/packages.rds"))
-    info <- fs::file_info(here::here("software/packages.rds"))
-    recent_run <- (Sys.Date() == anytime::anydate(info$modification_time))
-  } else {
-    recent_run <- FALSE
-  }
-  if (recent_run) {
-    return(packages)
-  } else {
-    # Create new packages tibble
-    # Github repos
-    github <- read.table("~/git/CV/github_r_repos.txt")$V1
-    # Combine CRAN and github repos
-    cran_github <- pkgmeta::get_meta(
-      cran_author = "Hyndman",
-      include_downloads = TRUE,
-      start = as.character(lubridate::ymd(Sys.Date() - 91)),
-      github_repos = github
+  cran_github <- package_meta() |>
+    mutate(
+      url = if_else(
+        url == "https://OTexts.com/fpp3/",
+        "http://pkg.robjhyndman.com/fpp3/",
+        url
+      )
+    )
+  # Add location of hex stickers
+  hex_stickers <- tribble(
+    ~package                                                                              ,
+    ~hex                                                                                  ,
+    "conformalForecast"                                                                   ,
+    "https://xqnwang.github.io/conformalForecast/logo.svg"                                ,
+    "distributional"                                                                      ,
+    "https://github.com/mitchelloharawild/distributional/raw/main/hex/distributional.png" ,
+    "cricketdata"                                                                         ,
+    "http://pkg.robjhyndman.com/cricketdata/reference/figures/cricketdata.png"            ,
+    "conduits"                                                                            ,
+    "https://github.com/PuwasalaG/conduits/raw/master/man/figures/logo.png"               ,
+    "fable"                                                                               ,
+    "https://fable.tidyverts.org/reference/figures/logo.png"                              ,
+    "fasster"                                                                             ,
+    "stickers/fasstersticker.resized.png"                                                 ,
+    "feasts"                                                                              ,
+    "https://feasts.tidyverts.org/reference/figures/logo.png"                             ,
+    "forecast"                                                                            ,
+    "https://pkg.robjhyndman.com/forecast/reference/figures/logo.png"                     ,
+    "gghdr"                                                                               ,
+    "https://sayani07.github.io/gghdr/reference/figures/logo.png"                         ,
+    "gratis"                                                                              ,
+    "https://github.com/ykang/gratis/raw/master/man/figures/logo.PNG"                     ,
+    "gravitas"                                                                            ,
+    "https://github.com/Sayani07/gravitas/raw/master/man/figures/logo.png"                ,
+    "hts"                                                                                 ,
+    "stickers/htssticker.resized.png"                                                     ,
+    "lookout"                                                                             ,
+    "https://sevvandi.github.io/lookout/reference/figures/logo.png"                       ,
+    "oddnet"                                                                              ,
+    "https://raw.githubusercontent.com/sevvandi/oddnet/master/man/figures/oddnet.png"     ,
+    "oddstream"                                                                           ,
+    "https://github.com/pridiltal/oddstream/raw/master/man/figures/logo.png"              ,
+    "oddwater"                                                                            ,
+    "https://github.com/pridiltal/oddwater/raw/master/man/fig/logo.png"                   ,
+    "rticles"                                                                             ,
+    "https://pkgs.rstudio.com/rticles/logo.png"                                           ,
+    "seer"                                                                                ,
+    "https://github.com/thiyangt/seer/raw/master/logo/seer.png"                           ,
+    "stray"                                                                               ,
+    "https://github.com/pridiltal/stray/raw/master/man/figures/logo.png"                  ,
+    "sugrrants"                                                                           ,
+    "stickers/sugrrantssticker.resized.png"                                               ,
+    "thief"                                                                               ,
+    "https://pkg.robjhyndman.com/thief/reference/figures/logo.png"                        ,
+    "tsibble"                                                                             ,
+    "https://tsibble.tidyverts.org/reference/figures/logo.png"                            ,
+    "tsibbledata"                                                                         ,
+    "https://tsibbledata.tidyverts.org/reference/figures/logo.png"                        ,
+    "vitae"                                                                               ,
+    "https://pkg.mitchelloharawild.com/vitae/reference/figures/logo.png"                  ,
+    "vital"                                                                               ,
+    "https://pkg.robjhyndman.com/vital/reference/figures/vital-hex.png"                   ,
+    "weird"                                                                               ,
+    "https://pkg.robjhyndman.com/weird/reference/figures/weird-hex.png"                   ,
+    "fpp2"                                                                                ,
+    "https://pkg.robjhyndman.com/fpp2/logo.png"                                           ,
+    "fpp3"                                                                                ,
+    "https://pkg.robjhyndman.com/fpp3/logo.png"                                           ,
+    "ozbabynames"                                                                         ,
+    "https://pkg.robjhyndman.com/ozbabynames/logo.png"                                    ,
+    "spiderorchid"                                                                        ,
+    "https://numbats.github.io/spiderorchid/reference/figures/spiderorchid-hex.png"       ,
+    "pkgmeta"                                                                             ,
+    "https://pkg.robjhyndman.com/pkgmeta/reference/figures/pkgmeta-hex.png"               ,
+    "eechidna"                                                                            ,
+    "stickers/eechidna.png"                                                               ,
+    "calcal"                                                                              ,
+    "https://pkg.robjhyndman.com/calcal/logo.png"                                         ,
+    "ggtime"                                                                              ,
+    "https://github.com/mitchelloharawild/ggtime/raw/main/hex/ggtime.png"                 ,
+    "expsmooth"                                                                           ,
+    "https://pkg.robjhyndman.com/expsmooth/reference/figures/expsmooth-hex.png"           ,
+    "fma"                                                                                 ,
+    "https://pkg.robjhyndman.com/fma/reference/figures/fma-hex.png"                       ,
+    "hdrcde"                                                                              ,
+    "https://pkg.robjhyndman.com/hdrcde/reference/figures/hdrcde-hex.png"                 ,
+    "tsfeatures"                                                                          ,
+    "https://pkg.robjhyndman.com/tsfeatures/reference/figures/tsfeatures-hex.png"
+  )
+  packages <- cran_github |> left_join(hex_stickers, by = "package")
+
+  # Exclude packages I haven't had much to do with or are outdated or archived
+  # (before generating stickers, so none are created for excluded packages)
+  packages <- packages |>
+    filter(
+      !package %in%
+        c(
+          "anomalous",
+          "bayesforecast",
+          "DescTools",
+          "fracdiff",
+          "nortsTest",
+          "rmarkdown",
+          "robets",
+          "smoothAPC",
+          "fpp",
+          "icons"
+        )
+    )
+
+  # Create generic hex stickers where they don't exist
+  packages |>
+    filter(is.na(hex)) |>
+    pull(package) |>
+    generic_stickers()
+  packages <- packages |>
+    mutate(
+      hex = if_else(!is.na(hex), hex, paste0("stickers/", package, ".png"))
+    )
+
+  # Add reference links to related papers
+  # Syntax: package, publication slug, citation
+  references <- packages |>
+    select(package) |>
+    # Avoid duplicates
+    distinct() |>
+    mutate(
+      publication = NA_character_,
+      citation = NA_character_,
+      publication2 = NA_character_,
+      citation2 = NA_character_
     ) |>
-      # Average monthly downloads in last 3 months
-      mutate(downloads = downloads / 3)
-    cran_github <- cran_github |>
-      mutate(
-        url = if_else(
-          url == "https://OTexts.com/fpp3/",
-          "http://pkg.robjhyndman.com/fpp3/",
-          url
-        )
+    add_reference("bfast", "bfast1", "Verbesselt et al (2010a)") |>
+    add_reference("bfast", "bfast2", "Verbesselt et al (2010b)") |>
+    add_reference(
+      "demography",
+      "coherentfdm",
+      "Hyndman, Booth & Yasmeen (2013)"
+    ) |>
+    add_reference("demography", "funcfor", "Hyndman & Ullah (2007)") |>
+    add_reference("eechidna", "elections", "Forbes, Cook & Hyndman (2020)") |>
+    add_reference(
+      "forecast",
+      "automatic-forecasting",
+      "Hyndman & Khandakar (2008)"
+    ) |>
+    add_reference(
+      "gghdr",
+      "computing-and-graphing-highest-density-regions",
+      "Hyndman (1996)"
+    ) |>
+    add_reference("gratis", "gratis", "Kang, Hyndman & Li (2020)") |>
+    add_reference(
+      "gravitas",
+      "gravitas",
+      "Gupta, Hyndman, Cook & Unwin (2020)"
+    ) |>
+    add_reference(
+      "hdrcde",
+      "computing-and-graphing-highest-density-regions",
+      "Hyndman (1996)"
+    ) |>
+    add_reference(
+      "hdrcde",
+      "estimating-and-visualizing-conditional-densities",
+      "Hyndman, Bashtannyk & Grunwald (1996)"
+    ) |>
+    add_reference(
+      "hts",
+      "hierarchical",
+      "Hyndman, Ahmed, Athanasopoulos & Shang (2011)"
+    ) |>
+    add_reference(
+      "hts",
+      "mint",
+      "Wickramasuriya, Athanasopoulos & Hyndman (2019)"
+    ) |>
+    add_reference(
+      "lookout",
+      "lookout",
+      "Kandanaarachchi and Hyndman (2021)"
+    ) |>
+    add_reference(
+      "MEFM",
+      "peak-electricity-demand",
+      "Hyndman & Fan (2010)"
+    ) |>
+    add_reference(
+      "oddstream",
+      "oddstream",
+      "Talagala, Hyndman, Smith-Miles, Kandanaarachichi & Muñoz (2020)"
+    ) |>
+    add_reference(
+      "oddwater",
+      "oddwater",
+      "Talagala, Hyndman, Leigh, Mengersen & Smith-Miles (2019)"
+    ) |>
+    add_reference("rainbow", "rainbow-fda", "Hyndman & Shang (2010)") |>
+    add_reference(
+      "seer",
+      "fforms",
+      "Talagala, Hyndman & Athanasopoulos (2018)"
+    ) |>
+    add_reference(
+      "Rsfar",
+      "sfar",
+      "Zamani, Haghbin, Hashemi & Hyndman (2001)"
+    ) |>
+    add_reference("stR", "str", "Dokumentov & Hyndman (2020)") |>
+    add_reference(
+      "stray",
+      "stray",
+      "Talagala, Hyndman & Smith-Miles (2021)"
+    ) |>
+    add_reference(
+      "sugrrants",
+      "calendar-vis",
+      "Wang, Cook & Hyndman (2020)"
+    ) |>
+    add_reference(
+      "thief",
+      "temporal-hierarchies",
+      "Athanasopoulos et al (2017)"
+    ) |>
+    add_reference(
+      "tsfeatures",
+      "icdm2015",
+      "Hyndman, Wang & Laptev (2015)"
+    ) |>
+    add_reference(
+      "tsfeatures",
+      "ts-feature-space",
+      "Kang, Hyndman & Smith-Miles (2017)"
+    ) |>
+    add_reference(
+      "conformalForecast",
+      "cpts.html",
+      "Wang & Hyndman (2024)"
+    ) |>
+    add_reference("conduits", "condnormts.html", "Gamakumara et al (2023)") |>
+    add_reference("tsibble", "tsibble", "Wang, Cook & Hyndman (2020)") |>
+    add_reference("oddnet", "oddnet", "Kandanaarachchi & Hyndman (2022)") |>
+    add_reference("feasts", "fpp3", "Hyndman & Athanasopoulos (2021)") |>
+    add_reference("fable", "fpp3", "Hyndman & Athanasopoulos (2021)") |>
+    add_reference("fabletools", "fpp3", "Hyndman & Athanasopoulos (2021)")
+
+  packages <- left_join(packages, references)
+
+  # Improved titles for books and others
+  extended_titles <- tribble(
+    ~package                                                                                                                                                                                     ,
+    ~alt_title                                                                                                                                                                                   ,
+    "compenginets"                                                                                                                                                                               ,
+    "Time series data from <a href='https://www.comp-engine.org/'>comp-engine.org</a>"                                                                                                           ,
+    "expsmooth"                                                                                                                                                                                  ,
+    "Data sets from <a href='http://www.exponentialsmoothing.net/'>Hyndman, Koehler, Ord & Snyder (2008), <i>Forecasting with exponential smoothing: the state space approach</i>, Springer</a>" ,
+    "fma"                                                                                                                                                                                        ,
+    "Data sets from <a href='https://robjhyndman.com/forecasting/'>Makridakis, Wheelwright & Hyndman (1998), <i>Forecasting: methods and applications</i>, Wiley</a>"                            ,
+    "fpp2"                                                                                                                                                                                       ,
+    "Data sets from <a href='https://OTexts.com/fpp2'>Hyndman & Athanasopoulos (2018) <i>Forecasting: principles and practice</i>, 2nd edition, OTexts</a>"                                      ,
+    "fpp3"                                                                                                                                                                                       ,
+    "Data sets from <a href='https://OTexts.com/fpp3'>Hyndman & Athanasopoulos (2021) <i>Forecasting: principles and practice</i>, 3rd edition, OTexts</a>"                                      ,
+    "weird"                                                                                                                                                                                      ,
+    "Functions and data sets from <a href='https://OTexts.com/weird/'>Hyndman (2024) <i>That's weird: anomaly detection using R</i>, OTexts</a>"                                                 ,
+  )
+  packages <- packages |>
+    left_join(extended_titles, by = "package") |>
+    mutate(title = if_else(is.na(alt_title), title, alt_title))
+
+  # Fix URL of weird
+  packages <- packages |>
+    mutate(
+      url = if_else(
+        package == "weird",
+        "https://pkg.robjhyndman.com/weird/",
+        url
       )
-    # Add location of hex stickers
-    hex_stickers <- tribble(
-      ~package                                                                          ,
-      ~hex                                                                              ,
-      "cricketdata"                                                                     ,
-      "http://pkg.robjhyndman.com/cricketdata/reference/figures/cricketdata.png"        ,
-      "conduits"                                                                        ,
-      "https://github.com/PuwasalaG/conduits/raw/master/man/figures/logo.png"           ,
-      "fable"                                                                           ,
-      "https://fable.tidyverts.org/reference/figures/logo.png"                          ,
-      "fasster"                                                                         ,
-      "stickers/fasstersticker.resized.png"                                             ,
-      "feasts"                                                                          ,
-      "https://feasts.tidyverts.org/reference/figures/logo.png"                         ,
-      "forecast"                                                                        ,
-      "https://pkg.robjhyndman.com/forecast/reference/figures/logo.png"                 ,
-      "gghdr"                                                                           ,
-      "https://sayani07.github.io/gghdr/reference/figures/logo.png"                     ,
-      "gratis"                                                                          ,
-      "https://github.com/ykang/gratis/raw/master/man/figures/logo.PNG"                 ,
-      "gravitas"                                                                        ,
-      "https://github.com/Sayani07/gravitas/raw/master/man/figures/logo.png"            ,
-      "hts"                                                                             ,
-      "stickers/htssticker.resized.png"                                                 ,
-      "lookout"                                                                         ,
-      "https://sevvandi.github.io/lookout/reference/figures/logo.png"                   ,
-      "oddnet"                                                                          ,
-      "https://raw.githubusercontent.com/sevvandi/oddnet/master/man/figures/oddnet.png" ,
-      "oddstream"                                                                       ,
-      "https://github.com/pridiltal/oddstream/raw/master/man/figures/logo.png"          ,
-      "oddwater"                                                                        ,
-      "https://github.com/pridiltal/oddwater/raw/master/man/fig/logo.png"               ,
-      "rticles"                                                                         ,
-      "https://pkgs.rstudio.com/rticles/logo.png"                                       ,
-      "seer"                                                                            ,
-      "https://github.com/thiyangt/seer/raw/master/logo/seer.png"                       ,
-      "stray"                                                                           ,
-      "https://github.com/pridiltal/stray/raw/master/man/figures/logo.png"              ,
-      "sugrrants"                                                                       ,
-      "stickers/sugrrantssticker.resized.png"                                           ,
-      "thief"                                                                           ,
-      "https://pkg.robjhyndman.com/thief/reference/figures/logo.png"                    ,
-      "tsibble"                                                                         ,
-      "https://tsibble.tidyverts.org/reference/figures/logo.png"                        ,
-      "tsibbledata"                                                                     ,
-      "https://tsibbledata.tidyverts.org/reference/figures/logo.png"                    ,
-      "vitae"                                                                           ,
-      "https://pkg.mitchelloharawild.com/vitae/reference/figures/logo.png"              ,
-      "vital"                                                                           ,
-      "https://pkg.robjhyndman.com/vital/reference/figures/vital-hex.png"               ,
-      "weird"                                                                           ,
-      "https://pkg.robjhyndman.com/weird/reference/figures/weird-hex.png"               ,
-      "fpp2"                                                                            ,
-      "https://pkg.robjhyndman.com/fpp2/logo.png"                                       ,
-      "fpp3"                                                                            ,
-      "https://pkg.robjhyndman.com/fpp3/logo.png"                                       ,
-      "ozbabynames"                                                                     ,
-      "https://pkg.robjhyndman.com/ozbabynames/logo.png"                                ,
-      "spiderorchid"                                                                    ,
-      "https://numbats.github.io/spiderorchid/reference/figures/spiderorchid-hex.png"   ,
-      "pkgmeta"                                                                         ,
-      "https://pkg.robjhyndman.com/pkgmeta/reference/figures/pkgmeta-hex.png"           ,
-      "eechidna"                                                                        ,
-      "stickers/eechidna.png"                                                           ,
-      "calcal"                                                                          ,
-      "https://pkg.robjhyndman.com/calcal/logo.png"                                     ,
-      "ggtime"                                                                          ,
-      "https://github.com/mitchelloharawild/ggtime/raw/main/hex/ggtime.png"             ,
-      "expsmooth"                                                                       ,
-      "https://pkg.robjhyndman.com/expsmooth/reference/figures/expsmooth-hex.png"       ,
-      "fma"                                                                             ,
-      "https://pkg.robjhyndman.com/fma/reference/figures/fma-hex.png"                   ,
-      "hdrcde"                                                                          ,
-      "https://pkg.robjhyndman.com/hdrcde/reference/figures/hdrcde-hex.png"             ,
-      "tsfeatures"                                                                      ,
-      "https://pkg.robjhyndman.com/tsfeatures/reference/figures/tsfeatures-hex.png"
     )
-    packages <- cran_github |> left_join(hex_stickers, by = "package")
-
-    # Exclude packages I haven't had much to do with or are outdated or archived
-    # (before generating stickers, so none are created for excluded packages)
-    packages <- packages |>
-      filter(
-        !package %in%
-          c(
-            "anomalous",
-            "bayesforecast",
-            "DescTools",
-            "fracdiff",
-            "nortsTest",
-            "rmarkdown",
-            "robets",
-            "smoothAPC",
-            "fpp",
-            "icons"
-          )
-      )
-
-    # Create generic hex stickers where they don't exist
-    packages |>
-      filter(is.na(hex)) |>
-      pull(package) |>
-      generic_stickers()
-    packages <- packages |>
-      mutate(
-        hex = if_else(!is.na(hex), hex, paste0("stickers/", package, ".png"))
-      )
-
-    # Add reference links to related papers
-    # Syntax: package, publication slug, citation
-    references <- packages |>
-      select(package) |>
-      # Avoid duplicates
-      distinct() |>
-      mutate(
-        publication = NA_character_,
-        citation = NA_character_,
-        publication2 = NA_character_,
-        citation2 = NA_character_
-      ) |>
-      add_reference("bfast", "bfast1", "Verbesselt et al (2010a)") |>
-      add_reference("bfast", "bfast2", "Verbesselt et al (2010b)") |>
-      add_reference(
-        "demography",
-        "coherentfdm",
-        "Hyndman, Booth & Yasmeen (2013)"
-      ) |>
-      add_reference("demography", "funcfor", "Hyndman & Ullah (2007)") |>
-      add_reference("eechidna", "elections", "Forbes, Cook & Hyndman (2020)") |>
-      add_reference(
-        "forecast",
-        "automatic-forecasting",
-        "Hyndman & Khandakar (2008)"
-      ) |>
-      add_reference(
-        "gghdr",
-        "computing-and-graphing-highest-density-regions",
-        "Hyndman (1996)"
-      ) |>
-      add_reference("gratis", "gratis", "Kang, Hyndman & Li (2020)") |>
-      add_reference(
-        "gravitas",
-        "gravitas",
-        "Gupta, Hyndman, Cook & Unwin (2020)"
-      ) |>
-      add_reference(
-        "hdrcde",
-        "computing-and-graphing-highest-density-regions",
-        "Hyndman (1996)"
-      ) |>
-      add_reference(
-        "hdrcde",
-        "estimating-and-visualizing-conditional-densities",
-        "Hyndman, Bashtannyk & Grunwald (1996)"
-      ) |>
-      add_reference(
-        "hts",
-        "hierarchical",
-        "Hyndman, Ahmed, Athanasopoulos & Shang (2011)"
-      ) |>
-      add_reference(
-        "hts",
-        "mint",
-        "Wickramasuriya, Athanasopoulos & Hyndman (2019)"
-      ) |>
-      add_reference(
-        "lookout",
-        "lookout",
-        "Kandanaarachchi and Hyndman (2021)"
-      ) |>
-      add_reference(
-        "MEFM",
-        "peak-electricity-demand",
-        "Hyndman & Fan (2010)"
-      ) |>
-      add_reference(
-        "oddstream",
-        "oddstream",
-        "Talagala, Hyndman, Smith-Miles, Kandanaarachichi & Muñoz (2020)"
-      ) |>
-      add_reference(
-        "oddwater",
-        "oddwater",
-        "Talagala, Hyndman, Leigh, Mengersen & Smith-Miles (2019)"
-      ) |>
-      add_reference("rainbow", "rainbow-fda", "Hyndman & Shang (2010)") |>
-      add_reference(
-        "seer",
-        "fforms",
-        "Talagala, Hyndman & Athanasopoulos (2018)"
-      ) |>
-      add_reference(
-        "Rsfar",
-        "sfar",
-        "Zamani, Haghbin, Hashemi & Hyndman (2001)"
-      ) |>
-      add_reference("stR", "str", "Dokumentov & Hyndman (2020)") |>
-      add_reference(
-        "stray",
-        "stray",
-        "Talagala, Hyndman & Smith-Miles (2021)"
-      ) |>
-      add_reference(
+  # Add in section information
+  packages <- packages |>
+    arrange(package) |>
+    add_section(
+      "Tidy time series analysis and forecasting",
+      c(
+        "tsibble",
+        "tsibbledata",
+        "ggtime",
+        "feasts",
+        "fable",
+        "fabletools",
+        "fable.binary",
+        "fasster",
         "sugrrants",
-        "calendar-vis",
-        "Wang, Cook & Hyndman (2020)"
-      ) |>
-      add_reference(
-        "thief",
-        "temporal-hierarchies",
-        "Athanasopoulos et al (2017)"
-      ) |>
-      add_reference(
-        "tsfeatures",
-        "icdm2015",
-        "Hyndman, Wang & Laptev (2015)"
-      ) |>
-      add_reference(
-        "tsfeatures",
-        "ts-feature-space",
-        "Kang, Hyndman & Smith-Miles (2017)"
-      ) |>
-      add_reference(
-        "conformalForecast",
-        "cpts.html",
-        "Wang & Hyndman (2024)"
-      ) |>
-      add_reference("conduits", "condnormts.html", "Gamakumara et al (2023)") |>
-      add_reference("tsibble", "tsibble", "Wang, Cook & Hyndman (2020)") |>
-      add_reference("oddnet", "oddnet", "Kandanaarachchi & Hyndman (2022)") |>
-      add_reference("feasts", "fpp3", "Hyndman & Athanasopoulos (2021)") |>
-      add_reference("fable", "fpp3", "Hyndman & Athanasopoulos (2021)") |>
-      add_reference("fabletools", "fpp3", "Hyndman & Athanasopoulos (2021)")
-
-    packages <- left_join(packages, references)
-
-    # Improved titles for books and others
-    extended_titles <- tribble(
-      ~package                                                                                                                                                                                     ,
-      ~alt_title                                                                                                                                                                                   ,
-      "compenginets"                                                                                                                                                                               ,
-      "Time series data from <a href='https://www.comp-engine.org/'>comp-engine.org</a>"                                                                                                           ,
-      "expsmooth"                                                                                                                                                                                  ,
-      "Data sets from <a href='http://www.exponentialsmoothing.net/'>Hyndman, Koehler, Ord & Snyder (2008), <i>Forecasting with exponential smoothing: the state space approach</i>, Springer</a>" ,
-      "fma"                                                                                                                                                                                        ,
-      "Data sets from <a href='https://robjhyndman.com/forecasting/'>Makridakis, Wheelwright & Hyndman (1998), <i>Forecasting: methods and applications</i>, Wiley</a>"                            ,
-      "fpp2"                                                                                                                                                                                       ,
-      "Data sets from <a href='https://OTexts.com/fpp2'>Hyndman & Athanasopoulos (2018) <i>Forecasting: principles and practice</i>, 2nd edition, OTexts</a>"                                      ,
-      "fpp3"                                                                                                                                                                                       ,
-      "Data sets from <a href='https://OTexts.com/fpp3'>Hyndman & Athanasopoulos (2021) <i>Forecasting: principles and practice</i>, 3rd edition, OTexts</a>"                                      ,
-      "weird"                                                                                                                                                                                      ,
-      "Functions and data sets from <a href='https://OTexts.com/weird/'>Hyndman (2024) <i>That's weird: anomaly detection using R</i>, OTexts</a>"                                                 ,
-    )
-    packages <- packages |>
-      left_join(extended_titles, by = "package") |>
-      mutate(title = if_else(is.na(alt_title), title, alt_title))
-
-    # Fix URL of weird
-    packages <- packages |>
-      mutate(
-        url = if_else(
-          package == "weird",
-          "https://pkg.robjhyndman.com/weird/",
-          url
-        )
+        "gravitas"
       )
-    # Add in section information
-    packages <- packages |>
-      arrange(package) |>
-      add_section(
-        "Tidy time series analysis and forecasting",
-        c(
-          "tsibble",
-          "tsibbledata",
-          "ggtime",
-          "feasts",
-          "fable",
-          "fabletools",
-          "fable.binary",
-          "fasster",
-          "sugrrants",
-          "gravitas"
-        )
-      ) |>
-      add_section(
-        "Other time series analysis and forecasting",
-        c(
-          "bfast",
-          "conduits",
-          "forecast",
-          "gratis",
-          "hts",
-          "MEFM",
-          "seer",
-          "stR",
-          "thief",
-          "tsfeatures"
-        )
-      ) |>
-      add_section(
-        "Time series data",
-        c(
-          "compenginets",
-          "expsmooth",
-          "fma",
-          "fpp2",
-          "fpp3",
-          "Mcomp",
-          "tscompdata",
-          "tsdl"
-        )
-      ) |>
-      add_section(
-        "Anomaly detection",
-        c(
-          "lookout",
-          "stray",
-          "oddstream",
-          "oddwater",
-          "oddnet",
-          "weird"
-        )
-      ) |>
-      add_section(
-        "Functional data and demography",
-        c(
-          "addb",
-          "demography",
-          "fds",
-          "ftsa",
-          "rainbow",
-          "Rsfar",
-          "vital"
-        )
-      ) |>
-      add_section(
-        "Rmarkdown",
-        c(
-          "binb",
-          "monash",
-          "rticles",
-          "vitae"
-        )
-      ) |>
-      replace_na(list(section = "Other"))
-    # Put other packages last
-    packages <- bind_rows(
-      packages |> filter(section != "Other"),
-      packages |> filter(section == "Other"),
-    )
-    # Save result
-    saveRDS(packages, file = here::here("software/packages.rds"))
-    return(packages)
-  }
+    ) |>
+    add_section(
+      "Other time series analysis and forecasting",
+      c(
+        "bfast",
+        "conduits",
+        "forecast",
+        "gratis",
+        "hts",
+        "MEFM",
+        "seer",
+        "stR",
+        "thief",
+        "tsfeatures"
+      )
+    ) |>
+    add_section(
+      "Time series data",
+      c(
+        "compenginets",
+        "expsmooth",
+        "fma",
+        "fpp2",
+        "fpp3",
+        "Mcomp",
+        "tscompdata",
+        "tsdl"
+      )
+    ) |>
+    add_section(
+      "Anomaly detection",
+      c(
+        "lookout",
+        "stray",
+        "oddstream",
+        "oddwater",
+        "oddnet",
+        "weird"
+      )
+    ) |>
+    add_section(
+      "Functional data and demography",
+      c(
+        "addb",
+        "demography",
+        "fds",
+        "ftsa",
+        "rainbow",
+        "Rsfar",
+        "vital"
+      )
+    ) |>
+    add_section(
+      "Rmarkdown",
+      c(
+        "binb",
+        "monash",
+        "rticles",
+        "vitae"
+      )
+    ) |>
+    replace_na(list(section = "Other"))
+  # Put other packages last
+  packages <- bind_rows(
+    packages |> filter(section != "Other"),
+    packages |> filter(section == "Other"),
+  )
+  packages
 }
 
 quarto_extension <- function(repo, description) {

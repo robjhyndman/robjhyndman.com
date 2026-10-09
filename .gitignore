@@ -12,7 +12,7 @@ _site/*
 
 /.luarc.json
 .vscode
-packages.rds
+package_meta.rds
 *.kate-swp
 
 **/*.quarto_ipynb
