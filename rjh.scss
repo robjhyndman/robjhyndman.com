@@ -42,7 +42,7 @@ h3,
 h4,
 h5 {
   font-family: $font-family-sans-serif;
-  color: $theme-main;
+  color: lighten($theme-main, 10%);
   font-weight: bold;
 }
 
