@@ -977,9 +977,14 @@ textarea {
   font-size: 1rem;
 }
 
+// Names: Libron has no weight between 400 and 700, so regular; they still
+// stand out as accent-coloured links at 1rem against the 0.9rem grey details
+.team-list li strong {
+  font-weight: normal;
+}
+
 .team-list li::marker {
   color: $theme-main;
-  font-weight: bold;
 }
 
 .badge-stack .badge {
