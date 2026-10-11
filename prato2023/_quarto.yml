@@ -19,9 +19,10 @@ freeze: true
 
 format:
   html:
-    theme: tango
-    css: styles.css
+    theme:
+      - ../rjh.scss
+    mainfont: "Libron, Georgia, serif"
     toc: true
     html-math-method: katex
     include-in-header:
-      file: header.html
+      file: ../header.html

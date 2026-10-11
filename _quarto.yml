@@ -9,6 +9,9 @@ project:
     - "*.md"
     - "!/unbelievable/"
     - "!/prato2023/"
+    - "!/fonts/"
+  resources:
+    - "fonts/*"
 
 website:
   title: "Rob J Hyndman"
@@ -46,13 +49,9 @@ freeze: true
 format:
   html:
     theme:
-      light:
-        - tango
-        - rjh.scss
-      dark:
-        - rjh-dark.scss
+      - rjh.scss
     toc: true
-    mainfont: "Merriweather, Georgia, serif"
+    mainfont: "Libron, Georgia, serif"
     html-math-method: katex
     fontsize: "12pt"
     code-link: true

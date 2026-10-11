@@ -49,7 +49,10 @@ title-block-banner: false
 
 format:
   html:
-    css: styles.css
+    theme:
+      - ../rjh.scss
+      - unbelievable.scss
+    mainfont: "Libron, Georgia, serif"
     toc: true
     include-in-header:
-      file: header.html
+      file: ../header.html
