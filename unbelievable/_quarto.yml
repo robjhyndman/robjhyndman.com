@@ -42,6 +42,8 @@ book:
     - bibliography.md
     - buybook.md
   cover-image: unbelievable.png
+  sidebar:
+    style: docked
 
 number-depth: 1
 
@@ -54,5 +56,6 @@ format:
       - unbelievable.scss
     mainfont: "Libron, Georgia, serif"
     toc: true
+    bread-crumbs: false
     include-in-header:
       file: ../header.html

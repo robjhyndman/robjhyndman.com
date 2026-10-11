@@ -1,3 +1,30 @@
 /*-- scss:defaults --*/
 // Book keeps its own slate accent; everything else comes from ../rjh.scss
 $theme-main: #536878;
+// Wider chapter sidebar (Quarto default 250px)
+$grid-sidebar-width: 300px;
+
+/*-- scss:rules --*/
+// Book sidebar sits on $theme-main: white title and chapter numbers, and a
+// pale gold hover that stays readable on slate (4.5:1)
+.sidebar-title a,
+.sidebar-item .chapter-number {
+  color: #fff;
+}
+
+.sidebar-navigation a:hover,
+.sidebar-navigation a:hover .chapter-number {
+  color: #f3cb5d;
+}
+
+// Current chapter: bold light orange, distinct from the gold hover
+.sidebar-navigation .sidebar-link.active,
+.sidebar-navigation .sidebar-link.active .chapter-number {
+  color: #f7ba2b;
+  font-weight: bold;
+}
+
+// Chapter titles a little larger than the site-wide h1 (1.6rem)
+#title-block-header h1.title {
+  font-size: 2rem;
+}
