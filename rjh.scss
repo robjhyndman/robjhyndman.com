@@ -22,7 +22,11 @@ $h2-font-size: 1.4rem !default;
 $h3-font-size: 1.2rem !default;
 $h4-font-size: 1rem !default;
 
+// Headings: the navy's hue at lower saturation (toned down from lighten($theme-main, 10%))
+$heading-color: #40607d !default;
 $code-block-bg: $theme-gray;
+// Blockquote background tint of $theme-main (the badges' resting tint)
+$blockquote-tint: 0.12 !default;
 
 /*-- scss:rules --*/
 
@@ -42,8 +46,8 @@ h3,
 h4,
 h5 {
   font-family: $font-family-sans-serif;
-  color: lighten($theme-main, 10%);
-  font-weight: bold;
+  color: $heading-color;
+  font-weight: 600;
 }
 
 h1 {
@@ -106,8 +110,9 @@ hr {
 }
 
 blockquote {
-  background: $theme-gray;
-  border-left: 10px solid darken($theme-gray, 30%);
+  // Opaque mixes, not rgba, so a nested blockquote doesn't stack a darker tint
+  background: mix($theme-main, $body-bg, percentage($blockquote-tint));
+  border-left: 10px solid mix($theme-main, $body-bg, 60%);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C" "\201D" "\2018" "\2019";
@@ -115,13 +120,19 @@ blockquote {
   font-size: 95%;
 }
 
-blockquote p {
+// Quarto's .blockquote class greys text that isn't inside a <p> (e.g. after a
+// nested blockquote), so set the colour on the blockquote too
+blockquote p,
+.blockquote {
   color: darken($theme-gray, 70%);
+}
+
+blockquote p {
   display: inline;
 }
 
 blockquote:before {
-  color: darken($theme-gray, 30%);
+  color: mix($theme-main, $body-bg, 60%);
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -520,18 +531,24 @@ nav[role="doc-toc"] .nav-link {
 }
 
 nav[role="doc-toc"] .nav-link:hover {
-  background-color: rgba($theme-main, 0.12);
+  background-color: rgba($theme-main, 0.08);
   color: $theme-main;
 }
 
+// Current section: tinted pill with darker text (as in the OTexts books)
+// rather than a solid pill with white text
 nav[role="doc-toc"] .nav-link.active,
 .sidebar nav[role="doc-toc"] ul > li > a.active,
 .sidebar nav[role="doc-toc"] ul > li > ul > li > a.active {
-  background-color: $theme-main;
-  color: #fff !important;
+  background-color: rgba($theme-main, 0.2);
+  color: mix($theme-main, black, 75%) !important;
   border-left: none;
   font-weight: 500;
-  opacity: 0.8;
+}
+
+// Section TOC text at ~14.9px with the 18px root, so longer titles stay on one line
+.sidebar nav[role="doc-toc"] > ul {
+  font-size: 0.825rem;
 }
 .quarto-categories,
 .quarto-category,

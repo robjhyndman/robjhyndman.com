@@ -3,6 +3,10 @@
 $theme-main: #536878;
 // Wider chapter sidebar (Quarto default 250px)
 $grid-sidebar-width: 300px;
+// Stronger blockquote tint to match the section pills on the paler slate
+$blockquote-tint: 0.2;
+// Keep the book's slate headings (rjh.scss defaults to a toned-down navy)
+$heading-color: lighten($theme-main, 10%);
 
 /*-- scss:rules --*/
 // Book sidebar sits on $theme-main: white title and chapter numbers, and a
@@ -22,6 +26,39 @@ $grid-sidebar-width: 300px;
 .sidebar-navigation .sidebar-link.active .chapter-number {
   color: #f7ba2b;
   font-weight: bold;
+}
+
+// fontsize: 1.125rem in _quarto.yml enlarges every rem, so pin the chapter
+// sidebar to ~14.9px, the same as the section TOC in ../rjh.scss.
+// Chapters sit inside parts, which Quarto sizes with the more specific selector
+.sidebar-navigation .sidebar-item,
+.sidebar-navigation .sidebar-section .sidebar-item {
+  font-size: 0.825rem;
+}
+
+// Hanging indent: chapter numbers right-aligned in their own column, so a
+// wrapped title's second line sits under the title, as in the OTexts books
+#quarto-sidebar .menu-text {
+  display: flex;
+}
+
+#quarto-sidebar .chapter-number {
+  display: block;
+  flex-shrink: 0;
+  width: 1.2em;
+  text-align: right;
+}
+
+#quarto-sidebar .chapter-title {
+  display: block;
+  padding-left: 4px;
+  text-indent: -2px;
+  width: 100%;
+}
+
+.sidebar-title {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
 }
 
 // Chapter titles a little larger than the site-wide h1 (1.6rem)

@@ -9,6 +9,7 @@ project:
     - "*.md"
     - "!/unbelievable/"
     - "!/prato2023/"
+    - "!/tasks/"
     - "!/fonts/"
   resources:
     - "fonts/*"
@@ -18,7 +19,7 @@ website:
   site-url: "https://robjhyndman.com"
   open-graph: true
   navbar:
-    background: "#234460"
+    background: "#31495e"
     left:
       - href: hyndsight/index.qmd
         text: Hyndsight blog
@@ -41,7 +42,8 @@ website:
         href: /subscribe.html
       - icon: rss
         href: https://robjhyndman.com/index.xml
-    background: "#234460"
+    background: "#31495e"
+    foreground: "#d1d8de"
 
 date-format: "D MMMM YYYY"
 freeze: true
@@ -53,7 +55,7 @@ format:
     toc: true
     mainfont: "Libron, Georgia, serif"
     html-math-method: katex
-    fontsize: "12pt"
+    fontsize: 1.0625rem
     code-link: true
     fig-responsive: true
     include-in-header:

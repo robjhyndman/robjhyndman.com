@@ -54,6 +54,7 @@ format:
     theme:
       - ../rjh.scss
       - unbelievable.scss
+    fontsize: 1.125rem
     mainfont: "Libron, Georgia, serif"
     toc: true
     bread-crumbs: false

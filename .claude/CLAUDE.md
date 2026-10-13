@@ -15,7 +15,7 @@ make deploy     # Build + make_xml.R + rsync to remote server (requires SSH acce
 make clean      # Delete _site/
 ```
 
-The main site excludes `unbelievable/` and `prato2023/` from the default render — they are built separately via `make build`. They render straight into `../_site/unbelievable` and `../_site/prato2023`; Quarto warns about this (output dir outside the project, so it won't clean the old `site_libs/`), which is expected and accepted — don't "fix" it. Both reuse the main site's styling: their `_quarto.yml` themes are `tango` + `../rjh.scss` (unbelievable adds `unbelievable.scss` to keep its slate accent; `$theme-main` in `rjh.scss` is `!default` for this) and they include `../header.html`.
+The main site excludes `unbelievable/` and `prato2023/` from the default render — they are built separately via `make build`. They render straight into `../_site/unbelievable` and `../_site/prato2023`; Quarto warns about this (output dir outside the project, so it won't clean the old `site_libs/`), which is expected and accepted — don't "fix" it. Both reuse the main site's styling: their `_quarto.yml` themes are `../rjh.scss` (unbelievable adds `unbelievable.scss` for its slate accent and OTexts-style sidebar and font sizes; `$theme-main` in `rjh.scss` is `!default` for this) and they include `../header.html`.
 
 Three pre-render scripts are listed under `project: pre-render:` in `_quarto.yml`, so Quarto runs them before a full render and at preview start-up (each skips partial renders, e.g. `quarto render file.qmd` or preview re-renders on save). `update_podcast_date.R` bumps `hyndsight/podcasts/index.qmd`'s `date` when `podcasts.qmd` has a newer episode. `sync_bib_fields.R` regenerates publication front matter from the bib file — see below. `software/update_package_meta.R` refreshes `software/package_meta.rds` (CRAN/GitHub metadata and download counts, via `package_meta()` in `software/software_functions.R`) when it is 30+ days old.
 
@@ -92,7 +92,7 @@ After `quarto render`, run `Rscript make_xml.R` (done automatically by `make dep
 
 ## Styling
 
-The site is light-only: the `tango` base theme plus `rjh.scss` (variables under `scss:defaults`, rules under `scss:rules`). Fonts (Libron body, Fira Sans headings/UI, Hack code) are self-hosted in `fonts/`; their `@font-face` rules live in `fonts/fonts.css`, linked as `/fonts/fonts.css` from `header.html`. `fonts/` is a project resource, so renders copy it to `_site/fonts/`. Custom HTML templates for sections live alongside content (e.g., `hyndsight/hyndsight.html`, `publications/publication.html`). The site follows a consistent card/badge/pill visual language across listing pages (homepage, hyndsight, publications, software, seminars) — check existing patterns in `rjh.scss` before introducing new component styles.
+The site is light-only: Quarto's default Bootstrap theme plus `rjh.scss` (variables under `scss:defaults`, rules under `scss:rules`). Fonts (Libron body, Fira Sans headings/UI, Hack code) are self-hosted in `fonts/`; their `@font-face` rules live in `fonts/fonts.css`, linked as `/fonts/fonts.css` from `header.html`. `fonts/` is a project resource, so renders copy it to `_site/fonts/`. Custom HTML templates for sections live alongside content (e.g., `hyndsight/hyndsight.html`, `publications/publication.html`). The site follows a consistent card/badge/pill visual language across listing pages (homepage, hyndsight, publications, software, seminars) — check existing patterns in `rjh.scss` before introducing new component styles.
 
 ## Extensions used
 
