@@ -157,6 +157,12 @@ add_reference <- function(packages, pkg, pub, cite) {
 }
 
 add_section <- function(packages, section_name, include) {
+  # Skip listed packages missing from the metadata, rather than adding NA rows
+  missing <- setdiff(include, packages$package)
+  if (length(missing) > 0) {
+    warning("Not in package metadata: ", paste(missing, collapse = ", "))
+    include <- setdiff(include, missing)
+  }
   out <- packages |>
     filter(!(package %in% include))
   inc <- packages |>
@@ -169,16 +175,20 @@ add_section <- function(packages, section_name, include) {
 # Metadata (incl. downloads) for CRAN and Github packages.
 # The query is slow, so the result is cached in software/package_meta.rds
 # and only refreshed when older than max_age days (or when refresh = TRUE).
+# The cache is also invalidated when this function's code or the list of
+# Github repos changes, as recorded in its "key" attribute.
 package_meta <- function(max_age = 30, refresh = FALSE) {
   cache <- here::here("software/package_meta.rds")
-  if (!refresh && fs::file_exists(cache)) {
-    age <- Sys.Date() - anytime::anydate(fs::file_info(cache)$modification_time)
-    if (age < max_age) {
-      return(readRDS(cache))
-    }
-  }
   # Github repos
   github <- read.table("~/git/CV/github_r_repos.txt")$V1
+  key <- list(code = deparse(sys.function()), github = sort(github))
+  if (!refresh && fs::file_exists(cache)) {
+    age <- Sys.Date() - anytime::anydate(fs::file_info(cache)$modification_time)
+    meta <- readRDS(cache)
+    if (age < max_age && identical(attr(meta, "key"), key)) {
+      return(meta)
+    }
+  }
   # Combine CRAN and github repos
   meta <- pkgmeta::get_meta(
     cran_author = "Hyndman",
@@ -188,6 +198,7 @@ package_meta <- function(max_age = 30, refresh = FALSE) {
   ) |>
     # Average monthly downloads in last 3 months
     mutate(downloads = downloads / 3)
+  attr(meta, "key") <- key
   saveRDS(meta, file = cache)
   meta
 }
@@ -206,6 +217,8 @@ rjh_packages <- function() {
   hex_stickers <- tribble(
     ~package                                                                              ,
     ~hex                                                                                  ,
+    "mixtime"                                                                             ,
+    "https://pkg.mitchelloharawild.com/mixtime/logo.svg"                                  ,
     "conformalForecast"                                                                   ,
     "https://xqnwang.github.io/conformalForecast/logo.svg"                                ,
     "distributional"                                                                      ,
@@ -300,7 +313,8 @@ rjh_packages <- function() {
           "robets",
           "smoothAPC",
           "fpp",
-          "icons"
+          "icons",
+          "TACforecasting"
         )
     )
 
@@ -480,10 +494,11 @@ rjh_packages <- function() {
       c(
         "tsibble",
         "tsibbledata",
+        "mixtime",
         "ggtime",
         "feasts",
-        "fable",
         "fabletools",
+        "fable",
         "fable.binary",
         "fasster",
         "sugrrants",
@@ -493,61 +508,61 @@ rjh_packages <- function() {
     add_section(
       "Other time series analysis and forecasting",
       c(
-        "bfast",
-        "conduits",
         "forecast",
         "gratis",
         "hts",
-        "MEFM",
+        "thief",
+        "tsfeatures",
+        "bfast",
+        "conduits",
         "seer",
         "stR",
-        "thief",
-        "tsfeatures"
+        "MEFM"
       )
     ) |>
     add_section(
       "Time series data",
       c(
-        "compenginets",
-        "expsmooth",
         "fma",
+        "expsmooth",
         "fpp2",
         "fpp3",
         "Mcomp",
         "tscompdata",
-        "tsdl"
+        "tsdl",
+        "compenginets"
       )
     ) |>
     add_section(
       "Anomaly detection",
       c(
+        "weird",
         "lookout",
         "stray",
         "oddstream",
         "oddwater",
-        "oddnet",
-        "weird"
+        "oddnet"
       )
     ) |>
     add_section(
       "Functional data and demography",
       c(
-        "addb",
+        "vital",
         "demography",
         "fds",
         "ftsa",
         "rainbow",
         "Rsfar",
-        "vital"
+        "addb"
       )
     ) |>
     add_section(
       "Rmarkdown",
       c(
-        "binb",
-        "monash",
         "rticles",
-        "vitae"
+        "vitae",
+        "binb",
+        "monash"
       )
     ) |>
     replace_na(list(section = "Other"))
