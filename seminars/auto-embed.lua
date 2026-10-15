@@ -5,7 +5,7 @@
 -- ../pdf.lua.
 local embeds = {
   { key = "youtube", make = dofile(quarto.utils.resolve_path("../youtube.lua")).youtube,
-    marker = function(id) return "youtube.com/embed/" .. id end },
+    marker = function(id) return 'data-youtube="' .. id .. '"' end },
   { key = "pdf", make = dofile(quarto.utils.resolve_path("../pdf.lua")).pdf,
     marker = function(url) return 'data-pdf="' .. url .. '"' end },
 }

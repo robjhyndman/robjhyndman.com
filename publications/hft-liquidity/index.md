@@ -17,4 +17,4 @@ Liquidity is crucial for successful financial markets. It ensures that all inves
 
 ### Talk on this paper given by Michael Hirsch
 
-<iframe width="750" height="550" src="https://www.youtube.com/embed/H7Y-AVrkWFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube H7Y-AVrkWFY >}}

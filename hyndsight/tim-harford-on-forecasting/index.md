@@ -11,7 +11,4 @@ A few weeks ago I had a Skype chat with [Tim Harford](http://timharford.com/), t
 
 He also put out this YouTube summary, for those who don't like to read:
 
-<div class="embed video-player" style="padding-bottom: 4ex;">
-  <iframe class="youtube-player" type="text/html" width="640" height="385" src="https://www.youtube.com/embed/GLFESnkOJTs" allowfullscreen frameborder="0">
-  </iframe><br>
-</div>
+{{< youtube GLFESnkOJTs >}}

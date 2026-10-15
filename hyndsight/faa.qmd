@@ -9,4 +9,4 @@ image: /img/thumbs/faa_video.jpg
 description: The Australian Academy of Science has put out a new video about my work.
 ---
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/uF36wh5Czc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube uF36wh5Czc0 >}}

@@ -53,28 +53,6 @@ $if(slideshare)$
   <iframe src="https://www.slideshare.net/slideshow/embed_code/key/$slideshare$" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe><br>
 </div>
 $endif$
-$if(slides)$
-<!-- HTML slides placed by {{< slides >}} (slides.lua): load the deck in place
-     of the title slide when it is clicked -->
-<script>
-document.querySelectorAll(".slides-embed").forEach(function (box) {
-  var button = box.querySelector(".slides-facade");
-  button.addEventListener("click", function () {
-    button.disabled = true;
-    button.querySelector(".slides-play").textContent = "Loading slides…";
-    var frame = document.createElement("iframe");
-    frame.title = "Slides";
-    frame.allow = "fullscreen";
-    frame.addEventListener("load", function () {
-      button.remove();
-      frame.focus();
-    });
-    frame.src = box.dataset.slides;
-    box.appendChild(frame);
-  });
-});
-</script>
-$endif$
 
 $for(include-after)$
 $include-after$

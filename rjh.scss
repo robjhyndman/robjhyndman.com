@@ -314,22 +314,16 @@ $badge-colors: (
   }
 }
 
-/* Embeds: YouTube (youtube.lua), map (About page), HTML slides */
-.video-player,
+/* Embeds: map (About page), click-to-load videos and slides */
 .map-embed,
-.slides-embed {
+.click-embed {
   position: relative;
   overflow: hidden;
 }
 
-.video-player {
-  padding-top: 56.25%; // 16:9
-}
-
-.youtube-player,
 .map-embed iframe,
-.slides-embed iframe,
-.slides-facade {
+.click-embed iframe,
+.click-facade {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -776,17 +770,17 @@ div.quarto-post .listing-categories .listing-category {
   padding-top: 75%;
 }
 
-/* HTML slides on a seminar page: the title slide, replaced by the deck when
-   clicked (placed by seminars/slides.lua; script in seminars/seminar.html).
-   The deck loads behind the image. */
-.slides-embed {
+/* YouTube videos and HTML slides: a thumbnail or title slide, replaced by
+   the player or deck when clicked (youtube.lua, seminars/slides.lua,
+   click-embed.js). The iframe loads behind the image. */
+.click-embed {
   @extend %frame;
   aspect-ratio: 16 / 9;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   background: $theme-main;
 }
 
-.slides-facade {
+.click-facade {
   z-index: 1;
   padding: 0;
   background: none;
@@ -803,7 +797,7 @@ div.quarto-post .listing-categories .listing-category {
   }
 }
 
-.slides-play {
+.click-play {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -816,17 +810,17 @@ div.quarto-post .listing-categories .listing-category {
   transition: background 0.2s;
 }
 
-.slides-play::before {
+.click-play::before {
   content: "▶";
   margin-right: 0.5rem;
 }
 
-.slides-facade:hover .slides-play,
-.slides-facade:focus-visible .slides-play {
+.click-facade:hover .click-play,
+.click-facade:focus-visible .click-play {
   background: rgba(0, 0, 0, 0.8);
 }
 
-.slides-facade:disabled .slides-play::before {
+.click-facade:disabled .click-play::before {
   content: none;
 }
 

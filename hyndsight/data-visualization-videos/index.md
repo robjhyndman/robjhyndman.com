@@ -13,26 +13,17 @@ categories:
 
 Probably everyone has seen Hans Rosling's famous TED talk by now.  If not, here it is:
 
-<div class="embed video-player" style="padding-bottom: 4ex;">
-  <iframe class="youtube-player" type="text/html" width="640" height="385" src="https://www.youtube.com/embed/hVimVzgtD6w" allowfullscreen frameborder="0">
-  </iframe><br>
-</div>
+{{< youtube hVimVzgtD6w >}}
 
 I recently came across a couple of other exceptional talks on data visualization:
 
 Hans Rosling again: "Let my dataset change your mindset". If only all statistics lecturers were this dynamic!
 
-<div class="embed video-player" style="padding-bottom: 4ex;">
-  <iframe class="youtube-player" type="text/html" width="640" height="385" src="https://www.youtube.com/embed/KVhWqwnZ1eM" allowfullscreen frameborder="0">
-  </iframe><br>
-</div>
+{{< youtube KVhWqwnZ1eM >}}
 
 David McCandless: "The beauty of data visualization". Not so exciting as Hans, but some great examples.
 
-<div class="embed video-player" style="padding-bottom: 4ex;">
-  <iframe class="youtube-player" type="text/html" width="640" height="385" src="https://www.youtube.com/embed/pLqjQ55tz-U" allowfullscreen frameborder="0">
-  </iframe><br>
-</div>
+{{< youtube pLqjQ55tz-U >}}
 
 &nbsp;
 

@@ -10,10 +10,7 @@ So what is the ultimate job? According to Hal Varian, chief economist at Google,
 
 Here he is on YouTube with a longer comment:
 
-<div class="embed video-player" style="padding-bottom: 4ex;">
-  <iframe class="youtube-player" type="text/html" width="640" height="385" src="https://www.youtube.com/embed/D4FQsYTbLoI" allowfullscreen frameborder="0">
-  </iframe><br>
-</div>
+{{< youtube D4FQsYTbLoI >}}
 
 **Statistics - Dream Job of the next decade**
 

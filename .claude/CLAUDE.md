@@ -67,10 +67,10 @@ slug: talk-slug
 aliases:
   - "/short-url"
 pdf: https://...        # PDF slides (/talks/x.pdf for files in talks/)
-youtube: videoID        # optional YouTube embed
+youtube: videoID        # optional YouTube embed (videoID?t=3688 starts part-way)
 ```
 
-`{{< pdf >}}` and `{{< youtube >}}` show the front-matter `pdf`/`youtube` wherever they're placed in the body; any not placed are added at the end of the page (video first) by `seminars/auto-embed.lua`. With an argument (`{{< pdf URL >}}`, `{{< youtube ID >}}`) they embed anything else, on any page. Both shortcodes are site-wide (`pdf.lua`, `youtube.lua`); `pdf.lua` draws PDFs with PDF.js via `pdf-embed.js`, since iframes of PDFs don't work on mobile, and `fullpage=true` is the CV page's full-window mode. HTML slides use `slides:` + `{{< slides >}}` (`seminars/slides.lua`). Publications keep their own `file`/`link` fields (`publications/pubs.ejs`).
+`{{< pdf >}}` and `{{< youtube >}}` show the front-matter `pdf`/`youtube` wherever they're placed in the body; any not placed are added at the end of the page (video first) by `seminars/auto-embed.lua`. With an argument (`{{< pdf URL >}}`, `{{< youtube ID >}}`) they embed anything else, on any page. Both shortcodes are site-wide (`pdf.lua`, `youtube.lua`); `pdf.lua` draws PDFs with PDF.js via `pdf-embed.js`, since iframes of PDFs don't work on mobile, and `fullpage=true` is the CV page's full-window mode. HTML slides use `slides:` + `{{< slides >}}` (`seminars/slides.lua`). Videos and slides show a thumbnail (title slide) and only load the player or deck when clicked: both shortcodes emit a `.click-embed` box and `click-embed.js`, so use `{{< youtube ID >}}` rather than a hand-written YouTube iframe. Publications keep their own `file`/`link` fields (`publications/pubs.ejs`).
 
 ### News items
 
