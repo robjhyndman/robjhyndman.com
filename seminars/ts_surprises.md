@@ -10,6 +10,7 @@ bibliography: [weird.bib, surprisals.bib]
 validate-yaml: false
 nocite: |
    - @surprisalevt
+   - @lookout2
    - @weird
 ---
 
