@@ -11,7 +11,7 @@ Time series data often contains a rich complexity of seasonal patterns. Time ser
 
 ### Slides
 
-<iframe src="https://pkg.robjhyndman.com/complex_seasonality_talk/padova2022.html" width="100%" height=350>
+<iframe loading="lazy" src="https://pkg.robjhyndman.com/complex_seasonality_talk/padova2022.html" width="100%" height=350>
 </iframe>
 
 [Open](https://pkg.robjhyndman.com/complex_seasonality_talk/padova2022.html){.badge .badge-red}

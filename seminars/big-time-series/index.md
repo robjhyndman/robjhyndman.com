@@ -29,4 +29,4 @@ I will demonstrate an approach to this problem using a vector of features on eac
 
 **Slides**
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/G2EWjeJA9hMEUP" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<iframe loading="lazy" src="//www.slideshare.net/slideshow/embed_code/key/G2EWjeJA9hMEUP" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>

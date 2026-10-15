@@ -10,7 +10,7 @@ aliases:
 
 ### Slides
 
-<iframe src="https://pkg.robjhyndman.com/combinations_talk/ensembles_uscdc_2022.html" width="100%" height=350>
+<iframe loading="lazy" src="https://pkg.robjhyndman.com/combinations_talk/ensembles_uscdc_2022.html" width="100%" height=350>
 </iframe>
 
 [Open](https://pkg.robjhyndman.com/combinations_talk/ensembles_uscdc_2022.html){.badge .badge-red}

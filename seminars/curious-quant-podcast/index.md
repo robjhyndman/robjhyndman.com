@@ -12,4 +12,4 @@ categories:
 
 Last week I had a chat with Michael Kollo for the [Curious Quant podcast](https://podcasts.apple.com/us/podcast/the-curious-quant/id1481550488).
 
-<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/dc2dfd76"></iframe>
+<iframe loading="lazy" width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/dc2dfd76"></iframe>

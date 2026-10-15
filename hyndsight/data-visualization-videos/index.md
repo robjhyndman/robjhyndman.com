@@ -29,4 +29,4 @@ David McCandless: "The beauty of data visualization". Not so exciting as Hans, b
 
 And here's an hour-length documentary hosted by Hans Rosling called "The Joy of Stats".
 
-<iframe src="https://player.vimeo.com/video/18477762?h=ba95edd6de&portrait=0" width="640" height="368" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe loading="lazy" src="https://player.vimeo.com/video/18477762?h=ba95edd6de&portrait=0" width="640" height="368" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>

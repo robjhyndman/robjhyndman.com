@@ -19,4 +19,4 @@ Talk to Year 11 students as part of the Monash Scholars Knowledge Summit on "End
 
 ## Hans Rosling: New insights on poverty
 
-<iframe src="https://embed.ted.com/talks/hans_rosling_reveals_new_insights_on_poverty" width="854px" height="480px" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe loading="lazy" src="https://embed.ted.com/talks/hans_rosling_reveals_new_insights_on_poverty" width="854px" height="480px" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>

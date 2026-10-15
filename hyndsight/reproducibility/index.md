@@ -24,8 +24,8 @@ Jane's slides and handout are below. <!-- more -->
 
 Slides:
 
-<p><iframe src="https://widgets.figshare.com/articles/1555600/embed?show_title=0" width="600" height="470" frameborder="0"></iframe><br></p>
+<p><iframe loading="lazy" src="https://widgets.figshare.com/articles/1555600/embed?show_title=0" width="600" height="470" frameborder="0"></iframe><br></p>
 
 Handout:
 
-<p><iframe src="https://widgets.figshare.com/articles/1555588/embed?show_title=0" width="600" height="470" frameborder="0"></iframe><br></p>
+<p><iframe loading="lazy" src="https://widgets.figshare.com/articles/1555588/embed?show_title=0" width="600" height="470" frameborder="0"></iframe><br></p>

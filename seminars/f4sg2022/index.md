@@ -13,7 +13,7 @@ Social good is created whenever we make new forecasting methods and resources fr
 
 ## Slides
 
-<iframe src="https://robjhyndman.com/talks/fsg2022.html" width="100%" height=350>
+<iframe loading="lazy" src="https://robjhyndman.com/talks/fsg2022.html" width="100%" height=350>
 </iframe>
 
 [Open](https://robjhyndman.com/talks/fsg2022.html){.badge .badge-red}
