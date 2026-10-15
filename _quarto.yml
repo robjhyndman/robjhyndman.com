@@ -17,6 +17,7 @@ project:
 
 shortcodes:
   - pdf.lua
+  - youtube.lua
 
 website:
   title: "Rob J Hyndman"

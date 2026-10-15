@@ -1,8 +1,11 @@
--- The PDF in a seminar's `pdf` front matter goes at the end of the page,
--- unless the page already shows it with {{< pdf >}} somewhere else. Runs
--- after shortcodes are expanded, and builds the embed with the shortcode in
+-- The video in a seminar's `youtube` front matter, then the PDF in its `pdf`,
+-- go at the end of the page, unless the page already shows them with
+-- {{< youtube >}} or {{< pdf >}} somewhere else. Runs after shortcodes are
+-- expanded, and builds the embeds with the shortcodes in ../youtube.lua and
 -- ../pdf.lua.
 local embeds = {
+  { key = "youtube", make = dofile(quarto.utils.resolve_path("../youtube.lua")).youtube,
+    marker = function(id) return "youtube.com/embed/" .. id end },
   { key = "pdf", make = dofile(quarto.utils.resolve_path("../pdf.lua")).pdf,
     marker = function(url) return 'data-pdf="' .. url .. '"' end },
 }

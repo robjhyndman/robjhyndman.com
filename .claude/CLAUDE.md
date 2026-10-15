@@ -70,7 +70,7 @@ pdf: https://...        # PDF slides (/talks/x.pdf for files in talks/)
 youtube: videoID        # optional YouTube embed
 ```
 
-`{{< pdf >}}` shows the front-matter `pdf` wherever it's placed in the body; if not placed it's added at the end of the page by `seminars/auto-embed.lua`. With an argument (`{{< pdf URL >}}`) it embeds any other PDF, on any page. The shortcode is site-wide (`pdf.lua`) and draws PDFs with PDF.js via `pdf-embed.js`, since iframes of PDFs don't work on mobile, and `fullpage=true` is the CV page's full-window mode. HTML slides use `slides:` + `{{< slides >}}` (`seminars/slides.lua`). Publications keep their own `file`/`link` fields (`publications/pubs.ejs`).
+`{{< pdf >}}` and `{{< youtube >}}` show the front-matter `pdf`/`youtube` wherever they're placed in the body; any not placed are added at the end of the page (video first) by `seminars/auto-embed.lua`. With an argument (`{{< pdf URL >}}`, `{{< youtube ID >}}`) they embed anything else, on any page. Both shortcodes are site-wide (`pdf.lua`, `youtube.lua`); `pdf.lua` draws PDFs with PDF.js via `pdf-embed.js`, since iframes of PDFs don't work on mobile, and `fullpage=true` is the CV page's full-window mode. HTML slides use `slides:` + `{{< slides >}}` (`seminars/slides.lua`). Publications keep their own `file`/`link` fields (`publications/pubs.ejs`).
 
 ### News items
 
