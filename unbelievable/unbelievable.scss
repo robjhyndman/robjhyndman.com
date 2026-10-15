@@ -6,7 +6,7 @@ $grid-sidebar-width: 300px;
 // Stronger blockquote tint to match the section pills on the paler slate
 $blockquote-tint: 0.2;
 // Keep the book's slate headings (rjh.scss defaults to a toned-down navy)
-$heading-color: lighten($theme-main, 10%);
+$headings-color: lighten($theme-main, 10%);
 
 /*-- scss:rules --*/
 // Book sidebar sits on $theme-main: white title and chapter numbers, and a
