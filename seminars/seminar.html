@@ -68,6 +68,28 @@ $if(link)$
 <iframe src="https://docs.google.com/gview?url=$link$&embedded=true"  width="100%" height=465></iframe>
 <a href="$link$" class="badge badge-small badge-red">Download pdf</a>
 $endif$
+$if(slides)$
+<!-- HTML slides placed by {{< slides >}} (slides.lua): load the deck in place
+     of the title slide when it is clicked -->
+<script>
+document.querySelectorAll(".slides-embed").forEach(function (box) {
+  var button = box.querySelector(".slides-facade");
+  button.addEventListener("click", function () {
+    button.disabled = true;
+    button.querySelector(".slides-play").textContent = "Loading slides…";
+    var frame = document.createElement("iframe");
+    frame.title = "Slides";
+    frame.allow = "fullscreen";
+    frame.addEventListener("load", function () {
+      button.remove();
+      frame.focus();
+    });
+    frame.src = box.dataset.slides;
+    box.appendChild(frame);
+  });
+});
+</script>
+$endif$
 
 $for(include-after)$
 $include-after$

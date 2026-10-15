@@ -1047,6 +1047,75 @@ textarea {
   border: 0;
 }
 
+/* HTML slides on a seminar page: the title slide, replaced by the deck when
+   clicked (placed by seminars/slides.lua; script in seminars/seminar.html).
+   The deck loads behind the image. */
+.slides-embed {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-bottom: 0.5rem;
+  border: 1.5px solid rgba($theme-main, 0.2);
+  border-radius: 10px;
+  background: $theme-main;
+}
+
+.slides-embed iframe,
+.slides-facade {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.slides-facade {
+  z-index: 1;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.slides-facade img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slides-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-family: $font-family-sans-serif;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+}
+
+.slides-play::before {
+  content: "▶";
+  margin-right: 0.5rem;
+}
+
+.slides-facade:hover .slides-play,
+.slides-facade:focus-visible .slides-play {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.slides-facade:disabled {
+  cursor: progress;
+}
+
+.slides-facade:disabled .slides-play::before {
+  content: none;
+}
+
 /* Full-page PDF embed (CV page) */
 .cv-embed {
   position: fixed;

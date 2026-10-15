@@ -6,3 +6,6 @@ format:
     template-partials: title-metadata.html
 
 sidebar: false
+
+shortcodes:
+  - slides.lua
