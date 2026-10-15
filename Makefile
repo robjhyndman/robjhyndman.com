@@ -21,7 +21,6 @@ deploy:
 	cp img/favicon.ico _site
 	rsync -rau data/ _site/data/
 	rsync -rau files/ _site/files/
-	rsync -rau fonts/ _site/fonts/
 	rsync -rau genealogy/ _site/genealogy/
 	rsync -rau img/ _site/img/
 	rsync -rau papers/ _site/papers/

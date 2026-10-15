@@ -11,7 +11,7 @@ This is the source for [robjhyndman.com](https://robjhyndman.com), a personal ac
 ```bash
 make preview    # quarto preview
 make build      # quarto render (main site + unbelievable/ + prato2023/)
-make deploy     # Build + make_xml.R + rsync to remote server (requires SSH access)
+make deploy     # make_xml.R + copy static dirs into _site/ + rsync to remote server (requires SSH access); does NOT build, so run make build first
 make clean      # Delete _site/
 ```
 
