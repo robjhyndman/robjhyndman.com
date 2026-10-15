@@ -2,6 +2,10 @@
 date: 2026-10-26
 title: "Surprises in time series analysis"
 venue: University of Connecticut, USA
+aliases:
+  - /uconn2026
+slides: https://pkg.robjhyndman.com/surprisal_talk/uconn_2026.html
+image: ts_surprises.jpg
 bibliography: [weird.bib, surprisals.bib]
 validate-yaml: false
 nocite: |
@@ -20,6 +24,10 @@ I will present a statistical framework for identifying anomalies in three time s
 In each case, anomalies are identified using a probabilistic approach based on 'surprisal values' --- equal to minus the log (conditional) density of each observation --- with extreme value theory used to model the tail of the surprisal distribution and avoid strong parametric assumptions.
 
 The methods will be illustrated using the [{weird}](https://pkg.robjhyndman.com/weird/) package for R, with examples including French and US mortality rates, and pharmaceutical sales.
+
+## Slides
+
+{{< slides >}}
 
 ## Software
 
