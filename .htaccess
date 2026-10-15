@@ -3,13 +3,28 @@ DirectoryIndex index.html
 
 ErrorDocument 404 /404.html
 
+# Browser caching. Pages, feeds and the search index are revalidated on every
+# visit, so changes show at once (an unchanged page costs only a quick 304);
+# scripts and stylesheets are kept for a week, fonts for a year, everything
+# else for a month. SiteGround's NGINX Direct Delivery serves static files
+# without reading this file, so it must be off for these rules to apply.
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType application/xml "access plus 0 seconds"
+  ExpiresByType text/xml "access plus 0 seconds"
+  ExpiresByType application/json "access plus 0 seconds"
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType text/javascript "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+  ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+
 RewriteEngine On
 
 RewriteCond %{HTTP_HOST} ^www\.robjhyndman\.com$ [NC]
 RewriteRule ^(.*)$ https://robjhyndman.com/$1 [R=301,L]
-
-RewriteRule ^index\.html$ / [R=301,L,NC]
-RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L,NC]
 
 RewriteRule ^github https://github.com/robjhyndman [R=301,L,NC]
 RewriteRule ^arxiv https://arxiv.org/a/hyndman_r_1.html [R=301,L,NC]
