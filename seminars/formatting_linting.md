@@ -2,7 +2,7 @@
 date: 2026-08-18
 title: "Formatting and linting code and documents"
 venue: NUMBAT
-link: https://github.com/robjhyndman/fl26_talk/raw/main/fl26.pdf
+pdf: https://github.com/robjhyndman/fl26_talk/raw/main/fl26.pdf
 ---
 
 ## NUMBAT seminar

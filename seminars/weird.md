@@ -16,6 +16,7 @@ nocite: |
    - @lookout2
    - @surprisalevt
    - @weird
+pdf: https://github.com/robjhyndman/surprisal_talk/raw/main/auckland_2026.pdf
 ---
 
 [**Ihaka Lecture Series 2026**](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics/ihaka-lecture-series.html#2026-series)
@@ -47,8 +48,7 @@ The ideas will be illustrated using the [{weird}](https://pkg.robjhyndman.com/we
 
 ## Slides
 
-<iframe src="https://docs.google.com/gview?url=https://github.com/robjhyndman/surprisal_talk/raw/main/auckland_2026.pdf&amp;embedded=true" width="100%" height="465"></iframe>
-<a href="https://github.com/robjhyndman/surprisal_talk/raw/main/auckland_2026.pdf" class="badge badge-small badge-red">Download pdf</a>
+{{< pdf >}}
 
 ## YouTube
 

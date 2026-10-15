@@ -4,7 +4,7 @@ title: "Creating custom quarto&nbsp;templates"
 venue: WOMBAT 2024
 aliases:
   - /quarto_templates
-link: https://github.com/robjhyndman/quarto_templates_talk/raw/main/quarto_templates.pdf
+pdf: https://github.com/robjhyndman/quarto_templates_talk/raw/main/quarto_templates.pdf
 ---
 
 ### Talk for [WOMBAT 2024](https://wombat2024.numbat.space)

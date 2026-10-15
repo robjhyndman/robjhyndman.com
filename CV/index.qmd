@@ -11,6 +11,4 @@ include-in-header:
     </style>
 ---
 
-::: {.cv-embed}
-<iframe src="https://cdn.jsdelivr.net/gh/robjhyndman/CV@main/RobHyndmanCV.pdf" title="Rob J Hyndman CV"></iframe>
-:::
+{{< pdf https://cdn.jsdelivr.net/gh/robjhyndman/CV@main/RobHyndmanCV.pdf fullpage=true >}}

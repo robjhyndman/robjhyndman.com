@@ -3,7 +3,7 @@ date: 2018-11-26
 title: Feature-based time series analysis
 venue: Monash
 slug: monash-fbtsa
-link: https://github.com/robjhyndman/fbtsa/raw/master/fbtsa_monash.pdf
+pdf: https://github.com/robjhyndman/fbtsa/raw/master/fbtsa_monash.pdf
 ---
 
 ## Presentation to the Monash international workshop on time series and panel data

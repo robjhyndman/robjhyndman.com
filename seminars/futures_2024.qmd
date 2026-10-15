@@ -2,7 +2,7 @@
 date: 2024-05-14
 title: "Statistical Forecasting"
 venue: Monash University FUTURES symposium
-link: https://github.com/robjhyndman/statistical_forecasting/raw/main/statistical_forecasting.pdf
+pdf: https://github.com/robjhyndman/statistical_forecasting/raw/main/statistical_forecasting.pdf
 ---
 
 ## Talk given as part of the Monash University FUTURES symposium

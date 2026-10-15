@@ -4,7 +4,7 @@ title: "Feasts and fables: Time series analysis using R"
 venue: Federal Reserve Bank, USA
 slug: tidyverts2021
 aliases: ["/frb2021"]
-link: https://github.com/robjhyndman/tidyverts2021/raw/main/frb2021.pdf
+pdf: https://github.com/robjhyndman/tidyverts2021/raw/main/frb2021.pdf
 ---
 
 ## Talk given for Federal Reserve Board useR group (28 September 2021)

@@ -5,7 +5,7 @@ venue: ISF 2006, Santander, Spain
 date: 2006-06-20 07:08:14+00:00
 slug: hierarchical2
 title: Optimal combination forecasts for hierarchical time series
-file: "Hierarchical ISF2006.pdf"
+pdf: "/talks/Hierarchical ISF2006.pdf"
 tags:
 - forecasting
 - hierarchical time series

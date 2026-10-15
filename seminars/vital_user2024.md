@@ -3,7 +3,7 @@ date: 2024-07-09
 title: "vital: Tidy data analysis for demography"
 venue: UseR!2024, Salzburg, Austria
 aliases: ["/user2024"]
-link: https://github.com/robjhyndman/vital-talk/raw/main/vital_user2024.pdf
+pdf: https://github.com/robjhyndman/vital-talk/raw/main/vital_user2024.pdf
 ---
 
 ## [UseR!2024](https://events.linuxfoundation.org/user/)

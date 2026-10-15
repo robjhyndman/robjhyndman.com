@@ -66,9 +66,11 @@ venue: Venue Name
 slug: talk-slug
 aliases:
   - "/short-url"
-link: https://...       # slides URL
+pdf: https://...        # PDF slides (/talks/x.pdf for files in talks/)
 youtube: videoID        # optional YouTube embed
 ```
+
+`{{< pdf >}}` shows the front-matter `pdf` wherever it's placed in the body; if not placed it's added at the end of the page by `seminars/auto-embed.lua`. With an argument (`{{< pdf URL >}}`) it embeds any other PDF, on any page. The shortcode is site-wide (`pdf.lua`) and draws PDFs with PDF.js via `pdf-embed.js`, since iframes of PDFs don't work on mobile, and `fullpage=true` is the CV page's full-window mode. HTML slides use `slides:` + `{{< slides >}}` (`seminars/slides.lua`). Publications keep their own `file`/`link` fields (`publications/pubs.ejs`).
 
 ### News items
 

@@ -5,7 +5,7 @@ comments: false
 date: 2009-06-23 03:44:24+00:00
 slug: extreme-forecasting
 title: Extreme forecasting
-file: ISF2009.pdf
+pdf: /talks/ISF2009.pdf
 tags:
   - consulting
   - electricity

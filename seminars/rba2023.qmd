@@ -4,7 +4,7 @@ title: "Feasts and fables: Time series analysis using R"
 venue: Reserve Bank of Australia
 slug: rba2023
 aliases: ["/rba2023"]
-link: https://github.com/robjhyndman/tidyverts2021/raw/main/rba2023.pdf
+pdf: https://github.com/robjhyndman/tidyverts2021/raw/main/rba2023.pdf
 ---
 
 ## Talk given for Reserve Board of Australia

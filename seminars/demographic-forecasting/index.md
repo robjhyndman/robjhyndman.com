@@ -5,7 +5,7 @@ comments: false
 date: 2010-09-07 11:33:30+00:00
 slug: demographic-forecasting
 title: Demographic forecasting using functional data analysis
-file: DemographicForecasting.pdf
+pdf: /talks/DemographicForecasting.pdf
 tags:
 - demography
 - functional data

@@ -5,7 +5,7 @@ venue: Australian Academy of Science
 slug: aas2021
 aliases:
   - "/aas2021"
-link: https://github.com/robjhyndman/uncertain_futures/raw/main/AAS_intro.pdf
+pdf: https://github.com/robjhyndman/uncertain_futures/raw/main/AAS_intro.pdf
 youtube: HNJYRf0mvxg
 ---
 

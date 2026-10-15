@@ -5,7 +5,7 @@ title: Probabilistic ensemble forecasting of Australian COVID-19 cases
 slug: covid-forecasting
 aliases:
   - "/covidtalk"
-link: https://github.com/robjhyndman/covidtalk/raw/main/COVID_ensemble_forecasting.pdf
+pdf: https://github.com/robjhyndman/covidtalk/raw/main/COVID_ensemble_forecasting.pdf
 youtube: "i-mTP94bpHU?t=3688"
 ---
 

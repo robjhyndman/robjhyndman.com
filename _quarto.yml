@@ -13,6 +13,10 @@ project:
     - "!/fonts/"
   resources:
     - "fonts/*"
+    - "pdf-embed.js"
+
+shortcodes:
+  - pdf.lua
 
 website:
   title: "Rob J Hyndman"

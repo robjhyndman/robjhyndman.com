@@ -12,6 +12,7 @@ nocite: |
    - @lookout2
    - @surprisalevt
    - @weird
+pdf: https://github.com/robjhyndman/surprisal_talk/raw/f69df7203a21d11f70311ceb83e7546230d5411a/surprisals.pdf
 ---
 
 ## Abstract
@@ -25,7 +26,7 @@ I will discuss a probabilistic approach to anomaly detection based on extreme 's
 
 ## Slides
 
-<iframe src="https://docs.google.com/gview?url=https://github.com/robjhyndman/surprisal_talk/raw/f69df7203a21d11f70311ceb83e7546230d5411a/surprisals.pdf&embedded=true"  width="100%" height=465></iframe>
+{{< pdf >}}
 
 * [Top time slides](https://github.com/robjhyndman/surprisal_talk/raw/f69df7203a21d11f70311ceb83e7546230d5411a/surprisals.pdf)
 * [FSI slides](https://github.com/robjhyndman/surprisal_talk/raw/main/surprisals_fsi2025.pdf)

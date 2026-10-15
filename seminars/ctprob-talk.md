@@ -2,7 +2,7 @@
 date: 2023-12-08
 title: "Probabilistic cross-temporal forecast reconciliation"
 venue: "International Association of Statistical Computing: Asian Regional Section Conference 2023"
-link: https://github.com/robjhyndman/ctprob-talk/raw/main/iasc_2023.pdf
+pdf: https://github.com/robjhyndman/ctprob-talk/raw/main/iasc_2023.pdf
 ---
 
 ## Abstract

@@ -5,7 +5,7 @@ venue: University of Melbourne
 date: 2007-02-22 08:14:01+00:00
 slug: 'stochastic-population'
 title: 'Stochastic population forecasts using functional data models'
-file: Monash.pdf
+pdf: /talks/Monash.pdf
 tags:
 - demography
 - functional data

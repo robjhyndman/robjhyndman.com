@@ -10,7 +10,7 @@ wordpress_id: 2489
 tags:
 - forecasting
 - hierarchical time series
-file: Hierarchical-Rob-ISF14.pdf
+pdf: /talks/Hierarchical-Rob-ISF14.pdf
 ---
 
 [International Symposium on Forecasting](http://www.forecasters.org/isf), Rotterdam.

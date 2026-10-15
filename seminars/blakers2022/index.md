@@ -5,7 +5,7 @@ title: "Forecasting the future and the future of forecasting"
 slug: blakers2022
 aliases:
   - "/blakers2022"
-link: https://github.com/robjhyndman/uncertain_futures/raw/main/blakers.pdf
+pdf: https://github.com/robjhyndman/uncertain_futures/raw/main/blakers.pdf
 ---
 
 ### Blakers Lecture, 17 January 2022<br>

@@ -19,6 +19,7 @@ nocite: |
    - @temporal-hierarchies
    - @ctprob
    - @flap
+pdf: https://github.com/robjhyndman/subspace_projections_talk/raw/main/subspace_projections.pdf
 ---
 
 ## Abstract
@@ -39,8 +40,7 @@ This procedure is now widely used for hierarchical forecasting. It has the poten
 
 ## Slides (Sri Lanka)
 
-<iframe src="https://docs.google.com/gview?url=https://github.com/robjhyndman/subspace_projections_talk/raw/main/subspace_projections.pdf&embedded=true"  width="100%" height=465></iframe>
-<a href="https://github.com/robjhyndman/subspace_projections_talk/raw/main/subspace_projections.pdf" class="badge badge-small badge-red">Download pdf</a>
+{{< pdf >}}
 
 * [Curtin](https://github.com/robjhyndman/subspace_projections_talk/raw/main/subspace_curtin.pdf)
 * [Amazon](https://github.com/robjhyndman/subspace_projections_talk/raw/main/subspace_amazon.pdf)

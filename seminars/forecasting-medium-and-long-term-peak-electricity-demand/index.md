@@ -5,7 +5,7 @@ venue: ISF 2007, New York, USA
 date: 2007-06-25 08:06:19+00:00
 slug: forecasting-medium-and-long-term-peak-electricity-demand
 title: Forecasting medium- and long-term peak electricity demand
-file: ISF2007.pdf
+pdf: /talks/ISF2007.pdf
 tags:
 - electricity
 - forecasting

@@ -5,7 +5,7 @@ venue: Zalando, Berlin, Germany
 bibliography: hts.bib
 aliases:
   - /frslides
-link: https://github.com/robjhyndman/fr_overview_talk/raw/main/fr_overview.pdf
+pdf: https://github.com/robjhyndman/fr_overview_talk/raw/main/fr_overview.pdf
 ---
 
 ## Abstract
@@ -28,12 +28,10 @@ Collections of time series that are formed via aggregation are prevalent in many
 
 ## Slides for IMS-APRM 2024
 
-<iframe src="https://docs.google.com/gview?url=https://github.com/robjhyndman/fr_overview_talk/raw/main/fr_ims2024.pdf&embedded=true"  width="100%" height=465></iframe>
-<a href="https://github.com/robjhyndman/fr_overview_talk/raw/main/fr_ims2024.pdf" class="badge badge-small badge-red">Download pdf</a>
+{{< pdf https://github.com/robjhyndman/fr_overview_talk/raw/main/fr_ims2024.pdf >}}
 
 ## Slides for TSF 2023
 
-<iframe src="https://docs.google.com/gview?url=https://github.com/robjhyndman/fr_overview_talk/raw/main/fr_tsf2023.pdf&embedded=true"  width="100%" height=465></iframe>
-<a href="https://github.com/robjhyndman/fr_overview_talk/raw/main/fr_tsf2023.pdf" class="badge badge-small badge-red">Download pdf</a>
+{{< pdf https://github.com/robjhyndman/fr_overview_talk/raw/main/fr_tsf2023.pdf >}}
 
 ## Slides for Zalando and Uni of Melbourne

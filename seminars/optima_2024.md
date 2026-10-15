@@ -5,7 +5,7 @@ venue: OPTIMA online seminar
 slug: future_forecasting
 aliases:
   - "/future_forecasting"
-link: https://github.com/robjhyndman/uncertain_futures/raw/main/optima_forecasting.pdf
+pdf: https://github.com/robjhyndman/uncertain_futures/raw/main/optima_forecasting.pdf
 youtube: ihtJH4X3XyQ
 ---
 

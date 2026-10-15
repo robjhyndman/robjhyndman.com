@@ -3,7 +3,7 @@ date: 2018-12-05
 title: High-dimensional time series analysis
 venue: AAERS, Sydney
 slug: highdimts
-link: https://github.com/robjhyndman/highdimts/raw/master/highdimts.pdf
+pdf: https://github.com/robjhyndman/highdimts/raw/master/highdimts.pdf
 ---
 
 ## Presentation to the Australasian Actuarial Education and Research Symposium

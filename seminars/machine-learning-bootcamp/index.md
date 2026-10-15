@@ -12,7 +12,7 @@ tags:
 - forecasting
 - R
 - time series
-file: MLBootcamp2015.pdf
+pdf: /talks/MLBootcamp2015.pdf
 ---
 
 A talk on time series forecasting for the Monash University Machine Learning Bootcamp.

@@ -3,7 +3,7 @@ date: 2018-06-19
 title: Tidy forecasting in R
 venue: ISF 2018, Boulder, USA
 slug: isf-fable
-link: https://github.com/robjhyndman/fable-talk-2018/raw/master/fable.pdf
+pdf: https://github.com/robjhyndman/fable-talk-2018/raw/master/fable.pdf
 ---
 
 ## Presentation at the International Symposium on Forecasting, Boulder USA.

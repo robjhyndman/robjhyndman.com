@@ -6,7 +6,7 @@ slug: cornish2021
 aliases:
   - "/cornish2021"
   - "/whyR2021"
-link: https://github.com/robjhyndman/tidyverts2021/raw/main/cornish2021.pdf
+pdf: https://github.com/robjhyndman/tidyverts2021/raw/main/cornish2021.pdf
 youtube: v2QIuB-TjZo
 ---
 

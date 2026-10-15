@@ -3,14 +3,14 @@ date: 2025-06-26
 title: "25 years of open source forecasting software"
 venue: Beihang University, Beijing, China
 aliases: ["/osfs25"]
+pdf: https://github.com/robjhyndman/osfs_25years/raw/main/osfs25.pdf
 ---
 
 [IIF Workshop on Open Source Forecasting](https://event.nectric.com.au/iif-osf/), Beihang University: 25-27 June 2025
 
 ## Slides
 
-<iframe src="https://docs.google.com/gview?url=https://github.com/robjhyndman/osfs_25years/raw/main/osfs25.pdf&amp;embedded=true" width="100%" height="465"></iframe>
-<a href="https://github.com/robjhyndman/osfs_25years/raw/main/osfs25.pdf" class="badge badge-small badge-red">Download pdf</a>
+{{< pdf >}}
 
 
 

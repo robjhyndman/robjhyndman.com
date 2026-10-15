@@ -2,7 +2,7 @@
 date: 2024-12-30
 title: "Modern research tools and workflow"
 venue: University of Colombo, Sri Lanka
-link: https://github.com/robjhyndman/research_tools/raw/main/research_tools.pdf
+pdf: https://github.com/robjhyndman/research_tools/raw/main/research_tools.pdf
 aliases:
   - '/research_tools/'
 ---

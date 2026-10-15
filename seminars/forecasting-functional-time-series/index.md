@@ -5,7 +5,7 @@ comments: false
 date: 2008-02-22 07:56:46+00:00
 slug: forecasting-functional-time-series
 title: Forecasting functional time series
-file: AAS08.pdf
+pdf: /talks/AAS08.pdf
 tags:
 - forecasting
 - functional data

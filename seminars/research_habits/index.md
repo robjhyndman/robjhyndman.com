@@ -2,7 +2,7 @@
 date: 2026-03-31
 title: "Developing good research habits"
 venue: Monash
-link: https://github.com/robjhyndman/ResearchHabits/raw/master/ResearchHabits.pdf
+pdf: https://github.com/robjhyndman/ResearchHabits/raw/master/ResearchHabits.pdf
 slug: research_habits
 ---
 

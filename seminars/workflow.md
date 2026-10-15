@@ -4,7 +4,7 @@ title: An efficient reproducible workflow
 venue: RezBaz Victoria 2024
 aliases:
   - '/workflow/'
-link: https://github.com/robjhyndman/workflow_talk/raw/main/workflow.pdf
+pdf: https://github.com/robjhyndman/workflow_talk/raw/main/workflow.pdf
 ---
 
 Talk given at [Research Bazaar Victoria](https://resbaz.github.io/resbazvic2024/), Clayton, Australia.

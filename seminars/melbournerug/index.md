@@ -6,7 +6,7 @@ date: 2011-10-27 04:37:26+00:00
 slug: melbournerug
 title: Forecasting time series using R
 youtube: 1Lh1HlBUf8k
-file: MelbourneRUG.pdf
+pdf: /talks/MelbourneRUG.pdf
 tags:
 - forecasting
 - R

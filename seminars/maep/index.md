@@ -5,7 +5,7 @@ venue: ISF 2011, Prague, Czech Republic
 date: 2011-06-15 11:27:50+00:00
 slug: maep
 title: Evaluating extreme quantile forecasts
-file: ISF11_RobHyndman.pdf
+pdf: /talks/ISF11_RobHyndman.pdf
 tags:
 - electricity
 - forecasting

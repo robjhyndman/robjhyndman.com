@@ -10,6 +10,7 @@ noocite: |
    - @asf
    - @HB08
 github: robjhyndman/age_structure_forecasts
+pdf: https://github.com/robjhyndman/age_structure_forecasts/raw/main/age_structure_talk.pdf
 ---
 
 ## Abstract
@@ -29,7 +30,7 @@ This forecasting framework not only aids in strategic planning and policy formul
 
 ## Slides
 
-<iframe src="https://docs.google.com/gview?url=https://github.com/robjhyndman/age_structure_forecasts/raw/main/age_structure_talk.pdf&embedded=true"  width="100%" height=465></iframe>
+{{< pdf >}}
 
 * [ISF 2025 slides](https://github.com/robjhyndman/age_structure_forecasts/raw/63898251377b53a39186e6058b7aebc7a97653db/age_structure_talk.pdf)
 * [ASC 2025 slides](https://github.com/robjhyndman/age_structure_forecasts/raw/main/age_structure_talk.pdf)

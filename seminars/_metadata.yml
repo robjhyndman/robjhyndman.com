@@ -9,3 +9,7 @@ sidebar: false
 
 shortcodes:
   - slides.lua
+
+filters:
+  - at: post-quarto
+    path: auto-embed.lua

@@ -5,7 +5,7 @@ venue: ISF 2020
 slug: "reconciliation_review_talk"
 aliases: ["/isf2020/"]
 youtube: 5jB09R-sKOc
-link: https://github.com/robjhyndman/reconciliation_review_talk/raw/main/10years_reconciliation.pdf
+pdf: https://github.com/robjhyndman/reconciliation_review_talk/raw/main/10years_reconciliation.pdf
 ---
 
 ## Keynote talk given at International Symposium on Forecasting 2020

@@ -3,7 +3,7 @@ date: 2024-09-12
 title: "vital: Tidy data analysis for demography"
 venue: NUMBAT
 aliases: ["/seminars/vital"]
-link: https://github.com/robjhyndman/vital-talk/raw/main/vital_numbat2024.pdf
+pdf: https://github.com/robjhyndman/vital-talk/raw/main/vital_numbat2024.pdf
 ---
 
 ## NUMBAT seminar

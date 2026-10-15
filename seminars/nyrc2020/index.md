@@ -6,7 +6,7 @@ slug: nyrc2020
 aliases:
   - /nyrc2020/
   - /nycr2020/
-link: https://github.com/robjhyndman/quantile_ensemble_talk/raw/master/ensembles_NYCR_2020.pdf
+pdf: https://github.com/robjhyndman/quantile_ensemble_talk/raw/master/ensembles_NYCR_2020.pdf
 youtube: nMy98aqQj8c
 ---
 

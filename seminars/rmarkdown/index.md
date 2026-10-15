@@ -5,7 +5,7 @@ venue: San Francisco, USA
 slug: rmarkdown
 aliases:
   - /rmd2020/
-link: https://github.com/robjhyndman/Rmarkdown2020/raw/master/Rmarkdown.pdf
+pdf: https://github.com/robjhyndman/Rmarkdown2020/raw/master/Rmarkdown.pdf
 ---
 
 ## Talk given at [rstudio::conf](https://rstd.io/conf), San Francisco.

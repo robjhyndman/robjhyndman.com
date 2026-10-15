@@ -3,7 +3,7 @@ date: 2024-06-26
 title: "Tidy data analysis for demography using R"
 venue: Max Planck Institute for Demographic Research, Rostock, Germany
 aliases: ["/mpidr2024"]
-link: https://github.com/robjhyndman/vital-talk/raw/main/vital.pdf
+pdf: https://github.com/robjhyndman/vital-talk/raw/main/vital.pdf
 ---
 
 ## [Suessmilch Lecture, MPIDR](https://www.demogr.mpg.de/en/news_events_6123/calendar_1921/vital_tidy_data_analysis_for_demography_using_r_13104)

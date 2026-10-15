@@ -1116,20 +1116,69 @@ textarea {
   content: none;
 }
 
-/* Full-page PDF embed (CV page) */
-.cv-embed {
-  position: fixed;
-  inset: 0;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  border: 0;
+/* PDF slides on seminar pages, drawn by PDF.js (script in seminar.html) */
+.pdf-embed {
+  aspect-ratio: 16 / 9;
+  margin-bottom: 0.5rem;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  box-sizing: content-box;
+  border: 1.5px solid rgba($theme-main, 0.2);
+  border-radius: 10px;
+  background: white;
 }
 
-.cv-embed iframe {
+.pdf-embed[style*="height"] {
+  aspect-ratio: auto;
+}
+
+.pdf-page {
+  position: relative;
+  scroll-snap-align: start;
+}
+
+.pdf-link {
+  position: absolute;
+}
+
+.pdf-page canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.pdf-error {
+  aspect-ratio: auto;
+  padding: 1rem;
+}
+
+/* Full-window PDF (CV page): the browser's own viewer, or stacked pages */
+.pdf-fullpage {
+  position: fixed;
+  inset: 0;
+  margin: 0;
+}
+
+.pdf-fullpage iframe {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.pdf-document {
+  aspect-ratio: auto;
+  padding: 0.5rem;
+  scroll-snap-type: none;
+  border: 0;
+  border-radius: 0;
+  background: $theme-gray;
+}
+
+.pdf-document .pdf-page {
+  max-width: 900px;
+  margin: 0.5rem auto;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 /* Date tags (About page) */

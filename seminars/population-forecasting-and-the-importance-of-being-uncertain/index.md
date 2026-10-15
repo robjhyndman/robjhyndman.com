@@ -6,7 +6,7 @@ date: 2007-11-27 07:58:37+00:00
 slug: population-forecasting-and-the-importance-of-being-uncertain
 title: Population forecasting and the importance of being uncertain
 wordpress_id: 219
-file: Knibbs2007.pdf
+pdf: /talks/Knibbs2007.pdf
 tags:
 - demography
 - forecasting

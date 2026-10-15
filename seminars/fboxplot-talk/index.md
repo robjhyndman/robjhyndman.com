@@ -5,7 +5,7 @@ comments: false
 date: 2008-06-19 03:56:04+00:00
 slug: fboxplot-talk
 title: Bagplots, boxplots and outlier detection for functional data
-file: fboxplot_talk2.pdf
+pdf: /talks/fboxplot_talk2.pdf
 tags:
   - functional data
   - graphics

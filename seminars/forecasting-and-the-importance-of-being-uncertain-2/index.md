@@ -5,7 +5,7 @@ venue: Belz Lecture, Melbourne
 date: 2006-10-26 08:11:27+00:00
 slug: forecasting-and-the-importance-of-being-uncertain-2
 title: Forecasting and the importance of being uncertain
-file: Belz2006.pdf
+pdf: /talks/Belz2006.pdf
 tags:
 - forecasting
 ---

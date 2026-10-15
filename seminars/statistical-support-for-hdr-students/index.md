@@ -5,7 +5,7 @@ venue: University of Melbourne
 date: 2009-05-01 03:52:33+00:00
 slug: statistical-support-for-hdr-students
 title: Statistical support for HDR students
-file: ddogs.pdf
+pdf: /talks/ddogs.pdf
 tags:
   - teaching
 ---

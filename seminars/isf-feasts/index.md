@@ -3,7 +3,7 @@ date: 2019-06-19
 title: A feast of time series tools
 venue: ISF 2019, Thessaloniki, Greece
 slug: isf-feasts
-link: https://github.com/robjhyndman/feasts-talk/raw/master/feasts.pdf
+pdf: https://github.com/robjhyndman/feasts-talk/raw/master/feasts.pdf
 youtube: Ykiuj16P450
 ---
 

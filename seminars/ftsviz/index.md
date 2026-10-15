@@ -3,7 +3,7 @@ date: 2018-12-11
 title: Data visualization for functional time series
 venue: Creswick, Australia
 slug: ftsviz
-link: https://github.com/robjhyndman/ftsviz/raw/master/ftsvis.pdf
+pdf: https://github.com/robjhyndman/ftsviz/raw/master/ftsvis.pdf
 ---
 
 ## Presentation to [MATRIX Workshop on Functional Data Analysis and Beyond](https://www.matrix-inst.org.au/events/functional-data-analysis-and-beyond/)

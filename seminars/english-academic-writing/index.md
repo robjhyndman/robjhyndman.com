@@ -5,7 +5,7 @@ comments: false
 date: 2009-06-25 03:47:43+00:00
 slug: english-academic-writing
 title: English academic writing
-file: Fuzhou.pdf
+pdf: /talks/Fuzhou.pdf
 tags:
   - writing
 ---

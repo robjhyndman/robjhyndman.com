@@ -3,7 +3,7 @@ date: 2021-09-10
 title: "GRATIS: GeneRAting TIme Series with diverse and controllable characteristics"
 venue: Online
 slug: gratis
-link: https://github.com/robjhyndman/gratis-talk/raw/main/gratis.pdf
+pdf: https://github.com/robjhyndman/gratis-talk/raw/main/gratis.pdf
 youtube: F3lWECtFa44
 ---
 

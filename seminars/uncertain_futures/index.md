@@ -5,7 +5,7 @@ venue: ACEMS
 slug: uncertain_futures
 aliases:
   - "/uncertain_futures"
-link: https://github.com/robjhyndman/uncertain_futures/raw/main/uncertain_futures.pdf
+pdf: https://github.com/robjhyndman/uncertain_futures/raw/main/uncertain_futures.pdf
 youtube: YOeDTt_JJx0
 ---
 
