@@ -4,7 +4,7 @@ subtitle: "Vice-Chancellor's Distinguished Professor of Statistics<br>Monash Uni
 pagetitle: "Rob J Hyndman"
 about:
   template: trestles
-  image: img/RJH_AAS_small.png
+  image: img/RJH_AAS_small.jpg
   links:
     - text: "{{< ai google-scholar >}}"
       href: https://scholar.google.com/citations?user=vamErfkAAAAJ
