@@ -77,7 +77,7 @@ Here are some thoughts and highlights of the conference, in no particular order.
 14. This the most tweeted conference I've attended.
     See [the stream](https://twitter.com/search?q=%23user2013&src=hash).
 
-15. I got to meet several people I've known electronically for years, but never met in person including [Colin Gillespie](http://www.mas.ncl.ac.uk/~ncsg3/) (who was part of the first moderator team on [crossvalidated.com](http://crossvalidated.com)) and [Tal Galili](http://www.r-statistics.com/) (responsible for maintaining [R-bloggers](http://www.r-bloggers.com/)).
+15. I got to meet several people I've known electronically for years, but never met in person including [Colin Gillespie](https://github.com/csgillespie) (who was part of the first moderator team on [crossvalidated.com](http://crossvalidated.com)) and [Tal Galili](http://www.r-statistics.com/) (responsible for maintaining [R-bloggers](http://www.r-bloggers.com/)).
 
 Thanks to the committee and sponsors for making it a great conference.
 The next one is in California: [UseR! 2014](http://user2014.stat.ucla.edu/).

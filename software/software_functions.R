@@ -238,7 +238,7 @@ rjh_packages <- function() {
     "gghdr"                                                                               ,
     "https://sayani07.github.io/gghdr/reference/figures/logo.png"                         ,
     "gratis"                                                                              ,
-    "https://github.com/ykang/gratis/raw/master/man/figures/logo.PNG"                     ,
+    "https://github.com/ykang/gratis/raw/master/man/figures/logo.png"                     ,
     "gravitas"                                                                            ,
     "https://github.com/Sayani07/gravitas/raw/master/man/figures/logo.png"                ,
     "hts"                                                                                 ,

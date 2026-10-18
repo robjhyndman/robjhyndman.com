@@ -20,7 +20,7 @@ The London 2012 Olympics has attracted a few forecasters trying to predict medal
 4. [Overcoming the doping legacy. Can London’s winners outperform the drugs of 1988?](http://onlinelibrary.wiley.com/doi/10.1111/j.1740-9713.2012.00551.x/pdf), Ray Stefani, California State University.
 5. [Predicting the London Olympics Medal Count](http://www.discoverycorpsinc.com/predicting-the-olympic-medal-c/), Dan Graettinger, Discovery Corps.
 6. [Modelling Olympic performance](https://www.pwc.com/mu/en/pressroom/assets/2012_olympic_medals_release_final.pdf), PwC.
-7. [The Olympics and Economics](http://www.goldmansachs.com/our-thinking/archive/archive-pdfs/olympics-and-economics-.pdf), José Ursúa and Kamakshya Trivedi from Goldman Sachs.
+7. [The Olympics and Economics](https://web.archive.org/web/20180227234529/http://www.goldmansachs.com/our-thinking/archive/archive-pdfs/olympics-and-economics-.pdf), José Ursúa and Kamakshya Trivedi from Goldman Sachs.
 8. [Who will win the 2012 London Olympics?](https://web.archive.org/web/20121120144510/http://emilywilliams.webs.com:80/apps/documents/), Emily Williams, London Business School.
 9. [Olympic Predictions](http://faculty1.coloradocollege.edu/~djohnson/Olympics.html), Daniel Johnson, Colorado College.
 10. [FT consensus forecasts](http://blogs.ft.com/ftdata/2012/07/26/olympic-medal-table-predictions-london-2012/) (combining the previous four predictions for medals), Martin Stabe.

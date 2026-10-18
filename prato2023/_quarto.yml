@@ -25,4 +25,6 @@ format:
     toc: true
     html-math-method: katex
     include-in-header:
-      file: ../header.html
+      # ../ because Quarto would rewrite /fonts/ relative to this project
+      - text: '<link rel="stylesheet" href="../fonts/fonts.css">'
+      - file: ../header.html

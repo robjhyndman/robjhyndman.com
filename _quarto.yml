@@ -65,7 +65,8 @@ format:
     code-link: true
     fig-responsive: true
     include-in-header:
-      file: header.html
+      - text: '<link rel="stylesheet" href="/fonts/fonts.css">'
+      - file: header.html
     include-after-body:
       - text: |
           <script>
