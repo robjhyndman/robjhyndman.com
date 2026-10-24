@@ -88,6 +88,10 @@ News items are stored in `news.yml` (not as individual files). Each entry has: `
 quarto render hyndsight/podcasts/index.qmd --no-cache
 ```
 
+## Plot fonts
+
+Posts with R plots start with a setup chunk, `source(here::here("plot-setup.R"))` with `#| include: false`, as the OTexts books do with `before-each-chapter.R`. It uses the `otexts` package (`~/git/OTexts/otexts`) to set the text in Fira Sans and the maths written with `TeX()` in the KaTeX fonts (the "BookMath" family), and switches knitr to `ragg_png`, which registered fonts need. It must be a separate chunk before the first plot, because `opts_chunk$set(dev = ...)` only affects later chunks. BookMath's bold and italic faces are KaTeX fonts, so bold or italic text needs `family = "Fira Sans"`.
+
 ## RSS feed post-processing
 
 After `quarto render`, run `Rscript make_xml.R` (done automatically by `make deploy`) to merge the publications and seminars RSS feeds into the main `index.xml` feed.

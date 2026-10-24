@@ -8,30 +8,31 @@ description: "I received the following question by email:"
 ---
 
 > I was wondering if mathematical relationships exist between monthly, quarterly, and annual growth rates (percentage changes).
-> For time series data ...<br>
-> 1) Is there a mathematical formula to know by how many months the Month-to-Month changes lead turns in this-month-to-the-same-month-one-year-ago changes (annual changes)?<br>
-> 2) Is there a mathematical formula to know by how many quarters the Quarter-to-Quarter changes lead turns in this-quarter-to-the-same-quarter-one-year-ago changes (annual changes)?<br>
-> Also, regarding simple moving averages/totals:<br>
-> 3) Is there an exact or approximate formula to know by how many months a 3-month simple moving average (or moving total) leads a turn in a 12-month simple moving average (or moving total)?<br>
-> As an example: Inflation is typically measured with Y/Y percentage changes in the CPI.
+> For time series data ...<br> 1) Is there a mathematical formula to know by how many months the Month-to-Month changes lead turns in this-month-to-the-same-month-one-year-ago changes (annual changes)?<br> 2) Is there a mathematical formula to know by how many quarters the Quarter-to-Quarter changes lead turns in this-quarter-to-the-same-quarter-one-year-ago changes (annual changes)?<br> Also, regarding simple moving averages/totals:<br> 3) Is there an exact or approximate formula to know by how many months a 3-month simple moving average (or moving total) leads a turn in a 12-month simple moving average (or moving total)?<br> As an example: Inflation is typically measured with Y/Y percentage changes in the CPI.
 > So, it would be helpful to be able to identify when the 12-month rate of change will likely reach a top or bottom, using the 1-month or 3-months rates of change.
+
+```{r}
+#| include: false
+
+source(here::here("plot-setup.R"))
+```
 
 ## Monthly growth vs year-over-year growth
 
 Suppose we have monthly data $y_1,y_2,\dots$.
-Then the monthly growth rates are given by $g_t = \frac{y_t - y_{t - 1}}{y_{t - 1}}$, and the year-over-year growth rates are given by $G_t = \frac{y_t - y_{t - 12}}{y_{t - 12}}$.
+Then the monthly growth rates are given by $g_t = \frac{y_t - y_{t-1}}{y_{t-1}}$, and the year-over-year growth rates are given by $G_t = \frac{y_t - y_{t-12}}{y_{t-12}}$.
 A little algebra gives
 $$
-  1 + G_t = \prod_{j = 1}^{12} (1 + g_{t - j + 1}).
+  1 + G_t = \prod_{j=1}^{12} (1 + g_{t-j+1}).
 $$ {#eq-product-growth}
 So the year-over-year rate is the compounded product of the last 12 monthly rates.
 This gives a recurrence relationship:
 $$
-  \frac{1 + G_t}{1 + G_{t - 1}} = \frac{1 + g_t}{1 + g_{t - 12}}.
+  \frac{1 + G_t}{1 + G_{t-1}} = \frac{1 + g_t}{1 + g_{t-12}}.
 $$
 Therefore
 $$
-  G_t > G_{t - 1} \iff g_t > g_{t - 12}.
+  G_t > G_{t-1} \iff g_t > g_{t-12}.
 $$
 In other words, the year-over-year rate rises when the current monthly change exceeds the change 12 months ago, and falls when the reverse holds.
 @fig-window shows why: moving from $G_{t-1}$ to $G_t$, the 12-month window drops $g_{t-12}$ and adds $g_t$, while the other 11 months are common to both.
@@ -42,28 +43,49 @@ In other words, the year-over-year rate rises when the current monthly change ex
 #| fig-width: 8
 #| fig-height: 3
 #| fig-cap: "The 12-month windows of monthly growth rates used to compute $G_{t-1}$ and $G_t$."
-library(ggplot2)
+
 cells <- rbind(
   data.frame(x = -12:-1, y = 2, role = c("leaves", rep("shared", 11))),
   data.frame(x = -11:0, y = 1, role = c(rep("shared", 11), "enters"))
 )
-cells$label <- ifelse(cells$role == "leaves", "g[t-12]",
-  ifelse(cells$role == "enters", "g[t]", ""))
+cells$label <- ""
+cells$label[cells$role == "leaves"] <- TeX("$g_{t-12}$", output = "character")
+cells$label[cells$role == "enters"] <- TeX("$g_t$", output = "character")
 ggplot(cells, aes(x, y)) +
   geom_tile(aes(fill = role), width = 0.92, height = 0.8, colour = NA) +
   geom_text(aes(label = label), parse = TRUE, colour = "white", size = 4.5) +
-  annotate("text", x = -12.8, y = 2:1, hjust = 1, size = 5, parse = TRUE,
-    label = c("G[t-1]", "G[t]")) +
-  annotate("text", x = c(-12, 0), y = c(1.4, 1.6), size = 4, fontface = "italic",
-    colour = c("#f49b02", "#234460"), label = c("leaves", "enters")) +
-  scale_fill_manual(values = c(leaves = "#f49b02", enters = "#234460", shared = "#c9d6e3")) +
-  scale_x_continuous(breaks = -12:0, labels = c(paste0("t-", 12:1), "t"),
-    limits = c(-14, 0.5)) +
-  labs(title = expression(G[t] > G[t-1] ~~ "if and only if" ~~ g[t] > g[t-12])) +
+  annotate(
+    "text",
+    x = -12.8,
+    y = 2:1,
+    hjust = 1,
+    size = 5,
+    parse = TRUE,
+    label = TeX(c("$G_{t-1}$", "$G_t$"), output = "character")
+  ) +
+  annotate(
+    "text",
+    x = c(-12, 0),
+    y = c(1.4, 1.6),
+    size = 4,
+    family = "Fira Sans",
+    fontface = "italic",
+    colour = c("#f49b02", "#234460"),
+    label = c("leaves", "enters")
+  ) +
+  scale_fill_manual(
+    values = c(leaves = "#f49b02", enters = "#234460", shared = "#c9d6e3")
+  ) +
+  scale_x_continuous(
+    breaks = -12:0,
+    labels = TeX(c(paste0("$t-", 12:1, "$"), "$t$")),
+    limits = c(-14, 0.5)
+  ) +
+  labs(title = TeX("$G_t > G_{t-1}$ if and only if $g_t > g_{t-12}$")) +
   theme_void(base_size = 14) +
   theme(
     legend.position = "none",
-    axis.text.x = element_text(margin = margin(t = 4)),
+    axis.text.x = element_text(size = rel(0.8), margin = margin(t = 4)),
     plot.title = element_text(hjust = 0.5, margin = margin(b = 8)),
     plot.margin = margin(10, 10, 10, 10),
     plot.background = element_rect(fill = "white", colour = NA)
@@ -87,22 +109,19 @@ Taking logarithms turns the multiplicative relationship above into a linear one,
 Define monthly log growth $\ell_t = \ln(1 + g_t)$ and year-over-year log growth $L_t = \ln(1 + G_t)$, using $g_t$ and $G_t$ from above.
 Taking logs of @eq-product-growth turns the product into a sum:
 $$
-  L_t = \sum_{j = 0}^{11} \ell_{t - j}.
+  L_t = \sum_{j=0}^{11} \ell_{t-j}.
 $$
-So $L_t$ rises when $\ell_t > \ell_{t - 12}$: the same turning condition as before, now linear rather than multiplicative.
+So $L_t$ rises when $\ell_t > \ell_{t-12}$: the same turning condition as before, now linear rather than multiplicative.
 
 This also gives a forecasting formula:
 $$
-  L_{t + h} = L_t
-              + \sum_{s = 1}^{h} \left(\ell_{t + s} - \ell_{t + s - 12}\right).
+  L_{t+h} = L_t + \sum_{s=1}^{h} \left( \ell_{t+s} - \ell_{t+s-12} \right).
 $$
 So given a model for future monthly growth, you can forecast the future year-over-year rate in log terms.
 
 The same idea works over any horizon, comparing the most recent 3-month block to the corresponding block a year earlier:
 $$
-  L_t
-  - L_{t - 3} = \sum_{j = 0}^{2} \ell_{t - j}
-  - \sum_{j = 0}^{2} \ell_{t - 12 - j}.
+  L_t - L_{t-3} = \sum_{j=0}^{2} \ell_{t-j} - \sum_{j=0}^{2} \ell_{t-12-j}.
 $$
 So the year-over-year rate has risen over the past three months if the most recent 3-month growth exceeds the same 3-month block a year earlier.
 
@@ -112,13 +131,13 @@ This is exactly how CPI inflation is usually reported: $y_t$ is the price index,
 
 A *trailing* [simple moving average](https://otexts.com/fpp3/moving-averages.html) of $\{y_1, y_2, \dots\}$ is defined as:
 $$
-  \hat{T}_{k,t} = \frac{1}{k} \sum_{j = 0}^{k - 1} y_{t - j}.
+  \hat{T}_{k,t} = \frac{1}{k} \sum_{j=0}^{k-1} y_{t-j}.
 $$
 Then
 $$
-  \hat{T}_{k,t} - \hat{T}_{k,t - 1} = \frac{1}{k} (y_{t} - y_{t - k}).
+  \hat{T}_{k,t} - \hat{T}_{k,t-1} = \frac{1}{k} (y_{t} - y_{t-k}).
 $$
-So $\hat{T}_{k,t}$ rises when the newest observation entering the window, $y_{t}$, exceeds the oldest observation leaving the window, $y_{t - k}$, and falls when the reverse holds.
+So $\hat{T}_{k,t}$ rises when the newest observation entering the window, $y_{t}$, exceeds the oldest observation leaving the window, $y_{t-k}$, and falls when the reverse holds.
 
 As with the growth-rate case, the practical lead between two moving averages of different lengths can be approximated from the centre of each trailing window.
 A trailing $k$-period average is centred about $(k - 1)/2$ periods in the past, so a 3-month average is centred about 1 month in the past, while a 12-month average is centred about 5.5 months in the past.
