@@ -78,7 +78,10 @@ ggplot(cells, aes(x, y)) +
   ) +
   scale_x_continuous(
     breaks = -12:0,
-    labels = TeX(c(paste0("$t-", 12:1, "$"), "$t$")),
+    # Unspaced minus, as TeX() spaces "t - 12" so widely that labels collide
+    labels = parse(
+      text = c(paste0('italic("t") * bold("−', 12:1, '")'), 'italic("t")')
+    ),
     limits = c(-14, 0.5)
   ) +
   labs(title = TeX("$G_t > G_{t-1}$ if and only if $g_t > g_{t-12}$")) +
@@ -93,9 +96,9 @@ ggplot(cells, aes(x, y)) +
 ```
 
 For example, annual inflation peaks when the monthly rates entering the 12-month window fall below the rates dropping out of it.
-Because year-over-year growth is effectively a 12-month trailing window of monthly growth, month-to-month growth tends to lead year-over-year growth by about half the window length: the *centre lag* of an equally-weighted $k$-period trailing window is $(k - 1)/2$ periods, or 5.5 months when $k = 12$.
+Because year-over-year growth is effectively a 12-month trailing window of monthly growth, month-to-month growth tends to lead year-over-year growth by just under half the window length: the *centre lag* of an equally-weighted $k$-period trailing window is $(k - 1)/2$ periods, or 5.5 months when $k = 12$.
 
-This centre-lag rule works best when the underlying series changes slowly within the 12-month window, as is typical of series like inflation, and is less reliable for more volatile or noisy series.
+This centre-lag rule works best when monthly growth is smooth and roughly symmetric around its turning points, and is less reliable for noisy series or for turns that are much sharper on one side than the other.
 
 ## Quarterly growth vs year-over-year growth
 
@@ -104,7 +107,8 @@ Since four-quarter growth is a trailing 4-quarter window of quarterly growth, qu
 
 ## Log growth rates
 
-Taking logarithms turns the multiplicative relationship above into a linear one, which is more convenient for compounding over several periods, for forecasting, and for series such as price indices, where growth is conventionally expressed in log form.
+Taking logarithms turns the multiplicative relationship above into a linear one, which is more convenient for compounding over several periods and for forecasting.
+For small rates, log growth is very close to percentage growth.
 
 Define monthly log growth $\ell_t = \ln(1 + g_t)$ and year-over-year log growth $L_t = \ln(1 + G_t)$, using $g_t$ and $G_t$ from above.
 Taking logs of @eq-product-growth turns the product into a sum:
@@ -119,13 +123,13 @@ $$
 $$
 So given a model for future monthly growth, you can forecast the future year-over-year rate in log terms.
 
-The same idea works over any horizon, comparing the most recent 3-month block to the corresponding block a year earlier:
+Setting $h = 3$ and shifting back three months compares the most recent 3-month block to the corresponding block a year earlier:
 $$
   L_t - L_{t-3} = \sum_{j=0}^{2} \ell_{t-j} - \sum_{j=0}^{2} \ell_{t-12-j}.
 $$
 So the year-over-year rate has risen over the past three months if the most recent 3-month growth exceeds the same 3-month block a year earlier.
 
-This is exactly how CPI inflation is usually reported: $y_t$ is the price index, $\ell_t$ the monthly inflation rate, and $L_t$ the standard year-over-year rate quoted in the news.
+For CPI inflation, $y_t$ is the price index, $\ell_t$ is (approximately) the monthly inflation rate, and $L_t$ is approximately the year-over-year rate quoted in the news, which is the percentage change $G_t$.
 
 ## 3-month moving averages vs 12-month moving averages
 
@@ -143,3 +147,71 @@ As with the growth-rate case, the practical lead between two moving averages of 
 A trailing $k$-period average is centred about $(k - 1)/2$ periods in the past, so a 3-month average is centred about 1 month in the past, while a 12-month average is centred about 5.5 months in the past.
 So a 3-month moving average tends to lead a 12-month moving average by about $5.5 - 1 = 4.5$ months, for the same reason that monthly growth leads year-over-year growth above.
 As before, this holds as long as the series moves slowly relative to the 12-month window.
+
+## Update (25 October 2026): base effects
+
+The same reader sent a follow-up question:
+
+> Inflation is commonly measured with the 12-month (annual) rate of change (ROC) in the Consumer Price Index (CPI).
+> One potential issue with the ROC is that changes in the base period from the past can distort the indicator.
+> Central banks often refer to the so-called "base effects" when talking about such changes taking place in the CPI.
+> Meaning that the change in the 12-month (annual) rate of change is influenced not only by the most recent developments, but also by developments in the same month of the previous year (base period one year earlier).
+> So, the change between periods 13 and 12 matters as well as the change between the two most recent months.
+> Your Figure 1 illustrates this concept well.
+>
+> What would be a proper way of calculating the contributions of the earlier change (from t-13 to t-12) and the most recent change (from t-1 to t) to the overall 12-month change?
+> Is there a different calculation one can use that will correct or reduce the influence of the base effects so the underlying trend remains intact?
+> For example, would it make sense to use a simple or exponential moving average of 1-month change?
+
+### Decomposing the change in the annual rate
+
+In log terms, the decomposition is exact and additive.
+From $L_t = \sum_{j=0}^{11}\ell_{t-j}$,
+$$
+  L_t - L_{t-1} = \underbrace{\ell_t}_{\text{current month}}
+                  - \underbrace{\ell_{t-12}}_{\text{base month}}.
+$$
+So the contribution of the most recent change is $\ell_t$, and the contribution of the base month is $-\ell_{t-12}$.
+The two receive equal weight, with opposite signs, as @fig-window shows.
+
+In percentage terms, the recurrence relationship above gives
+$$
+  G_t - G_{t-1} = \frac{1 + G_{t-1}}{1 + g_{t-12}}\,(g_t - g_{t-12}),
+$$
+which splits exactly into a current contribution $\frac{1 + G_{t-1}}{1 + g_{t-12}}\,g_t$ and a base contribution $-\frac{1 + G_{t-1}}{1 + g_{t-12}}\,g_{t-12}$.
+The scaling factor is close to 1 at typical inflation rates, so $G_t - G_{t-1} \approx g_t - g_{t-12}$ is usually accurate enough.
+
+Central banks often use a narrower definition.
+The ECB distinguishes a *technical* base effect (the whole contribution of the base month) from an *economic* one, which is only the part of the base-month change that was unusual, such as an energy price spike or a tax change, relative to its normal seasonal pattern ([ECB Monthly Bulletin, January 2005](https://www.ecb.europa.eu/pub/pdf/other/mb200501_focus03.en.pdf)).
+With seasonally adjusted monthly log growth $\ell_t^{SA}$, the economic base effect is roughly $-(\ell_{t-12}^{SA} - \bar\ell)$, where $\bar\ell$ is a typical monthly growth rate.
+
+### Reducing base effects
+
+The annual rate is already a simple moving average of monthly changes: $L_t/12$ is the 12-month trailing average of $\ell_t$.
+Base effects arise from the rectangular shape of that window.
+A one-off shock gets full weight for 12 months and then drops out abruptly, causing a jump in the annual rate a year later.
+So a 12-month simple moving average of monthly changes reproduces the base effects exactly.
+
+Some alternatives do help.
+
+- **An exponential moving average of seasonally adjusted monthly changes.** With $E_t = \alpha\ell_t^{SA} + (1 - \alpha)E_{t-1}$,
+  $$
+    E_t - E_{t-1} = \alpha(\ell_t^{SA} - E_{t-1}).
+  $$
+  The "base" is now a geometrically weighted average of all past months, rather than a single month a year earlier.
+  Old shocks fade gradually rather than dropping out all at once.
+  The mean lag is $(1 - \alpha)/\alpha$ months, so $\alpha \approx 0.15$ gives about the same 5.5-month lag as the annual rate.
+  Multiply by 12 to put it on an annual scale.
+- **Shorter annualised windows**, such as 3-month or 6-month annualised growth of seasonally adjusted data.
+  These still have base effects, but from 3 or 6 months back, so they are more timely and also noisier.
+- **Removing the shocks at source.** Base effects are mostly caused by a few volatile items.
+  Trimmed-mean and weighted-median measures exclude the most extreme price changes, so a one-off shock in a single item has less influence on the annual rate, both when it occurs and when it drops out a year later.
+  The RBA uses its [trimmed mean measure](https://www.rba.gov.au/inflation/measures-cpi.html) as a guide to underlying inflation for this kind of reason.
+- **The growth rate of an estimated trend**, for example from an [STL decomposition](https://otexts.com/fpp3/stl.html) of log CPI.
+  This is smooth, but the estimates at the end of the series are revised as new data arrive.
+
+The exponential moving average must use *seasonally adjusted* monthly changes.
+The 12-month window conveniently cancels seasonality, but an exponential moving average of unadjusted changes will not.
+
+Whichever filter is used, there is a trade-off between smoothness and timeliness.
+No filter reveals the underlying trend without some lag or some uncertainty at the end of the series.
