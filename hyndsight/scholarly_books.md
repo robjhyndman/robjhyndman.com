@@ -103,7 +103,7 @@ I probably will partner with a regular academic publisher for the print edition 
 The online open-access model also has advantages that should help build reader trust:
 
 1. **Openness.** Books can be developed in public on GitHub, with visible errata, version history, and reproducible code and data for every example.
-   See [the GitHub repo for the Python edition](https://github.com/OTexts/fpppy/), for example.
+   See [the GitHub repo for the new Weird book](https://github.com/OTexts/weird/), for example.
 
 2. **Real peer review and community feedback.** Reader issues and forum discussions over the life of a book catch much more than a single review before publication.
    The [OTexts discussion forum](https://github.com/orgs/OTexts/discussions) lets readers ask questions, report typos, and discuss topics beyond what the books explicitly cover.
