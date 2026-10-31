@@ -8,6 +8,7 @@ slides: https://pkg.robjhyndman.com/surprisal_talk/uconn_2026.html
 image: ts_surprises.jpg
 bibliography: [weird.bib, surprisals.bib]
 validate-yaml: false
+youtube: EFc6aoCTZMU
 nocite: |
    - @surprisalevt
    - @lookout2
@@ -34,4 +35,4 @@ The methods will be illustrated using the [{weird}](https://pkg.robjhyndman.com/
 
 [![](https://pkg.robjhyndman.com/weird/reference/figures/weird-hex.png){width=130px fig-alt="weird package hex logo"}](https://pkg.robjhyndman.com/weird/)
 
-## References
+## Video
