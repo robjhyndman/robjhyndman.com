@@ -99,6 +99,118 @@ local function get_bib_entries()
   return bib_cache
 end
 
+-- Google Scholar (Highwire Press) <meta name="citation_*"> tags, built from
+-- the same bib entry. Quarto's own `google-scholar: true` can't do this: it
+-- reads only the page's raw front matter (never this filter's output), so
+-- it would see `author` as one person and have no journal, volume, pages or
+-- PDF; and it always emits citation_fulltext_html_url, which would wrongly
+-- tell Scholar the page holds the full text rather than an abstract.
+
+local SITE_URL = "https://robjhyndman.com"
+
+local function attr_escape(s)
+  return (s:gsub("&", "&amp;"):gsub("<", "&lt;"):gsub(">", "&gt;"):gsub('"', "&quot;"))
+end
+
+local function str(v)
+  if v == nil then return nil end
+  -- pandoc joins multi-word surnames ("Ben Taieb") with no-break spaces
+  local s = pandoc.utils.stringify(v):gsub("\u{a0}", " ")
+  return s ~= "" and s or nil
+end
+
+-- Parses one entry into CSL with pandoc's biblatex reader, which handles the
+-- LaTeX escapes, author lists and entry types. The reader rewrites English
+-- titles into sentence case (lowercasing e.g. "Australia" in an unbraced
+-- title); declaring a non-English langid makes it keep titles verbatim.
+-- biblatex also treats institution/publisher/school as lists split on
+-- " and " ("Australian Institute of Health and Welfare" would become two
+-- names), so those values get an extra pair of braces.
+local LIST_FIELDS = { institution = true, publisher = true, school = true, organization = true }
+
+local function entry_csl(raw)
+  local lines = {}
+  for line in (raw .. "\n"):gmatch("([^\n]*)\n") do
+    local pre, field, value, post = line:match("^(%s*(%a+)%s*=%s*){(.*)}(,?%s*)$")
+    if field and LIST_FIELDS[field:lower()] then
+      line = pre .. "{{" .. value .. "}}" .. post
+    end
+    table.insert(lines, line)
+  end
+  local src = table.concat(lines, "\n"):gsub("^(@%a+%s*{[^,]+,)", "%1 langid = {und},", 1)
+  local ok, doc = pcall(pandoc.read, src, "biblatex")
+  if not ok or not doc.meta.references then return nil end
+  return doc.meta.references[1]
+end
+
+local function csl_name(n)
+  if n.literal then return str(n.literal) end
+  local parts = {}
+  for _, k in ipairs({ "given", "dropping-particle", "non-dropping-particle", "family", "suffix" }) do
+    local s = str(n[k])
+    if s then table.insert(parts, s) end
+  end
+  return #parts > 0 and table.concat(parts, " ") or nil
+end
+
+-- The PDF the page's own "pdf" badge links to (title-metadata.html), when
+-- it is on this site: Scholar only takes citation_pdf_url on the same site.
+local function pdf_url(meta)
+  local file = str(meta.file)
+  if file then return SITE_URL .. "/papers/" .. file end
+  local link = str(meta.link)
+  if link and link:match("^/") and link:lower():match("%.pdf$") then
+    return SITE_URL .. link
+  end
+  return nil
+end
+
+local function scholar_tags(csl, meta)
+  local tags = {}
+  local function add(name, value)
+    if value then
+      table.insert(tags, '<meta name="' .. name .. '" content="' .. attr_escape(value) .. '">')
+    end
+  end
+  add("citation_title", str(csl.title))
+  for _, n in ipairs(csl.author or {}) do
+    add("citation_author", csl_name(n))
+  end
+  -- pandoc gives `issued` as an EDTF string ("2026", "2026-03"); Scholar
+  -- wants slashes.
+  local issued = str(csl.issued)
+  add("citation_publication_date", issued and (issued:gsub("-", "/")))
+  local container = str(csl["container-title"])
+  local publisher = str(csl.publisher)
+  local ctype = str(csl.type)
+  if ctype == "article-journal" then
+    add("citation_journal_title", container)
+  elseif ctype == "paper-conference" then
+    add("citation_conference_title", container)
+  elseif ctype == "chapter" then
+    add("citation_inbook_title", container)
+    add("citation_publisher", publisher)
+  elseif ctype == "book" then
+    add("citation_publisher", publisher)
+  elseif ctype == "report" then
+    add("citation_technical_report_institution", publisher)
+    add("citation_technical_report_number", str(csl.number))
+  elseif ctype == "thesis" then
+    add("citation_dissertation_institution", publisher)
+  end
+  add("citation_volume", str(csl.volume))
+  add("citation_issue", str(csl.issue))
+  local page = str(csl.page)
+  if page then
+    local first, last = page:match("^%s*(%S-)%s*[-–]+%s*(%S+)%s*$")
+    add("citation_firstpage", first or page)
+    add("citation_lastpage", last)
+  end
+  add("citation_doi", str(csl.DOI) or str(meta.doi))
+  add("citation_pdf_url", pdf_url(meta))
+  return tags
+end
+
 function Meta(meta)
   if not meta.bibkey then
     return meta
@@ -110,5 +222,11 @@ function Meta(meta)
     return meta
   end
   meta.bibtex = pandoc.MetaBlocks({ pandoc.CodeBlock(raw, { class = "bibtex" }) })
+  local csl = entry_csl(raw)
+  if csl then
+    quarto.doc.include_text("in-header", table.concat(scholar_tags(csl, meta), "\n"))
+  else
+    quarto.log.warning("inject-bibtex: could not parse bib entry '" .. key .. "'")
+  end
   return meta
 end
