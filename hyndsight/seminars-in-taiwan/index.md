@@ -27,7 +27,7 @@ I will describe some algorithms for automatically forecasting univariate time se
 
 ## Visualizing and Forecasting Hierarchical and Grouped Time Series
 
-[Institute of Statistical Science, Academia Sinica](http://www.stat.sinica.edu.tw/statnewsite/seminar/show/1986/)
+[Institute of Statistical Science, Academia Sinica](https://web.archive.org/web/20210414081519/http://www.stat.sinica.edu.tw/statnewsite/seminar/show/1986/)
 時　間 2015/01/12 11:00 星期一
 地　點 中研院-統計所 2F 交誼廳
 備　註 茶 會：上午10：40統計所二樓交誼廳
@@ -38,4 +38,4 @@ The first problem with handling such large numbers of time series is how to prod
 
 The second problem is that the disaggregated forecasts need to add up to the forecasts of the aggregated data. This is known as reconciliation. I will show that the optimal reconciliation method involves fitting an ill-conditioned linear regression model where the design matrix has one column for each of the series at the most disaggregated level. For problems involving huge numbers of series, the model is impossible to estimate using standard regression algorithms. I will also discuss some fast algorithms for implementing this model that make it practicable for implementing in business contexts.
 
-[[Download poster](http://www.stat.sinica.edu.tw/statnewsite/seminar/download/1986/)]
+[[Download poster](https://web.archive.org/web/20210414073649/http://www.stat.sinica.edu.tw/statnewsite/seminar/download/1986/)]
