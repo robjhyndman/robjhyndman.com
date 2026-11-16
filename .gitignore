@@ -17,3 +17,4 @@ package_meta.rds
 
 **/*.quarto_ipynb
 .history
+tasks/
