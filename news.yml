@@ -6,6 +6,11 @@
 # - outlet-url: optional (link to outlet homepage or article if no href)
 # - date: required for sorting (ISO YYYY-MM-DD)
 
+- title: "Monash researchers named among the most influential in their fields"
+  href: "https://www.monash.edu/newsroom/news/2026/monash-researchers-named-among-the-most-influential-in-their-fields"
+  outlet: "Monash News"
+  date: 2026-11-19
+
 - title: "Falcon has landed"
   href: "https://evidentinsights.com/bankingbrief/what-goods-your-intern#:~:text=FALCON%20HAS%20LANDED"
   outlet: "Evident Insights"
